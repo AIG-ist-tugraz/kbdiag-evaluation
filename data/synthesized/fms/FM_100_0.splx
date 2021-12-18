@@ -1,0 +1,159 @@
+<feature_model name="FM_100_0">
+<meta>
+<data name="description"></data>
+<data name="creator"></data>
+<data name="email"></data>
+<data name="date"></data>
+<data name="department"></data>
+<data name="organization"></data>
+<data name="address"></data>
+<data name="phone"></data>
+<data name="website"></data>
+<data name="reference"></data>
+</meta><feature_tree>
+r: root (root)
+	:o F1 (F1)
+	:g [1,3]
+		: F2 (F2)
+		: F3 (F3)
+		: F4 (F4)
+	:g [1,1]
+		: F5 (F5)
+			:m F6 (F6)
+				:m F7 (F7)
+				:o F8 (F8)
+				:m F9 (F9)
+					:m F10 (F10)
+				:m F11 (F11)
+					:o F12 (F12)
+		: F13 (F13)
+			:m F14 (F14)
+		: F15 (F15)
+		: F16 (F16)
+			:m F17 (F17)
+			:o F18 (F18)
+			:o F19 (F19)
+			:m F62 (F62)
+			:o F63 (F63)
+				:o F64 (F64)
+				:o F65 (F65)
+				:m F66 (F66)
+				:m F67 (F67)
+				:g [1,2]
+					: F68 (F68)
+					: F69 (F69)
+				:g [1,1]
+					: F70 (F70)
+					: F71 (F71)
+					: F72 (F72)
+					: F73 (F73)
+			:o F74 (F74)
+			:o F20 (F20)
+				:m F21 (F21)
+				:m F22 (F22)
+					:o F23 (F23)
+					:o F24 (F24)
+						:g [1,2]
+							: F25 (F25)
+							: F26 (F26)
+					:m F27 (F27)
+					:g [1,4]
+						: F28 (F28)
+							:m F29 (F29)
+								:o F30 (F30)
+								:o F31 (F31)
+								:m F32 (F32)
+								:m F33 (F33)
+								:m F34 (F34)
+								:g [1,3]
+									: F35 (F35)
+										:m F36 (F36)
+										:g [1,1]
+											: F37 (F37)
+											: F38 (F38)
+											: F39 (F39)
+											: F40 (F40)
+									: F41 (F41)
+									: F42 (F42)
+								:g [1,1]
+									: F43 (F43)
+									: F44 (F44)
+										:g [1,2]
+											: F45 (F45)
+											: F46 (F46)
+							:o F47 (F47)
+							:g [1,3]
+								: F48 (F48)
+								: F49 (F49)
+								: F50 (F50)
+							:g [1,1]
+								: F51 (F51)
+								: F52 (F52)
+						: F53 (F53)
+						: F54 (F54)
+						: F55 (F55)
+				:g [1,2]
+					: F58 (F58)
+					: F59 (F59)
+						:g [1,2]
+							: F60 (F60)
+							: F61 (F61)
+				:g [1,1]
+					: F56 (F56)
+					: F57 (F57)
+</feature_tree>
+<constraints>
+R-49: ~F34 or ~F7
+R-50: ~F32 or F18
+R-51: ~F54 or ~F23
+R-52: ~F11 or F48
+R-53: ~F2 or ~F48
+R-54: ~F25 or F11
+R-55: ~F70 or F52
+R-56: ~F58 or F61
+R-57: ~F42 or F67
+R-58: ~F57 or F52
+R-59: ~F34 or ~F73
+R-60: ~F51 or F36
+R-61: ~F25 or ~F28
+R-62: ~F45 or ~F6
+R-63: ~F62 or ~F18
+R-64: ~F60 or F31
+R-65: ~F68 or ~F13
+R-66: ~F4 or ~F3
+R-67: ~F34 or F43
+R-68: ~F19 or ~F43
+R-69: ~F62 or ~F30
+R-70: ~F8 or F27
+R-71: ~F24 or ~F68
+R-72: ~F27 or F73
+R-73: ~F44 or ~F57
+R-74: ~F42 or F53
+R-75: ~F39 or ~F56
+R-76: ~F31 or ~F52
+R-77: ~F11 or F14
+R-78: ~F44 or ~F47
+R-79: ~F19 or F45
+R-80: ~F3 or ~F55
+R-81: ~F56 or ~F61
+R-82: ~F55 or F44
+R-83: ~F60 or ~F66
+R-84: ~F19 or F56
+R-85: ~F53 or ~F51
+R-86: ~F30 or F69
+R-87: ~F55 or ~F32
+R-88: ~F23 or ~F6
+R-89: ~F7 or ~F36
+R-90: ~F62 or F24
+R-91: ~F26 or F25
+R-92: ~F57 or ~F19
+R-93: ~F67 or ~F12
+R-94: ~F59 or ~F66
+R-95: ~F9 or F39
+R-96: ~F11 or ~F44
+R-97: ~F5 or F74
+R-98: ~F62 or ~F65
+R-99: ~F45 or ~F13
+R-100: ~F62 or ~F63
+</constraints>
+</feature_model>

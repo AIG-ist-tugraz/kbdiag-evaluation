@@ -1,0 +1,9 @@
+showEvaluations: true
+showDebug: true
+CF: 10,20,50,100,500,1000
+TC: 5,10,25,50,100,250,500
+numGenFM: 3
+numIter: 3
+perViolated_nonViolated: 0.3
+dataPath: ./data/synthesized/
+resultsPath: ./results/
