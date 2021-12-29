@@ -7,3 +7,4 @@ numIter: 3
 perViolated_nonViolated: 0.3
 dataPath: ./data/synthesized/
 resultsPath: ./results/
+m: 1
