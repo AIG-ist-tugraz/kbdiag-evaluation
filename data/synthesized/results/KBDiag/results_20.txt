@@ -1,0 +1,1141 @@
+		FM_20_0.SPLX	FM_20_0_C5_0.TESTCASES
+			Diag: [optional(F6, F5), or(F5, F9, F10, F11), excludes(F3, F1), requires(F1, F6)]
+			Diag size: 4
+The number of left branch calls: 13
+The number of right branch calls: 13
+The number of post constraints: 604
+The number of Choco Solver calls: 23
+The number of different: 14
+The number of INconsistent: 10
+The number of unpost constraints: 604
+The number of KBDiag calls: 27
+The number of consistent: 13
+The number of split set: 13
+The number of union: 45
+The size of Consistency checks: 604
+The number of Consistency checks: 19
+
+Time for first: 5.33758E-4
+		FM_20_0.SPLX	FM_20_0_C5_1.TESTCASES
+			Diag: [alternative(root, F3, F4, F5), excludes(F12, F8)]
+			Diag size: 2
+The number of left branch calls: 8
+The number of right branch calls: 8
+The number of post constraints: 347
+The number of Choco Solver calls: 14
+The number of different: 9
+The number of INconsistent: 5
+The number of unpost constraints: 347
+The number of KBDiag calls: 17
+The number of consistent: 9
+The number of split set: 8
+The number of union: 28
+The size of Consistency checks: 347
+The number of Consistency checks: 12
+
+Time for first: 3.27597E-4
+		FM_20_0.SPLX	FM_20_0_C5_2.TESTCASES
+			Diag: [or(F5, F9, F10, F11), alternative(F5, F12, F13, F14), requires(F13, F1)]
+			Diag size: 3
+The number of left branch calls: 8
+The number of right branch calls: 8
+The number of post constraints: 420
+The number of Choco Solver calls: 17
+The number of different: 9
+The number of INconsistent: 7
+The number of unpost constraints: 420
+The number of KBDiag calls: 17
+The number of consistent: 10
+The number of split set: 8
+The number of union: 28
+The size of Consistency checks: 420
+The number of Consistency checks: 12
+
+Time for first: 6.20982E-4
+		FM_20_1.SPLX	FM_20_1_C5_0.TESTCASES
+			Diag: [mandatory(F1, F8)]
+			Diag size: 1
+The number of left branch calls: 5
+The number of right branch calls: 5
+The number of post constraints: 322
+The number of Choco Solver calls: 16
+The number of different: 6
+The number of INconsistent: 6
+The number of unpost constraints: 322
+The number of KBDiag calls: 11
+The number of consistent: 10
+The number of split set: 5
+The number of union: 18
+The size of Consistency checks: 322
+The number of Consistency checks: 8
+
+Time for first: 3.19151E-4
+		FM_20_1.SPLX	FM_20_1_C5_1.TESTCASES
+			Diag: [mandatory(F1, F2), alternative(F1, F12, F13, F14), requires(F8, F6), requires(F9, F6), excludes(F12, F9)]
+			Diag size: 5
+The number of left branch calls: 12
+The number of right branch calls: 12
+The number of post constraints: 629
+The number of Choco Solver calls: 25
+The number of different: 13
+The number of INconsistent: 14
+The number of unpost constraints: 629
+The number of KBDiag calls: 25
+The number of consistent: 11
+The number of split set: 12
+The number of union: 45
+The size of Consistency checks: 629
+The number of Consistency checks: 21
+
+Time for first: 5.7765E-4
+		FM_20_1.SPLX	FM_20_1_C5_2.TESTCASES
+			Diag: [mandatory(F1, F8)]
+			Diag size: 1
+The number of left branch calls: 5
+The number of right branch calls: 5
+The number of post constraints: 297
+The number of Choco Solver calls: 12
+The number of different: 6
+The number of INconsistent: 4
+The number of unpost constraints: 297
+The number of KBDiag calls: 11
+The number of consistent: 8
+The number of split set: 5
+The number of union: 18
+The size of Consistency checks: 297
+The number of Consistency checks: 8
+
+Time for first: 4.07534E-4
+		FM_20_2.SPLX	FM_20_2_C5_0.TESTCASES
+			Diag: [mandatory(F1, F2), alternative(F6, F7, F8, F10, F11, F12)]
+			Diag size: 2
+The number of left branch calls: 6
+The number of right branch calls: 6
+The number of post constraints: 370
+The number of Choco Solver calls: 14
+The number of different: 7
+The number of INconsistent: 6
+The number of unpost constraints: 370
+The number of KBDiag calls: 13
+The number of consistent: 8
+The number of split set: 6
+The number of union: 22
+The size of Consistency checks: 370
+The number of Consistency checks: 10
+
+Time for first: 3.61268E-4
+		FM_20_2.SPLX	FM_20_2_C5_1.TESTCASES
+			Diag: [mandatory(root, F1), mandatory(F1, F2), alternative(F1, F5, F6, F13)]
+			Diag size: 3
+The number of left branch calls: 7
+The number of right branch calls: 7
+The number of post constraints: 481
+The number of Choco Solver calls: 22
+The number of different: 8
+The number of INconsistent: 13
+The number of unpost constraints: 481
+The number of KBDiag calls: 15
+The number of consistent: 9
+The number of split set: 7
+The number of union: 28
+The size of Consistency checks: 481
+The number of Consistency checks: 14
+
+Time for first: 4.4773E-4
+		FM_20_2.SPLX	FM_20_2_C5_2.TESTCASES
+			Diag: [alternative(F1, F5, F6, F13), alternative(F6, F7, F8, F10, F11, F12), excludes(F14, F10), requires(F5, F8), excludes(F12, F5)]
+			Diag size: 5
+The number of left branch calls: 11
+The number of right branch calls: 11
+The number of post constraints: 627
+The number of Choco Solver calls: 25
+The number of different: 12
+The number of INconsistent: 13
+The number of unpost constraints: 627
+The number of KBDiag calls: 23
+The number of consistent: 12
+The number of split set: 11
+The number of union: 40
+The size of Consistency checks: 627
+The number of Consistency checks: 18
+
+Time for first: 5.62016E-4
+		FM_20_0.SPLX	FM_20_0_C10_0.TESTCASES
+			Diag: [optional(F6, F5), optional(F8, F5), or(F5, F9, F10, F11), alternative(F5, F12, F13, F14), requires(F4, F5), excludes(F4, F13), requires(F13, F1)]
+			Diag size: 7
+The number of left branch calls: 15
+The number of right branch calls: 15
+The number of post constraints: 1028
+The number of Choco Solver calls: 46
+The number of different: 16
+The number of INconsistent: 25
+The number of unpost constraints: 1028
+The number of KBDiag calls: 31
+The number of consistent: 21
+The number of split set: 15
+The number of union: 56
+The size of Consistency checks: 1028
+The number of Consistency checks: 26
+
+Time for first: 0.001319355
+		FM_20_0.SPLX	FM_20_0_C10_1.TESTCASES
+			Diag: [alternative(root, F3, F4, F5), alternative(F5, F12, F13, F14), excludes(F1, F2), excludes(F12, F14)]
+			Diag size: 4
+The number of left branch calls: 10
+The number of right branch calls: 10
+The number of post constraints: 575
+The number of Choco Solver calls: 29
+The number of different: 11
+The number of INconsistent: 13
+The number of unpost constraints: 575
+The number of KBDiag calls: 21
+The number of consistent: 16
+The number of split set: 10
+The number of union: 35
+The size of Consistency checks: 575
+The number of Consistency checks: 15
+
+Time for first: 6.00141E-4
+		FM_20_0.SPLX	FM_20_0_C10_2.TESTCASES
+			Diag: [alternative(root, F3, F4, F5), excludes(F3, F1), excludes(F12, F9), requires(F1, F6)]
+			Diag size: 4
+The number of left branch calls: 10
+The number of right branch calls: 10
+The number of post constraints: 578
+The number of Choco Solver calls: 22
+The number of different: 11
+The number of INconsistent: 10
+The number of unpost constraints: 578
+The number of KBDiag calls: 21
+The number of consistent: 12
+The number of split set: 10
+The number of union: 36
+The size of Consistency checks: 578
+The number of Consistency checks: 16
+
+Time for first: 5.89875E-4
+		FM_20_1.SPLX	FM_20_1_C10_0.TESTCASES
+			Diag: [alternative(F1, F12, F13, F14), requires(F8, F6), requires(F5, F7), requires(F11, F3)]
+			Diag size: 4
+The number of left branch calls: 12
+The number of right branch calls: 12
+The number of post constraints: 1061
+The number of Choco Solver calls: 37
+The number of different: 13
+The number of INconsistent: 16
+The number of unpost constraints: 1061
+The number of KBDiag calls: 25
+The number of consistent: 21
+The number of split set: 12
+The number of union: 43
+The size of Consistency checks: 1061
+The number of Consistency checks: 19
+
+Time for first: 9.57743E-4
+		FM_20_1.SPLX	FM_20_1_C10_1.TESTCASES
+			Diag: [mandatory(F1, F8), mandatory(F3, F4), requires(F12, F7)]
+			Diag size: 3
+The number of left branch calls: 9
+The number of right branch calls: 9
+The number of post constraints: 556
+The number of Choco Solver calls: 21
+The number of different: 10
+The number of INconsistent: 8
+The number of unpost constraints: 556
+The number of KBDiag calls: 19
+The number of consistent: 13
+The number of split set: 9
+The number of union: 31
+The size of Consistency checks: 556
+The number of Consistency checks: 13
+
+Time for first: 5.7054E-4
+		FM_20_1.SPLX	FM_20_1_C10_2.TESTCASES
+			Diag: [mandatory(F3, F4), alternative(F3, F5, F6, F7), requires(F8, F6), requires(F13, F12), requires(F9, F6), excludes(F13, F2), excludes(F6, F11), requires(F11, F3), requires(F9, F14)]
+			Diag size: 9
+The number of left branch calls: 15
+The number of right branch calls: 15
+The number of post constraints: 1288
+The number of Choco Solver calls: 46
+The number of different: 16
+The number of INconsistent: 26
+The number of unpost constraints: 1288
+The number of KBDiag calls: 31
+The number of consistent: 20
+The number of split set: 15
+The number of union: 54
+The size of Consistency checks: 1288
+The number of Consistency checks: 24
+
+Time for first: 0.001247213
+		FM_20_2.SPLX	FM_20_2_C10_0.TESTCASES
+			Diag: [mandatory(F1, F2), mandatory(F1, F3), alternative(F6, F7, F8, F10, F11, F12), excludes(F14, F10), excludes(F14, F8), requires(F5, F8), excludes(F12, F5), requires(F4, F11)]
+			Diag size: 8
+The number of left branch calls: 16
+The number of right branch calls: 16
+The number of post constraints: 1198
+The number of Choco Solver calls: 50
+The number of different: 17
+The number of INconsistent: 27
+The number of unpost constraints: 1198
+The number of KBDiag calls: 33
+The number of consistent: 23
+The number of split set: 16
+The number of union: 58
+The size of Consistency checks: 1198
+The number of Consistency checks: 26
+
+Time for first: 0.001624801
+		FM_20_2.SPLX	FM_20_2_C10_1.TESTCASES
+			Diag: [mandatory(root, F1), mandatory(root, F14), mandatory(F8, F9)]
+			Diag size: 3
+The number of left branch calls: 6
+The number of right branch calls: 6
+The number of post constraints: 505
+The number of Choco Solver calls: 17
+The number of different: 7
+The number of INconsistent: 8
+The number of unpost constraints: 505
+The number of KBDiag calls: 13
+The number of consistent: 9
+The number of split set: 6
+The number of union: 23
+The size of Consistency checks: 505
+The number of Consistency checks: 11
+
+Time for first: 4.65061E-4
+		FM_20_2.SPLX	FM_20_2_C10_2.TESTCASES
+			Diag: [mandatory(root, F1), mandatory(root, F14), mandatory(F1, F2), mandatory(F1, F3), alternative(F6, F7, F8, F10, F11, F12), requires(F4, F11)]
+			Diag size: 6
+The number of left branch calls: 12
+The number of right branch calls: 12
+The number of post constraints: 664
+The number of Choco Solver calls: 35
+The number of different: 13
+The number of INconsistent: 18
+The number of unpost constraints: 664
+The number of KBDiag calls: 25
+The number of consistent: 17
+The number of split set: 12
+The number of union: 43
+The size of Consistency checks: 664
+The number of Consistency checks: 19
+
+Time for first: 6.8677E-4
+		FM_20_0.SPLX	FM_20_0_C25_0.TESTCASES
+			Diag: [alternative(root, F3, F4, F5), optional(F6, F5), or(F5, F9, F10, F11), alternative(F5, F12, F13, F14), requires(F1, F6)]
+			Diag size: 5
+The number of left branch calls: 12
+The number of right branch calls: 12
+The number of post constraints: 1257
+The number of Choco Solver calls: 66
+The number of different: 13
+The number of INconsistent: 26
+The number of unpost constraints: 1257
+The number of KBDiag calls: 25
+The number of consistent: 40
+The number of split set: 12
+The number of union: 42
+The size of Consistency checks: 1257
+The number of Consistency checks: 18
+
+Time for first: 0.001286455
+		FM_20_0.SPLX	FM_20_0_C25_1.TESTCASES
+			Diag: [alternative(root, F3, F4, F5), optional(F8, F5), or(F5, F9, F10, F11), alternative(F5, F12, F13, F14), excludes(F1, F2), requires(F4, F5), excludes(F12, F9), requires(F1, F6)]
+			Diag size: 8
+The number of left branch calls: 15
+The number of right branch calls: 15
+The number of post constraints: 1591
+The number of Choco Solver calls: 87
+The number of different: 16
+The number of INconsistent: 44
+The number of unpost constraints: 1591
+The number of KBDiag calls: 31
+The number of consistent: 43
+The number of split set: 15
+The number of union: 54
+The size of Consistency checks: 1591
+The number of Consistency checks: 24
+
+Time for first: 0.001893017
+		FM_20_0.SPLX	FM_20_0_C25_2.TESTCASES
+			Diag: [alternative(root, F3, F4, F5), optional(F8, F5), excludes(F13, F6), excludes(F3, F1), excludes(F12, F8), requires(F13, F1)]
+			Diag size: 6
+The number of left branch calls: 13
+The number of right branch calls: 13
+The number of post constraints: 1481
+The number of Choco Solver calls: 61
+The number of different: 14
+The number of INconsistent: 26
+The number of unpost constraints: 1481
+The number of KBDiag calls: 27
+The number of consistent: 35
+The number of split set: 13
+The number of union: 49
+The size of Consistency checks: 1481
+The number of Consistency checks: 23
+
+Time for first: 0.001605297
+		FM_20_1.SPLX	FM_20_1_C25_0.TESTCASES
+			Diag: [mandatory(root, F1), optional(F3, F1), mandatory(F1, F8), or(F1, F9, F10, F11), alternative(F1, F12, F13, F14), alternative(F3, F5, F6, F7), requires(F13, F12), excludes(F13, F2), requires(F11, F3), requires(F5, F4)]
+			Diag size: 10
+The number of left branch calls: 17
+The number of right branch calls: 17
+The number of post constraints: 1820
+The number of Choco Solver calls: 106
+The number of different: 18
+The number of INconsistent: 60
+The number of unpost constraints: 1820
+The number of KBDiag calls: 35
+The number of consistent: 46
+The number of split set: 17
+The number of union: 65
+The size of Consistency checks: 1820
+The number of Consistency checks: 31
+
+Time for first: 0.001854785
+		FM_20_1.SPLX	FM_20_1_C25_1.TESTCASES
+			Diag: [mandatory(root, F1), mandatory(F1, F2), or(F1, F9, F10, F11), alternative(F1, F12, F13, F14), mandatory(F3, F4), alternative(F3, F5, F6, F7), requires(F8, F6), excludes(F13, F2), excludes(F6, F11), requires(F5, F4)]
+			Diag size: 10
+The number of left branch calls: 18
+The number of right branch calls: 18
+The number of post constraints: 1635
+The number of Choco Solver calls: 93
+The number of different: 19
+The number of INconsistent: 49
+The number of unpost constraints: 1635
+The number of KBDiag calls: 37
+The number of consistent: 44
+The number of split set: 18
+The number of union: 65
+The size of Consistency checks: 1635
+The number of Consistency checks: 29
+
+Time for first: 0.001782279
+		FM_20_1.SPLX	FM_20_1_C25_2.TESTCASES
+			Diag: [mandatory(root, F1), mandatory(F1, F2), alternative(F1, F12, F13, F14), mandatory(F3, F4), alternative(F3, F5, F6, F7), requires(F8, F6), excludes(F12, F9), excludes(F12, F5)]
+			Diag size: 8
+The number of left branch calls: 13
+The number of right branch calls: 13
+The number of post constraints: 1854
+The number of Choco Solver calls: 91
+The number of different: 14
+The number of INconsistent: 51
+The number of unpost constraints: 1854
+The number of KBDiag calls: 27
+The number of consistent: 40
+The number of split set: 13
+The number of union: 51
+The size of Consistency checks: 1854
+The number of Consistency checks: 25
+
+Time for first: 0.001652003
+		FM_20_2.SPLX	FM_20_2_C25_0.TESTCASES
+			Diag: [mandatory(root, F1), mandatory(root, F14), mandatory(F1, F3), alternative(F1, F5, F6, F13), alternative(F6, F7, F8, F10, F11, F12), mandatory(F8, F9), requires(F7, F10), requires(F5, F10), requires(F4, F11)]
+			Diag size: 9
+The number of left branch calls: 15
+The number of right branch calls: 15
+The number of post constraints: 1939
+The number of Choco Solver calls: 97
+The number of different: 16
+The number of INconsistent: 51
+The number of unpost constraints: 1939
+The number of KBDiag calls: 31
+The number of consistent: 46
+The number of split set: 15
+The number of union: 56
+The size of Consistency checks: 1939
+The number of Consistency checks: 26
+
+Time for first: 0.001886488
+		FM_20_2.SPLX	FM_20_2_C25_1.TESTCASES
+			Diag: [mandatory(root, F1), mandatory(root, F14), mandatory(F1, F3), alternative(F1, F5, F6, F13), mandatory(F8, F9), requires(F5, F8), requires(F7, F10), requires(F10, F12), requires(F5, F10), requires(F4, F11)]
+			Diag size: 10
+The number of left branch calls: 17
+The number of right branch calls: 17
+The number of post constraints: 2458
+The number of Choco Solver calls: 95
+The number of different: 18
+The number of INconsistent: 48
+The number of unpost constraints: 2458
+The number of KBDiag calls: 35
+The number of consistent: 47
+The number of split set: 17
+The number of union: 64
+The size of Consistency checks: 2458
+The number of Consistency checks: 30
+
+Time for first: 0.001966705
+		FM_20_2.SPLX	FM_20_2_C25_2.TESTCASES
+			Diag: [mandatory(root, F1), mandatory(root, F14), mandatory(F1, F2), alternative(F6, F7, F8, F10, F11, F12), requires(F5, F8), requires(F7, F10), excludes(F8, F11), requires(F11, F14), requires(F5, F10)]
+			Diag size: 9
+The number of left branch calls: 15
+The number of right branch calls: 15
+The number of post constraints: 1863
+The number of Choco Solver calls: 82
+The number of different: 16
+The number of INconsistent: 43
+The number of unpost constraints: 1863
+The number of KBDiag calls: 31
+The number of consistent: 39
+The number of split set: 15
+The number of union: 57
+The size of Consistency checks: 1863
+The number of Consistency checks: 27
+
+Time for first: 0.001601516
+		FM_20_0.SPLX	FM_20_0_C50_0.TESTCASES
+			Diag: [alternative(root, F3, F4, F5), optional(F6, F5), optional(F7, F5), optional(F8, F5), or(F5, F9, F10, F11), alternative(F5, F12, F13, F14), excludes(F12, F6), excludes(F1, F2), excludes(F3, F1), requires(F1, F6)]
+			Diag size: 10
+The number of left branch calls: 15
+The number of right branch calls: 15
+The number of post constraints: 2243
+The number of Choco Solver calls: 139
+The number of different: 16
+The number of INconsistent: 63
+The number of unpost constraints: 2243
+The number of KBDiag calls: 31
+The number of consistent: 76
+The number of split set: 15
+The number of union: 55
+The size of Consistency checks: 2243
+The number of Consistency checks: 25
+
+Time for first: 0.002166188
+		FM_20_0.SPLX	FM_20_0_C50_1.TESTCASES
+			Diag: [optional(F6, F5), optional(F7, F5), optional(F8, F5), or(F5, F9, F10, F11), alternative(F5, F12, F13, F14), excludes(F12, F6), excludes(F9, F13), requires(F4, F5), excludes(F12, F14), excludes(F12, F9), requires(F1, F6)]
+			Diag size: 11
+The number of left branch calls: 18
+The number of right branch calls: 18
+The number of post constraints: 4142
+The number of Choco Solver calls: 194
+The number of different: 19
+The number of INconsistent: 103
+The number of unpost constraints: 4142
+The number of KBDiag calls: 37
+The number of consistent: 91
+The number of split set: 18
+The number of union: 66
+The size of Consistency checks: 4142
+The number of Consistency checks: 30
+
+Time for first: 0.003682054
+		FM_20_0.SPLX	FM_20_0_C50_2.TESTCASES
+			Diag: [alternative(root, F3, F4, F5), optional(F7, F5), optional(F8, F5), alternative(F5, F12, F13, F14), excludes(F12, F6), excludes(F9, F13), requires(F4, F5), excludes(F12, F8), excludes(F4, F13), excludes(F12, F14), requires(F13, F1), requires(F1, F6)]
+			Diag size: 12
+The number of left branch calls: 18
+The number of right branch calls: 18
+The number of post constraints: 2963
+The number of Choco Solver calls: 158
+The number of different: 19
+The number of INconsistent: 77
+The number of unpost constraints: 2963
+The number of KBDiag calls: 37
+The number of consistent: 81
+The number of split set: 18
+The number of union: 67
+The size of Consistency checks: 2963
+The number of Consistency checks: 31
+
+Time for first: 0.002942054
+		FM_20_1.SPLX	FM_20_1_C50_0.TESTCASES
+			Diag: [mandatory(root, F1), mandatory(F1, F8), or(F1, F9, F10, F11), alternative(F1, F12, F13, F14), mandatory(F3, F4), alternative(F3, F5, F6, F7), requires(F13, F12), excludes(F12, F9), requires(F5, F7), excludes(F12, F5)]
+			Diag size: 10
+The number of left branch calls: 16
+The number of right branch calls: 16
+The number of post constraints: 2837
+The number of Choco Solver calls: 161
+The number of different: 17
+The number of INconsistent: 84
+The number of unpost constraints: 2837
+The number of KBDiag calls: 33
+The number of consistent: 77
+The number of split set: 16
+The number of union: 63
+The size of Consistency checks: 2837
+The number of Consistency checks: 31
+
+Time for first: 0.002538156
+		FM_20_1.SPLX	FM_20_1_C50_1.TESTCASES
+			Diag: [mandatory(root, F1), mandatory(F1, F8), or(F1, F9, F10, F11), alternative(F1, F12, F13, F14), mandatory(F3, F4), alternative(F3, F5, F6, F7), requires(F12, F7), requires(F13, F12), excludes(F12, F5)]
+			Diag size: 9
+The number of left branch calls: 15
+The number of right branch calls: 15
+The number of post constraints: 2608
+The number of Choco Solver calls: 151
+The number of different: 16
+The number of INconsistent: 79
+The number of unpost constraints: 2608
+The number of KBDiag calls: 31
+The number of consistent: 72
+The number of split set: 15
+The number of union: 58
+The size of Consistency checks: 2608
+The number of Consistency checks: 28
+
+Time for first: 0.003277191
+		FM_20_1.SPLX	FM_20_1_C50_2.TESTCASES
+			Diag: [mandatory(root, F1), mandatory(F1, F2), mandatory(F1, F8), alternative(F1, F12, F13, F14), mandatory(F3, F4), alternative(F3, F5, F6, F7), requires(F13, F12), requires(F5, F7), excludes(F13, F2), excludes(F12, F5), requires(F11, F3), requires(F5, F4), requires(F9, F14)]
+			Diag size: 13
+The number of left branch calls: 18
+The number of right branch calls: 18
+The number of post constraints: 3177
+The number of Choco Solver calls: 167
+The number of different: 19
+The number of INconsistent: 86
+The number of unpost constraints: 3177
+The number of KBDiag calls: 37
+The number of consistent: 81
+The number of split set: 18
+The number of union: 70
+The size of Consistency checks: 3177
+The number of Consistency checks: 34
+
+Time for first: 0.00249965
+		FM_20_2.SPLX	FM_20_2_C50_0.TESTCASES
+			Diag: [mandatory(root, F1), mandatory(root, F14), mandatory(F1, F2), optional(F4, F1), alternative(F6, F7, F8, F10, F11, F12), excludes(F14, F8), requires(F7, F10), excludes(F8, F11), requires(F5, F10)]
+			Diag size: 9
+The number of left branch calls: 15
+The number of right branch calls: 15
+The number of post constraints: 3431
+The number of Choco Solver calls: 156
+The number of different: 16
+The number of INconsistent: 80
+The number of unpost constraints: 3431
+The number of KBDiag calls: 31
+The number of consistent: 76
+The number of split set: 15
+The number of union: 56
+The size of Consistency checks: 3431
+The number of Consistency checks: 26
+
+Time for first: 0.002297337
+		FM_20_2.SPLX	FM_20_2_C50_1.TESTCASES
+			Diag: [mandatory(root, F1), mandatory(root, F14), mandatory(F1, F3), optional(F4, F1), alternative(F1, F5, F6, F13), alternative(F6, F7, F8, F10, F11, F12), excludes(F14, F10), requires(F5, F7), excludes(F14, F8), requires(F5, F8), excludes(F12, F5), requires(F4, F11)]
+			Diag size: 12
+The number of left branch calls: 17
+The number of right branch calls: 17
+The number of post constraints: 3430
+The number of Choco Solver calls: 179
+The number of different: 18
+The number of INconsistent: 91
+The number of unpost constraints: 3430
+The number of KBDiag calls: 35
+The number of consistent: 88
+The number of split set: 17
+The number of union: 63
+The size of Consistency checks: 3430
+The number of Consistency checks: 29
+
+Time for first: 0.0023136
+		FM_20_2.SPLX	FM_20_2_C50_2.TESTCASES
+			Diag: [mandatory(root, F1), mandatory(root, F14), optional(F4, F1), alternative(F1, F5, F6, F13), alternative(F6, F7, F8, F10, F11, F12), mandatory(F8, F9), excludes(F14, F10), excludes(F14, F8), requires(F7, F10), excludes(F8, F11), requires(F11, F14), excludes(F12, F5), requires(F5, F10)]
+			Diag size: 13
+The number of left branch calls: 18
+The number of right branch calls: 18
+The number of post constraints: 3715
+The number of Choco Solver calls: 189
+The number of different: 19
+The number of INconsistent: 106
+The number of unpost constraints: 3715
+The number of KBDiag calls: 37
+The number of consistent: 83
+The number of split set: 18
+The number of union: 69
+The size of Consistency checks: 3715
+The number of Consistency checks: 33
+
+Time for first: 0.002668474
+		FM_20_0.SPLX	FM_20_0_C100_0.TESTCASES
+			Diag: [alternative(root, F3, F4, F5), optional(F6, F5), optional(F7, F5), optional(F8, F5), or(F5, F9, F10, F11), alternative(F5, F12, F13, F14), excludes(F13, F6), excludes(F9, F13), excludes(F3, F1), requires(F4, F5), excludes(F12, F8), excludes(F4, F13), requires(F13, F1), requires(F1, F6)]
+			Diag size: 14
+The number of left branch calls: 17
+The number of right branch calls: 17
+The number of post constraints: 4350
+The number of Choco Solver calls: 264
+The number of different: 18
+The number of INconsistent: 127
+The number of unpost constraints: 4350
+The number of KBDiag calls: 35
+The number of consistent: 137
+The number of split set: 17
+The number of union: 66
+The size of Consistency checks: 4350
+The number of Consistency checks: 32
+
+Time for first: 0.003631877
+		FM_20_0.SPLX	FM_20_0_C100_1.TESTCASES
+			Diag: [alternative(root, F3, F4, F5), optional(F6, F5), optional(F7, F5), optional(F8, F5), or(F5, F9, F10, F11), alternative(F5, F12, F13, F14), excludes(F1, F2), excludes(F3, F1), requires(F4, F5), excludes(F12, F8), requires(F13, F1), excludes(F12, F9), requires(F1, F6)]
+			Diag size: 13
+The number of left branch calls: 16
+The number of right branch calls: 16
+The number of post constraints: 4528
+The number of Choco Solver calls: 278
+The number of different: 17
+The number of INconsistent: 130
+The number of unpost constraints: 4528
+The number of KBDiag calls: 33
+The number of consistent: 148
+The number of split set: 16
+The number of union: 60
+The size of Consistency checks: 4528
+The number of Consistency checks: 28
+
+Time for first: 0.004377766
+		FM_20_0.SPLX	FM_20_0_C100_2.TESTCASES
+			Diag: [alternative(root, F3, F4, F5), optional(F7, F5), optional(F8, F5), or(F5, F9, F10, F11), alternative(F5, F12, F13, F14), excludes(F1, F2), excludes(F13, F6), excludes(F9, F13), requires(F4, F5), excludes(F4, F13), excludes(F12, F14), requires(F13, F1), excludes(F12, F9), requires(F1, F6)]
+			Diag size: 14
+The number of left branch calls: 18
+The number of right branch calls: 18
+The number of post constraints: 4693
+The number of Choco Solver calls: 281
+The number of different: 19
+The number of INconsistent: 137
+The number of unpost constraints: 4693
+The number of KBDiag calls: 37
+The number of consistent: 144
+The number of split set: 18
+The number of union: 68
+The size of Consistency checks: 4693
+The number of Consistency checks: 32
+
+Time for first: 0.004625101
+		FM_20_1.SPLX	FM_20_1_C100_0.TESTCASES
+			Diag: [mandatory(root, F1), mandatory(F1, F2), optional(F3, F1), or(F1, F9, F10, F11), alternative(F1, F12, F13, F14), mandatory(F3, F4), alternative(F3, F5, F6, F7), requires(F12, F7), requires(F13, F12), requires(F9, F6), excludes(F13, F2), excludes(F6, F11), requires(F5, F4), requires(F9, F14)]
+			Diag size: 14
+The number of left branch calls: 19
+The number of right branch calls: 19
+The number of post constraints: 4919
+The number of Choco Solver calls: 290
+The number of different: 20
+The number of INconsistent: 140
+The number of unpost constraints: 4919
+The number of KBDiag calls: 39
+The number of consistent: 150
+The number of split set: 19
+The number of union: 70
+The size of Consistency checks: 4919
+The number of Consistency checks: 32
+
+Time for first: 0.004451504
+		FM_20_1.SPLX	FM_20_1_C100_1.TESTCASES
+			Diag: [mandatory(root, F1), mandatory(F1, F2), optional(F3, F1), mandatory(F1, F8), or(F1, F9, F10, F11), alternative(F1, F12, F13, F14), mandatory(F3, F4), alternative(F3, F5, F6, F7), requires(F12, F7), requires(F13, F12), requires(F9, F6), excludes(F12, F9), requires(F5, F7), excludes(F13, F2), excludes(F6, F11), requires(F9, F14)]
+			Diag size: 16
+The number of left branch calls: 19
+The number of right branch calls: 19
+The number of post constraints: 4818
+The number of Choco Solver calls: 317
+The number of different: 20
+The number of INconsistent: 165
+The number of unpost constraints: 4818
+The number of KBDiag calls: 39
+The number of consistent: 152
+The number of split set: 19
+The number of union: 72
+The size of Consistency checks: 4818
+The number of Consistency checks: 34
+
+Time for first: 0.004281977
+		FM_20_1.SPLX	FM_20_1_C100_2.TESTCASES
+			Diag: [mandatory(root, F1), mandatory(F1, F2), optional(F3, F1), or(F1, F9, F10, F11), alternative(F1, F12, F13, F14), mandatory(F3, F4), alternative(F3, F5, F6, F7), requires(F8, F6), requires(F13, F12), requires(F5, F7), excludes(F13, F2), excludes(F12, F5), excludes(F6, F11), requires(F11, F3), requires(F5, F4)]
+			Diag size: 15
+The number of left branch calls: 19
+The number of right branch calls: 19
+The number of post constraints: 4770
+The number of Choco Solver calls: 281
+The number of different: 20
+The number of INconsistent: 139
+The number of unpost constraints: 4770
+The number of KBDiag calls: 39
+The number of consistent: 142
+The number of split set: 19
+The number of union: 74
+The size of Consistency checks: 4770
+The number of Consistency checks: 36
+
+Time for first: 0.004098803
+		FM_20_2.SPLX	FM_20_2_C100_0.TESTCASES
+			Diag: [mandatory(root, F1), mandatory(root, F14), mandatory(F1, F2), optional(F4, F1), alternative(F1, F5, F6, F13), alternative(F6, F7, F8, F10, F11, F12), mandatory(F8, F9), excludes(F14, F10), requires(F5, F7), excludes(F14, F8), requires(F7, F10), requires(F10, F12), excludes(F8, F11), requires(F11, F14), requires(F5, F10), excludes(F5, F13), requires(F4, F11)]
+			Diag size: 17
+The number of left branch calls: 19
+The number of right branch calls: 19
+The number of post constraints: 6626
+The number of Choco Solver calls: 373
+The number of different: 20
+The number of INconsistent: 199
+The number of unpost constraints: 6626
+The number of KBDiag calls: 39
+The number of consistent: 174
+The number of split set: 19
+The number of union: 75
+The size of Consistency checks: 6626
+The number of Consistency checks: 37
+
+Time for first: 0.005407072
+		FM_20_2.SPLX	FM_20_2_C100_1.TESTCASES
+			Diag: [mandatory(root, F1), mandatory(root, F14), mandatory(F1, F2), mandatory(F1, F3), optional(F4, F1), alternative(F1, F5, F6, F13), alternative(F6, F7, F8, F10, F11, F12), mandatory(F8, F9), excludes(F14, F10), requires(F5, F7), requires(F5, F8), requires(F7, F10), excludes(F8, F11), requires(F11, F14), excludes(F12, F5), requires(F5, F10)]
+			Diag size: 16
+The number of left branch calls: 18
+The number of right branch calls: 18
+The number of post constraints: 5832
+The number of Choco Solver calls: 346
+The number of different: 19
+The number of INconsistent: 189
+The number of unpost constraints: 5832
+The number of KBDiag calls: 37
+The number of consistent: 157
+The number of split set: 18
+The number of union: 70
+The size of Consistency checks: 5832
+The number of Consistency checks: 34
+
+Time for first: 0.004880956
+		FM_20_2.SPLX	FM_20_2_C100_2.TESTCASES
+			Diag: [mandatory(root, F1), mandatory(root, F14), mandatory(F1, F2), mandatory(F1, F3), alternative(F1, F5, F6, F13), alternative(F6, F7, F8, F10, F11, F12), mandatory(F8, F9), requires(F5, F7), requires(F5, F8), requires(F10, F12), excludes(F8, F11), requires(F11, F14), excludes(F12, F5), requires(F5, F10), excludes(F5, F13), requires(F4, F11)]
+			Diag size: 16
+The number of left branch calls: 19
+The number of right branch calls: 19
+The number of post constraints: 6491
+The number of Choco Solver calls: 364
+The number of different: 20
+The number of INconsistent: 195
+The number of unpost constraints: 6491
+The number of KBDiag calls: 39
+The number of consistent: 169
+The number of split set: 19
+The number of union: 73
+The size of Consistency checks: 6491
+The number of Consistency checks: 35
+
+Time for first: 0.005359912
+		FM_20_0.SPLX	FM_20_0_C250_0.TESTCASES
+			Diag: [alternative(root, F3, F4, F5), optional(F6, F5), optional(F7, F5), optional(F8, F5), or(F5, F9, F10, F11), alternative(F5, F12, F13, F14), excludes(F12, F6), excludes(F1, F2), excludes(F13, F6), excludes(F9, F13), excludes(F3, F1), requires(F4, F5), excludes(F12, F8), excludes(F4, F13), excludes(F12, F14), requires(F13, F1), excludes(F12, F9), requires(F1, F6)]
+			Diag size: 18
+The number of left branch calls: 18
+The number of right branch calls: 18
+The number of post constraints: 10298
+The number of Choco Solver calls: 660
+The number of different: 19
+The number of INconsistent: 317
+The number of unpost constraints: 10298
+The number of KBDiag calls: 37
+The number of consistent: 343
+The number of split set: 18
+The number of union: 71
+The size of Consistency checks: 10298
+The number of Consistency checks: 35
+
+Time for first: 0.008594783
+		FM_20_0.SPLX	FM_20_0_C250_1.TESTCASES
+			Diag: [alternative(root, F3, F4, F5), optional(F6, F5), or(F5, F9, F10, F11), alternative(F5, F12, F13, F14), excludes(F12, F6), excludes(F1, F2), excludes(F13, F6), excludes(F9, F13), excludes(F3, F1), requires(F4, F5), excludes(F12, F8), excludes(F4, F13), excludes(F12, F14), requires(F13, F1), excludes(F12, F9), requires(F1, F6)]
+			Diag size: 16
+The number of left branch calls: 18
+The number of right branch calls: 18
+The number of post constraints: 11117
+The number of Choco Solver calls: 665
+The number of different: 19
+The number of INconsistent: 313
+The number of unpost constraints: 11117
+The number of KBDiag calls: 37
+The number of consistent: 352
+The number of split set: 18
+The number of union: 70
+The size of Consistency checks: 11117
+The number of Consistency checks: 34
+
+Time for first: 0.008251323
+		FM_20_0.SPLX	FM_20_0_C250_2.TESTCASES
+			Diag: [alternative(root, F3, F4, F5), optional(F6, F5), optional(F7, F5), optional(F8, F5), or(F5, F9, F10, F11), alternative(F5, F12, F13, F14), excludes(F12, F6), excludes(F1, F2), excludes(F9, F13), excludes(F3, F1), excludes(F12, F8), excludes(F4, F13), excludes(F12, F14), requires(F13, F1), excludes(F12, F9), requires(F1, F6)]
+			Diag size: 16
+The number of left branch calls: 18
+The number of right branch calls: 18
+The number of post constraints: 12099
+The number of Choco Solver calls: 790
+The number of different: 19
+The number of INconsistent: 393
+The number of unpost constraints: 12099
+The number of KBDiag calls: 37
+The number of consistent: 397
+The number of split set: 18
+The number of union: 69
+The size of Consistency checks: 12099
+The number of Consistency checks: 33
+
+Time for first: 0.009203537
+		FM_20_1.SPLX	FM_20_1_C250_0.TESTCASES
+			Diag: [mandatory(root, F1), mandatory(F1, F2), optional(F3, F1), mandatory(F1, F8), or(F1, F9, F10, F11), alternative(F1, F12, F13, F14), mandatory(F3, F4), alternative(F3, F5, F6, F7), requires(F8, F6), requires(F12, F7), requires(F9, F6), excludes(F12, F9), requires(F5, F7), excludes(F13, F2), excludes(F12, F5), requires(F11, F3), requires(F5, F4), requires(F9, F14)]
+			Diag size: 18
+The number of left branch calls: 19
+The number of right branch calls: 19
+The number of post constraints: 10800
+The number of Choco Solver calls: 693
+The number of different: 20
+The number of INconsistent: 335
+The number of unpost constraints: 10800
+The number of KBDiag calls: 39
+The number of consistent: 358
+The number of split set: 19
+The number of union: 75
+The size of Consistency checks: 10800
+The number of Consistency checks: 37
+
+Time for first: 0.007206681
+		FM_20_1.SPLX	FM_20_1_C250_1.TESTCASES
+			Diag: [mandatory(root, F1), mandatory(F1, F2), mandatory(F1, F8), or(F1, F9, F10, F11), alternative(F1, F12, F13, F14), mandatory(F3, F4), alternative(F3, F5, F6, F7), requires(F8, F6), requires(F12, F7), requires(F13, F12), excludes(F12, F9), requires(F5, F7), excludes(F13, F2), excludes(F12, F5), excludes(F6, F11), requires(F11, F3), requires(F5, F4), requires(F9, F14)]
+			Diag size: 18
+The number of left branch calls: 19
+The number of right branch calls: 19
+The number of post constraints: 11729
+The number of Choco Solver calls: 736
+The number of different: 20
+The number of INconsistent: 362
+The number of unpost constraints: 11729
+The number of KBDiag calls: 39
+The number of consistent: 374
+The number of split set: 19
+The number of union: 75
+The size of Consistency checks: 11729
+The number of Consistency checks: 37
+
+Time for first: 0.009151348
+		FM_20_1.SPLX	FM_20_1_C250_2.TESTCASES
+			Diag: [mandatory(root, F1), mandatory(F1, F2), optional(F3, F1), mandatory(F1, F8), or(F1, F9, F10, F11), alternative(F1, F12, F13, F14), mandatory(F3, F4), alternative(F3, F5, F6, F7), requires(F8, F6), requires(F12, F7), requires(F13, F12), excludes(F12, F9), requires(F5, F7), excludes(F13, F2), excludes(F12, F5), excludes(F6, F11), requires(F11, F3), requires(F5, F4)]
+			Diag size: 18
+The number of left branch calls: 19
+The number of right branch calls: 19
+The number of post constraints: 10803
+The number of Choco Solver calls: 696
+The number of different: 20
+The number of INconsistent: 339
+The number of unpost constraints: 10803
+The number of KBDiag calls: 39
+The number of consistent: 357
+The number of split set: 19
+The number of union: 76
+The size of Consistency checks: 10803
+The number of Consistency checks: 38
+
+Time for first: 0.007846214
+		FM_20_2.SPLX	FM_20_2_C250_0.TESTCASES
+			Diag: [mandatory(root, F1), mandatory(root, F14), mandatory(F1, F2), mandatory(F1, F3), optional(F4, F1), alternative(F1, F5, F6, F13), alternative(F6, F7, F8, F10, F11, F12), mandatory(F8, F9), excludes(F14, F10), requires(F5, F7), excludes(F14, F8), requires(F5, F8), requires(F7, F10), requires(F10, F12), excludes(F8, F11), excludes(F12, F5), requires(F5, F10), excludes(F5, F13), requires(F4, F11)]
+			Diag size: 19
+The number of left branch calls: 19
+The number of right branch calls: 19
+The number of post constraints: 14131
+The number of Choco Solver calls: 833
+The number of different: 20
+The number of INconsistent: 434
+The number of unpost constraints: 14131
+The number of KBDiag calls: 39
+The number of consistent: 399
+The number of split set: 19
+The number of union: 75
+The size of Consistency checks: 14131
+The number of Consistency checks: 37
+
+Time for first: 0.010931043
+		FM_20_2.SPLX	FM_20_2_C250_1.TESTCASES
+			Diag: [mandatory(root, F1), mandatory(root, F14), mandatory(F1, F2), mandatory(F1, F3), alternative(F1, F5, F6, F13), alternative(F6, F7, F8, F10, F11, F12), mandatory(F8, F9), requires(F5, F7), excludes(F14, F8), requires(F5, F8), requires(F7, F10), requires(F10, F12), excludes(F8, F11), requires(F11, F14), excludes(F12, F5), requires(F5, F10), excludes(F5, F13)]
+			Diag size: 17
+The number of left branch calls: 19
+The number of right branch calls: 19
+The number of post constraints: 15302
+The number of Choco Solver calls: 869
+The number of different: 20
+The number of INconsistent: 461
+The number of unpost constraints: 15302
+The number of KBDiag calls: 39
+The number of consistent: 408
+The number of split set: 19
+The number of union: 75
+The size of Consistency checks: 15302
+The number of Consistency checks: 37
+
+Time for first: 0.012791739
+		FM_20_2.SPLX	FM_20_2_C250_2.TESTCASES
+			Diag: [mandatory(root, F1), mandatory(root, F14), mandatory(F1, F2), mandatory(F1, F3), optional(F4, F1), alternative(F1, F5, F6, F13), alternative(F6, F7, F8, F10, F11, F12), excludes(F14, F10), requires(F5, F7), excludes(F14, F8), requires(F5, F8), requires(F7, F10), requires(F10, F12), excludes(F8, F11), requires(F11, F14), requires(F5, F10), excludes(F5, F13), requires(F4, F11)]
+			Diag size: 18
+The number of left branch calls: 19
+The number of right branch calls: 19
+The number of post constraints: 14763
+The number of Choco Solver calls: 855
+The number of different: 20
+The number of INconsistent: 447
+The number of unpost constraints: 14763
+The number of KBDiag calls: 39
+The number of consistent: 408
+The number of split set: 19
+The number of union: 75
+The size of Consistency checks: 14763
+The number of Consistency checks: 37
+
+Time for first: 0.012054568
+		FM_20_0.SPLX	FM_20_0_C500_0.TESTCASES
+			Diag: [alternative(root, F3, F4, F5), optional(F6, F5), optional(F7, F5), optional(F8, F5), or(F5, F9, F10, F11), alternative(F5, F12, F13, F14), excludes(F12, F6), excludes(F1, F2), excludes(F13, F6), excludes(F9, F13), excludes(F3, F1), requires(F4, F5), excludes(F12, F8), excludes(F4, F13), excludes(F12, F14), requires(F13, F1), excludes(F12, F9), requires(F1, F6)]
+			Diag size: 18
+The number of left branch calls: 18
+The number of right branch calls: 18
+The number of post constraints: 20452
+The number of Choco Solver calls: 1328
+The number of different: 19
+The number of INconsistent: 632
+The number of unpost constraints: 20452
+The number of KBDiag calls: 37
+The number of consistent: 696
+The number of split set: 18
+The number of union: 71
+The size of Consistency checks: 20452
+The number of Consistency checks: 35
+
+Time for first: 0.016419402
+		FM_20_0.SPLX	FM_20_0_C500_1.TESTCASES
+			Diag: [alternative(root, F3, F4, F5), optional(F6, F5), optional(F7, F5), optional(F8, F5), or(F5, F9, F10, F11), alternative(F5, F12, F13, F14), excludes(F12, F6), excludes(F1, F2), excludes(F13, F6), excludes(F9, F13), excludes(F3, F1), requires(F4, F5), excludes(F12, F8), excludes(F4, F13), excludes(F12, F14), requires(F13, F1), excludes(F12, F9), requires(F1, F6)]
+			Diag size: 18
+The number of left branch calls: 18
+The number of right branch calls: 18
+The number of post constraints: 21638
+The number of Choco Solver calls: 1403
+The number of different: 19
+The number of INconsistent: 704
+The number of unpost constraints: 21638
+The number of KBDiag calls: 37
+The number of consistent: 699
+The number of split set: 18
+The number of union: 71
+The size of Consistency checks: 21638
+The number of Consistency checks: 35
+
+Time for first: 0.01557355
+		FM_20_0.SPLX	FM_20_0_C500_2.TESTCASES
+			Diag: [alternative(root, F3, F4, F5), optional(F6, F5), optional(F7, F5), optional(F8, F5), or(F5, F9, F10, F11), alternative(F5, F12, F13, F14), excludes(F12, F6), excludes(F1, F2), excludes(F13, F6), excludes(F9, F13), excludes(F3, F1), requires(F4, F5), excludes(F12, F8), excludes(F4, F13), excludes(F12, F14), requires(F13, F1), excludes(F12, F9), requires(F1, F6)]
+			Diag size: 18
+The number of left branch calls: 18
+The number of right branch calls: 18
+The number of post constraints: 20582
+The number of Choco Solver calls: 1305
+The number of different: 19
+The number of INconsistent: 616
+The number of unpost constraints: 20582
+The number of KBDiag calls: 37
+The number of consistent: 689
+The number of split set: 18
+The number of union: 71
+The size of Consistency checks: 20582
+The number of Consistency checks: 35
+
+Time for first: 0.015046005
+		FM_20_1.SPLX	FM_20_1_C500_0.TESTCASES
+			Diag: [mandatory(root, F1), mandatory(F1, F2), optional(F3, F1), mandatory(F1, F8), or(F1, F9, F10, F11), alternative(F1, F12, F13, F14), mandatory(F3, F4), alternative(F3, F5, F6, F7), requires(F8, F6), requires(F12, F7), requires(F13, F12), requires(F9, F6), excludes(F12, F9), requires(F5, F7), excludes(F13, F2), excludes(F12, F5), excludes(F6, F11), requires(F11, F3), requires(F5, F4), requires(F9, F14)]
+			Diag size: 20
+The number of left branch calls: 19
+The number of right branch calls: 19
+The number of post constraints: 22614
+The number of Choco Solver calls: 1518
+The number of different: 20
+The number of INconsistent: 774
+The number of unpost constraints: 22614
+The number of KBDiag calls: 39
+The number of consistent: 744
+The number of split set: 19
+The number of union: 76
+The size of Consistency checks: 22614
+The number of Consistency checks: 38
+
+Time for first: 0.016157748
+		FM_20_1.SPLX	FM_20_1_C500_1.TESTCASES
+			Diag: [mandatory(root, F1), mandatory(F1, F2), optional(F3, F1), mandatory(F1, F8), or(F1, F9, F10, F11), alternative(F1, F12, F13, F14), mandatory(F3, F4), alternative(F3, F5, F6, F7), requires(F8, F6), requires(F12, F7), requires(F13, F12), requires(F9, F6), excludes(F12, F9), requires(F5, F7), excludes(F13, F2), excludes(F12, F5), excludes(F6, F11), requires(F11, F3), requires(F5, F4), requires(F9, F14)]
+			Diag size: 20
+The number of left branch calls: 19
+The number of right branch calls: 19
+The number of post constraints: 22087
+The number of Choco Solver calls: 1446
+The number of different: 20
+The number of INconsistent: 719
+The number of unpost constraints: 22087
+The number of KBDiag calls: 39
+The number of consistent: 727
+The number of split set: 19
+The number of union: 76
+The size of Consistency checks: 22087
+The number of Consistency checks: 38
+
+Time for first: 0.018479344
+		FM_20_1.SPLX	FM_20_1_C500_2.TESTCASES
+			Diag: [mandatory(root, F1), mandatory(F1, F2), optional(F3, F1), mandatory(F1, F8), or(F1, F9, F10, F11), alternative(F1, F12, F13, F14), mandatory(F3, F4), alternative(F3, F5, F6, F7), requires(F12, F7), requires(F13, F12), excludes(F12, F9), requires(F5, F7), excludes(F13, F2), excludes(F6, F11), requires(F11, F3), requires(F5, F4), requires(F9, F14)]
+			Diag size: 17
+The number of left branch calls: 19
+The number of right branch calls: 19
+The number of post constraints: 22974
+The number of Choco Solver calls: 1475
+The number of different: 20
+The number of INconsistent: 750
+The number of unpost constraints: 22974
+The number of KBDiag calls: 39
+The number of consistent: 725
+The number of split set: 19
+The number of union: 74
+The size of Consistency checks: 22974
+The number of Consistency checks: 36
+
+Time for first: 0.019459467
+		FM_20_2.SPLX	FM_20_2_C500_0.TESTCASES
+			Diag: [mandatory(root, F1), mandatory(root, F14), mandatory(F1, F2), mandatory(F1, F3), optional(F4, F1), alternative(F1, F5, F6, F13), alternative(F6, F7, F8, F10, F11, F12), mandatory(F8, F9), excludes(F14, F10), requires(F5, F7), excludes(F14, F8), requires(F5, F8), requires(F7, F10), requires(F10, F12), excludes(F8, F11), requires(F11, F14), excludes(F12, F5), requires(F5, F10), excludes(F5, F13), requires(F4, F11)]
+			Diag size: 20
+The number of left branch calls: 19
+The number of right branch calls: 19
+The number of post constraints: 28161
+The number of Choco Solver calls: 1642
+The number of different: 20
+The number of INconsistent: 870
+The number of unpost constraints: 28161
+The number of KBDiag calls: 39
+The number of consistent: 772
+The number of split set: 19
+The number of union: 76
+The size of Consistency checks: 28161
+The number of Consistency checks: 38
+
+Time for first: 0.018336845
+		FM_20_2.SPLX	FM_20_2_C500_1.TESTCASES
+			Diag: [mandatory(root, F1), mandatory(root, F14), mandatory(F1, F2), mandatory(F1, F3), optional(F4, F1), alternative(F1, F5, F6, F13), alternative(F6, F7, F8, F10, F11, F12), mandatory(F8, F9), excludes(F14, F10), requires(F5, F7), excludes(F14, F8), requires(F5, F8), requires(F10, F12), excludes(F8, F11), requires(F11, F14), excludes(F12, F5), requires(F5, F10), excludes(F5, F13), requires(F4, F11)]
+			Diag size: 19
+The number of left branch calls: 19
+The number of right branch calls: 19
+The number of post constraints: 28366
+The number of Choco Solver calls: 1692
+The number of different: 20
+The number of INconsistent: 877
+The number of unpost constraints: 28366
+The number of KBDiag calls: 39
+The number of consistent: 815
+The number of split set: 19
+The number of union: 75
+The size of Consistency checks: 28366
+The number of Consistency checks: 37
+
+Time for first: 0.017772576
+		FM_20_2.SPLX	FM_20_2_C500_2.TESTCASES
+			Diag: [mandatory(root, F1), mandatory(root, F14), mandatory(F1, F2), mandatory(F1, F3), optional(F4, F1), alternative(F1, F5, F6, F13), alternative(F6, F7, F8, F10, F11, F12), mandatory(F8, F9), excludes(F14, F10), requires(F5, F7), excludes(F14, F8), requires(F5, F8), requires(F7, F10), requires(F10, F12), excludes(F8, F11), requires(F11, F14), excludes(F12, F5), requires(F5, F10), excludes(F5, F13), requires(F4, F11)]
+			Diag size: 20
+The number of left branch calls: 19
+The number of right branch calls: 19
+The number of post constraints: 28426
+The number of Choco Solver calls: 1726
+The number of different: 20
+The number of INconsistent: 925
+The number of unpost constraints: 28426
+The number of KBDiag calls: 39
+The number of consistent: 801
+The number of split set: 19
+The number of union: 76
+The size of Consistency checks: 28426
+The number of Consistency checks: 38
+
+Time for first: 0.017941012
+4.619651111111111E-4	
+8.957221111111113E-4	
+0.0017253938888888891	
+0.0027094115555555557	
+0.004568329777777777	
+0.009559026222222222	
+0.017242883222222224	
