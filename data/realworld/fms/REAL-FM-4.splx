@@ -201,6 +201,7 @@
 				: Phone Ordering(buy_paths_288_289)
 					:m Digital Dialing(buy_paths_288_289_290)
 					:o Rotary Dialing(buy_paths_288_289_291)
+				: Phone Ordering 2(buy_paths_288_292)
 		:o Customer service(customer_service)
 			:g (_id_145) [1,*] 
 				: Question and feedback forms(_id_146)

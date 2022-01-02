@@ -1,9 +1,9 @@
 showEvaluations: true
 showDebug: true
-nameKB: ubuntu.splx
+nameKB: renault
 TC: 5,10,25,50,100,250,500
 numGenFM: 3
 numIter: 3
 perViolated_nonViolated: 0.3
-dataPath: ./data/synthesized/
+dataPath: ./data/realworld/
 resultsPath: ./results/
