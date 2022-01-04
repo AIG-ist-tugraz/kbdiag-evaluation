@@ -1,0 +1,26 @@
+25
+detection_devices & security & fire & flood & telephone
+detection_devices & monitor_control & security & ~flood & internet
+communication & ~action_devices & ~hmi & moisture_sensor
+administration & ~communication & monitor_control & intrusion & ~hmi
+monitor_control & intrusion & hmi & telephone & internet
+scheduled & ~continuous_value1
+intrusion & ~voice
+~moisture_sensor & responding_strategy & event_based
+communication & action_devices & monitor_control & ~hmi & motion_sensor
+~communication & action_devices & quality_attributes & hmi
+~communication & ~moisture_sensor & usability
+~communication & monitor_control & ~quality_attributes & intrusion & ~internet
+action_devices & quality_attributes & hmi & ~telephone & motion_sensor
+fire & telephone & usability
+action_devices & flood & ~telephone & sprinkler
+services & ~communication & security & flood & hmi
+hmi & telephone & direct
+~communication & action_devices & intrusion & fire & ~flood
+~communication & ~detection_devices & ~intrusion & ~fire & ~motion_sensor
+~telephone & motion_sensor & sprinkler
+services & detection_devices & action_devices & security & ~flood
+intrusion & fire & flood & telephone & motion_sensor
+services & communication & monitor_control & quality_attributes & ~internet
+hmi
+services & administration & action_devices & fire & hmi

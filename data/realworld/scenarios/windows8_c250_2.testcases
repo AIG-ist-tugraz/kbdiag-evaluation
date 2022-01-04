@@ -1,0 +1,251 @@
+250
+MakeItEasierToManageWindows & ~TurnOnFilterKeys
+~UseTextOrVisualAlternativesForSounds & ~MakeTouchAndTabletsEasierToUse & ~SeeAlso & ~Microphone & ~TurnOnNarrator
+~MakeTheKeyboardEasierToUse & UseTextOrVisualAlternativesForSounds & ~SeeAlso & TurnOnNarrator & LearnAboutAdditionalAssistiveTechnologiesOnline
+~TB_22 & ChangeTheSizeOfTextAndIcons
+~UseTheComputerWithoutADisplay & ~MakeTheComputerEasierToSee & UseTheComputerWithoutAMouseOrKeyboard & Advanced & TurnOnNarrator
+~UseTextOrVisualAlternativesForSounds & MakeItEasierToFocusOnTasks & ~SeeAlso & ~TurnOnNarrator & ~Option
+~MakeTheComputerEasierToSee & MakeTheMouseEasierToUse & ~MakeTouchAndTabletsEasierToUse & ~TurnOnNarrator & ~Option
+~MakeTheComputerEasierToSee & UseTheComputerWithoutAMouseOrKeyboard & UseTextOrVisualAlternativesForSounds & ~MakeTouchAndTabletsEasierToUse & ~Bold
+HoldDownCTRLToSpeedUpAndSHIFTToSlowDown & ~SetupTextToSpeech
+~UseTheComputerWithoutADisplay & ~MakeTheMouseEasierToUse & ~UseTextOrVisualAlternativesForSounds & Microphone & ~TurnOnNarrator
+~MakeTheMouseEasierToUse & MakeTouchAndTabletsEasierToUse & ~TurnOnNarrator & Bold & ~LearnAboutAdditionalAssistiveTechnologiesOnline
+MakeTheKeyboardEasierToUse & MakeItEasierToFocusOnTasks & Advanced & LearnAboutAdditionalAssistiveTechnologiesOnline
+UseTextOrVisualAlternativesForSounds & ~MakeTouchAndTabletsEasierToUse & Microphone & Magnifier
+~UseTheComputerWithoutADisplay & ~MakeTouchAndTabletsEasierToUse & LearnAboutAdditionalAssistiveTechnologiesOnline & ~MakeASoundWhenTurningASettingOnOrOff
+~UseTextOrVisualAlternativesForSounds & SeeAlso & ~DisplayAWarningMessageWhenTurningASettingOn
+UseTheComputerWithoutADisplay & ~UseTheComputerWithoutAMouseOrKeyboard & MakeTheMouseEasierToUse & ~TurnOnNarrator & ~LearnAboutAdditionalAssistiveTechnologiesOnline
+~UseTheComputerWithoutADisplay & ~MakeTheMouseEasierToUse & ~MakeTheKeyboardEasierToUse & ~MakeItEasierToFocusOnTasks & ~SeeAlso
+~Microphone & ~LearnAboutAdditionalAssistiveTechnologiesOnline & DisplayAWarningMessageWhenTurningASettingOn & MakeASoundWhenTurningASettingOnOrOff
+~MakeTheComputerEasierToSee & MakeTheMouseEasierToUse & Microphone & MakeASoundWhenTurningASettingOnOrOff
+UseTheComputerWithoutADisplay & MakeTouchAndTabletsEasierToUse & Microphone & ~Option & LearnAboutAdditionalAssistiveTechnologiesOnline
+MakeTheComputerEasierToSee & ~UseTheComputerWithoutAMouseOrKeyboard & ~MakeTheMouseEasierToUse & ~MakeTheKeyboardEasierToUse & ~LearnAboutAdditionalAssistiveTechnologiesOnline
+MakeTheComputerEasierToSee & ~MakeTheKeyboardEasierToUse & ~MakeTouchAndTabletsEasierToUse & Bold & LearnAboutAdditionalAssistiveTechnologiesOnline
+~MakeTheMouseEasierToUse & MakeTheKeyboardEasierToUse & ~SeeAlso & ~TurnOnNarrator & LearnAboutAdditionalAssistiveTechnologiesOnline
+UseTheComputerWithoutADisplay & MakeTheKeyboardEasierToUse & UseTextOrVisualAlternativesForSounds & SeeAlso & TurnOnNarrator
+UseTheComputerWithoutADisplay & ~MakeTheMouseEasierToUse & MakeTheKeyboardEasierToUse & MakeItEasierToFocusOnTasks & ~MakeTouchAndTabletsEasierToUse
+~UseTheComputerWithoutAMouseOrKeyboard & ~MakeTouchAndTabletsEasierToUse & Microphone & ~TurnOnNarrator & ~Bold
+UseTheComputerWithoutADisplay & ~Magnifier & ~MakeASoundWhenTurningASettingOnOrOff
+~UseTheComputerWithoutADisplay & MakeTheMouseEasierToUse & ~UseTextOrVisualAlternativesForSounds & ~MakeTouchAndTabletsEasierToUse & Advanced
+MakeTheComputerEasierToSee & ~MakeItEasierToFocusOnTasks & MakeTouchAndTabletsEasierToUse & ~Microphone & ~LearnAboutAdditionalAssistiveTechnologiesOnline
+~MakeItEasierToFocusOnTasks & ~Microphone & Advanced & ~Bold & LearnAboutAdditionalAssistiveTechnologiesOnline
+MakeTheComputerEasierToSee & ~UseTheComputerWithoutAMouseOrKeyboard & ~UseTextOrVisualAlternativesForSounds & ~TurnOnNarrator & ~Option
+~UseTheComputerWithoutADisplay & MakeTheComputerEasierToSee & ~Microphone & MakeASoundWhenTurningASettingOnOrOff
+~MakeTheComputerEasierToSee & MakeItEasierToFocusOnTasks & DisplayAWarningMessageWhenTurningASettingOn
+~UseTheComputerWithoutADisplay & UseTextOrVisualAlternativesForSounds & Advanced & ~TurnOnNarrator & Option
+Advanced & ~TurnOnNarrator & Option & ~Magnifier
+TurnOnNarrator & MakeItEasierToType
+UseTheComputerWithoutAMouseOrKeyboard & UseTextOrVisualAlternativesForSounds & ~SeeAlso & ~Advanced & TurnOnNarrator
+MakeTheMouseEasierToUse & ~Bold & ~KeyboardShortcut
+~UseTheComputerWithoutADisplay & ~UseTheComputerWithoutAMouseOrKeyboard & MakeTheMouseEasierToUse & SeeAlso & Microphone
+UseTheComputerWithoutAMouseOrKeyboard & UseTextOrVisualAlternativesForSounds & ~Bold & ~LearnAboutAdditionalAssistiveTechnologiesOnline
+~UseTextOrVisualAlternativesForSounds & Option & ~KeyboardShortcut
+MakeTheMouseEasierToUse & ~Microphone & Advanced & ~TurnOnNarrator & Bold
+Bold & LearnAboutAdditionalAssistiveTechnologiesOnline & Low
+MakeTouchAndTabletsEasierToUse & ~Microphone & ~Option & Bold & LearnAboutAdditionalAssistiveTechnologiesOnline
+~UseTheComputerWithoutAMouseOrKeyboard & ~MakeTheMouseEasierToUse & ~MakeTheKeyboardEasierToUse & ~Advanced & LearnAboutAdditionalAssistiveTechnologiesOnline
+~SeeAlso & Microphone & ~TurnOnNarrator & ~Option & ~Bold
+~UseTextOrVisualAlternativesForSounds & SeeAlso & Advanced & ~TurnOnNarrator & LearnAboutAdditionalAssistiveTechnologiesOnline
+MakeTheComputerEasierToSee & ~MakeItEasierToFocusOnTasks & SeeAlso & ~Magnifier
+~MakeTheComputerEasierToSee & MakeTouchAndTabletsEasierToUse & ~SeeAlso & ~Advanced & LearnAboutAdditionalAssistiveTechnologiesOnline
+MakeTheComputerEasierToSee & ~MakeTouchAndTabletsEasierToUse & ~TurnOnNarrator & ~Bold & ~LearnAboutAdditionalAssistiveTechnologiesOnline
+~RemoveBackgroundImageWhenAvailable & ~MakeItEasierToType2
+~UseTheComputerWithoutADisplay & ~UseTheComputerWithoutAMouseOrKeyboard & MakeTheKeyboardEasierToUse & Microphone & ~LearnAboutAdditionalAssistiveTechnologiesOnline
+MakeTheComputerEasierToSee & SeeAlso & LearnAboutAdditionalAssistiveTechnologiesOnline & DisplayAWarningMessageWhenTurningASettingOn
+~MakeTheMouseEasierToUse & ~MakeTheKeyboardEasierToUse & MakeTouchAndTabletsEasierToUse & ~SeeAlso & ~TurnOnNarrator
+UseTextOrVisualAlternativesForSounds & ~DisplayAWarningMessageWhenTurningASettingOn & ~MakeItEasierToManageWindows
+~UseTheComputerWithoutADisplay & UseTheComputerWithoutAMouseOrKeyboard & ~MakeTheKeyboardEasierToUse & UseTextOrVisualAlternativesForSounds & Microphone
+~UseTheComputerWithoutAMouseOrKeyboard & ~UseTextOrVisualAlternativesForSounds & ~MakeTouchAndTabletsEasierToUse & SeeAlso & ~Advanced
+~MakeTheComputerEasierToSee & ~MakeTheMouseEasierToUse & High
+MakeTheComputerEasierToSee & Microphone & ~Option & ~Bold & LearnAboutAdditionalAssistiveTechnologiesOnline
+~UseTheComputerWithoutAMouseOrKeyboard & MakeTheKeyboardEasierToUse & MakeTouchAndTabletsEasierToUse & ~Bold & LearnAboutAdditionalAssistiveTechnologiesOnline
+SeeAlso2 & ControlTheMouseWithTheKeyboard2
+~UseTheComputerWithoutADisplay & ~SeeAlso & TurnOnNarrator & Option & LearnAboutAdditionalAssistiveTechnologiesOnline
+UseTheComputerWithoutADisplay & ~MakeTheMouseEasierToUse & ~MakeTheKeyboardEasierToUse & SeeAlso & Microphone
+MakeTheComputerEasierToSee & MakeTheKeyboardEasierToUse & ~MakeTouchAndTabletsEasierToUse & ~TurnOnNarrator & LearnAboutAdditionalAssistiveTechnologiesOnline
+SeeAlso & ~MakeThingsOnTheScreenEasierToSee
+MakeTheKeyboardEasierToUse & MakeTouchAndTabletsEasierToUse & Advanced & ~TurnOnNarrator & ~LearnAboutAdditionalAssistiveTechnologiesOnline
+~UseTheComputerWithoutAMouseOrKeyboard & Bold & TurnOnMouseKeys
+MakeTheMouseEasierToUse & ~Microphone & Advanced & ~TurnOnNarrator
+UseTheComputerWithoutADisplay & MakeTheComputerEasierToSee & Microphone & Option & ~Bold
+MakeTheComputerEasierToSee & ~MakeTheMouseEasierToUse & MakeTouchAndTabletsEasierToUse & ~Advanced & Bold
+~Slow & ~Fast & SetupMouseKeys
+~MakeTheMouseEasierToUse & ~SeeAlso & LearnAboutAdditionalAssistiveTechnologiesOnline & ~DisplayAWarningMessageWhenTurningASettingOn
+UseTheComputerWithoutADisplay & ~UseTheComputerWithoutAMouseOrKeyboard & UseTextOrVisualAlternativesForSounds & ~Option & Bold
+UseTheComputerWithoutADisplay & MakeTheComputerEasierToSee & ~UseTextOrVisualAlternativesForSounds & MakeTouchAndTabletsEasierToUse & Microphone
+~MakeTheMouseEasierToUse & ~UseTextOrVisualAlternativesForSounds & ~MakeItEasierToFocusOnTasks & SeeAlso & ~Bold
+~MakeTheComputerEasierToSee & UseTheComputerWithoutAMouseOrKeyboard & ~UseTextOrVisualAlternativesForSounds & ~SeeAlso & Bold
+~MakeTheKeyboardEasierToUse & ~MakeItEasierToFocusOnTasks & Microphone & ~Advanced & ~Option
+MakeTheMouseEasierToUse & ~MakeItEasierToFocusOnTasks & Microphone & Bold & ~LearnAboutAdditionalAssistiveTechnologiesOnline
+UseTheComputerWithoutADisplay & MakeTheKeyboardEasierToUse & MakeTouchAndTabletsEasierToUse & ~SeeAlso & ~Option
+~MakeTheComputerEasierToSee & ~UseTextOrVisualAlternativesForSounds & ~MakeItEasierToFocusOnTasks & Microphone & ~LearnAboutAdditionalAssistiveTechnologiesOnline
+~UseTheComputerWithoutADisplay & UseTheComputerWithoutAMouseOrKeyboard & ~MakeTheKeyboardEasierToUse & ~DisplayAWarningMessageWhenTurningASettingOn
+UseTheComputerWithoutAMouseOrKeyboard & ~MakeTheMouseEasierToUse & ~UseTextOrVisualAlternativesForSounds & Advanced & TurnOnNarrator
+~UseTheComputerWithoutADisplay & MakeTheMouseEasierToUse & ~MakeItEasierToFocusOnTasks & ~Microphone & Advanced
+MakeTheComputerEasierToSee & UseTextOrVisualAlternativesForSounds & MakeTouchAndTabletsEasierToUse & ~Microphone & Option
+MakeItEasierToFocusOnTasks & MakeTouchAndTabletsEasierToUse & LearnAboutAdditionalAssistiveTechnologiesOnline & ~DisplayAWarningMessageWhenTurningASettingOn
+MakeTouchAndTabletsEasierToUse & ~SeeAlso & TurnOnNarrator & Bold & LearnAboutAdditionalAssistiveTechnologiesOnline
+~MakeItEasierToFocusOnTasks & MakeTouchAndTabletsEasierToUse & ~TurnOnNarrator & ~MakeASoundWhenTurningASettingOnOrOff
+UseTheComputerWithoutADisplay & ~UseTextOrVisualAlternativesForSounds & ~TurnOnNarrator & Bold & ~LearnAboutAdditionalAssistiveTechnologiesOnline
+~UseTheComputerWithoutADisplay & ~MakeTheMouseEasierToUse & Advanced & Option & LearnAboutAdditionalAssistiveTechnologiesOnline
+~UseTheComputerWithoutADisplay & ~UseTheComputerWithoutAMouseOrKeyboard & MakeTouchAndTabletsEasierToUse & DisplayAWarningMessageWhenTurningASettingOn
+UseTheComputerWithoutADisplay & ~MakeTheKeyboardEasierToUse & Bold & ~Magnifier
+~MakeTheComputerEasierToSee & ~UseTextOrVisualAlternativesForSounds & ~Advanced & MakeASoundWhenTurningASettingOnOrOff
+~UseTextOrVisualAlternativesForSounds & ~MakeItEasierToFocusOnTasks & ~Option & ~DisplayAWarningMessageWhenTurningASettingOn
+UseTheComputerWithoutADisplay & ~UseTextOrVisualAlternativesForSounds & SeeAlso & ~Magnifier
+UseTheComputerWithoutAMouseOrKeyboard & ~MakeTheKeyboardEasierToUse & ~MakeTouchAndTabletsEasierToUse & ~SeeAlso & ~LearnAboutAdditionalAssistiveTechnologiesOnline
+MakeItEasierToFocusOnTasks & ~MakeTouchAndTabletsEasierToUse & Advanced
+UseTheComputerWithoutAMouseOrKeyboard & MakeTheMouseEasierToUse & ~Fast
+~UseTheComputerWithoutAMouseOrKeyboard & ~SeeAlso & ~Microphone & LearnAboutAdditionalAssistiveTechnologiesOnline
+~UseTheComputerWithoutADisplay & ~MakeTheMouseEasierToUse & ~MakeTheKeyboardEasierToUse & ~SeeAlso & Advanced
+~UseTheComputerWithoutADisplay & ~SeeAlso & Microphone & Advanced
+MakeTheComputerEasierToSee & MakeTheKeyboardEasierToUse & ~Microphone & ~Option
+~UseTheComputerWithoutADisplay & Microphone & ~TurnOnNarrator & ~Bold
+~UseTheComputerWithoutADisplay & MakeTheComputerEasierToSee & ~MakeTheMouseEasierToUse & ~MakeItEasierToFocusOnTasks & MakeTouchAndTabletsEasierToUse
+UseTheComputerWithoutAMouseOrKeyboard & MakeTheMouseEasierToUse & ~MakeTouchAndTabletsEasierToUse & Advanced & ~Option
+MakeTheComputerEasierToSee & ~MakeTheMouseEasierToUse & ~TurnOnNarrator & Option & Bold
+~UseTheComputerWithoutAMouseOrKeyboard & MakeTouchAndTabletsEasierToUse & Advanced & Option & ~LearnAboutAdditionalAssistiveTechnologiesOnline
+~UseTheComputerWithoutADisplay & UseTheComputerWithoutAMouseOrKeyboard & MakeTheKeyboardEasierToUse & UseTextOrVisualAlternativesForSounds & Option
+~UseTextOrVisualAlternativesForSounds & MakeItEasierToFocusOnTasks & ~LearnAboutAdditionalAssistiveTechnologiesOnline & MakeASoundWhenTurningASettingOnOrOff
+~MicrosoftSpeechRecognizer8_0ForWindowsEnglishUK
+~UseTheComputerWithoutADisplay & ~MakeTheComputerEasierToSee & UseTextOrVisualAlternativesForSounds & Advanced & TurnOnNarrator
+UseTheComputerWithoutAMouseOrKeyboard & ~MakeTheMouseEasierToUse & ~MakeTouchAndTabletsEasierToUse & ~Microphone & Advanced
+MakeTheComputerEasierToSee & ~UseTheComputerWithoutAMouseOrKeyboard & MakeTheKeyboardEasierToUse & MakeTouchAndTabletsEasierToUse & TurnOnNarrator
+~MakeTheComputerEasierToSee & ~MakeItEasierToFocusOnTasks & ~SeeAlso & ~LearnAboutAdditionalAssistiveTechnologiesOnline
+MakeTheComputerEasierToSee & ~UseTextOrVisualAlternativesForSounds & ~SeeAlso & Advanced & ~Bold
+~UseTheComputerWithoutAMouseOrKeyboard & ~MakeItEasierToFocusOnTasks & TurnOnMouseKeys
+MakeTheMouseEasierToUse & MakeTouchAndTabletsEasierToUse & Slow
+UseTheComputerWithoutAMouseOrKeyboard & ~MakeTheMouseEasierToUse & ~UseTextOrVisualAlternativesForSounds & TurnOnNarrator & Option
+~MakeTheKeyboardEasierToUse & ~Advanced & TurnOnNarrator & ~Option
+~UseTheComputerWithoutADisplay & UseTheComputerWithoutAMouseOrKeyboard & ~UseTextOrVisualAlternativesForSounds & ~MakeTouchAndTabletsEasierToUse & ~LearnAboutAdditionalAssistiveTechnologiesOnline
+UseTheComputerWithoutADisplay & MakeTheComputerEasierToSee & MakeTouchAndTabletsEasierToUse & SeeAlso & LearnAboutAdditionalAssistiveTechnologiesOnline
+MakeTouchAndTabletsEasierToUse & ~SeeAlso & Microphone & TurnOnNarrator & ~Option
+UseTextOrVisualAlternativesForSounds & ~Advanced & ~TurnOnNarrator
+MakeTheComputerEasierToSee & MakeTheMouseEasierToUse & ~MakeTouchAndTabletsEasierToUse & ~TurnOnNarrator & ~Bold
+UseTextOrVisualAlternativesForSounds & LearnAboutAdditionalAssistiveTechnologiesOnline & ~Magnifier
+MakeTouchAndTabletsEasierToUse & SeeAlso & Microphone & TurnOnNarrator & ~Option
+MakeItEasierToFocusOnTasks & ~SeeAlso & Option & ~Bold & LearnAboutAdditionalAssistiveTechnologiesOnline
+~Off & HearTextAndDescriptionReadAloud
+~DisplayTheMouseKeysIconOnTheTaskbar & ~HearTextReadAloud
+LearnAboutAdditionalAssistiveTechnologiesOnline & ~DisplayAWarningMessageWhenTurningASettingOn & ~TurnOnMouseKeys
+~UseTheComputerWithoutAMouseOrKeyboard & MakeTouchAndTabletsEasierToUse & ~Advanced
+~UseTheComputerWithoutADisplay & MakeItEasierToFocusOnTasks & SeeAlso & ~Option & ~Bold
+MakeTheComputerEasierToSee & MakeTheKeyboardEasierToUse & MakeTouchAndTabletsEasierToUse & ~SeeAlso & Microphone
+~UseTheComputerWithoutAMouseOrKeyboard & ~UseTextOrVisualAlternativesForSounds & Microphone & Advanced & Bold
+MakeTheMouseEasierToUse & ~High & ~KeyboardShortcut
+~UseTheComputerWithoutADisplay & ~MakeTheComputerEasierToSee & UseTheComputerWithoutAMouseOrKeyboard & ~SeeAlso & Microphone
+~UseTheComputerWithoutADisplay & ~MakeItEasierToFocusOnTasks & ~Advanced & TurnOnNarrator & Option
+UseTheComputerWithoutADisplay & MakeItEasierToFocusOnTasks & ~MakeTouchAndTabletsEasierToUse & SeeAlso
+~MakeTheMouseEasierToUse & UseTextOrVisualAlternativesForSounds & Microphone & Advanced & TurnOnNarrator
+~MakeTheComputerEasierToSee & ~UseTextOrVisualAlternativesForSounds & Bold & LearnAboutAdditionalAssistiveTechnologiesOnline
+MakeTheMouseEasierToUse & ~MakeTouchAndTabletsEasierToUse & SeeAlso & MakeASoundWhenTurningASettingOnOrOff
+UseTheComputerWithoutADisplay & ~MakeTheComputerEasierToSee & MakeItEasierToFocusOnTasks & SeeAlso & ~Bold
+UseTheComputerWithoutAMouseOrKeyboard & ~MakeTouchAndTabletsEasierToUse & ~Option & MakeASoundWhenTurningASettingOnOrOff
+~UseTheComputerWithoutADisplay & ~UseTheComputerWithoutAMouseOrKeyboard & SeeAlso & Microphone & ~TurnOnNarrator
+UseTheComputerWithoutADisplay & ~UseTheComputerWithoutAMouseOrKeyboard & MakeItEasierToFocusOnTasks & MakeTouchAndTabletsEasierToUse & TurnOnNarrator
+~UseTheComputerWithoutADisplay & ~MakeTheMouseEasierToUse & ~MakeTouchAndTabletsEasierToUse & ~Bold & ~LearnAboutAdditionalAssistiveTechnologiesOnline
+UseTheComputerWithoutADisplay & UseTheComputerWithoutAMouseOrKeyboard & MakeItEasierToFocusOnTasks & MakeTouchAndTabletsEasierToUse
+SeeAlso & ~Microphone & TurnOnNarrator & LearnAboutAdditionalAssistiveTechnologiesOnline
+~MakeTheComputerEasierToSee & MakeTheKeyboardEasierToUse & ~TurnOnNarrator & Option & Bold
+~UseTheComputerWithoutADisplay & UseTheComputerWithoutAMouseOrKeyboard & MakeTheKeyboardEasierToUse & Advanced & ~Option
+~MakeTheMouseEasierToUse & MakeTheKeyboardEasierToUse & ~MakeItEasierToFocusOnTasks & ~Bold & LearnAboutAdditionalAssistiveTechnologiesOnline
+~MakeTheComputerEasierToSee & ~MakeTheKeyboardEasierToUse & MakeItEasierToFocusOnTasks & Advanced & Bold
+UseTheComputerWithoutADisplay & MakeTheKeyboardEasierToUse & ~Microphone & DisplayAWarningMessageWhenTurningASettingOn
+~UseTheComputerWithoutADisplay & ~UseTheComputerWithoutAMouseOrKeyboard & MakeTheMouseEasierToUse & MakeItEasierToFocusOnTasks & LearnAboutAdditionalAssistiveTechnologiesOnline
+MakeASoundWhenTurningASettingOnOrOff & ~High & ~SetupMouseKeys
+~UseTheComputerWithoutADisplay & Microphone & ~Advanced & ~MakeASoundWhenTurningASettingOnOrOff
+~AdjustTimeLimitsAndFlashingVisuals
+MakeTheComputerEasierToSee & MakeTouchAndTabletsEasierToUse & Microphone & ~Advanced & ~Option
+~MakeTheComputerEasierToSee & MakeTheMouseEasierToUse & ~MakeTheKeyboardEasierToUse & ~UseTextOrVisualAlternativesForSounds & LearnAboutAdditionalAssistiveTechnologiesOnline
+~MakeTheMouseEasierToUse & MakeTheKeyboardEasierToUse & UseTextOrVisualAlternativesForSounds & SeeAlso & ~Option
+~UseTheComputerWithoutAMouseOrKeyboard & MakeItEasierToFocusOnTasks & ~SeeAlso
+UseTheComputerWithoutADisplay & ~MakeTheMouseEasierToUse & SeeAlso & Advanced & Bold
+MakeTheMouseEasierToUse & ~MakeTheKeyboardEasierToUse & ~Option & ~LearnAboutAdditionalAssistiveTechnologiesOnline
+~MakeTheKeyboardEasierToUse & UseTextOrVisualAlternativesForSounds & ~SeeAlso & Advanced & Bold
+UseTheComputerWithoutAMouseOrKeyboard & ~UseTextOrVisualAlternativesForSounds & ~MakeItEasierToFocusOnTasks & ~Advanced & ~TurnOnNarrator
+UseTextOrVisualAlternativesForSounds & ~MakeItEasierToFocusOnTasks & MakeTouchAndTabletsEasierToUse & SeeAlso & ~Advanced
+~MakeTheComputerEasierToSee & MakeTheMouseEasierToUse & MakeTheKeyboardEasierToUse & ~Microphone & Bold
+~MakeTouchAndTabletsEasierToUse & Option & DisplayAWarningMessageWhenTurningASettingOn & ~MakeASoundWhenTurningASettingOnOrOff
+~MakeTheComputerEasierToSee & MakeTheKeyboardEasierToUse & UseTextOrVisualAlternativesForSounds & ~MakeItEasierToFocusOnTasks & ~Bold
+~MakeTheMouseEasierToUse & ~MakeItEasierToFocusOnTasks & TurnOnNarrator & ~DisplayAWarningMessageWhenTurningASettingOn
+~UseTheComputerWithoutADisplay & ~MakeTheMouseEasierToUse & ~MakeTheKeyboardEasierToUse & MakeTouchAndTabletsEasierToUse & Bold
+UseTheComputerWithoutAMouseOrKeyboard & MakeTheMouseEasierToUse & UseTextOrVisualAlternativesForSounds & ~MakeItEasierToFocusOnTasks & SeeAlso
+~MakeTheKeyboardEasierToUse & ~MakeItEasierToFocusOnTasks & SeeAlso & Microphone & Advanced
+MakeTheComputerEasierToSee & ~MakeTheMouseEasierToUse & ~MakeItEasierToFocusOnTasks & SeeAlso & LearnAboutAdditionalAssistiveTechnologiesOnline
+~UseTheComputerWithoutADisplay & MakeTheMouseEasierToUse & MakeItEasierToFocusOnTasks & ~SeeAlso & LearnAboutAdditionalAssistiveTechnologiesOnline
+~MakeTheMouseEasierToUse & UseTextOrVisualAlternativesForSounds & ~MakeItEasierToFocusOnTasks & TurnOnNarrator & ~Option
+MakeTheMouseEasierToUse & MakeItEasierToFocusOnTasks & ~Advanced & Option
+MakeTouchAndTabletsEasierToUse & ~SeeAlso & TurnOnNarrator & Option & Bold
+UseTheComputerWithoutADisplay & ~Advanced & ~TurnOnNarrator & Option & Bold
+~SeeAlso & TurnOnNarrator & LearnAboutAdditionalAssistiveTechnologiesOnline & ~MakeASoundWhenTurningASettingOnOrOff
+~Low & KeyboardShortcut
+~UseTheComputerWithoutADisplay & ~MakeTheComputerEasierToSee & UseTheComputerWithoutAMouseOrKeyboard & ~MakeItEasierToFocusOnTasks & TurnOnNarrator
+LearnAboutAdditionalAssistiveTechnologiesOnline & ~SeeAlso8
+~MakeTheComputerEasierToSee & ~MakeItEasierToFocusOnTasks & TurnOnNarrator & Option & ~LearnAboutAdditionalAssistiveTechnologiesOnline
+~UseTheComputerWithoutAMouseOrKeyboard & MakeItEasierToFocusOnTasks & SeeAlso & ~Magnifier
+UseTheComputerWithoutAMouseOrKeyboard & ~MakeTheKeyboardEasierToUse & ~MakeItEasierToFocusOnTasks & MakeTouchAndTabletsEasierToUse & Option
+~Advanced & DisplayAWarningMessageWhenTurningASettingOn
+MakeTheComputerEasierToSee & ~UseTheComputerWithoutAMouseOrKeyboard & MakeTheMouseEasierToUse & ~MakeItEasierToFocusOnTasks & Advanced
+~MakeTheKeyboardEasierToUse & UseTextOrVisualAlternativesForSounds & MakeItEasierToFocusOnTasks & LearnAboutAdditionalAssistiveTechnologiesOnline
+UseTheComputerWithoutADisplay & ~MakeTheComputerEasierToSee & ~SeeAlso & Microphone & Bold
+UseTheComputerWithoutADisplay & ~MakeTheComputerEasierToSee & UseTextOrVisualAlternativesForSounds & ~Microphone
+~MakeTheComputerEasierToSee & ~UseTheComputerWithoutAMouseOrKeyboard & MakeTheKeyboardEasierToUse
+UseTheComputerWithoutAMouseOrKeyboard & ~MakeTheMouseEasierToUse & Advanced & Option & Bold
+MakeTheKeyboardEasierToUse & UseTextOrVisualAlternativesForSounds & ~SeeAlso & LearnAboutAdditionalAssistiveTechnologiesOnline
+~UseTheComputerWithoutADisplay & UseTheComputerWithoutAMouseOrKeyboard & MakeTheKeyboardEasierToUse & ~MakeTouchAndTabletsEasierToUse & Advanced
+UseTheComputerWithoutAMouseOrKeyboard & ~UseTextOrVisualAlternativesForSounds & ~SeeAlso & ~TurnOnNarrator
+MakeTheComputerEasierToSee & MakeItEasierToFocusOnTasks & Advanced & TurnOnNarrator & ~LearnAboutAdditionalAssistiveTechnologiesOnline
+UseTextOrVisualAlternativesForSounds & MakeItEasierToFocusOnTasks & ~SeeAlso & ~TurnOnNarrator & ~LearnAboutAdditionalAssistiveTechnologiesOnline
+~MakeTheMouseEasierToUse & ~SeeAlso & ~Microphone & ~Magnifier
+~MakeTheMouseEasierToUse & Microphone & TurnOnNarrator & ~Option & Bold
+MakeTheComputerEasierToSee & ~Option & Fast
+~MakeTheMouseEasierToUse & UseTextOrVisualAlternativesForSounds & ~MakeItEasierToFocusOnTasks & ~MakeTouchAndTabletsEasierToUse & ~TurnOnNarrator
+~MakeTheComputerEasierToSee & ~MakeTouchAndTabletsEasierToUse & ~Advanced & ~TurnOnNarrator & Bold
+UseTheComputerWithoutADisplay & MakeTheComputerEasierToSee & MakeTheMouseEasierToUse & MakeItEasierToFocusOnTasks & ~Advanced
+~MakeTheKeyboardEasierToUse & UseTextOrVisualAlternativesForSounds & MakeTouchAndTabletsEasierToUse & ~Microphone & ~Advanced
+~UseTheComputerWithoutADisplay & MakeItEasierToFocusOnTasks & Advanced & ~Bold
+~MakeTheComputerEasierToSee & MakeTheMouseEasierToUse & Advanced & ~TurnOnNarrator & Bold
+UseTheComputerWithoutADisplay & UseTheComputerWithoutAMouseOrKeyboard & UseTextOrVisualAlternativesForSounds & MakeTouchAndTabletsEasierToUse & Microphone
+~ControlTheMouseWithTheKeyboard2 & ~AdjustTimeLimitsAndFlashingVisuals2
+MakeTheComputerEasierToSee & ~UseTextOrVisualAlternativesForSounds & SeeAlso & Microphone & Bold
+UseTheComputerWithoutAMouseOrKeyboard & ~MakeTheKeyboardEasierToUse & UseTextOrVisualAlternativesForSounds & ~Option & ~LearnAboutAdditionalAssistiveTechnologiesOnline
+~MakeTheComputerEasierToSee & ~MakeTheMouseEasierToUse & MakeTheKeyboardEasierToUse & MakeItEasierToFocusOnTasks & TurnOnNarrator
+~HoldDownCTRLToSpeedUpAndSHIFTToSlowDown & ~MakeItEasierToManageWindows2
+UseTheComputerWithoutADisplay & MakeTheComputerEasierToSee & MakeTheMouseEasierToUse & ~UseTextOrVisualAlternativesForSounds & ~TurnOnNarrator
+MakeASoundWhenTurningASettingOnOrOff & High & ~SetupMouseKeys
+~UseTheComputerWithoutADisplay & ~SeeAlso & ~TurnOnNarrator & LearnAboutAdditionalAssistiveTechnologiesOnline
+UseTheComputerWithoutADisplay & ~MakeItEasierToFocusOnTasks & ~MakeTouchAndTabletsEasierToUse & Advanced & ~TurnOnNarrator
+~Bold & LearnAboutAdditionalAssistiveTechnologiesOnline & ~MakeItEasierToManageWindows
+Advanced & OtherSettings
+MakeTheKeyboardEasierToUse & UseTextOrVisualAlternativesForSounds & Microphone & DisplayAWarningMessageWhenTurningASettingOn
+~UseTheComputerWithoutADisplay & ~MakeTheComputerEasierToSee & ~MakeTouchAndTabletsEasierToUse & ~Microphone & ~TurnOnNarrator
+MakeTouchAndTabletsEasierToUse & ~SeeAlso & ~Advanced & DisplayAWarningMessageWhenTurningASettingOn
+~UseTheComputerWithoutADisplay & UseTheComputerWithoutAMouseOrKeyboard & ~MakeItEasierToFocusOnTasks & SeeAlso & Microphone
+~UseTextOrVisualAlternativesForSounds & MakeTouchAndTabletsEasierToUse & ~SetupMouseKeys
+MakeTheComputerEasierToSee & ~MakeItEasierToFocusOnTasks & ~Microphone & Bold & LearnAboutAdditionalAssistiveTechnologiesOnline
+UseTheComputerWithoutADisplay & ~MakeTheMouseEasierToUse & ~MakeItEasierToFocusOnTasks & ~Microphone
+~MakeTheComputerEasierToSee & ~SeeAlso & ~Advanced & Option & ~LearnAboutAdditionalAssistiveTechnologiesOnline
+MakeTheComputerEasierToSee & UseTextOrVisualAlternativesForSounds & ~MakeItEasierToFocusOnTasks & ~Option & LearnAboutAdditionalAssistiveTechnologiesOnline
+MakeTheComputerEasierToSee & MakeTheMouseEasierToUse & Microphone & ~Advanced
+MakeTheKeyboardEasierToUse & ~Advanced & ~Option & ~Bold & LearnAboutAdditionalAssistiveTechnologiesOnline
+UseTheComputerWithoutADisplay & ~DisplayAWarningMessageWhenTurningASettingOn & High
+MakeTheComputerEasierToSee & ~TurnOnNarrator & Bold & ~DisplayAWarningMessageWhenTurningASettingOn
+~MakeTheComputerEasierToSee & UseTheComputerWithoutAMouseOrKeyboard & ~UseTextOrVisualAlternativesForSounds & ~TurnOnNarrator & Bold
+MakeTheKeyboardEasierToUse & ~UseTextOrVisualAlternativesForSounds & ~MakeTouchAndTabletsEasierToUse & ~Option & ~LearnAboutAdditionalAssistiveTechnologiesOnline
+~MakeTheComputerEasierToSee & MakeTouchAndTabletsEasierToUse & ~SeeAlso & TurnOnNarrator & Bold
+MakeTheComputerEasierToSee & SeeAlso & ~Microphone & ~Option & ~LearnAboutAdditionalAssistiveTechnologiesOnline
+MakeTheKeyboardEasierToUse & MakeTouchAndTabletsEasierToUse & SeeAlso & Advanced & LearnAboutAdditionalAssistiveTechnologiesOnline
+~UseTheComputerWithoutADisplay & ~MakeTheMouseEasierToUse & ~MakeTouchAndTabletsEasierToUse & Microphone & ~LearnAboutAdditionalAssistiveTechnologiesOnline
+~UseTheComputerWithoutAMouseOrKeyboard & ~Advanced & ~Bold & ~DisplayAWarningMessageWhenTurningASettingOn
+~SeeAlso4 & ~MakeThingsOnTheScreenLarger
+MakeTheComputerEasierToSee & ~UseTextOrVisualAlternativesForSounds & MakeItEasierToFocusOnTasks & LearnAboutAdditionalAssistiveTechnologiesOnline
+~MakeTheKeyboardEasierToUse & MakeItEasierToFocusOnTasks & ~SeeAlso & ~Bold & LearnAboutAdditionalAssistiveTechnologiesOnline
+UseTheComputerWithoutAMouseOrKeyboard & ~MakeTouchAndTabletsEasierToUse & Bold & ~LearnAboutAdditionalAssistiveTechnologiesOnline
+MakeTheMouseEasierToUse & ~MakeItEasierToFocusOnTasks & ~Microphone & ~TurnOnNarrator & LearnAboutAdditionalAssistiveTechnologiesOnline
+UseTheComputerWithoutADisplay & MakeTheKeyboardEasierToUse & ~UseTextOrVisualAlternativesForSounds & Microphone & Option
+UseTheComputerWithoutAMouseOrKeyboard & ~MakeTheMouseEasierToUse & ~MakeTheKeyboardEasierToUse & ~UseTextOrVisualAlternativesForSounds & Option
+~MakeTheComputerEasierToSee & ~MakeTheKeyboardEasierToUse & ~Fast
+~UseTheComputerWithoutADisplay & MakeTheMouseEasierToUse & ~SeeAlso & Microphone & ~Option
+~Advanced & MakeASoundWhenTurningASettingOnOrOff
+~MakeTheComputerEasierToSee & Option & Bold & ~DisplayAWarningMessageWhenTurningASettingOn
+MakeTheComputerEasierToSee & ~UseTheComputerWithoutAMouseOrKeyboard & ~MakeTheMouseEasierToUse & ~Advanced

@@ -1,0 +1,26 @@
+25
+Normal & ~LauncherPlacement
+UniversalAccess1 & Low & ~High & AcceptanceDelay & Fast
+~UniversalAccess1 & ~Long & ~Speed & Disabled
+~Speed & Slow & General
+~BrightnessAndLock & ~Displays1 & High & ~Delay
+Low & ~Normal & AcceptanceDelay & Speed
+Normal & High & ~Long & Speed & ~Fast
+~BrightnessAndLock & ~UniversalAccess1 & Normal & ~High & Typing
+UniversalAccess1 & Typing & Acceleration
+~BrightnessAndLock & Long & Typing & Delay
+Appearance & ~Low & ~Normal & Long & ~Typing
+~Low & ~High & Typing & Disabled
+~UniversalAccess1 & ~Displays & ~AcceptanceDelay & ~Typing & ~Fast
+~Low & Acceleration & Behavoir
+Normal & ~High & ~Short & ~Long & Fast
+Displays1 & High & Speed & ~Slow
+~UniversalAccess1 & Low & Normal & Long & Slow
+~Resolution & TypingAssistant
+~Appearance & Displays1 & ~AcceptanceDelay & Short & Typing
+Appearance & BrightnessAndLock & ~UniversalAccess1 & Low & Speed
+UniversalAccess1 & Low & ~High & Typing & Slow
+~Low & Normal & AcceptanceDelay & ~Short
+Fast & Disabled & Brightness
+Low & Long & ~Slow & ~Delay
+Appearance & Normal & ~Look

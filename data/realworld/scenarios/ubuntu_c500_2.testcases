@@ -1,0 +1,501 @@
+500
+Appearance & ~Displays & ~Fast & Disabled
+~BrightnessAndLock & UniversalAccess1 & ~Low & Normal & ~Long
+~Appearance & Displays1 & Low & ~High & ~Slow
+BrightnessAndLock & AcceptanceDelay & ~Long & Disabled
+~BrightnessAndLock & UniversalAccess1 & AcceptanceDelay & Typing
+~Appearance & BrightnessAndLock & Displays1 & UniversalAccess1 & ~Fast
+~Typing & ~Large & Sensitivity
+~High & ~Sensitivity & Behavoir
+Displays1 & ~Displays & ~Low & Short & Long
+BrightnessAndLock & ~Displays1 & UniversalAccess1 & Normal & ~Typing
+UniversalAccess1 & High & ~Long & Typing & Slow
+~General & ~Typing1
+Low & ~High & General
+~BrightnessAndLock & ~UniversalAccess1 & ~Displays & Typing & ~Slow
+~Typing & AcceptanceDelay3
+Look & _180Degres
+~BrightnessAndLock & Displays1 & UniversalAccess1 & Speed & Slow
+BrightnessAndLock & ~UniversalAccess1 & ~Slow & Fast
+~Displays1 & Low & AcceptanceDelay & Long & Fast
+Displays1 & High & Speed & ~Disabled
+~Appearance & BrightnessAndLock & Short & ~Long
+Displays1 & ~Low & ~AcceptanceDelay & Long & Slow
+~Displays1 & ~High & ~Speed & ~Slow & Fast
+Appearance & Displays1 & ~Low & Normal & Short
+Displays1 & ~Normal & ~Short & ~Slow
+~Speed & AcceptanceDelay2
+~UniversalAccess1 & Speed & Fast & ~UniversalAccess
+UniversalAccess1 & Low & ~Short & Typing & Fast
+~BrightnessAndLock & ~AcceptanceDelay & Slow & UniversalAccess
+Look & Normal1
+~Displays & Low & AcceptanceDelay & Slow
+Normal & High & ~AcceptanceDelay
+UniversalAccess1 & ~Displays & ~Normal & ~AcceptanceDelay & ~Speed
+BrightnessAndLock & UniversalAccess1 & ~Short & ~Speed & Fast
+UniversalAccess1 & ~Long & Small
+Displays1 & ~Displays & Low & Long & ~Speed
+UniversalAccess1 & Normal & Short & Typing & ~Speed
+Appearance & Displays & AcceptanceDelay & ~Fast
+~UniversalAccess1 & High & ~AcceptanceDelay & ~Long
+UniversalAccess1 & High & Fast & Disabled
+~Appearance & ~BrightnessAndLock & ~Normal & ~AcceptanceDelay & ~Speed
+UniversalAccess1 & Low & ~Typing & ~Slow
+~Appearance & ~Normal & ~Long & Typing & ~Slow
+~Low & ~AcceptanceDelay & ~Typing & ~Delay
+~Displays & Low & ~Normal & ~Long
+BrightnessAndLock & UniversalAccess1 & ~Short & ~Slow
+~BrightnessAndLock & UniversalAccess1 & ~High & Typing & Fast
+~UniversalAccess1 & ~Low & Acceleration
+~Appearance & ~BrightnessAndLock & UniversalAccess1 & ~Displays & ~Normal
+~Appearance & Disabled & General
+~UniversalAccess1 & Low & ~Short & Slow
+~Appearance & BrightnessAndLock & ~Displays1 & Low & ~Normal
+PointerSpeed & DimSceenToSavePower
+UniversalAccess1 & ~Displays & ~Normal & Speed & Slow
+~Appearance & Normal & ~Short & Long & Speed
+Appearance & BrightnessAndLock & ~High & Short & Typing
+~Appearance & Displays1 & Acceleration
+~BrightnessAndLock & Displays1 & ~UniversalAccess & Disabled
+Displays1 & UniversalAccess1 & ~Displays & Short
+BounceKeys & Laptop
+~Low & Normal & ~AcceptanceDelay & ~Slow & ~Fast
+~Appearance & ~Low & AcceptanceDelay & Short & Speed
+Displays1 & UniversalAccess1 & ~Long & ~Typing & ~Fast
+~Appearance & ~BrightnessAndLock & ~UniversalAccess1 & ~Normal & Slow
+Appearance & ~Long & Typing & ~Speed & ~Fast
+Displays1 & High & AcceptanceDelay & ~Long & Fast
+~BrightnessAndLock & Low & AcceptanceDelay & Short & Long
+Low & AcceptanceDelay & Short & Speed
+BrightnessAndLock & ~UniversalAccess1 & ~Displays & ~Slow & Fast
+~BrightnessAndLock & ~Displays1 & ~UniversalAccess1 & ~Low & ~High
+~Appearance & ~UniversalAccess1 & High & ~Fast
+~Displays1 & UniversalAccess1 & ~Displays & ~Low & Typing
+~MouseSettings & ~Contrast
+~Appearance & UniversalAccess1 & Look
+~Displays1 & ~Slow & UniversalAccess & ~Disabled
+Displays1 & ~UniversalAccess1 & High & AcceptanceDelay & Slow
+Normal & Long & Speed & ~Slow & ~Fast
+Slow & Disabled & ~Sensitivity
+~Displays1 & ~Displays & ~High & ~Short & ~Speed
+BrightnessAndLock & ~Displays1 & ~Normal & ~AcceptanceDelay & Typing
+~Appearance & ~Displays & Low & ~Short & ~Speed
+Typing & ~Rotation
+UniversalAccess1 & Displays & AcceptanceDelay & ~Short & ~Long
+AcceptanceDelay & ~Long & Slow & ~Delay
+BrightnessAndLock & High & AcceptanceDelay & Short & ~Speed
+~AcceptanceDelay & ~Speed & ~UniversalAccess
+Appearance & ~Displays & ~Long & Disabled
+Short & ~Typing & ~General
+Displays1 & ~Displays & ~Normal & ~Long & Fast
+~Appearance & Displays & ~Low & AcceptanceDelay & Long
+Displays & ~High & ~Typing & ~Fast
+~Appearance & ~Typing & Speed & ~UniversalAccess
+~Fast4
+BrightnessAndLock & Normal & ~AcceptanceDelay & ~Short & Fast
+~BrightnessAndLock & ~Normal & AcceptanceDelay & ~UniversalAccess
+~Rotation & Laptop
+~BrightnessAndLock & Low & AcceptanceDelay & Speed & ~Fast
+~BrightnessAndLock & ~Low & AcceptanceDelay & Short & ~Speed
+BrightnessAndLock & Displays & Typing & ~Speed & ~Fast
+~Appearance & ~UniversalAccess1 & Displays & ~Normal & ~High
+Appearance & ~Displays & Normal & Long & Slow
+~Appearance & ~BrightnessAndLock & ~Displays1 & ~UniversalAccess1 & Speed
+Displays1 & ~UniversalAccess1 & ~High & UniversalAccess
+~Look & Counterclockwise
+~BrightnessAndLock & ~Displays1 & Speed & ~Slow & ~Fast
+~Appearance & ~UniversalAccess1 & ~Displays & Low & Fast
+UniversalAccess1 & Normal & Fast & Disabled
+~BrightnessAndLock & ~UniversalAccess1 & ~High & ~Short & Slow
+Appearance & ~High & Slow & ~Delay
+Displays1 & Displays & ~Short & ~Slow & Fast
+~Low & ~Normal & ~Speed & ~Delay
+UniversalAccess1 & Low & Normal & Long & Typing
+~Appearance & UniversalAccess1 & ~Normal & ~High & ~AcceptanceDelay
+~Displays & Normal & AcceptanceDelay & Short & Speed
+~Seeing & ~AutoHideTheLauncher
+Displays1 & UniversalAccess1 & ~AcceptanceDelay & Long & Speed
+AcceptanceDelay & Behavoir & ~Brightness
+~Displays & ~Low & AcceptanceDelay & Long
+~Appearance & Low & ~Short & Long & Fast
+UniversalAccess1 & ~Normal & Short & ~Slow & ~Fast
+Speed & Large & ~Acceleration
+BrightnessAndLock & ~Low & ~Typing & ~Delay
+~BrightnessAndLock & UniversalAccess1 & Normal & Short & ~Fast
+Displays & ~Normal & AcceptanceDelay & ~Delay
+~Low & ~Normal & Long & Typing & ~Fast
+~AcceptanceDelay & Speed & Slow & Fast
+~UniversalAccess1 & ~Displays & ~Low & ~Normal & Speed
+~High & Slow & ~UniversalAccess & Delay
+BrightnessAndLock & ~Low & ~Short & ~Typing & Fast
+~BrightnessAndLock & Low & High & ~Fast
+~BrightnessAndLock & ~UniversalAccess1 & ~Normal & Long & Fast
+~UniversalAccess1 & ~Low & ~Normal & ~Long & ~Speed
+~Displays & Low & Slow & Disabled
+ScreenReader & ~Laptop
+~BrightnessAndLock & Normal & Acceleration
+Resolution & SlowKeys
+~BrightnessAndLock & ~Displays1 & ~Normal & Speed & ~Slow
+~UniversalAccess1 & ~Low & ~Normal & High & ~Typing
+~Fast & ~Acceleration & Sensitivity
+~BrightnessAndLock & Displays1 & ~Low & Typing & ~Fast
+~Short & Large & General
+Appearance & Displays1 & ~AcceptanceDelay & Slow & Fast
+Appearance & Displays & ~Typing & Delay
+~BrightnessAndLock & Displays & ~AcceptanceDelay
+Displays & ~Normal & ~High & ~Speed & Slow
+~UniversalAccess1 & ~AcceptanceDelay & ~Brightness
+~Appearance & UniversalAccess1 & ~Low & ~Fast
+Displays1 & UniversalAccess1 & AcceptanceDelay & Delay
+~Displays1 & ~UniversalAccess1 & Low & ~Normal & Fast
+BrightnessAndLock & ~Displays1 & Displays & Short & ~Long
+~SlowKeys & ~TextSize
+Displays & Normal & ~High & ~Delay
+~Appearance & UniversalAccess1 & ~Normal & Long & Typing
+~BrightnessAndLock & ~High & Fast & ~UniversalAccess
+~Appearance & Displays1 & High & Long & Fast
+~Normal & ~Slow & ~Large
+AcceptanceDelay & ~Speed & ~UniversalAccess & ~Delay
+BounceKeys & KeyboardSetting
+~Acceleration & Resolution
+UniversalAccess1 & ~Normal & High & ~Short & Long
+Displays & ~Normal & Small
+Normal & High & Slow & Disabled
+Low & ~Normal & Fast & ~Disabled
+UniversalAccess1 & ~General & ~Brightness
+~Appearance & ~Normal & Typing & ~UniversalAccess
+~BrightnessAndLock & ~Long & ~Acceleration
+Normal & AcceptanceDelay & PointerSpeed
+UniversalAccess1 & ~Displays & High & ~Typing & ~Fast
+~UniversalAccess1 & ~High & AcceptanceDelay & Fast
+~BrightnessAndLock & High & ~AcceptanceDelay & ~Short & ~Speed
+BrightnessAndLock & ~AcceptanceDelay & ~Speed & ~Fast
+~Appearance & BrightnessAndLock & Short & ~Typing & Speed
+~BrightnessAndLock & Fast & UniversalAccess & Delay
+High & ~Typing & Speed & ~Fast
+UniversalAccess1 & ~Speed & ~UniversalAccess
+~BrightnessAndLock & ~UniversalAccess1 & ~Displays & ~High & Long
+Displays1 & ~Displays & ~AcceptanceDelay & ~Short & ~Speed
+Appearance & ~BrightnessAndLock & AcceptanceDelay & ~Short
+~Displays1 & UniversalAccess1 & ~Displays & Disabled
+Appearance & ~UniversalAccess1 & ~Displays & Long & ~Slow
+~Displays1 & Displays & ~High & Speed
+Displays1 & ~AcceptanceDelay & Short & Speed & Fast
+~Displays2 & ~Clockwise
+~Appearance & ~UniversalAccess1 & ~Low & Normal & Slow
+Appearance & ~Displays1 & Typing & ~Speed
+~Low & Normal & ~Small
+Appearance & ~Displays & Short & UniversalAccess
+~Appearance & BrightnessAndLock & Normal & ~High & ~Fast
+Appearance & ~BrightnessAndLock & ~UniversalAccess1 & ~Displays & Typing
+~Low & ~High & Short & ~Typing
+~Appearance & Normal & ~High & AcceptanceDelay & Fast
+~Displays & ~Low & ~High & ~UniversalAccess
+BrightnessAndLock & ~Displays1 & Short
+Low & ~Fast & Acceleration
+BrightnessAndLock & ~Displays & Low & Normal & Long
+UniversalAccess1 & Displays & ~Short & ~Speed
+Displays & Normal & Short & ~Typing & Slow
+~BrightnessAndLock & Displays1 & ~Low & ~Normal
+~Appearance & ~High & ~AcceptanceDelay & ~Short
+Appearance & AcceptanceDelay & Acceleration
+~Displays1 & Displays & Long
+~Displays1 & ~Normal & High & AcceptanceDelay & Short
+Low & ~Slow & Disabled
+~Appearance & ~BrightnessAndLock & ~UniversalAccess1 & Low & ~Normal
+Displays & ~Normal & ~Short & Long & Slow
+~Appearance & BrightnessAndLock & Typing & ~Slow & Fast
+Low & AcceptanceDelay & ~Long & ~Typing & ~Slow
+~BrightnessAndLock & ~Normal & High & Typing
+BrightnessAndLock & ~Displays1 & ~AcceptanceDelay & ~Short & ~Slow
+Appearance & Displays & AcceptanceDelay & Short & Speed
+~Appearance & ~UniversalAccess1 & Low & ~Normal
+~Displays1 & ~Low & Typing & ~Delay
+~BrightnessAndLock & Displays1 & Normal & Long & Speed
+~BrightnessAndLock & Displays1 & Displays & ~Normal & Fast
+LockScreenAfter & ~HoverClick
+BrightnessAndLock & ~Normal & ~AcceptanceDelay & Speed & Fast
+~Appearance & ~Displays1 & ~UniversalAccess1 & ~Displays & Typing
+Displays1 & ~Normal & ~Short & Speed
+~Appearance & UniversalAccess1 & Normal & High & Long
+~Displays & ~Low & Fast & ~UniversalAccess
+~BrightnessAndLock & UniversalAccess1 & ~Displays & ~Low & Long
+Displays1 & ~High & AcceptanceDelay & Slow
+~High & ~Short & Typing & ~UniversalAccess
+Appearance & ~Displays1 & UniversalAccess1 & ~Low & ~Typing
+~UniversalAccess1 & ~Displays & AcceptanceDelay & ~Short & Speed
+BrightnessAndLock & ~Displays1 & Low & ~Short & ~Long
+Normal & ~High & ~Long & ~Speed & ~Fast
+~Normal & High & Look
+~BrightnessAndLock & ~Normal & Long & ~Speed & ~Slow
+Seeing & ~Counterclockwise
+Appearance & ~Displays & ~Speed & ~Delay
+AcceptanceDelay & ~Long & ~Typing & Disabled
+~Appearance & Displays1 & Displays & ~Typing
+~Displays1 & ~Displays & ~Fast & ~Disabled
+~Appearance & ~Displays & ~Low & ~High
+Appearance & ~UniversalAccess1 & ~Low & ~Short & Slow
+~Displays & AcceptanceDelay & ~Long & Typing & ~Fast
+~Displays & Low & Long & Typing & ~Speed
+Displays & High & ~Short & Long & ~Typing
+~DimSceenToSavePower & StickyKeys
+~Displays1 & ~UniversalAccess1 & Displays & ~Disabled
+Displays1 & UniversalAccess1 & ~Typing & Delay
+Appearance & ~UniversalAccess1 & ~Normal & ~Long & ~Typing
+~Normal & ~Typing & ~Acceleration
+BrightnessAndLock & ~Displays1 & ~UniversalAccess1 & ~Typing & ~Speed
+~Appearance & Displays1 & UniversalAccess1 & Low & ~Speed
+~Appearance & ~Displays1 & UniversalAccess1 & Displays & ~Short
+BrightnessAndLock & ~High & Long & ~Typing & ~Fast
+~BrightnessAndLock & ~Displays & ~High & AcceptanceDelay & ~Fast
+~Normal & ~High & Long & Typing & Speed
+~Appearance & Displays1 & ~Short & Fast
+~BrightnessAndLock & Displays1 & ~Normal & ~High & ~Typing
+~Background & ~MouseKeys
+~Displays1 & Short & ~Long & ~Typing & ~Fast
+Displays1 & ~UniversalAccess1 & Low & ~Short & Fast
+~BrightnessAndLock & AcceptanceDelay & ~UniversalAccess & ~Delay
+~Normal & ~High & ~Typing & Speed & Fast
+~Appearance & ~UniversalAccess1 & ~Low & ~Normal & Fast
+~BrightnessAndLock & ~UniversalAccess1 & ~High & AcceptanceDelay & ~Speed
+~UniversalAccess1 & Low & AcceptanceDelay & Long & Fast
+BrightnessAndLock & ~Normal & UniversalAccess & Delay
+Appearance & AcceptanceDelay & ~Short & Long & ~Fast
+~Fast & ~Hearing
+~BrightnessAndLock & ~Displays & ~Normal & ~AcceptanceDelay & ~Speed
+Appearance & BrightnessAndLock & High & ~Long & Slow
+~Displays1 & Low & ~High & UniversalAccess
+Displays1 & Short & Typing & Slow
+~Displays & ~AcceptanceDelay & ~Long & UniversalAccess
+~Displays1 & Displays & ~High & AcceptanceDelay & ~Speed
+Appearance & BrightnessAndLock & Low & Normal & High
+Appearance & BrightnessAndLock & AcceptanceDelay & ~Long & Slow
+UniversalAccess1 & ~Low & High & ~AcceptanceDelay & Typing
+BrightnessAndLock & Low & Long & Typing & Fast
+Appearance & ~Displays1 & Normal & ~Slow
+Appearance & ~AcceptanceDelay & Slow & ~Delay
+Displays1 & Low & Normal & ~AcceptanceDelay & Fast
+~UniversalAccess1 & AcceptanceDelay & Typing & Slow & ~Fast
+BrightnessAndLock & Displays & AcceptanceDelay & ~Disabled
+Displays1 & Displays & ~Short & Speed & Fast
+~Fast & ~Sensitivity & Behavoir
+UniversalAccess1 & Displays & ~Low & Short & Fast
+~Appearance & BrightnessAndLock & UniversalAccess1 & Displays & Typing
+~Displays1 & Displays & Short & ~Delay
+Displays1 & ~UniversalAccess1 & AcceptanceDelay & Short & Fast
+Normal & ~UniversalAccess & Look
+Appearance & ~BrightnessAndLock & Displays & ~Low & ~High
+BrightnessAndLock & Displays1 & ~UniversalAccess1 & Normal & ~Short
+~BrightnessAndLock & AcceptanceDelay & Speed & ~Slow & Fast
+Appearance & ~Displays & Normal & Long & ~Speed
+~Short & ~Typing & ~Fast & Disabled
+Appearance & UniversalAccess1 & ~Displays & Long & Fast
+BeepWhenAKeysIs & ~MotionThreshold
+~Displays1 & ~UniversalAccess1 & ~Low & Normal & Typing
+BrightnessAndLock & ~Displays1 & Slow & ~Delay
+Displays & Normal & ~Typing & Slow
+~BrightnessAndLock & ~Displays & ~Short & ~Speed & ~Slow
+BrightnessAndLock & Displays & ~High & AcceptanceDelay & Speed
+Appearance & Displays & Normal & ~Fast
+LauncherIconSize & Displays2
+~BrightnessAndLock & ~UniversalAccess1 & Displays & Short & ~Speed
+~UniversalAccess1 & Normal & AcceptanceDelay & Long & ~Slow
+~Low & ~Normal & ~High & ~Short
+~Appearance & UniversalAccess1 & Displays & High & ~Speed
+Appearance & Low & ~Typing & ~Speed
+Appearance & Displays1 & Low & ~AcceptanceDelay & Fast
+~Displays1 & ~UniversalAccess1 & ~Displays & Typing & Fast
+~Displays1 & Small & ~Large
+Displays1 & AcceptanceDelay & ~UniversalAccess & Disabled
+~High & AcceptanceDelay & ~Short & ~Slow
+UniversalAccess1 & Displays & AcceptanceDelay & Short & ~Speed
+~Long & Typing & ~General
+SimulatedSecondaryCLick & MouseSettings
+~BrightnessAndLock & ~Displays1 & Speed & ~Delay
+BrightnessAndLock & ~UniversalAccess1 & Low & ~High & ~Slow
+~Displays & ~Low & Normal & Fast
+Appearance & BrightnessAndLock & ~Displays1 & Long & Speed
+~Appearance & ~Displays1 & AcceptanceDelay & Fast
+~BrightnessAndLock & ~UniversalAccess1 & ~High & Long & Typing
+Typing & Slow & Small
+~Displays1 & ~Typing & ~Sensitivity
+BrightnessAndLock & Displays1 & ~Normal & High & ~AcceptanceDelay
+~Speed & UniversalAccess & General
+Appearance & ~Low & Short & Long & ~Slow
+~Displays1 & UniversalAccess1 & Long & ~Speed & ~Fast
+UniversalAccess1 & ~UniversalAccess & ~Delay
+~Displays1 & ~Displays & ~Long & ~UniversalAccess
+UniversalAccess1 & ~Normal & ~High & ~Fast
+Appearance & ~Displays1 & ~PointerSpeed
+Appearance & ~Displays1 & ~High & Typing & Speed
+~UniversalAccess1 & Displays & ~Disabled
+~Appearance & ~Displays & AcceptanceDelay & ~Typing & ~Fast
+~Low & ~Normal & AcceptanceDelay & ~Short & ~Slow
+Appearance & Displays & Lock
+~Displays & Low & Normal & AcceptanceDelay & Speed
+BrightnessAndLock & Typing & ~Brightness
+Appearance & ~UniversalAccess1 & Normal & Disabled
+High & AcceptanceDelay & Speed & ~UniversalAccess
+~Displays1 & ~Displays & ~Long & ~Disabled
+AcceptanceDelay & Delay & Behavoir
+BrightnessAndLock & ~Normal & ~AcceptanceDelay & ~Short & ~Typing
+Appearance & ~UniversalAccess1 & High & ~Short & Long
+~Displays & ~Normal & Long & Slow & Fast
+~Displays & ~High & Short & Speed & ~Slow
+~Speed & DimSceenToSavePower
+~Displays1 & Short & Speed & ~UniversalAccess
+High & Speed & ~Slow & UniversalAccess
+Appearance & ~UniversalAccess1 & Displays & ~High & ~Slow
+~UniversalAccess1 & ~Disabled & Sensitivity
+Low & Normal & ~High & Long & Slow
+Appearance & ~BrightnessAndLock & ~Displays1 & Low & Speed
+Normal & ~High & ~Slow & ~Disabled
+~Short & ~Typing & Disabled
+~Appearance & BrightnessAndLock & Displays & ~Fast
+~DimSceenToSavePower & TextSize
+~Appearance & UniversalAccess1 & ~Normal & Short & Long
+Appearance & UniversalAccess1 & Low & ~High & Fast
+~High & Long & ~Typing & Speed & Fast
+~Displays & ~High & ~Short & ~Speed & ~Slow
+~Short & Long & ~Slow & UniversalAccess
+BrightnessAndLock & Displays & Normal & ~Long & ~Speed
+Low & ~AcceptanceDelay & ~Long & Slow
+~Low & Normal & AcceptanceDelay & Speed & Fast
+AcceptanceDelay & Short & Long & ~Slow & Fast
+~Appearance & BrightnessAndLock & ~AcceptanceDelay & ~Typing
+UniversalAccess1 & ~Long & Slow & ~UniversalAccess
+Normal & ~Behavoir
+Displays & ~Low & ~High & Speed & ~Fast
+AcceptanceDelay & Typing & Delay
+AcceptanceDelay & Large & Acceleration
+~Appearance & UniversalAccess1 & ~Typing & Speed & Slow
+~Displays1 & ~High & Typing & ~Speed & Fast
+~Appearance & Displays1 & ~UniversalAccess1 & ~Displays & ~Normal
+~Appearance & Displays1 & ~Normal & ~Delay
+UniversalAccess1 & Fast & ~Look
+~BrightnessAndLock & UniversalAccess1 & ~Displays & ~High & Slow
+UniversalAccess1 & Low & Brightness
+UniversalAccess1 & ~Low & Short & Long & ~Speed
+~Appearance & ~BrightnessAndLock & Normal & ~High & ~Short
+Appearance & UniversalAccess1 & Displays & ~Low & Slow
+~BrightnessAndLock & Displays & ~Short & Long & ~Speed
+Displays1 & ~Displays & ~Low & ~Typing & ~Slow
+BrightnessAndLock & Low & ~Typing & Delay
+BrightnessAndLock & ~Low & ~Typing & Disabled
+Appearance & ~Low & Long & ~Typing & ~Slow
+Low & High & ~Short & Speed
+Appearance & ~Low & Normal & High & ~Speed
+~BrightnessAndLock & Normal & UniversalAccess & ~Disabled
+~Appearance & ~Low & ~Normal & Speed & Slow
+TypingAssistant & ~AcceptanceDelay1
+RequireMyPasswordWhenWakingFromSuspend & BeepWhenCapsAndNumLockAreUsed
+~Displays & ~Low & Long & ~Fast
+~Appearance & UniversalAccess1 & ~Normal & ~Delay
+Appearance & ~Low & ~Short & Typing & Fast
+~Displays1 & ~High & ~Short & ~Fast
+Appearance & Displays & ~Normal & ~Delay
+~Appearance & ~UniversalAccess1 & High & Long & ~Fast
+Displays1 & ~Displays & ~Low & Normal & ~Slow
+Low & AcceptanceDelay & Long & Speed
+BrightnessAndLock & UniversalAccess1 & ~High & ~Short & Speed
+Appearance & Displays & Low & ~Normal & ~Fast
+Displays & ~Short & ~Long & Speed & Fast
+~Short2 & AcceptanceDelay2
+Low & High & Typing & Slow & ~Fast
+~BrightnessAndLock & Displays1 & High & ~Disabled
+~Appearance & Short & Typing & Slow & Fast
+BrightnessAndLock & ~Fast & Sensitivity
+BrightnessAndLock & Displays1 & Displays & Normal & Slow
+Displays1 & Low & Short & ~UniversalAccess
+~Low & ~AcceptanceDelay & ~Short & ~Slow & Fast
+Appearance & Displays & ~Typing & Speed & ~Fast
+~Counterclockwise & Normal1
+Appearance & ~Displays1 & ~Displays & Low & ~Typing
+~BrightnessAndLock & ~AcceptanceDelay & ~Short & ~Typing & ~Speed
+Typing1 & RevealSensitivity
+~BrightnessAndLock & UniversalAccess1 & Short & Speed & ~Slow
+~Displays1 & ~Typing & Slow & ~Disabled
+Appearance & ~Displays1 & ~UniversalAccess1 & Long & ~Speed
+~High & ~Short & ~Long & ~Typing & ~Speed
+~BrightnessAndLock & Displays & ~Low & Normal & AcceptanceDelay
+BounceKeys & BeepWhenAKeysIs
+~Displays1 & ~UniversalAccess1 & ~High & ~Typing & ~Slow
+BrightnessAndLock & Low & High & Long & Typing
+~Appearance & AcceptanceDelay & Short & Speed & ~Fast
+Appearance & ~AcceptanceDelay & Long & Disabled
+~Appearance & Low & Normal & ~Short & ~Long
+~UniversalAccess1 & Displays & Short
+Displays & Long & Speed & ~Disabled
+~BrightnessAndLock & Normal & ~Long & ~Slow
+Appearance & ~Displays1 & Long & ~UniversalAccess
+Displays & High & Behavoir
+Displays1 & Normal & ~High & AcceptanceDelay & ~Long
+~Displays & ~Normal & High & ~Long & ~Speed
+~UniversalAccess1 & Low & ~AcceptanceDelay & ~Long & Speed
+Appearance & ~Low & ~Normal & ~Long & Fast
+~UniversalAccess1 & ~Displays & Low & ~High & Speed
+Speed & Fast & ~Large
+Displays1 & Displays & Long & Slow & Fast
+~UniversalAccess1 & ~AcceptanceDelay & Typing & ~Fast
+~Appearance & UniversalAccess1 & ~High & Typing
+Appearance & PointerSpeed & Brightness
+BrightnessAndLock & Low & Normal & AcceptanceDelay & Long
+~Appearance & ~Long & ~Typing & ~Disabled
+~Appearance & ~BrightnessAndLock & ~Displays & Normal & ~Long
+Appearance & Displays & Low & Speed & Slow
+~BrightnessAndLock & ~Displays & ~Normal & ~High & ~Short
+Low & ~MouseSettings
+Appearance & ~UniversalAccess1 & Low & ~AcceptanceDelay & Slow
+~UniversalAccess1 & ~Displays & Low & ~Slow
+~Appearance & BrightnessAndLock & ~Displays1 & Displays & High
+Displays1 & ~Normal & ~High & AcceptanceDelay & Slow
+~AcceptanceDelay & ~Short & Long & Typing
+UniversalAccess1 & Normal & High & ~Short & ~Speed
+~BrightnessAndLock & Displays1 & Displays & Long & Fast
+Low & Short & ~Long & ~Speed & ~Fast
+~UniversalAccess1 & High & ~AcceptanceDelay & ~Short & Fast
+Appearance & ~Displays & ~Normal & Disabled
+~Displays1 & Low & High & ~Long & ~Fast
+~AcceptanceDelay & ~Short & Fast & Disabled
+~UniversalAccess1 & ~Low & High & ~Short
+~Appearance & Displays1 & ~Short & ~Speed & Slow
+Displays & ~Short & ~Typing & Speed & ~Fast
+Fast & Small & ~Sensitivity
+Displays1 & Displays & ~Low & ~High & ~AcceptanceDelay
+Appearance & High & ~Speed & Fast
+~BrightnessAndLock & Displays & ~Low & ~AcceptanceDelay
+~BrightnessAndLock & Low & Typing & Slow
+~BrightnessAndLock & ~UniversalAccess1 & Long & Fast
+~Appearance & ~Displays1 & ~Normal & ~AcceptanceDelay
+Normal & AcceptanceDelay & ~Delay
+~Displays1 & Displays & ~High & Typing
+~UniversalAccess1 & ~AcceptanceDelay & ~Short & ~Typing & ~Slow
+Displays & Low & Normal & AcceptanceDelay
+Displays1 & ~Low & High & AcceptanceDelay & ~Long
+~Displays & ~Low & ~Normal & ~High & AcceptanceDelay
+~BrightnessAndLock & UniversalAccess1 & ~AcceptanceDelay & Short & ~Speed
+~Appearance & BrightnessAndLock & Long & UniversalAccess
+~Appearance & Speed & ~Slow & Disabled
+~Displays1 & UniversalAccess1 & ~High & ~Typing & ~Slow
+Displays1 & Displays & ~High & ~Short & Speed
+Appearance & ~UniversalAccess1 & ~Low & ~AcceptanceDelay
+~Displays1 & ~Displays & ~High & Slow & ~Fast
+~Appearance & ~Displays & ~Low & AcceptanceDelay & Long
+~Displays & High & AcceptanceDelay & Short & ~Fast
+Appearance & BrightnessAndLock & ~Displays & Low & ~AcceptanceDelay
+~Displays1 & Displays & ~Short & Speed & Fast
+~BrightnessAndLock & ~Displays1 & ~Normal & ~Short & Slow
+~Hearing & ~Counterclockwise
+~High & AcceptanceDelay & ~Long & ~Typing & Slow
+~Displays1 & ~UniversalAccess1 & ~Displays & Speed
+~Displays1 & AcceptanceDelay & ~Typing & ~Slow
+BrightnessAndLock & ~Displays & High & Long & ~Speed
+~UniversalAccess1 & Displays & High & ~Fast
+~UniversalAccess1 & Displays & AcceptanceDelay & ~Long & ~Slow
+~PointerSpeed & PointingAndClicking
+BrightnessAndLock & Normal & ~Long & Speed & Slow
+UniversalAccess1 & ~Low & Short & Fast
+~Low & ~Normal & High & ~Typing & ~Fast
+~BrightnessAndLock & ~Displays1 & ~High & AcceptanceDelay & ~Speed
+Appearance & Low & Short & Speed & Fast
+High & Short & ~Speed & ~Fast

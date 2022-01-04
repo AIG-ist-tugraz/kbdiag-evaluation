@@ -1,0 +1,51 @@
+50
+~Displays & Low & ~Short & Typing & Slow
+Appearance & ~BrightnessAndLock & ~Short & Delay
+~Normal & Long & Fast & Disabled
+~Displays1 & Long & UniversalAccess & Delay
+UniversalAccess1 & ~Short & ~PointerSpeed
+~UseAVisualIndicationWhenAnAlertSoundOccurs & AcceptanceDelay1
+UniversalAccess1 & ~Long & ~Speed & Slow
+BrightnessAndLock & Normal & High & Disabled
+Look & Shortcuts
+~Appearance & ~Low & ~Normal & ~AcceptanceDelay & ~Long
+Low & ~Fast & Look
+Normal & ~High & Sensitivity
+~UniversalAccess1 & Low & High & ~Fast
+UniversalAccess1 & Normal & ~High & ~Typing & Fast
+Appearance & PointingAndClicking
+~Displays1 & UniversalAccess1 & Speed
+~Slow & Normal1
+~BrightnessAndLock & Displays1 & Displays & ~Short
+~BrightnessAndLock & ~Delay & ~PointerSpeed
+Displays & ~Low & ~High & AcceptanceDelay & Slow
+Low & Normal & AcceptanceDelay & Typing & ~Slow
+~BrightnessAndLock & ~UniversalAccess1 & ~Low & Long & Speed
+Displays1 & UniversalAccess1 & ~Normal & ~AcceptanceDelay & ~Slow
+BrightnessAndLock & ~Short & Typing & Slow & ~Fast
+Displays & ~Normal & ~Short
+~High & LauncherPlacement
+~BrightnessAndLock & ~UniversalAccess1 & Low & High & Typing
+Displays1 & Low & ~Normal & ~AcceptanceDelay & ~Slow
+~UniversalAccess1 & Displays & AcceptanceDelay & Speed & Fast
+~BrightnessAndLock & Normal & ~Long & Typing & Slow
+Appearance & Displays1 & ~Long & ~Slow & Fast
+~Low & ~Short & Fast & ~UniversalAccess
+Displays & ~AcceptanceDelay & Typing & Slow & Fast
+Displays & ~Fast & ~UniversalAccess & Delay
+Displays1 & ~UniversalAccess1 & Low & Short & ~Long
+AcceptanceDelay & ~Slow & ~Fast & Delay
+~Appearance & Displays1 & ~Typing & ~Disabled
+Low & ~Normal & High & ~AcceptanceDelay & Fast
+Displays & AcceptanceDelay & Short & Speed & Slow
+Appearance & ~Displays1 & Low & High & Long
+Appearance & ~Displays1 & Displays & High & Fast
+BrightnessAndLock & ~Displays & ~Long & ~Typing & Speed
+Appearance & RevealLocation
+BrightnessAndLock & Normal & ~AcceptanceDelay & Short & Fast
+~Appearance & ~Displays1 & Displays & High & Slow
+~Low & ~Slow & ~UniversalAccess & Disabled
+Appearance & Displays1 & ~Displays & Normal & ~Speed
+~BrightnessAndLock & Normal & ~High & AcceptanceDelay & ~Short
+~Appearance & ~UniversalAccess1 & ~Short & ~Delay
+ComposeKey

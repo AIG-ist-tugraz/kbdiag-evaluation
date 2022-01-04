@@ -1,0 +1,11 @@
+10
+~UniversalAccess1 & Speed & UniversalAccess
+~Displays1 & ~UniversalAccess1 & ~Low & ~Normal & ~Fast
+~Displays1 & ~UniversalAccess1 & Normal & AcceptanceDelay & Short
+~Appearance & ~AcceptanceDelay & Large
+Appearance & ~High & Long & Typing & Fast
+~Low & High & ~Short & Disabled
+~Appearance & Normal & Long & ~Typing & Slow
+~Appearance & ~Displays & ~Normal & Short & Fast
+Appearance & Low & ~Long & ~Typing & ~Fast
+Appearance & UniversalAccess1 & ~Typing & ~Speed & Slow

@@ -1,0 +1,6 @@
+5
+MakeItEasierToFocusOnTasks & ~Bold & MakeItEasierToManageWindows
+UseTheComputerWithoutADisplay & MakeTheComputerEasierToSee & ~UseTextOrVisualAlternativesForSounds & ~MakeItEasierToFocusOnTasks & ~Microphone
+~UseTheComputerWithoutADisplay & ~UseTheComputerWithoutAMouseOrKeyboard & ~UseTextOrVisualAlternativesForSounds & Bold & LearnAboutAdditionalAssistiveTechnologiesOnline
+~TurnOnNarrator & ~Bold & DisplayAWarningMessageWhenTurningASettingOn & Magnifier
+~UseTheComputerWithoutADisplay & ~UseTheComputerWithoutAMouseOrKeyboard & MakeItEasierToFocusOnTasks & Microphone & Option

@@ -1,0 +1,26 @@
+25
+~MakeTheComputerEasierToSee & ~Microphone & ~TurnOnNarrator & Option & Bold
+SeeAlso5 & SeeAlso8
+~UseTheComputerWithoutADisplay & ~UseTextOrVisualAlternativesForSounds & ~MakeItEasierToFocusOnTasks & Advanced & ~LearnAboutAdditionalAssistiveTechnologiesOnline
+MakeTheComputerEasierToSee & ~UseTextOrVisualAlternativesForSounds & ~ControlTheMouseWithTheKeyboard
+MakeTheMouseEasierToUse & ~UseTextOrVisualAlternativesForSounds & ~MakeItEasierToFocusOnTasks & ~Advanced & Option
+~MakeTheKeyboardEasierToUse & ~UseTextOrVisualAlternativesForSounds & Bold & ~MakeASoundWhenTurningASettingOnOrOff
+MakeItEasierToFocusOnTasks & ~SeeAlso & Microphone & LearnAboutAdditionalAssistiveTechnologiesOnline
+~MakeTheKeyboardEasierToUse & ~MakeTouchAndTabletsEasierToUse & SeeAlso & Microphone & ~TurnOnNarrator
+UseTheComputerWithoutAMouseOrKeyboard & ~SeeAlso & Advanced & TurnOnNarrator & ~LearnAboutAdditionalAssistiveTechnologiesOnline
+MakeTheKeyboardEasierToUse & ~TurnOnMouseKeys & ~SetupMouseKeys
+MakeTheMouseEasierToUse & ~MakeTheKeyboardEasierToUse & ~MakeItEasierToFocusOnTasks & TurnOnNarrator & ~Bold
+UseTheComputerWithoutAMouseOrKeyboard & UseTextOrVisualAlternativesForSounds & ~MakeTouchAndTabletsEasierToUse & ~Microphone & Bold
+~SeeAlso & ~Advanced & High
+Advanced & ~TurnOnNarrator & DisplayAWarningMessageWhenTurningASettingOn & ~Magnifier
+~MakeTheMouseEasierToUse & ~MakeTheKeyboardEasierToUse & ~MakeItEasierToFocusOnTasks & SeeAlso & ~Microphone
+~MakeTheKeyboardEasierToUse & ~UseTextOrVisualAlternativesForSounds & TurnOnNarrator & LearnAboutAdditionalAssistiveTechnologiesOnline
+~TurnOnFilterKeys & ~MakeItEasierToType
+MakeTheKeyboardEasierToUse & UseTextOrVisualAlternativesForSounds & MakeItEasierToFocusOnTasks & ~Advanced
+UseTheComputerWithoutADisplay & MakeTheKeyboardEasierToUse & LearnAboutAdditionalAssistiveTechnologiesOnline & Magnifier
+Fast & AdjustTimeLimitsAndFlashingVisuals
+UseTheComputerWithoutADisplay & MakeTheMouseEasierToUse & ~MakeItEasierToFocusOnTasks & ~MakeTouchAndTabletsEasierToUse & ~TurnOnNarrator
+MakeItEasierToFocusOnTasks & Microphone & Advanced
+~MakeTheComputerEasierToSee & MakeTheKeyboardEasierToUse & SeeAlso & ~Microphone & Bold
+~MakeTheComputerEasierToSee & ~MakeTheKeyboardEasierToUse & UseTextOrVisualAlternativesForSounds & Microphone & TurnOnNarrator
+~UseTextOrVisualAlternativesForSounds & ~MakeItEasierToFocusOnTasks & TurnOnMouseKeys

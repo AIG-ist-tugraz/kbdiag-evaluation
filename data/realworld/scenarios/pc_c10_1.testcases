@@ -1,0 +1,11 @@
+10
+mb_SOME_slotD7=0 & ram4_idD=5
+mb_SOME_slotD4=1 & graphics_idD=1
+hd1_idD=5 & hd1_busD=0 & ram1_idD=5
+mb_SOME_slotD4=2 & ram1_presentD=1024 & ram4_presentD=1024
+mb_ramslotD=0 & pro_cpuslotD=0
+pro_cpuslotD=0 & ram4_slotD=2 & ram3_presentD=512
+mb_mincpufreqD=800 & ram1_slotD=0 & ram3_idD=0 & ram4_presentD=512
+mb_SOME_slotD4=2 & mb_SOME_slotD7=3 & ram3_presentD=512
+mb_SOME_slotD0=1 & mb_controllercountD=4 & ram1_presentD=1024
+mb_SOME_slotD4=1 & ram1_idD=4 & ram1_presentD=1024

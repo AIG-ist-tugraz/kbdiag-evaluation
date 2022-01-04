@@ -1,0 +1,26 @@
+25
+mb_SOME_slotD2=1 & hd1_capacityD=4096
+mb_cpuslotD=0 & mb_SOME_slotD4=2 & mb_SOME_slotD7=2
+mb_SOME_slotD3=1 & ram1_idD=4 & graphics_idD=6
+mb_cpuslotD=3 & mb_SOME_slotD6=3 & mb_mincpufreqD=1600
+ram1_capacityD=1 & ram2_idD=1
+mb_SOME_slotD4=1 & hd1_capacityD=4096 & ram3_idD=2
+mb_SOME_slotD2=1 & mb_SOME_slotD4=0 & pro_freqD=800 & graphics_idD=0 & ram4_presentD=512
+ram1_idD=4 & ram1_presentD=1024 & ram4_presentD=1024
+mb_cpuslotD=3 & mb_SOME_slotD4=2 & hd1_busD=0
+mb_controllertypeD=0 & mb_ramcapacityD=4096 & ram3_idD=2
+mb_controllercountD=2 & pro_idD=7 & hd2_busD=1
+hd2_capacityD=8192 & ram2_slotD=2 & graphics_idD=3 & ram4_presentD=512
+ram2_slotD=2 & ram4_slotD=2 & graphics_idD=3
+mb_controllertypeD=0 & mb_ramslotD=2 & ram1_slotD=2
+mb_cpuslotD=0 & mb_SOME_slotD0=1 & hd2_idD=0
+mb_SOME_slotD7=3 & hd1_capacityD=8192
+pro_cpuslotD=0 & ram2_idD=1 & ram4_idD=2 & ram4_presentD=1024
+mb_SOME_slotD3=1 & pro_freqD=1200 & hd1_capacityD=8192
+mb_SOME_slotD3=2 & hd2_busD=0 & ram3_slotD=2 & ram4_idD=5
+hd2_idD=5 & ram4_idD=5
+hd1_idD=2 & ram3_capacityD=0 & ram1_presentD=1024
+hd2_idD=4 & ram1_idD=4 & ram3_idD=2
+mb_SOME_slotD0=1 & ram2_slotD=2
+mb_SOME_slotD1=1 & hd2_capacityD=16384 & ram4_slotD=2 & pc_clockD=1200
+mb_idD=6 & ram1_idD=5 & ram3_presentD=512

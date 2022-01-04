@@ -1,0 +1,6 @@
+5
+MakeTheComputerEasierToSee & ~MakeTheMouseEasierToUse & SeeAlso & Option
+~UseTheComputerWithoutADisplay & ~MakeTheComputerEasierToSee & ~MakeTouchAndTabletsEasierToUse & SeeAlso & Advanced
+MakeTheComputerEasierToSee & UseTheComputerWithoutAMouseOrKeyboard & ~MakeTheKeyboardEasierToUse & ~UseTextOrVisualAlternativesForSounds
+UseTheComputerWithoutADisplay & MakeTheKeyboardEasierToUse & MakeItEasierToFocusOnTasks & ~TurnOnNarrator & ~Option
+OtherSettings & DisplayTheMouseKeysIconOnTheTaskbar

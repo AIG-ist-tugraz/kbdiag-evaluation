@@ -1,0 +1,11 @@
+10
+mb_SOME_slotD4=1 & ram4_idD=3 & ram3_presentD=1024
+ram2_capacityD=8 & graphics_idD=3
+mb_SOME_slotD7=3 & ram3_idD=3
+mb_SOME_slotD1=1 & ram2_capacityD=3000
+ram4_idD=2 & graphics_slotD=3
+mb_SOME_slotD5=0 & hd1_busD=0 & hd2_idD=0 & pc_memoryD=6
+mb_SOME_slotD1=2 & mb_ramcapacityD=64 & pro_idD=5
+pro_cpuslotD=0 & ram2_presentD=1024
+hd2_capacityD=2048 & graphics_slotD=1
+mb_cpuslotD=0 & ram1_idD=4 & pc_memoryD=10000 & ram3_presentD=1024

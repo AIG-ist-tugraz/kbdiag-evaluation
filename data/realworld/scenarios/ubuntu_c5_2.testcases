@@ -1,0 +1,6 @@
+5
+~Displays1 & ~UniversalAccess1 & ~Displays & High
+Sensitivity & ~MouseKeys
+BrightnessAndLock & ~UniversalAccess1 & AcceptanceDelay & ~Long & Speed
+~High & ~Long & ~Speed & Disabled
+~BrightnessAndLock & UniversalAccess1 & ~Low & Typing & ~Slow

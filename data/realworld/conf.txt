@@ -1,9 +1,10 @@
 showEvaluations: true
 showDebug: true
-nameKB: renault
+nameKB: pc
 TC: 5,10,25,50,100,250,500
-numGenFM: 3
+numGenFM: 2
 numIter: 3
-perViolated_nonViolated: 0.3
+perViolated_nonViolated: 0.2
 dataPath: ./data/realworld/
 resultsPath: ./results/
+m: 2

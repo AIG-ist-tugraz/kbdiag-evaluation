@@ -1,0 +1,11 @@
+10
+~UseTheComputerWithoutADisplay & ~MakeTheComputerEasierToSee & Microphone & ~Advanced & LearnAboutAdditionalAssistiveTechnologiesOnline
+UseTheComputerWithoutADisplay & MakeTheComputerEasierToSee & UseTheComputerWithoutAMouseOrKeyboard & UseTextOrVisualAlternativesForSounds & Advanced
+~MakeTheComputerEasierToSee & ~MakeTheKeyboardEasierToUse & ~SeeAlso & Microphone & ~Option
+~MakeTheMouseEasierToUse & SeeAlso & ~SetupMouseKeys
+~MakeTheComputerEasierToSee & MakeTheMouseEasierToUse & ~MakeTheKeyboardEasierToUse & ~MakeTouchAndTabletsEasierToUse & TurnOnNarrator
+UseTheComputerWithoutAMouseOrKeyboard & ~MakeItEasierToFocusOnTasks & SeeAlso & TurnOnNarrator & LearnAboutAdditionalAssistiveTechnologiesOnline
+~UseTheComputerWithoutAMouseOrKeyboard & ~MakeItEasierToFocusOnTasks & Microphone & ~TurnOnNarrator & Option
+~UseTheComputerWithoutADisplay & ~SeeAlso & ~Magnifier
+UseTheComputerWithoutAMouseOrKeyboard & ~MakeItEasierToFocusOnTasks & Advanced & ~Option & Bold
+UseTheComputerWithoutAMouseOrKeyboard & ~Microphone & ~Advanced & ~Option & ~LearnAboutAdditionalAssistiveTechnologiesOnline

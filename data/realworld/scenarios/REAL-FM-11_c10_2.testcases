@@ -1,0 +1,11 @@
+10
+motion & ~monitoring_detecting2
+action_devices & intrusion & fire & flood & hmi
+fire & ~monitoring_detecting2
+administration & action_devices & ~monitor_control & ~intrusion & ~internet
+communication & intrusion & ~flood & telephone & internet
+communication & detection_devices & ~internet & sprinkler
+~action_devices & quality_attributes & ~hmi & sprinkler
+~telephone & ~moisture
+action_devices & quality_attributes & security & telephone
+detection_devices & flood & safety

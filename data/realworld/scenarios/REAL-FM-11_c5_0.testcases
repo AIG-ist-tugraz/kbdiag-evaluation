@@ -1,0 +1,6 @@
+5
+~communication & action_devices & quality_attributes & intrusion & ~flood
+~communication & action_devices & quality_attributes & security & fire
+security & hmi & telephone & motion_sensor
+services & action_devices & quality_attributes & ~intrusion & hmi
+administration & ~telephone & event_based
