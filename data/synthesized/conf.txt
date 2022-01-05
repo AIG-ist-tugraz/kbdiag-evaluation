@@ -1,6 +1,6 @@
 showEvaluations: true
 showDebug: true
-CF: 10,20,50
+CF: 500
 TC: 5,10,25,50,100,250,500
 numGenFM: 2
 numIter: 3
