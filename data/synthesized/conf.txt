@@ -1,6 +1,6 @@
 showEvaluations: true
 showDebug: true
-CF: 500
+CF: 10
 TC: 5,10,25,50,100,250,500
 numGenFM: 2
 numIter: 3
@@ -8,3 +8,4 @@ perViolated_nonViolated: 0.2
 dataPath: ./data/synthesized/
 resultsPath: ./results/
 m: 1
+numDiagnoses: -1
