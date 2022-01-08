@@ -1,0 +1,26 @@
+25
+skoke_sensor & discrete_value2
+intrusion & sprinkler & usability
+administration & communication & quality_attributes & security & flood
+telephone & moisture_sensor & event_based
+~communication & detection_devices & fire & ~telephone
+services & communication & ~monitor_control & ~flood & ~hmi
+services & ~communication & quality_attributes & fire
+action_devices & ~flood & sump_pump
+action_devices & security & fire & ~flood
+services & communication & detection_devices & intrusion & flood
+fire & ~flood & responding_strategy
+detection_devices & fire & skoke_sensor & moisture_sensor
+~quality_attributes & ~gas
+~telephone & sprinkler & usability
+monitor_control & hmi & motion_sensor & moisture_sensor
+administration & ~communication & quality_attributes & ~fire & motion_sensor
+~administration & ~monitor_control & quality_attributes & ~fire & ~telephone
+detection_devices & action_devices & quality_attributes & flood & telephone
+quality_attributes & intrusion & fire & flood & internet
+flood & sump_pump & reliability
+administration & ~flood & hmi & skoke_sensor
+services & ~flood & telephone & skoke_sensor
+monitor_control & intrusion & flood & sprinkler
+communication & monitor_control & security & fire & telephone
+~administration & sprinkler & responding_strategy

@@ -1,0 +1,51 @@
+50
+~Low & Short & Speed & ~Delay
+~Appearance & Displays & Normal & ~Short & ~Typing
+~Brightness & ~PointingAndClicking
+~Displays1 & Displays & ~Low & ~High & AcceptanceDelay
+~Normal & Long & ~Slow & Delay
+Appearance & BrightnessAndLock & Sensitivity
+~BrightnessAndLock & Displays1 & UniversalAccess1 & ~High & Speed
+~UniversalAccess1 & ~Typing & ~UniversalAccess & Delay
+Displays1 & ~Low & ~Long & Typing & Speed
+Acceleration & ~Behavoir & ~Brightness
+~Appearance & Displays1 & UniversalAccess1 & ~High & ~Short
+~AcceptanceDelay & ~Speed & ~Look
+~Appearance & UniversalAccess1 & Low & Normal & AcceptanceDelay
+~BrightnessAndLock & ~Low & AcceptanceDelay & Short & ~Slow
+UniversalAccess1 & Normal & Typing & ~Fast
+~Appearance & BrightnessAndLock & Displays1 & Displays & Normal
+BrightnessAndLock & ~Displays1 & ~Displays & ~Normal & ~Typing
+~Appearance & ~UniversalAccess1 & ~High & Short & ~Fast
+~Displays & ~Long & Delay
+BrightnessAndLock & ~Displays1 & ~Displays & ~Long & ~Typing
+BrightnessAndLock & ~AcceptanceDelay & ~Short & Long & Speed
+~UniversalAccess1 & ~Displays & AcceptanceDelay & Typing
+~Normal & ~Long & Speed & ~UniversalAccess
+UniversalAccess1 & AcceptanceDelay & ~Long & ~Speed & ~Slow
+Appearance & ~Displays1 & ~UniversalAccess1 & Displays & ~Short
+~Displays1 & Normal & ~High & Long & ~Speed
+~BrightnessAndLock & ~Normal & ~Short & ~Long
+~High & ~AcceptanceDelay & Short & ~Typing & Speed
+Displays & AcceptanceDelay & ~Typing & ~Speed
+BrightnessAndLock & Speed & Delay
+BrightnessAndLock & Low & ~High & Long & Speed
+AcceptanceDelay & Long & ~Typing & Speed & ~Fast
+Displays1 & UniversalAccess1 & Displays & AcceptanceDelay & Short
+BrightnessAndLock & ~UniversalAccess1 & Low
+Appearance & Typing & ~Speed & Fast
+~Disabled & ~Small & Behavoir
+UniversalAccess1 & ~Low & ~High & Long & Typing
+~BrightnessAndLock & ~UniversalAccess1 & ~Low & AcceptanceDelay & ~Slow
+~UniversalAccess1 & Displays & ~Normal & ~Slow
+~Displays1 & ~High & Short & Long & ~Fast
+~Displays1 & Normal & AcceptanceDelay & Long & Slow
+~UniversalAccess1 & AcceptanceDelay & ~Long & Delay
+~Long & Delay & Large
+~UniversalAccess1 & ~Low & Fast & Delay
+Displays1 & Normal & ~High & Short & ~Typing
+~Appearance & Normal & ~AcceptanceDelay & ~Long & Typing
+Appearance & Displays1 & Normal & Short & Fast
+Displays1 & UniversalAccess1 & Normal & Long & Speed
+BrightnessAndLock & ~AcceptanceDelay & ~Short & Delay
+~Appearance & ~BrightnessAndLock & Displays1 & UniversalAccess1 & Typing

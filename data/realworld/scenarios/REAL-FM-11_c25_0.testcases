@@ -1,26 +1,26 @@
 25
-skoke_sensor & discrete_value2
-intrusion & sprinkler & usability
-administration & communication & quality_attributes & security & flood
-telephone & moisture_sensor & event_based
-~communication & detection_devices & fire & ~telephone
-services & communication & ~monitor_control & ~flood & ~hmi
-services & ~communication & quality_attributes & fire
-action_devices & ~flood & sump_pump
-action_devices & security & fire & ~flood
-services & communication & detection_devices & intrusion & flood
-fire & ~flood & responding_strategy
-detection_devices & fire & skoke_sensor & moisture_sensor
-~quality_attributes & ~gas
-~telephone & sprinkler & usability
-monitor_control & hmi & motion_sensor & moisture_sensor
-administration & ~communication & quality_attributes & ~fire & motion_sensor
-~administration & ~monitor_control & quality_attributes & ~fire & ~telephone
-detection_devices & action_devices & quality_attributes & flood & telephone
-quality_attributes & intrusion & fire & flood & internet
-flood & sump_pump & reliability
-administration & ~flood & hmi & skoke_sensor
-services & ~flood & telephone & skoke_sensor
-monitor_control & intrusion & flood & sprinkler
-communication & monitor_control & security & fire & telephone
-~administration & sprinkler & responding_strategy
+administration & hmi & usability
+communication & monitor_control & flood & internet & motion_sensor
+administration & detection_devices & quality_attributes & ~flood & motion_sensor
+action_devices & ~standby
+services & administration & communication & quality_attributes & motion_sensor
+action_devices & monitor_control & sprinkler
+detection_devices & action_devices & flood & telephone & motion_sensor
+hmi & internet
+intrusion & sprinkler & responding_strategy
+detection_devices & security & hmi
+administration & detection_devices & action_devices & quality_attributes & security
+detection_devices & skoke_sensor & reliability
+~communication & detection_devices & ~flood & ~internet
+~quality_attributes & security & motion_sensor
+~sequential & moisture
+administration & monitor_control & motion_sensor & moisture_sensor
+monitor_control & quality_attributes & intrusion & ~flood
+communication & action_devices & quality_attributes & hmi & telephone
+~communication & ~detection_devices & intrusion & ~hmi
+detection_devices & ~internet & ~moisture_sensor
+scheduled & discrete_value2
+communication & ~fire & moisture_sensor & ~sprinkler
+administration & ~detection_devices & ~flood
+security & intrusion & ~motion_sensor & moisture_sensor
+detection_devices & monitor_control & hmi & skoke_sensor
