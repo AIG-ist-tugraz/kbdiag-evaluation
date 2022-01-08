@@ -1,6 +1,0 @@
-5
-graphics_slotD=1 & pc_memoryD=4096 & ram3_presentD=512
-mb_SOME_slotD1=1 & hd1_idD=3 & graphics_idD=2 & ram3_presentD=512
-mb_SOME_slotD3=1 & ram1_idD=5
-hd1_idD=5 & ram4_idD=2 & pc_clockD=2200
-mb_controllertypeD=2 & mb_SOME_slotD4=1 & mb_SOME_slotD7=0 & ram1_presentD=1024

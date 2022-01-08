@@ -1,6 +1,0 @@
-5
-mb_maxcpufreqD=1000 & ram3_idD=0 & graphics_idD=5
-hd2_capacityD=2048 & ram3_idD=2
-mb_SOME_slotD7=3 & ram3_idD=4 & graphics_idD=1
-mb_SOME_slotD6=0 & ram3_presentD=1024
-mb_SOME_slotD0=3 & ram1_slotD=2

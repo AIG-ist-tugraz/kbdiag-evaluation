@@ -1,6 +1,0 @@
-5
-MakeTheMouseEasierToUse & ~UseTextOrVisualAlternativesForSounds & MakeTouchAndTabletsEasierToUse & TurnOnNarrator & ~Option
-~MakeTheComputerEasierToSee & ~MakeTheKeyboardEasierToUse & ~MakeTouchAndTabletsEasierToUse & Magnifier
-~UseTheComputerWithoutADisplay & MakeTheMouseEasierToUse & Option & ~DisplayAWarningMessageWhenTurningASettingOn
-~MakeTheKeyboardEasierToUse & UseTextOrVisualAlternativesForSounds & ~MakeItEasierToFocusOnTasks & ~Option
-~MakeTheKeyboardEasierToUse & ~MakeItEasierToFocusOnTasks & ~MakeTouchAndTabletsEasierToUse & Advanced

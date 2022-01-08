@@ -1,6 +1,0 @@
-5
-redundancy_control & discrete_value1
-services & ~communication & ~flood & hmi & ~internet
-~detection_devices & monitor_control & intrusion & ~internet
-communication & detection_devices & action_devices & internet & motion_sensor
-security & flood & telephone & moisture_sensor

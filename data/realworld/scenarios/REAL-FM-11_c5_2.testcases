@@ -1,6 +1,0 @@
-5
-~communication & action_devices & hmi & moisture_sensor
-services & administration & ~communication & detection_devices & intrusion
-~communication & flood & ~telephone & skoke_sensor
-administration & detection_devices & ~monitor_control & ~flood & ~internet
-flood & sump_pump & reliability
