@@ -1,0 +1,6 @@
+5
+~LauncherIconSize & AutoHideTheLauncher
+BrightnessAndLock & ~Displays & Low & ~AcceptanceDelay & Fast
+~Displays & ~Short & Fast & Disabled
+BrightnessAndLock & UniversalAccess1 & ~Normal & High & Short
+~Fast & ~Disabled & ~Large

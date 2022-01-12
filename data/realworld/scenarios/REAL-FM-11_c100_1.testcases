@@ -1,0 +1,101 @@
+100
+services & action_devices & ~security & ~intrusion & ~motion_sensor
+~telephone & motion_sensor & skoke_sensor & ~moisture_sensor
+services & monitor_control & intrusion & flood & ~telephone
+communication & ~flood & scalability
+administration & security & ~telephone
+~administration & ~monitor_control & ~intrusion & ~flood & motion_sensor
+administration & ~communication & action_devices & quality_attributes & security
+action_devices & fire & hmi & motion_sensor
+detection_devices & hmi & telephone & ~internet
+monitor_control & hmi & internet & sprinkler
+communication & ~intrusion & fire & ~hmi & ~telephone
+~administration & detection_devices & ~monitor_control & intrusion & hmi
+services & ~security & internet & ~moisture_sensor
+reliability & connection
+telephone & internet
+moisture & ~standard
+~communication & monitor_control & quality_attributes & security & motion_sensor
+motion_sensor & ~sump_pump & event_based
+administration & ~communication & ~telephone & ~internet
+monitor_control & internet & scalability
+detection & ~active
+administration & monitor_control
+reliability & ~moisture
+~moisture_sensor & ~detection2
+quality_attributes & intrusion & motion_sensor
+administration & ~monitor_control & ~fire & motion_sensor
+~services & quality_attributes & telephone & ~sprinkler
+~quality_attributes & intrusion & fire & flood & ~motion_sensor
+quality_attributes & ~intrusion & ~flood & ~motion_sensor
+~administration & ~monitor_control & ~quality_attributes & internet
+~communication & ~flood & ~internet & moisture_sensor
+internet & ~moisture_sensor
+intrusion & fire & ~flood & telephone & motion_sensor
+communication & action_devices & fire & flood & telephone
+~flood & moisture_sensor & safety
+monitor_control & telephone & motion_sensor & moisture_sensor
+priority & redundancy_control
+intrusion & fire & ~flood & hmi & motion_sensor
+action_devices & fire & ~internet & ~moisture_sensor
+quality_attributes & security & hmi & motion_sensor
+security & fire & telephone & ~internet & motion_sensor
+quality_attributes & moisture_sensor & usability
+services & communication & scalability
+detection_devices & action_devices & flood & ~telephone & motion_sensor
+~flood & ~internet & motion_sensor
+monitor_control & flood & hmi & motion_sensor
+~sump_pump & detection
+usability & monitoring_detecting2
+administration & ~communication & quality_attributes & hmi & ~internet
+internet & motion_sensor & direct
+~intrusion & ~flood & ~skoke_sensor
+~intrusion & ~flood & ~reliability
+communication & ~action_devices & ~quality_attributes & ~fire & internet
+~services & security & ~intrusion & flood & internet
+~administration & communication & flood & internet
+~security & ~intrusion & ~telephone & ~internet
+~services & detection_devices & action_devices & ~quality_attributes & intrusion
+~services & administration & ~monitor_control & ~quality_attributes & internet
+security & sprinkler & ~usability
+~communication & ~intrusion & fire & telephone & ~motion_sensor
+services & detection_devices & fire & flood & telephone
+flood & telephone & ~internet
+security & intrusion & motion_sensor & ~moisture_sensor
+sprinkler & ~detection2
+administration & detection_devices & fire & ~flood & telephone
+~internet & event_based & scalability
+~monitoring_detecting2 & continuous_value1
+administration & telephone & ~internet
+skoke_sensor & scheduled & scalability
+pumping & ~data
+~continuous_value & ~discrete_value1
+administration & monitor_control & hmi & ~telephone
+~internet & skoke_sensor & moisture_sensor
+~water_main & voice
+communication & detection_devices & monitor_control & intrusion
+detection_devices & intrusion & moisture_sensor
+moisture_sensor & usability & scalability
+alarm & discrete_value2
+services & ~flood & ~moisture_sensor & sprinkler
+administration & ~moisture_sensor & ~sump_pump
+services & ~communication & detection_devices & ~flood & hmi
+action_devices & fire & sump_pump
+action_devices & telephone & internet & skoke_sensor
+sprinkler & event_based & safety
+~sequential & redundancy_control
+administration & ~communication & action_devices & monitor_control
+monitor_control & intrusion & skoke_sensor & moisture_sensor
+services & action_devices & flood & moisture_sensor
+services & ~communication & sump_pump
+services & administration & telephone & sprinkler
+detection_devices & ~data
+services & intrusion & ~internet & moisture_sensor
+~moisture_sensor & direct & scalability
+~communication & monitor_control & fire & ~moisture_sensor
+action1 & ~data
+quality_attributes & security & internet & skoke_sensor
+detection_devices & scheduled
+detection_devices & skoke_sensor & reliability
+communication & active
+intrusion & fire & ~flood & ~internet

@@ -1,0 +1,11 @@
+10
+services & action_devices & ~security & ~intrusion & ~motion_sensor
+~telephone & motion_sensor & skoke_sensor & ~moisture_sensor
+services & monitor_control & intrusion & flood & ~telephone
+communication & ~flood & scalability
+administration & security & ~telephone
+~administration & ~monitor_control & ~intrusion & ~flood & motion_sensor
+administration & ~communication & action_devices & quality_attributes & security
+action_devices & fire & hmi & motion_sensor
+detection_devices & hmi & telephone & ~internet
+monitor_control & hmi & internet & sprinkler

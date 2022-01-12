@@ -1,0 +1,6 @@
+5
+~detection_devices & quality_attributes & security & ~flood & ~motion_sensor
+services & communication & reliability
+~sump_pump & ~sequential
+flood & hmi & telephone & internet
+action_devices & security & ~flood & telephone

@@ -1,7 +1,7 @@
-nameKB: windows8.splx
-TC: 25
+nameKB: ubuntu.splx
+TC: 500
 numGenFM: 1
-numIter: 1
+numIter: 3
 perViolated_nonViolated: 0.2
 dataPath: ./data/realworld/
 resultsPath: ./results/

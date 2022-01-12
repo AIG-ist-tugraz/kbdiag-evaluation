@@ -1,0 +1,26 @@
+25
+~LauncherIconSize & AutoHideTheLauncher
+BrightnessAndLock & ~Displays & Low & ~AcceptanceDelay & Fast
+~Displays & ~Short & Fast & Disabled
+BrightnessAndLock & UniversalAccess1 & ~Normal & High & Short
+~Fast & ~Disabled & ~Large
+Appearance & Displays1 & ~UniversalAccess1 & High & Speed
+~Sensitivity & AcceptanceDelay1
+Low & Normal & ~Speed & Slow
+~Appearance & ~BrightnessAndLock & High & ~AcceptanceDelay & Fast
+~Displays1 & ~Normal & Fast & Delay
+AcceptanceDelay & ~Short & ~Typing & Speed & Fast
+~Displays & ~Low & Normal & ~Speed & ~Fast
+~Appearance & ~UniversalAccess1 & ~AcceptanceDelay & Typing
+~BrightnessAndLock & ~Displays & ~Normal & ~Fast
+~Low & High & AcceptanceDelay & Short
+High & UniversalAccess & ~Large
+~Appearance & ~BrightnessAndLock & AcceptanceDelay & Disabled
+Appearance & ~Displays & ~Normal & ~Fast
+~Displays1 & UniversalAccess1 & ~High & ~Disabled
+Normal & SimulatedSecondaryCLick
+UniversalAccess1 & ~Displays & Behavoir
+High & AcceptanceDelay & Typing
+BrightnessAndLock & Displays & ~Speed & ~Delay
+Low & Normal & ~Lock
+~UniversalAccess1 & ~Low & Normal & High & ~Short

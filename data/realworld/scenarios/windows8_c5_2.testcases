@@ -1,0 +1,6 @@
+5
+Advanced & ~TurnOnNarrator & ~SetupMouseKeys
+~TopSpeed & ~MakeItEasierToManageWindows2
+UseTheComputerWithoutADisplay & ~MakeTheKeyboardEasierToUse & ~UseTextOrVisualAlternativesForSounds & TurnOnNarrator
+DisplayAWarningMessageWhenTurningASettingOn & ~MakeASoundWhenTurningASettingOnOrOff & ~TurnOnMouseKeys
+MakeTouchAndTabletsEasierToUse & DisplayAWarningMessageWhenTurningASettingOn & ControlTheMouseWithTheKeyboard
