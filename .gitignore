@@ -13,3 +13,7 @@ buildNumber.properties
 
 *.log
 *.zip
+.DS_Store
+data_test/.DS_Store
+data_test/data/.DS_Store
+data_test/data/realworld/.DS_Store
