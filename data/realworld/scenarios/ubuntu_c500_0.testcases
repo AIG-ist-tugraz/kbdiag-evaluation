@@ -24,9 +24,9 @@ Appearance & ~Displays & ~AcceptanceDelay & Short & Speed
 ~BrightnessAndLock & UniversalAccess1 & ~UniversalAccess & ~Disabled
 ~Normal & ~AcceptanceDelay & ~Long & Typing & ~Speed
 Low & ~High & Short & ~Long & Speed
-Appearance & ~UniversalAccess1 & High & Speed & ~Fast
+~BrightnessAndLock & ~UniversalAccess1 & ~Low & Normal & Fast
 Appearance & ~Low & ~High & Short & Slow
-~BrightnessAndLock & ~UniversalAccess1 & Delay
+Displays1 & ~Long & Slow & ~UniversalAccess
 ~UniversalAccess1 & Normal & High & ~Long & Speed
 ~Displays & Normal & ~Delay
 ~Lock & ~Hearing
@@ -53,9 +53,9 @@ Displays1 & ~Displays & Slow & UniversalAccess
 Appearance & ~UniversalAccess1 & ~High & AcceptanceDelay & ~Speed
 ~Displays & ~Low & Normal & ~Speed
 ~Displays & Normal & ~Short & Slow & ~Fast
-~AcceptanceDelay & ~Short & ~Typing & Speed & Fast
-~Appearance & ~Displays & ~Low & Normal & Fast
-~Displays1 & ~Displays & Speed & ~UniversalAccess
+~Appearance & Low & ~UniversalAccess & Delay
+~Normal & ~Long & Fast & ~UniversalAccess
+~UniversalAccess1 & Low & ~High & ~AcceptanceDelay & Fast
 ~Appearance & ~Displays & ~Low & Normal & ~Typing
 ~Displays & Low & Normal & ~High & ~Long
 Appearance & ~UniversalAccess1 & Low & AcceptanceDelay & ~Long
@@ -105,7 +105,7 @@ Displays1 & ~Displays & ~Low & Normal
 BrightnessAndLock & ~Displays & Low & Normal
 Displays1 & ~Displays & ~AcceptanceDelay & ~Typing & ~Slow
 Appearance & ~AcceptanceDelay & ~Behavoir
-UniversalAccess1 & ~Displays & Normal & Speed & Slow
+~Appearance & BrightnessAndLock & ~Displays & ~Typing & Speed
 ~Displays1 & UniversalAccess1 & Slow & ~UniversalAccess
 ~UniversalAccess1 & ~Low & Normal & Typing & ~Fast
 Appearance & ~Displays & Normal & Long & ~Fast

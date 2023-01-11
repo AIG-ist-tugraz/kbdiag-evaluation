@@ -24,9 +24,9 @@ Appearance & ~Displays & ~AcceptanceDelay & Short & Speed
 ~BrightnessAndLock & UniversalAccess1 & ~UniversalAccess & ~Disabled
 ~Normal & ~AcceptanceDelay & ~Long & Typing & ~Speed
 Low & ~High & Short & ~Long & Speed
-Appearance & ~UniversalAccess1 & High & Speed & ~Fast
+~BrightnessAndLock & ~UniversalAccess1 & ~Low & Normal & Fast
 Appearance & ~Low & ~High & Short & Slow
-~BrightnessAndLock & ~UniversalAccess1 & Delay
+Displays1 & ~Long & Slow & ~UniversalAccess
 ~UniversalAccess1 & Normal & High & ~Long & Speed
 ~Displays & Normal & ~Delay
 ~Lock & ~Hearing
