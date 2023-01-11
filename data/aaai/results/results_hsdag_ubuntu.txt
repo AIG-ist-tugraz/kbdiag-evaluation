@@ -1,0 +1,296 @@
+		UBUNTU.SPLX	UBUNTU_C5_0.TESTCASES
+			Diag: [requires(Displays1, Displays)]
+			Diag size: 1
+The number of left branch calls: 8
+The number of right branch calls: 8
+The number of post constraints: 1913
+The number of Choco Solver calls: 13
+The number of INconsistent: 9
+The number of unpost constraints: 1913
+The number of QX calls: 17
+The number of consistent: 4
+The number of split set: 8
+The number of union: 26
+The size of Consistency checks: 1913
+The number of Consistency checks: 13
+
+Time for first: 0.002516404
+		UBUNTU.SPLX	UBUNTU_C5_1.TESTCASES
+			Diag: [optional(AutoHideTheLauncher, Behavoir)]
+			Diag size: 1
+The number of left branch calls: 16
+The number of right branch calls: 16
+The number of post constraints: 16987
+The number of Choco Solver calls: 29
+The number of INconsistent: 14
+The number of unpost constraints: 16987
+The number of QX calls: 33
+The number of consistent: 15
+The number of split set: 16
+The number of union: 50
+The size of Consistency checks: 16987
+The number of Consistency checks: 29
+
+Time for first: 0.015743423
+		UBUNTU.SPLX	UBUNTU_C5_2.TESTCASES
+			Diag: [3cnf(~Normal, Normal1, Normal2)]
+			Diag size: 1
+The number of left branch calls: 39
+The number of right branch calls: 39
+The number of post constraints: 20807
+The number of Choco Solver calls: 63
+The number of INconsistent: 34
+The number of unpost constraints: 20807
+The number of QX calls: 79
+The number of consistent: 29
+The number of split set: 39
+The number of union: 119
+The size of Consistency checks: 20807
+The number of Consistency checks: 63
+
+Time for first: 0.021157329
+		UBUNTU.SPLX	UBUNTU_C10_0.TESTCASES
+			Diag: [requires(Displays1, Displays), 3cnf(~Normal, Normal1, Normal2)]
+			Diag size: 2
+The number of left branch calls: 45
+The number of right branch calls: 45
+The number of post constraints: 30409
+The number of Choco Solver calls: 73
+The number of INconsistent: 41
+The number of unpost constraints: 30409
+The number of QX calls: 92
+The number of consistent: 32
+The number of split set: 45
+The number of union: 138
+The size of Consistency checks: 30409
+The number of Consistency checks: 72
+
+Time for first: 0.034461865
+		UBUNTU.SPLX	UBUNTU_C10_1.TESTCASES
+			Diag: [optional(AutoHideTheLauncher, Behavoir), 3cnf(~Speed, Speed1, Speed2)]
+			Diag size: 2
+The number of left branch calls: 160
+The number of right branch calls: 160
+The number of post constraints: 100949
+The number of Choco Solver calls: 247
+The number of INconsistent: 138
+The number of unpost constraints: 100949
+The number of QX calls: 325
+The number of consistent: 109
+The number of split set: 160
+The number of union: 486
+The size of Consistency checks: 100949
+The number of Consistency checks: 243
+
+Time for first: 0.122919799
+		UBUNTU.SPLX	UBUNTU_C10_2.TESTCASES
+			Diag: [3cnf(~Normal, Normal1, Normal2), 3cnf(~Delay, Delay1, Delay2)]
+			Diag size: 2
+The number of left branch calls: 313
+The number of right branch calls: 313
+The number of post constraints: 199364
+The number of Choco Solver calls: 503
+The number of INconsistent: 259
+The number of unpost constraints: 199364
+The number of QX calls: 634
+The number of consistent: 244
+The number of split set: 313
+The number of union: 948
+The size of Consistency checks: 199364
+The number of Consistency checks: 496
+
+Time for first: 0.218700578
+		UBUNTU.SPLX	UBUNTU_C25_0.TESTCASES
+			Diag: [requires(Displays1, Displays), 3cnf(~Normal, Normal1, Normal2), 3cnf(~Speed, Speed1, Speed2), requires(UniversalAccess1, UniversalAccess)]
+			Diag size: 4
+The number of left branch calls: 1158
+The number of right branch calls: 1158
+The number of post constraints: 319016
+The number of Choco Solver calls: 1762
+The number of INconsistent: 1000
+The number of unpost constraints: 319016
+The number of QX calls: 2360
+The number of consistent: 762
+The number of split set: 1158
+The number of union: 3519
+The size of Consistency checks: 319016
+The number of Consistency checks: 1719
+
+Time for first: 0.429865605
+		UBUNTU.SPLX	UBUNTU_C25_1.TESTCASES
+			Diag: [optional(AutoHideTheLauncher, Behavoir), 3cnf(~Speed, Speed1, Speed2), 3cnf(~Normal, Normal1, Normal2), 3cnf(~Typing, Typing1, Typing2, Typing3)]
+			Diag size: 4
+The number of left branch calls: 6740
+The number of right branch calls: 6740
+The number of post constraints: 3999776
+The number of Choco Solver calls: 10747
+The number of INconsistent: 5854
+The number of unpost constraints: 3999776
+The number of QX calls: 13685
+The number of consistent: 4893
+The number of split set: 6740
+The number of union: 20426
+The size of Consistency checks: 3999776
+The number of Consistency checks: 10531
+
+Time for first: 3.27788245
+		UBUNTU.SPLX	UBUNTU_C25_2.TESTCASES
+			Diag: [3cnf(~Normal, Normal1, Normal2), optional(Typing1, UniversalAccess1), optional(ScreenReader, Seeing)]
+			Diag size: 3
+The number of left branch calls: 2894
+The number of right branch calls: 2894
+The number of post constraints: 2407589
+The number of Choco Solver calls: 5083
+The number of INconsistent: 2487
+The number of unpost constraints: 2407589
+The number of QX calls: 5924
+The number of consistent: 2596
+The number of split set: 2894
+The number of union: 8819
+The size of Consistency checks: 2407589
+The number of Consistency checks: 4933
+
+Time for first: 1.952746808
+		UBUNTU.SPLX	UBUNTU_C50_0.TESTCASES
+			Diag: [requires(Displays1, Displays), 3cnf(~Normal, Normal1, Normal2), 3cnf(~Speed, Speed1, Speed2), requires(UniversalAccess1, UniversalAccess), 3cnf(~Fast, Fast1, Fast2, Fast3, Fast4), requires(Low1, Low)]
+			Diag size: 6
+The number of left branch calls: 15257
+The number of right branch calls: 15257
+The number of post constraints: 7093998
+The number of Choco Solver calls: 25502
+The number of INconsistent: 14322
+The number of unpost constraints: 7093998
+The number of QX calls: 31321
+The number of consistent: 11180
+The number of split set: 15257
+The number of union: 46579
+The size of Consistency checks: 7093998
+The number of Consistency checks: 24560
+
+Time for first: 9.413344992
+		UBUNTU.SPLX	UBUNTU_C50_1.TESTCASES
+			Diag: [mandatory(Look, LauncherIconSize), 3cnf(~Speed, Speed1, Speed2), requires(Displays1, Displays), optional(Typing1, UniversalAccess1)]
+			Diag size: 4
+The number of left branch calls: 9291
+The number of right branch calls: 9291
+The number of post constraints: 5262437
+The number of Choco Solver calls: 15115
+The number of INconsistent: 8343
+The number of unpost constraints: 5262437
+The number of QX calls: 18987
+The number of consistent: 6772
+The number of split set: 9291
+The number of union: 28279
+The size of Consistency checks: 5262437
+The number of Consistency checks: 14610
+
+Time for first: 4.695677402
+		UBUNTU.SPLX	UBUNTU_C50_2.TESTCASES
+			Diag: [3cnf(~Normal, Normal1, Normal2), alternative(Typing2, CursorBlinking, RepeatKeys), optional(Typing1, UniversalAccess1), optional(ScreenReader, Seeing)]
+			Diag size: 4
+The number of left branch calls: 9958
+The number of right branch calls: 9958
+The number of post constraints: 8655238
+The number of Choco Solver calls: 18004
+The number of INconsistent: 9197
+The number of unpost constraints: 8655238
+The number of QX calls: 20508
+The number of consistent: 8807
+The number of split set: 9958
+The number of union: 30467
+The size of Consistency checks: 8655238
+The number of Consistency checks: 17375
+
+Time for first: 7.291420527
+		UBUNTU.SPLX	UBUNTU_C100_0.TESTCASES
+			Diag: [requires(Displays1, Displays), 3cnf(~Normal, Normal1, Normal2), 3cnf(~Speed, Speed1, Speed2), requires(UniversalAccess1, UniversalAccess), optional(PointingAndClicking, UniversalAccess1), requires(Low1, Low)]
+			Diag size: 6
+The number of left branch calls: 17974
+The number of right branch calls: 17974
+The number of post constraints: 9292547
+The number of Choco Solver calls: 30422
+The number of INconsistent: 16444
+The number of unpost constraints: 9292547
+The number of QX calls: 36840
+The number of consistent: 13978
+The number of split set: 17974
+The number of union: 54815
+The size of Consistency checks: 9292547
+The number of Consistency checks: 29045
+
+Time for first: 11.353878333
+		UBUNTU.SPLX	UBUNTU_C100_1.TESTCASES
+			Diag: [mandatory(Appearance, Look), 3cnf(~Speed, Speed1, Speed2), requires(Displays1, Displays), optional(Typing1, UniversalAccess1)]
+			Diag size: 4
+The number of left branch calls: 13879
+The number of right branch calls: 13879
+The number of post constraints: 7443725
+The number of Choco Solver calls: 23017
+The number of INconsistent: 12865
+The number of unpost constraints: 7443725
+The number of QX calls: 28541
+The number of consistent: 10152
+The number of split set: 13879
+The number of union: 42421
+The size of Consistency checks: 7443725
+The number of Consistency checks: 21956
+
+Time for first: 8.15259001
+		UBUNTU.SPLX	UBUNTU_C100_2.TESTCASES
+			Diag: [3cnf(~Normal, Normal1, Normal2), alternative(Typing2, CursorBlinking, RepeatKeys), optional(Typing1, UniversalAccess1), optional(ScreenReader, Seeing), requires(Displays1, Displays), mandatory(Look, LauncherIconSize)]
+			Diag size: 6
+The number of left branch calls: 163888
+The number of right branch calls: 163888
+The number of post constraints: 82936186
+The number of Choco Solver calls: 278349
+The number of INconsistent: 149001
+The number of unpost constraints: 82936186
+The number of QX calls: 336314
+The number of consistent: 129348
+The number of split set: 163888
+The number of union: 500203
+The size of Consistency checks: 82936186
+The number of Consistency checks: 255411
+
+Time for first: 187.702853438
+		UBUNTU.SPLX	UBUNTU_C250_0.TESTCASES
+			Diag: [requires(Displays1, Displays), 3cnf(~Normal, Normal1, Normal2), 3cnf(~Speed, Speed1, Speed2), requires(UniversalAccess1, UniversalAccess), optional(PointerSpeed2, Touchpad), mandatory(Appearance, Behavoir), optional(Typing1, UniversalAccess1), mandatory(Look, LauncherIconSize)]
+			Diag size: 8
+The number of left branch calls: 335763
+The number of right branch calls: 335763
+The number of post constraints: 351024384
+The number of Choco Solver calls: 739752
+The number of INconsistent: 300977
+The number of unpost constraints: 351024384
+The number of QX calls: 688701
+The number of consistent: 438775
+The number of split set: 335763
+The number of union: 1024465
+The size of Consistency checks: 351024384
+The number of Consistency checks: 557214
+
+Time for first: 964.262348583
+		UBUNTU.SPLX	UBUNTU_C250_1.TESTCASES
+			Diag: [mandatory(Appearance, Behavoir), 3cnf(~Speed, Speed1, Speed2), requires(Displays1, Displays), optional(Typing1, UniversalAccess1), mandatory(Appearance, Look), mandatory(Seeing, Displays2), requires(UniversalAccess1, UniversalAccess), requires(Acceleration2, Acceleration)]
+			Diag size: 8
+The number of left branch calls: 1183931
+The number of right branch calls: 1183931
+The number of post constraints: 706494147
+The number of Choco Solver calls: 2123563
+The number of INconsistent: 1122609
+The number of unpost constraints: 706494147
+The number of QX calls: 2441289
+The number of consistent: 1000954
+The number of split set: 1183931
+The number of union: 3625221
+The size of Consistency checks: 706494147
+The number of Consistency checks: 1941710
+
+Time for first: 13446.232043806
+
+HSDAG v2 Evaluation Results:
+0.013139052	
+0.125360747333333	
+1.886831621	
+7.13348097366667	
+69.069773927	

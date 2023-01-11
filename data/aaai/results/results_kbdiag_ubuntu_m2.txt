@@ -1,0 +1,387 @@
+		UBUNTU.SPLX	UBUNTU_C5_0.TESTCASES
+			Diag: [requires(AcceptanceDelay3, AcceptanceDelay), requires(Displays1, Displays)]
+			Diag size: 2
+The number of left branch calls: 7
+The number of right branch calls: 7
+The number of post constraints: 6423
+The number of Choco Solver calls: 10
+The number of different: 8
+The number of INconsistent: 3
+The number of unpost constraints: 6423
+The number of KBDiag calls: 15
+The number of consistent: 7
+The number of split set: 7
+The number of union: 24
+The size of Consistency checks: 6423
+The number of Consistency checks: 10
+
+Time for first: 0.002699283
+		UBUNTU.SPLX	UBUNTU_C5_0.TESTCASES
+			Diag: [requires(AcceptanceDelay3, AcceptanceDelay), requires(Displays1, Displays)]
+			Diag size: 2
+The number of left branch calls: 7
+The number of right branch calls: 7
+The number of post constraints: 6423
+The number of Choco Solver calls: 10
+The number of different: 8
+The number of INconsistent: 3
+The number of unpost constraints: 6423
+The number of KBDiag calls: 15
+The number of consistent: 7
+The number of split set: 7
+The number of union: 24
+The size of Consistency checks: 6423
+The number of Consistency checks: 10
+
+Time for first: 0.003173016
+		UBUNTU.SPLX	UBUNTU_C5_0.TESTCASES
+			Diag: [requires(AcceptanceDelay3, AcceptanceDelay), requires(Displays1, Displays)]
+			Diag size: 2
+The number of left branch calls: 7
+The number of right branch calls: 7
+The number of post constraints: 6423
+The number of Choco Solver calls: 10
+The number of different: 8
+The number of INconsistent: 3
+The number of unpost constraints: 6423
+The number of KBDiag calls: 15
+The number of consistent: 7
+The number of split set: 7
+The number of union: 24
+The size of Consistency checks: 6423
+The number of Consistency checks: 10
+
+Time for first: 0.003127912
+		UBUNTU.SPLX	UBUNTU_C10_0.TESTCASES
+			Diag: [requires(AcceptanceDelay3, AcceptanceDelay), requires(Displays1, Displays), 3cnf(~AcceptanceDelay, AcceptanceDelay1, AcceptanceDelay2, AcceptanceDelay3), 3cnf(~Normal, Normal1, Normal2)]
+			Diag size: 4
+The number of left branch calls: 10
+The number of right branch calls: 10
+The number of post constraints: 12917
+The number of Choco Solver calls: 20
+The number of different: 11
+The number of INconsistent: 6
+The number of unpost constraints: 12917
+The number of KBDiag calls: 21
+The number of consistent: 14
+The number of split set: 10
+The number of union: 35
+The size of Consistency checks: 12917
+The number of Consistency checks: 15
+
+Time for first: 0.007405402
+		UBUNTU.SPLX	UBUNTU_C10_0.TESTCASES
+			Diag: [requires(AcceptanceDelay3, AcceptanceDelay), requires(Displays1, Displays), 3cnf(~AcceptanceDelay, AcceptanceDelay1, AcceptanceDelay2, AcceptanceDelay3), 3cnf(~Normal, Normal1, Normal2)]
+			Diag size: 4
+The number of left branch calls: 10
+The number of right branch calls: 10
+The number of post constraints: 12917
+The number of Choco Solver calls: 20
+The number of different: 11
+The number of INconsistent: 6
+The number of unpost constraints: 12917
+The number of KBDiag calls: 21
+The number of consistent: 14
+The number of split set: 10
+The number of union: 35
+The size of Consistency checks: 12917
+The number of Consistency checks: 15
+
+Time for first: 0.00753742
+		UBUNTU.SPLX	UBUNTU_C10_0.TESTCASES
+			Diag: [requires(AcceptanceDelay3, AcceptanceDelay), requires(Displays1, Displays), 3cnf(~AcceptanceDelay, AcceptanceDelay1, AcceptanceDelay2, AcceptanceDelay3), 3cnf(~Normal, Normal1, Normal2)]
+			Diag size: 4
+The number of left branch calls: 10
+The number of right branch calls: 10
+The number of post constraints: 12917
+The number of Choco Solver calls: 20
+The number of different: 11
+The number of INconsistent: 6
+The number of unpost constraints: 12917
+The number of KBDiag calls: 21
+The number of consistent: 14
+The number of split set: 10
+The number of union: 35
+The size of Consistency checks: 12917
+The number of Consistency checks: 15
+
+Time for first: 0.007676773
+		UBUNTU.SPLX	UBUNTU_C25_0.TESTCASES
+			Diag: [requires(UniversalAccess1, UniversalAccess), requires(Disabled2, Disabled), requires(AcceptanceDelay3, AcceptanceDelay), requires(Displays1, Displays), requires(Disabled9, Disabled), 3cnf(~Speed, Speed1, Speed2), 3cnf(~AcceptanceDelay, AcceptanceDelay1, AcceptanceDelay2, AcceptanceDelay3), 3cnf(~Normal, Normal1, Normal2)]
+			Diag size: 8
+The number of left branch calls: 16
+The number of right branch calls: 16
+The number of post constraints: 30737
+The number of Choco Solver calls: 48
+The number of different: 17
+The number of INconsistent: 15
+The number of unpost constraints: 30737
+The number of KBDiag calls: 33
+The number of consistent: 33
+The number of split set: 16
+The number of union: 56
+The size of Consistency checks: 30737
+The number of Consistency checks: 24
+
+Time for first: 0.016641116
+		UBUNTU.SPLX	UBUNTU_C25_0.TESTCASES
+			Diag: [requires(UniversalAccess1, UniversalAccess), requires(Disabled2, Disabled), requires(AcceptanceDelay3, AcceptanceDelay), requires(Displays1, Displays), requires(Disabled9, Disabled), 3cnf(~Speed, Speed1, Speed2), 3cnf(~AcceptanceDelay, AcceptanceDelay1, AcceptanceDelay2, AcceptanceDelay3), 3cnf(~Normal, Normal1, Normal2)]
+			Diag size: 8
+The number of left branch calls: 16
+The number of right branch calls: 16
+The number of post constraints: 30737
+The number of Choco Solver calls: 48
+The number of different: 17
+The number of INconsistent: 15
+The number of unpost constraints: 30737
+The number of KBDiag calls: 33
+The number of consistent: 33
+The number of split set: 16
+The number of union: 56
+The size of Consistency checks: 30737
+The number of Consistency checks: 24
+
+Time for first: 0.014064629
+		UBUNTU.SPLX	UBUNTU_C25_0.TESTCASES
+			Diag: [requires(UniversalAccess1, UniversalAccess), requires(Disabled2, Disabled), requires(AcceptanceDelay3, AcceptanceDelay), requires(Displays1, Displays), requires(Disabled9, Disabled), 3cnf(~Speed, Speed1, Speed2), 3cnf(~AcceptanceDelay, AcceptanceDelay1, AcceptanceDelay2, AcceptanceDelay3), 3cnf(~Normal, Normal1, Normal2)]
+			Diag size: 8
+The number of left branch calls: 16
+The number of right branch calls: 16
+The number of post constraints: 30737
+The number of Choco Solver calls: 48
+The number of different: 17
+The number of INconsistent: 15
+The number of unpost constraints: 30737
+The number of KBDiag calls: 33
+The number of consistent: 33
+The number of split set: 16
+The number of union: 56
+The size of Consistency checks: 30737
+The number of Consistency checks: 24
+
+Time for first: 0.014367956
+		UBUNTU.SPLX	UBUNTU_C50_0.TESTCASES
+			Diag: [requires(UniversalAccess1, UniversalAccess), requires(Disabled2, Disabled), requires(Long4, Long), requires(Low1, Low), requires(AcceptanceDelay3, AcceptanceDelay), requires(Displays1, Displays), requires(Disabled9, Disabled), 3cnf(~Speed, Speed1, Speed2), 3cnf(~AcceptanceDelay, AcceptanceDelay1, AcceptanceDelay2, AcceptanceDelay3), 3cnf(~Normal, Normal1, Normal2), requires(Fast3, Fast), 3cnf(~Fast, Fast1, Fast2, Fast3, Fast4)]
+			Diag size: 12
+The number of left branch calls: 21
+The number of right branch calls: 21
+The number of post constraints: 56762
+The number of Choco Solver calls: 89
+The number of different: 22
+The number of INconsistent: 25
+The number of unpost constraints: 56762
+The number of KBDiag calls: 43
+The number of consistent: 64
+The number of split set: 21
+The number of union: 71
+The size of Consistency checks: 56762
+The number of Consistency checks: 29
+
+Time for first: 0.025859057
+		UBUNTU.SPLX	UBUNTU_C50_0.TESTCASES
+			Diag: [requires(UniversalAccess1, UniversalAccess), requires(Disabled2, Disabled), requires(Long4, Long), requires(Low1, Low), requires(AcceptanceDelay3, AcceptanceDelay), requires(Displays1, Displays), requires(Disabled9, Disabled), 3cnf(~Speed, Speed1, Speed2), 3cnf(~AcceptanceDelay, AcceptanceDelay1, AcceptanceDelay2, AcceptanceDelay3), 3cnf(~Normal, Normal1, Normal2), requires(Fast3, Fast), 3cnf(~Fast, Fast1, Fast2, Fast3, Fast4)]
+			Diag size: 12
+The number of left branch calls: 21
+The number of right branch calls: 21
+The number of post constraints: 56762
+The number of Choco Solver calls: 89
+The number of different: 22
+The number of INconsistent: 25
+The number of unpost constraints: 56762
+The number of KBDiag calls: 43
+The number of consistent: 64
+The number of split set: 21
+The number of union: 71
+The size of Consistency checks: 56762
+The number of Consistency checks: 29
+
+Time for first: 0.025689968
+		UBUNTU.SPLX	UBUNTU_C50_0.TESTCASES
+			Diag: [requires(UniversalAccess1, UniversalAccess), requires(Disabled2, Disabled), requires(Long4, Long), requires(Low1, Low), requires(AcceptanceDelay3, AcceptanceDelay), requires(Displays1, Displays), requires(Disabled9, Disabled), 3cnf(~Speed, Speed1, Speed2), 3cnf(~AcceptanceDelay, AcceptanceDelay1, AcceptanceDelay2, AcceptanceDelay3), 3cnf(~Normal, Normal1, Normal2), requires(Fast3, Fast), 3cnf(~Fast, Fast1, Fast2, Fast3, Fast4)]
+			Diag size: 12
+The number of left branch calls: 21
+The number of right branch calls: 21
+The number of post constraints: 56762
+The number of Choco Solver calls: 89
+The number of different: 22
+The number of INconsistent: 25
+The number of unpost constraints: 56762
+The number of KBDiag calls: 43
+The number of consistent: 64
+The number of split set: 21
+The number of union: 71
+The size of Consistency checks: 56762
+The number of Consistency checks: 29
+
+Time for first: 0.026852789
+		UBUNTU.SPLX	UBUNTU_C100_0.TESTCASES
+			Diag: [requires(UniversalAccess1, UniversalAccess), requires(Disabled2, Disabled), requires(Long4, Long), requires(Low1, Low), requires(AcceptanceDelay3, AcceptanceDelay), requires(Displays1, Displays), requires(Disabled9, Disabled), 3cnf(~Speed, Speed1, Speed2), 3cnf(~AcceptanceDelay, AcceptanceDelay1, AcceptanceDelay2, AcceptanceDelay3), 3cnf(~Normal, Normal1, Normal2), requires(Fast3, Fast), 3cnf(~Fast, Fast1, Fast2, Fast3, Fast4)]
+			Diag size: 12
+The number of left branch calls: 21
+The number of right branch calls: 21
+The number of post constraints: 109106
+The number of Choco Solver calls: 171
+The number of different: 22
+The number of INconsistent: 47
+The number of unpost constraints: 109106
+The number of KBDiag calls: 43
+The number of consistent: 124
+The number of split set: 21
+The number of union: 71
+The size of Consistency checks: 109106
+The number of Consistency checks: 29
+
+Time for first: 0.048763832
+		UBUNTU.SPLX	UBUNTU_C100_0.TESTCASES
+			Diag: [requires(UniversalAccess1, UniversalAccess), requires(Disabled2, Disabled), requires(Long4, Long), requires(Low1, Low), requires(AcceptanceDelay3, AcceptanceDelay), requires(Displays1, Displays), requires(Disabled9, Disabled), 3cnf(~Speed, Speed1, Speed2), 3cnf(~AcceptanceDelay, AcceptanceDelay1, AcceptanceDelay2, AcceptanceDelay3), 3cnf(~Normal, Normal1, Normal2), requires(Fast3, Fast), 3cnf(~Fast, Fast1, Fast2, Fast3, Fast4)]
+			Diag size: 12
+The number of left branch calls: 21
+The number of right branch calls: 21
+The number of post constraints: 109106
+The number of Choco Solver calls: 171
+The number of different: 22
+The number of INconsistent: 47
+The number of unpost constraints: 109106
+The number of KBDiag calls: 43
+The number of consistent: 124
+The number of split set: 21
+The number of union: 71
+The size of Consistency checks: 109106
+The number of Consistency checks: 29
+
+Time for first: 0.049285477
+		UBUNTU.SPLX	UBUNTU_C100_0.TESTCASES
+			Diag: [requires(UniversalAccess1, UniversalAccess), requires(Disabled2, Disabled), requires(Long4, Long), requires(Low1, Low), requires(AcceptanceDelay3, AcceptanceDelay), requires(Displays1, Displays), requires(Disabled9, Disabled), 3cnf(~Speed, Speed1, Speed2), 3cnf(~AcceptanceDelay, AcceptanceDelay1, AcceptanceDelay2, AcceptanceDelay3), 3cnf(~Normal, Normal1, Normal2), requires(Fast3, Fast), 3cnf(~Fast, Fast1, Fast2, Fast3, Fast4)]
+			Diag size: 12
+The number of left branch calls: 21
+The number of right branch calls: 21
+The number of post constraints: 109106
+The number of Choco Solver calls: 171
+The number of different: 22
+The number of INconsistent: 47
+The number of unpost constraints: 109106
+The number of KBDiag calls: 43
+The number of consistent: 124
+The number of split set: 21
+The number of union: 71
+The size of Consistency checks: 109106
+The number of Consistency checks: 29
+
+Time for first: 0.047593373
+		UBUNTU.SPLX	UBUNTU_C250_0.TESTCASES
+			Diag: [mandatory(Appearance, Look), mandatory(Appearance, Behavoir), requires(UniversalAccess1, UniversalAccess), requires(Disabled2, Disabled), requires(Displays2, Displays), 3cnf(~Displays, Displays1, Displays2), requires(AcceptanceDelay3, AcceptanceDelay), requires(Displays1, Displays), requires(Disabled9, Disabled), 3cnf(~Speed, Speed1, Speed2), 3cnf(~AcceptanceDelay, AcceptanceDelay1, AcceptanceDelay2, AcceptanceDelay3), 3cnf(~Normal, Normal1, Normal2), requires(Long5, Long), 3cnf(~Typing, Typing1, Typing2, Typing3), 3cnf(~UniversalAccess, UniversalAccess1, UniversalAccess2), requires(Sensitivity1, Sensitivity), requires(Fast3, Fast), 3cnf(~Fast, Fast1, Fast2, Fast3, Fast4)]
+			Diag size: 18
+The number of left branch calls: 29
+The number of right branch calls: 29
+The number of post constraints: 291774
+The number of Choco Solver calls: 468
+The number of different: 30
+The number of INconsistent: 173
+The number of unpost constraints: 291774
+The number of KBDiag calls: 59
+The number of consistent: 295
+The number of split set: 29
+The number of union: 105
+The size of Consistency checks: 291774
+The number of Consistency checks: 47
+
+Time for first: 0.140392993
+		UBUNTU.SPLX	UBUNTU_C250_0.TESTCASES
+			Diag: [mandatory(Appearance, Look), mandatory(Appearance, Behavoir), requires(UniversalAccess1, UniversalAccess), requires(Disabled2, Disabled), requires(Displays2, Displays), 3cnf(~Displays, Displays1, Displays2), requires(AcceptanceDelay3, AcceptanceDelay), requires(Displays1, Displays), requires(Disabled9, Disabled), 3cnf(~Speed, Speed1, Speed2), 3cnf(~AcceptanceDelay, AcceptanceDelay1, AcceptanceDelay2, AcceptanceDelay3), 3cnf(~Normal, Normal1, Normal2), requires(Long5, Long), 3cnf(~Typing, Typing1, Typing2, Typing3), 3cnf(~UniversalAccess, UniversalAccess1, UniversalAccess2), requires(Sensitivity1, Sensitivity), requires(Fast3, Fast), 3cnf(~Fast, Fast1, Fast2, Fast3, Fast4)]
+			Diag size: 18
+The number of left branch calls: 29
+The number of right branch calls: 29
+The number of post constraints: 291774
+The number of Choco Solver calls: 468
+The number of different: 30
+The number of INconsistent: 173
+The number of unpost constraints: 291774
+The number of KBDiag calls: 59
+The number of consistent: 295
+The number of split set: 29
+The number of union: 105
+The size of Consistency checks: 291774
+The number of Consistency checks: 47
+
+Time for first: 0.124791712
+		UBUNTU.SPLX	UBUNTU_C250_0.TESTCASES
+			Diag: [mandatory(Appearance, Look), mandatory(Appearance, Behavoir), requires(UniversalAccess1, UniversalAccess), requires(Disabled2, Disabled), requires(Displays2, Displays), 3cnf(~Displays, Displays1, Displays2), requires(AcceptanceDelay3, AcceptanceDelay), requires(Displays1, Displays), requires(Disabled9, Disabled), 3cnf(~Speed, Speed1, Speed2), 3cnf(~AcceptanceDelay, AcceptanceDelay1, AcceptanceDelay2, AcceptanceDelay3), 3cnf(~Normal, Normal1, Normal2), requires(Long5, Long), 3cnf(~Typing, Typing1, Typing2, Typing3), 3cnf(~UniversalAccess, UniversalAccess1, UniversalAccess2), requires(Sensitivity1, Sensitivity), requires(Fast3, Fast), 3cnf(~Fast, Fast1, Fast2, Fast3, Fast4)]
+			Diag size: 18
+The number of left branch calls: 29
+The number of right branch calls: 29
+The number of post constraints: 291774
+The number of Choco Solver calls: 468
+The number of different: 30
+The number of INconsistent: 173
+The number of unpost constraints: 291774
+The number of KBDiag calls: 59
+The number of consistent: 295
+The number of split set: 29
+The number of union: 105
+The size of Consistency checks: 291774
+The number of Consistency checks: 47
+
+Time for first: 0.136211999
+		UBUNTU.SPLX	UBUNTU_C500_0.TESTCASES
+			Diag: [mandatory(Appearance, Look), mandatory(Appearance, Behavoir), requires(High1, High), 3cnf(~General, General1, General2), requires(UniversalAccess1, UniversalAccess), requires(Disabled2, Disabled), requires(Displays2, Displays), 3cnf(~Displays, Displays1, Displays2), requires(Disabled6, Disabled), requires(AcceptanceDelay2, AcceptanceDelay), requires(AcceptanceDelay3, AcceptanceDelay), requires(Displays1, Displays), requires(Disabled9, Disabled), 3cnf(~Speed, Speed1, Speed2), 3cnf(~AcceptanceDelay, AcceptanceDelay1, AcceptanceDelay2, AcceptanceDelay3), 3cnf(~Normal, Normal1, Normal2), requires(Long5, Long), 3cnf(~Typing, Typing1, Typing2, Typing3), 3cnf(~UniversalAccess, UniversalAccess1, UniversalAccess2), requires(Sensitivity1, Sensitivity), requires(Fast3, Fast), 3cnf(~Fast, Fast1, Fast2, Fast3, Fast4)]
+			Diag size: 22
+The number of left branch calls: 34
+The number of right branch calls: 34
+The number of post constraints: 701414
+The number of Choco Solver calls: 1121
+The number of different: 35
+The number of INconsistent: 504
+The number of unpost constraints: 701414
+The number of KBDiag calls: 69
+The number of consistent: 617
+The number of split set: 34
+The number of union: 125
+The size of Consistency checks: 701414
+The number of Consistency checks: 57
+
+Time for first: 0.337433221
+		UBUNTU.SPLX	UBUNTU_C500_0.TESTCASES
+			Diag: [mandatory(Appearance, Look), mandatory(Appearance, Behavoir), requires(High1, High), 3cnf(~General, General1, General2), requires(UniversalAccess1, UniversalAccess), requires(Disabled2, Disabled), requires(Displays2, Displays), 3cnf(~Displays, Displays1, Displays2), requires(Disabled6, Disabled), requires(AcceptanceDelay2, AcceptanceDelay), requires(AcceptanceDelay3, AcceptanceDelay), requires(Displays1, Displays), requires(Disabled9, Disabled), 3cnf(~Speed, Speed1, Speed2), 3cnf(~AcceptanceDelay, AcceptanceDelay1, AcceptanceDelay2, AcceptanceDelay3), 3cnf(~Normal, Normal1, Normal2), requires(Long5, Long), 3cnf(~Typing, Typing1, Typing2, Typing3), 3cnf(~UniversalAccess, UniversalAccess1, UniversalAccess2), requires(Sensitivity1, Sensitivity), requires(Fast3, Fast), 3cnf(~Fast, Fast1, Fast2, Fast3, Fast4)]
+			Diag size: 22
+The number of left branch calls: 34
+The number of right branch calls: 34
+The number of post constraints: 701414
+The number of Choco Solver calls: 1121
+The number of different: 35
+The number of INconsistent: 504
+The number of unpost constraints: 701414
+The number of KBDiag calls: 69
+The number of consistent: 617
+The number of split set: 34
+The number of union: 125
+The size of Consistency checks: 701414
+The number of Consistency checks: 57
+
+Time for first: 0.335680757
+		UBUNTU.SPLX	UBUNTU_C500_0.TESTCASES
+			Diag: [mandatory(Appearance, Look), mandatory(Appearance, Behavoir), requires(High1, High), 3cnf(~General, General1, General2), requires(UniversalAccess1, UniversalAccess), requires(Disabled2, Disabled), requires(Displays2, Displays), 3cnf(~Displays, Displays1, Displays2), requires(Disabled6, Disabled), requires(AcceptanceDelay2, AcceptanceDelay), requires(AcceptanceDelay3, AcceptanceDelay), requires(Displays1, Displays), requires(Disabled9, Disabled), 3cnf(~Speed, Speed1, Speed2), 3cnf(~AcceptanceDelay, AcceptanceDelay1, AcceptanceDelay2, AcceptanceDelay3), 3cnf(~Normal, Normal1, Normal2), requires(Long5, Long), 3cnf(~Typing, Typing1, Typing2, Typing3), 3cnf(~UniversalAccess, UniversalAccess1, UniversalAccess2), requires(Sensitivity1, Sensitivity), requires(Fast3, Fast), 3cnf(~Fast, Fast1, Fast2, Fast3, Fast4)]
+			Diag size: 22
+The number of left branch calls: 34
+The number of right branch calls: 34
+The number of post constraints: 701414
+The number of Choco Solver calls: 1121
+The number of different: 35
+The number of INconsistent: 504
+The number of unpost constraints: 701414
+The number of KBDiag calls: 69
+The number of consistent: 617
+The number of split set: 34
+The number of union: 125
+The size of Consistency checks: 701414
+The number of Consistency checks: 57
+
+Time for first: 0.324659041
+
+KBDiag Evaluation Results:
+0.0030000703333333332	
+0.007539865	
+0.015024567	
+0.026133938	
+0.04854756066666666	
+0.13379890133333336	
+0.3325910063333333	

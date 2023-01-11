@@ -1,0 +1,387 @@
+		REAL-FM-11.SPLX	REAL-FM-11_C5_0.TESTCASES
+			Diag: [mandatory(his, quality_attributes), mandatory(services, security)]
+			Diag size: 2
+The number of left branch calls: 5
+The number of right branch calls: 5
+The number of post constraints: 355
+The number of Choco Solver calls: 8
+The number of different: 6
+The number of INconsistent: 3
+The number of unpost constraints: 355
+The number of KBDiag calls: 11
+The number of consistent: 5
+The number of split set: 5
+The number of union: 18
+The size of Consistency checks: 355
+The number of Consistency checks: 8
+
+Time for first: 2.31689E-4
+		REAL-FM-11.SPLX	REAL-FM-11_C5_0.TESTCASES
+			Diag: [mandatory(his, quality_attributes), mandatory(services, security)]
+			Diag size: 2
+The number of left branch calls: 5
+The number of right branch calls: 5
+The number of post constraints: 355
+The number of Choco Solver calls: 8
+The number of different: 6
+The number of INconsistent: 3
+The number of unpost constraints: 355
+The number of KBDiag calls: 11
+The number of consistent: 5
+The number of split set: 5
+The number of union: 18
+The size of Consistency checks: 355
+The number of Consistency checks: 8
+
+Time for first: 2.32351E-4
+		REAL-FM-11.SPLX	REAL-FM-11_C5_0.TESTCASES
+			Diag: [mandatory(his, quality_attributes), mandatory(services, security)]
+			Diag size: 2
+The number of left branch calls: 5
+The number of right branch calls: 5
+The number of post constraints: 355
+The number of Choco Solver calls: 8
+The number of different: 6
+The number of INconsistent: 3
+The number of unpost constraints: 355
+The number of KBDiag calls: 11
+The number of consistent: 5
+The number of split set: 5
+The number of union: 18
+The size of Consistency checks: 355
+The number of Consistency checks: 8
+
+Time for first: 3.66558E-4
+		REAL-FM-11.SPLX	REAL-FM-11_C10_0.TESTCASES
+			Diag: [optional(communication, his), mandatory(his, detection_devices), mandatory(his, quality_attributes), mandatory(services, security), optional(flood, services), mandatory(administration, hmi)]
+			Diag size: 6
+The number of left branch calls: 8
+The number of right branch calls: 8
+The number of post constraints: 772
+The number of Choco Solver calls: 21
+The number of different: 9
+The number of INconsistent: 10
+The number of unpost constraints: 772
+The number of KBDiag calls: 17
+The number of consistent: 11
+The number of split set: 8
+The number of union: 29
+The size of Consistency checks: 772
+The number of Consistency checks: 13
+
+Time for first: 5.59751E-4
+		REAL-FM-11.SPLX	REAL-FM-11_C10_0.TESTCASES
+			Diag: [optional(communication, his), mandatory(his, detection_devices), mandatory(his, quality_attributes), mandatory(services, security), optional(flood, services), mandatory(administration, hmi)]
+			Diag size: 6
+The number of left branch calls: 8
+The number of right branch calls: 8
+The number of post constraints: 772
+The number of Choco Solver calls: 21
+The number of different: 9
+The number of INconsistent: 10
+The number of unpost constraints: 772
+The number of KBDiag calls: 17
+The number of consistent: 11
+The number of split set: 8
+The number of union: 29
+The size of Consistency checks: 772
+The number of Consistency checks: 13
+
+Time for first: 5.30575E-4
+		REAL-FM-11.SPLX	REAL-FM-11_C10_0.TESTCASES
+			Diag: [optional(communication, his), mandatory(his, detection_devices), mandatory(his, quality_attributes), mandatory(services, security), optional(flood, services), mandatory(administration, hmi)]
+			Diag size: 6
+The number of left branch calls: 8
+The number of right branch calls: 8
+The number of post constraints: 772
+The number of Choco Solver calls: 21
+The number of different: 9
+The number of INconsistent: 10
+The number of unpost constraints: 772
+The number of KBDiag calls: 17
+The number of consistent: 11
+The number of split set: 8
+The number of union: 29
+The size of Consistency checks: 772
+The number of Consistency checks: 13
+
+Time for first: 5.15792E-4
+		REAL-FM-11.SPLX	REAL-FM-11_C25_0.TESTCASES
+			Diag: [optional(communication, his), mandatory(his, detection_devices), mandatory(his, quality_attributes), mandatory(services, security), mandatory(services, intrusion), mandatory(services, fire), optional(flood, services), mandatory(administration, hmi), optional(moisture_sensor, detection_devices), mandatory(action_devices, sprinkler)]
+			Diag size: 10
+The number of left branch calls: 11
+The number of right branch calls: 11
+The number of post constraints: 2159
+The number of Choco Solver calls: 59
+The number of different: 12
+The number of INconsistent: 30
+The number of unpost constraints: 2159
+The number of KBDiag calls: 23
+The number of consistent: 29
+The number of split set: 11
+The number of union: 42
+The size of Consistency checks: 2159
+The number of Consistency checks: 20
+
+Time for first: 0.00128314
+		REAL-FM-11.SPLX	REAL-FM-11_C25_0.TESTCASES
+			Diag: [optional(communication, his), mandatory(his, detection_devices), mandatory(his, quality_attributes), mandatory(services, security), mandatory(services, intrusion), mandatory(services, fire), optional(flood, services), mandatory(administration, hmi), optional(moisture_sensor, detection_devices), mandatory(action_devices, sprinkler)]
+			Diag size: 10
+The number of left branch calls: 11
+The number of right branch calls: 11
+The number of post constraints: 2159
+The number of Choco Solver calls: 59
+The number of different: 12
+The number of INconsistent: 30
+The number of unpost constraints: 2159
+The number of KBDiag calls: 23
+The number of consistent: 29
+The number of split set: 11
+The number of union: 42
+The size of Consistency checks: 2159
+The number of Consistency checks: 20
+
+Time for first: 0.001269327
+		REAL-FM-11.SPLX	REAL-FM-11_C25_0.TESTCASES
+			Diag: [optional(communication, his), mandatory(his, detection_devices), mandatory(his, quality_attributes), mandatory(services, security), mandatory(services, intrusion), mandatory(services, fire), optional(flood, services), mandatory(administration, hmi), optional(moisture_sensor, detection_devices), mandatory(action_devices, sprinkler)]
+			Diag size: 10
+The number of left branch calls: 11
+The number of right branch calls: 11
+The number of post constraints: 2159
+The number of Choco Solver calls: 59
+The number of different: 12
+The number of INconsistent: 30
+The number of unpost constraints: 2159
+The number of KBDiag calls: 23
+The number of consistent: 29
+The number of split set: 11
+The number of union: 42
+The size of Consistency checks: 2159
+The number of Consistency checks: 20
+
+Time for first: 0.001328103
+		REAL-FM-11.SPLX	REAL-FM-11_C50_0.TESTCASES
+			Diag: [mandatory(his, services), mandatory(his, administration), optional(communication, his), mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, monitor_control), mandatory(his, quality_attributes), mandatory(services, security), mandatory(services, intrusion), mandatory(services, fire), optional(flood, services), mandatory(administration, hmi), optional(moisture_sensor, detection_devices), mandatory(action_devices, sprinkler)]
+			Diag size: 14
+The number of left branch calls: 11
+The number of right branch calls: 11
+The number of post constraints: 3435
+The number of Choco Solver calls: 106
+The number of different: 12
+The number of INconsistent: 54
+The number of unpost constraints: 3435
+The number of KBDiag calls: 23
+The number of consistent: 52
+The number of split set: 11
+The number of union: 44
+The size of Consistency checks: 3435
+The number of Consistency checks: 22
+
+Time for first: 0.001869082
+		REAL-FM-11.SPLX	REAL-FM-11_C50_0.TESTCASES
+			Diag: [mandatory(his, services), mandatory(his, administration), optional(communication, his), mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, monitor_control), mandatory(his, quality_attributes), mandatory(services, security), mandatory(services, intrusion), mandatory(services, fire), optional(flood, services), mandatory(administration, hmi), optional(moisture_sensor, detection_devices), mandatory(action_devices, sprinkler)]
+			Diag size: 14
+The number of left branch calls: 11
+The number of right branch calls: 11
+The number of post constraints: 3435
+The number of Choco Solver calls: 106
+The number of different: 12
+The number of INconsistent: 54
+The number of unpost constraints: 3435
+The number of KBDiag calls: 23
+The number of consistent: 52
+The number of split set: 11
+The number of union: 44
+The size of Consistency checks: 3435
+The number of Consistency checks: 22
+
+Time for first: 0.002077999
+		REAL-FM-11.SPLX	REAL-FM-11_C50_0.TESTCASES
+			Diag: [mandatory(his, services), mandatory(his, administration), optional(communication, his), mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, monitor_control), mandatory(his, quality_attributes), mandatory(services, security), mandatory(services, intrusion), mandatory(services, fire), optional(flood, services), mandatory(administration, hmi), optional(moisture_sensor, detection_devices), mandatory(action_devices, sprinkler)]
+			Diag size: 14
+The number of left branch calls: 11
+The number of right branch calls: 11
+The number of post constraints: 3435
+The number of Choco Solver calls: 106
+The number of different: 12
+The number of INconsistent: 54
+The number of unpost constraints: 3435
+The number of KBDiag calls: 23
+The number of consistent: 52
+The number of split set: 11
+The number of union: 44
+The size of Consistency checks: 3435
+The number of Consistency checks: 22
+
+Time for first: 0.001911046
+		REAL-FM-11.SPLX	REAL-FM-11_C100_0.TESTCASES
+			Diag: [mandatory(his, services), mandatory(his, administration), optional(communication, his), mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, monitor_control), mandatory(his, quality_attributes), mandatory(services, security), mandatory(services, intrusion), mandatory(services, fire), optional(flood, services), mandatory(administration, hmi), mandatory(communication, telephone), optional(internet, communication), optional(moisture_sensor, detection_devices), mandatory(action_devices, sprinkler), requires(message, communication), requires(flood, moisture_sensor)]
+			Diag size: 18
+The number of left branch calls: 16
+The number of right branch calls: 16
+The number of post constraints: 6927
+The number of Choco Solver calls: 208
+The number of different: 17
+The number of INconsistent: 105
+The number of unpost constraints: 6927
+The number of KBDiag calls: 33
+The number of consistent: 103
+The number of split set: 16
+The number of union: 60
+The size of Consistency checks: 6927
+The number of Consistency checks: 28
+
+Time for first: 0.003937705
+		REAL-FM-11.SPLX	REAL-FM-11_C100_0.TESTCASES
+			Diag: [mandatory(his, services), mandatory(his, administration), optional(communication, his), mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, monitor_control), mandatory(his, quality_attributes), mandatory(services, security), mandatory(services, intrusion), mandatory(services, fire), optional(flood, services), mandatory(administration, hmi), mandatory(communication, telephone), optional(internet, communication), optional(moisture_sensor, detection_devices), mandatory(action_devices, sprinkler), requires(message, communication), requires(flood, moisture_sensor)]
+			Diag size: 18
+The number of left branch calls: 16
+The number of right branch calls: 16
+The number of post constraints: 6927
+The number of Choco Solver calls: 208
+The number of different: 17
+The number of INconsistent: 105
+The number of unpost constraints: 6927
+The number of KBDiag calls: 33
+The number of consistent: 103
+The number of split set: 16
+The number of union: 60
+The size of Consistency checks: 6927
+The number of Consistency checks: 28
+
+Time for first: 0.003699626
+		REAL-FM-11.SPLX	REAL-FM-11_C100_0.TESTCASES
+			Diag: [mandatory(his, services), mandatory(his, administration), optional(communication, his), mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, monitor_control), mandatory(his, quality_attributes), mandatory(services, security), mandatory(services, intrusion), mandatory(services, fire), optional(flood, services), mandatory(administration, hmi), mandatory(communication, telephone), optional(internet, communication), optional(moisture_sensor, detection_devices), mandatory(action_devices, sprinkler), requires(message, communication), requires(flood, moisture_sensor)]
+			Diag size: 18
+The number of left branch calls: 16
+The number of right branch calls: 16
+The number of post constraints: 6927
+The number of Choco Solver calls: 208
+The number of different: 17
+The number of INconsistent: 105
+The number of unpost constraints: 6927
+The number of KBDiag calls: 33
+The number of consistent: 103
+The number of split set: 16
+The number of union: 60
+The size of Consistency checks: 6927
+The number of Consistency checks: 28
+
+Time for first: 0.003768815
+		REAL-FM-11.SPLX	REAL-FM-11_C250_0.TESTCASES
+			Diag: [mandatory(his, services), mandatory(his, administration), optional(communication, his), mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, monitor_control), mandatory(his, quality_attributes), mandatory(services, security), mandatory(services, intrusion), mandatory(services, fire), optional(flood, services), mandatory(administration, hmi), mandatory(communication, telephone), optional(internet, communication), mandatory(detection_devices, motion_sensor), mandatory(detection_devices, skoke_sensor), mandatory(quality_attributes, scalability), mandatory(quality_attributes, reliability), requires(message, communication), requires(flood, moisture_sensor)]
+			Diag size: 20
+The number of left branch calls: 16
+The number of right branch calls: 16
+The number of post constraints: 15722
+The number of Choco Solver calls: 473
+The number of different: 17
+The number of INconsistent: 234
+The number of unpost constraints: 15722
+The number of KBDiag calls: 33
+The number of consistent: 239
+The number of split set: 16
+The number of union: 59
+The size of Consistency checks: 15722
+The number of Consistency checks: 27
+
+Time for first: 0.007441218
+		REAL-FM-11.SPLX	REAL-FM-11_C250_0.TESTCASES
+			Diag: [mandatory(his, services), mandatory(his, administration), optional(communication, his), mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, monitor_control), mandatory(his, quality_attributes), mandatory(services, security), mandatory(services, intrusion), mandatory(services, fire), optional(flood, services), mandatory(administration, hmi), mandatory(communication, telephone), optional(internet, communication), mandatory(detection_devices, motion_sensor), mandatory(detection_devices, skoke_sensor), mandatory(quality_attributes, scalability), mandatory(quality_attributes, reliability), requires(message, communication), requires(flood, moisture_sensor)]
+			Diag size: 20
+The number of left branch calls: 16
+The number of right branch calls: 16
+The number of post constraints: 15722
+The number of Choco Solver calls: 473
+The number of different: 17
+The number of INconsistent: 234
+The number of unpost constraints: 15722
+The number of KBDiag calls: 33
+The number of consistent: 239
+The number of split set: 16
+The number of union: 59
+The size of Consistency checks: 15722
+The number of Consistency checks: 27
+
+Time for first: 0.0066973
+		REAL-FM-11.SPLX	REAL-FM-11_C250_0.TESTCASES
+			Diag: [mandatory(his, services), mandatory(his, administration), optional(communication, his), mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, monitor_control), mandatory(his, quality_attributes), mandatory(services, security), mandatory(services, intrusion), mandatory(services, fire), optional(flood, services), mandatory(administration, hmi), mandatory(communication, telephone), optional(internet, communication), mandatory(detection_devices, motion_sensor), mandatory(detection_devices, skoke_sensor), mandatory(quality_attributes, scalability), mandatory(quality_attributes, reliability), requires(message, communication), requires(flood, moisture_sensor)]
+			Diag size: 20
+The number of left branch calls: 16
+The number of right branch calls: 16
+The number of post constraints: 15722
+The number of Choco Solver calls: 473
+The number of different: 17
+The number of INconsistent: 234
+The number of unpost constraints: 15722
+The number of KBDiag calls: 33
+The number of consistent: 239
+The number of split set: 16
+The number of union: 59
+The size of Consistency checks: 15722
+The number of Consistency checks: 27
+
+Time for first: 0.006851919
+		REAL-FM-11.SPLX	REAL-FM-11_C500_0.TESTCASES
+			Diag: [mandatory(his, services), mandatory(his, administration), optional(communication, his), mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, monitor_control), mandatory(his, quality_attributes), mandatory(services, security), mandatory(services, intrusion), mandatory(services, fire), optional(flood, services), mandatory(administration, hmi), mandatory(communication, telephone), optional(internet, communication), mandatory(detection_devices, motion_sensor), mandatory(detection_devices, skoke_sensor), mandatory(monitor_control, scheduled), mandatory(monitor_control, responding_strategy), mandatory(quality_attributes, scalability), mandatory(quality_attributes, reliability), mandatory(quality_attributes, safety), mandatory(intrusion, detection), requires(water, sprinkler), requires(pumping, sump_pump), requires(message, communication), requires(flood, moisture_sensor)]
+			Diag size: 26
+The number of left branch calls: 18
+The number of right branch calls: 18
+The number of post constraints: 31418
+The number of Choco Solver calls: 993
+The number of different: 19
+The number of INconsistent: 504
+The number of unpost constraints: 31418
+The number of KBDiag calls: 37
+The number of consistent: 489
+The number of split set: 18
+The number of union: 68
+The size of Consistency checks: 31418
+The number of Consistency checks: 32
+
+Time for first: 0.014509127
+		REAL-FM-11.SPLX	REAL-FM-11_C500_0.TESTCASES
+			Diag: [mandatory(his, services), mandatory(his, administration), optional(communication, his), mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, monitor_control), mandatory(his, quality_attributes), mandatory(services, security), mandatory(services, intrusion), mandatory(services, fire), optional(flood, services), mandatory(administration, hmi), mandatory(communication, telephone), optional(internet, communication), mandatory(detection_devices, motion_sensor), mandatory(detection_devices, skoke_sensor), mandatory(monitor_control, scheduled), mandatory(monitor_control, responding_strategy), mandatory(quality_attributes, scalability), mandatory(quality_attributes, reliability), mandatory(quality_attributes, safety), mandatory(intrusion, detection), requires(water, sprinkler), requires(pumping, sump_pump), requires(message, communication), requires(flood, moisture_sensor)]
+			Diag size: 26
+The number of left branch calls: 18
+The number of right branch calls: 18
+The number of post constraints: 31418
+The number of Choco Solver calls: 993
+The number of different: 19
+The number of INconsistent: 504
+The number of unpost constraints: 31418
+The number of KBDiag calls: 37
+The number of consistent: 489
+The number of split set: 18
+The number of union: 68
+The size of Consistency checks: 31418
+The number of Consistency checks: 32
+
+Time for first: 0.012942423
+		REAL-FM-11.SPLX	REAL-FM-11_C500_0.TESTCASES
+			Diag: [mandatory(his, services), mandatory(his, administration), optional(communication, his), mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, monitor_control), mandatory(his, quality_attributes), mandatory(services, security), mandatory(services, intrusion), mandatory(services, fire), optional(flood, services), mandatory(administration, hmi), mandatory(communication, telephone), optional(internet, communication), mandatory(detection_devices, motion_sensor), mandatory(detection_devices, skoke_sensor), mandatory(monitor_control, scheduled), mandatory(monitor_control, responding_strategy), mandatory(quality_attributes, scalability), mandatory(quality_attributes, reliability), mandatory(quality_attributes, safety), mandatory(intrusion, detection), requires(water, sprinkler), requires(pumping, sump_pump), requires(message, communication), requires(flood, moisture_sensor)]
+			Diag size: 26
+The number of left branch calls: 18
+The number of right branch calls: 18
+The number of post constraints: 31418
+The number of Choco Solver calls: 993
+The number of different: 19
+The number of INconsistent: 504
+The number of unpost constraints: 31418
+The number of KBDiag calls: 37
+The number of consistent: 489
+The number of split set: 18
+The number of union: 68
+The size of Consistency checks: 31418
+The number of Consistency checks: 32
+
+Time for first: 0.013094988
+
+KBDiag Evaluation Results:
+2.76866E-4	
+5.353726666666667E-4	
+0.0012935233333333334	
+0.0019527089999999997	
+0.0038020486666666665	
+0.006996812333333334	
+0.013515512666666667	
