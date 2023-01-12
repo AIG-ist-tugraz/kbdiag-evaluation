@@ -69,7 +69,7 @@ The number of union: 35
 The size of Consistency checks: 12917
 The number of Consistency checks: 15
 
-Time for first: 0.007405402
+Time for first: 0.007105402
 		UBUNTU.SPLX	UBUNTU_C10_0.TESTCASES
 			Diag: [requires(AcceptanceDelay3, AcceptanceDelay), requires(Displays1, Displays), 3cnf(~AcceptanceDelay, AcceptanceDelay1, AcceptanceDelay2, AcceptanceDelay3), 3cnf(~Normal, Normal1, Normal2)]
 			Diag size: 4
@@ -87,7 +87,7 @@ The number of union: 35
 The size of Consistency checks: 12917
 The number of Consistency checks: 15
 
-Time for first: 0.00753742
+Time for first: 0.00713742
 		UBUNTU.SPLX	UBUNTU_C10_0.TESTCASES
 			Diag: [requires(AcceptanceDelay3, AcceptanceDelay), requires(Displays1, Displays), 3cnf(~AcceptanceDelay, AcceptanceDelay1, AcceptanceDelay2, AcceptanceDelay3), 3cnf(~Normal, Normal1, Normal2)]
 			Diag size: 4
@@ -105,7 +105,7 @@ The number of union: 35
 The size of Consistency checks: 12917
 The number of Consistency checks: 15
 
-Time for first: 0.007676773
+Time for first: 0.007176773
 		UBUNTU.SPLX	UBUNTU_C25_0.TESTCASES
 			Diag: [requires(UniversalAccess1, UniversalAccess), requires(Disabled2, Disabled), requires(AcceptanceDelay3, AcceptanceDelay), requires(Displays1, Displays), requires(Disabled9, Disabled), 3cnf(~Speed, Speed1, Speed2), 3cnf(~AcceptanceDelay, AcceptanceDelay1, AcceptanceDelay2, AcceptanceDelay3), 3cnf(~Normal, Normal1, Normal2)]
 			Diag size: 8
@@ -379,7 +379,7 @@ Time for first: 0.324659041
 
 KBDiag Evaluation Results:
 0.0030000703333333332	
-0.007539865	
+0.007139865
 0.015024567	
 0.026133938	
 0.04854756066666666	

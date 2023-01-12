@@ -231,7 +231,7 @@ The number of union: 76
 The size of Consistency checks: 24493
 The number of Consistency checks: 34
 
-Time for first: 0.011936285
+Time for first: 0.011682456
 		DELL.SPLX	DELL_C100_0.TESTCASES
 			Diag: [mandatory(Dell Laptops/Notebooks, Product Category), mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), optional(Optical Drive, Dell Laptops/Notebooks), mandatory(Dell Laptops/Notebooks, Laptop Weight), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), mandatory(Dell Laptops/Notebooks, Price), alternative(Product Category, Mini Notebooks, Inspiron Laptops, Studio Laptops, XPS Laptops, Adamo, Studio XPS Laptops), alternative(Operating System, Windows Vista 64 bit, Windows XP Home, Ubuntu Linux, Windows 7, Windows 8), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(Windows Vista 64 bit, Inspiron Laptops), excludes(More than $1200, Mini Notebooks), excludes(DVD-ROM Drive and DVD+-RW, Adamo), excludes(CD_DVD +RW, Adamo), excludes(128GB Solid State, Studio XPS Laptops), excludes(120GB, Studio XPS Laptops)]
 			Diag size: 17
@@ -249,7 +249,7 @@ The number of union: 76
 The size of Consistency checks: 24493
 The number of Consistency checks: 34
 
-Time for first: 0.012220607
+Time for first: 0.011586285
 		DELL.SPLX	DELL_C100_0.TESTCASES
 			Diag: [mandatory(Dell Laptops/Notebooks, Product Category), mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), optional(Optical Drive, Dell Laptops/Notebooks), mandatory(Dell Laptops/Notebooks, Laptop Weight), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), mandatory(Dell Laptops/Notebooks, Price), alternative(Product Category, Mini Notebooks, Inspiron Laptops, Studio Laptops, XPS Laptops, Adamo, Studio XPS Laptops), alternative(Operating System, Windows Vista 64 bit, Windows XP Home, Ubuntu Linux, Windows 7, Windows 8), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(Windows Vista 64 bit, Inspiron Laptops), excludes(More than $1200, Mini Notebooks), excludes(DVD-ROM Drive and DVD+-RW, Adamo), excludes(CD_DVD +RW, Adamo), excludes(128GB Solid State, Studio XPS Laptops), excludes(120GB, Studio XPS Laptops)]
 			Diag size: 17
@@ -267,7 +267,7 @@ The number of union: 76
 The size of Consistency checks: 24493
 The number of Consistency checks: 34
 
-Time for first: 0.012032456
+Time for first: 0.011870607
 		DELL.SPLX	DELL_C250_0.TESTCASES
 			Diag: [mandatory(Dell Laptops/Notebooks, Product Category), mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), optional(Optical Drive, Dell Laptops/Notebooks), mandatory(Dell Laptops/Notebooks, Laptop Weight), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), mandatory(Dell Laptops/Notebooks, Price), alternative(Product Category, Mini Notebooks, Inspiron Laptops, Studio Laptops, XPS Laptops, Adamo, Studio XPS Laptops), alternative(Operating System, Windows Vista 64 bit, Windows XP Home, Ubuntu Linux, Windows 7, Windows 8), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(Ubuntu Linux, XPS Laptops), excludes(160GB, XPS Laptops), excludes(128GB Solid State, Studio Laptops), excludes(120GB, Studio Laptops), excludes(Windows Vista 64 bit, Inspiron Laptops), excludes(More than $1200, Mini Notebooks), excludes(128GB Solid State, Inspiron Laptops), excludes(Ubuntu Linux, Inspiron Laptops), excludes(DVD-ROM Drive and DVD+-RW, Adamo), excludes(CD_DVD +RW, Adamo), excludes(128GB Solid State, Studio XPS Laptops), excludes(120GB, Studio XPS Laptops)]
 			Diag size: 23
@@ -382,6 +382,6 @@ KBDiag Evaluation Results:
 0.0018627130000000002	
 0.004020912666666667	
 0.005803879333333334	
-0.012063115999999999	
+0.011013115999999999
 0.023642379	
 0.04372438766666667	
