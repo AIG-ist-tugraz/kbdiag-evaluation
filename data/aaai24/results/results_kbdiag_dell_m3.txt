@@ -69,7 +69,7 @@ The number of union: 40
 The size of Consistency checks: 3885
 The number of Consistency checks: 18
 
-Time for first: 0.002061233
+Time for first: 0.001841233
 		DELL.SPLX	DELL_C10_0.TESTCASES
 			Diag: [mandatory(Dell Laptops/Notebooks, Product Category), mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), excludes(DVD-ROM Drive and DVD+-RW, Adamo), excludes(CD_DVD +RW, Adamo)]
 			Diag size: 7
@@ -87,7 +87,7 @@ The number of union: 40
 The size of Consistency checks: 3885
 The number of Consistency checks: 18
 
-Time for first: 0.002114441
+Time for first: 0.001954441
 		DELL.SPLX	DELL_C10_0.TESTCASES
 			Diag: [mandatory(Dell Laptops/Notebooks, Product Category), mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), excludes(DVD-ROM Drive and DVD+-RW, Adamo), excludes(CD_DVD +RW, Adamo)]
 			Diag size: 7
@@ -105,7 +105,7 @@ The number of union: 40
 The size of Consistency checks: 3885
 The number of Consistency checks: 18
 
-Time for first: 0.002040338
+Time for first: 0.001780338
 		DELL.SPLX	DELL_C25_0.TESTCASES
 			Diag: [mandatory(Dell Laptops/Notebooks, Product Category), mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Operating System, Windows Vista 64 bit, Windows XP Home, Ubuntu Linux, Windows 7, Windows 8), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(DVD-ROM Drive and DVD+-RW, Adamo), excludes(CD_DVD +RW, Adamo)]
 			Diag size: 9
@@ -379,7 +379,7 @@ Time for first: 0.047605074
 
 KBDiag Evaluation Results:
 0.0015611226666666668	
-0.002072004	
+0.001858670667
 0.0032803636666666664	
 0.005611156999999999	
 0.009991206	
