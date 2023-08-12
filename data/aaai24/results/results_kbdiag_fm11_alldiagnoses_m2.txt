@@ -1,0 +1,385 @@
+KBDiag Evaluation - all diagnoses using HSDAG:
+		REAL-FM-11.SPLX	REAL-FM-11_C25_0.TESTCASES
+				Time for all diagnoses: 0.329095494
+				Time for solving (all diagnoses): 0.315585891
+			Diagnosis 1
+				Diag: [optional(his, communication), mandatory(his, detection_devices), mandatory(his, quality_attributes), mandatory(services, security), mandatory(services, intrusion), mandatory(services, fire), optional(services, flood), mandatory(administration, hmi), optional(detection_devices, moisture_sensor), mandatory(action_devices, sprinkler)]
+				Diag size: 10
+				Time for diagnosis: 0.006979412
+				Time for solving: 9.79853E-4
+			Diagnosis 2
+				Diag: [mandatory(his, administration), mandatory(his, detection_devices), mandatory(his, quality_attributes), mandatory(services, security), mandatory(services, intrusion), mandatory(services, fire), optional(detection_devices, moisture_sensor), mandatory(action_devices, sprinkler)]
+				Diag size: 8
+				Time for diagnosis: 0.007093499
+				Time for solving: 4.20113E-4
+			Diagnosis 3
+				Diag: [mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, monitor_control), mandatory(his, quality_attributes), mandatory(services, intrusion), mandatory(services, fire), optional(services, flood), mandatory(administration, hmi), optional(detection_devices, moisture_sensor), mandatory(action_devices, sprinkler)]
+				Diag size: 10
+				Time for diagnosis: 0.00438313
+				Time for solving: 2.64426E-4
+			Diagnosis 4
+				Diag: [mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, monitor_control), mandatory(his, quality_attributes), mandatory(services, security), mandatory(services, fire), optional(services, flood), mandatory(administration, hmi), optional(detection_devices, moisture_sensor), mandatory(action_devices, sprinkler)]
+				Diag size: 10
+				Time for diagnosis: 0.004249492
+				Time for solving: 2.53247E-4
+			Diagnosis 5
+				Diag: [mandatory(his, services), mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, monitor_control), mandatory(his, quality_attributes), optional(services, flood), mandatory(administration, hmi), optional(detection_devices, moisture_sensor), mandatory(action_devices, sprinkler)]
+				Diag size: 9
+				Time for diagnosis: 0.004788523
+				Time for solving: 2.56524E-4
+			Diagnosis 6
+				Diag: [mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, monitor_control), mandatory(his, quality_attributes), mandatory(services, fire), optional(services, flood), mandatory(administration, hmi), mandatory(communication, telephone), optional(communication, internet), mandatory(detection_devices, motion_sensor)]
+				Diag size: 10
+				Time for diagnosis: 0.003798681
+				Time for solving: 2.11567E-4
+			Diagnosis 7
+				Diag: [mandatory(his, detection_devices), mandatory(his, monitor_control), mandatory(his, quality_attributes), mandatory(services, intrusion), mandatory(services, fire), optional(services, flood), mandatory(administration, hmi), mandatory(communication, telephone), mandatory(detection_devices, skoke_sensor), optional(detection_devices, moisture_sensor), mandatory(action_devices, sprinkler), optional(action_devices, sump_pump)]
+				Diag size: 12
+				Time for diagnosis: 0.004120188
+				Time for solving: 2.36229E-4
+			Diagnosis 8
+				Diag: [mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, quality_attributes), mandatory(services, intrusion), mandatory(services, fire), optional(services, flood), mandatory(administration, hmi), mandatory(communication, telephone), mandatory(detection_devices, skoke_sensor), optional(detection_devices, moisture_sensor)]
+				Diag size: 10
+				Time for diagnosis: 0.004027317
+				Time for solving: 2.15485E-4
+			Diagnosis 9
+				Diag: [mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, monitor_control), mandatory(his, quality_attributes), mandatory(services, intrusion), mandatory(services, fire), mandatory(administration, hmi), mandatory(communication, telephone), mandatory(detection_devices, skoke_sensor), optional(detection_devices, moisture_sensor)]
+				Diag size: 10
+				Time for diagnosis: 0.003708982
+				Time for solving: 2.25892E-4
+			Diagnosis 10
+				Diag: [mandatory(his, administration), optional(his, communication), mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, monitor_control), mandatory(his, quality_attributes), mandatory(services, intrusion), mandatory(services, fire), mandatory(detection_devices, skoke_sensor), optional(detection_devices, moisture_sensor)]
+				Diag size: 10
+				Time for diagnosis: 0.003753716
+				Time for solving: 2.35005E-4
+			Diagnosis 11
+				Diag: [mandatory(his, detection_devices), mandatory(his, monitor_control), mandatory(his, quality_attributes), mandatory(services, security), mandatory(services, fire), optional(services, flood), mandatory(administration, hmi), mandatory(communication, telephone), mandatory(detection_devices, skoke_sensor), optional(detection_devices, moisture_sensor), mandatory(action_devices, sprinkler), optional(action_devices, sump_pump)]
+				Diag size: 12
+				Time for diagnosis: 0.004206279
+				Time for solving: 2.2248E-4
+			Diagnosis 12
+				Diag: [mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, quality_attributes), mandatory(services, security), mandatory(services, fire), optional(services, flood), mandatory(administration, hmi), mandatory(communication, telephone), mandatory(detection_devices, skoke_sensor), optional(detection_devices, moisture_sensor)]
+				Diag size: 10
+				Time for diagnosis: 0.003798246
+				Time for solving: 2.35171E-4
+			Diagnosis 13
+				Diag: [mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, monitor_control), mandatory(his, quality_attributes), mandatory(services, security), mandatory(services, fire), mandatory(administration, hmi), mandatory(communication, telephone), mandatory(detection_devices, skoke_sensor), optional(detection_devices, moisture_sensor)]
+				Diag size: 10
+				Time for diagnosis: 0.003898657
+				Time for solving: 2.15504E-4
+			Diagnosis 14
+				Diag: [mandatory(his, administration), optional(his, communication), mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, monitor_control), mandatory(his, quality_attributes), mandatory(services, security), mandatory(services, fire), mandatory(detection_devices, skoke_sensor), optional(detection_devices, moisture_sensor)]
+				Diag size: 10
+				Time for diagnosis: 0.004650921
+				Time for solving: 2.44543E-4
+			Diagnosis 15
+				Diag: [mandatory(his, services), mandatory(his, detection_devices), mandatory(his, monitor_control), mandatory(his, quality_attributes), mandatory(services, security), mandatory(administration, hmi), mandatory(communication, telephone), mandatory(detection_devices, skoke_sensor), optional(detection_devices, moisture_sensor), mandatory(action_devices, sprinkler), optional(action_devices, sump_pump)]
+				Diag size: 11
+				Time for diagnosis: 0.004931544
+				Time for solving: 2.42612E-4
+			Diagnosis 16
+				Diag: [mandatory(his, services), mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, quality_attributes), mandatory(services, security), mandatory(administration, hmi), mandatory(communication, telephone), mandatory(detection_devices, skoke_sensor), optional(detection_devices, moisture_sensor)]
+				Diag size: 9
+				Time for diagnosis: 0.003976674
+				Time for solving: 2.33957E-4
+			Diagnosis 17
+				Diag: [mandatory(his, services), mandatory(his, administration), optional(his, communication), mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, monitor_control), mandatory(his, quality_attributes), mandatory(detection_devices, skoke_sensor), optional(detection_devices, moisture_sensor)]
+				Diag size: 9
+				Time for diagnosis: 0.003891797
+				Time for solving: 2.25325E-4
+			Diagnosis 18
+				Diag: [mandatory(his, services), mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, monitor_control), mandatory(his, quality_attributes), optional(services, flood), mandatory(administration, hmi), mandatory(detection_devices, motion_sensor), mandatory(detection_devices, skoke_sensor)]
+				Diag size: 9
+				Time for diagnosis: 0.004370132
+				Time for solving: 1.96626E-4
+			Diagnosis 19
+				Diag: [mandatory(his, detection_devices), mandatory(his, monitor_control), mandatory(his, quality_attributes), mandatory(services, security), mandatory(services, intrusion), mandatory(services, fire), optional(services, flood), mandatory(administration, hmi), mandatory(detection_devices, motion_sensor), mandatory(detection_devices, skoke_sensor), mandatory(action_devices, sprinkler), optional(action_devices, sump_pump)]
+				Diag size: 12
+				Time for diagnosis: 0.004442401
+				Time for solving: 2.80013E-4
+			Diagnosis 20
+				Diag: [mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, quality_attributes), mandatory(services, security), mandatory(services, intrusion), mandatory(services, fire), optional(services, flood), mandatory(administration, hmi), mandatory(detection_devices, motion_sensor), mandatory(detection_devices, skoke_sensor)]
+				Diag size: 10
+				Time for diagnosis: 0.004010725
+				Time for solving: 2.3761E-4
+			Diagnosis 21
+				Diag: [mandatory(his, detection_devices), mandatory(his, quality_attributes), mandatory(services, intrusion), mandatory(services, fire), optional(services, flood), mandatory(administration, hmi), optional(detection_devices, moisture_sensor), mandatory(action_devices, sprinkler)]
+				Diag size: 8
+				Time for diagnosis: 0.00390297
+				Time for solving: 2.06607E-4
+			Diagnosis 22
+				Diag: [mandatory(his, detection_devices), mandatory(his, quality_attributes), mandatory(services, security), mandatory(services, fire), optional(services, flood), mandatory(administration, hmi), optional(detection_devices, moisture_sensor), mandatory(action_devices, sprinkler)]
+				Diag size: 8
+				Time for diagnosis: 0.004559219
+				Time for solving: 2.09285E-4
+			Diagnosis 23
+				Diag: [mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, monitor_control), mandatory(his, quality_attributes), mandatory(services, security), mandatory(services, fire), mandatory(administration, hmi), mandatory(communication, telephone), optional(detection_devices, moisture_sensor), mandatory(action_devices, sprinkler)]
+				Diag size: 10
+				Time for diagnosis: 0.003803141
+				Time for solving: 1.99162E-4
+			Diagnosis 24
+				Diag: [mandatory(his, administration), optional(his, communication), mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, monitor_control), mandatory(his, quality_attributes), mandatory(services, security), mandatory(services, fire), optional(detection_devices, moisture_sensor), mandatory(action_devices, sprinkler)]
+				Diag size: 10
+				Time for diagnosis: 0.003692964
+				Time for solving: 2.18906E-4
+			Diagnosis 25
+				Diag: [mandatory(his, services), mandatory(his, detection_devices), mandatory(his, quality_attributes), optional(services, flood), mandatory(administration, hmi), optional(detection_devices, moisture_sensor), mandatory(action_devices, sprinkler)]
+				Diag size: 7
+				Time for diagnosis: 0.003891853
+				Time for solving: 2.06023E-4
+			Diagnosis 26
+				Diag: [mandatory(his, services), mandatory(his, administration), optional(his, communication), mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, monitor_control), mandatory(his, quality_attributes), optional(detection_devices, moisture_sensor), mandatory(action_devices, sprinkler)]
+				Diag size: 9
+				Time for diagnosis: 0.00417764
+				Time for solving: 1.0852E-4
+			Diagnosis 27
+				Diag: [mandatory(his, services), mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, monitor_control), mandatory(his, quality_attributes), optional(services, flood), mandatory(administration, hmi), mandatory(detection_devices, motion_sensor), mandatory(action_devices, sprinkler)]
+				Diag size: 9
+				Time for diagnosis: 0.00402728
+				Time for solving: 4.9128E-5
+			Diagnosis 28
+				Diag: [mandatory(his, detection_devices), mandatory(his, quality_attributes), mandatory(services, fire), optional(services, flood), mandatory(administration, hmi), mandatory(communication, telephone), optional(communication, internet), mandatory(detection_devices, motion_sensor), mandatory(detection_devices, skoke_sensor), mandatory(action_devices, sprinkler)]
+				Diag size: 10
+				Time for diagnosis: 0.003801825
+				Time for solving: 5.1345E-5
+			Diagnosis 29
+				Diag: [mandatory(his, detection_devices), mandatory(his, monitor_control), mandatory(his, quality_attributes), mandatory(services, security), mandatory(services, intrusion), mandatory(services, fire), optional(services, flood), mandatory(administration, hmi), mandatory(detection_devices, motion_sensor), mandatory(action_devices, sprinkler)]
+				Diag size: 10
+				Time for diagnosis: 0.004197257
+				Time for solving: 4.5436E-5
+			Diagnosis 30
+				Diag: [mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, quality_attributes), mandatory(services, security), mandatory(services, intrusion), mandatory(services, fire), optional(services, flood), mandatory(administration, hmi), mandatory(detection_devices, motion_sensor), mandatory(action_devices, sprinkler)]
+				Diag size: 10
+				Time for diagnosis: 0.003794076
+				Time for solving: 5.17E-5
+			Diagnosis 31
+				Diag: [mandatory(his, detection_devices), mandatory(his, monitor_control), mandatory(his, quality_attributes), mandatory(services, security), mandatory(services, fire), mandatory(administration, hmi), mandatory(detection_devices, motion_sensor), optional(detection_devices, moisture_sensor), mandatory(action_devices, sprinkler), optional(action_devices, sump_pump)]
+				Diag size: 10
+				Time for diagnosis: 0.004439499
+				Time for solving: 5.1607E-5
+			Diagnosis 32
+				Diag: [mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, quality_attributes), mandatory(services, security), mandatory(services, fire), mandatory(administration, hmi), mandatory(detection_devices, motion_sensor), optional(detection_devices, moisture_sensor)]
+				Diag size: 8
+				Time for diagnosis: 0.004365034
+				Time for solving: 6.9456E-5
+			Diagnosis 33
+				Diag: [mandatory(his, administration), optional(his, communication), mandatory(his, detection_devices), mandatory(his, monitor_control), mandatory(his, quality_attributes), mandatory(services, security), mandatory(services, fire), optional(services, flood), mandatory(detection_devices, motion_sensor), optional(detection_devices, moisture_sensor), mandatory(action_devices, sprinkler), optional(action_devices, sump_pump)]
+				Diag size: 12
+				Time for diagnosis: 0.004286937
+				Time for solving: 1.9741E-5
+			Diagnosis 34
+				Diag: [mandatory(his, administration), optional(his, communication), mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, quality_attributes), mandatory(services, security), mandatory(services, fire), optional(services, flood), mandatory(detection_devices, motion_sensor), optional(detection_devices, moisture_sensor)]
+				Diag size: 10
+				Time for diagnosis: 0.004251549
+				Time for solving: 5.0045E-5
+			Diagnosis 35
+				Diag: [mandatory(his, services), mandatory(his, administration), optional(his, communication), mandatory(his, detection_devices), mandatory(his, monitor_control), mandatory(his, quality_attributes), mandatory(services, security), mandatory(detection_devices, motion_sensor), optional(detection_devices, moisture_sensor), mandatory(action_devices, sprinkler), optional(action_devices, sump_pump)]
+				Diag size: 11
+				Time for diagnosis: 0.004360349
+				Time for solving: 4.8234E-5
+			Diagnosis 36
+				Diag: [mandatory(his, services), mandatory(his, administration), optional(his, communication), mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, quality_attributes), mandatory(services, security), mandatory(detection_devices, motion_sensor), optional(detection_devices, moisture_sensor)]
+				Diag size: 9
+				Time for diagnosis: 0.004277246
+				Time for solving: 5.8238E-5
+			Diagnosis 37
+				Diag: [mandatory(his, services), mandatory(his, detection_devices), mandatory(his, monitor_control), mandatory(his, quality_attributes), mandatory(services, security), mandatory(administration, hmi), mandatory(communication, telephone), optional(communication, internet), mandatory(detection_devices, motion_sensor), mandatory(action_devices, sprinkler), optional(action_devices, sump_pump)]
+				Diag size: 11
+				Time for diagnosis: 0.004720466
+				Time for solving: 5.2174E-5
+			Diagnosis 38
+				Diag: [mandatory(his, services), mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, quality_attributes), mandatory(services, security), mandatory(administration, hmi), mandatory(communication, telephone), optional(communication, internet), mandatory(detection_devices, motion_sensor)]
+				Diag size: 9
+				Time for diagnosis: 0.004421304
+				Time for solving: 1.11593E-4
+			Diagnosis 39
+				Diag: [mandatory(his, services), mandatory(his, detection_devices), mandatory(his, quality_attributes), optional(services, flood), mandatory(administration, hmi), mandatory(detection_devices, motion_sensor), mandatory(detection_devices, skoke_sensor), mandatory(action_devices, sprinkler), optional(action_devices, sump_pump)]
+				Diag size: 9
+				Time for diagnosis: 0.004557313
+				Time for solving: 6.5482E-5
+			Diagnosis 40
+				Diag: [mandatory(his, detection_devices), mandatory(his, quality_attributes), mandatory(services, fire), optional(services, flood), mandatory(administration, hmi), mandatory(communication, telephone), optional(communication, internet), mandatory(detection_devices, motion_sensor), mandatory(action_devices, sprinkler), optional(action_devices, sump_pump)]
+				Diag size: 10
+				Time for diagnosis: 0.004307694
+				Time for solving: 6.0498E-5
+			Diagnosis 41
+				Diag: [mandatory(his, detection_devices), mandatory(his, quality_attributes), mandatory(services, security), mandatory(services, fire), mandatory(administration, hmi), mandatory(detection_devices, motion_sensor), optional(detection_devices, moisture_sensor), mandatory(action_devices, sprinkler), optional(action_devices, sump_pump)]
+				Diag size: 9
+				Time for diagnosis: 0.004604527
+				Time for solving: 7.0508E-5
+			Diagnosis 42
+				Diag: [mandatory(his, detection_devices), mandatory(his, monitor_control), mandatory(his, quality_attributes), mandatory(services, fire), mandatory(administration, hmi), mandatory(detection_devices, motion_sensor), optional(detection_devices, moisture_sensor), mandatory(action_devices, sprinkler), optional(action_devices, sump_pump)]
+				Diag size: 9
+				Time for diagnosis: 0.004768135
+				Time for solving: 6.756E-5
+			Diagnosis 43
+				Diag: [mandatory(his, detection_devices), mandatory(his, monitor_control), mandatory(his, quality_attributes), mandatory(services, security), mandatory(services, fire), mandatory(administration, hmi), mandatory(communication, telephone), optional(communication, internet), optional(detection_devices, moisture_sensor), mandatory(action_devices, sprinkler), optional(action_devices, sump_pump)]
+				Diag size: 11
+				Time for diagnosis: 0.004585076
+				Time for solving: 5.1571E-5
+			Diagnosis 44
+				Diag: [mandatory(his, detection_devices), mandatory(his, monitor_control), mandatory(his, quality_attributes), mandatory(services, security), mandatory(services, fire), mandatory(administration, hmi), mandatory(communication, telephone), optional(detection_devices, moisture_sensor), mandatory(action_devices, sprinkler)]
+				Diag size: 9
+				Time for diagnosis: 0.003833575
+				Time for solving: 5.5284E-5
+			Diagnosis 45
+				Diag: [mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, quality_attributes), mandatory(services, fire), mandatory(administration, hmi), mandatory(detection_devices, motion_sensor), optional(detection_devices, moisture_sensor)]
+				Diag size: 7
+				Time for diagnosis: 0.005371034
+				Time for solving: 4.7663E-5
+			Diagnosis 46
+				Diag: [mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, quality_attributes), mandatory(services, security), mandatory(services, fire), mandatory(administration, hmi), mandatory(communication, telephone), optional(communication, internet), optional(detection_devices, moisture_sensor)]
+				Diag size: 9
+				Time for diagnosis: 0.006764723
+				Time for solving: 9.4965E-5
+			Diagnosis 47
+				Diag: [mandatory(his, administration), optional(his, communication), mandatory(his, detection_devices), mandatory(his, quality_attributes), mandatory(services, security), mandatory(services, fire), mandatory(detection_devices, motion_sensor), optional(detection_devices, moisture_sensor), mandatory(action_devices, sprinkler), optional(action_devices, sump_pump)]
+				Diag size: 10
+				Time for diagnosis: 0.004423114
+				Time for solving: 2.61E-5
+			Diagnosis 48
+				Diag: [mandatory(his, administration), optional(his, communication), mandatory(his, detection_devices), mandatory(his, monitor_control), mandatory(his, quality_attributes), mandatory(services, fire), mandatory(detection_devices, motion_sensor), optional(detection_devices, moisture_sensor), mandatory(action_devices, sprinkler), optional(action_devices, sump_pump)]
+				Diag size: 10
+				Time for diagnosis: 0.003903042
+				Time for solving: 1.8513E-5
+			Diagnosis 49
+				Diag: [mandatory(his, administration), optional(his, communication), mandatory(his, detection_devices), mandatory(his, monitor_control), mandatory(his, quality_attributes), mandatory(services, security), mandatory(services, fire), optional(communication, internet), optional(detection_devices, moisture_sensor), mandatory(action_devices, sprinkler), optional(action_devices, sump_pump)]
+				Diag size: 11
+				Time for diagnosis: 0.003926185
+				Time for solving: 1.804E-5
+			Diagnosis 50
+				Diag: [mandatory(his, administration), optional(his, communication), mandatory(his, detection_devices), mandatory(his, monitor_control), mandatory(his, quality_attributes), mandatory(services, security), mandatory(services, fire), optional(detection_devices, moisture_sensor), mandatory(action_devices, sprinkler)]
+				Diag size: 9
+				Time for diagnosis: 0.004380167
+				Time for solving: 6.1233E-5
+			Diagnosis 51
+				Diag: [mandatory(his, administration), optional(his, communication), mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, quality_attributes), mandatory(services, fire), mandatory(detection_devices, motion_sensor), optional(detection_devices, moisture_sensor)]
+				Diag size: 8
+				Time for diagnosis: 0.004297605
+				Time for solving: 1.6161E-5
+			Diagnosis 52
+				Diag: [mandatory(his, administration), optional(his, communication), mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, quality_attributes), mandatory(services, security), mandatory(services, fire), optional(communication, internet), optional(detection_devices, moisture_sensor)]
+				Diag size: 9
+				Time for diagnosis: 0.003845954
+				Time for solving: 1.2591E-5
+			Diagnosis 53
+				Diag: [mandatory(his, services), mandatory(his, administration), optional(his, communication), mandatory(his, detection_devices), mandatory(his, quality_attributes), mandatory(detection_devices, motion_sensor), optional(detection_devices, moisture_sensor), mandatory(action_devices, sprinkler), optional(action_devices, sump_pump)]
+				Diag size: 9
+				Time for diagnosis: 0.004342191
+				Time for solving: 1.2903E-5
+			Diagnosis 54
+				Diag: [mandatory(his, services), mandatory(his, administration), optional(his, communication), mandatory(his, detection_devices), mandatory(his, monitor_control), mandatory(his, quality_attributes), mandatory(services, security), optional(communication, internet), optional(detection_devices, moisture_sensor), mandatory(action_devices, sprinkler), optional(action_devices, sump_pump)]
+				Diag size: 11
+				Time for diagnosis: 0.004925485
+				Time for solving: 1.0954E-5
+			Diagnosis 55
+				Diag: [mandatory(his, services), mandatory(his, administration), optional(his, communication), mandatory(his, detection_devices), mandatory(his, monitor_control), mandatory(his, quality_attributes), mandatory(services, security), optional(detection_devices, moisture_sensor), mandatory(action_devices, sprinkler)]
+				Diag size: 9
+				Time for diagnosis: 0.00450904
+				Time for solving: 1.2915E-5
+			Diagnosis 56
+				Diag: [mandatory(his, services), mandatory(his, administration), optional(his, communication), mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, quality_attributes), mandatory(services, security), optional(communication, internet), optional(detection_devices, moisture_sensor)]
+				Diag size: 9
+				Time for diagnosis: 0.004421607
+				Time for solving: 1.131E-5
+			Diagnosis 57
+				Diag: [mandatory(his, services), mandatory(his, detection_devices), mandatory(his, quality_attributes), mandatory(administration, hmi), mandatory(communication, telephone), optional(communication, internet), mandatory(detection_devices, motion_sensor), mandatory(action_devices, sprinkler), optional(action_devices, sump_pump)]
+				Diag size: 9
+				Time for diagnosis: 0.00461809
+				Time for solving: 1.0012E-5
+			Diagnosis 58
+				Diag: [mandatory(his, services), mandatory(his, detection_devices), mandatory(his, monitor_control), mandatory(his, quality_attributes), mandatory(services, security), optional(services, flood), mandatory(administration, hmi), optional(communication, internet), mandatory(detection_devices, motion_sensor), mandatory(action_devices, sprinkler), optional(action_devices, sump_pump)]
+				Diag size: 11
+				Time for diagnosis: 0.005327448
+				Time for solving: 1.0943E-5
+			Diagnosis 59
+				Diag: [mandatory(his, services), mandatory(his, detection_devices), mandatory(his, monitor_control), mandatory(his, quality_attributes), mandatory(services, security), optional(services, flood), mandatory(administration, hmi), mandatory(communication, telephone), mandatory(detection_devices, motion_sensor), mandatory(action_devices, sprinkler), optional(action_devices, sump_pump)]
+				Diag size: 11
+				Time for diagnosis: 0.004981825
+				Time for solving: 9.417E-6
+			Diagnosis 60
+				Diag: [mandatory(his, services), mandatory(his, detection_devices), mandatory(his, monitor_control), mandatory(his, quality_attributes), mandatory(services, security), optional(services, flood), mandatory(administration, hmi), mandatory(detection_devices, motion_sensor), mandatory(action_devices, sprinkler)]
+				Diag size: 9
+				Time for diagnosis: 0.004596463
+				Time for solving: 1.1127E-5
+			Diagnosis 61
+				Diag: [mandatory(his, services), mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, quality_attributes), mandatory(services, security), optional(services, flood), mandatory(administration, hmi), optional(communication, internet), mandatory(detection_devices, motion_sensor)]
+				Diag size: 9
+				Time for diagnosis: 0.004360618
+				Time for solving: 9.712E-6
+			Diagnosis 62
+				Diag: [mandatory(his, services), mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, quality_attributes), mandatory(services, security), optional(services, flood), mandatory(administration, hmi), mandatory(communication, telephone), mandatory(detection_devices, motion_sensor)]
+				Diag size: 9
+				Time for diagnosis: 0.004312102
+				Time for solving: 1.6366E-5
+			Diagnosis 63
+				Diag: [mandatory(his, services), mandatory(his, detection_devices), mandatory(his, quality_attributes), mandatory(administration, hmi), mandatory(communication, telephone), optional(communication, internet), mandatory(detection_devices, motion_sensor), mandatory(detection_devices, skoke_sensor), mandatory(action_devices, sprinkler)]
+				Diag size: 9
+				Time for diagnosis: 0.004613112
+				Time for solving: 2.18497E-4
+			Diagnosis 64
+				Diag: [mandatory(his, detection_devices), mandatory(his, quality_attributes), mandatory(services, fire), optional(services, flood), mandatory(administration, hmi), mandatory(detection_devices, motion_sensor), mandatory(action_devices, sprinkler)]
+				Diag size: 7
+				Time for diagnosis: 0.004519043
+				Time for solving: 3.2149E-5
+			Diagnosis 65
+				Diag: [mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, quality_attributes), mandatory(services, fire), mandatory(administration, hmi), optional(detection_devices, moisture_sensor), mandatory(action_devices, sprinkler)]
+				Diag size: 7
+				Time for diagnosis: 0.00488641
+				Time for solving: 2.39875E-4
+			Diagnosis 66
+				Diag: [mandatory(his, administration), optional(his, communication), mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, quality_attributes), mandatory(services, fire), optional(detection_devices, moisture_sensor), mandatory(action_devices, sprinkler)]
+				Diag size: 8
+				Time for diagnosis: 0.004364667
+				Time for solving: 2.55768E-4
+			Diagnosis 67
+				Diag: [mandatory(his, services), mandatory(his, administration), optional(his, communication), mandatory(his, detection_devices), mandatory(his, quality_attributes), optional(detection_devices, moisture_sensor), mandatory(action_devices, sprinkler)]
+				Diag size: 7
+				Time for diagnosis: 0.004209944
+				Time for solving: 2.4554E-5
+			Diagnosis 68
+				Diag: [mandatory(his, services), mandatory(his, detection_devices), mandatory(his, monitor_control), mandatory(his, quality_attributes), mandatory(services, intrusion), mandatory(administration, hmi), optional(communication, internet), mandatory(detection_devices, motion_sensor), mandatory(action_devices, sprinkler)]
+				Diag size: 9
+				Time for diagnosis: 0.004024681
+				Time for solving: 9.18E-6
+			Diagnosis 69
+				Diag: [mandatory(his, services), mandatory(his, detection_devices), mandatory(his, monitor_control), mandatory(his, quality_attributes), mandatory(services, intrusion), mandatory(administration, hmi), mandatory(communication, telephone), mandatory(detection_devices, motion_sensor), mandatory(action_devices, sprinkler)]
+				Diag size: 9
+				Time for diagnosis: 0.00412359
+				Time for solving: 2.59074E-4
+			Diagnosis 70
+				Diag: [mandatory(his, services), mandatory(his, detection_devices), mandatory(his, quality_attributes), mandatory(administration, hmi), mandatory(communication, telephone), optional(communication, internet), mandatory(detection_devices, motion_sensor), mandatory(action_devices, sprinkler), mandatory(monitor_control, direct)]
+				Diag size: 9
+				Time for diagnosis: 0.00396831
+				Time for solving: 2.70061E-4
+			Diagnosis 71
+				Diag: [mandatory(his, services), mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, quality_attributes), mandatory(services, security), optional(services, flood), mandatory(administration, hmi), mandatory(detection_devices, motion_sensor), mandatory(action_devices, sprinkler)]
+				Diag size: 9
+				Time for diagnosis: 0.003799533
+				Time for solving: 1.9128E-5
+			Diagnosis 72
+				Diag: [mandatory(his, services), mandatory(his, detection_devices), mandatory(his, monitor_control), mandatory(his, quality_attributes), mandatory(services, intrusion), mandatory(administration, hmi), mandatory(detection_devices, motion_sensor), mandatory(action_devices, sprinkler), optional(action_devices, sump_pump)]
+				Diag size: 9
+				Time for diagnosis: 0.004357749
+				Time for solving: 2.38362E-4
+			Diagnosis 73
+				Diag: [mandatory(his, services), mandatory(his, detection_devices), mandatory(his, quality_attributes), mandatory(administration, hmi), mandatory(communication, telephone), optional(communication, internet), mandatory(detection_devices, motion_sensor), mandatory(action_devices, sprinkler), mandatory(monitor_control, scheduled)]
+				Diag size: 9
+				Time for diagnosis: 0.003885834
+				Time for solving: 2.37445E-4
+			Diagnosis 74
+				Diag: [mandatory(his, services), mandatory(his, detection_devices), mandatory(his, quality_attributes), mandatory(administration, hmi), mandatory(communication, telephone), optional(communication, internet), mandatory(detection_devices, motion_sensor), mandatory(action_devices, sprinkler), mandatory(monitor_control, responding_strategy)]
+				Diag size: 9
+				Time for diagnosis: 0.004508681
+				Time for solving: 2.50321E-4
+			Diagnosis 75
+				Diag: [mandatory(his, services), mandatory(his, detection_devices), mandatory(his, quality_attributes), mandatory(services, security), optional(services, flood), mandatory(administration, hmi), mandatory(detection_devices, motion_sensor), mandatory(action_devices, sprinkler)]
+				Diag size: 8
+				Time for diagnosis: 0.003820002
+				Time for solving: 2.04936E-4
+
+KBDiag Evaluation Results:
+0.329095494	
+
+KBDiag Evaluation Results - Solver:
+0.010480560000000003	
