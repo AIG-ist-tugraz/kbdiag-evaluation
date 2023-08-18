@@ -483,4 +483,4 @@
 				Time for all diagnoses: 0.077104241
 
 HSDAG v2 Evaluation Results:
-1.746885725	
+1.746885725

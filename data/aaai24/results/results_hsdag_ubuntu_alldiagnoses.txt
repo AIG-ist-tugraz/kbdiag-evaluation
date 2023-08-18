@@ -3111,4 +3111,4 @@
 				Time for all diagnoses: 0.025294238
 
 HSDAG v2 Evaluation Results:
-11.6057726907	
+11.6057726907

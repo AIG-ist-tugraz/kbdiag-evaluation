@@ -483,4 +483,4 @@
 				Time for all diagnoses: 0.003435419
 
 KBDiag Evaluation Results:
-0.2266722487	
+0.2266722487

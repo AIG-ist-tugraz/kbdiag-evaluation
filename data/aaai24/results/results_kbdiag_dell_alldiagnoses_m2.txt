@@ -199,7 +199,7 @@ KBDiag Evaluation - all diagnoses using HSDAG:
 				Time for solving: 7.1203E-5
 
 KBDiag Evaluation Results:
-0.289045891	
+0.289045891
 
 KBDiag Evaluation Results - Solver:
-0.0022691015	
+0.0022691015
