@@ -1,0 +1,60 @@
+KBDiag Evaluation - all diagnoses using HSDAG:
+		WINDOWS8.SPLX	WINDOWS8_C25_0.TESTCASES
+				Time for all diagnoses: 0.332316819
+				Time for solving (all diagnoses): 0.375740188
+			Diagnosis 1
+				Diag: [(((~Bold \/ Bold1) \/ Bold2) \/ Bold3), requires(Bold1, Bold), ((~Option \/ Option1) \/ Option2), ((~Microphone \/ Microphone1) \/ Microphone2), requires(RemoveBackgroundImageWhenAvailable2, RemoveBackgroundImageWhenAvailable), ((~Advanced \/ Advanced1) \/ Advanced2), requires(Slow3, Slow)]
+				Diag size: 7
+				Time for diagnosis: 0.036148853
+				Time for solving: 0.008559060
+			Diagnosis 2
+				Diag: [optional(MessageBoxes, Bold3), alternative(Views, FullScreen, Lens, Docked), requires(Microphone1, Microphone), ((~Option \/ Option1) \/ Option2), ((~Microphone \/ Microphone1) \/ Microphone2), requires(RemoveBackgroundImageWhenAvailable2, RemoveBackgroundImageWhenAvailable), ((~Advanced \/ Advanced1) \/ Advanced2), requires(Slow3, Slow)]
+				Diag size: 8
+				Time for diagnosis: 0.026169608
+				Time for solving: 0.006982651
+			Diagnosis 3
+				Diag: [optional(Magnifier1, Option1), optional(Magnifier1, Help), (((~Bold \/ Bold1) \/ Bold2) \/ Bold3), requires(Bold1, Bold), ((~Microphone \/ Microphone1) \/ Microphone2), requires(RemoveBackgroundImageWhenAvailable2, RemoveBackgroundImageWhenAvailable), ((~Advanced \/ Advanced1) \/ Advanced2), requires(Slow3, Slow)]
+				Diag size: 8
+				Time for diagnosis: 0.025545527
+				Time for solving: 0.007039711
+			Diagnosis 4
+				Diag: [mandatory(Recording, Microphone2), mandatory(Sounds, SoundScheme), (((~Bold \/ Bold1) \/ Bold2) \/ Bold3), requires(Bold1, Bold), ((~Option \/ Option1) \/ Option2), ((~Advanced \/ Advanced1) \/ Advanced2), requires(Slow3, Slow)]
+				Diag size: 7
+				Time for diagnosis: 0.03720894
+				Time for solving: 0.007413618
+			Diagnosis 5
+				Diag: [optional(Microphone1, AudioInput), optional(Microphone1, Advanced1), (((~Bold \/ Bold1) \/ Bold2) \/ Bold3), requires(Bold1, Bold), ((~Option \/ Option1) \/ Option2), requires(DisplayTheMouseKeysIconOnTheTaskbar1, DisplayTheMouseKeysIconOnTheTaskbar), ((~Microphone \/ Microphone1) \/ Microphone2)]
+				Diag size: 7
+				Time for diagnosis: 0.03247572
+				Time for solving: 0.007817019
+			Diagnosis 6
+				Diag: [alternative(TitleBars, TB_19, TB_9, TB_21, TB_11, TB_6, TB_7, TB_23, TB_16, TB_12, TB_17, TB_8, TB_15, TB_18, TB_20, TB_10, TB_22, TB_24, TB_13, TB_14), optional(TitleBars, Bold1), requires(Microphone1, Microphone), ((~Option \/ Option1) \/ Option2), ((~Microphone \/ Microphone1) \/ Microphone2), requires(RemoveBackgroundImageWhenAvailable2, RemoveBackgroundImageWhenAvailable), ((~Advanced \/ Advanced1) \/ Advanced2), requires(Slow3, Slow)]
+				Diag size: 8
+				Time for diagnosis: 0.030986635
+				Time for solving: 0.004104260
+			Diagnosis 7
+				Diag: [alternative(MessageBoxes, ME_17, ME_10, ME_18, ME_21, ME_6, ME_20, ME_7, ME_16, ME_11, ME_23, ME_19, ME_13, ME_22, ME_15, ME_8, ME_12, ME_24, ME_9, ME_14), optional(MessageBoxes, Bold3), requires(DisplayAWarningMessageWhenTurningASettingOn3, DisplayAWarningMessageWhenTurningASettingOn), ((~Option \/ Option1) \/ Option2), ((~Microphone \/ Microphone1) \/ Microphone2), requires(RemoveBackgroundImageWhenAvailable2, RemoveBackgroundImageWhenAvailable), ((~Advanced \/ Advanced1) \/ Advanced2), requires(Slow3, Slow)]
+				Diag size: 8
+				Time for diagnosis: 0.030766472
+				Time for solving: 0.000532659
+			Diagnosis 8
+				Diag: [optional(Magnifier1, Views), optional(Magnifier1, Option1), alternative(MessageBoxes, ME_17, ME_10, ME_18, ME_21, ME_6, ME_20, ME_7, ME_16, ME_11, ME_23, ME_19, ME_13, ME_22, ME_15, ME_8, ME_12, ME_24, ME_9, ME_14), optional(MessageBoxes, Bold3), ((~Microphone \/ Microphone1) \/ Microphone2), requires(RemoveBackgroundImageWhenAvailable2, RemoveBackgroundImageWhenAvailable), ((~Advanced \/ Advanced1) \/ Advanced2), requires(Slow3, Slow)]
+				Diag size: 8
+				Time for diagnosis: 0.028285553
+				Time for solving: 0.000280112
+			Diagnosis 9
+				Diag: [mandatory(Playback, Speakers), mandatory(Recording, Microphone2), alternative(MessageBoxes, ME_17, ME_10, ME_18, ME_21, ME_6, ME_20, ME_7, ME_16, ME_11, ME_23, ME_19, ME_13, ME_22, ME_15, ME_8, ME_12, ME_24, ME_9, ME_14), optional(MessageBoxes, Bold3), ((~Option \/ Option1) \/ Option2), ((~Advanced \/ Advanced1) \/ Advanced2), requires(Slow3, Slow)]
+				Diag size: 7
+				Time for diagnosis: 0.045396955
+				Time for solving: 0.000267266
+			Diagnosis 10
+				Diag: [optional(Microphone1, Advanced1), alternative(MessageBoxes, ME_17, ME_10, ME_18, ME_21, ME_6, ME_20, ME_7, ME_16, ME_11, ME_23, ME_19, ME_13, ME_22, ME_15, ME_8, ME_12, ME_24, ME_9, ME_14), optional(MessageBoxes, Bold3), ((~Option \/ Option1) \/ Option2), requires(DisplayTheMouseKeysIconOnTheTaskbar1, DisplayTheMouseKeysIconOnTheTaskbar), ((~Microphone \/ Microphone1) \/ Microphone2)]
+				Diag size: 6
+				Time for diagnosis: 0.039332556
+				Time for solving: 0.000427014
+
+KBDiag Evaluation Results:
+0.3323168190000001
+
+KBDiag Evaluation Results - Solver:
+0.04342336000000001

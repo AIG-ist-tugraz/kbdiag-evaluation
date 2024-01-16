@@ -1,0 +1,60 @@
+KBDiag Evaluation - all diagnoses using HSDAG:
+		UBUNTU.SPLX	UBUNTU_C25_0.TESTCASES
+				Time for all diagnoses: 0.210125268
+				Time for solving (all diagnoses): 0.226621255
+			Diagnosis 1
+				Diag: [requires(UniversalAccess1, UniversalAccess), requires(Disabled2, Disabled), requires(AcceptanceDelay3, AcceptanceDelay), requires(Displays1, Displays), requires(Disabled9, Disabled), ((~Speed \/ Speed1) \/ Speed2), (((~AcceptanceDelay \/ AcceptanceDelay1) \/ AcceptanceDelay2) \/ AcceptanceDelay3), ((~Normal \/ Normal1) \/ Normal2)]
+				Diag size: 8
+				Time for diagnosis: 0.0150677
+				Time for solving: 0.001872346
+			Diagnosis 2
+				Diag: [requires(UniversalAccess1, UniversalAccess), requires(Short2, Short), requires(AcceptanceDelay3, AcceptanceDelay), requires(Displays1, Displays), requires(Disabled9, Disabled), ((~Speed \/ Speed1) \/ Speed2), (((~AcceptanceDelay \/ AcceptanceDelay1) \/ AcceptanceDelay2) \/ AcceptanceDelay3), ((~Normal \/ Normal1) \/ Normal2)]
+				Diag size: 8
+				Time for diagnosis: 0.024080537
+				Time for solving: 0.002253961
+			Diagnosis 3
+				Diag: [requires(UniversalAccess1, UniversalAccess), requires(Disabled2, Disabled), requires(AcceptanceDelay2, AcceptanceDelay), requires(Displays1, Displays), requires(Disabled9, Disabled), ((~Speed \/ Speed1) \/ Speed2), (((~AcceptanceDelay \/ AcceptanceDelay1) \/ AcceptanceDelay2) \/ AcceptanceDelay3), ((~Normal \/ Normal1) \/ Normal2)]
+				Diag size: 8
+				Time for diagnosis: 0.017704996
+				Time for solving: 0.002166033
+			Diagnosis 4
+				Diag: [requires(UniversalAccess1, UniversalAccess), requires(Disabled2, Disabled), requires(Displays1, Displays), requires(Speed2, Speed), requires(Typing2, Typing), ((~Speed \/ Speed1) \/ Speed2), (((~AcceptanceDelay \/ AcceptanceDelay1) \/ AcceptanceDelay2) \/ AcceptanceDelay3), ((~Normal \/ Normal1) \/ Normal2)]
+				Diag size: 8
+				Time for diagnosis: 0.014102744
+				Time for solving: 0.001590731
+			Diagnosis 5
+				Diag: [requires(Typing1, Typing), requires(UniversalAccess1, UniversalAccess), requires(Disabled2, Disabled), requires(Displays1, Displays), requires(Speed2, Speed), requires(Typing2, Typing), requires(Disabled9, Disabled), (((~AcceptanceDelay \/ AcceptanceDelay1) \/ AcceptanceDelay2) \/ AcceptanceDelay3), ((~Normal \/ Normal1) \/ Normal2), requires(Fast1, Fast), ((((((~Short \/ Short1) \/ Short2) \/ Short3) \/ Short4) \/ Short5) \/ Short6)]
+				Diag size: 11
+				Time for diagnosis: 0.037441453
+				Time for solving: 0.001467932
+			Diagnosis 6
+				Diag: [requires(UniversalAccess1, UniversalAccess), requires(Disabled2, Disabled), requires(Displays1, Displays), requires(Speed2, Speed), ((~Speed \/ Speed1) \/ Speed2), ((~Small \/ Small1) \/ Small2), requires(Short3, Short), ((~Normal \/ Normal1) \/ Normal2)]
+				Diag size: 8
+				Time for diagnosis: 0.019177075
+				Time for solving: 0.001307964
+			Diagnosis 7
+				Diag: [mandatory(MouseSettings, Touchpad), alternative(Contrast, Low2, High2, HighInverse, Normal2), requires(UniversalAccess1, UniversalAccess), requires(Disabled2, Disabled), requires(Displays1, Displays), requires(Speed2, Speed), ((~Speed \/ Speed1) \/ Speed2), ((~Small \/ Small1) \/ Small2)]
+				Diag size: 8
+				Time for diagnosis: 0.020800069
+				Time for solving: 0.001355585
+			Diagnosis 8
+				Diag: [requires(Short1, Short), requires(UniversalAccess1, UniversalAccess), requires(AcceptanceDelay3, AcceptanceDelay), requires(Displays1, Displays), requires(Disabled9, Disabled), ((~Speed \/ Speed1) \/ Speed2), (((~AcceptanceDelay \/ AcceptanceDelay1) \/ AcceptanceDelay2) \/ AcceptanceDelay3), ((~Normal \/ Normal1) \/ Normal2)]
+				Diag size: 8
+				Time for diagnosis: 0.014402043
+				Time for solving: 0.001315964
+			Diagnosis 9
+				Diag: [requires(Short1, Short), requires(UniversalAccess1, UniversalAccess), requires(AcceptanceDelay2, AcceptanceDelay), requires(Displays1, Displays), requires(Disabled9, Disabled), ((~Speed \/ Speed1) \/ Speed2), (((~AcceptanceDelay \/ AcceptanceDelay1) \/ AcceptanceDelay2) \/ AcceptanceDelay3), ((~Normal \/ Normal1) \/ Normal2)]
+				Diag size: 8
+				Time for diagnosis: 0.0203538
+				Time for solving: 0.001637232
+			Diagnosis 10
+				Diag: [requires(Short1, Short), requires(UniversalAccess1, UniversalAccess), requires(Displays1, Displays), requires(Speed2, Speed), requires(Typing2, Typing), ((~Speed \/ Speed1) \/ Speed2), (((~AcceptanceDelay \/ AcceptanceDelay1) \/ AcceptanceDelay2) \/ AcceptanceDelay3), ((~Normal \/ Normal1) \/ Normal2)]
+				Diag size: 8
+				Time for diagnosis: 0.026994851
+				Time for solving: 0.001528239
+
+KBDiag Evaluation Results:
+0.21012526799999997
+
+KBDiag Evaluation Results - Solver:
+0.016495987

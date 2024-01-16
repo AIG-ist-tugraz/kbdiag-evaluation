@@ -1,0 +1,387 @@
+		WINDOWS8.SPLX	WINDOWS8_C5_0.TESTCASES
+			Diag: [3cnf(~Option, Option1, Option2)]
+			Diag size: 1
+The number of left branch calls: 8
+The number of right branch calls: 8
+The number of post constraints: 16654
+The number of Choco Solver calls: 11
+The number of different: 9
+The number of INconsistent: 3
+The number of unpost constraints: 16654
+The number of KBDiag calls: 17
+The number of consistent: 8
+The number of split set: 8
+The number of union: 27
+The size of Consistency checks: 16654
+The number of Consistency checks: 11
+
+Time for first: 0.0067315
+		WINDOWS8.SPLX	WINDOWS8_C5_0.TESTCASES
+			Diag: [3cnf(~Option, Option1, Option2)]
+			Diag size: 1
+The number of left branch calls: 8
+The number of right branch calls: 8
+The number of post constraints: 16654
+The number of Choco Solver calls: 11
+The number of different: 9
+The number of INconsistent: 3
+The number of unpost constraints: 16654
+The number of KBDiag calls: 17
+The number of consistent: 8
+The number of split set: 8
+The number of union: 27
+The size of Consistency checks: 16654
+The number of Consistency checks: 11
+
+Time for first: 0.006938965
+		WINDOWS8.SPLX	WINDOWS8_C5_0.TESTCASES
+			Diag: [3cnf(~Option, Option1, Option2)]
+			Diag size: 1
+The number of left branch calls: 8
+The number of right branch calls: 8
+The number of post constraints: 16654
+The number of Choco Solver calls: 11
+The number of different: 9
+The number of INconsistent: 3
+The number of unpost constraints: 16654
+The number of KBDiag calls: 17
+The number of consistent: 8
+The number of split set: 8
+The number of union: 27
+The size of Consistency checks: 16654
+The number of Consistency checks: 11
+
+Time for first: 0.007923328
+		WINDOWS8.SPLX	WINDOWS8_C10_0.TESTCASES
+			Diag: [3cnf(~Bold, Bold1, Bold2, Bold3), requires(Bold1, Bold), 3cnf(~Option, Option1, Option2)]
+			Diag size: 3
+The number of left branch calls: 11
+The number of right branch calls: 11
+The number of post constraints: 34853
+The number of Choco Solver calls: 23
+The number of different: 12
+The number of INconsistent: 7
+The number of unpost constraints: 34853
+The number of KBDiag calls: 23
+The number of consistent: 16
+The number of split set: 11
+The number of union: 38
+The size of Consistency checks: 34853
+The number of Consistency checks: 16
+
+Time for first: 0.01426615
+		WINDOWS8.SPLX	WINDOWS8_C10_0.TESTCASES
+			Diag: [3cnf(~Bold, Bold1, Bold2, Bold3), requires(Bold1, Bold), 3cnf(~Option, Option1, Option2)]
+			Diag size: 3
+The number of left branch calls: 11
+The number of right branch calls: 11
+The number of post constraints: 34853
+The number of Choco Solver calls: 23
+The number of different: 12
+The number of INconsistent: 7
+The number of unpost constraints: 34853
+The number of KBDiag calls: 23
+The number of consistent: 16
+The number of split set: 11
+The number of union: 38
+The size of Consistency checks: 34853
+The number of Consistency checks: 16
+
+Time for first: 0.014664269
+		WINDOWS8.SPLX	WINDOWS8_C10_0.TESTCASES
+			Diag: [3cnf(~Bold, Bold1, Bold2, Bold3), requires(Bold1, Bold), 3cnf(~Option, Option1, Option2)]
+			Diag size: 3
+The number of left branch calls: 11
+The number of right branch calls: 11
+The number of post constraints: 34853
+The number of Choco Solver calls: 23
+The number of different: 12
+The number of INconsistent: 7
+The number of unpost constraints: 34853
+The number of KBDiag calls: 23
+The number of consistent: 16
+The number of split set: 11
+The number of union: 38
+The size of Consistency checks: 34853
+The number of Consistency checks: 16
+
+Time for first: 0.01401696
+		WINDOWS8.SPLX	WINDOWS8_C25_0.TESTCASES
+			Diag: [3cnf(~Bold, Bold1, Bold2, Bold3), requires(Bold1, Bold), 3cnf(~Option, Option1, Option2), 3cnf(~Microphone, Microphone1, Microphone2), requires(RemoveBackgroundImageWhenAvailable2, RemoveBackgroundImageWhenAvailable), 3cnf(~Advanced, Advanced1, Advanced2), requires(Slow3, Slow)]
+			Diag size: 7
+The number of left branch calls: 20
+The number of right branch calls: 20
+The number of post constraints: 87501
+The number of Choco Solver calls: 56
+The number of different: 21
+The number of INconsistent: 16
+The number of unpost constraints: 87501
+The number of KBDiag calls: 41
+The number of consistent: 40
+The number of split set: 20
+The number of union: 68
+The size of Consistency checks: 87501
+The number of Consistency checks: 28
+
+Time for first: 0.035947586
+		WINDOWS8.SPLX	WINDOWS8_C25_0.TESTCASES
+			Diag: [3cnf(~Bold, Bold1, Bold2, Bold3), requires(Bold1, Bold), 3cnf(~Option, Option1, Option2), 3cnf(~Microphone, Microphone1, Microphone2), requires(RemoveBackgroundImageWhenAvailable2, RemoveBackgroundImageWhenAvailable), 3cnf(~Advanced, Advanced1, Advanced2), requires(Slow3, Slow)]
+			Diag size: 7
+The number of left branch calls: 20
+The number of right branch calls: 20
+The number of post constraints: 87501
+The number of Choco Solver calls: 56
+The number of different: 21
+The number of INconsistent: 16
+The number of unpost constraints: 87501
+The number of KBDiag calls: 41
+The number of consistent: 40
+The number of split set: 20
+The number of union: 68
+The size of Consistency checks: 87501
+The number of Consistency checks: 28
+
+Time for first: 0.035919116
+		WINDOWS8.SPLX	WINDOWS8_C25_0.TESTCASES
+			Diag: [3cnf(~Bold, Bold1, Bold2, Bold3), requires(Bold1, Bold), 3cnf(~Option, Option1, Option2), 3cnf(~Microphone, Microphone1, Microphone2), requires(RemoveBackgroundImageWhenAvailable2, RemoveBackgroundImageWhenAvailable), 3cnf(~Advanced, Advanced1, Advanced2), requires(Slow3, Slow)]
+			Diag size: 7
+The number of left branch calls: 20
+The number of right branch calls: 20
+The number of post constraints: 87501
+The number of Choco Solver calls: 56
+The number of different: 21
+The number of INconsistent: 16
+The number of unpost constraints: 87501
+The number of KBDiag calls: 41
+The number of consistent: 40
+The number of split set: 20
+The number of union: 68
+The size of Consistency checks: 87501
+The number of Consistency checks: 28
+
+Time for first: 0.036466456
+		WINDOWS8.SPLX	WINDOWS8_C50_0.TESTCASES
+			Diag: [mandatory(MakeTheKeyboardEasierToUse, MakeItEasierToType1), 3cnf(~Bold, Bold1, Bold2, Bold3), requires(Bold1, Bold), 3cnf(~Microphone, Microphone1, Microphone2), requires(RemoveBackgroundImageWhenAvailable2, RemoveBackgroundImageWhenAvailable), 3cnf(~Advanced, Advanced1, Advanced2), requires(Slow3, Slow)]
+			Diag size: 7
+The number of left branch calls: 24
+The number of right branch calls: 24
+The number of post constraints: 157634
+The number of Choco Solver calls: 111
+The number of different: 25
+The number of INconsistent: 37
+The number of unpost constraints: 157634
+The number of KBDiag calls: 49
+The number of consistent: 74
+The number of split set: 24
+The number of union: 83
+The size of Consistency checks: 157634
+The number of Consistency checks: 35
+
+Time for first: 0.063510883
+		WINDOWS8.SPLX	WINDOWS8_C50_0.TESTCASES
+			Diag: [mandatory(MakeTheKeyboardEasierToUse, MakeItEasierToType1), 3cnf(~Bold, Bold1, Bold2, Bold3), requires(Bold1, Bold), 3cnf(~Microphone, Microphone1, Microphone2), requires(RemoveBackgroundImageWhenAvailable2, RemoveBackgroundImageWhenAvailable), 3cnf(~Advanced, Advanced1, Advanced2), requires(Slow3, Slow)]
+			Diag size: 7
+The number of left branch calls: 24
+The number of right branch calls: 24
+The number of post constraints: 157634
+The number of Choco Solver calls: 111
+The number of different: 25
+The number of INconsistent: 37
+The number of unpost constraints: 157634
+The number of KBDiag calls: 49
+The number of consistent: 74
+The number of split set: 24
+The number of union: 83
+The size of Consistency checks: 157634
+The number of Consistency checks: 35
+
+Time for first: 0.058281942
+		WINDOWS8.SPLX	WINDOWS8_C50_0.TESTCASES
+			Diag: [mandatory(MakeTheKeyboardEasierToUse, MakeItEasierToType1), 3cnf(~Bold, Bold1, Bold2, Bold3), requires(Bold1, Bold), 3cnf(~Microphone, Microphone1, Microphone2), requires(RemoveBackgroundImageWhenAvailable2, RemoveBackgroundImageWhenAvailable), 3cnf(~Advanced, Advanced1, Advanced2), requires(Slow3, Slow)]
+			Diag size: 7
+The number of left branch calls: 24
+The number of right branch calls: 24
+The number of post constraints: 157634
+The number of Choco Solver calls: 111
+The number of different: 25
+The number of INconsistent: 37
+The number of unpost constraints: 157634
+The number of KBDiag calls: 49
+The number of consistent: 74
+The number of split set: 24
+The number of union: 83
+The size of Consistency checks: 157634
+The number of Consistency checks: 35
+
+Time for first: 0.058353715
+		WINDOWS8.SPLX	WINDOWS8_C100_0.TESTCASES
+			Diag: [mandatory(MakeTheKeyboardEasierToUse, MakeItEasierToType1), requires(TurnOnNarrator3, TurnOnNarrator), 3cnf(~Bold, Bold1, Bold2, Bold3), requires(Bold1, Bold), 3cnf(~Microphone, Microphone1, Microphone2), requires(RemoveBackgroundImageWhenAvailable2, RemoveBackgroundImageWhenAvailable), requires(SeeAlso3, SeeAlso), requires(SetupMouseKeys1, SetupMouseKeys), 3cnf(~Advanced, Advanced1, Advanced2), requires(Slow3, Slow)]
+			Diag size: 10
+The number of left branch calls: 29
+The number of right branch calls: 29
+The number of post constraints: 368170
+The number of Choco Solver calls: 244
+The number of different: 30
+The number of INconsistent: 90
+The number of unpost constraints: 368170
+The number of KBDiag calls: 59
+The number of consistent: 154
+The number of split set: 29
+The number of union: 102
+The size of Consistency checks: 368170
+The number of Consistency checks: 44
+
+Time for first: 0.152778266
+		WINDOWS8.SPLX	WINDOWS8_C100_0.TESTCASES
+			Diag: [mandatory(MakeTheKeyboardEasierToUse, MakeItEasierToType1), requires(TurnOnNarrator3, TurnOnNarrator), 3cnf(~Bold, Bold1, Bold2, Bold3), requires(Bold1, Bold), 3cnf(~Microphone, Microphone1, Microphone2), requires(RemoveBackgroundImageWhenAvailable2, RemoveBackgroundImageWhenAvailable), requires(SeeAlso3, SeeAlso), requires(SetupMouseKeys1, SetupMouseKeys), 3cnf(~Advanced, Advanced1, Advanced2), requires(Slow3, Slow)]
+			Diag size: 10
+The number of left branch calls: 29
+The number of right branch calls: 29
+The number of post constraints: 368170
+The number of Choco Solver calls: 244
+The number of different: 30
+The number of INconsistent: 90
+The number of unpost constraints: 368170
+The number of KBDiag calls: 59
+The number of consistent: 154
+The number of split set: 29
+The number of union: 102
+The size of Consistency checks: 368170
+The number of Consistency checks: 44
+
+Time for first: 0.144660597
+		WINDOWS8.SPLX	WINDOWS8_C100_0.TESTCASES
+			Diag: [mandatory(MakeTheKeyboardEasierToUse, MakeItEasierToType1), requires(TurnOnNarrator3, TurnOnNarrator), 3cnf(~Bold, Bold1, Bold2, Bold3), requires(Bold1, Bold), 3cnf(~Microphone, Microphone1, Microphone2), requires(RemoveBackgroundImageWhenAvailable2, RemoveBackgroundImageWhenAvailable), requires(SeeAlso3, SeeAlso), requires(SetupMouseKeys1, SetupMouseKeys), 3cnf(~Advanced, Advanced1, Advanced2), requires(Slow3, Slow)]
+			Diag size: 10
+The number of left branch calls: 29
+The number of right branch calls: 29
+The number of post constraints: 368170
+The number of Choco Solver calls: 244
+The number of different: 30
+The number of INconsistent: 90
+The number of unpost constraints: 368170
+The number of KBDiag calls: 59
+The number of consistent: 154
+The number of split set: 29
+The number of union: 102
+The size of Consistency checks: 368170
+The number of Consistency checks: 44
+
+Time for first: 0.172735116
+		WINDOWS8.SPLX	WINDOWS8_C250_0.TESTCASES
+			Diag: [mandatory(MakeTheKeyboardEasierToUse, MakeItEasierToType1), requires(TurnOnNarrator3, TurnOnNarrator), 3cnf(~Bold, Bold1, Bold2, Bold3), requires(Bold1, Bold), 3cnf(~TurnOnMouseKeys, TurnOnMouseKeys1, TurnOnMouseKeys2), requires(OtherSettings1, OtherSettings), 3cnf(~Microphone, Microphone1, Microphone2), requires(RemoveBackgroundImageWhenAvailable2, RemoveBackgroundImageWhenAvailable), requires(SeeAlso3, SeeAlso), requires(SetupMouseKeys1, SetupMouseKeys), 3cnf(~Advanced, Advanced1, Advanced2), requires(Slow3, Slow)]
+			Diag size: 12
+The number of left branch calls: 34
+The number of right branch calls: 34
+The number of post constraints: 1011393
+The number of Choco Solver calls: 649
+The number of different: 35
+The number of INconsistent: 261
+The number of unpost constraints: 1011393
+The number of KBDiag calls: 69
+The number of consistent: 388
+The number of split set: 34
+The number of union: 119
+The size of Consistency checks: 1011393
+The number of Consistency checks: 51
+
+Time for first: 0.430989638
+		WINDOWS8.SPLX	WINDOWS8_C250_0.TESTCASES
+			Diag: [mandatory(MakeTheKeyboardEasierToUse, MakeItEasierToType1), requires(TurnOnNarrator3, TurnOnNarrator), 3cnf(~Bold, Bold1, Bold2, Bold3), requires(Bold1, Bold), 3cnf(~TurnOnMouseKeys, TurnOnMouseKeys1, TurnOnMouseKeys2), requires(OtherSettings1, OtherSettings), 3cnf(~Microphone, Microphone1, Microphone2), requires(RemoveBackgroundImageWhenAvailable2, RemoveBackgroundImageWhenAvailable), requires(SeeAlso3, SeeAlso), requires(SetupMouseKeys1, SetupMouseKeys), 3cnf(~Advanced, Advanced1, Advanced2), requires(Slow3, Slow)]
+			Diag size: 12
+The number of left branch calls: 34
+The number of right branch calls: 34
+The number of post constraints: 1011393
+The number of Choco Solver calls: 649
+The number of different: 35
+The number of INconsistent: 261
+The number of unpost constraints: 1011393
+The number of KBDiag calls: 69
+The number of consistent: 388
+The number of split set: 34
+The number of union: 119
+The size of Consistency checks: 1011393
+The number of Consistency checks: 51
+
+Time for first: 0.427599456
+		WINDOWS8.SPLX	WINDOWS8_C250_0.TESTCASES
+			Diag: [mandatory(MakeTheKeyboardEasierToUse, MakeItEasierToType1), requires(TurnOnNarrator3, TurnOnNarrator), 3cnf(~Bold, Bold1, Bold2, Bold3), requires(Bold1, Bold), 3cnf(~TurnOnMouseKeys, TurnOnMouseKeys1, TurnOnMouseKeys2), requires(OtherSettings1, OtherSettings), 3cnf(~Microphone, Microphone1, Microphone2), requires(RemoveBackgroundImageWhenAvailable2, RemoveBackgroundImageWhenAvailable), requires(SeeAlso3, SeeAlso), requires(SetupMouseKeys1, SetupMouseKeys), 3cnf(~Advanced, Advanced1, Advanced2), requires(Slow3, Slow)]
+			Diag size: 12
+The number of left branch calls: 34
+The number of right branch calls: 34
+The number of post constraints: 1011393
+The number of Choco Solver calls: 649
+The number of different: 35
+The number of INconsistent: 261
+The number of unpost constraints: 1011393
+The number of KBDiag calls: 69
+The number of consistent: 388
+The number of split set: 34
+The number of union: 119
+The size of Consistency checks: 1011393
+The number of Consistency checks: 51
+
+Time for first: 0.433287555
+		WINDOWS8.SPLX	WINDOWS8_C500_0.TESTCASES
+			Diag: [mandatory(MakeTheKeyboardEasierToUse, MakeItEasierToType1), requires(AdjustTimeLimitsAndFlashingVisuals2, AdjustTimeLimitsAndFlashingVisuals), requires(TurnOnNarrator3, TurnOnNarrator), requires(ControlTheMouseWithTheKeyboard1, ControlTheMouseWithTheKeyboard), requires(ControlTheMouseWithTheKeyboard2, ControlTheMouseWithTheKeyboard), 3cnf(~Bold, Bold1, Bold2, Bold3), requires(Bold1, Bold), requires(SetupMouseKeys2, SetupMouseKeys), requires(SetupFilterKeys2, SetupFilterKeys), 3cnf(~Microphone, Microphone1, Microphone2), requires(RemoveBackgroundImageWhenAvailable2, RemoveBackgroundImageWhenAvailable), requires(HoldDownCTRLToSpeedUpAndSHIFTToSlowDown1, HoldDownCTRLToSpeedUpAndSHIFTToSlowDown), 3cnf(~Magnifier, Magnifier1, Magnifier2), requires(SeeAlso3, SeeAlso), requires(SetupMouseKeys1, SetupMouseKeys), 3cnf(~Advanced, Advanced1, Advanced2), requires(Slow3, Slow)]
+			Diag size: 17
+The number of left branch calls: 38
+The number of right branch calls: 38
+The number of post constraints: 1703001
+The number of Choco Solver calls: 1100
+The number of different: 39
+The number of INconsistent: 426
+The number of unpost constraints: 1703001
+The number of KBDiag calls: 77
+The number of consistent: 674
+The number of split set: 38
+The number of union: 135
+The size of Consistency checks: 1703001
+The number of Consistency checks: 59
+
+Time for first: 0.706520714
+		WINDOWS8.SPLX	WINDOWS8_C500_0.TESTCASES
+			Diag: [mandatory(MakeTheKeyboardEasierToUse, MakeItEasierToType1), requires(AdjustTimeLimitsAndFlashingVisuals2, AdjustTimeLimitsAndFlashingVisuals), requires(TurnOnNarrator3, TurnOnNarrator), requires(ControlTheMouseWithTheKeyboard1, ControlTheMouseWithTheKeyboard), requires(ControlTheMouseWithTheKeyboard2, ControlTheMouseWithTheKeyboard), 3cnf(~Bold, Bold1, Bold2, Bold3), requires(Bold1, Bold), requires(SetupMouseKeys2, SetupMouseKeys), requires(SetupFilterKeys2, SetupFilterKeys), 3cnf(~Microphone, Microphone1, Microphone2), requires(RemoveBackgroundImageWhenAvailable2, RemoveBackgroundImageWhenAvailable), requires(HoldDownCTRLToSpeedUpAndSHIFTToSlowDown1, HoldDownCTRLToSpeedUpAndSHIFTToSlowDown), 3cnf(~Magnifier, Magnifier1, Magnifier2), requires(SeeAlso3, SeeAlso), requires(SetupMouseKeys1, SetupMouseKeys), 3cnf(~Advanced, Advanced1, Advanced2), requires(Slow3, Slow)]
+			Diag size: 17
+The number of left branch calls: 38
+The number of right branch calls: 38
+The number of post constraints: 1703001
+The number of Choco Solver calls: 1100
+The number of different: 39
+The number of INconsistent: 426
+The number of unpost constraints: 1703001
+The number of KBDiag calls: 77
+The number of consistent: 674
+The number of split set: 38
+The number of union: 135
+The size of Consistency checks: 1703001
+The number of Consistency checks: 59
+
+Time for first: 0.701749268
+		WINDOWS8.SPLX	WINDOWS8_C500_0.TESTCASES
+			Diag: [mandatory(MakeTheKeyboardEasierToUse, MakeItEasierToType1), requires(AdjustTimeLimitsAndFlashingVisuals2, AdjustTimeLimitsAndFlashingVisuals), requires(TurnOnNarrator3, TurnOnNarrator), requires(ControlTheMouseWithTheKeyboard1, ControlTheMouseWithTheKeyboard), requires(ControlTheMouseWithTheKeyboard2, ControlTheMouseWithTheKeyboard), 3cnf(~Bold, Bold1, Bold2, Bold3), requires(Bold1, Bold), requires(SetupMouseKeys2, SetupMouseKeys), requires(SetupFilterKeys2, SetupFilterKeys), 3cnf(~Microphone, Microphone1, Microphone2), requires(RemoveBackgroundImageWhenAvailable2, RemoveBackgroundImageWhenAvailable), requires(HoldDownCTRLToSpeedUpAndSHIFTToSlowDown1, HoldDownCTRLToSpeedUpAndSHIFTToSlowDown), 3cnf(~Magnifier, Magnifier1, Magnifier2), requires(SeeAlso3, SeeAlso), requires(SetupMouseKeys1, SetupMouseKeys), 3cnf(~Advanced, Advanced1, Advanced2), requires(Slow3, Slow)]
+			Diag size: 17
+The number of left branch calls: 38
+The number of right branch calls: 38
+The number of post constraints: 1703001
+The number of Choco Solver calls: 1100
+The number of different: 39
+The number of INconsistent: 426
+The number of unpost constraints: 1703001
+The number of KBDiag calls: 77
+The number of consistent: 674
+The number of split set: 38
+The number of union: 135
+The size of Consistency checks: 1703001
+The number of Consistency checks: 59
+
+Time for first: 0.709212775
+
+KBDiag Evaluation Results:
+0.007197931
+0.014315793
+0.03611105266666667
+0.060048846666666676
+0.15672465966666668
+0.43062554966666666
+0.7058275856666668

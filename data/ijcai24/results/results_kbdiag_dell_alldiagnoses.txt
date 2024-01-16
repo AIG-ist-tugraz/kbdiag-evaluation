@@ -1,0 +1,486 @@
+		DELL.SPLX	DELL_C25_0.TESTCASES
+			Diagnosis 1
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(CD_DVD +RW, Adamo), excludes(120GB, Studio XPS Laptops)]
+				Diag size: 7
+				Time for all diagnoses: 0.005063935
+			Diagnosis 2
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(DVD-ROM Drive and DVD+-RW, Adamo), excludes(120GB, Studio XPS Laptops)]
+				Diag size: 7
+				Time for all diagnoses: 0.007701997
+			Diagnosis 3
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(CD_DVD +RW, Adamo), excludes(500GB, Mini Notebooks)]
+				Diag size: 7
+				Time for all diagnoses: 0.014794943
+			Diagnosis 4
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(DVD+-RW and CD-RW Combo, Adamo), excludes(120GB, Studio XPS Laptops)]
+				Diag size: 7
+				Time for all diagnoses: 0.009536258
+			Diagnosis 5
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(DVD-ROM Drive and DVD+-RW, Adamo), excludes(500GB, Mini Notebooks)]
+				Diag size: 7
+				Time for all diagnoses: 0.009298361
+			Diagnosis 6
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(120GB, Inspiron Laptops), excludes(CD_DVD +RW, Adamo)]
+				Diag size: 7
+				Time for all diagnoses: 0.009187048
+			Diagnosis 7
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(Blu Ray Disc, Adamo), excludes(120GB, Studio XPS Laptops)]
+				Diag size: 7
+				Time for all diagnoses: 0.008659966
+			Diagnosis 8
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(DVD+-RW and CD-RW Combo, Adamo), excludes(500GB, Mini Notebooks)]
+				Diag size: 7
+				Time for all diagnoses: 0.00909614
+			Diagnosis 9
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(120GB, Inspiron Laptops), excludes(DVD-ROM Drive and DVD+-RW, Adamo)]
+				Diag size: 7
+				Time for all diagnoses: 0.007700429
+			Diagnosis 10
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(120GB, Studio Laptops), excludes(CD_DVD +RW, Adamo)]
+				Diag size: 7
+				Time for all diagnoses: 0.007222622
+			Diagnosis 11
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), alternative(Optical Drive, CD_DVD +RW, DVD-ROM Drive and DVD+-RW, DVD+-RW and CD-RW Combo, Blu Ray Disc), excludes(120GB, Studio XPS Laptops)]
+				Diag size: 7
+				Time for all diagnoses: 0.00576398
+			Diagnosis 12
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(Blu Ray Disc, Adamo), excludes(500GB, Mini Notebooks)]
+				Diag size: 7
+				Time for all diagnoses: 0.008025108
+			Diagnosis 13
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(120GB, Inspiron Laptops), excludes(DVD+-RW and CD-RW Combo, Adamo)]
+				Diag size: 7
+				Time for all diagnoses: 0.007921861
+			Diagnosis 14
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(120GB, Studio Laptops), excludes(DVD-ROM Drive and DVD+-RW, Adamo)]
+				Diag size: 7
+				Time for all diagnoses: 0.006984581
+			Diagnosis 15
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(500GB, Adamo), excludes(120GB, Adamo), excludes(CD_DVD +RW, Adamo)]
+				Diag size: 8
+				Time for all diagnoses: 0.007851605
+			Diagnosis 16
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), alternative(Optical Drive, CD_DVD +RW, DVD-ROM Drive and DVD+-RW, DVD+-RW and CD-RW Combo, Blu Ray Disc), excludes(500GB, Mini Notebooks)]
+				Diag size: 7
+				Time for all diagnoses: 0.006266387
+			Diagnosis 17
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(120GB, Inspiron Laptops), excludes(Blu Ray Disc, Adamo)]
+				Diag size: 7
+				Time for all diagnoses: 0.007993153
+			Diagnosis 18
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(120GB, Studio Laptops), excludes(DVD+-RW and CD-RW Combo, Adamo)]
+				Diag size: 7
+				Time for all diagnoses: 0.008540134
+			Diagnosis 19
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(500GB, Adamo), excludes(120GB, Adamo), excludes(DVD-ROM Drive and DVD+-RW, Adamo)]
+				Diag size: 8
+				Time for all diagnoses: 0.009047207
+			Diagnosis 20
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(120GB, XPS Laptops), excludes(CD_DVD +RW, Adamo)]
+				Diag size: 7
+				Time for all diagnoses: 0.008246474
+			Diagnosis 21
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), alternative(Optical Drive, CD_DVD +RW, DVD-ROM Drive and DVD+-RW, DVD+-RW and CD-RW Combo, Blu Ray Disc), excludes(120GB, Inspiron Laptops)]
+				Diag size: 7
+				Time for all diagnoses: 0.008198539
+			Diagnosis 22
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(120GB, Studio Laptops), excludes(Blu Ray Disc, Adamo)]
+				Diag size: 7
+				Time for all diagnoses: 0.007286255
+			Diagnosis 23
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(500GB, Adamo), excludes(120GB, Adamo), excludes(DVD+-RW and CD-RW Combo, Adamo)]
+				Diag size: 8
+				Time for all diagnoses: 0.008532027
+			Diagnosis 24
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(120GB, XPS Laptops), excludes(DVD-ROM Drive and DVD+-RW, Adamo)]
+				Diag size: 7
+				Time for all diagnoses: 0.009496687
+			Diagnosis 25
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Product Category, Mini Notebooks, Inspiron Laptops, Studio Laptops, XPS Laptops, Adamo, Studio XPS Laptops), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(CD_DVD +RW, Adamo)]
+				Diag size: 7
+				Time for all diagnoses: 0.00805588
+			Diagnosis 26
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), alternative(Optical Drive, CD_DVD +RW, DVD-ROM Drive and DVD+-RW, DVD+-RW and CD-RW Combo, Blu Ray Disc), excludes(120GB, Studio Laptops)]
+				Diag size: 7
+				Time for all diagnoses: 0.007787856
+			Diagnosis 27
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(500GB, Adamo), excludes(120GB, Adamo), excludes(Blu Ray Disc, Adamo)]
+				Diag size: 8
+				Time for all diagnoses: 0.006988159
+			Diagnosis 28
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(120GB, XPS Laptops), excludes(DVD+-RW and CD-RW Combo, Adamo)]
+				Diag size: 7
+				Time for all diagnoses: 0.006727549
+			Diagnosis 29
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Product Category, Mini Notebooks, Inspiron Laptops, Studio Laptops, XPS Laptops, Adamo, Studio XPS Laptops), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(DVD-ROM Drive and DVD+-RW, Adamo)]
+				Diag size: 7
+				Time for all diagnoses: 0.009160662
+			Diagnosis 30
+				Diag: [mandatory(Dell Laptops/Notebooks, Product Category), mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(CD_DVD +RW, Adamo)]
+				Diag size: 7
+				Time for all diagnoses: 0.008160373
+			Diagnosis 31
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), alternative(Optical Drive, CD_DVD +RW, DVD-ROM Drive and DVD+-RW, DVD+-RW and CD-RW Combo, Blu Ray Disc), excludes(500GB, Adamo), excludes(120GB, Adamo)]
+				Diag size: 8
+				Time for all diagnoses: 0.008277742
+			Diagnosis 32
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(120GB, XPS Laptops), excludes(Blu Ray Disc, Adamo)]
+				Diag size: 7
+				Time for all diagnoses: 0.006441739
+			Diagnosis 33
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Product Category, Mini Notebooks, Inspiron Laptops, Studio Laptops, XPS Laptops, Adamo, Studio XPS Laptops), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(DVD+-RW and CD-RW Combo, Adamo)]
+				Diag size: 7
+				Time for all diagnoses: 0.006381636
+			Diagnosis 34
+				Diag: [mandatory(Dell Laptops/Notebooks, Product Category), mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(DVD-ROM Drive and DVD+-RW, Adamo)]
+				Diag size: 7
+				Time for all diagnoses: 0.006373669
+			Diagnosis 35
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), alternative(Optical Drive, CD_DVD +RW, DVD-ROM Drive and DVD+-RW, DVD+-RW and CD-RW Combo, Blu Ray Disc), excludes(120GB, XPS Laptops)]
+				Diag size: 7
+				Time for all diagnoses: 0.00667933
+			Diagnosis 36
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Product Category, Mini Notebooks, Inspiron Laptops, Studio Laptops, XPS Laptops, Adamo, Studio XPS Laptops), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(Blu Ray Disc, Adamo)]
+				Diag size: 7
+				Time for all diagnoses: 0.005818367
+			Diagnosis 37
+				Diag: [mandatory(Dell Laptops/Notebooks, Product Category), mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(DVD+-RW and CD-RW Combo, Adamo)]
+				Diag size: 7
+				Time for all diagnoses: 0.005003462
+			Diagnosis 38
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Product Category, Mini Notebooks, Inspiron Laptops, Studio Laptops, XPS Laptops, Adamo, Studio XPS Laptops), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), alternative(Optical Drive, CD_DVD +RW, DVD-ROM Drive and DVD+-RW, DVD+-RW and CD-RW Combo, Blu Ray Disc)]
+				Diag size: 7
+				Time for all diagnoses: 0.005444817
+			Diagnosis 39
+				Diag: [mandatory(Dell Laptops/Notebooks, Product Category), mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(Blu Ray Disc, Adamo)]
+				Diag size: 7
+				Time for all diagnoses: 0.005020693
+			Diagnosis 40
+				Diag: [mandatory(Dell Laptops/Notebooks, Product Category), mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), alternative(Optical Drive, CD_DVD +RW, DVD-ROM Drive and DVD+-RW, DVD+-RW and CD-RW Combo, Blu Ray Disc)]
+				Diag size: 7
+				Time for all diagnoses: 0.004361155
+		DELL.SPLX	DELL_C25_0.TESTCASES
+			Diagnosis 1
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(CD_DVD +RW, Adamo), excludes(120GB, Studio XPS Laptops)]
+				Diag size: 7
+				Time for all diagnoses: 0.003834572
+			Diagnosis 2
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(DVD-ROM Drive and DVD+-RW, Adamo), excludes(120GB, Studio XPS Laptops)]
+				Diag size: 7
+				Time for all diagnoses: 0.006630227
+			Diagnosis 3
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(CD_DVD +RW, Adamo), excludes(500GB, Mini Notebooks)]
+				Diag size: 7
+				Time for all diagnoses: 0.007901047
+			Diagnosis 4
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(DVD+-RW and CD-RW Combo, Adamo), excludes(120GB, Studio XPS Laptops)]
+				Diag size: 7
+				Time for all diagnoses: 0.006387956
+			Diagnosis 5
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(DVD-ROM Drive and DVD+-RW, Adamo), excludes(500GB, Mini Notebooks)]
+				Diag size: 7
+				Time for all diagnoses: 0.007253431
+			Diagnosis 6
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(120GB, Inspiron Laptops), excludes(CD_DVD +RW, Adamo)]
+				Diag size: 7
+				Time for all diagnoses: 0.006122265
+			Diagnosis 7
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(Blu Ray Disc, Adamo), excludes(120GB, Studio XPS Laptops)]
+				Diag size: 7
+				Time for all diagnoses: 0.006571576
+			Diagnosis 8
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(DVD+-RW and CD-RW Combo, Adamo), excludes(500GB, Mini Notebooks)]
+				Diag size: 7
+				Time for all diagnoses: 0.007351994
+			Diagnosis 9
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(120GB, Inspiron Laptops), excludes(DVD-ROM Drive and DVD+-RW, Adamo)]
+				Diag size: 7
+				Time for all diagnoses: 0.005493596
+			Diagnosis 10
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(120GB, Studio Laptops), excludes(CD_DVD +RW, Adamo)]
+				Diag size: 7
+				Time for all diagnoses: 0.005196334
+			Diagnosis 11
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), alternative(Optical Drive, CD_DVD +RW, DVD-ROM Drive and DVD+-RW, DVD+-RW and CD-RW Combo, Blu Ray Disc), excludes(120GB, Studio XPS Laptops)]
+				Diag size: 7
+				Time for all diagnoses: 0.004375632
+			Diagnosis 12
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(Blu Ray Disc, Adamo), excludes(500GB, Mini Notebooks)]
+				Diag size: 7
+				Time for all diagnoses: 0.005742518
+			Diagnosis 13
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(120GB, Inspiron Laptops), excludes(DVD+-RW and CD-RW Combo, Adamo)]
+				Diag size: 7
+				Time for all diagnoses: 0.005783098
+			Diagnosis 14
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(120GB, Studio Laptops), excludes(DVD-ROM Drive and DVD+-RW, Adamo)]
+				Diag size: 7
+				Time for all diagnoses: 0.005150616
+			Diagnosis 15
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(500GB, Adamo), excludes(120GB, Adamo), excludes(CD_DVD +RW, Adamo)]
+				Diag size: 8
+				Time for all diagnoses: 0.005521917
+			Diagnosis 16
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), alternative(Optical Drive, CD_DVD +RW, DVD-ROM Drive and DVD+-RW, DVD+-RW and CD-RW Combo, Blu Ray Disc), excludes(500GB, Mini Notebooks)]
+				Diag size: 7
+				Time for all diagnoses: 0.004385686
+			Diagnosis 17
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(120GB, Inspiron Laptops), excludes(Blu Ray Disc, Adamo)]
+				Diag size: 7
+				Time for all diagnoses: 0.005775075
+			Diagnosis 18
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(120GB, Studio Laptops), excludes(DVD+-RW and CD-RW Combo, Adamo)]
+				Diag size: 7
+				Time for all diagnoses: 0.005395603
+			Diagnosis 19
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(500GB, Adamo), excludes(120GB, Adamo), excludes(DVD-ROM Drive and DVD+-RW, Adamo)]
+				Diag size: 8
+				Time for all diagnoses: 0.005860283
+			Diagnosis 20
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(120GB, XPS Laptops), excludes(CD_DVD +RW, Adamo)]
+				Diag size: 7
+				Time for all diagnoses: 0.004902237
+			Diagnosis 21
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), alternative(Optical Drive, CD_DVD +RW, DVD-ROM Drive and DVD+-RW, DVD+-RW and CD-RW Combo, Blu Ray Disc), excludes(120GB, Inspiron Laptops)]
+				Diag size: 7
+				Time for all diagnoses: 0.004837076
+			Diagnosis 22
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(120GB, Studio Laptops), excludes(Blu Ray Disc, Adamo)]
+				Diag size: 7
+				Time for all diagnoses: 0.004413974
+			Diagnosis 23
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(500GB, Adamo), excludes(120GB, Adamo), excludes(DVD+-RW and CD-RW Combo, Adamo)]
+				Diag size: 8
+				Time for all diagnoses: 0.005307194
+			Diagnosis 24
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(120GB, XPS Laptops), excludes(DVD-ROM Drive and DVD+-RW, Adamo)]
+				Diag size: 7
+				Time for all diagnoses: 0.005733496
+			Diagnosis 25
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Product Category, Mini Notebooks, Inspiron Laptops, Studio Laptops, XPS Laptops, Adamo, Studio XPS Laptops), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(CD_DVD +RW, Adamo)]
+				Diag size: 7
+				Time for all diagnoses: 0.004768777
+			Diagnosis 26
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), alternative(Optical Drive, CD_DVD +RW, DVD-ROM Drive and DVD+-RW, DVD+-RW and CD-RW Combo, Blu Ray Disc), excludes(120GB, Studio Laptops)]
+				Diag size: 7
+				Time for all diagnoses: 0.004566641
+			Diagnosis 27
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(500GB, Adamo), excludes(120GB, Adamo), excludes(Blu Ray Disc, Adamo)]
+				Diag size: 8
+				Time for all diagnoses: 0.004144812
+			Diagnosis 28
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(120GB, XPS Laptops), excludes(DVD+-RW and CD-RW Combo, Adamo)]
+				Diag size: 7
+				Time for all diagnoses: 0.004011077
+			Diagnosis 29
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Product Category, Mini Notebooks, Inspiron Laptops, Studio Laptops, XPS Laptops, Adamo, Studio XPS Laptops), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(DVD-ROM Drive and DVD+-RW, Adamo)]
+				Diag size: 7
+				Time for all diagnoses: 0.005505922
+			Diagnosis 30
+				Diag: [mandatory(Dell Laptops/Notebooks, Product Category), mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(CD_DVD +RW, Adamo)]
+				Diag size: 7
+				Time for all diagnoses: 0.004652059
+			Diagnosis 31
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), alternative(Optical Drive, CD_DVD +RW, DVD-ROM Drive and DVD+-RW, DVD+-RW and CD-RW Combo, Blu Ray Disc), excludes(500GB, Adamo), excludes(120GB, Adamo)]
+				Diag size: 8
+				Time for all diagnoses: 0.004141961
+			Diagnosis 32
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(120GB, XPS Laptops), excludes(Blu Ray Disc, Adamo)]
+				Diag size: 7
+				Time for all diagnoses: 0.003404906
+			Diagnosis 33
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Product Category, Mini Notebooks, Inspiron Laptops, Studio Laptops, XPS Laptops, Adamo, Studio XPS Laptops), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(DVD+-RW and CD-RW Combo, Adamo)]
+				Diag size: 7
+				Time for all diagnoses: 0.004016028
+			Diagnosis 34
+				Diag: [mandatory(Dell Laptops/Notebooks, Product Category), mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(DVD-ROM Drive and DVD+-RW, Adamo)]
+				Diag size: 7
+				Time for all diagnoses: 0.003846295
+			Diagnosis 35
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), alternative(Optical Drive, CD_DVD +RW, DVD-ROM Drive and DVD+-RW, DVD+-RW and CD-RW Combo, Blu Ray Disc), excludes(120GB, XPS Laptops)]
+				Diag size: 7
+				Time for all diagnoses: 0.004112411
+			Diagnosis 36
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Product Category, Mini Notebooks, Inspiron Laptops, Studio Laptops, XPS Laptops, Adamo, Studio XPS Laptops), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(Blu Ray Disc, Adamo)]
+				Diag size: 7
+				Time for all diagnoses: 0.003972264
+			Diagnosis 37
+				Diag: [mandatory(Dell Laptops/Notebooks, Product Category), mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(DVD+-RW and CD-RW Combo, Adamo)]
+				Diag size: 7
+				Time for all diagnoses: 0.003566343
+			Diagnosis 38
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Product Category, Mini Notebooks, Inspiron Laptops, Studio Laptops, XPS Laptops, Adamo, Studio XPS Laptops), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), alternative(Optical Drive, CD_DVD +RW, DVD-ROM Drive and DVD+-RW, DVD+-RW and CD-RW Combo, Blu Ray Disc)]
+				Diag size: 7
+				Time for all diagnoses: 0.004120598
+			Diagnosis 39
+				Diag: [mandatory(Dell Laptops/Notebooks, Product Category), mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(Blu Ray Disc, Adamo)]
+				Diag size: 7
+				Time for all diagnoses: 0.003762011
+			Diagnosis 40
+				Diag: [mandatory(Dell Laptops/Notebooks, Product Category), mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), alternative(Optical Drive, CD_DVD +RW, DVD-ROM Drive and DVD+-RW, DVD+-RW and CD-RW Combo, Blu Ray Disc)]
+				Diag size: 7
+				Time for all diagnoses: 0.00371268
+		DELL.SPLX	DELL_C25_0.TESTCASES
+			Diagnosis 1
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(CD_DVD +RW, Adamo), excludes(120GB, Studio XPS Laptops)]
+				Diag size: 7
+				Time for all diagnoses: 0.002836036
+			Diagnosis 2
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(DVD-ROM Drive and DVD+-RW, Adamo), excludes(120GB, Studio XPS Laptops)]
+				Diag size: 7
+				Time for all diagnoses: 0.005270527
+			Diagnosis 3
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(CD_DVD +RW, Adamo), excludes(500GB, Mini Notebooks)]
+				Diag size: 7
+				Time for all diagnoses: 0.005425616
+			Diagnosis 4
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(DVD+-RW and CD-RW Combo, Adamo), excludes(120GB, Studio XPS Laptops)]
+				Diag size: 7
+				Time for all diagnoses: 0.005253951
+			Diagnosis 5
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(DVD-ROM Drive and DVD+-RW, Adamo), excludes(500GB, Mini Notebooks)]
+				Diag size: 7
+				Time for all diagnoses: 0.00575997
+			Diagnosis 6
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(120GB, Inspiron Laptops), excludes(CD_DVD +RW, Adamo)]
+				Diag size: 7
+				Time for all diagnoses: 0.004316461
+			Diagnosis 7
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(Blu Ray Disc, Adamo), excludes(120GB, Studio XPS Laptops)]
+				Diag size: 7
+				Time for all diagnoses: 0.004287008
+			Diagnosis 8
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(DVD+-RW and CD-RW Combo, Adamo), excludes(500GB, Mini Notebooks)]
+				Diag size: 7
+				Time for all diagnoses: 0.004652464
+			Diagnosis 9
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(120GB, Inspiron Laptops), excludes(DVD-ROM Drive and DVD+-RW, Adamo)]
+				Diag size: 7
+				Time for all diagnoses: 0.004418233
+			Diagnosis 10
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(120GB, Studio Laptops), excludes(CD_DVD +RW, Adamo)]
+				Diag size: 7
+				Time for all diagnoses: 0.004063643
+			Diagnosis 11
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), alternative(Optical Drive, CD_DVD +RW, DVD-ROM Drive and DVD+-RW, DVD+-RW and CD-RW Combo, Blu Ray Disc), excludes(120GB, Studio XPS Laptops)]
+				Diag size: 7
+				Time for all diagnoses: 0.003327893
+			Diagnosis 12
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(Blu Ray Disc, Adamo), excludes(500GB, Mini Notebooks)]
+				Diag size: 7
+				Time for all diagnoses: 0.004643427
+			Diagnosis 13
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(120GB, Inspiron Laptops), excludes(DVD+-RW and CD-RW Combo, Adamo)]
+				Diag size: 7
+				Time for all diagnoses: 0.004290634
+			Diagnosis 14
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(120GB, Studio Laptops), excludes(DVD-ROM Drive and DVD+-RW, Adamo)]
+				Diag size: 7
+				Time for all diagnoses: 0.004003937
+			Diagnosis 15
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(500GB, Adamo), excludes(120GB, Adamo), excludes(CD_DVD +RW, Adamo)]
+				Diag size: 8
+				Time for all diagnoses: 0.004524333
+			Diagnosis 16
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), alternative(Optical Drive, CD_DVD +RW, DVD-ROM Drive and DVD+-RW, DVD+-RW and CD-RW Combo, Blu Ray Disc), excludes(500GB, Mini Notebooks)]
+				Diag size: 7
+				Time for all diagnoses: 0.004012269
+			Diagnosis 17
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(120GB, Inspiron Laptops), excludes(Blu Ray Disc, Adamo)]
+				Diag size: 7
+				Time for all diagnoses: 0.00493182
+			Diagnosis 18
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(120GB, Studio Laptops), excludes(DVD+-RW and CD-RW Combo, Adamo)]
+				Diag size: 7
+				Time for all diagnoses: 0.004160783
+			Diagnosis 19
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(500GB, Adamo), excludes(120GB, Adamo), excludes(DVD-ROM Drive and DVD+-RW, Adamo)]
+				Diag size: 8
+				Time for all diagnoses: 0.004735251
+			Diagnosis 20
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(120GB, XPS Laptops), excludes(CD_DVD +RW, Adamo)]
+				Diag size: 7
+				Time for all diagnoses: 0.004295555
+			Diagnosis 21
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), alternative(Optical Drive, CD_DVD +RW, DVD-ROM Drive and DVD+-RW, DVD+-RW and CD-RW Combo, Blu Ray Disc), excludes(120GB, Inspiron Laptops)]
+				Diag size: 7
+				Time for all diagnoses: 0.003819979
+			Diagnosis 22
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(120GB, Studio Laptops), excludes(Blu Ray Disc, Adamo)]
+				Diag size: 7
+				Time for all diagnoses: 0.003533352
+			Diagnosis 23
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(500GB, Adamo), excludes(120GB, Adamo), excludes(DVD+-RW and CD-RW Combo, Adamo)]
+				Diag size: 8
+				Time for all diagnoses: 0.004377432
+			Diagnosis 24
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(120GB, XPS Laptops), excludes(DVD-ROM Drive and DVD+-RW, Adamo)]
+				Diag size: 7
+				Time for all diagnoses: 0.00463067
+			Diagnosis 25
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Product Category, Mini Notebooks, Inspiron Laptops, Studio Laptops, XPS Laptops, Adamo, Studio XPS Laptops), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(CD_DVD +RW, Adamo)]
+				Diag size: 7
+				Time for all diagnoses: 0.00351433
+			Diagnosis 26
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), alternative(Optical Drive, CD_DVD +RW, DVD-ROM Drive and DVD+-RW, DVD+-RW and CD-RW Combo, Blu Ray Disc), excludes(120GB, Studio Laptops)]
+				Diag size: 7
+				Time for all diagnoses: 0.003575959
+			Diagnosis 27
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(500GB, Adamo), excludes(120GB, Adamo), excludes(Blu Ray Disc, Adamo)]
+				Diag size: 8
+				Time for all diagnoses: 0.003085997
+			Diagnosis 28
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(120GB, XPS Laptops), excludes(DVD+-RW and CD-RW Combo, Adamo)]
+				Diag size: 7
+				Time for all diagnoses: 0.003112064
+			Diagnosis 29
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Product Category, Mini Notebooks, Inspiron Laptops, Studio Laptops, XPS Laptops, Adamo, Studio XPS Laptops), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(DVD-ROM Drive and DVD+-RW, Adamo)]
+				Diag size: 7
+				Time for all diagnoses: 0.004455321
+			Diagnosis 30
+				Diag: [mandatory(Dell Laptops/Notebooks, Product Category), mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(CD_DVD +RW, Adamo)]
+				Diag size: 7
+				Time for all diagnoses: 0.004245307
+			Diagnosis 31
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), alternative(Optical Drive, CD_DVD +RW, DVD-ROM Drive and DVD+-RW, DVD+-RW and CD-RW Combo, Blu Ray Disc), excludes(500GB, Adamo), excludes(120GB, Adamo)]
+				Diag size: 8
+				Time for all diagnoses: 0.004268957
+			Diagnosis 32
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(120GB, XPS Laptops), excludes(Blu Ray Disc, Adamo)]
+				Diag size: 7
+				Time for all diagnoses: 0.003438894
+			Diagnosis 33
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Product Category, Mini Notebooks, Inspiron Laptops, Studio Laptops, XPS Laptops, Adamo, Studio XPS Laptops), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(DVD+-RW and CD-RW Combo, Adamo)]
+				Diag size: 7
+				Time for all diagnoses: 0.003942375
+			Diagnosis 34
+				Diag: [mandatory(Dell Laptops/Notebooks, Product Category), mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(DVD-ROM Drive and DVD+-RW, Adamo)]
+				Diag size: 7
+				Time for all diagnoses: 0.004235462
+			Diagnosis 35
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), alternative(Optical Drive, CD_DVD +RW, DVD-ROM Drive and DVD+-RW, DVD+-RW and CD-RW Combo, Blu Ray Disc), excludes(120GB, XPS Laptops)]
+				Diag size: 7
+				Time for all diagnoses: 0.004175713
+			Diagnosis 36
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Product Category, Mini Notebooks, Inspiron Laptops, Studio Laptops, XPS Laptops, Adamo, Studio XPS Laptops), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(Blu Ray Disc, Adamo)]
+				Diag size: 7
+				Time for all diagnoses: 0.003723757
+			Diagnosis 37
+				Diag: [mandatory(Dell Laptops/Notebooks, Product Category), mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(DVD+-RW and CD-RW Combo, Adamo)]
+				Diag size: 7
+				Time for all diagnoses: 0.003476227
+			Diagnosis 38
+				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Product Category, Mini Notebooks, Inspiron Laptops, Studio Laptops, XPS Laptops, Adamo, Studio XPS Laptops), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), alternative(Optical Drive, CD_DVD +RW, DVD-ROM Drive and DVD+-RW, DVD+-RW and CD-RW Combo, Blu Ray Disc)]
+				Diag size: 7
+				Time for all diagnoses: 0.003980527
+			Diagnosis 39
+				Diag: [mandatory(Dell Laptops/Notebooks, Product Category), mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(Blu Ray Disc, Adamo)]
+				Diag size: 7
+				Time for all diagnoses: 0.003442219
+			Diagnosis 40
+				Diag: [mandatory(Dell Laptops/Notebooks, Product Category), mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), alternative(Optical Drive, CD_DVD +RW, DVD-ROM Drive and DVD+-RW, DVD+-RW and CD-RW Combo, Blu Ray Disc)]
+				Diag size: 7
+				Time for all diagnoses: 0.003435419
+
+KBDiag Evaluation Results:
+0.2266722487

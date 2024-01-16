@@ -1,0 +1,9 @@
+nameKB: windows8.splx
+TC: 25
+numGenFM: 1
+numIter: 3
+perViolated_nonViolated: 0.2
+dataPath: ./data/realworld/
+resultsPath: ./results/
+m: 2
+numDiagnoses: -1

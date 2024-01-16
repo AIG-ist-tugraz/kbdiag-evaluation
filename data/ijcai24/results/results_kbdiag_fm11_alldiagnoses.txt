@@ -1,0 +1,198 @@
+		REAL-FM-11.SPLX	REAL-FM-11_C25_0.TESTCASES
+			Diagnosis 1
+				Diag: [mandatory(his, detection_devices), mandatory(his, quality_attributes), mandatory(services, fire), mandatory(administration, hmi), optional(moisture_sensor, detection_devices), mandatory(action_devices, sprinkler)]
+				Diag size: 6
+				Time for all diagnoses: 0.00182288
+			Diagnosis 2
+				Diag: [mandatory(his, services), mandatory(his, detection_devices), mandatory(his, quality_attributes), mandatory(administration, hmi), optional(moisture_sensor, detection_devices), mandatory(action_devices, sprinkler)]
+				Diag size: 6
+				Time for all diagnoses: 0.00185286
+			Diagnosis 3
+				Diag: [mandatory(his, administration), mandatory(his, detection_devices), mandatory(his, quality_attributes), mandatory(services, fire), optional(moisture_sensor, detection_devices), mandatory(action_devices, sprinkler)]
+				Diag size: 6
+				Time for all diagnoses: 0.00210848
+			Diagnosis 4
+				Diag: [mandatory(his, detection_devices), mandatory(his, quality_attributes), mandatory(services, fire), mandatory(administration, hmi), mandatory(detection_devices, motion_sensor), mandatory(action_devices, sprinkler)]
+				Diag size: 6
+				Time for all diagnoses: 0.00191685
+			Diagnosis 5
+				Diag: [mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, quality_attributes), mandatory(services, fire), mandatory(administration, hmi), optional(moisture_sensor, detection_devices)]
+				Diag size: 6
+				Time for all diagnoses: 0.00214255
+			Diagnosis 6
+				Diag: [mandatory(his, services), mandatory(his, administration), mandatory(his, detection_devices), mandatory(his, quality_attributes), optional(moisture_sensor, detection_devices), mandatory(action_devices, sprinkler)]
+				Diag size: 6
+				Time for all diagnoses: 0.00175542
+			Diagnosis 7
+				Diag: [mandatory(his, services), mandatory(his, detection_devices), mandatory(his, quality_attributes), mandatory(administration, hmi), mandatory(detection_devices, motion_sensor), mandatory(action_devices, sprinkler)]
+				Diag size: 6
+				Time for all diagnoses: 0.00216768
+			Diagnosis 8
+				Diag: [mandatory(his, services), mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, quality_attributes), mandatory(administration, hmi), optional(moisture_sensor, detection_devices)]
+				Diag size: 6
+				Time for all diagnoses: 0.00190623
+			Diagnosis 9
+				Diag: [mandatory(his, administration), mandatory(his, detection_devices), mandatory(his, quality_attributes), mandatory(services, fire), mandatory(detection_devices, motion_sensor), mandatory(action_devices, sprinkler)]
+				Diag size: 6
+				Time for all diagnoses: 0.00187472
+			Diagnosis 10
+				Diag: [mandatory(his, administration), mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, quality_attributes), mandatory(services, fire), optional(moisture_sensor, detection_devices)]
+				Diag size: 6
+				Time for all diagnoses: 0.00189626
+			Diagnosis 11
+				Diag: [mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, quality_attributes), mandatory(services, fire), mandatory(administration, hmi), mandatory(detection_devices, motion_sensor)]
+				Diag size: 6
+				Time for all diagnoses: 0.00180370
+			Diagnosis 12
+				Diag: [mandatory(his, services), mandatory(his, administration), mandatory(his, detection_devices), mandatory(his, quality_attributes), mandatory(detection_devices, motion_sensor), mandatory(action_devices, sprinkler)]
+				Diag size: 6
+				Time for all diagnoses: 0.00177789
+			Diagnosis 13
+				Diag: [mandatory(his, services), mandatory(his, administration), mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, quality_attributes), optional(moisture_sensor, detection_devices)]
+				Diag size: 6
+				Time for all diagnoses: 0.00200757
+			Diagnosis 14
+				Diag: [mandatory(his, services), mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, quality_attributes), mandatory(administration, hmi), mandatory(detection_devices, motion_sensor)]
+				Diag size: 6
+				Time for all diagnoses: 0.00220594
+			Diagnosis 15
+				Diag: [mandatory(his, administration), mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, quality_attributes), mandatory(services, fire), mandatory(detection_devices, motion_sensor)]
+				Diag size: 6
+				Time for all diagnoses: 0.00269003
+			Diagnosis 16
+				Diag: [mandatory(his, services), mandatory(his, administration), mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, quality_attributes), mandatory(detection_devices, motion_sensor)]
+				Diag size: 6
+				Time for all diagnoses: 0.00226359
+		REAL-FM-11.SPLX	REAL-FM-11_C25_0.TESTCASES
+			Diagnosis 1
+				Diag: [mandatory(his, detection_devices), mandatory(his, quality_attributes), mandatory(services, fire), mandatory(administration, hmi), optional(moisture_sensor, detection_devices), mandatory(action_devices, sprinkler)]
+				Diag size: 6
+				Time for all diagnoses: 0.00193682
+			Diagnosis 2
+				Diag: [mandatory(his, services), mandatory(his, detection_devices), mandatory(his, quality_attributes), mandatory(administration, hmi), optional(moisture_sensor, detection_devices), mandatory(action_devices, sprinkler)]
+				Diag size: 6
+				Time for all diagnoses: 0.00146597
+			Diagnosis 3
+				Diag: [mandatory(his, administration), mandatory(his, detection_devices), mandatory(his, quality_attributes), mandatory(services, fire), optional(moisture_sensor, detection_devices), mandatory(action_devices, sprinkler)]
+				Diag size: 6
+				Time for all diagnoses: 0.00093558
+			Diagnosis 4
+				Diag: [mandatory(his, detection_devices), mandatory(his, quality_attributes), mandatory(services, fire), mandatory(administration, hmi), mandatory(detection_devices, motion_sensor), mandatory(action_devices, sprinkler)]
+				Diag size: 6
+				Time for all diagnoses: 0.00155483
+			Diagnosis 5
+				Diag: [mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, quality_attributes), mandatory(services, fire), mandatory(administration, hmi), optional(moisture_sensor, detection_devices)]
+				Diag size: 6
+				Time for all diagnoses: 0.00132925
+			Diagnosis 6
+				Diag: [mandatory(his, services), mandatory(his, administration), mandatory(his, detection_devices), mandatory(his, quality_attributes), optional(moisture_sensor, detection_devices), mandatory(action_devices, sprinkler)]
+				Diag size: 6
+				Time for all diagnoses: 0.00139403
+			Diagnosis 7
+				Diag: [mandatory(his, services), mandatory(his, detection_devices), mandatory(his, quality_attributes), mandatory(administration, hmi), mandatory(detection_devices, motion_sensor), mandatory(action_devices, sprinkler)]
+				Diag size: 6
+				Time for all diagnoses: 0.00143941
+			Diagnosis 8
+				Diag: [mandatory(his, services), mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, quality_attributes), mandatory(administration, hmi), optional(moisture_sensor, detection_devices)]
+				Diag size: 6
+				Time for all diagnoses: 0.00150977
+			Diagnosis 9
+				Diag: [mandatory(his, administration), mandatory(his, detection_devices), mandatory(his, quality_attributes), mandatory(services, fire), mandatory(detection_devices, motion_sensor), mandatory(action_devices, sprinkler)]
+				Diag size: 6
+				Time for all diagnoses: 0.00152979
+			Diagnosis 10
+				Diag: [mandatory(his, administration), mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, quality_attributes), mandatory(services, fire), optional(moisture_sensor, detection_devices)]
+				Diag size: 6
+				Time for all diagnoses: 0.00145152
+			Diagnosis 11
+				Diag: [mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, quality_attributes), mandatory(services, fire), mandatory(administration, hmi), mandatory(detection_devices, motion_sensor)]
+				Diag size: 6
+				Time for all diagnoses: 0.00146151
+			Diagnosis 12
+				Diag: [mandatory(his, services), mandatory(his, administration), mandatory(his, detection_devices), mandatory(his, quality_attributes), mandatory(detection_devices, motion_sensor), mandatory(action_devices, sprinkler)]
+				Diag size: 6
+				Time for all diagnoses: 0.00138674
+			Diagnosis 13
+				Diag: [mandatory(his, services), mandatory(his, administration), mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, quality_attributes), optional(moisture_sensor, detection_devices)]
+				Diag size: 6
+				Time for all diagnoses: 0.00125003
+			Diagnosis 14
+				Diag: [mandatory(his, services), mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, quality_attributes), mandatory(administration, hmi), mandatory(detection_devices, motion_sensor)]
+				Diag size: 6
+				Time for all diagnoses: 0.00141148
+			Diagnosis 15
+				Diag: [mandatory(his, administration), mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, quality_attributes), mandatory(services, fire), mandatory(detection_devices, motion_sensor)]
+				Diag size: 6
+				Time for all diagnoses: 0.00130337
+			Diagnosis 16
+				Diag: [mandatory(his, services), mandatory(his, administration), mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, quality_attributes), mandatory(detection_devices, motion_sensor)]
+				Diag size: 6
+				Time for all diagnoses: 0.00145942
+		REAL-FM-11.SPLX	REAL-FM-11_C25_0.TESTCASES
+			Diagnosis 1
+				Diag: [mandatory(his, detection_devices), mandatory(his, quality_attributes), mandatory(services, fire), mandatory(administration, hmi), optional(moisture_sensor, detection_devices), mandatory(action_devices, sprinkler)]
+				Diag size: 6
+				Time for all diagnoses: 0.00161978
+			Diagnosis 2
+				Diag: [mandatory(his, services), mandatory(his, detection_devices), mandatory(his, quality_attributes), mandatory(administration, hmi), optional(moisture_sensor, detection_devices), mandatory(action_devices, sprinkler)]
+				Diag size: 6
+				Time for all diagnoses: 0.00231429
+			Diagnosis 3
+				Diag: [mandatory(his, administration), mandatory(his, detection_devices), mandatory(his, quality_attributes), mandatory(services, fire), optional(moisture_sensor, detection_devices), mandatory(action_devices, sprinkler)]
+				Diag size: 6
+				Time for all diagnoses: 0.00171367
+			Diagnosis 4
+				Diag: [mandatory(his, detection_devices), mandatory(his, quality_attributes), mandatory(services, fire), mandatory(administration, hmi), mandatory(detection_devices, motion_sensor), mandatory(action_devices, sprinkler)]
+				Diag size: 6
+				Time for all diagnoses: 0.00142853
+			Diagnosis 5
+				Diag: [mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, quality_attributes), mandatory(services, fire), mandatory(administration, hmi), optional(moisture_sensor, detection_devices)]
+				Diag size: 6
+				Time for all diagnoses: 0.00170122
+			Diagnosis 6
+				Diag: [mandatory(his, services), mandatory(his, administration), mandatory(his, detection_devices), mandatory(his, quality_attributes), optional(moisture_sensor, detection_devices), mandatory(action_devices, sprinkler)]
+				Diag size: 6
+				Time for all diagnoses: 0.00172277
+			Diagnosis 7
+				Diag: [mandatory(his, services), mandatory(his, detection_devices), mandatory(his, quality_attributes), mandatory(administration, hmi), mandatory(detection_devices, motion_sensor), mandatory(action_devices, sprinkler)]
+				Diag size: 6
+				Time for all diagnoses: 0.00167450
+			Diagnosis 8
+				Diag: [mandatory(his, services), mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, quality_attributes), mandatory(administration, hmi), optional(moisture_sensor, detection_devices)]
+				Diag size: 6
+				Time for all diagnoses: 0.00159171
+			Diagnosis 9
+				Diag: [mandatory(his, administration), mandatory(his, detection_devices), mandatory(his, quality_attributes), mandatory(services, fire), mandatory(detection_devices, motion_sensor), mandatory(action_devices, sprinkler)]
+				Diag size: 6
+				Time for all diagnoses: 0.00183002
+			Diagnosis 10
+				Diag: [mandatory(his, administration), mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, quality_attributes), mandatory(services, fire), optional(moisture_sensor, detection_devices)]
+				Diag size: 6
+				Time for all diagnoses: 0.00158492
+			Diagnosis 11
+				Diag: [mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, quality_attributes), mandatory(services, fire), mandatory(administration, hmi), mandatory(detection_devices, motion_sensor)]
+				Diag size: 6
+				Time for all diagnoses: 0.001655779
+			Diagnosis 12
+				Diag: [mandatory(his, services), mandatory(his, administration), mandatory(his, detection_devices), mandatory(his, quality_attributes), mandatory(detection_devices, motion_sensor), mandatory(action_devices, sprinkler)]
+				Diag size: 6
+				Time for all diagnoses: 0.00183172
+			Diagnosis 13
+				Diag: [mandatory(his, services), mandatory(his, administration), mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, quality_attributes), optional(moisture_sensor, detection_devices)]
+				Diag size: 6
+				Time for all diagnoses: 0.00169330
+			Diagnosis 14
+				Diag: [mandatory(his, services), mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, quality_attributes), mandatory(administration, hmi), mandatory(detection_devices, motion_sensor)]
+				Diag size: 6
+				Time for all diagnoses: 0.00182758
+			Diagnosis 15
+				Diag: [mandatory(his, administration), mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, quality_attributes), mandatory(services, fire), mandatory(detection_devices, motion_sensor)]
+				Diag size: 6
+				Time for all diagnoses: 0.00156935
+			Diagnosis 16
+				Diag: [mandatory(his, services), mandatory(his, administration), mandatory(his, detection_devices), mandatory(his, action_devices), mandatory(his, quality_attributes), mandatory(detection_devices, motion_sensor)]
+				Diag size: 6
+				Time for all diagnoses: 0.00127377
+
+KBDiag Evaluation Results:
+0.02602100201627670	

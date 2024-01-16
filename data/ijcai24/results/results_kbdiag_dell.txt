@@ -1,0 +1,387 @@
+		DELL.SPLX	DELL_C5_0.TESTCASES
+			Diag: [mandatory(Dell Laptops/Notebooks, Memory), excludes(CD_DVD +RW, Adamo)]
+			Diag size: 2
+The number of left branch calls: 13
+The number of right branch calls: 13
+The number of post constraints: 3004
+The number of Choco Solver calls: 20
+The number of different: 14
+The number of INconsistent: 8
+The number of unpost constraints: 3004
+The number of KBDiag calls: 27
+The number of consistent: 12
+The number of split set: 13
+The number of union: 46
+The size of Consistency checks: 3004
+The number of Consistency checks: 20
+
+Time for first: 0.002156076
+		DELL.SPLX	DELL_C5_0.TESTCASES
+			Diag: [mandatory(Dell Laptops/Notebooks, Memory), excludes(CD_DVD +RW, Adamo)]
+			Diag size: 2
+The number of left branch calls: 13
+The number of right branch calls: 13
+The number of post constraints: 3004
+The number of Choco Solver calls: 20
+The number of different: 14
+The number of INconsistent: 8
+The number of unpost constraints: 3004
+The number of KBDiag calls: 27
+The number of consistent: 12
+The number of split set: 13
+The number of union: 46
+The size of Consistency checks: 3004
+The number of Consistency checks: 20
+
+Time for first: 0.002285211
+		DELL.SPLX	DELL_C5_0.TESTCASES
+			Diag: [mandatory(Dell Laptops/Notebooks, Memory), excludes(CD_DVD +RW, Adamo)]
+			Diag size: 2
+The number of left branch calls: 13
+The number of right branch calls: 13
+The number of post constraints: 3004
+The number of Choco Solver calls: 20
+The number of different: 14
+The number of INconsistent: 8
+The number of unpost constraints: 3004
+The number of KBDiag calls: 27
+The number of consistent: 12
+The number of split set: 13
+The number of union: 46
+The size of Consistency checks: 3004
+The number of Consistency checks: 20
+
+Time for first: 0.002043236
+		DELL.SPLX	DELL_C10_0.TESTCASES
+			Diag: [mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), excludes(CD_DVD +RW, Adamo)]
+			Diag size: 3
+The number of left branch calls: 15
+The number of right branch calls: 15
+The number of post constraints: 4248
+The number of Choco Solver calls: 33
+The number of different: 16
+The number of INconsistent: 14
+The number of unpost constraints: 4248
+The number of KBDiag calls: 31
+The number of consistent: 19
+The number of split set: 15
+The number of union: 53
+The size of Consistency checks: 4248
+The number of Consistency checks: 23
+
+Time for first: 0.002783815
+		DELL.SPLX	DELL_C10_0.TESTCASES
+			Diag: [mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), excludes(CD_DVD +RW, Adamo)]
+			Diag size: 3
+The number of left branch calls: 15
+The number of right branch calls: 15
+The number of post constraints: 4248
+The number of Choco Solver calls: 33
+The number of different: 16
+The number of INconsistent: 14
+The number of unpost constraints: 4248
+The number of KBDiag calls: 31
+The number of consistent: 19
+The number of split set: 15
+The number of union: 53
+The size of Consistency checks: 4248
+The number of Consistency checks: 23
+
+Time for first: 0.002371785
+		DELL.SPLX	DELL_C10_0.TESTCASES
+			Diag: [mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), excludes(CD_DVD +RW, Adamo)]
+			Diag size: 3
+The number of left branch calls: 15
+The number of right branch calls: 15
+The number of post constraints: 4248
+The number of Choco Solver calls: 33
+The number of different: 16
+The number of INconsistent: 14
+The number of unpost constraints: 4248
+The number of KBDiag calls: 31
+The number of consistent: 19
+The number of split set: 15
+The number of union: 53
+The size of Consistency checks: 4248
+The number of Consistency checks: 23
+
+Time for first: 0.002449293
+		DELL.SPLX	DELL_C25_0.TESTCASES
+			Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(CD_DVD +RW, Adamo), excludes(120GB, Studio XPS Laptops)]
+			Diag size: 7
+The number of left branch calls: 23
+The number of right branch calls: 23
+The number of post constraints: 8895
+The number of Choco Solver calls: 82
+The number of different: 24
+The number of INconsistent: 36
+The number of unpost constraints: 8895
+The number of KBDiag calls: 47
+The number of consistent: 46
+The number of split set: 23
+The number of union: 79
+The size of Consistency checks: 8895
+The number of Consistency checks: 33
+
+Time for first: 0.004842388
+		DELL.SPLX	DELL_C25_0.TESTCASES
+			Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(CD_DVD +RW, Adamo), excludes(120GB, Studio XPS Laptops)]
+			Diag size: 7
+The number of left branch calls: 23
+The number of right branch calls: 23
+The number of post constraints: 8895
+The number of Choco Solver calls: 82
+The number of different: 24
+The number of INconsistent: 36
+The number of unpost constraints: 8895
+The number of KBDiag calls: 47
+The number of consistent: 46
+The number of split set: 23
+The number of union: 79
+The size of Consistency checks: 8895
+The number of Consistency checks: 33
+
+Time for first: 0.005385679
+		DELL.SPLX	DELL_C25_0.TESTCASES
+			Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(CD_DVD +RW, Adamo), excludes(120GB, Studio XPS Laptops)]
+			Diag size: 7
+The number of left branch calls: 23
+The number of right branch calls: 23
+The number of post constraints: 8895
+The number of Choco Solver calls: 82
+The number of different: 24
+The number of INconsistent: 36
+The number of unpost constraints: 8895
+The number of KBDiag calls: 47
+The number of consistent: 46
+The number of split set: 23
+The number of union: 79
+The size of Consistency checks: 8895
+The number of Consistency checks: 33
+
+Time for first: 0.004812227
+		DELL.SPLX	DELL_C50_0.TESTCASES
+			Diag: [mandatory(Dell Laptops/Notebooks, Product Category), mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Product Category, Mini Notebooks, Inspiron Laptops, Studio Laptops, XPS Laptops, Adamo, Studio XPS Laptops), alternative(Operating System, Windows Vista 64 bit, Windows XP Home, Ubuntu Linux, Windows 7, Windows 8), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(CD_DVD +RW, Adamo)]
+			Diag size: 9
+The number of left branch calls: 19
+The number of right branch calls: 19
+The number of post constraints: 12550
+The number of Choco Solver calls: 163
+The number of different: 20
+The number of INconsistent: 82
+The number of unpost constraints: 12550
+The number of KBDiag calls: 39
+The number of consistent: 81
+The number of split set: 19
+The number of union: 70
+The size of Consistency checks: 12550
+The number of Consistency checks: 32
+
+Time for first: 0.006495654
+		DELL.SPLX	DELL_C50_0.TESTCASES
+			Diag: [mandatory(Dell Laptops/Notebooks, Product Category), mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Product Category, Mini Notebooks, Inspiron Laptops, Studio Laptops, XPS Laptops, Adamo, Studio XPS Laptops), alternative(Operating System, Windows Vista 64 bit, Windows XP Home, Ubuntu Linux, Windows 7, Windows 8), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(CD_DVD +RW, Adamo)]
+			Diag size: 9
+The number of left branch calls: 19
+The number of right branch calls: 19
+The number of post constraints: 12550
+The number of Choco Solver calls: 163
+The number of different: 20
+The number of INconsistent: 82
+The number of unpost constraints: 12550
+The number of KBDiag calls: 39
+The number of consistent: 81
+The number of split set: 19
+The number of union: 70
+The size of Consistency checks: 12550
+The number of Consistency checks: 32
+
+Time for first: 0.005723004
+		DELL.SPLX	DELL_C50_0.TESTCASES
+			Diag: [mandatory(Dell Laptops/Notebooks, Product Category), mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Product Category, Mini Notebooks, Inspiron Laptops, Studio Laptops, XPS Laptops, Adamo, Studio XPS Laptops), alternative(Operating System, Windows Vista 64 bit, Windows XP Home, Ubuntu Linux, Windows 7, Windows 8), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(CD_DVD +RW, Adamo)]
+			Diag size: 9
+The number of left branch calls: 19
+The number of right branch calls: 19
+The number of post constraints: 12550
+The number of Choco Solver calls: 163
+The number of different: 20
+The number of INconsistent: 82
+The number of unpost constraints: 12550
+The number of KBDiag calls: 39
+The number of consistent: 81
+The number of split set: 19
+The number of union: 70
+The size of Consistency checks: 12550
+The number of Consistency checks: 32
+
+Time for first: 0.005203942
+		DELL.SPLX	DELL_C100_0.TESTCASES
+			Diag: [mandatory(Dell Laptops/Notebooks, Product Category), mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Laptop Weight), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Product Category, Mini Notebooks, Inspiron Laptops, Studio Laptops, XPS Laptops, Adamo, Studio XPS Laptops), alternative(Operating System, Windows Vista 64 bit, Windows XP Home, Ubuntu Linux, Windows 7, Windows 8), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(Windows Vista 64 bit, Inspiron Laptops), excludes(CD_DVD +RW, Adamo), excludes(120GB, Studio XPS Laptops)]
+			Diag size: 12
+The number of left branch calls: 29
+The number of right branch calls: 29
+The number of post constraints: 25956
+The number of Choco Solver calls: 344
+The number of different: 30
+The number of INconsistent: 178
+The number of unpost constraints: 25956
+The number of KBDiag calls: 59
+The number of consistent: 166
+The number of split set: 29
+The number of union: 104
+The size of Consistency checks: 25956
+The number of Consistency checks: 46
+
+Time for first: 0.011059917
+		DELL.SPLX	DELL_C100_0.TESTCASES
+			Diag: [mandatory(Dell Laptops/Notebooks, Product Category), mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Laptop Weight), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Product Category, Mini Notebooks, Inspiron Laptops, Studio Laptops, XPS Laptops, Adamo, Studio XPS Laptops), alternative(Operating System, Windows Vista 64 bit, Windows XP Home, Ubuntu Linux, Windows 7, Windows 8), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(Windows Vista 64 bit, Inspiron Laptops), excludes(CD_DVD +RW, Adamo), excludes(120GB, Studio XPS Laptops)]
+			Diag size: 12
+The number of left branch calls: 29
+The number of right branch calls: 29
+The number of post constraints: 25956
+The number of Choco Solver calls: 344
+The number of different: 30
+The number of INconsistent: 178
+The number of unpost constraints: 25956
+The number of KBDiag calls: 59
+The number of consistent: 166
+The number of split set: 29
+The number of union: 104
+The size of Consistency checks: 25956
+The number of Consistency checks: 46
+
+Time for first: 0.011162902
+		DELL.SPLX	DELL_C100_0.TESTCASES
+			Diag: [mandatory(Dell Laptops/Notebooks, Product Category), mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Laptop Weight), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Product Category, Mini Notebooks, Inspiron Laptops, Studio Laptops, XPS Laptops, Adamo, Studio XPS Laptops), alternative(Operating System, Windows Vista 64 bit, Windows XP Home, Ubuntu Linux, Windows 7, Windows 8), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(Windows Vista 64 bit, Inspiron Laptops), excludes(CD_DVD +RW, Adamo), excludes(120GB, Studio XPS Laptops)]
+			Diag size: 12
+The number of left branch calls: 29
+The number of right branch calls: 29
+The number of post constraints: 25956
+The number of Choco Solver calls: 344
+The number of different: 30
+The number of INconsistent: 178
+The number of unpost constraints: 25956
+The number of KBDiag calls: 59
+The number of consistent: 166
+The number of split set: 29
+The number of union: 104
+The size of Consistency checks: 25956
+The number of Consistency checks: 46
+
+Time for first: 0.011071685
+		DELL.SPLX	DELL_C250_0.TESTCASES
+			Diag: [mandatory(Dell Laptops/Notebooks, Product Category), mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Laptop Weight), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), mandatory(Dell Laptops/Notebooks, Price), alternative(Product Category, Mini Notebooks, Inspiron Laptops, Studio Laptops, XPS Laptops, Adamo, Studio XPS Laptops), alternative(Operating System, Windows Vista 64 bit, Windows XP Home, Ubuntu Linux, Windows 7, Windows 8), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(Ubuntu Linux, XPS Laptops), excludes(128GB Solid State, Studio Laptops), excludes(Windows Vista 64 bit, Inspiron Laptops), excludes(Ubuntu Linux, Inspiron Laptops), excludes(CD_DVD +RW, Adamo), excludes(120GB, Studio XPS Laptops)]
+			Diag size: 16
+The number of left branch calls: 41
+The number of right branch calls: 41
+The number of post constraints: 61370
+The number of Choco Solver calls: 834
+The number of different: 42
+The number of INconsistent: 436
+The number of unpost constraints: 61370
+The number of KBDiag calls: 83
+The number of consistent: 398
+The number of split set: 41
+The number of union: 148
+The size of Consistency checks: 61370
+The number of Consistency checks: 66
+
+Time for first: 0.028095743
+		DELL.SPLX	DELL_C250_0.TESTCASES
+			Diag: [mandatory(Dell Laptops/Notebooks, Product Category), mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Laptop Weight), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), mandatory(Dell Laptops/Notebooks, Price), alternative(Product Category, Mini Notebooks, Inspiron Laptops, Studio Laptops, XPS Laptops, Adamo, Studio XPS Laptops), alternative(Operating System, Windows Vista 64 bit, Windows XP Home, Ubuntu Linux, Windows 7, Windows 8), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(Ubuntu Linux, XPS Laptops), excludes(128GB Solid State, Studio Laptops), excludes(Windows Vista 64 bit, Inspiron Laptops), excludes(Ubuntu Linux, Inspiron Laptops), excludes(CD_DVD +RW, Adamo), excludes(120GB, Studio XPS Laptops)]
+			Diag size: 16
+The number of left branch calls: 41
+The number of right branch calls: 41
+The number of post constraints: 61370
+The number of Choco Solver calls: 834
+The number of different: 42
+The number of INconsistent: 436
+The number of unpost constraints: 61370
+The number of KBDiag calls: 83
+The number of consistent: 398
+The number of split set: 41
+The number of union: 148
+The size of Consistency checks: 61370
+The number of Consistency checks: 66
+
+Time for first: 0.030101968
+		DELL.SPLX	DELL_C250_0.TESTCASES
+			Diag: [mandatory(Dell Laptops/Notebooks, Product Category), mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Laptop Weight), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), mandatory(Dell Laptops/Notebooks, Price), alternative(Product Category, Mini Notebooks, Inspiron Laptops, Studio Laptops, XPS Laptops, Adamo, Studio XPS Laptops), alternative(Operating System, Windows Vista 64 bit, Windows XP Home, Ubuntu Linux, Windows 7, Windows 8), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(Ubuntu Linux, XPS Laptops), excludes(128GB Solid State, Studio Laptops), excludes(Windows Vista 64 bit, Inspiron Laptops), excludes(Ubuntu Linux, Inspiron Laptops), excludes(CD_DVD +RW, Adamo), excludes(120GB, Studio XPS Laptops)]
+			Diag size: 16
+The number of left branch calls: 41
+The number of right branch calls: 41
+The number of post constraints: 61370
+The number of Choco Solver calls: 834
+The number of different: 42
+The number of INconsistent: 436
+The number of unpost constraints: 61370
+The number of KBDiag calls: 83
+The number of consistent: 398
+The number of split set: 41
+The number of union: 148
+The size of Consistency checks: 61370
+The number of Consistency checks: 66
+
+Time for first: 0.028552668
+		DELL.SPLX	DELL_C500_0.TESTCASES
+			Diag: [mandatory(Dell Laptops/Notebooks, Product Category), mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Laptop Weight), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), mandatory(Dell Laptops/Notebooks, Price), alternative(Product Category, Mini Notebooks, Inspiron Laptops, Studio Laptops, XPS Laptops, Adamo, Studio XPS Laptops), alternative(Operating System, Windows Vista 64 bit, Windows XP Home, Ubuntu Linux, Windows 7, Windows 8), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(Ubuntu Linux, XPS Laptops), excludes(128GB Solid State, Studio Laptops), excludes(Windows Vista 64 bit, Inspiron Laptops), excludes(Ubuntu Linux, Inspiron Laptops), excludes(CD_DVD +RW, Adamo), excludes(500GB, Mini Notebooks), excludes(Windows Vista 64 bit, Mini Notebooks), excludes(120GB, Studio XPS Laptops)]
+			Diag size: 18
+The number of left branch calls: 45
+The number of right branch calls: 45
+The number of post constraints: 122602
+The number of Choco Solver calls: 1668
+The number of different: 46
+The number of INconsistent: 877
+The number of unpost constraints: 122602
+The number of KBDiag calls: 91
+The number of consistent: 791
+The number of split set: 45
+The number of union: 165
+The size of Consistency checks: 122602
+The number of Consistency checks: 75
+
+Time for first: 0.061410709
+		DELL.SPLX	DELL_C500_0.TESTCASES
+			Diag: [mandatory(Dell Laptops/Notebooks, Product Category), mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Laptop Weight), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), mandatory(Dell Laptops/Notebooks, Price), alternative(Product Category, Mini Notebooks, Inspiron Laptops, Studio Laptops, XPS Laptops, Adamo, Studio XPS Laptops), alternative(Operating System, Windows Vista 64 bit, Windows XP Home, Ubuntu Linux, Windows 7, Windows 8), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(Ubuntu Linux, XPS Laptops), excludes(128GB Solid State, Studio Laptops), excludes(Windows Vista 64 bit, Inspiron Laptops), excludes(Ubuntu Linux, Inspiron Laptops), excludes(CD_DVD +RW, Adamo), excludes(500GB, Mini Notebooks), excludes(Windows Vista 64 bit, Mini Notebooks), excludes(120GB, Studio XPS Laptops)]
+			Diag size: 18
+The number of left branch calls: 45
+The number of right branch calls: 45
+The number of post constraints: 122602
+The number of Choco Solver calls: 1668
+The number of different: 46
+The number of INconsistent: 877
+The number of unpost constraints: 122602
+The number of KBDiag calls: 91
+The number of consistent: 791
+The number of split set: 45
+The number of union: 165
+The size of Consistency checks: 122602
+The number of Consistency checks: 75
+
+Time for first: 0.052040623
+		DELL.SPLX	DELL_C500_0.TESTCASES
+			Diag: [mandatory(Dell Laptops/Notebooks, Product Category), mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Laptop Weight), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), mandatory(Dell Laptops/Notebooks, Price), alternative(Product Category, Mini Notebooks, Inspiron Laptops, Studio Laptops, XPS Laptops, Adamo, Studio XPS Laptops), alternative(Operating System, Windows Vista 64 bit, Windows XP Home, Ubuntu Linux, Windows 7, Windows 8), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(Ubuntu Linux, XPS Laptops), excludes(128GB Solid State, Studio Laptops), excludes(Windows Vista 64 bit, Inspiron Laptops), excludes(Ubuntu Linux, Inspiron Laptops), excludes(CD_DVD +RW, Adamo), excludes(500GB, Mini Notebooks), excludes(Windows Vista 64 bit, Mini Notebooks), excludes(120GB, Studio XPS Laptops)]
+			Diag size: 18
+The number of left branch calls: 45
+The number of right branch calls: 45
+The number of post constraints: 122602
+The number of Choco Solver calls: 1668
+The number of different: 46
+The number of INconsistent: 877
+The number of unpost constraints: 122602
+The number of KBDiag calls: 91
+The number of consistent: 791
+The number of split set: 45
+The number of union: 165
+The size of Consistency checks: 122602
+The number of Consistency checks: 75
+
+Time for first: 0.052573653
+
+KBDiag Evaluation Results:
+0.0021615076666666668
+0.0025349643333333334
+0.005013431333333333
+0.005807533333333333
+0.011098168
+0.028916793
+0.055341661666666674

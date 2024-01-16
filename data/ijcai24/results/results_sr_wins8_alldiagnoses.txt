@@ -1,0 +1,1081 @@
+Syntactic Relevance Evaluation - all diagnoses using HSDAG:
+		WINDOWS8.SPLX	WINDOWS8_C25_0.TESTCASES
+				Time for all diagnoses: 1800.118431901
+				Time for solving (all diagnoses): 425.577390409
+			Diagnosis 1
+				Diag: [(((~Bold \/ Bold1) \/ Bold2) \/ Bold3), ((~Option \/ Option1) \/ Option2), ((~Microphone \/ Microphone1) \/ Microphone2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 2.017690998
+				Time for solving: 0.005989419
+			Diagnosis 2
+				Diag: [or(MakeTheComputerEasierToSee, HearTextAndDescriptionReadAloud, MakeThingsOnTheScreenEasierToSee, HighContrast, MakeThingsOnTheScreenLarger), ((~Microphone \/ Microphone1) \/ Microphone2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 3
+				Time for diagnosis: 2.493649768
+				Time for solving: 0.005871912
+			Diagnosis 3
+				Diag: [optional(UseTheComputerWithoutADisplay, SeeAlso1), (((~Bold \/ Bold1) \/ Bold2) \/ Bold3), ((~Option \/ Option1) \/ Option2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 2.828865895
+				Time for solving: 0.005734041
+			Diagnosis 4
+				Diag: [mandatory(UseTheComputerWithoutADisplay, HearTextReadAloud), (((~Bold \/ Bold1) \/ Bold2) \/ Bold3), ((~Option \/ Option1) \/ Option2)]
+				Diag size: 3
+				Time for diagnosis: 2.666409061
+				Time for solving: 0.006504973
+			Diagnosis 5
+				Diag: [optional(MessageBoxes, Bold3), ((~Option \/ Option1) \/ Option2), ((~Microphone \/ Microphone1) \/ Microphone2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 11.387173539
+				Time for solving: 0.006420852
+			Diagnosis 6
+				Diag: [optional(UseTheComputerWithoutADisplay, SeeAlso1), or(MakeTheComputerEasierToSee, HearTextAndDescriptionReadAloud, MakeThingsOnTheScreenEasierToSee, HighContrast, MakeThingsOnTheScreenLarger), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 3
+				Time for diagnosis: 1.635602211
+				Time for solving: 0.006483671
+			Diagnosis 7
+				Diag: [mandatory(UseTheComputerWithoutADisplay, HearTextReadAloud), or(MakeTheComputerEasierToSee, HearTextAndDescriptionReadAloud, MakeThingsOnTheScreenEasierToSee, HighContrast, MakeThingsOnTheScreenLarger)]
+				Diag size: 2
+				Time for diagnosis: 1.606757998
+				Time for solving: 0.006879593
+			Diagnosis 8
+				Diag: [optional(Microphone1, Advanced1), (((~Bold \/ Bold1) \/ Bold2) \/ Bold3), ((~Option \/ Option1) \/ Option2), ((~Microphone \/ Microphone1) \/ Microphone2)]
+				Diag size: 4
+				Time for diagnosis: 11.184803023
+				Time for solving: 0.006858559
+			Diagnosis 9
+				Diag: [optional(TitleBars, Bold1), ((~Option \/ Option1) \/ Option2), ((~Microphone \/ Microphone1) \/ Microphone2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 11.503150631
+				Time for solving: 0.006802665
+			Diagnosis 10
+				Diag: [mandatory(Recording, Microphone2), optional(MessageBoxes, Bold3), ((~Option \/ Option1) \/ Option2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 27.894532181
+				Time for solving: 0.006781191
+			Diagnosis 11
+				Diag: [optional(Microphone1, Advanced1), optional(MessageBoxes, Bold3), ((~Option \/ Option1) \/ Option2), ((~Microphone \/ Microphone1) \/ Microphone2)]
+				Diag size: 4
+				Time for diagnosis: 25.045189894
+				Time for solving: 0.006414278
+			Diagnosis 12
+				Diag: [mandatory(SpeechRecognition, Microphone1), (((~Bold \/ Bold1) \/ Bold2) \/ Bold3), ((~Option \/ Option1) \/ Option2)]
+				Diag size: 3
+				Time for diagnosis: 25.603139924
+				Time for solving: 0.007397937
+			Diagnosis 13
+				Diag: [optional(Menus, Bold2), ((~Option \/ Option1) \/ Option2), ((~Microphone \/ Microphone1) \/ Microphone2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 27.705978316
+				Time for solving: 0.006253955
+			Diagnosis 14
+				Diag: [mandatory(Recording, Microphone2), optional(TitleBars, Bold1), ((~Option \/ Option1) \/ Option2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 27.649914165
+				Time for solving: 0.00725259
+			Diagnosis 15
+				Diag: [optional(Microphone1, Advanced1), optional(TitleBars, Bold1), ((~Option \/ Option1) \/ Option2), ((~Microphone \/ Microphone1) \/ Microphone2)]
+				Diag size: 4
+				Time for diagnosis: 28.353924897
+				Time for solving: 0.006703332
+			Diagnosis 16
+				Diag: [mandatory(SpeechRecognition, Microphone1), optional(MessageBoxes, Bold3), ((~Option \/ Option1) \/ Option2)]
+				Diag size: 3
+				Time for diagnosis: 27.751744231
+				Time for solving: 0.006682069
+			Diagnosis 17
+				Diag: [optional(TextToSpeech, Advanced2), (((~Bold \/ Bold1) \/ Bold2) \/ Bold3), ((~Option \/ Option1) \/ Option2), ((~Microphone \/ Microphone1) \/ Microphone2)]
+				Diag size: 4
+				Time for diagnosis: 27.80602461
+				Time for solving: 0.006439984
+			Diagnosis 18
+				Diag: [or(ChangeOnlyTheTextSize, Menus, TitleBars, PaletteTitles, Icons, Tooltips, MessageBoxes), ((~Option \/ Option1) \/ Option2), ((~Microphone \/ Microphone1) \/ Microphone2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 28.058082518
+				Time for solving: 0.007042653
+			Diagnosis 19
+				Diag: [mandatory(Recording, Microphone2), optional(Menus, Bold2), ((~Option \/ Option1) \/ Option2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 29.052907261
+				Time for solving: 0.008538286
+			Diagnosis 20
+				Diag: [optional(Microphone1, Advanced1), optional(Menus, Bold2), ((~Option \/ Option1) \/ Option2), ((~Microphone \/ Microphone1) \/ Microphone2)]
+				Diag size: 4
+				Time for diagnosis: 28.005614208
+				Time for solving: 0.00684305
+			Diagnosis 21
+				Diag: [mandatory(SpeechRecognition, Microphone1), optional(TitleBars, Bold1), ((~Option \/ Option1) \/ Option2)]
+				Diag size: 3
+				Time for diagnosis: 28.000301803
+				Time for solving: 0.007197733
+			Diagnosis 22
+				Diag: [mandatory(AudioDevicesAndSoundThemes, Recording), optional(MessageBoxes, Bold3), ((~Option \/ Option1) \/ Option2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 27.701693686
+				Time for solving: 0.00682654
+			Diagnosis 23
+				Diag: [or(SetupTextToSpeech, TextToSpeech, SpeechRecognition), (((~Bold \/ Bold1) \/ Bold2) \/ Bold3), ((~Option \/ Option1) \/ Option2)]
+				Diag size: 3
+				Time for diagnosis: 28.14491181
+				Time for solving: 0.006580541
+			Diagnosis 24
+				Diag: [or(ChangeTheSizeOfTextAndIcons, ChangeOnlyTheTextSize, ChangeTheSizeOfAllItems), ((~Microphone \/ Microphone1) \/ Microphone2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 3
+				Time for diagnosis: 28.700642091
+				Time for solving: 0.006493182
+			Diagnosis 25
+				Diag: [mandatory(Recording, Microphone2), or(ChangeOnlyTheTextSize, Menus, TitleBars, PaletteTitles, Icons, Tooltips, MessageBoxes), ((~Option \/ Option1) \/ Option2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 29.948215396
+				Time for solving: 0.007057571
+			Diagnosis 26
+				Diag: [optional(Microphone1, Advanced1), or(ChangeOnlyTheTextSize, Menus, TitleBars, PaletteTitles, Icons, Tooltips, MessageBoxes), ((~Option \/ Option1) \/ Option2), ((~Microphone \/ Microphone1) \/ Microphone2)]
+				Diag size: 4
+				Time for diagnosis: 28.853749608
+				Time for solving: 0.001514992
+			Diagnosis 27
+				Diag: [mandatory(SpeechRecognition, Microphone1), optional(Menus, Bold2), ((~Option \/ Option1) \/ Option2)]
+				Diag size: 3
+				Time for diagnosis: 28.19322057
+				Time for solving: 0.003441058
+			Diagnosis 28
+				Diag: [mandatory(AudioDevicesAndSoundThemes, Recording), optional(TitleBars, Bold1), ((~Option \/ Option1) \/ Option2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 27.953478241
+				Time for solving: 0.002586093
+			Diagnosis 29
+				Diag: [or(SetupTextToSpeech, TextToSpeech, SpeechRecognition), optional(MessageBoxes, Bold3), ((~Option \/ Option1) \/ Option2)]
+				Diag size: 3
+				Time for diagnosis: 27.999518377
+				Time for solving: 4.82033E-4
+			Diagnosis 30
+				Diag: [optional(HearTextReadAloud, SetupTextToSpeech), (((~Bold \/ Bold1) \/ Bold2) \/ Bold3), ((~Option \/ Option1) \/ Option2)]
+				Diag size: 3
+				Time for diagnosis: 27.699822254
+				Time for solving: 0.002958072
+			Diagnosis 31
+				Diag: [mandatory(MakeThingsOnTheScreenLarger, ChangeTheSizeOfTextAndIcons), ((~Microphone \/ Microphone1) \/ Microphone2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 3
+				Time for diagnosis: 29.195701056
+				Time for solving: 0.002834447
+			Diagnosis 32
+				Diag: [or(ChangeTheSizeOfTextAndIcons, ChangeOnlyTheTextSize, ChangeTheSizeOfAllItems), mandatory(Recording, Microphone2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 3
+				Time for diagnosis: 29.003059456
+				Time for solving: 0.002311961
+			Diagnosis 33
+				Diag: [or(ChangeTheSizeOfTextAndIcons, ChangeOnlyTheTextSize, ChangeTheSizeOfAllItems), optional(Microphone1, Advanced1), ((~Microphone \/ Microphone1) \/ Microphone2)]
+				Diag size: 3
+				Time for diagnosis: 29.095051357
+				Time for solving: 0.003481946
+			Diagnosis 34
+				Diag: [mandatory(SpeechRecognition, Microphone1), or(ChangeOnlyTheTextSize, Menus, TitleBars, PaletteTitles, Icons, Tooltips, MessageBoxes), ((~Option \/ Option1) \/ Option2)]
+				Diag size: 3
+				Time for diagnosis: 28.949589782
+				Time for solving: 5.29693E-4
+			Diagnosis 35
+				Diag: [mandatory(AudioDevicesAndSoundThemes, Recording), optional(Menus, Bold2), ((~Option \/ Option1) \/ Option2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 27.795364422
+				Time for solving: 0.004096897
+			Diagnosis 36
+				Diag: [or(SetupTextToSpeech, TextToSpeech, SpeechRecognition), optional(TitleBars, Bold1), ((~Option \/ Option1) \/ Option2)]
+				Diag size: 3
+				Time for diagnosis: 28.144808507
+				Time for solving: 6.67857E-4
+			Diagnosis 37
+				Diag: [or(SeeAlso1, LearnAboutAdditionalAssistiveTechnologiesOnline1, AudioDevicesAndSoundThemes), optional(MessageBoxes, Bold3), ((~Option \/ Option1) \/ Option2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 27.499325274
+				Time for solving: 0.00254874
+			Diagnosis 38
+				Diag: [mandatory(MakeThingsOnTheScreenLarger, ChangeTheSizeOfTextAndIcons), mandatory(Recording, Microphone2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 3
+				Time for diagnosis: 28.794249336
+				Time for solving: 0.004110653
+			Diagnosis 39
+				Diag: [mandatory(MakeThingsOnTheScreenLarger, ChangeTheSizeOfTextAndIcons), optional(Microphone1, Advanced1), ((~Microphone \/ Microphone1) \/ Microphone2)]
+				Diag size: 3
+				Time for diagnosis: 28.855627323
+				Time for solving: 0.003590937
+			Diagnosis 40
+				Diag: [or(ChangeTheSizeOfTextAndIcons, ChangeOnlyTheTextSize, ChangeTheSizeOfAllItems), mandatory(SpeechRecognition, Microphone1)]
+				Diag size: 2
+				Time for diagnosis: 29.29555904
+				Time for solving: 0.004693085
+			Diagnosis 41
+				Diag: [mandatory(AudioDevicesAndSoundThemes, Recording), or(ChangeOnlyTheTextSize, Menus, TitleBars, PaletteTitles, Icons, Tooltips, MessageBoxes), ((~Option \/ Option1) \/ Option2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 28.849870353
+				Time for solving: 0.002105325
+			Diagnosis 42
+				Diag: [or(SetupTextToSpeech, TextToSpeech, SpeechRecognition), optional(Menus, Bold2), ((~Option \/ Option1) \/ Option2)]
+				Diag size: 3
+				Time for diagnosis: 27.952781998
+				Time for solving: 0.003529153
+			Diagnosis 43
+				Diag: [or(SeeAlso1, LearnAboutAdditionalAssistiveTechnologiesOnline1, AudioDevicesAndSoundThemes), optional(TitleBars, Bold1), ((~Option \/ Option1) \/ Option2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 27.603170655
+				Time for solving: 0.00403
+			Diagnosis 44
+				Diag: [optional(HearTextReadAloud, SetupTextToSpeech), optional(MessageBoxes, Bold3), ((~Option \/ Option1) \/ Option2)]
+				Diag size: 3
+				Time for diagnosis: 27.453212748
+				Time for solving: 0.001231104
+			Diagnosis 45
+				Diag: [mandatory(MakeThingsOnTheScreenLarger, ChangeTheSizeOfTextAndIcons), mandatory(SpeechRecognition, Microphone1)]
+				Diag size: 2
+				Time for diagnosis: 29.041922671
+				Time for solving: 0.005863335
+			Diagnosis 46
+				Diag: [mandatory(AudioDevicesAndSoundThemes, Recording), or(ChangeTheSizeOfTextAndIcons, ChangeOnlyTheTextSize, ChangeTheSizeOfAllItems), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 3
+				Time for diagnosis: 28.997035048
+				Time for solving: 0.007646825
+			Diagnosis 47
+				Diag: [or(SetupTextToSpeech, TextToSpeech, SpeechRecognition), or(ChangeOnlyTheTextSize, Menus, TitleBars, PaletteTitles, Icons, Tooltips, MessageBoxes), ((~Option \/ Option1) \/ Option2)]
+				Diag size: 3
+				Time for diagnosis: 29.44848685
+				Time for solving: 0.001389594
+			Diagnosis 48
+				Diag: [or(SeeAlso1, LearnAboutAdditionalAssistiveTechnologiesOnline1, AudioDevicesAndSoundThemes), optional(Menus, Bold2), ((~Option \/ Option1) \/ Option2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 27.648692762
+				Time for solving: 6.22161E-4
+			Diagnosis 49
+				Diag: [optional(HearTextReadAloud, SetupTextToSpeech), optional(TitleBars, Bold1), ((~Option \/ Option1) \/ Option2)]
+				Diag size: 3
+				Time for diagnosis: 27.656140331
+				Time for solving: 0.002078736
+			Diagnosis 50
+				Diag: [optional(UseTheComputerWithoutADisplay, SeeAlso1), optional(MessageBoxes, Bold3), ((~Option \/ Option1) \/ Option2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 27.403272367
+				Time for solving: 0.00475036
+			Diagnosis 51
+				Diag: [mandatory(MakeThingsOnTheScreenLarger, ChangeTheSizeOfTextAndIcons), mandatory(AudioDevicesAndSoundThemes, Recording), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 3
+				Time for diagnosis: 28.749350148
+				Time for solving: 0.003076746
+			Diagnosis 52
+				Diag: [or(SetupTextToSpeech, TextToSpeech, SpeechRecognition), or(ChangeTheSizeOfTextAndIcons, ChangeOnlyTheTextSize, ChangeTheSizeOfAllItems)]
+				Diag size: 2
+				Time for diagnosis: 29.456112971
+				Time for solving: 0.003364315
+			Diagnosis 53
+				Diag: [or(SeeAlso1, LearnAboutAdditionalAssistiveTechnologiesOnline1, AudioDevicesAndSoundThemes), or(ChangeOnlyTheTextSize, Menus, TitleBars, PaletteTitles, Icons, Tooltips, MessageBoxes), ((~Option \/ Option1) \/ Option2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 28.453719573
+				Time for solving: 0.003233639
+			Diagnosis 54
+				Diag: [optional(HearTextReadAloud, SetupTextToSpeech), optional(Menus, Bold2), ((~Option \/ Option1) \/ Option2)]
+				Diag size: 3
+				Time for diagnosis: 28.251532364
+				Time for solving: 0.004029297
+			Diagnosis 55
+				Diag: [optional(UseTheComputerWithoutADisplay, SeeAlso1), optional(TitleBars, Bold1), ((~Option \/ Option1) \/ Option2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 27.843163492
+				Time for solving: 0.003268625
+			Diagnosis 56
+				Diag: [mandatory(UseTheComputerWithoutADisplay, HearTextReadAloud), optional(MessageBoxes, Bold3), ((~Option \/ Option1) \/ Option2)]
+				Diag size: 3
+				Time for diagnosis: 27.844000827
+				Time for solving: 0.003626706
+			Diagnosis 57
+				Diag: [or(SetupTextToSpeech, TextToSpeech, SpeechRecognition), mandatory(MakeThingsOnTheScreenLarger, ChangeTheSizeOfTextAndIcons)]
+				Diag size: 2
+				Time for diagnosis: 29.355574178
+				Time for solving: 0.005458313
+			Diagnosis 58
+				Diag: [or(SeeAlso1, LearnAboutAdditionalAssistiveTechnologiesOnline1, AudioDevicesAndSoundThemes), or(ChangeTheSizeOfTextAndIcons, ChangeOnlyTheTextSize, ChangeTheSizeOfAllItems), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 3
+				Time for diagnosis: 27.752145866
+				Time for solving: 0.003935463
+			Diagnosis 59
+				Diag: [optional(HearTextReadAloud, SetupTextToSpeech), or(ChangeOnlyTheTextSize, Menus, TitleBars, PaletteTitles, Icons, Tooltips, MessageBoxes), ((~Option \/ Option1) \/ Option2)]
+				Diag size: 3
+				Time for diagnosis: 28.844480478
+				Time for solving: 0.004560288
+			Diagnosis 60
+				Diag: [optional(UseTheComputerWithoutADisplay, SeeAlso1), optional(Menus, Bold2), ((~Option \/ Option1) \/ Option2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 27.441235334
+				Time for solving: 0.004249264
+			Diagnosis 61
+				Diag: [mandatory(UseTheComputerWithoutADisplay, HearTextReadAloud), optional(TitleBars, Bold1), ((~Option \/ Option1) \/ Option2)]
+				Diag size: 3
+				Time for diagnosis: 27.798712217
+				Time for solving: 0.004487083
+			Diagnosis 62
+				Diag: [or(SeeAlso1, LearnAboutAdditionalAssistiveTechnologiesOnline1, AudioDevicesAndSoundThemes), mandatory(MakeThingsOnTheScreenLarger, ChangeTheSizeOfTextAndIcons), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 3
+				Time for diagnosis: 28.503967995
+				Time for solving: 0.00435105
+			Diagnosis 63
+				Diag: [optional(HearTextReadAloud, SetupTextToSpeech), or(ChangeTheSizeOfTextAndIcons, ChangeOnlyTheTextSize, ChangeTheSizeOfAllItems)]
+				Diag size: 2
+				Time for diagnosis: 28.554788956
+				Time for solving: 0.005012768
+			Diagnosis 64
+				Diag: [optional(UseTheComputerWithoutADisplay, SeeAlso1), or(ChangeOnlyTheTextSize, Menus, TitleBars, PaletteTitles, Icons, Tooltips, MessageBoxes), ((~Option \/ Option1) \/ Option2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 27.349185407
+				Time for solving: 0.005272066
+			Diagnosis 65
+				Diag: [mandatory(UseTheComputerWithoutADisplay, HearTextReadAloud), optional(Menus, Bold2), ((~Option \/ Option1) \/ Option2)]
+				Diag size: 3
+				Time for diagnosis: 27.599402081
+				Time for solving: 0.003825521
+			Diagnosis 66
+				Diag: [optional(HearTextReadAloud, SetupTextToSpeech), mandatory(MakeThingsOnTheScreenLarger, ChangeTheSizeOfTextAndIcons)]
+				Diag size: 2
+				Time for diagnosis: 29.048769066
+				Time for solving: 0.006029719
+			Diagnosis 67
+				Diag: [optional(UseTheComputerWithoutADisplay, SeeAlso1), or(ChangeTheSizeOfTextAndIcons, ChangeOnlyTheTextSize, ChangeTheSizeOfAllItems), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 3
+				Time for diagnosis: 28.798577915
+				Time for solving: 0.004292271
+			Diagnosis 68
+				Diag: [mandatory(UseTheComputerWithoutADisplay, HearTextReadAloud), or(ChangeOnlyTheTextSize, Menus, TitleBars, PaletteTitles, Icons, Tooltips, MessageBoxes), ((~Option \/ Option1) \/ Option2)]
+				Diag size: 3
+				Time for diagnosis: 29.451327043
+				Time for solving: 0.006335963
+			Diagnosis 69
+				Diag: [optional(UseTheComputerWithoutADisplay, SeeAlso1), mandatory(MakeThingsOnTheScreenLarger, ChangeTheSizeOfTextAndIcons), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 3
+				Time for diagnosis: 28.594724704
+				Time for solving: 0.005330994
+			Diagnosis 70
+				Diag: [mandatory(UseTheComputerWithoutADisplay, HearTextReadAloud), or(ChangeTheSizeOfTextAndIcons, ChangeOnlyTheTextSize, ChangeTheSizeOfAllItems)]
+				Diag size: 2
+				Time for diagnosis: 29.050395352
+				Time for solving: 0.004504685
+			Diagnosis 71
+				Diag: [mandatory(UseTheComputerWithoutADisplay, HearTextReadAloud), mandatory(MakeThingsOnTheScreenLarger, ChangeTheSizeOfTextAndIcons)]
+				Diag size: 2
+				Time for diagnosis: 29.247635433
+				Time for solving: 0.006301494
+		WINDOWS8.SPLX	WINDOWS8_C25_0.TESTCASES
+				Time for all diagnoses: 1953.848315925
+				Time for solving (all diagnoses): 438.682441945
+			Diagnosis 1
+				Diag: [(((~Bold \/ Bold1) \/ Bold2) \/ Bold3), ((~Option \/ Option1) \/ Option2), ((~Microphone \/ Microphone1) \/ Microphone2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 4.30575657
+				Time for solving: 0.00589662
+			Diagnosis 2
+				Diag: [or(MakeTheComputerEasierToSee, HearTextAndDescriptionReadAloud, MakeThingsOnTheScreenEasierToSee, HighContrast, MakeThingsOnTheScreenLarger), ((~Microphone \/ Microphone1) \/ Microphone2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 3
+				Time for diagnosis: 4.900214374
+				Time for solving: 0.008774783
+			Diagnosis 3
+				Diag: [optional(UseTheComputerWithoutADisplay, SeeAlso1), (((~Bold \/ Bold1) \/ Bold2) \/ Bold3), ((~Option \/ Option1) \/ Option2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 4.006590314
+				Time for solving: 0.007904402
+			Diagnosis 4
+				Diag: [mandatory(UseTheComputerWithoutADisplay, HearTextReadAloud), (((~Bold \/ Bold1) \/ Bold2) \/ Bold3), ((~Option \/ Option1) \/ Option2)]
+				Diag size: 3
+				Time for diagnosis: 3.752213888
+				Time for solving: 0.006700239
+			Diagnosis 5
+				Diag: [optional(MessageBoxes, Bold3), ((~Option \/ Option1) \/ Option2), ((~Microphone \/ Microphone1) \/ Microphone2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 28.753545194
+				Time for solving: 0.005066488
+			Diagnosis 6
+				Diag: [optional(UseTheComputerWithoutADisplay, SeeAlso1), or(MakeTheComputerEasierToSee, HearTextAndDescriptionReadAloud, MakeThingsOnTheScreenEasierToSee, HighContrast, MakeThingsOnTheScreenLarger), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 3
+				Time for diagnosis: 4.700253389
+				Time for solving: 0.004970547
+			Diagnosis 7
+				Diag: [mandatory(UseTheComputerWithoutADisplay, HearTextReadAloud), or(MakeTheComputerEasierToSee, HearTextAndDescriptionReadAloud, MakeThingsOnTheScreenEasierToSee, HighContrast, MakeThingsOnTheScreenLarger)]
+				Diag size: 2
+				Time for diagnosis: 4.159118448
+				Time for solving: 0.005404564
+			Diagnosis 8
+				Diag: [optional(Microphone1, Advanced1), (((~Bold \/ Bold1) \/ Bold2) \/ Bold3), ((~Option \/ Option1) \/ Option2), ((~Microphone \/ Microphone1) \/ Microphone2)]
+				Diag size: 4
+				Time for diagnosis: 28.046410271
+				Time for solving: 0.008208258
+			Diagnosis 9
+				Diag: [optional(TitleBars, Bold1), ((~Option \/ Option1) \/ Option2), ((~Microphone \/ Microphone1) \/ Microphone2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 28.55230865
+				Time for solving: 0.00795221
+			Diagnosis 10
+				Diag: [mandatory(Recording, Microphone2), optional(MessageBoxes, Bold3), ((~Option \/ Option1) \/ Option2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 28.003003395
+				Time for solving: 0.008944845
+			Diagnosis 11
+				Diag: [optional(Microphone1, Advanced1), optional(MessageBoxes, Bold3), ((~Option \/ Option1) \/ Option2), ((~Microphone \/ Microphone1) \/ Microphone2)]
+				Diag size: 4
+				Time for diagnosis: 28.301662785
+				Time for solving: 0.00576908
+			Diagnosis 12
+				Diag: [mandatory(SpeechRecognition, Microphone1), (((~Bold \/ Bold1) \/ Bold2) \/ Bold3), ((~Option \/ Option1) \/ Option2)]
+				Diag size: 3
+				Time for diagnosis: 28.151022418
+				Time for solving: 0.005506868
+			Diagnosis 13
+				Diag: [optional(Menus, Bold2), ((~Option \/ Option1) \/ Option2), ((~Microphone \/ Microphone1) \/ Microphone2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 27.450100905
+				Time for solving: 0.005923991
+			Diagnosis 14
+				Diag: [mandatory(Recording, Microphone2), optional(TitleBars, Bold1), ((~Option \/ Option1) \/ Option2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 28.244593892
+				Time for solving: 0.009038163
+			Diagnosis 15
+				Diag: [optional(Microphone1, Advanced1), optional(TitleBars, Bold1), ((~Option \/ Option1) \/ Option2), ((~Microphone \/ Microphone1) \/ Microphone2)]
+				Diag size: 4
+				Time for diagnosis: 28.494948004
+				Time for solving: 0.009862614
+			Diagnosis 16
+				Diag: [mandatory(SpeechRecognition, Microphone1), optional(MessageBoxes, Bold3), ((~Option \/ Option1) \/ Option2)]
+				Diag size: 3
+				Time for diagnosis: 28.057590397
+				Time for solving: 0.010959526
+			Diagnosis 17
+				Diag: [optional(TextToSpeech, Advanced2), (((~Bold \/ Bold1) \/ Bold2) \/ Bold3), ((~Option \/ Option1) \/ Option2), ((~Microphone \/ Microphone1) \/ Microphone2)]
+				Diag size: 4
+				Time for diagnosis: 28.198012927
+				Time for solving: 0.009277316
+			Diagnosis 18
+				Diag: [or(ChangeOnlyTheTextSize, Menus, TitleBars, PaletteTitles, Icons, Tooltips, MessageBoxes), ((~Option \/ Option1) \/ Option2), ((~Microphone \/ Microphone1) \/ Microphone2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 28.795627782
+				Time for solving: 0.008721163
+			Diagnosis 19
+				Diag: [mandatory(Recording, Microphone2), optional(Menus, Bold2), ((~Option \/ Option1) \/ Option2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 28.095649596
+				Time for solving: 0.009668283
+			Diagnosis 20
+				Diag: [optional(Microphone1, Advanced1), optional(Menus, Bold2), ((~Option \/ Option1) \/ Option2), ((~Microphone \/ Microphone1) \/ Microphone2)]
+				Diag size: 4
+				Time for diagnosis: 28.655257019
+				Time for solving: 0.008998764
+			Diagnosis 21
+				Diag: [mandatory(SpeechRecognition, Microphone1), optional(TitleBars, Bold1), ((~Option \/ Option1) \/ Option2)]
+				Diag size: 3
+				Time for diagnosis: 30.097427871
+				Time for solving: 0.006388007
+			Diagnosis 22
+				Diag: [mandatory(AudioDevicesAndSoundThemes, Recording), optional(MessageBoxes, Bold3), ((~Option \/ Option1) \/ Option2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 28.593081468
+				Time for solving: 0.007048625
+			Diagnosis 23
+				Diag: [or(SetupTextToSpeech, TextToSpeech, SpeechRecognition), (((~Bold \/ Bold1) \/ Bold2) \/ Bold3), ((~Option \/ Option1) \/ Option2)]
+				Diag size: 3
+				Time for diagnosis: 29.195052213
+				Time for solving: 0.005761232
+			Diagnosis 24
+				Diag: [or(ChangeTheSizeOfTextAndIcons, ChangeOnlyTheTextSize, ChangeTheSizeOfAllItems), ((~Microphone \/ Microphone1) \/ Microphone2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 3
+				Time for diagnosis: 29.94823159
+				Time for solving: 0.005506509
+			Diagnosis 25
+				Diag: [mandatory(Recording, Microphone2), or(ChangeOnlyTheTextSize, Menus, TitleBars, PaletteTitles, Icons, Tooltips, MessageBoxes), ((~Option \/ Option1) \/ Option2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 29.699317349
+				Time for solving: 0.005427582
+			Diagnosis 26
+				Diag: [optional(Microphone1, Advanced1), or(ChangeOnlyTheTextSize, Menus, TitleBars, PaletteTitles, Icons, Tooltips, MessageBoxes), ((~Option \/ Option1) \/ Option2), ((~Microphone \/ Microphone1) \/ Microphone2)]
+				Diag size: 4
+				Time for diagnosis: 29.20577887
+				Time for solving: 0.00107332
+			Diagnosis 27
+				Diag: [mandatory(SpeechRecognition, Microphone1), optional(Menus, Bold2), ((~Option \/ Option1) \/ Option2)]
+				Diag size: 3
+				Time for diagnosis: 27.949366575
+				Time for solving: 0.001439013
+			Diagnosis 28
+				Diag: [mandatory(AudioDevicesAndSoundThemes, Recording), optional(TitleBars, Bold1), ((~Option \/ Option1) \/ Option2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 28.255041163
+				Time for solving: 0.001369745
+			Diagnosis 29
+				Diag: [or(SetupTextToSpeech, TextToSpeech, SpeechRecognition), optional(MessageBoxes, Bold3), ((~Option \/ Option1) \/ Option2)]
+				Diag size: 3
+				Time for diagnosis: 29.845496362
+				Time for solving: 3.19743E-4
+			Diagnosis 30
+				Diag: [optional(HearTextReadAloud, SetupTextToSpeech), (((~Bold \/ Bold1) \/ Bold2) \/ Bold3), ((~Option \/ Option1) \/ Option2)]
+				Diag size: 3
+				Time for diagnosis: 29.797871862
+				Time for solving: 0.0011726
+			Diagnosis 31
+				Diag: [mandatory(MakeThingsOnTheScreenLarger, ChangeTheSizeOfTextAndIcons), ((~Microphone \/ Microphone1) \/ Microphone2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 3
+				Time for diagnosis: 28.601701421
+				Time for solving: 0.001730528
+			Diagnosis 32
+				Diag: [or(ChangeTheSizeOfTextAndIcons, ChangeOnlyTheTextSize, ChangeTheSizeOfAllItems), mandatory(Recording, Microphone2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 3
+				Time for diagnosis: 29.105343019
+				Time for solving: 0.001300687
+			Diagnosis 33
+				Diag: [or(ChangeTheSizeOfTextAndIcons, ChangeOnlyTheTextSize, ChangeTheSizeOfAllItems), optional(Microphone1, Advanced1), ((~Microphone \/ Microphone1) \/ Microphone2)]
+				Diag size: 3
+				Time for diagnosis: 29.305514336
+				Time for solving: 0.001582492
+			Diagnosis 34
+				Diag: [mandatory(SpeechRecognition, Microphone1), or(ChangeOnlyTheTextSize, Menus, TitleBars, PaletteTitles, Icons, Tooltips, MessageBoxes), ((~Option \/ Option1) \/ Option2)]
+				Diag size: 3
+				Time for diagnosis: 29.351749817
+				Time for solving: 2.17675E-4
+			Diagnosis 35
+				Diag: [mandatory(AudioDevicesAndSoundThemes, Recording), optional(Menus, Bold2), ((~Option \/ Option1) \/ Option2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 29.812637465
+				Time for solving: 0.001441408
+			Diagnosis 36
+				Diag: [or(SetupTextToSpeech, TextToSpeech, SpeechRecognition), optional(TitleBars, Bold1), ((~Option \/ Option1) \/ Option2)]
+				Diag size: 3
+				Time for diagnosis: 29.503044417
+				Time for solving: 2.37433E-4
+			Diagnosis 37
+				Diag: [or(SeeAlso1, LearnAboutAdditionalAssistiveTechnologiesOnline1, AudioDevicesAndSoundThemes), optional(MessageBoxes, Bold3), ((~Option \/ Option1) \/ Option2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 28.396534025
+				Time for solving: 0.001207603
+			Diagnosis 38
+				Diag: [mandatory(MakeThingsOnTheScreenLarger, ChangeTheSizeOfTextAndIcons), mandatory(Recording, Microphone2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 3
+				Time for diagnosis: 29.703080937
+				Time for solving: 0.001861675
+			Diagnosis 39
+				Diag: [mandatory(MakeThingsOnTheScreenLarger, ChangeTheSizeOfTextAndIcons), optional(Microphone1, Advanced1), ((~Microphone \/ Microphone1) \/ Microphone2)]
+				Diag size: 3
+				Time for diagnosis: 29.551998896
+				Time for solving: 0.001001151
+			Diagnosis 40
+				Diag: [or(ChangeTheSizeOfTextAndIcons, ChangeOnlyTheTextSize, ChangeTheSizeOfAllItems), mandatory(SpeechRecognition, Microphone1)]
+				Diag size: 2
+				Time for diagnosis: 29.893820315
+				Time for solving: 0.001671537
+			Diagnosis 41
+				Diag: [mandatory(AudioDevicesAndSoundThemes, Recording), or(ChangeOnlyTheTextSize, Menus, TitleBars, PaletteTitles, Icons, Tooltips, MessageBoxes), ((~Option \/ Option1) \/ Option2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 29.295388743
+				Time for solving: 9.41601E-4
+			Diagnosis 42
+				Diag: [or(SetupTextToSpeech, TextToSpeech, SpeechRecognition), optional(Menus, Bold2), ((~Option \/ Option1) \/ Option2)]
+				Diag size: 3
+				Time for diagnosis: 30.545209363
+				Time for solving: 0.001780642
+			Diagnosis 43
+				Diag: [or(SeeAlso1, LearnAboutAdditionalAssistiveTechnologiesOnline1, AudioDevicesAndSoundThemes), optional(TitleBars, Bold1), ((~Option \/ Option1) \/ Option2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 28.644118379
+				Time for solving: 0.001752168
+			Diagnosis 44
+				Diag: [optional(HearTextReadAloud, SetupTextToSpeech), optional(MessageBoxes, Bold3), ((~Option \/ Option1) \/ Option2)]
+				Diag size: 3
+				Time for diagnosis: 28.498306717
+				Time for solving: 3.48571E-4
+			Diagnosis 45
+				Diag: [mandatory(MakeThingsOnTheScreenLarger, ChangeTheSizeOfTextAndIcons), mandatory(SpeechRecognition, Microphone1)]
+				Diag size: 2
+				Time for diagnosis: 29.950732224
+				Time for solving: 0.005027256
+			Diagnosis 46
+				Diag: [mandatory(AudioDevicesAndSoundThemes, Recording), or(ChangeTheSizeOfTextAndIcons, ChangeOnlyTheTextSize, ChangeTheSizeOfAllItems), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 3
+				Time for diagnosis: 30.301677881
+				Time for solving: 0.002683616
+			Diagnosis 47
+				Diag: [or(SetupTextToSpeech, TextToSpeech, SpeechRecognition), or(ChangeOnlyTheTextSize, Menus, TitleBars, PaletteTitles, Icons, Tooltips, MessageBoxes), ((~Option \/ Option1) \/ Option2)]
+				Diag size: 3
+				Time for diagnosis: 29.154249565
+				Time for solving: 6.89596E-4
+			Diagnosis 48
+				Diag: [or(SeeAlso1, LearnAboutAdditionalAssistiveTechnologiesOnline1, AudioDevicesAndSoundThemes), optional(Menus, Bold2), ((~Option \/ Option1) \/ Option2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 29.994482132
+				Time for solving: 1.64509E-4
+			Diagnosis 49
+				Diag: [optional(HearTextReadAloud, SetupTextToSpeech), optional(TitleBars, Bold1), ((~Option \/ Option1) \/ Option2)]
+				Diag size: 3
+				Time for diagnosis: 29.45865954
+				Time for solving: 0.001031505
+			Diagnosis 50
+				Diag: [optional(UseTheComputerWithoutADisplay, SeeAlso1), optional(MessageBoxes, Bold3), ((~Option \/ Option1) \/ Option2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 29.401885889
+				Time for solving: 0.00120472
+			Diagnosis 51
+				Diag: [mandatory(MakeThingsOnTheScreenLarger, ChangeTheSizeOfTextAndIcons), mandatory(AudioDevicesAndSoundThemes, Recording), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 3
+				Time for diagnosis: 30.309874259
+				Time for solving: 0.001705317
+			Diagnosis 52
+				Diag: [or(SetupTextToSpeech, TextToSpeech, SpeechRecognition), or(ChangeTheSizeOfTextAndIcons, ChangeOnlyTheTextSize, ChangeTheSizeOfAllItems)]
+				Diag size: 2
+				Time for diagnosis: 30.294259535
+				Time for solving: 0.001775085
+			Diagnosis 53
+				Diag: [or(SeeAlso1, LearnAboutAdditionalAssistiveTechnologiesOnline1, AudioDevicesAndSoundThemes), or(ChangeOnlyTheTextSize, Menus, TitleBars, PaletteTitles, Icons, Tooltips, MessageBoxes), ((~Option \/ Option1) \/ Option2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 29.849670166
+				Time for solving: 0.001514344
+			Diagnosis 54
+				Diag: [optional(HearTextReadAloud, SetupTextToSpeech), optional(Menus, Bold2), ((~Option \/ Option1) \/ Option2)]
+				Diag size: 3
+				Time for diagnosis: 29.803487227
+				Time for solving: 0.002217937
+			Diagnosis 55
+				Diag: [optional(UseTheComputerWithoutADisplay, SeeAlso1), optional(TitleBars, Bold1), ((~Option \/ Option1) \/ Option2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 29.445521634
+				Time for solving: 0.00190803
+			Diagnosis 56
+				Diag: [mandatory(UseTheComputerWithoutADisplay, HearTextReadAloud), optional(MessageBoxes, Bold3), ((~Option \/ Option1) \/ Option2)]
+				Diag size: 3
+				Time for diagnosis: 30.956501919
+				Time for solving: 0.002015516
+			Diagnosis 57
+				Diag: [or(SetupTextToSpeech, TextToSpeech, SpeechRecognition), mandatory(MakeThingsOnTheScreenLarger, ChangeTheSizeOfTextAndIcons)]
+				Diag size: 2
+				Time for diagnosis: 31.344363958
+				Time for solving: 0.002162944
+			Diagnosis 58
+				Diag: [or(SeeAlso1, LearnAboutAdditionalAssistiveTechnologiesOnline1, AudioDevicesAndSoundThemes), or(ChangeTheSizeOfTextAndIcons, ChangeOnlyTheTextSize, ChangeTheSizeOfAllItems), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 3
+				Time for diagnosis: 29.304121869
+				Time for solving: 0.002260589
+			Diagnosis 59
+				Diag: [optional(HearTextReadAloud, SetupTextToSpeech), or(ChangeOnlyTheTextSize, Menus, TitleBars, PaletteTitles, Icons, Tooltips, MessageBoxes), ((~Option \/ Option1) \/ Option2)]
+				Diag size: 3
+				Time for diagnosis: 29.394707305
+				Time for solving: 0.002247275
+			Diagnosis 60
+				Diag: [optional(UseTheComputerWithoutADisplay, SeeAlso1), optional(Menus, Bold2), ((~Option \/ Option1) \/ Option2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 28.552212605
+				Time for solving: 0.002127982
+			Diagnosis 61
+				Diag: [mandatory(UseTheComputerWithoutADisplay, HearTextReadAloud), optional(TitleBars, Bold1), ((~Option \/ Option1) \/ Option2)]
+				Diag size: 3
+				Time for diagnosis: 29.54958676
+				Time for solving: 0.002280914
+			Diagnosis 62
+				Diag: [or(SeeAlso1, LearnAboutAdditionalAssistiveTechnologiesOnline1, AudioDevicesAndSoundThemes), mandatory(MakeThingsOnTheScreenLarger, ChangeTheSizeOfTextAndIcons), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 3
+				Time for diagnosis: 30.954414021
+				Time for solving: 0.002344722
+			Diagnosis 63
+				Diag: [optional(HearTextReadAloud, SetupTextToSpeech), or(ChangeTheSizeOfTextAndIcons, ChangeOnlyTheTextSize, ChangeTheSizeOfAllItems)]
+				Diag size: 2
+				Time for diagnosis: 32.546019224
+				Time for solving: 0.002433947
+			Diagnosis 64
+				Diag: [optional(UseTheComputerWithoutADisplay, SeeAlso1), or(ChangeOnlyTheTextSize, Menus, TitleBars, PaletteTitles, Icons, Tooltips, MessageBoxes), ((~Option \/ Option1) \/ Option2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 30.299529281
+				Time for solving: 0.002599085
+			Diagnosis 65
+				Diag: [mandatory(UseTheComputerWithoutADisplay, HearTextReadAloud), optional(Menus, Bold2), ((~Option \/ Option1) \/ Option2)]
+				Diag size: 3
+				Time for diagnosis: 31.300048333
+				Time for solving: 0.002479525
+			Diagnosis 66
+				Diag: [optional(HearTextReadAloud, SetupTextToSpeech), mandatory(MakeThingsOnTheScreenLarger, ChangeTheSizeOfTextAndIcons)]
+				Diag size: 2
+				Time for diagnosis: 31.2957588
+				Time for solving: 0.002535263
+			Diagnosis 67
+				Diag: [optional(UseTheComputerWithoutADisplay, SeeAlso1), or(ChangeTheSizeOfTextAndIcons, ChangeOnlyTheTextSize, ChangeTheSizeOfAllItems), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 3
+				Time for diagnosis: 30.454304914
+				Time for solving: 0.002529659
+			Diagnosis 68
+				Diag: [mandatory(UseTheComputerWithoutADisplay, HearTextReadAloud), or(ChangeOnlyTheTextSize, Menus, TitleBars, PaletteTitles, Icons, Tooltips, MessageBoxes), ((~Option \/ Option1) \/ Option2)]
+				Diag size: 3
+				Time for diagnosis: 33.251432866
+				Time for solving: 0.003266797
+			Diagnosis 69
+				Diag: [optional(UseTheComputerWithoutADisplay, SeeAlso1), mandatory(MakeThingsOnTheScreenLarger, ChangeTheSizeOfTextAndIcons), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 3
+				Time for diagnosis: 34.698747062
+				Time for solving: 0.002847274
+			Diagnosis 70
+				Diag: [mandatory(UseTheComputerWithoutADisplay, HearTextReadAloud), or(ChangeTheSizeOfTextAndIcons, ChangeOnlyTheTextSize, ChangeTheSizeOfAllItems)]
+				Diag size: 2
+				Time for diagnosis: 33.960461676
+				Time for solving: 0.003362991
+			Diagnosis 71
+				Diag: [mandatory(UseTheComputerWithoutADisplay, HearTextReadAloud), mandatory(MakeThingsOnTheScreenLarger, ChangeTheSizeOfTextAndIcons)]
+				Diag size: 2
+				Time for diagnosis: 33.602611889
+				Time for solving: 0.002753641
+		WINDOWS8.SPLX	WINDOWS8_C25_0.TESTCASES
+				Time for all diagnoses: 1893.738489192
+				Time for solving (all diagnoses): 428.277349828
+			Diagnosis 1
+				Diag: [(((~Bold \/ Bold1) \/ Bold2) \/ Bold3), ((~Option \/ Option1) \/ Option2), ((~Microphone \/ Microphone1) \/ Microphone2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 4.50155092
+				Time for solving: 0.005060433
+			Diagnosis 2
+				Diag: [or(MakeTheComputerEasierToSee, HearTextAndDescriptionReadAloud, MakeThingsOnTheScreenEasierToSee, HighContrast, MakeThingsOnTheScreenLarger), ((~Microphone \/ Microphone1) \/ Microphone2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 3
+				Time for diagnosis: 5.694648153
+				Time for solving: 0.004413447
+			Diagnosis 3
+				Diag: [optional(UseTheComputerWithoutADisplay, SeeAlso1), (((~Bold \/ Bold1) \/ Bold2) \/ Bold3), ((~Option \/ Option1) \/ Option2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 4.498656999
+				Time for solving: 0.007461159
+			Diagnosis 4
+				Diag: [mandatory(UseTheComputerWithoutADisplay, HearTextReadAloud), (((~Bold \/ Bold1) \/ Bold2) \/ Bold3), ((~Option \/ Option1) \/ Option2)]
+				Diag size: 3
+				Time for diagnosis: 4.253951277
+				Time for solving: 0.005321676
+			Diagnosis 5
+				Diag: [optional(MessageBoxes, Bold3), ((~Option \/ Option1) \/ Option2), ((~Microphone \/ Microphone1) \/ Microphone2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 30.505102909
+				Time for solving: 0.004362932
+			Diagnosis 6
+				Diag: [optional(UseTheComputerWithoutADisplay, SeeAlso1), or(MakeTheComputerEasierToSee, HearTextAndDescriptionReadAloud, MakeThingsOnTheScreenEasierToSee, HighContrast, MakeThingsOnTheScreenLarger), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 3
+				Time for diagnosis: 4.139262989
+				Time for solving: 0.004404702
+			Diagnosis 7
+				Diag: [mandatory(UseTheComputerWithoutADisplay, HearTextReadAloud), or(MakeTheComputerEasierToSee, HearTextAndDescriptionReadAloud, MakeThingsOnTheScreenEasierToSee, HighContrast, MakeThingsOnTheScreenLarger)]
+				Diag size: 2
+				Time for diagnosis: 5.163019092
+				Time for solving: 0.004774357
+			Diagnosis 8
+				Diag: [optional(Microphone1, Advanced1), (((~Bold \/ Bold1) \/ Bold2) \/ Bold3), ((~Option \/ Option1) \/ Option2), ((~Microphone \/ Microphone1) \/ Microphone2)]
+				Diag size: 4
+				Time for diagnosis: 36.404060563
+				Time for solving: 0.005257402
+			Diagnosis 9
+				Diag: [optional(TitleBars, Bold1), ((~Option \/ Option1) \/ Option2), ((~Microphone \/ Microphone1) \/ Microphone2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 34.650264758
+				Time for solving: 0.005300154
+			Diagnosis 10
+				Diag: [mandatory(Recording, Microphone2), optional(MessageBoxes, Bold3), ((~Option \/ Option1) \/ Option2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 36.552957428
+				Time for solving: 0.005723228
+			Diagnosis 11
+				Diag: [optional(Microphone1, Advanced1), optional(MessageBoxes, Bold3), ((~Option \/ Option1) \/ Option2), ((~Microphone \/ Microphone1) \/ Microphone2)]
+				Diag size: 4
+				Time for diagnosis: 34.242860398
+				Time for solving: 0.005703676
+			Diagnosis 12
+				Diag: [mandatory(SpeechRecognition, Microphone1), (((~Bold \/ Bold1) \/ Bold2) \/ Bold3), ((~Option \/ Option1) \/ Option2)]
+				Diag size: 3
+				Time for diagnosis: 35.149553766
+				Time for solving: 0.005742374
+			Diagnosis 13
+				Diag: [optional(Menus, Bold2), ((~Option \/ Option1) \/ Option2), ((~Microphone \/ Microphone1) \/ Microphone2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 23.002339047
+				Time for solving: 0.005687779
+			Diagnosis 14
+				Diag: [mandatory(Recording, Microphone2), optional(TitleBars, Bold1), ((~Option \/ Option1) \/ Option2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 19.245235995
+				Time for solving: 0.005425689
+			Diagnosis 15
+				Diag: [optional(Microphone1, Advanced1), optional(TitleBars, Bold1), ((~Option \/ Option1) \/ Option2), ((~Microphone \/ Microphone1) \/ Microphone2)]
+				Diag size: 4
+				Time for diagnosis: 23.602856908
+				Time for solving: 0.005072179
+			Diagnosis 16
+				Diag: [mandatory(SpeechRecognition, Microphone1), optional(MessageBoxes, Bold3), ((~Option \/ Option1) \/ Option2)]
+				Diag size: 3
+				Time for diagnosis: 27.250748201
+				Time for solving: 0.004383191
+			Diagnosis 17
+				Diag: [optional(TextToSpeech, Advanced2), (((~Bold \/ Bold1) \/ Bold2) \/ Bold3), ((~Option \/ Option1) \/ Option2), ((~Microphone \/ Microphone1) \/ Microphone2)]
+				Diag size: 4
+				Time for diagnosis: 27.35071666
+				Time for solving: 0.004200997
+			Diagnosis 18
+				Diag: [or(ChangeOnlyTheTextSize, Menus, TitleBars, PaletteTitles, Icons, Tooltips, MessageBoxes), ((~Option \/ Option1) \/ Option2), ((~Microphone \/ Microphone1) \/ Microphone2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 27.999474258
+				Time for solving: 0.004055782
+			Diagnosis 19
+				Diag: [mandatory(Recording, Microphone2), optional(Menus, Bold2), ((~Option \/ Option1) \/ Option2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 27.405005202
+				Time for solving: 0.004128477
+			Diagnosis 20
+				Diag: [optional(Microphone1, Advanced1), optional(Menus, Bold2), ((~Option \/ Option1) \/ Option2), ((~Microphone \/ Microphone1) \/ Microphone2)]
+				Diag size: 4
+				Time for diagnosis: 27.047053576
+				Time for solving: 0.004265364
+			Diagnosis 21
+				Diag: [mandatory(SpeechRecognition, Microphone1), optional(TitleBars, Bold1), ((~Option \/ Option1) \/ Option2)]
+				Diag size: 3
+				Time for diagnosis: 27.850932321
+				Time for solving: 0.004165265
+			Diagnosis 22
+				Diag: [mandatory(AudioDevicesAndSoundThemes, Recording), optional(MessageBoxes, Bold3), ((~Option \/ Option1) \/ Option2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 27.549541946
+				Time for solving: 0.004132781
+			Diagnosis 23
+				Diag: [or(SetupTextToSpeech, TextToSpeech, SpeechRecognition), (((~Bold \/ Bold1) \/ Bold2) \/ Bold3), ((~Option \/ Option1) \/ Option2)]
+				Diag size: 3
+				Time for diagnosis: 27.600132972
+				Time for solving: 0.004106966
+			Diagnosis 24
+				Diag: [or(ChangeTheSizeOfTextAndIcons, ChangeOnlyTheTextSize, ChangeTheSizeOfAllItems), ((~Microphone \/ Microphone1) \/ Microphone2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 3
+				Time for diagnosis: 28.499674733
+				Time for solving: 0.004001566
+			Diagnosis 25
+				Diag: [mandatory(Recording, Microphone2), or(ChangeOnlyTheTextSize, Menus, TitleBars, PaletteTitles, Icons, Tooltips, MessageBoxes), ((~Option \/ Option1) \/ Option2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 28.498930562
+				Time for solving: 0.004208151
+			Diagnosis 26
+				Diag: [optional(Microphone1, Advanced1), or(ChangeOnlyTheTextSize, Menus, TitleBars, PaletteTitles, Icons, Tooltips, MessageBoxes), ((~Option \/ Option1) \/ Option2), ((~Microphone \/ Microphone1) \/ Microphone2)]
+				Diag size: 4
+				Time for diagnosis: 28.445527724
+				Time for solving: 9.61396E-4
+			Diagnosis 27
+				Diag: [mandatory(SpeechRecognition, Microphone1), optional(Menus, Bold2), ((~Option \/ Option1) \/ Option2)]
+				Diag size: 3
+				Time for diagnosis: 28.293901369
+				Time for solving: 0.001139787
+			Diagnosis 28
+				Diag: [mandatory(AudioDevicesAndSoundThemes, Recording), optional(TitleBars, Bold1), ((~Option \/ Option1) \/ Option2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 28.153593113
+				Time for solving: 0.001081619
+			Diagnosis 29
+				Diag: [or(SetupTextToSpeech, TextToSpeech, SpeechRecognition), optional(MessageBoxes, Bold3), ((~Option \/ Option1) \/ Option2)]
+				Diag size: 3
+				Time for diagnosis: 28.705053294
+				Time for solving: 2.25824E-4
+			Diagnosis 30
+				Diag: [optional(HearTextReadAloud, SetupTextToSpeech), (((~Bold \/ Bold1) \/ Bold2) \/ Bold3), ((~Option \/ Option1) \/ Option2)]
+				Diag size: 3
+				Time for diagnosis: 28.206049249
+				Time for solving: 0.001279958
+			Diagnosis 31
+				Diag: [mandatory(MakeThingsOnTheScreenLarger, ChangeTheSizeOfTextAndIcons), ((~Microphone \/ Microphone1) \/ Microphone2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 3
+				Time for diagnosis: 29.002216512
+				Time for solving: 0.001513696
+			Diagnosis 32
+				Diag: [or(ChangeTheSizeOfTextAndIcons, ChangeOnlyTheTextSize, ChangeTheSizeOfAllItems), mandatory(Recording, Microphone2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 3
+				Time for diagnosis: 28.853124673
+				Time for solving: 0.001293963
+			Diagnosis 33
+				Diag: [or(ChangeTheSizeOfTextAndIcons, ChangeOnlyTheTextSize, ChangeTheSizeOfAllItems), optional(Microphone1, Advanced1), ((~Microphone \/ Microphone1) \/ Microphone2)]
+				Diag size: 3
+				Time for diagnosis: 28.999108344
+				Time for solving: 0.001633058
+			Diagnosis 34
+				Diag: [mandatory(SpeechRecognition, Microphone1), or(ChangeOnlyTheTextSize, Menus, TitleBars, PaletteTitles, Icons, Tooltips, MessageBoxes), ((~Option \/ Option1) \/ Option2)]
+				Diag size: 3
+				Time for diagnosis: 29.848650015
+				Time for solving: 2.27067E-4
+			Diagnosis 35
+				Diag: [mandatory(AudioDevicesAndSoundThemes, Recording), optional(Menus, Bold2), ((~Option \/ Option1) \/ Option2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 28.204950613
+				Time for solving: 0.001250804
+			Diagnosis 36
+				Diag: [or(SetupTextToSpeech, TextToSpeech, SpeechRecognition), optional(TitleBars, Bold1), ((~Option \/ Option1) \/ Option2)]
+				Diag size: 3
+				Time for diagnosis: 28.253926528
+				Time for solving: 1.86842E-4
+			Diagnosis 37
+				Diag: [or(SeeAlso1, LearnAboutAdditionalAssistiveTechnologiesOnline1, AudioDevicesAndSoundThemes), optional(MessageBoxes, Bold3), ((~Option \/ Option1) \/ Option2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 27.808437818
+				Time for solving: 0.001276307
+			Diagnosis 38
+				Diag: [mandatory(MakeThingsOnTheScreenLarger, ChangeTheSizeOfTextAndIcons), mandatory(Recording, Microphone2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 3
+				Time for diagnosis: 28.948538294
+				Time for solving: 0.001785409
+			Diagnosis 39
+				Diag: [mandatory(MakeThingsOnTheScreenLarger, ChangeTheSizeOfTextAndIcons), optional(Microphone1, Advanced1), ((~Microphone \/ Microphone1) \/ Microphone2)]
+				Diag size: 3
+				Time for diagnosis: 28.545742824
+				Time for solving: 8.92935E-4
+			Diagnosis 40
+				Diag: [or(ChangeTheSizeOfTextAndIcons, ChangeOnlyTheTextSize, ChangeTheSizeOfAllItems), mandatory(SpeechRecognition, Microphone1)]
+				Diag size: 2
+				Time for diagnosis: 28.997513555
+				Time for solving: 0.001651464
+			Diagnosis 41
+				Diag: [mandatory(AudioDevicesAndSoundThemes, Recording), or(ChangeOnlyTheTextSize, Menus, TitleBars, PaletteTitles, Icons, Tooltips, MessageBoxes), ((~Option \/ Option1) \/ Option2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 28.201644911
+				Time for solving: 9.14704E-4
+			Diagnosis 42
+				Diag: [or(SetupTextToSpeech, TextToSpeech, SpeechRecognition), optional(Menus, Bold2), ((~Option \/ Option1) \/ Option2)]
+				Diag size: 3
+				Time for diagnosis: 29.149541621
+				Time for solving: 0.00170067
+			Diagnosis 43
+				Diag: [or(SeeAlso1, LearnAboutAdditionalAssistiveTechnologiesOnline1, AudioDevicesAndSoundThemes), optional(TitleBars, Bold1), ((~Option \/ Option1) \/ Option2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 27.645318053
+				Time for solving: 0.0017437
+			Diagnosis 44
+				Diag: [optional(HearTextReadAloud, SetupTextToSpeech), optional(MessageBoxes, Bold3), ((~Option \/ Option1) \/ Option2)]
+				Diag size: 3
+				Time for diagnosis: 27.695081631
+				Time for solving: 1.67197E-4
+			Diagnosis 45
+				Diag: [mandatory(MakeThingsOnTheScreenLarger, ChangeTheSizeOfTextAndIcons), mandatory(SpeechRecognition, Microphone1)]
+				Diag size: 2
+				Time for diagnosis: 29.141861094
+				Time for solving: 0.002801849
+			Diagnosis 46
+				Diag: [mandatory(AudioDevicesAndSoundThemes, Recording), or(ChangeTheSizeOfTextAndIcons, ChangeOnlyTheTextSize, ChangeTheSizeOfAllItems), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 3
+				Time for diagnosis: 28.745620834
+				Time for solving: 0.002469743
+			Diagnosis 47
+				Diag: [or(SetupTextToSpeech, TextToSpeech, SpeechRecognition), or(ChangeOnlyTheTextSize, Menus, TitleBars, PaletteTitles, Icons, Tooltips, MessageBoxes), ((~Option \/ Option1) \/ Option2)]
+				Diag size: 3
+				Time for diagnosis: 27.955713039
+				Time for solving: 7.39258E-4
+			Diagnosis 48
+				Diag: [or(SeeAlso1, LearnAboutAdditionalAssistiveTechnologiesOnline1, AudioDevicesAndSoundThemes), optional(Menus, Bold2), ((~Option \/ Option1) \/ Option2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 27.507026564
+				Time for solving: 1.65314E-4
+			Diagnosis 49
+				Diag: [optional(HearTextReadAloud, SetupTextToSpeech), optional(TitleBars, Bold1), ((~Option \/ Option1) \/ Option2)]
+				Diag size: 3
+				Time for diagnosis: 28.150595915
+				Time for solving: 0.001019568
+			Diagnosis 50
+				Diag: [optional(UseTheComputerWithoutADisplay, SeeAlso1), optional(MessageBoxes, Bold3), ((~Option \/ Option1) \/ Option2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 29.003790001
+				Time for solving: 0.001153396
+			Diagnosis 51
+				Diag: [mandatory(MakeThingsOnTheScreenLarger, ChangeTheSizeOfTextAndIcons), mandatory(AudioDevicesAndSoundThemes, Recording), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 3
+				Time for diagnosis: 29.344867002
+				Time for solving: 0.001847902
+			Diagnosis 52
+				Diag: [or(SetupTextToSpeech, TextToSpeech, SpeechRecognition), or(ChangeTheSizeOfTextAndIcons, ChangeOnlyTheTextSize, ChangeTheSizeOfAllItems)]
+				Diag size: 2
+				Time for diagnosis: 29.249082086
+				Time for solving: 0.002143304
+			Diagnosis 53
+				Diag: [or(SeeAlso1, LearnAboutAdditionalAssistiveTechnologiesOnline1, AudioDevicesAndSoundThemes), or(ChangeOnlyTheTextSize, Menus, TitleBars, PaletteTitles, Icons, Tooltips, MessageBoxes), ((~Option \/ Option1) \/ Option2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 28.351672526
+				Time for solving: 0.001872781
+			Diagnosis 54
+				Diag: [optional(HearTextReadAloud, SetupTextToSpeech), optional(Menus, Bold2), ((~Option \/ Option1) \/ Option2)]
+				Diag size: 3
+				Time for diagnosis: 27.704625488
+				Time for solving: 0.002627661
+			Diagnosis 55
+				Diag: [optional(UseTheComputerWithoutADisplay, SeeAlso1), optional(TitleBars, Bold1), ((~Option \/ Option1) \/ Option2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 27.697344614
+				Time for solving: 0.002034191
+			Diagnosis 56
+				Diag: [mandatory(UseTheComputerWithoutADisplay, HearTextReadAloud), optional(MessageBoxes, Bold3), ((~Option \/ Option1) \/ Option2)]
+				Diag size: 3
+				Time for diagnosis: 28.948808572
+				Time for solving: 0.00210748
+			Diagnosis 57
+				Diag: [or(SetupTextToSpeech, TextToSpeech, SpeechRecognition), mandatory(MakeThingsOnTheScreenLarger, ChangeTheSizeOfTextAndIcons)]
+				Diag size: 2
+				Time for diagnosis: 29.344523199
+				Time for solving: 0.002225186
+			Diagnosis 58
+				Diag: [or(SeeAlso1, LearnAboutAdditionalAssistiveTechnologiesOnline1, AudioDevicesAndSoundThemes), or(ChangeTheSizeOfTextAndIcons, ChangeOnlyTheTextSize, ChangeTheSizeOfAllItems), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 3
+				Time for diagnosis: 28.299471786
+				Time for solving: 0.002228491
+			Diagnosis 59
+				Diag: [optional(HearTextReadAloud, SetupTextToSpeech), or(ChangeOnlyTheTextSize, Menus, TitleBars, PaletteTitles, Icons, Tooltips, MessageBoxes), ((~Option \/ Option1) \/ Option2)]
+				Diag size: 3
+				Time for diagnosis: 28.894013587
+				Time for solving: 0.002327768
+			Diagnosis 60
+				Diag: [optional(UseTheComputerWithoutADisplay, SeeAlso1), optional(Menus, Bold2), ((~Option \/ Option1) \/ Option2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 27.348549749
+				Time for solving: 0.002322592
+			Diagnosis 61
+				Diag: [mandatory(UseTheComputerWithoutADisplay, HearTextReadAloud), optional(TitleBars, Bold1), ((~Option \/ Option1) \/ Option2)]
+				Diag size: 3
+				Time for diagnosis: 27.851953887
+				Time for solving: 0.002355191
+			Diagnosis 62
+				Diag: [or(SeeAlso1, LearnAboutAdditionalAssistiveTechnologiesOnline1, AudioDevicesAndSoundThemes), mandatory(MakeThingsOnTheScreenLarger, ChangeTheSizeOfTextAndIcons), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 3
+				Time for diagnosis: 29.145820923
+				Time for solving: 0.002389749
+			Diagnosis 63
+				Diag: [optional(HearTextReadAloud, SetupTextToSpeech), or(ChangeTheSizeOfTextAndIcons, ChangeOnlyTheTextSize, ChangeTheSizeOfAllItems)]
+				Diag size: 2
+				Time for diagnosis: 29.846824268
+				Time for solving: 0.002516902
+			Diagnosis 64
+				Diag: [optional(UseTheComputerWithoutADisplay, SeeAlso1), or(ChangeOnlyTheTextSize, Menus, TitleBars, PaletteTitles, Icons, Tooltips, MessageBoxes), ((~Option \/ Option1) \/ Option2), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 4
+				Time for diagnosis: 29.101635327
+				Time for solving: 0.002590941
+			Diagnosis 65
+				Diag: [mandatory(UseTheComputerWithoutADisplay, HearTextReadAloud), optional(Menus, Bold2), ((~Option \/ Option1) \/ Option2)]
+				Diag size: 3
+				Time for diagnosis: 28.346142224
+				Time for solving: 0.002450126
+			Diagnosis 66
+				Diag: [optional(HearTextReadAloud, SetupTextToSpeech), mandatory(MakeThingsOnTheScreenLarger, ChangeTheSizeOfTextAndIcons)]
+				Diag size: 2
+				Time for diagnosis: 29.245516499
+				Time for solving: 0.002265303
+			Diagnosis 67
+				Diag: [optional(UseTheComputerWithoutADisplay, SeeAlso1), or(ChangeTheSizeOfTextAndIcons, ChangeOnlyTheTextSize, ChangeTheSizeOfAllItems), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 3
+				Time for diagnosis: 28.254844961
+				Time for solving: 0.00252246
+			Diagnosis 68
+				Diag: [mandatory(UseTheComputerWithoutADisplay, HearTextReadAloud), or(ChangeOnlyTheTextSize, Menus, TitleBars, PaletteTitles, Icons, Tooltips, MessageBoxes), ((~Option \/ Option1) \/ Option2)]
+				Diag size: 3
+				Time for diagnosis: 28.89817743
+				Time for solving: 0.002631821
+			Diagnosis 69
+				Diag: [optional(UseTheComputerWithoutADisplay, SeeAlso1), mandatory(MakeThingsOnTheScreenLarger, ChangeTheSizeOfTextAndIcons), ((~Advanced \/ Advanced1) \/ Advanced2)]
+				Diag size: 3
+				Time for diagnosis: 28.098498747
+				Time for solving: 0.002760613
+			Diagnosis 70
+				Diag: [mandatory(UseTheComputerWithoutADisplay, HearTextReadAloud), or(ChangeTheSizeOfTextAndIcons, ChangeOnlyTheTextSize, ChangeTheSizeOfAllItems)]
+				Diag size: 2
+				Time for diagnosis: 28.999901785
+				Time for solving: 0.003412556
+			Diagnosis 71
+				Diag: [mandatory(UseTheComputerWithoutADisplay, HearTextReadAloud), mandatory(MakeThingsOnTheScreenLarger, ChangeTheSizeOfTextAndIcons)]
+				Diag size: 2
+				Time for diagnosis: 29.645155311
+				Time for solving: 0.003448946
+
+Syntactic Relevance Evaluation Results:
+1882.568412339334	
+
+Syntactic Relevance Evaluation Results - Solver:
+0.26790314433333334	
