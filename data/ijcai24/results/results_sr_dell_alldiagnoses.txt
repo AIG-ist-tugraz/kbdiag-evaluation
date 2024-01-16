@@ -1,11 +1,11 @@
 Syntactic Relevance Evaluation - all diagnoses using HSDAG:
 		DELL.SPLX	DELL_C25_0.TESTCASES
-				Time for all diagnoses: 10.136992602
+				Time for all diagnoses: 9.887631353
 				Time for solving (all diagnoses): 2.693800578
 			Diagnosis 1
 				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(Adamo, CD_DVD +RW), excludes(Studio XPS Laptops, 120GB)]
 				Diag size: 7
-				Time for diagnosis: 0.48928254
+				Time for diagnosis: 0.239921291
 				Time for solving: 5.22211E-4
 			Diagnosis 2
 				Diag: [mandatory(Dell Laptops/Notebooks, Operating System), mandatory(Dell Laptops/Notebooks, Hard Drive), mandatory(Dell Laptops/Notebooks, Memory), mandatory(Dell Laptops/Notebooks, Processor), alternative(Hard Drive, 500GB, 320GB, 250GB, 160GB, 128GB Solid State, 120GB, 80GB), excludes(Adamo, DVD-ROM Drive and DVD+-RW), excludes(Studio XPS Laptops, 120GB)]
@@ -610,7 +610,7 @@ Syntactic Relevance Evaluation - all diagnoses using HSDAG:
 				Time for solving: 3.27919E-4
 
 Syntactic Relevance Evaluation Results:
-9.21784322766667	
+8.96848197866667	
 
 Syntactic Relevance Evaluation Results - Solver:
 0.007554553666666668	

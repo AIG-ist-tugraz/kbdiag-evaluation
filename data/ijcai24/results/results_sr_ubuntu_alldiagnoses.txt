@@ -1,11 +1,11 @@
 Syntactic Relevance Evaluation - all diagnoses using HSDAG:
 		UBUNTU.SPLX	UBUNTU_C25_0.TESTCASES
-				Time for all diagnoses: 992.286793916
+				Time for all diagnoses: 990.928231044667
 				Time for solving (all diagnoses): 528.460518219
 			Diagnosis 1
 				Diag: [requires(UniversalAccess1, UniversalAccess), requires(Displays1, Displays), ((~Speed \/ Speed1) \/ Speed2), ((~Normal \/ Normal1) \/ Normal2)]
 				Diag size: 4
-				Time for diagnosis: 1.307800213
+				Time for diagnosis: 2.66636308433333
 				Time for solving: 0.002355415
 			Diagnosis 2
 				Diag: [requires(Typing1, Typing), requires(UniversalAccess1, UniversalAccess), requires(Displays1, Displays), requires(Typing2, Typing), ((~Normal \/ Normal1) \/ Normal2), requires(Fast1, Fast)]
@@ -3055,7 +3055,7 @@ Syntactic Relevance Evaluation - all diagnoses using HSDAG:
 				Time for solving: 0.002459871
 
 Syntactic Relevance Evaluation Results:
-1558.9981281766661	
+1557.63956530534	
 
 Syntactic Relevance Evaluation Results - Solver:
 0.30548348066666653	

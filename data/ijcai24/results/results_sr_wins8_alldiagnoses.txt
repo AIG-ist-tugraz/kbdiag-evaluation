@@ -1,11 +1,11 @@
 Syntactic Relevance Evaluation - all diagnoses using HSDAG:
 		WINDOWS8.SPLX	WINDOWS8_C25_0.TESTCASES
-				Time for all diagnoses: 1800.118431901
+				Time for all diagnoses: 1794.187493121
 				Time for solving (all diagnoses): 425.577390409
 			Diagnosis 1
 				Diag: [(((~Bold \/ Bold1) \/ Bold2) \/ Bold3), ((~Option \/ Option1) \/ Option2), ((~Microphone \/ Microphone1) \/ Microphone2), ((~Advanced \/ Advanced1) \/ Advanced2)]
 				Diag size: 4
-				Time for diagnosis: 2.017690998
+				Time for diagnosis: 7.948629778
 				Time for solving: 0.005989419
 			Diagnosis 2
 				Diag: [or(MakeTheComputerEasierToSee, HearTextAndDescriptionReadAloud, MakeThingsOnTheScreenEasierToSee, HighContrast, MakeThingsOnTheScreenLarger), ((~Microphone \/ Microphone1) \/ Microphone2), ((~Advanced \/ Advanced1) \/ Advanced2)]
@@ -1075,7 +1075,7 @@ Syntactic Relevance Evaluation - all diagnoses using HSDAG:
 				Time for solving: 0.003448946
 
 Syntactic Relevance Evaluation Results:
-1882.568412339334	
+1876.63747355933	
 
 Syntactic Relevance Evaluation Results - Solver:
 0.26790314433333334	
