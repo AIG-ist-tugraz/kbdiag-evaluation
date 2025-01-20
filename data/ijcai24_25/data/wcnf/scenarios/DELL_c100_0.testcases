@@ -1,0 +1,101 @@
+100
+~IntelAtom & Morethan_1200
+StudioXPSLaptops & WindowsVista64bit & ~a320GB
+Memory & Processor & a128GBSolidState
+OperatingSystem & LaptopWeight & MiniNotebooks & ~InspironLaptops & ~WindowsVista64bit
+OpticalDrive & LaptopWeight & ~Memory & ~MiniNotebooks & Adamo
+HardDrive & Memory & ~InspironLaptops & Adamo & WindowsVista64bit
+OperatingSystem & HardDrive & LaptopWeight & ~InspironLaptops
+~WindowsXPHome & Windows7 & a80GB
+OperatingSystem & ~HardDrive & ~OpticalDrive & ~StudioLaptops & ~XPSLaptops
+~WindowsVista64bit & a320GB & ~CD_DVD_RW
+~MiniNotebooks & XPSLaptops & ~StudioXPSLaptops
+HardDrive & OpticalDrive & LaptopWeight & Memory & ~Adamo
+ProductCategory & Price & ~StudioLaptops & ~StudioXPSLaptops & WindowsVista64bit
+OperatingSystem & LaptopWeight & Memory & Processor & ~Adamo
+OperatingSystem & HardDrive & ~MiniNotebooks & ~StudioXPSLaptops & WindowsVista64bit
+a500GB & ~a250GB & a120GB
+Processor & ~StudioLaptops & StudioXPSLaptops & ~UbuntuLinux
+OpticalDrive & ~Adamo & ~StudioXPSLaptops
+ProductCategory & OperatingSystem & ~OpticalDrive & ~Memory & ~XPSLaptops
+HardDrive & ~MiniNotebooks & InspironLaptops & ~Adamo & ~WindowsVista64bit
+OpticalDrive & ~InspironLaptops & ~StudioLaptops & ~StudioXPSLaptops & ~WindowsVista64bit
+OperatingSystem & LaptopWeight & ~a128GBSolidState
+~OperatingSystem & ~Processor & Price & ~MiniNotebooks & ~StudioXPSLaptops
+OperatingSystem & LaptopWeight & Memory & ~InspironLaptops & StudioLaptops
+OperatingSystem & ~StudioLaptops & ~a80GB
+~OperatingSystem & ~OpticalDrive & InspironLaptops & StudioLaptops & ~Adamo
+~OperatingSystem & ~StudioLaptops & WindowsVista64bit & ~UbuntuLinux
+~ProductCategory & WindowsVista64bit & WindowsXPHome & ~UbuntuLinux
+~OperatingSystem & OpticalDrive & Processor & Price & StudioXPSLaptops
+HardDrive & ~Processor & MiniNotebooks & ~XPSLaptops & ~StudioXPSLaptops
+~InspironLaptops & Windows8 & a500GB
+ProductCategory & OpticalDrive & Price & ~WindowsVista64bit
+~OpticalDrive & ~StudioXPSLaptops & ~WindowsVista64bit & UbuntuLinux
+OperatingSystem & ~OpticalDrive & InspironLaptops
+OperatingSystem & OpticalDrive & ~MiniNotebooks & ~WindowsVista64bit
+DVD__RWandCD_RWCombo & Light
+Processor & ~InspironLaptops & Adamo & ~StudioXPSLaptops & ~WindowsVista64bit
+OperatingSystem & ~OpticalDrive & ~MiniNotebooks & ~WindowsVista64bit
+OpticalDrive & ~WindowsXPHome & ~a250GB
+~MiniNotebooks & StudioLaptops & ~XPSLaptops & WindowsVista64bit
+~UbuntuLinux & ~a250GB & CD_DVD_RW
+~MiniNotebooks & ~Adamo & StudioXPSLaptops & ~WindowsXPHome
+~OpticalDrive & Price & ~XPSLaptops & Adamo & ~WindowsVista64bit
+~InspironLaptops & XPSLaptops & ~StudioXPSLaptops & ~WindowsXPHome
+~Adamo & ~WindowsXPHome & ~Windows7
+ProductCategory & OperatingSystem & ~OpticalDrive & ~MiniNotebooks & ~XPSLaptops
+Adamo & ~WindowsXPHome & ~a250GB
+OperatingSystem & LaptopWeight & Price & XPSLaptops & WindowsVista64bit
+MiniNotebooks & ~UbuntuLinux & ~a250GB
+~OpticalDrive & InspironLaptops & ~WindowsXPHome
+~ProductCategory & HardDrive & InspironLaptops & XPSLaptops & WindowsVista64bit
+~ProductCategory & ~OperatingSystem & ~InspironLaptops & ~WindowsVista64bit
+OpticalDrive & ~Memory & ~StudioLaptops & ~StudioXPSLaptops & ~WindowsVista64bit
+~HardDrive & ~Processor & Price & MiniNotebooks & ~XPSLaptops
+~HardDrive & LaptopWeight & Processor & Adamo & ~StudioXPSLaptops
+~HardDrive & ~LaptopWeight & ~MiniNotebooks & XPSLaptops & ~StudioXPSLaptops
+~LaptopWeight & ~Processor & ~XPSLaptops & WindowsXPHome
+~OperatingSystem & StudioXPSLaptops & a120GB
+~OperatingSystem & ~LaptopWeight & ~InspironLaptops & ~XPSLaptops & WindowsVista64bit
+InspironLaptops & StudioLaptops
+LaptopWeight & ~InspironLaptops & Adamo & ~UbuntuLinux
+LaptopWeight & ~XPSLaptops & DVD_ROMDriveandDVD__RW
+Price & ~MiniNotebooks & ~WindowsXPHome & ~UbuntuLinux
+~IntelPentiumDualcore & _800__1200
+HardDrive & ~OpticalDrive & Memory & Processor & StudioXPSLaptops
+OperatingSystem & Memory & Price & MiniNotebooks & ~StudioXPSLaptops
+InspironLaptops & Windows8 & ~a128GBSolidState
+ProductCategory & OpticalDrive & Memory & ~Adamo & StudioXPSLaptops
+ProductCategory & MiniNotebooks & ~StudioLaptops & ~XPSLaptops & ~StudioXPSLaptops
+OperatingSystem & InspironLaptops & ~WindowsVista64bit & Windows7
+~Windows7 & ~Windows8 & ~a120GB
+ProductCategory & OpticalDrive & LaptopWeight & ~StudioLaptops & StudioXPSLaptops
+HardDrive & OpticalDrive & Memory & ~InspironLaptops & ~StudioLaptops
+ProductCategory & ~MiniNotebooks & InspironLaptops & ~StudioXPSLaptops & ~WindowsVista64bit
+OpticalDrive & ~WindowsVista64bit & ~a80GB
+HardDrive & ~UbuntuLinux & ~a120GB
+ProductCategory & ~OpticalDrive & ~Windows8
+a500GB & UltraLight
+Price & WindowsVista64bit & ~a128GBSolidState
+ProductCategory & ~OpticalDrive & Memory & ~StudioLaptops & WindowsVista64bit
+OpticalDrive & ~MiniNotebooks & ~StudioXPSLaptops & ~Windows7
+OperatingSystem & LaptopWeight & ~WindowsXPHome & Windows7
+ProductCategory & OpticalDrive & LaptopWeight & XPSLaptops & ~Adamo
+HardDrive & ~MiniNotebooks & ~WindowsXPHome & ~Windows7
+ProductCategory & ~a160GB & a80GB
+Price & ~InspironLaptops & StudioLaptops & ~StudioXPSLaptops & WindowsVista64bit
+Processor & Price & ~XPSLaptops & ~WindowsVista64bit
+ProductCategory & Price & ~MiniNotebooks & ~WindowsVista64bit
+ProductCategory & OperatingSystem & StudioLaptops & ~XPSLaptops & ~StudioXPSLaptops
+ProductCategory & ~InspironLaptops & ~Adamo & ~UbuntuLinux
+OpticalDrive & Memory & StudioXPSLaptops & ~WindowsXPHome
+ProductCategory & OperatingSystem & ~OpticalDrive & ~WindowsVista64bit
+Memory & Price & ~InspironLaptops & ~StudioLaptops & ~StudioXPSLaptops
+~_800__1200 & Morethan_1200
+OperatingSystem & OpticalDrive & ~InspironLaptops & ~XPSLaptops
+Memory & Price & Windows7
+OperatingSystem & HardDrive & LaptopWeight & Memory & ~MiniNotebooks
+OperatingSystem & Memory & Processor
+~MiniNotebooks & ~InspironLaptops & StudioLaptops & ~WindowsXPHome
+Windows7 & ~a500GB & ~a250GB

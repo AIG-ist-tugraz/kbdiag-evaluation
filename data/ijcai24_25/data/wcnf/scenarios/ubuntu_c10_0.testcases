@@ -1,0 +1,11 @@
+10
+Normal & ~Typing & UniversalAccess
+~BrightnessAndLock & Displays1 & ~Typing & Slow
+~Disabled & Rotation
+BrightnessAndLock & Displays1 & ~Displays & ~Low & ~Fast
+~Appearance & Low & ~High & ~Short & ~Speed
+~Displays1 & ~UniversalAccess1 & ~Low & Normal & ~Typing
+~Typing & UniversalAccess & Look
+Appearance & ~Displays1 & UniversalAccess1 & ~Normal & High
+Displays1 & High & AcceptanceDelay & ~Slow & Fast
+UniversalAccess1 & ~High & Brightness

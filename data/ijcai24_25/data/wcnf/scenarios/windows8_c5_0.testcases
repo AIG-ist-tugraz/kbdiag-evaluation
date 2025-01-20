@@ -1,0 +1,6 @@
+5
+~TurnOnNarrator & ~Option & ~TurnOnMouseKeys
+Microphone & ~Advanced & TurnOnNarrator
+~UseTextOrVisualAlternativesForSounds & ~TurnOnNarrator & Bold
+~MakeTheComputerEasierToSee & ~MakeTheKeyboardEasierToUse & UseTextOrVisualAlternativesForSounds & ~Microphone & Option
+~UseTheComputerWithoutADisplay & MakeTheComputerEasierToSee & UseTheComputerWithoutAMouseOrKeyboard & MakeTheKeyboardEasierToUse & ~Bold

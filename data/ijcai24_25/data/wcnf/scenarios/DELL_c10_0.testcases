@@ -1,0 +1,11 @@
+10
+~IntelAtom & Morethan_1200
+StudioXPSLaptops & WindowsVista64bit & ~a320GB
+Memory & Processor & a128GBSolidState
+OperatingSystem & LaptopWeight & MiniNotebooks & ~InspironLaptops & ~WindowsVista64bit
+OpticalDrive & LaptopWeight & ~Memory & ~MiniNotebooks & Adamo
+HardDrive & Memory & ~InspironLaptops & Adamo & WindowsVista64bit
+OperatingSystem & HardDrive & LaptopWeight & ~InspironLaptops
+~WindowsXPHome & Windows7 & a80GB
+OperatingSystem & ~HardDrive & ~OpticalDrive & ~StudioLaptops & ~XPSLaptops
+~WindowsVista64bit & a320GB & ~CD_DVD_RW
