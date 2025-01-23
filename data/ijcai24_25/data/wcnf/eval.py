@@ -57,6 +57,7 @@ for KB in KBs:
             total_time = 0
             for i in range(numIter):
                 command = ["hsd/hsd", "-e", args.task, "-c", "-v", f"scenarios_wcnf/{testcases_file}"]
+                f.write(f"{command}\n")
 
                 start = time.time()
                 result = subprocess.run(command, capture_output=True, text=True)

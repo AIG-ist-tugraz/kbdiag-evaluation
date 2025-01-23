@@ -1,0 +1,1730 @@
+ubuntu ubuntu_c5_0.wcnf
+	Output: c Implicit hitting set based approach to MBD with multiple observations
+c author(s):      Alexey Ignatiev     [email:aignatiev@ciencias.ulisboa.pt]
+c contributor(s): Joao Marques-Silva  [email:jpms@ciencias.ulisboa.pt]
+c contributor(s): Antonio Morgado     [email:ajmorgado@ciencias.ulisboa.pt]
+c contributor(s): Georg Weissenbacher [email:georg.weissenbacher@tuwien.ac.at]
+c 
+c # of system cls: 690
+c # of components: 689
+c # of observations: 5
+c # of failures: 1
+c D: 660 0
+c # of iters: 2
+c # of diags: 1
+c # of expls: 1
+
+	Time: 2.927064895629883 ms
+ubuntu ubuntu_c5_0.wcnf
+	Output: c Implicit hitting set based approach to MBD with multiple observations
+c author(s):      Alexey Ignatiev     [email:aignatiev@ciencias.ulisboa.pt]
+c contributor(s): Joao Marques-Silva  [email:jpms@ciencias.ulisboa.pt]
+c contributor(s): Antonio Morgado     [email:ajmorgado@ciencias.ulisboa.pt]
+c contributor(s): Georg Weissenbacher [email:georg.weissenbacher@tuwien.ac.at]
+c 
+c # of system cls: 690
+c # of components: 689
+c # of observations: 5
+c # of failures: 1
+c D: 660 0
+c # of iters: 2
+c # of diags: 1
+c # of expls: 1
+
+	Time: 2.6988983154296875 ms
+ubuntu ubuntu_c5_0.wcnf
+	Output: c Implicit hitting set based approach to MBD with multiple observations
+c author(s):      Alexey Ignatiev     [email:aignatiev@ciencias.ulisboa.pt]
+c contributor(s): Joao Marques-Silva  [email:jpms@ciencias.ulisboa.pt]
+c contributor(s): Antonio Morgado     [email:ajmorgado@ciencias.ulisboa.pt]
+c contributor(s): Georg Weissenbacher [email:georg.weissenbacher@tuwien.ac.at]
+c 
+c # of system cls: 690
+c # of components: 689
+c # of observations: 5
+c # of failures: 1
+c D: 660 0
+c # of iters: 2
+c # of diags: 1
+c # of expls: 1
+
+	Time: 3.1249523162841797 ms
+	Average Time: 2.9169718424479165 ms
+ubuntu ubuntu_c10_0.wcnf
+	Output: c Implicit hitting set based approach to MBD with multiple observations
+c author(s):      Alexey Ignatiev     [email:aignatiev@ciencias.ulisboa.pt]
+c contributor(s): Joao Marques-Silva  [email:jpms@ciencias.ulisboa.pt]
+c contributor(s): Antonio Morgado     [email:ajmorgado@ciencias.ulisboa.pt]
+c contributor(s): Georg Weissenbacher [email:georg.weissenbacher@tuwien.ac.at]
+c 
+c # of system cls: 690
+c # of components: 689
+c # of observations: 10
+c # of failures: 2
+c D: 163 660 0
+c # of iters: 3
+c # of diags: 1
+c # of expls: 2
+
+	Time: 3.484964370727539 ms
+ubuntu ubuntu_c10_0.wcnf
+	Output: c Implicit hitting set based approach to MBD with multiple observations
+c author(s):      Alexey Ignatiev     [email:aignatiev@ciencias.ulisboa.pt]
+c contributor(s): Joao Marques-Silva  [email:jpms@ciencias.ulisboa.pt]
+c contributor(s): Antonio Morgado     [email:ajmorgado@ciencias.ulisboa.pt]
+c contributor(s): Georg Weissenbacher [email:georg.weissenbacher@tuwien.ac.at]
+c 
+c # of system cls: 690
+c # of components: 689
+c # of observations: 10
+c # of failures: 2
+c D: 163 660 0
+c # of iters: 3
+c # of diags: 1
+c # of expls: 2
+
+	Time: 3.242015838623047 ms
+ubuntu ubuntu_c10_0.wcnf
+	Output: c Implicit hitting set based approach to MBD with multiple observations
+c author(s):      Alexey Ignatiev     [email:aignatiev@ciencias.ulisboa.pt]
+c contributor(s): Joao Marques-Silva  [email:jpms@ciencias.ulisboa.pt]
+c contributor(s): Antonio Morgado     [email:ajmorgado@ciencias.ulisboa.pt]
+c contributor(s): Georg Weissenbacher [email:georg.weissenbacher@tuwien.ac.at]
+c 
+c # of system cls: 690
+c # of components: 689
+c # of observations: 10
+c # of failures: 2
+c D: 163 660 0
+c # of iters: 3
+c # of diags: 1
+c # of expls: 2
+
+	Time: 2.8982162475585938 ms
+	Average Time: 3.2083988189697266 ms
+ubuntu ubuntu_c25_0.wcnf
+	Output: c Implicit hitting set based approach to MBD with multiple observations
+c author(s):      Alexey Ignatiev     [email:aignatiev@ciencias.ulisboa.pt]
+c contributor(s): Joao Marques-Silva  [email:jpms@ciencias.ulisboa.pt]
+c contributor(s): Antonio Morgado     [email:ajmorgado@ciencias.ulisboa.pt]
+c contributor(s): Georg Weissenbacher [email:georg.weissenbacher@tuwien.ac.at]
+c 
+c # of system cls: 690
+c # of components: 689
+c # of observations: 25
+c # of failures: 5
+c D: 163 630 660 672 0
+c # of iters: 6
+c # of diags: 1
+c # of expls: 5
+
+	Time: 4.263877868652344 ms
+ubuntu ubuntu_c25_0.wcnf
+	Output: c Implicit hitting set based approach to MBD with multiple observations
+c author(s):      Alexey Ignatiev     [email:aignatiev@ciencias.ulisboa.pt]
+c contributor(s): Joao Marques-Silva  [email:jpms@ciencias.ulisboa.pt]
+c contributor(s): Antonio Morgado     [email:ajmorgado@ciencias.ulisboa.pt]
+c contributor(s): Georg Weissenbacher [email:georg.weissenbacher@tuwien.ac.at]
+c 
+c # of system cls: 690
+c # of components: 689
+c # of observations: 25
+c # of failures: 5
+c D: 163 630 660 672 0
+c # of iters: 6
+c # of diags: 1
+c # of expls: 5
+
+	Time: 4.128932952880859 ms
+ubuntu ubuntu_c25_0.wcnf
+	Output: c Implicit hitting set based approach to MBD with multiple observations
+c author(s):      Alexey Ignatiev     [email:aignatiev@ciencias.ulisboa.pt]
+c contributor(s): Joao Marques-Silva  [email:jpms@ciencias.ulisboa.pt]
+c contributor(s): Antonio Morgado     [email:ajmorgado@ciencias.ulisboa.pt]
+c contributor(s): Georg Weissenbacher [email:georg.weissenbacher@tuwien.ac.at]
+c 
+c # of system cls: 690
+c # of components: 689
+c # of observations: 25
+c # of failures: 5
+c D: 163 630 660 672 0
+c # of iters: 6
+c # of diags: 1
+c # of expls: 5
+
+	Time: 4.064083099365234 ms
+	Average Time: 4.1522979736328125 ms
+ubuntu ubuntu_c50_0.wcnf
+	Output: c Implicit hitting set based approach to MBD with multiple observations
+c author(s):      Alexey Ignatiev     [email:aignatiev@ciencias.ulisboa.pt]
+c contributor(s): Joao Marques-Silva  [email:jpms@ciencias.ulisboa.pt]
+c contributor(s): Antonio Morgado     [email:ajmorgado@ciencias.ulisboa.pt]
+c contributor(s): Georg Weissenbacher [email:georg.weissenbacher@tuwien.ac.at]
+c 
+c # of system cls: 690
+c # of components: 689
+c # of observations: 50
+c # of failures: 10
+c D: 28 163 242 630 660 672 0
+c # of iters: 8
+c # of diags: 1
+c # of expls: 7
+
+	Time: 5.269050598144531 ms
+ubuntu ubuntu_c50_0.wcnf
+	Output: c Implicit hitting set based approach to MBD with multiple observations
+c author(s):      Alexey Ignatiev     [email:aignatiev@ciencias.ulisboa.pt]
+c contributor(s): Joao Marques-Silva  [email:jpms@ciencias.ulisboa.pt]
+c contributor(s): Antonio Morgado     [email:ajmorgado@ciencias.ulisboa.pt]
+c contributor(s): Georg Weissenbacher [email:georg.weissenbacher@tuwien.ac.at]
+c 
+c # of system cls: 690
+c # of components: 689
+c # of observations: 50
+c # of failures: 10
+c D: 28 163 242 630 660 672 0
+c # of iters: 8
+c # of diags: 1
+c # of expls: 7
+
+	Time: 4.698038101196289 ms
+ubuntu ubuntu_c50_0.wcnf
+	Output: c Implicit hitting set based approach to MBD with multiple observations
+c author(s):      Alexey Ignatiev     [email:aignatiev@ciencias.ulisboa.pt]
+c contributor(s): Joao Marques-Silva  [email:jpms@ciencias.ulisboa.pt]
+c contributor(s): Antonio Morgado     [email:ajmorgado@ciencias.ulisboa.pt]
+c contributor(s): Georg Weissenbacher [email:georg.weissenbacher@tuwien.ac.at]
+c 
+c # of system cls: 690
+c # of components: 689
+c # of observations: 50
+c # of failures: 10
+c D: 28 163 242 630 660 672 0
+c # of iters: 8
+c # of diags: 1
+c # of expls: 7
+
+	Time: 4.291057586669922 ms
+	Average Time: 4.752715428670247 ms
+ubuntu ubuntu_c100_0.wcnf
+	Output: c Implicit hitting set based approach to MBD with multiple observations
+c author(s):      Alexey Ignatiev     [email:aignatiev@ciencias.ulisboa.pt]
+c contributor(s): Joao Marques-Silva  [email:jpms@ciencias.ulisboa.pt]
+c contributor(s): Antonio Morgado     [email:ajmorgado@ciencias.ulisboa.pt]
+c contributor(s): Georg Weissenbacher [email:georg.weissenbacher@tuwien.ac.at]
+c 
+c # of system cls: 690
+c # of components: 689
+c # of observations: 100
+c # of failures: 20
+c D: 28 163 187 630 660 672 0
+c # of iters: 9
+c # of diags: 1
+c # of expls: 8
+
+	Time: 6.447076797485352 ms
+ubuntu ubuntu_c100_0.wcnf
+	Output: c Implicit hitting set based approach to MBD with multiple observations
+c author(s):      Alexey Ignatiev     [email:aignatiev@ciencias.ulisboa.pt]
+c contributor(s): Joao Marques-Silva  [email:jpms@ciencias.ulisboa.pt]
+c contributor(s): Antonio Morgado     [email:ajmorgado@ciencias.ulisboa.pt]
+c contributor(s): Georg Weissenbacher [email:georg.weissenbacher@tuwien.ac.at]
+c 
+c # of system cls: 690
+c # of components: 689
+c # of observations: 100
+c # of failures: 20
+c D: 28 163 187 630 660 672 0
+c # of iters: 9
+c # of diags: 1
+c # of expls: 8
+
+	Time: 6.377220153808594 ms
+ubuntu ubuntu_c100_0.wcnf
+	Output: c Implicit hitting set based approach to MBD with multiple observations
+c author(s):      Alexey Ignatiev     [email:aignatiev@ciencias.ulisboa.pt]
+c contributor(s): Joao Marques-Silva  [email:jpms@ciencias.ulisboa.pt]
+c contributor(s): Antonio Morgado     [email:ajmorgado@ciencias.ulisboa.pt]
+c contributor(s): Georg Weissenbacher [email:georg.weissenbacher@tuwien.ac.at]
+c 
+c # of system cls: 690
+c # of components: 689
+c # of observations: 100
+c # of failures: 20
+c D: 28 163 187 630 660 672 0
+c # of iters: 9
+c # of diags: 1
+c # of expls: 8
+
+	Time: 5.854129791259766 ms
+	Average Time: 6.226142247517903 ms
+ubuntu ubuntu_c250_0.wcnf
+	Output: c Implicit hitting set based approach to MBD with multiple observations
+c author(s):      Alexey Ignatiev     [email:aignatiev@ciencias.ulisboa.pt]
+c contributor(s): Joao Marques-Silva  [email:jpms@ciencias.ulisboa.pt]
+c contributor(s): Antonio Morgado     [email:ajmorgado@ciencias.ulisboa.pt]
+c contributor(s): Georg Weissenbacher [email:georg.weissenbacher@tuwien.ac.at]
+c 
+c # of system cls: 690
+c # of components: 689
+c # of observations: 250
+c # of failures: 50
+c D: 27 28 163 187 189 630 660 672 0
+c # of iters: 12
+c # of diags: 1
+c # of expls: 11
+
+	Time: 12.869119644165039 ms
+ubuntu ubuntu_c250_0.wcnf
+	Output: c Implicit hitting set based approach to MBD with multiple observations
+c author(s):      Alexey Ignatiev     [email:aignatiev@ciencias.ulisboa.pt]
+c contributor(s): Joao Marques-Silva  [email:jpms@ciencias.ulisboa.pt]
+c contributor(s): Antonio Morgado     [email:ajmorgado@ciencias.ulisboa.pt]
+c contributor(s): Georg Weissenbacher [email:georg.weissenbacher@tuwien.ac.at]
+c 
+c # of system cls: 690
+c # of components: 689
+c # of observations: 250
+c # of failures: 50
+c D: 27 28 163 187 189 630 660 672 0
+c # of iters: 12
+c # of diags: 1
+c # of expls: 11
+
+	Time: 13.197183609008789 ms
+ubuntu ubuntu_c250_0.wcnf
+	Output: c Implicit hitting set based approach to MBD with multiple observations
+c author(s):      Alexey Ignatiev     [email:aignatiev@ciencias.ulisboa.pt]
+c contributor(s): Joao Marques-Silva  [email:jpms@ciencias.ulisboa.pt]
+c contributor(s): Antonio Morgado     [email:ajmorgado@ciencias.ulisboa.pt]
+c contributor(s): Georg Weissenbacher [email:georg.weissenbacher@tuwien.ac.at]
+c 
+c # of system cls: 690
+c # of components: 689
+c # of observations: 250
+c # of failures: 50
+c D: 27 28 163 187 189 630 660 672 0
+c # of iters: 12
+c # of diags: 1
+c # of expls: 11
+
+	Time: 12.646198272705078 ms
+	Average Time: 12.904167175292969 ms
+ubuntu ubuntu_c500_0.wcnf
+	Output: c Implicit hitting set based approach to MBD with multiple observations
+c author(s):      Alexey Ignatiev     [email:aignatiev@ciencias.ulisboa.pt]
+c contributor(s): Joao Marques-Silva  [email:jpms@ciencias.ulisboa.pt]
+c contributor(s): Antonio Morgado     [email:ajmorgado@ciencias.ulisboa.pt]
+c contributor(s): Georg Weissenbacher [email:georg.weissenbacher@tuwien.ac.at]
+c 
+c # of system cls: 690
+c # of components: 689
+c # of observations: 500
+c # of failures: 100
+c D: 27 28 163 187 189 220 630 658 660 672 0
+c # of iters: 14
+c # of diags: 1
+c # of expls: 13
+
+	Time: 23.52595329284668 ms
+ubuntu ubuntu_c500_0.wcnf
+	Output: c Implicit hitting set based approach to MBD with multiple observations
+c author(s):      Alexey Ignatiev     [email:aignatiev@ciencias.ulisboa.pt]
+c contributor(s): Joao Marques-Silva  [email:jpms@ciencias.ulisboa.pt]
+c contributor(s): Antonio Morgado     [email:ajmorgado@ciencias.ulisboa.pt]
+c contributor(s): Georg Weissenbacher [email:georg.weissenbacher@tuwien.ac.at]
+c 
+c # of system cls: 690
+c # of components: 689
+c # of observations: 500
+c # of failures: 100
+c D: 27 28 163 187 189 220 630 658 660 672 0
+c # of iters: 14
+c # of diags: 1
+c # of expls: 13
+
+	Time: 23.723125457763672 ms
+ubuntu ubuntu_c500_0.wcnf
+	Output: c Implicit hitting set based approach to MBD with multiple observations
+c author(s):      Alexey Ignatiev     [email:aignatiev@ciencias.ulisboa.pt]
+c contributor(s): Joao Marques-Silva  [email:jpms@ciencias.ulisboa.pt]
+c contributor(s): Antonio Morgado     [email:ajmorgado@ciencias.ulisboa.pt]
+c contributor(s): Georg Weissenbacher [email:georg.weissenbacher@tuwien.ac.at]
+c 
+c # of system cls: 690
+c # of components: 689
+c # of observations: 500
+c # of failures: 100
+c D: 27 28 163 187 189 220 630 658 660 672 0
+c # of iters: 14
+c # of diags: 1
+c # of expls: 13
+
+	Time: 22.973060607910156 ms
+	Average Time: 23.407379786173504 ms
+
+Averages
+	ubuntu_c5_0.wcnf: 2.9169718424479165 ms
+	ubuntu_c10_0.wcnf: 3.2083988189697266 ms
+	ubuntu_c25_0.wcnf: 4.1522979736328125 ms
+	ubuntu_c50_0.wcnf: 4.752715428670247 ms
+	ubuntu_c100_0.wcnf: 6.226142247517903 ms
+	ubuntu_c250_0.wcnf: 12.904167175292969 ms
+	ubuntu_c500_0.wcnf: 23.407379786173504 ms
+ubuntu ubuntu_c5_0.wcnf
+	Output: c # of failures: 1
+c D: 660 0
+
+	Time: 3.567934036254883 ms
+ubuntu ubuntu_c5_0.wcnf
+	Output: c # of failures: 1
+c D: 660 0
+
+	Time: 3.047943115234375 ms
+ubuntu ubuntu_c5_0.wcnf
+	Output: c # of failures: 1
+c D: 660 0
+
+	Time: 2.813100814819336 ms
+	Average Time: 3.1429926554361978 ms
+ubuntu ubuntu_c10_0.wcnf
+	Output: c # of failures: 2
+c D: 163 660 0
+
+	Time: 3.6296844482421875 ms
+ubuntu ubuntu_c10_0.wcnf
+	Output: c # of failures: 2
+c D: 163 660 0
+
+	Time: 3.009796142578125 ms
+ubuntu ubuntu_c10_0.wcnf
+	Output: c # of failures: 2
+c D: 163 660 0
+
+	Time: 3.2341480255126953 ms
+	Average Time: 3.2912095387776694 ms
+ubuntu ubuntu_c25_0.wcnf
+	Output: c # of failures: 5
+c D: 163 630 660 672 0
+
+	Time: 4.031896591186523 ms
+ubuntu ubuntu_c25_0.wcnf
+	Output: c # of failures: 5
+c D: 163 630 660 672 0
+
+	Time: 3.6432743072509766 ms
+ubuntu ubuntu_c25_0.wcnf
+	Output: c # of failures: 5
+c D: 163 630 660 672 0
+
+	Time: 3.7679672241210938 ms
+	Average Time: 3.8143793741861978 ms
+ubuntu ubuntu_c50_0.wcnf
+	Output: c # of failures: 10
+c D: 28 163 242 630 660 672 0
+
+	Time: 5.389928817749023 ms
+ubuntu ubuntu_c50_0.wcnf
+	Output: c # of failures: 10
+c D: 28 163 242 630 660 672 0
+
+	Time: 4.900932312011719 ms
+ubuntu ubuntu_c50_0.wcnf
+	Output: c # of failures: 10
+c D: 28 163 242 630 660 672 0
+
+	Time: 4.706859588623047 ms
+	Average Time: 4.999240239461263 ms
+ubuntu ubuntu_c100_0.wcnf
+	Output: c # of failures: 20
+c D: 28 163 187 630 660 672 0
+
+	Time: 6.134033203125 ms
+ubuntu ubuntu_c100_0.wcnf
+	Output: c # of failures: 20
+c D: 28 163 187 630 660 672 0
+
+	Time: 6.702184677124023 ms
+ubuntu ubuntu_c100_0.wcnf
+	Output: c # of failures: 20
+c D: 28 163 187 630 660 672 0
+
+	Time: 6.056070327758789 ms
+	Average Time: 6.2974294026692705 ms
+ubuntu ubuntu_c250_0.wcnf
+	Output: c # of failures: 50
+c D: 27 28 163 187 189 630 660 672 0
+
+	Time: 13.361930847167969 ms
+ubuntu ubuntu_c250_0.wcnf
+	Output: c # of failures: 50
+c D: 27 28 163 187 189 630 660 672 0
+
+	Time: 13.332366943359375 ms
+ubuntu ubuntu_c250_0.wcnf
+	Output: c # of failures: 50
+c D: 27 28 163 187 189 630 660 672 0
+
+	Time: 13.203144073486328 ms
+	Average Time: 13.299147288004557 ms
+ubuntu ubuntu_c500_0.wcnf
+	Output: c # of failures: 100
+c D: 27 28 163 187 189 220 630 658 660 672 0
+
+	Time: 24.697065353393555 ms
+ubuntu ubuntu_c500_0.wcnf
+	Output: c # of failures: 100
+c D: 27 28 163 187 189 220 630 658 660 672 0
+
+	Time: 23.832082748413086 ms
+ubuntu ubuntu_c500_0.wcnf
+	Output: c # of failures: 100
+c D: 27 28 163 187 189 220 630 658 660 672 0
+
+	Time: 24.038076400756836 ms
+	Average Time: 24.189074834187824 ms
+
+Averages
+	ubuntu_c5_0.wcnf: 3.1429926554361978 ms
+	ubuntu_c10_0.wcnf: 3.2912095387776694 ms
+	ubuntu_c25_0.wcnf: 3.8143793741861978 ms
+	ubuntu_c50_0.wcnf: 4.999240239461263 ms
+	ubuntu_c100_0.wcnf: 6.2974294026692705 ms
+	ubuntu_c250_0.wcnf: 13.299147288004557 ms
+	ubuntu_c500_0.wcnf: 24.189074834187824 ms
+ubuntu ubuntu_c5_0.wcnf
+	Output: c # of failures: 1
+c D: 660 0
+
+	Time: 3.618001937866211 ms
+ubuntu ubuntu_c5_0.wcnf
+	Output: c # of failures: 1
+c D: 660 0
+
+	Time: 2.920866012573242 ms
+ubuntu ubuntu_c5_0.wcnf
+	Output: c # of failures: 1
+c D: 660 0
+
+	Time: 3.1499862670898438 ms
+	Average Time: 3.2296180725097656 ms
+ubuntu ubuntu_c10_0.wcnf
+	Output: c # of failures: 2
+c D: 163 660 0
+
+	Time: 3.8199424743652344 ms
+ubuntu ubuntu_c10_0.wcnf
+	Output: c # of failures: 2
+c D: 163 660 0
+
+	Time: 3.559112548828125 ms
+ubuntu ubuntu_c10_0.wcnf
+	Output: c # of failures: 2
+c D: 163 660 0
+
+	Time: 3.245115280151367 ms
+	Average Time: 3.5413901011149087 ms
+ubuntu ubuntu_c25_0.wcnf
+	Output: c # of failures: 5
+c D: 163 630 660 672 0
+
+	Time: 5.321025848388672 ms
+ubuntu ubuntu_c25_0.wcnf
+	Output: c # of failures: 5
+c D: 163 630 660 672 0
+
+	Time: 4.836082458496094 ms
+ubuntu ubuntu_c25_0.wcnf
+	Output: c # of failures: 5
+c D: 163 630 660 672 0
+
+	Time: 5.248069763183594 ms
+	Average Time: 5.135059356689453 ms
+ubuntu ubuntu_c50_0.wcnf
+	Output: c # of failures: 10
+c D: 28 163 242 630 660 672 0
+
+	Time: 7.032871246337891 ms
+ubuntu ubuntu_c50_0.wcnf
+	Output: c # of failures: 10
+c D: 28 163 242 630 660 672 0
+
+	Time: 7.563114166259766 ms
+ubuntu ubuntu_c50_0.wcnf
+	Output: c # of failures: 10
+c D: 28 163 242 630 660 672 0
+
+	Time: 7.361888885498047 ms
+	Average Time: 7.319291432698567 ms
+ubuntu ubuntu_c100_0.wcnf
+	Output: c # of failures: 20
+c D: 28 163 187 630 660 672 0
+
+	Time: 9.267807006835938 ms
+ubuntu ubuntu_c100_0.wcnf
+	Output: c # of failures: 20
+c D: 28 163 187 630 660 672 0
+
+	Time: 8.730649948120117 ms
+ubuntu ubuntu_c100_0.wcnf
+	Output: c # of failures: 20
+c D: 28 163 187 630 660 672 0
+
+	Time: 9.325742721557617 ms
+	Average Time: 9.10806655883789 ms
+ubuntu ubuntu_c250_0.wcnf
+	Output: c # of failures: 50
+c D: 27 28 163 187 189 630 660 672 0
+
+	Time: 16.843080520629883 ms
+ubuntu ubuntu_c250_0.wcnf
+	Output: c # of failures: 50
+c D: 27 28 163 187 189 630 660 672 0
+
+	Time: 16.337871551513672 ms
+ubuntu ubuntu_c250_0.wcnf
+	Output: c # of failures: 50
+c D: 27 28 163 187 189 630 660 672 0
+
+	Time: 16.761064529418945 ms
+	Average Time: 16.6473388671875 ms
+ubuntu ubuntu_c500_0.wcnf
+	Output: c # of failures: 100
+c D: 27 28 163 187 189 220 630 658 660 672 0
+
+	Time: 27.669191360473633 ms
+ubuntu ubuntu_c500_0.wcnf
+	Output: c # of failures: 100
+c D: 27 28 163 187 189 220 630 658 660 672 0
+
+	Time: 27.966976165771484 ms
+ubuntu ubuntu_c500_0.wcnf
+	Output: c # of failures: 100
+c D: 27 28 163 187 189 220 630 658 660 672 0
+
+	Time: 28.006792068481445 ms
+	Average Time: 27.88098653157552 ms
+
+Averages
+	ubuntu_c5_0.wcnf: 3.2296180725097656 ms
+	ubuntu_c10_0.wcnf: 3.5413901011149087 ms
+	ubuntu_c25_0.wcnf: 5.135059356689453 ms
+	ubuntu_c50_0.wcnf: 7.319291432698567 ms
+	ubuntu_c100_0.wcnf: 9.10806655883789 ms
+	ubuntu_c250_0.wcnf: 16.6473388671875 ms
+	ubuntu_c500_0.wcnf: 27.88098653157552 ms
+ubuntu ubuntu_c5_0.wcnf
+	Output: c # of failures: 1
+c D: 660 0
+
+	Time: 3.0062198638916016 ms
+ubuntu ubuntu_c5_0.wcnf
+	Output: c # of failures: 1
+c D: 660 0
+
+	Time: 2.6369094848632812 ms
+ubuntu ubuntu_c5_0.wcnf
+	Output: c # of failures: 1
+c D: 660 0
+
+	Time: 2.604961395263672 ms
+	Average Time: 2.749363581339518 ms
+ubuntu ubuntu_c10_0.wcnf
+	Output: c # of failures: 2
+c D: 163 660 0
+
+	Time: 3.253936767578125 ms
+ubuntu ubuntu_c10_0.wcnf
+	Output: c # of failures: 2
+c D: 163 660 0
+
+	Time: 3.1397342681884766 ms
+ubuntu ubuntu_c10_0.wcnf
+	Output: c # of failures: 2
+c D: 163 660 0
+
+	Time: 3.354787826538086 ms
+	Average Time: 3.249486287434896 ms
+ubuntu ubuntu_c25_0.wcnf
+	Output: c # of failures: 5
+c D: 163 630 660 672 0
+
+	Time: 4.773855209350586 ms
+ubuntu ubuntu_c25_0.wcnf
+	Output: c # of failures: 5
+c D: 163 630 660 672 0
+
+	Time: 4.628419876098633 ms
+ubuntu ubuntu_c25_0.wcnf
+	Output: c # of failures: 5
+c D: 163 630 660 672 0
+
+	Time: 4.349946975708008 ms
+	Average Time: 4.584074020385742 ms
+ubuntu ubuntu_c50_0.wcnf
+	Output: c # of failures: 10
+c D: 28 163 242 630 660 672 0
+
+	Time: 6.850004196166992 ms
+ubuntu ubuntu_c50_0.wcnf
+	Output: c # of failures: 10
+c D: 28 163 242 630 660 672 0
+
+	Time: 7.462024688720703 ms
+ubuntu ubuntu_c50_0.wcnf
+	Output: c # of failures: 10
+c D: 28 163 242 630 660 672 0
+
+	Time: 6.632089614868164 ms
+	Average Time: 6.981372833251953 ms
+ubuntu ubuntu_c100_0.wcnf
+	Output: c # of failures: 20
+c D: 28 163 187 630 660 672 0
+
+	Time: 8.788824081420898 ms
+ubuntu ubuntu_c100_0.wcnf
+	Output: c # of failures: 20
+c D: 28 163 187 630 660 672 0
+
+	Time: 8.968830108642578 ms
+ubuntu ubuntu_c100_0.wcnf
+	Output: c # of failures: 20
+c D: 28 163 187 630 660 672 0
+
+	Time: 8.84699821472168 ms
+	Average Time: 8.868217468261719 ms
+ubuntu ubuntu_c250_0.wcnf
+	Output: c # of failures: 50
+c D: 27 28 163 187 189 630 660 672 0
+
+	Time: 15.893936157226562 ms
+ubuntu ubuntu_c250_0.wcnf
+	Output: c # of failures: 50
+c D: 27 28 163 187 189 630 660 672 0
+
+	Time: 16.207218170166016 ms
+ubuntu ubuntu_c250_0.wcnf
+	Output: c # of failures: 50
+c D: 27 28 163 187 189 630 660 672 0
+
+	Time: 15.86008071899414 ms
+	Average Time: 15.987078348795572 ms
+ubuntu ubuntu_c500_0.wcnf
+	Output: c # of failures: 100
+c D: 27 28 163 187 189 220 630 658 660 672 0
+
+	Time: 26.950836181640625 ms
+ubuntu ubuntu_c500_0.wcnf
+	Output: c # of failures: 100
+c D: 27 28 163 187 189 220 630 658 660 672 0
+
+	Time: 27.98295021057129 ms
+ubuntu ubuntu_c500_0.wcnf
+	Output: c # of failures: 100
+c D: 27 28 163 187 189 220 630 658 660 672 0
+
+	Time: 27.67634391784668 ms
+	Average Time: 27.536710103352863 ms
+
+Averages
+	ubuntu_c5_0.wcnf: 2.749363581339518 ms
+	ubuntu_c10_0.wcnf: 3.249486287434896 ms
+	ubuntu_c25_0.wcnf: 4.584074020385742 ms
+	ubuntu_c50_0.wcnf: 6.981372833251953 ms
+	ubuntu_c100_0.wcnf: 8.868217468261719 ms
+	ubuntu_c250_0.wcnf: 15.987078348795572 ms
+	ubuntu_c500_0.wcnf: 27.536710103352863 ms
+ubuntu ubuntu_c5_0.wcnf
+	Output: c # of failures: 1
+c D: 660 0
+
+	Time: 3.4041404724121094 ms
+ubuntu ubuntu_c5_0.wcnf
+	Output: c # of failures: 1
+c D: 660 0
+
+	Time: 2.833843231201172 ms
+ubuntu ubuntu_c5_0.wcnf
+	Output: c # of failures: 1
+c D: 660 0
+
+	Time: 2.9840469360351562 ms
+	Average Time: 3.074010213216146 ms
+ubuntu ubuntu_c10_0.wcnf
+	Output: c # of failures: 2
+c D: 163 660 0
+
+	Time: 3.3049583435058594 ms
+ubuntu ubuntu_c10_0.wcnf
+	Output: c # of failures: 2
+c D: 163 660 0
+
+	Time: 2.8188228607177734 ms
+ubuntu ubuntu_c10_0.wcnf
+	Output: c # of failures: 2
+c D: 163 660 0
+
+	Time: 3.1251907348632812 ms
+	Average Time: 3.0829906463623047 ms
+ubuntu ubuntu_c25_0.wcnf
+	Output: c # of failures: 5
+c D: 163 630 660 672 0
+
+	Time: 3.9072036743164062 ms
+ubuntu ubuntu_c25_0.wcnf
+	Output: c # of failures: 5
+c D: 163 630 660 672 0
+
+	Time: 3.5839080810546875 ms
+ubuntu ubuntu_c25_0.wcnf
+	Output: c # of failures: 5
+c D: 163 630 660 672 0
+
+	Time: 3.9949417114257812 ms
+	Average Time: 3.8286844889322915 ms
+ubuntu ubuntu_c50_0.wcnf
+	Output: c # of failures: 10
+c D: 28 163 242 630 660 672 0
+
+	Time: 5.177021026611328 ms
+ubuntu ubuntu_c50_0.wcnf
+	Output: c # of failures: 10
+c D: 28 163 242 630 660 672 0
+
+	Time: 4.417181015014648 ms
+ubuntu ubuntu_c50_0.wcnf
+	Output: c # of failures: 10
+c D: 28 163 242 630 660 672 0
+
+	Time: 4.391908645629883 ms
+	Average Time: 4.662036895751953 ms
+ubuntu ubuntu_c100_0.wcnf
+	Output: c # of failures: 20
+c D: 28 163 187 630 660 672 0
+
+	Time: 6.250858306884766 ms
+ubuntu ubuntu_c100_0.wcnf
+	Output: c # of failures: 20
+c D: 28 163 187 630 660 672 0
+
+	Time: 6.328821182250977 ms
+ubuntu ubuntu_c100_0.wcnf
+	Output: c # of failures: 20
+c D: 28 163 187 630 660 672 0
+
+	Time: 5.812883377075195 ms
+	Average Time: 6.1308542887369795 ms
+ubuntu ubuntu_c250_0.wcnf
+	Output: c # of failures: 50
+c D: 27 28 163 187 189 630 660 672 0
+
+	Time: 13.250112533569336 ms
+ubuntu ubuntu_c250_0.wcnf
+	Output: c # of failures: 50
+c D: 27 28 163 187 189 630 660 672 0
+
+	Time: 13.086795806884766 ms
+ubuntu ubuntu_c250_0.wcnf
+	Output: c # of failures: 50
+c D: 27 28 163 187 189 630 660 672 0
+
+	Time: 12.475013732910156 ms
+	Average Time: 12.937307357788086 ms
+ubuntu ubuntu_c500_0.wcnf
+	Output: c # of failures: 100
+c D: 27 28 163 187 189 220 630 658 660 672 0
+
+	Time: 23.998022079467773 ms
+ubuntu ubuntu_c500_0.wcnf
+	Output: c # of failures: 100
+c D: 27 28 163 187 189 220 630 658 660 672 0
+
+	Time: 23.125171661376953 ms
+ubuntu ubuntu_c500_0.wcnf
+	Output: c # of failures: 100
+c D: 27 28 163 187 189 220 630 658 660 672 0
+
+	Time: 22.63808250427246 ms
+	Average Time: 23.253758748372395 ms
+
+Averages
+	ubuntu_c5_0.wcnf: 3.074010213216146 ms
+	ubuntu_c10_0.wcnf: 3.0829906463623047 ms
+	ubuntu_c25_0.wcnf: 3.8286844889322915 ms
+	ubuntu_c50_0.wcnf: 4.662036895751953 ms
+	ubuntu_c100_0.wcnf: 6.1308542887369795 ms
+	ubuntu_c250_0.wcnf: 12.937307357788086 ms
+	ubuntu_c500_0.wcnf: 23.253758748372395 ms
+['hsd/hsd', '-e', '1', '-c', 'scenarios_wcnf/ubuntu_c5_0.wcnf']
+ubuntu ubuntu_c5_0.wcnf
+	Output: c # of failures: 1
+c D: 660 0
+
+	Time: 3.0159950256347656 ms
+['hsd/hsd', '-e', '1', '-c', 'scenarios_wcnf/ubuntu_c5_0.wcnf']
+ubuntu ubuntu_c5_0.wcnf
+	Output: c # of failures: 1
+c D: 660 0
+
+	Time: 2.6280879974365234 ms
+['hsd/hsd', '-e', '1', '-c', 'scenarios_wcnf/ubuntu_c5_0.wcnf']
+ubuntu ubuntu_c5_0.wcnf
+	Output: c # of failures: 1
+c D: 660 0
+
+	Time: 2.641916275024414 ms
+	Average Time: 2.761999766031901 ms
+['hsd/hsd', '-e', '1', '-c', 'scenarios_wcnf/ubuntu_c10_0.wcnf']
+ubuntu ubuntu_c10_0.wcnf
+	Output: c # of failures: 2
+c D: 163 660 0
+
+	Time: 3.4410953521728516 ms
+['hsd/hsd', '-e', '1', '-c', 'scenarios_wcnf/ubuntu_c10_0.wcnf']
+ubuntu ubuntu_c10_0.wcnf
+	Output: c # of failures: 2
+c D: 163 660 0
+
+	Time: 3.181934356689453 ms
+['hsd/hsd', '-e', '1', '-c', 'scenarios_wcnf/ubuntu_c10_0.wcnf']
+ubuntu ubuntu_c10_0.wcnf
+	Output: c # of failures: 2
+c D: 163 660 0
+
+	Time: 2.7980804443359375 ms
+	Average Time: 3.1403700510660806 ms
+['hsd/hsd', '-e', '1', '-c', 'scenarios_wcnf/ubuntu_c25_0.wcnf']
+ubuntu ubuntu_c25_0.wcnf
+	Output: c # of failures: 5
+c D: 163 630 660 672 0
+
+	Time: 3.758668899536133 ms
+['hsd/hsd', '-e', '1', '-c', 'scenarios_wcnf/ubuntu_c25_0.wcnf']
+ubuntu ubuntu_c25_0.wcnf
+	Output: c # of failures: 5
+c D: 163 630 660 672 0
+
+	Time: 3.735065460205078 ms
+['hsd/hsd', '-e', '1', '-c', 'scenarios_wcnf/ubuntu_c25_0.wcnf']
+ubuntu ubuntu_c25_0.wcnf
+	Output: c # of failures: 5
+c D: 163 630 660 672 0
+
+	Time: 3.832101821899414 ms
+	Average Time: 3.7752787272135415 ms
+['hsd/hsd', '-e', '1', '-c', 'scenarios_wcnf/ubuntu_c50_0.wcnf']
+ubuntu ubuntu_c50_0.wcnf
+	Output: c # of failures: 10
+c D: 28 163 242 630 660 672 0
+
+	Time: 5.51915168762207 ms
+['hsd/hsd', '-e', '1', '-c', 'scenarios_wcnf/ubuntu_c50_0.wcnf']
+ubuntu ubuntu_c50_0.wcnf
+	Output: c # of failures: 10
+c D: 28 163 242 630 660 672 0
+
+	Time: 4.749059677124023 ms
+['hsd/hsd', '-e', '1', '-c', 'scenarios_wcnf/ubuntu_c50_0.wcnf']
+ubuntu ubuntu_c50_0.wcnf
+	Output: c # of failures: 10
+c D: 28 163 242 630 660 672 0
+
+	Time: 4.775285720825195 ms
+	Average Time: 5.014499028523763 ms
+['hsd/hsd', '-e', '1', '-c', 'scenarios_wcnf/ubuntu_c100_0.wcnf']
+ubuntu ubuntu_c100_0.wcnf
+	Output: c # of failures: 20
+c D: 28 163 187 630 660 672 0
+
+	Time: 6.338834762573242 ms
+['hsd/hsd', '-e', '1', '-c', 'scenarios_wcnf/ubuntu_c100_0.wcnf']
+ubuntu ubuntu_c100_0.wcnf
+	Output: c # of failures: 20
+c D: 28 163 187 630 660 672 0
+
+	Time: 6.210088729858398 ms
+['hsd/hsd', '-e', '1', '-c', 'scenarios_wcnf/ubuntu_c100_0.wcnf']
+ubuntu ubuntu_c100_0.wcnf
+	Output: c # of failures: 20
+c D: 28 163 187 630 660 672 0
+
+	Time: 6.417989730834961 ms
+	Average Time: 6.322304407755534 ms
+['hsd/hsd', '-e', '1', '-c', 'scenarios_wcnf/ubuntu_c250_0.wcnf']
+ubuntu ubuntu_c250_0.wcnf
+	Output: c # of failures: 50
+c D: 27 28 163 187 189 630 660 672 0
+
+	Time: 13.213872909545898 ms
+['hsd/hsd', '-e', '1', '-c', 'scenarios_wcnf/ubuntu_c250_0.wcnf']
+ubuntu ubuntu_c250_0.wcnf
+	Output: c # of failures: 50
+c D: 27 28 163 187 189 630 660 672 0
+
+	Time: 13.300895690917969 ms
+['hsd/hsd', '-e', '1', '-c', 'scenarios_wcnf/ubuntu_c250_0.wcnf']
+ubuntu ubuntu_c250_0.wcnf
+	Output: c # of failures: 50
+c D: 27 28 163 187 189 630 660 672 0
+
+	Time: 12.813091278076172 ms
+	Average Time: 13.109286626180014 ms
+['hsd/hsd', '-e', '1', '-c', 'scenarios_wcnf/ubuntu_c500_0.wcnf']
+ubuntu ubuntu_c500_0.wcnf
+	Output: c # of failures: 100
+c D: 27 28 163 187 189 220 630 658 660 672 0
+
+	Time: 24.25384521484375 ms
+['hsd/hsd', '-e', '1', '-c', 'scenarios_wcnf/ubuntu_c500_0.wcnf']
+ubuntu ubuntu_c500_0.wcnf
+	Output: c # of failures: 100
+c D: 27 28 163 187 189 220 630 658 660 672 0
+
+	Time: 23.712158203125 ms
+['hsd/hsd', '-e', '1', '-c', 'scenarios_wcnf/ubuntu_c500_0.wcnf']
+ubuntu ubuntu_c500_0.wcnf
+	Output: c # of failures: 100
+c D: 27 28 163 187 189 220 630 658 660 672 0
+
+	Time: 23.562908172607422 ms
+	Average Time: 23.84297053019206 ms
+
+Averages
+	ubuntu_c5_0.wcnf: 2.761999766031901 ms
+	ubuntu_c10_0.wcnf: 3.1403700510660806 ms
+	ubuntu_c25_0.wcnf: 3.7752787272135415 ms
+	ubuntu_c50_0.wcnf: 5.014499028523763 ms
+	ubuntu_c100_0.wcnf: 6.322304407755534 ms
+	ubuntu_c250_0.wcnf: 13.109286626180014 ms
+	ubuntu_c500_0.wcnf: 23.84297053019206 ms
+['hsd/hsd', '-e', '1', '-c', '-s', 'scenarios_wcnf/ubuntu_c5_0.wcnf']
+ubuntu ubuntu_c5_0.wcnf
+	Output: c # of failures: 1
+s OPTIMUM FOUND
+o 1
+c D: 660 0
+
+	Time: 3.2041072845458984 ms
+['hsd/hsd', '-e', '1', '-c', '-s', 'scenarios_wcnf/ubuntu_c5_0.wcnf']
+ubuntu ubuntu_c5_0.wcnf
+	Output: c # of failures: 1
+s OPTIMUM FOUND
+o 1
+c D: 660 0
+
+	Time: 2.6900768280029297 ms
+['hsd/hsd', '-e', '1', '-c', '-s', 'scenarios_wcnf/ubuntu_c5_0.wcnf']
+ubuntu ubuntu_c5_0.wcnf
+	Output: c # of failures: 1
+s OPTIMUM FOUND
+o 1
+c D: 660 0
+
+	Time: 2.624988555908203 ms
+	Average Time: 2.8397242228190103 ms
+['hsd/hsd', '-e', '1', '-c', '-s', 'scenarios_wcnf/ubuntu_c10_0.wcnf']
+ubuntu ubuntu_c10_0.wcnf
+	Output: c # of failures: 2
+s OPTIMUM FOUND
+o 2
+c D: 163 660 0
+
+	Time: 3.6580562591552734 ms
+['hsd/hsd', '-e', '1', '-c', '-s', 'scenarios_wcnf/ubuntu_c10_0.wcnf']
+ubuntu ubuntu_c10_0.wcnf
+	Output: c # of failures: 2
+s OPTIMUM FOUND
+o 2
+c D: 163 660 0
+
+	Time: 2.8388500213623047 ms
+['hsd/hsd', '-e', '1', '-c', '-s', 'scenarios_wcnf/ubuntu_c10_0.wcnf']
+ubuntu ubuntu_c10_0.wcnf
+	Output: c # of failures: 2
+s OPTIMUM FOUND
+o 2
+c D: 163 660 0
+
+	Time: 3.0770301818847656 ms
+	Average Time: 3.1913121541341147 ms
+['hsd/hsd', '-e', '1', '-c', '-s', 'scenarios_wcnf/ubuntu_c25_0.wcnf']
+ubuntu ubuntu_c25_0.wcnf
+	Output: c # of failures: 5
+s OPTIMUM FOUND
+o 4
+c D: 163 630 660 672 0
+
+	Time: 3.7360191345214844 ms
+['hsd/hsd', '-e', '1', '-c', '-s', 'scenarios_wcnf/ubuntu_c25_0.wcnf']
+ubuntu ubuntu_c25_0.wcnf
+	Output: c # of failures: 5
+s OPTIMUM FOUND
+o 4
+c D: 163 630 660 672 0
+
+	Time: 3.5288333892822266 ms
+['hsd/hsd', '-e', '1', '-c', '-s', 'scenarios_wcnf/ubuntu_c25_0.wcnf']
+ubuntu ubuntu_c25_0.wcnf
+	Output: c # of failures: 5
+s OPTIMUM FOUND
+o 4
+c D: 163 630 660 672 0
+
+	Time: 3.5400390625 ms
+	Average Time: 3.601630528767904 ms
+['hsd/hsd', '-e', '1', '-c', '-s', 'scenarios_wcnf/ubuntu_c50_0.wcnf']
+ubuntu ubuntu_c50_0.wcnf
+	Output: c # of failures: 10
+s OPTIMUM FOUND
+o 6
+c D: 163 599 630 639 660 672 0
+
+	Time: 5.491971969604492 ms
+['hsd/hsd', '-e', '1', '-c', '-s', 'scenarios_wcnf/ubuntu_c50_0.wcnf']
+ubuntu ubuntu_c50_0.wcnf
+	Output: c # of failures: 10
+s OPTIMUM FOUND
+o 6
+c D: 163 599 630 639 660 672 0
+
+	Time: 4.578113555908203 ms
+['hsd/hsd', '-e', '1', '-c', '-s', 'scenarios_wcnf/ubuntu_c50_0.wcnf']
+ubuntu ubuntu_c50_0.wcnf
+	Output: c # of failures: 10
+s OPTIMUM FOUND
+o 6
+c D: 163 599 630 639 660 672 0
+
+	Time: 4.3392181396484375 ms
+	Average Time: 4.803101221720378 ms
+['hsd/hsd', '-e', '1', '-c', '-s', 'scenarios_wcnf/ubuntu_c100_0.wcnf']
+ubuntu ubuntu_c100_0.wcnf
+	Output: c # of failures: 20
+s OPTIMUM FOUND
+o 6
+c D: 163 188 630 639 660 672 0
+
+	Time: 6.067037582397461 ms
+['hsd/hsd', '-e', '1', '-c', '-s', 'scenarios_wcnf/ubuntu_c100_0.wcnf']
+ubuntu ubuntu_c100_0.wcnf
+	Output: c # of failures: 20
+s OPTIMUM FOUND
+o 6
+c D: 163 188 630 639 660 672 0
+
+	Time: 6.334066390991211 ms
+['hsd/hsd', '-e', '1', '-c', '-s', 'scenarios_wcnf/ubuntu_c100_0.wcnf']
+ubuntu ubuntu_c100_0.wcnf
+	Output: c # of failures: 20
+s OPTIMUM FOUND
+o 6
+c D: 163 188 630 639 660 672 0
+
+	Time: 6.390094757080078 ms
+	Average Time: 6.26373291015625 ms
+['hsd/hsd', '-e', '1', '-c', '-s', 'scenarios_wcnf/ubuntu_c250_0.wcnf']
+ubuntu ubuntu_c250_0.wcnf
+	Output: c # of failures: 50
+s OPTIMUM FOUND
+o 8
+c D: 28 34 187 189 630 640 660 672 0
+
+	Time: 14.029264450073242 ms
+['hsd/hsd', '-e', '1', '-c', '-s', 'scenarios_wcnf/ubuntu_c250_0.wcnf']
+ubuntu ubuntu_c250_0.wcnf
+	Output: c # of failures: 50
+s OPTIMUM FOUND
+o 8
+c D: 28 34 187 189 630 640 660 672 0
+
+	Time: 14.556884765625 ms
+['hsd/hsd', '-e', '1', '-c', '-s', 'scenarios_wcnf/ubuntu_c250_0.wcnf']
+ubuntu ubuntu_c250_0.wcnf
+	Output: c # of failures: 50
+s OPTIMUM FOUND
+o 8
+c D: 28 34 187 189 630 640 660 672 0
+
+	Time: 14.021158218383789 ms
+	Average Time: 14.202435811360678 ms
+['hsd/hsd', '-e', '1', '-c', '-s', 'scenarios_wcnf/ubuntu_c500_0.wcnf']
+ubuntu ubuntu_c500_0.wcnf
+	Output: c # of failures: 100
+s OPTIMUM FOUND
+o 10
+c D: 27 28 187 189 630 640 658 660 672 682 0
+
+	Time: 26.07107162475586 ms
+['hsd/hsd', '-e', '1', '-c', '-s', 'scenarios_wcnf/ubuntu_c500_0.wcnf']
+ubuntu ubuntu_c500_0.wcnf
+	Output: c # of failures: 100
+s OPTIMUM FOUND
+o 10
+c D: 27 28 187 189 630 640 658 660 672 682 0
+
+	Time: 26.290178298950195 ms
+['hsd/hsd', '-e', '1', '-c', '-s', 'scenarios_wcnf/ubuntu_c500_0.wcnf']
+ubuntu ubuntu_c500_0.wcnf
+	Output: c # of failures: 100
+s OPTIMUM FOUND
+o 10
+c D: 27 28 187 189 630 640 658 660 672 682 0
+
+	Time: 26.114940643310547 ms
+	Average Time: 26.158730189005535 ms
+
+Averages
+	ubuntu_c5_0.wcnf: 2.8397242228190103 ms
+	ubuntu_c10_0.wcnf: 3.1913121541341147 ms
+	ubuntu_c25_0.wcnf: 3.601630528767904 ms
+	ubuntu_c50_0.wcnf: 4.803101221720378 ms
+	ubuntu_c100_0.wcnf: 6.26373291015625 ms
+	ubuntu_c250_0.wcnf: 14.202435811360678 ms
+	ubuntu_c500_0.wcnf: 26.158730189005535 ms
+['hsd/hsd', '-e', '1', '-c', '-s', '-v', 'scenarios_wcnf/ubuntu_c5_0.wcnf']
+ubuntu ubuntu_c5_0.wcnf
+	Output: c Implicit hitting set based approach to MBD with multiple observations
+c author(s):      Alexey Ignatiev     [email:aignatiev@ciencias.ulisboa.pt]
+c contributor(s): Joao Marques-Silva  [email:jpms@ciencias.ulisboa.pt]
+c contributor(s): Antonio Morgado     [email:ajmorgado@ciencias.ulisboa.pt]
+c contributor(s): Georg Weissenbacher [email:georg.weissenbacher@tuwien.ac.at]
+c 
+c # of system cls: 690
+c # of components: 689
+c # of observations: 5
+c # of failures: 1
+c cost: 1; iters: 1
+s OPTIMUM FOUND
+o 1
+c D: 660 0
+c # of iters: 2
+c # of diags: 1
+c # of expls: 1
+
+	Time: 3.4177303314208984 ms
+['hsd/hsd', '-e', '1', '-c', '-s', '-v', 'scenarios_wcnf/ubuntu_c5_0.wcnf']
+ubuntu ubuntu_c5_0.wcnf
+	Output: c Implicit hitting set based approach to MBD with multiple observations
+c author(s):      Alexey Ignatiev     [email:aignatiev@ciencias.ulisboa.pt]
+c contributor(s): Joao Marques-Silva  [email:jpms@ciencias.ulisboa.pt]
+c contributor(s): Antonio Morgado     [email:ajmorgado@ciencias.ulisboa.pt]
+c contributor(s): Georg Weissenbacher [email:georg.weissenbacher@tuwien.ac.at]
+c 
+c # of system cls: 690
+c # of components: 689
+c # of observations: 5
+c # of failures: 1
+c cost: 1; iters: 1
+s OPTIMUM FOUND
+o 1
+c D: 660 0
+c # of iters: 2
+c # of diags: 1
+c # of expls: 1
+
+	Time: 3.1511783599853516 ms
+['hsd/hsd', '-e', '1', '-c', '-s', '-v', 'scenarios_wcnf/ubuntu_c5_0.wcnf']
+ubuntu ubuntu_c5_0.wcnf
+	Output: c Implicit hitting set based approach to MBD with multiple observations
+c author(s):      Alexey Ignatiev     [email:aignatiev@ciencias.ulisboa.pt]
+c contributor(s): Joao Marques-Silva  [email:jpms@ciencias.ulisboa.pt]
+c contributor(s): Antonio Morgado     [email:ajmorgado@ciencias.ulisboa.pt]
+c contributor(s): Georg Weissenbacher [email:georg.weissenbacher@tuwien.ac.at]
+c 
+c # of system cls: 690
+c # of components: 689
+c # of observations: 5
+c # of failures: 1
+c cost: 1; iters: 1
+s OPTIMUM FOUND
+o 1
+c D: 660 0
+c # of iters: 2
+c # of diags: 1
+c # of expls: 1
+
+	Time: 3.1397342681884766 ms
+	Average Time: 3.2362143198649087 ms
+['hsd/hsd', '-e', '1', '-c', '-s', '-v', 'scenarios_wcnf/ubuntu_c10_0.wcnf']
+ubuntu ubuntu_c10_0.wcnf
+	Output: c Implicit hitting set based approach to MBD with multiple observations
+c author(s):      Alexey Ignatiev     [email:aignatiev@ciencias.ulisboa.pt]
+c contributor(s): Joao Marques-Silva  [email:jpms@ciencias.ulisboa.pt]
+c contributor(s): Antonio Morgado     [email:ajmorgado@ciencias.ulisboa.pt]
+c contributor(s): Georg Weissenbacher [email:georg.weissenbacher@tuwien.ac.at]
+c 
+c # of system cls: 690
+c # of components: 689
+c # of observations: 10
+c # of failures: 2
+c cost: 1; iters: 1
+c cost: 2; iters: 2
+s OPTIMUM FOUND
+o 2
+c D: 163 660 0
+c # of iters: 3
+c # of diags: 1
+c # of expls: 2
+
+	Time: 3.2351016998291016 ms
+['hsd/hsd', '-e', '1', '-c', '-s', '-v', 'scenarios_wcnf/ubuntu_c10_0.wcnf']
+ubuntu ubuntu_c10_0.wcnf
+	Output: c Implicit hitting set based approach to MBD with multiple observations
+c author(s):      Alexey Ignatiev     [email:aignatiev@ciencias.ulisboa.pt]
+c contributor(s): Joao Marques-Silva  [email:jpms@ciencias.ulisboa.pt]
+c contributor(s): Antonio Morgado     [email:ajmorgado@ciencias.ulisboa.pt]
+c contributor(s): Georg Weissenbacher [email:georg.weissenbacher@tuwien.ac.at]
+c 
+c # of system cls: 690
+c # of components: 689
+c # of observations: 10
+c # of failures: 2
+c cost: 1; iters: 1
+c cost: 2; iters: 2
+s OPTIMUM FOUND
+o 2
+c D: 163 660 0
+c # of iters: 3
+c # of diags: 1
+c # of expls: 2
+
+	Time: 2.841949462890625 ms
+['hsd/hsd', '-e', '1', '-c', '-s', '-v', 'scenarios_wcnf/ubuntu_c10_0.wcnf']
+ubuntu ubuntu_c10_0.wcnf
+	Output: c Implicit hitting set based approach to MBD with multiple observations
+c author(s):      Alexey Ignatiev     [email:aignatiev@ciencias.ulisboa.pt]
+c contributor(s): Joao Marques-Silva  [email:jpms@ciencias.ulisboa.pt]
+c contributor(s): Antonio Morgado     [email:ajmorgado@ciencias.ulisboa.pt]
+c contributor(s): Georg Weissenbacher [email:georg.weissenbacher@tuwien.ac.at]
+c 
+c # of system cls: 690
+c # of components: 689
+c # of observations: 10
+c # of failures: 2
+c cost: 1; iters: 1
+c cost: 2; iters: 2
+s OPTIMUM FOUND
+o 2
+c D: 163 660 0
+c # of iters: 3
+c # of diags: 1
+c # of expls: 2
+
+	Time: 3.4759044647216797 ms
+	Average Time: 3.1843185424804688 ms
+['hsd/hsd', '-e', '1', '-c', '-s', '-v', 'scenarios_wcnf/ubuntu_c25_0.wcnf']
+ubuntu ubuntu_c25_0.wcnf
+	Output: c Implicit hitting set based approach to MBD with multiple observations
+c author(s):      Alexey Ignatiev     [email:aignatiev@ciencias.ulisboa.pt]
+c contributor(s): Joao Marques-Silva  [email:jpms@ciencias.ulisboa.pt]
+c contributor(s): Antonio Morgado     [email:ajmorgado@ciencias.ulisboa.pt]
+c contributor(s): Georg Weissenbacher [email:georg.weissenbacher@tuwien.ac.at]
+c 
+c # of system cls: 690
+c # of components: 689
+c # of observations: 25
+c # of failures: 5
+c cost: 1; iters: 1
+c cost: 2; iters: 2
+c cost: 3; iters: 3
+c cost: 4; iters: 5
+s OPTIMUM FOUND
+o 4
+c D: 163 630 660 672 0
+c # of iters: 6
+c # of diags: 1
+c # of expls: 5
+
+	Time: 4.921197891235352 ms
+['hsd/hsd', '-e', '1', '-c', '-s', '-v', 'scenarios_wcnf/ubuntu_c25_0.wcnf']
+ubuntu ubuntu_c25_0.wcnf
+	Output: c Implicit hitting set based approach to MBD with multiple observations
+c author(s):      Alexey Ignatiev     [email:aignatiev@ciencias.ulisboa.pt]
+c contributor(s): Joao Marques-Silva  [email:jpms@ciencias.ulisboa.pt]
+c contributor(s): Antonio Morgado     [email:ajmorgado@ciencias.ulisboa.pt]
+c contributor(s): Georg Weissenbacher [email:georg.weissenbacher@tuwien.ac.at]
+c 
+c # of system cls: 690
+c # of components: 689
+c # of observations: 25
+c # of failures: 5
+c cost: 1; iters: 1
+c cost: 2; iters: 2
+c cost: 3; iters: 3
+c cost: 4; iters: 5
+s OPTIMUM FOUND
+o 4
+c D: 163 630 660 672 0
+c # of iters: 6
+c # of diags: 1
+c # of expls: 5
+
+	Time: 3.4341812133789062 ms
+['hsd/hsd', '-e', '1', '-c', '-s', '-v', 'scenarios_wcnf/ubuntu_c25_0.wcnf']
+ubuntu ubuntu_c25_0.wcnf
+	Output: c Implicit hitting set based approach to MBD with multiple observations
+c author(s):      Alexey Ignatiev     [email:aignatiev@ciencias.ulisboa.pt]
+c contributor(s): Joao Marques-Silva  [email:jpms@ciencias.ulisboa.pt]
+c contributor(s): Antonio Morgado     [email:ajmorgado@ciencias.ulisboa.pt]
+c contributor(s): Georg Weissenbacher [email:georg.weissenbacher@tuwien.ac.at]
+c 
+c # of system cls: 690
+c # of components: 689
+c # of observations: 25
+c # of failures: 5
+c cost: 1; iters: 1
+c cost: 2; iters: 2
+c cost: 3; iters: 3
+c cost: 4; iters: 5
+s OPTIMUM FOUND
+o 4
+c D: 163 630 660 672 0
+c # of iters: 6
+c # of diags: 1
+c # of expls: 5
+
+	Time: 3.9348602294921875 ms
+	Average Time: 4.096746444702148 ms
+['hsd/hsd', '-e', '1', '-c', '-s', '-v', 'scenarios_wcnf/ubuntu_c50_0.wcnf']
+ubuntu ubuntu_c50_0.wcnf
+	Output: c Implicit hitting set based approach to MBD with multiple observations
+c author(s):      Alexey Ignatiev     [email:aignatiev@ciencias.ulisboa.pt]
+c contributor(s): Joao Marques-Silva  [email:jpms@ciencias.ulisboa.pt]
+c contributor(s): Antonio Morgado     [email:ajmorgado@ciencias.ulisboa.pt]
+c contributor(s): Georg Weissenbacher [email:georg.weissenbacher@tuwien.ac.at]
+c 
+c # of system cls: 690
+c # of components: 689
+c # of observations: 50
+c # of failures: 10
+c cost: 1; iters: 1
+c cost: 2; iters: 2
+c cost: 3; iters: 3
+c cost: 4; iters: 5
+c cost: 5; iters: 6
+c cost: 6; iters: 7
+s OPTIMUM FOUND
+o 6
+c D: 163 599 630 639 660 672 0
+c # of iters: 8
+c # of diags: 1
+c # of expls: 7
+
+	Time: 5.466938018798828 ms
+['hsd/hsd', '-e', '1', '-c', '-s', '-v', 'scenarios_wcnf/ubuntu_c50_0.wcnf']
+ubuntu ubuntu_c50_0.wcnf
+	Output: c Implicit hitting set based approach to MBD with multiple observations
+c author(s):      Alexey Ignatiev     [email:aignatiev@ciencias.ulisboa.pt]
+c contributor(s): Joao Marques-Silva  [email:jpms@ciencias.ulisboa.pt]
+c contributor(s): Antonio Morgado     [email:ajmorgado@ciencias.ulisboa.pt]
+c contributor(s): Georg Weissenbacher [email:georg.weissenbacher@tuwien.ac.at]
+c 
+c # of system cls: 690
+c # of components: 689
+c # of observations: 50
+c # of failures: 10
+c cost: 1; iters: 1
+c cost: 2; iters: 2
+c cost: 3; iters: 3
+c cost: 4; iters: 5
+c cost: 5; iters: 6
+c cost: 6; iters: 7
+s OPTIMUM FOUND
+o 6
+c D: 163 599 630 639 660 672 0
+c # of iters: 8
+c # of diags: 1
+c # of expls: 7
+
+	Time: 4.543781280517578 ms
+['hsd/hsd', '-e', '1', '-c', '-s', '-v', 'scenarios_wcnf/ubuntu_c50_0.wcnf']
+ubuntu ubuntu_c50_0.wcnf
+	Output: c Implicit hitting set based approach to MBD with multiple observations
+c author(s):      Alexey Ignatiev     [email:aignatiev@ciencias.ulisboa.pt]
+c contributor(s): Joao Marques-Silva  [email:jpms@ciencias.ulisboa.pt]
+c contributor(s): Antonio Morgado     [email:ajmorgado@ciencias.ulisboa.pt]
+c contributor(s): Georg Weissenbacher [email:georg.weissenbacher@tuwien.ac.at]
+c 
+c # of system cls: 690
+c # of components: 689
+c # of observations: 50
+c # of failures: 10
+c cost: 1; iters: 1
+c cost: 2; iters: 2
+c cost: 3; iters: 3
+c cost: 4; iters: 5
+c cost: 5; iters: 6
+c cost: 6; iters: 7
+s OPTIMUM FOUND
+o 6
+c D: 163 599 630 639 660 672 0
+c # of iters: 8
+c # of diags: 1
+c # of expls: 7
+
+	Time: 4.551172256469727 ms
+	Average Time: 4.853963851928711 ms
+['hsd/hsd', '-e', '1', '-c', '-s', '-v', 'scenarios_wcnf/ubuntu_c100_0.wcnf']
+ubuntu ubuntu_c100_0.wcnf
+	Output: c Implicit hitting set based approach to MBD with multiple observations
+c author(s):      Alexey Ignatiev     [email:aignatiev@ciencias.ulisboa.pt]
+c contributor(s): Joao Marques-Silva  [email:jpms@ciencias.ulisboa.pt]
+c contributor(s): Antonio Morgado     [email:ajmorgado@ciencias.ulisboa.pt]
+c contributor(s): Georg Weissenbacher [email:georg.weissenbacher@tuwien.ac.at]
+c 
+c # of system cls: 690
+c # of components: 689
+c # of observations: 100
+c # of failures: 20
+c cost: 1; iters: 1
+c cost: 2; iters: 2
+c cost: 3; iters: 3
+c cost: 4; iters: 5
+c cost: 5; iters: 6
+c cost: 6; iters: 7
+s OPTIMUM FOUND
+o 6
+c D: 163 188 630 639 660 672 0
+c # of iters: 9
+c # of diags: 1
+c # of expls: 8
+
+	Time: 6.562232971191406 ms
+['hsd/hsd', '-e', '1', '-c', '-s', '-v', 'scenarios_wcnf/ubuntu_c100_0.wcnf']
+ubuntu ubuntu_c100_0.wcnf
+	Output: c Implicit hitting set based approach to MBD with multiple observations
+c author(s):      Alexey Ignatiev     [email:aignatiev@ciencias.ulisboa.pt]
+c contributor(s): Joao Marques-Silva  [email:jpms@ciencias.ulisboa.pt]
+c contributor(s): Antonio Morgado     [email:ajmorgado@ciencias.ulisboa.pt]
+c contributor(s): Georg Weissenbacher [email:georg.weissenbacher@tuwien.ac.at]
+c 
+c # of system cls: 690
+c # of components: 689
+c # of observations: 100
+c # of failures: 20
+c cost: 1; iters: 1
+c cost: 2; iters: 2
+c cost: 3; iters: 3
+c cost: 4; iters: 5
+c cost: 5; iters: 6
+c cost: 6; iters: 7
+s OPTIMUM FOUND
+o 6
+c D: 163 188 630 639 660 672 0
+c # of iters: 9
+c # of diags: 1
+c # of expls: 8
+
+	Time: 6.747961044311523 ms
+['hsd/hsd', '-e', '1', '-c', '-s', '-v', 'scenarios_wcnf/ubuntu_c100_0.wcnf']
+ubuntu ubuntu_c100_0.wcnf
+	Output: c Implicit hitting set based approach to MBD with multiple observations
+c author(s):      Alexey Ignatiev     [email:aignatiev@ciencias.ulisboa.pt]
+c contributor(s): Joao Marques-Silva  [email:jpms@ciencias.ulisboa.pt]
+c contributor(s): Antonio Morgado     [email:ajmorgado@ciencias.ulisboa.pt]
+c contributor(s): Georg Weissenbacher [email:georg.weissenbacher@tuwien.ac.at]
+c 
+c # of system cls: 690
+c # of components: 689
+c # of observations: 100
+c # of failures: 20
+c cost: 1; iters: 1
+c cost: 2; iters: 2
+c cost: 3; iters: 3
+c cost: 4; iters: 5
+c cost: 5; iters: 6
+c cost: 6; iters: 7
+s OPTIMUM FOUND
+o 6
+c D: 163 188 630 639 660 672 0
+c # of iters: 9
+c # of diags: 1
+c # of expls: 8
+
+	Time: 6.54911994934082 ms
+	Average Time: 6.619771321614583 ms
+['hsd/hsd', '-e', '1', '-c', '-s', '-v', 'scenarios_wcnf/ubuntu_c250_0.wcnf']
+ubuntu ubuntu_c250_0.wcnf
+	Output: c Implicit hitting set based approach to MBD with multiple observations
+c author(s):      Alexey Ignatiev     [email:aignatiev@ciencias.ulisboa.pt]
+c contributor(s): Joao Marques-Silva  [email:jpms@ciencias.ulisboa.pt]
+c contributor(s): Antonio Morgado     [email:ajmorgado@ciencias.ulisboa.pt]
+c contributor(s): Georg Weissenbacher [email:georg.weissenbacher@tuwien.ac.at]
+c 
+c # of system cls: 690
+c # of components: 689
+c # of observations: 250
+c # of failures: 50
+c cost: 1; iters: 1
+c cost: 2; iters: 2
+c cost: 3; iters: 3
+c cost: 4; iters: 5
+c cost: 5; iters: 6
+c cost: 6; iters: 7
+c cost: 7; iters: 11
+c cost: 8; iters: 13
+s OPTIMUM FOUND
+o 8
+c D: 28 34 187 189 630 640 660 672 0
+c # of iters: 14
+c # of diags: 1
+c # of expls: 13
+
+	Time: 14.444112777709961 ms
+['hsd/hsd', '-e', '1', '-c', '-s', '-v', 'scenarios_wcnf/ubuntu_c250_0.wcnf']
+ubuntu ubuntu_c250_0.wcnf
+	Output: c Implicit hitting set based approach to MBD with multiple observations
+c author(s):      Alexey Ignatiev     [email:aignatiev@ciencias.ulisboa.pt]
+c contributor(s): Joao Marques-Silva  [email:jpms@ciencias.ulisboa.pt]
+c contributor(s): Antonio Morgado     [email:ajmorgado@ciencias.ulisboa.pt]
+c contributor(s): Georg Weissenbacher [email:georg.weissenbacher@tuwien.ac.at]
+c 
+c # of system cls: 690
+c # of components: 689
+c # of observations: 250
+c # of failures: 50
+c cost: 1; iters: 1
+c cost: 2; iters: 2
+c cost: 3; iters: 3
+c cost: 4; iters: 5
+c cost: 5; iters: 6
+c cost: 6; iters: 7
+c cost: 7; iters: 11
+c cost: 8; iters: 13
+s OPTIMUM FOUND
+o 8
+c D: 28 34 187 189 630 640 660 672 0
+c # of iters: 14
+c # of diags: 1
+c # of expls: 13
+
+	Time: 14.333963394165039 ms
+['hsd/hsd', '-e', '1', '-c', '-s', '-v', 'scenarios_wcnf/ubuntu_c250_0.wcnf']
+ubuntu ubuntu_c250_0.wcnf
+	Output: c Implicit hitting set based approach to MBD with multiple observations
+c author(s):      Alexey Ignatiev     [email:aignatiev@ciencias.ulisboa.pt]
+c contributor(s): Joao Marques-Silva  [email:jpms@ciencias.ulisboa.pt]
+c contributor(s): Antonio Morgado     [email:ajmorgado@ciencias.ulisboa.pt]
+c contributor(s): Georg Weissenbacher [email:georg.weissenbacher@tuwien.ac.at]
+c 
+c # of system cls: 690
+c # of components: 689
+c # of observations: 250
+c # of failures: 50
+c cost: 1; iters: 1
+c cost: 2; iters: 2
+c cost: 3; iters: 3
+c cost: 4; iters: 5
+c cost: 5; iters: 6
+c cost: 6; iters: 7
+c cost: 7; iters: 11
+c cost: 8; iters: 13
+s OPTIMUM FOUND
+o 8
+c D: 28 34 187 189 630 640 660 672 0
+c # of iters: 14
+c # of diags: 1
+c # of expls: 13
+
+	Time: 14.729976654052734 ms
+	Average Time: 14.502684275309244 ms
+['hsd/hsd', '-e', '1', '-c', '-s', '-v', 'scenarios_wcnf/ubuntu_c500_0.wcnf']
+ubuntu ubuntu_c500_0.wcnf
+	Output: c Implicit hitting set based approach to MBD with multiple observations
+c author(s):      Alexey Ignatiev     [email:aignatiev@ciencias.ulisboa.pt]
+c contributor(s): Joao Marques-Silva  [email:jpms@ciencias.ulisboa.pt]
+c contributor(s): Antonio Morgado     [email:ajmorgado@ciencias.ulisboa.pt]
+c contributor(s): Georg Weissenbacher [email:georg.weissenbacher@tuwien.ac.at]
+c 
+c # of system cls: 690
+c # of components: 689
+c # of observations: 500
+c # of failures: 100
+c cost: 1; iters: 1
+c cost: 2; iters: 2
+c cost: 3; iters: 3
+c cost: 4; iters: 5
+c cost: 5; iters: 6
+c cost: 6; iters: 7
+c cost: 7; iters: 11
+c cost: 8; iters: 13
+c cost: 9; iters: 15
+c cost: 10; iters: 16
+s OPTIMUM FOUND
+o 10
+c D: 27 28 187 189 630 640 658 660 672 682 0
+c # of iters: 17
+c # of diags: 1
+c # of expls: 16
+
+	Time: 27.378082275390625 ms
+['hsd/hsd', '-e', '1', '-c', '-s', '-v', 'scenarios_wcnf/ubuntu_c500_0.wcnf']
+ubuntu ubuntu_c500_0.wcnf
+	Output: c Implicit hitting set based approach to MBD with multiple observations
+c author(s):      Alexey Ignatiev     [email:aignatiev@ciencias.ulisboa.pt]
+c contributor(s): Joao Marques-Silva  [email:jpms@ciencias.ulisboa.pt]
+c contributor(s): Antonio Morgado     [email:ajmorgado@ciencias.ulisboa.pt]
+c contributor(s): Georg Weissenbacher [email:georg.weissenbacher@tuwien.ac.at]
+c 
+c # of system cls: 690
+c # of components: 689
+c # of observations: 500
+c # of failures: 100
+c cost: 1; iters: 1
+c cost: 2; iters: 2
+c cost: 3; iters: 3
+c cost: 4; iters: 5
+c cost: 5; iters: 6
+c cost: 6; iters: 7
+c cost: 7; iters: 11
+c cost: 8; iters: 13
+c cost: 9; iters: 15
+c cost: 10; iters: 16
+s OPTIMUM FOUND
+o 10
+c D: 27 28 187 189 630 640 658 660 672 682 0
+c # of iters: 17
+c # of diags: 1
+c # of expls: 16
+
+	Time: 26.585102081298828 ms
+['hsd/hsd', '-e', '1', '-c', '-s', '-v', 'scenarios_wcnf/ubuntu_c500_0.wcnf']
+ubuntu ubuntu_c500_0.wcnf
+	Output: c Implicit hitting set based approach to MBD with multiple observations
+c author(s):      Alexey Ignatiev     [email:aignatiev@ciencias.ulisboa.pt]
+c contributor(s): Joao Marques-Silva  [email:jpms@ciencias.ulisboa.pt]
+c contributor(s): Antonio Morgado     [email:ajmorgado@ciencias.ulisboa.pt]
+c contributor(s): Georg Weissenbacher [email:georg.weissenbacher@tuwien.ac.at]
+c 
+c # of system cls: 690
+c # of components: 689
+c # of observations: 500
+c # of failures: 100
+c cost: 1; iters: 1
+c cost: 2; iters: 2
+c cost: 3; iters: 3
+c cost: 4; iters: 5
+c cost: 5; iters: 6
+c cost: 6; iters: 7
+c cost: 7; iters: 11
+c cost: 8; iters: 13
+c cost: 9; iters: 15
+c cost: 10; iters: 16
+s OPTIMUM FOUND
+o 10
+c D: 27 28 187 189 630 640 658 660 672 682 0
+c # of iters: 17
+c # of diags: 1
+c # of expls: 16
+
+	Time: 26.659011840820312 ms
+	Average Time: 26.874065399169922 ms
+
+Averages
+	ubuntu_c5_0.wcnf: 3.2362143198649087 ms
+	ubuntu_c10_0.wcnf: 3.1843185424804688 ms
+	ubuntu_c25_0.wcnf: 4.096746444702148 ms
+	ubuntu_c50_0.wcnf: 4.853963851928711 ms
+	ubuntu_c100_0.wcnf: 6.619771321614583 ms
+	ubuntu_c250_0.wcnf: 14.502684275309244 ms
+	ubuntu_c500_0.wcnf: 26.874065399169922 ms
