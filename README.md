@@ -14,7 +14,7 @@ Developed at TU Graz by Viet-Man Le. Licensed under MIT.
 - **Advanced Algorithms**: WipeOutR variants (feature model and test case optimization)
 - **Hitting Set DAG (HS-DAG)**: Efficiently computes all diagnoses through shared computations with multiple labelers
 - **SAT Solver Integration**: Choco (Java), PySAT (Python), and SAT4J solver support
-- **Dual Implementation**: Both Java (primary, ~10.6K LOC) and expanded Python (~3.5K LOC in explanation/ module)
+- **Dual Implementation**: Both Java (primary, ~10.6K LOC) and expanded Python (~6.8K LOC in explanation/ module)
 - **Evaluation Framework**: Comprehensive benchmarking against real-world and synthetic feature models
 - **Comprehensive Testing**: Automated tests in tests/ directory with 14 resource files
 
@@ -72,7 +72,7 @@ KBDiag/
 ├── apps/                                         # Evaluation scripts
 │   ├── kbdiag_eval.py                           # TOML-driven evaluation
 │   └── conf/kbdiag_eval.toml                    # Default config
-├── explanation/                                  # Python implementation (~3.5K LOC, 42 files)
+├── explanation/                                  # Python implementation (~6.8K LOC, 42 files)
 │   ├── models/                                  # Extended data models
 │   ├── operations/                              # Advanced algorithms + SAT4J support
 │   │   └── algorithms/                          # FastDiag, FastDiagP, WipeOutR, profiling
@@ -128,7 +128,7 @@ This implementation corresponds to research published in:
 
 ## License
 
-MIT License. Copyright 2023-2025 Viet-Man Le.
+MIT License. Copyright 2023-2026 Viet-Man Le.
 
 ## Contributing
 
