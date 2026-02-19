@@ -1,0 +1,65 @@
+# KBDiag Evaluation Configuration
+# Usage: python -m apps.kbdiag_eval apps/conf/kbdiag_eval.toml
+
+[evaluation]
+# Algorithm: kbdiag, fastdiag, quickxplain, wipeoutr_fm, wipeoutr_t
+algorithm = "kbdiag"
+# Task: "1" (one diagnosis) or "all" (all diagnoses)
+task = "1"
+# Number of iterations per test case file
+num_iterations = 3
+
+[solver]
+solver_name = "glucose3"
+
+[profiler]
+enabled = false
+preset = "benchmark"  # "benchmark" or "disabled"
+
+[output]
+result_path = "./results"
+
+# Knowledge bases to evaluate
+# Each [[kb]] entry defines a KB with its model and test case files
+
+[[kb]]
+name = "DELL"
+model = "data/ijcai24_25/data/wcnf/DELL.uvl"
+scenarios_dir = "data/ijcai24_25/data/wcnf/scenarios"
+testcases = [
+    "DELL_c5_0.testcases",
+    "DELL_c10_0.testcases",
+    "DELL_c25_0.testcases",
+    "DELL_c50_0.testcases",
+    "DELL_c100_0.testcases",
+    "DELL_c250_0.testcases",
+    "DELL_c500_0.testcases",
+]
+
+[[kb]]
+name = "ubuntu"
+model = "data/ijcai24_25/data/wcnf/ubuntu.uvl"
+scenarios_dir = "data/ijcai24_25/data/wcnf/scenarios"
+testcases = [
+    "ubuntu_c5_0.testcases",
+    "ubuntu_c10_0.testcases",
+    "ubuntu_c25_0.testcases",
+    "ubuntu_c50_0.testcases",
+    "ubuntu_c100_0.testcases",
+    "ubuntu_c250_0.testcases",
+    "ubuntu_c500_0.testcases",
+]
+
+[[kb]]
+name = "windows8"
+model = "data/ijcai24_25/data/wcnf/windows8.uvl"
+scenarios_dir = "data/ijcai24_25/data/wcnf/scenarios"
+testcases = [
+    "windows8_c5_0.testcases",
+    "windows8_c10_0.testcases",
+    "windows8_c25_0.testcases",
+    "windows8_c50_0.testcases",
+    "windows8_c100_0.testcases",
+    "windows8_c250_0.testcases",
+    "windows8_c500_0.testcases",
+]

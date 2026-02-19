@@ -16,7 +16,7 @@ Developed at TU Graz by Viet-Man Le. Licensed under MIT.
 - **SAT Solver Integration**: Choco (Java), PySAT (Python), and SAT4J solver support
 - **Dual Implementation**: Both Java (primary, ~10.6K LOC) and expanded Python (~3.5K LOC in explanation/ module)
 - **Evaluation Framework**: Comprehensive benchmarking against real-world and synthetic feature models
-- **Comprehensive Testing**: Automated tests in both python_tests/ and new tests/ directory with 14 resource files
+- **Comprehensive Testing**: Automated tests in tests/ directory with 14 resource files
 
 ## Quick Start
 
@@ -37,7 +37,7 @@ java -jar target/main_v2-jar-with-dependencies.jar -e config.txt
 
 ### Python
 
-**Requirements**: Python 3.7+
+**Requirements**: Python 3.11+
 
 ```bash
 # Setup environment
@@ -45,10 +45,10 @@ python3 -m venv venv
 source venv/bin/activate
 
 # Run evaluation
-python python/kbdiag_eval.py -task 1 -size all
+python -m apps.kbdiag_eval apps/conf/kbdiag_eval.toml
 
 # Run tests
-python -m unittest python_tests/diagnosis_test.py
+python -m unittest discover -s tests -v
 ```
 
 ## Documentation
@@ -69,14 +69,10 @@ KBDiag/
 │   ├── debugging/algorithms/                     # Core diagnosis algorithms
 │   ├── apps/real/                               # Evaluation framework
 │   └── common/                                   # Shared utilities
-├── python/                                       # Original Python implementation
-│   ├── flamapy_kbdiag/                          # flamapy-based package
-│   │   ├── metamodels/pysat_diagnosis_metamodel/
-│   │   │   ├── operations/diagnosis/            # Core algorithms
-│   │   │   ├── models/                          # Data structures
-│   │   │   └── transformations/                 # FM to diagnosis model
-│   └── kbdiag_eval.py                           # Evaluation script
-├── explanation/                                  # Expanded Python implementation (~3.5K LOC, 42 files)
+├── apps/                                         # Evaluation scripts
+│   ├── kbdiag_eval.py                           # TOML-driven evaluation
+│   └── conf/kbdiag_eval.toml                    # Default config
+├── explanation/                                  # Python implementation (~3.5K LOC, 42 files)
 │   ├── models/                                  # Extended data models
 │   ├── operations/                              # Advanced algorithms + SAT4J support
 │   │   └── algorithms/                          # FastDiag, FastDiagP, WipeOutR, profiling
