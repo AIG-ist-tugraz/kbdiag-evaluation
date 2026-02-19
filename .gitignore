@@ -44,3 +44,5 @@ logs.log
 logs-*.zip
 
 *.tmp
+/papers/
+/plans/
