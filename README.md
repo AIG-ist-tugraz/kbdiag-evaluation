@@ -83,9 +83,15 @@ KBDiag/
 │   ├── test_utils.py
 │   └── resources/                               # Test fixtures (FM, testcases, DIMACS)
 ├── data/                                         # Feature models and test cases
-│   ├── ijcai24_25/                              # Primary dataset
-│   ├── realworld/                               # Real-world models
-│   └── synthesized/                             # Synthetic scenarios
+│   ├── ijcai24_25/                              # Primary dataset (IJCAI 2024-2025)
+│   │   ├── data/fms/                            # Feature models (.splx)
+│   │   ├── data/classifiedTS/                   # Classified test suites
+│   │   ├── data/testsuite/                      # Raw test suites
+│   │   ├── data/scenarios/                      # Test cases (.testcases)
+│   │   ├── data/wcnf/                           # WCNF/DIMACS/UVL models + scenarios
+│   │   └── results/                             # Evaluation results
+│   ├── realworld/                               # Real-world models (legacy)
+│   └── synthesized/                             # Synthetic scenarios (legacy)
 ├── solver_apps/                                  # External SAT solvers
 │   └── org.sat4j.core.jar                       # SAT4J solver library
 └── docs/                                         # Documentation
@@ -109,9 +115,9 @@ KBDiag/
 
 ## Datasets
 
-- **ijcai24_25**: DELL, Ubuntu, Windows8 feature models with test cases
-- **realworld**: Additional real-world feature models
-- **synthesized**: 126 synthetically generated test scenarios
+- **ijcai24_25** (primary): 4 feature models (DELL, ubuntu, windows8, REAL-FM-11) in multiple formats (SPLOT, UVL, DIMACS, WCNF) with test cases at 7 sizes (5, 10, 25, 50, 100, 250, 500)
+- **realworld**: Additional real-world feature models (legacy)
+- **synthesized**: 126 synthetically generated test scenarios (legacy)
 
 ## Research Context
 
