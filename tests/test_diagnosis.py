@@ -11,10 +11,15 @@ To enable/disable specific parameter combinations, modify ENABLED_PARAMS.
 #
 #  Copyright (c) 2026
 #
+#  @author: Viet-Man Le (v.m.le@tugraz.at)
+
+#  KBDiag
+#
+#
 #  @author: Viet-Man Le (vietman.le@ist.tugraz.at)
 
 import os
-import sys
+import unittest
 
 from flamapy.metamodels.configuration_metamodel.transformations import ConfigurationBasicReader
 from parameterized import parameterized
@@ -200,1208 +205,1124 @@ def create_checker(use_sat4j: bool, model: DiagnosisModel):
             set_kb=model.get_kb(), assumptions=model.get_assumptions())
     return CheckerFactory.create_from_model(model)
 
-def skip_if_disabled(test_name: str):
-    """Decorator to skip test if disabled in ENABLED_TESTS."""
+def _skip_disabled(test_name: str):
+    """Create unittest.skipIf decorator for disabled tests."""
+    return unittest.skipIf(not ENABLED_TESTS.get(test_name, True), f'{test_name} disabled in ENABLED_TESTS')
 
-    def decorator(func):
-        def wrapper(*args, **kwargs):
-            if not ENABLED_TESTS.get(test_name, True):
-                print(f"\n[SKIPPED] {test_name} is disabled in ENABLED_TESTS")
-                return
-            return func(*args, **kwargs)
 
-        wrapper.__name__ = func.__name__
-        wrapper.__doc__ = func.__doc__
-        return wrapper
+class DiagnosisTest(unittest.TestCase):
+    """Test suite for diagnosis algorithms with parameterized configurations."""
 
-    return decorator
+    # =============================================================================
+    # SINGLE ALGORITHM TESTS
+    # =============================================================================
 
+    @parameterized.expand(STANDARD_PARAMS)
+    @_skip_disabled('fastdiag_1diag')
+    def test_fastdiag_1diag(self, name, is_incremental, solver_name, use_sat4j, enable_profiling):
+        """Test FastDiag with different checker implementations and profiling modes."""
+        print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
 
-# =============================================================================
-# SINGLE ALGORITHM TESTS
-# =============================================================================
+        with profiler_session(_profiler_preset(enable_profiling)) as profiler:
+            print_profiler_status(profiler)
 
-@parameterized.expand(STANDARD_PARAMS)
-@skip_if_disabled('fastdiag_1diag')
-def test_fastdiag_1diag(name, is_incremental, solver_name, use_sat4j, enable_profiling):
-    """Test FastDiag with different checker implementations and profiling modes."""
-    print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
-
-    with profiler_session(_profiler_preset(enable_profiling)) as profiler:
-        print_profiler_status(profiler)
-
-        model = (DiagnosisModelBuilder
-                 .from_fide(Resources.FM_INCONSISTENT)
-                 .use_incremental(is_incremental)
-                 .build())
-
-        checker = create_checker(use_sat4j, model)
-        fastdiag = FastDiag(checker)
-        diagnosis = fastdiag.find_diagnosis(model.get_c(), model.get_b())
-
-        profiler.print_summary(include_raw_timers=True)
-
-        diag_mess = _format_results("Diagnosis", "Diagnoses", [diagnosis], model)
-        print(f"{diag_mess}")
-        assert diag_mess == 'Diagnosis: [(5) IMPLIES[Smartwatch][Analog]]'
-
-@parameterized.expand(STANDARD_PARAMS)
-@skip_if_disabled('quickxplain_1cs')
-def test_quickxplain_1cs(name, is_incremental, solver_name, use_sat4j, enable_profiling):
-    """Test QuickXPlain to find one conflict."""
-    print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
-
-    with profiler_session(_profiler_preset(enable_profiling)) as profiler:
-        print_profiler_status(profiler)
-
-        model = (DiagnosisModelBuilder
-                 .from_fide(Resources.FM_INCONSISTENT)
-                 .use_incremental(is_incremental)
-                 .build())
-
-        checker = create_checker(use_sat4j, model)
-        quickxplain = QuickXPlain(checker)
-        conflict = quickxplain.find_conflict(model.get_c(), model.get_b())
-
-        profiler.print_summary(include_raw_timers=True)
-
-        cs_mess = _format_results("Conflict", "Conflicts", [conflict], model)
-        print(f"{cs_mess}")
-        assert cs_mess == 'Conflict: [(3) OR[NOT[Analog][]][NOT[Cellular][]], (4) IMPLIES[Smartwatch][Cellular], (5) IMPLIES[Smartwatch][Analog]]'
-
-@parameterized.expand(STANDARD_PARAMS)
-@skip_if_disabled('fastdiagp_1diag')
-def test_fastdiagp_1diag(name, is_incremental, solver_name, use_sat4j, enable_profiling):
-    """Test FastDiagP (parallel) to find one diagnosis."""
-    print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
-
-    with profiler_session(_profiler_preset(enable_profiling), ProfilerMode.MULTI_PROCESS) as profiler:
-        print_profiler_status(profiler)
-
-        model = (DiagnosisModelBuilder
-                 .from_fide(Resources.FM_INCONSISTENT)
-                 .use_incremental(is_incremental)
-                 .build())
-
-        checker = create_checker(use_sat4j, model)
-        fastdiagp = FastDiagP(checker)
-        diagnosis = fastdiagp.find_diagnosis(model.get_c(), model.get_b())
-
-        profiler.print_summary(include_raw_timers=True)
-
-        diag_mess = _format_results("Diagnosis", "Diagnoses", [diagnosis], model)
-        print(diag_mess)
-        assert diag_mess == 'Diagnosis: [(5) IMPLIES[Smartwatch][Analog]]'
-
-@parameterized.expand(STANDARD_PARAMS)
-@skip_if_disabled('kbdiag_1diag_1')
-def test_kbdiag_1diag_1(name, is_incremental, solver_name, use_sat4j, enable_profiling):
-    """Test KBDIAG: find one diagnosis."""
-    print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
-
-    with (profiler_session(_profiler_preset(enable_profiling)) as profiler):
-        print_profiler_status(profiler)
-
-        positive_testcases = TestSuiteReader(Resources.FM_10_1_POSITIVE_TESTCASES).transform()
-        model = (DiagnosisModelBuilder
-                 .from_uvl(Resources.FM_10_1)
-                 .use_incremental(is_incremental)
-                 .with_positive_testcases(positive_testcases)
-                 .build())
-
-        checker = create_checker(use_sat4j, model)
-        kbdiag = KBDiag(checker)
-        _, diagnosis = kbdiag.find_diagnosis(model.get_c(), model.get_b(), model.get_tc())
-
-        diag_mess = _format_results("Diagnosis", "Diagnoses", [diagnosis], model)
-
-        profiler.print_summary(include_raw_timers=True)
-        print(diag_mess)
-        assert diag_mess == 'Diagnosis: [(mandatory) CheckR[1,1]RecEng , (mandatory) CheckR[1,1]QType , (Constraint 0) OR[NOT[CBRec][]][NOT[SDC][]], (Constraint 1) OR[NOT[SDC][]][Stat]]'
-
-@parameterized.expand(STANDARD_PARAMS)
-@skip_if_disabled('kbdiag_1diag_1_neg')
-def test_kbdiag_1diag_1_neg(name, is_incremental, solver_name, use_sat4j, enable_profiling):
-    """Test KBDIAG: find one diagnosis."""
-    print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
-
-    with (profiler_session(_profiler_preset(enable_profiling)) as profiler):
-        print_profiler_status(profiler)
-
-        positive_testcases = TestSuiteReader(Resources.FM_10_1_POSITIVE_TESTCASES).transform()
-        negative_testcases = TestSuiteReader(Resources.FM_10_1_NEGATIVE_TESTCASES).transform()
-        model = (DiagnosisModelBuilder
-                 .from_uvl(Resources.FM_10_1)
-                 .use_incremental(is_incremental)
-                 .with_positive_testcases(positive_testcases)
-                 .with_negative_testcases(negative_testcases)
-                 .build())
-
-        checker = create_checker(use_sat4j, model)
-        kbdiag = KBDiag(checker)
-        _, diagnosis = kbdiag.find_diagnosis(model.get_c(), model.get_b(), model.get_tc(), model.get_neg_tv())
-
-        diag_mess = _format_results("Diagnosis", "Diagnoses", [diagnosis], model)
-
-        profiler.print_summary(include_raw_timers=True)
-        print(diag_mess)
-        assert diag_mess == 'Diagnosis: [(mandatory) CheckR[1,1]RecEng , (mandatory) CheckR[1,1]SDC , (mandatory) CheckR[1,1]QType ]'
-
-@parameterized.expand(STANDARD_PARAMS)
-@skip_if_disabled('kbdiag_1diag_2')
-def test_kbdiag_1diag_2(name, is_incremental, solver_name, use_sat4j, enable_profiling):
-    """Test KBDIAG: find one diagnosis."""
-    print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
-
-    with (profiler_session(_profiler_preset(enable_profiling)) as profiler):
-        print_profiler_status(profiler)
-
-        positive_testcases = TestSuiteReader(Resources.FM_10_2_POSITIVE_TESTCASES).transform()
-        negative_testcases = TestSuiteReader(Resources.FM_10_2_NEGATIVE_TESTCASES).transform()
-        model = (DiagnosisModelBuilder
-                 .from_uvl(Resources.FM_10_2)
-                 .use_incremental(is_incremental)
-                 .with_positive_testcases(positive_testcases)
-                 .with_negative_testcases(negative_testcases)
-                 .build())
-
-        checker = create_checker(use_sat4j, model)
-        kbdiag = KBDiag(checker)
-        _, diagnosis = kbdiag.find_diagnosis(model.get_c(), model.get_b(), model.get_tc(), model.get_neg_tv())
-
-        diag_mess = _format_results("Diagnosis", "Diagnoses", [diagnosis], model)
-
-        profiler.print_summary(include_raw_timers=True)
-        print(diag_mess)
-        assert diag_mess == 'Diagnosis: [(mandatory) jplug[1,1]interface , (alternative) interface[1,1]sdi mdi , (optional) diagram_builder[0,1]uml , (Constraint 0) OR[NOT[gui_builder][]][NOT[sdi][]]]'
-
-@parameterized.expand(STANDARD_PARAMS)
-@skip_if_disabled('kbdiag_1diag_2_neg')
-def test_kbdiag_1diag_2_neg(name, is_incremental, solver_name, use_sat4j, enable_profiling):
-    """Test KBDIAG: find one diagnosis."""
-    print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
-
-    with (profiler_session(_profiler_preset(enable_profiling)) as profiler):
-        print_profiler_status(profiler)
-
-        positive_testcases = TestSuiteReader(Resources.FM_10_2_POSITIVE_TESTCASES).transform()
-        negative_testcases = TestSuiteReader(Resources.FM_10_2_NEGATIVE_TESTCASES).transform()
-        model = (DiagnosisModelBuilder
-                 .from_uvl(Resources.FM_10_2)
-                 .use_incremental(is_incremental)
-                 .with_positive_testcases(positive_testcases)
-                 .with_negative_testcases(negative_testcases)
-                 .build())
-
-        checker = create_checker(use_sat4j, model)
-        kbdiag = KBDiag(checker)
-        _, diagnosis = kbdiag.find_diagnosis(model.get_c(), model.get_b(), model.get_tc(), model.get_neg_tv())
-
-        diag_mess = _format_results("Diagnosis", "Diagnoses", [diagnosis], model)
-
-        profiler.print_summary(include_raw_timers=True)
-        print(diag_mess)
-        assert diag_mess == 'Diagnosis: [(mandatory) jplug[1,1]interface , (alternative) interface[1,1]sdi mdi , (optional) diagram_builder[0,1]uml , (Constraint 0) OR[NOT[gui_builder][]][NOT[sdi][]]]'
-
-@parameterized.expand(STANDARD_PARAMS)
-@skip_if_disabled('quickxplainwithtestcases_1cs_1')
-def test_quickxplainwithtestcases_1cs_1(name, is_incremental, solver_name, use_sat4j, enable_profiling):
-    print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
-
-    with (profiler_session(_profiler_preset(enable_profiling)) as profiler):
-        print_profiler_status(profiler)
-
-        positive_testcases = TestSuiteReader(Resources.FM_10_1_POSITIVE_TESTCASES).transform()
-        model = (DiagnosisModelBuilder
-                 .from_uvl(Resources.FM_10_1)
-                 .use_incremental(is_incremental)
-                 .with_positive_testcases(positive_testcases)
-                 .build())
-
-        checker = create_checker(use_sat4j, model)
-        quickxplain = QuickXPlainWithTestCases(checker)
-        _, cs = quickxplain.find_conflict_set(model.get_c(), model.get_b(), model.get_tc())
-
-        cs_mess = _format_results("Conflict", "Conflicts", [cs], model)
-
-        profiler.print_summary(include_raw_timers=True)
-        print(cs_mess)
-        assert cs_mess == 'Conflict: [(mandatory) CheckR[1,1]SDC , (Constraint 0) OR[NOT[CBRec][]][NOT[SDC][]]]'
-
-@parameterized.expand(STANDARD_PARAMS)
-@skip_if_disabled('quickxplainwithtestcases_1diag_1_neg')
-def test_quickxplainwithtestcases_1diag_1_neg(name, is_incremental, solver_name, use_sat4j, enable_profiling):
-    print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
-
-    with (profiler_session(_profiler_preset(enable_profiling)) as profiler):
-        print_profiler_status(profiler)
-
-        positive_testcases = TestSuiteReader(Resources.FM_10_1_POSITIVE_TESTCASES).transform()
-        negative_testcases = TestSuiteReader(Resources.FM_10_1_NEGATIVE_TESTCASES).transform()
-        model = (DiagnosisModelBuilder
-                 .from_uvl(Resources.FM_10_1)
-                 .use_incremental(is_incremental)
-                 .with_positive_testcases(positive_testcases)
-                 .with_negative_testcases(negative_testcases)
-                 .build())
-
-        checker = create_checker(use_sat4j, model)
-        quickxplain = QuickXPlainWithTestCases(checker)
-        _, cs = quickxplain.find_conflict_set(model.get_c(), model.get_b(), model.get_tc(), model.get_neg_tv())
-
-        diag_mess = _format_results("Conflict", "Conflicts", [cs], model)
-
-        profiler.print_summary(include_raw_timers=True)
-        print(diag_mess)
-        assert diag_mess == 'Conflict: [(mandatory) CheckR[1,1]SDC ]'
-
-# =============================================================================
-# HSDAG WITH FASTDIAG TESTS
-# =============================================================================
-
-@parameterized.expand(STANDARD_PARAMS)
-@skip_if_disabled('hsdag_fastdiag_1diag')
-def test_hsdag_fastdiag_1diag(name, is_incremental, solver_name, use_sat4j, enable_profiling):
-    """HSDAG with FastDiag: find one diagnosis."""
-    print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
-
-    with profiler_session(_profiler_preset(enable_profiling)) as profiler:
-        print_profiler_status(profiler)
-
-        model = (DiagnosisModelBuilder
-                 .from_fide(Resources.FM_INCONSISTENT)
-                 .use_incremental(is_incremental)
-                 .build())
-
-        builder = (PySATDiagnosisBuilder.for_diagnosis_sat4j() if use_sat4j else PySATDiagnosisBuilder.for_diagnosis())
-        hsdag = builder.with_max_diagnoses(1).build()
-        hsdag.execute(model)
-        result = hsdag.get_result()
-
-        profiler.print_summary(include_raw_timers=True)
-        print(result)
-        assert result == ['Diagnosis: [(5) IMPLIES[Smartwatch][Analog]]', 'No conflict found']
-
-@parameterized.expand(STANDARD_PARAMS)
-@skip_if_disabled('hsdag_fastdiag_2diag')
-def test_hsdag_fastdiag_2diag(name, is_incremental, solver_name, use_sat4j, enable_profiling):
-    """HSDAG with FastDiag: find two diagnoses."""
-    print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
-
-    with profiler_session(_profiler_preset(enable_profiling)) as profiler:
-        print_profiler_status(profiler)
-
-        model = (DiagnosisModelBuilder
-                 .from_fide(Resources.FM_INCONSISTENT)
-                 .use_incremental(is_incremental)
-                 .build())
-
-        builder = PySATDiagnosisBuilder.for_diagnosis_sat4j() if use_sat4j else PySATDiagnosisBuilder.for_diagnosis()
-        hsdag = builder.with_max_diagnoses(2).build()
-        hsdag.execute(model)
-        result = hsdag.get_result()
-
-        profiler.print_summary(include_raw_timers=True)
-        print(result)
-        assert result == ['Diagnoses: [(5) IMPLIES[Smartwatch][Analog]],[(4) IMPLIES[Smartwatch][Cellular]]',
-                          'No conflict found']
-
-@parameterized.expand(STANDARD_PARAMS)
-@skip_if_disabled('hsdag_fastdiag_all')
-def test_hsdag_fastdiag_all(name, is_incremental, solver_name, use_sat4j, enable_profiling):
-    """HSDAG with FastDiag: find all diagnoses."""
-    print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
-
-    with profiler_session(_profiler_preset(enable_profiling)) as profiler:
-        print_profiler_status(profiler)
-
-        model = (DiagnosisModelBuilder
-                 .from_fide(Resources.FM_INCONSISTENT)
-                 .use_incremental(is_incremental)
-                 .build())
-
-        builder = PySATDiagnosisBuilder.for_diagnosis_sat4j() if use_sat4j else PySATDiagnosisBuilder.for_diagnosis()
-        hsdag = builder.build()
-        hsdag.execute(model)
-        result = hsdag.get_result()
-
-        profiler.print_summary(include_raw_timers=True)
-        print(result)
-        assert result == [
-            'Diagnoses: [(5) IMPLIES[Smartwatch][Analog]],[(4) IMPLIES[Smartwatch][Cellular]],[(3) OR[NOT[Analog][]][NOT[Cellular][]]]',
-            'Conflict: [(5) IMPLIES[Smartwatch][Analog], (4) IMPLIES[Smartwatch][Cellular], (3) OR[NOT[Analog][]][NOT[Cellular][]]]']
-
-# =============================================================================
-# HSDAG WITH QUICKXPLAIN TESTS
-# =============================================================================
-
-@parameterized.expand(STANDARD_PARAMS)
-@skip_if_disabled('hsdag_quickxplain_1cs')
-def test_hsdag_quickxplain_1cs(name, is_incremental, solver_name, use_sat4j, enable_profiling):
-    """HSDAG with QuickXPlain: find one conflict."""
-    print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
-
-    with profiler_session(_profiler_preset(enable_profiling)) as profiler:
-        print_profiler_status(profiler)
-
-        model = (DiagnosisModelBuilder
-                 .from_fide(Resources.FM_INCONSISTENT)
-                 .use_incremental(is_incremental)
-                 .build())
-
-        builder = PySATDiagnosisBuilder.for_conflict_sat4j() if use_sat4j else PySATDiagnosisBuilder.for_conflict()
-        hsdag = builder.with_max_conflicts(1).build()
-        hsdag.execute(model)
-        result = hsdag.get_result()
-
-        profiler.print_summary(include_raw_timers=True)
-        print(result)
-        assert result == [
-            'Conflict: [(5) IMPLIES[Smartwatch][Analog], (4) IMPLIES[Smartwatch][Cellular], (3) OR[NOT[Analog][]][NOT[Cellular][]]]',
-            'No diagnosis found']
-
-@parameterized.expand(STANDARD_PARAMS)
-@skip_if_disabled('hsdag_quickxplain_dfs')
-def test_hsdag_quickxplain_one_depth_first_search(name, is_incremental, solver_name, use_sat4j, enable_profiling):
-    """HSDAG with QuickXPlain: find one conflict using depth-first search."""
-    print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
-
-    with profiler_session(_profiler_preset(enable_profiling)) as profiler:
-        print_profiler_status(profiler)
-
-        model = (DiagnosisModelBuilder
-                 .from_fide(Resources.FM_INCONSISTENT)
-                 .use_incremental(is_incremental)
-                 .build())
-
-        builder = PySATDiagnosisBuilder.for_conflict_sat4j() if use_sat4j else PySATDiagnosisBuilder.for_conflict()
-        hsdag = builder.with_max_diagnoses(1).with_depth_first_search(True).build()
-        hsdag.execute(model)
-        result = hsdag.get_result()
-
-        profiler.print_summary(include_raw_timers=True)
-        print(result)
-        assert result == [
-            'Conflict: [(5) IMPLIES[Smartwatch][Analog], (4) IMPLIES[Smartwatch][Cellular], (3) OR[NOT[Analog][]][NOT[Cellular][]]]',
-            'Diagnosis: [(5) IMPLIES[Smartwatch][Analog]]']
-
-@parameterized.expand(STANDARD_PARAMS)
-@skip_if_disabled('hsdag_quickxplain_2cs')
-def test_hsdag_quickxplain_2cs(name, is_incremental, solver_name, use_sat4j, enable_profiling):
-    """HSDAG with QuickXPlain: find two conflicts."""
-    print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
-
-    with profiler_session(_profiler_preset(enable_profiling)) as profiler:
-        print_profiler_status(profiler)
-
-        model = (DiagnosisModelBuilder
-                 .from_fide(Resources.FM_INCONSISTENT)
-                 .use_incremental(is_incremental)
-                 .build())
-
-        builder = PySATDiagnosisBuilder.for_conflict_sat4j() if use_sat4j else PySATDiagnosisBuilder.for_conflict()
-        hsdag = builder.with_max_conflicts(2).build()
-        hsdag.execute(model)
-        result = hsdag.get_result()
-
-        profiler.print_summary(include_raw_timers=True)
-        print(result)
-        assert result == [
-            'Conflict: [(5) IMPLIES[Smartwatch][Analog], (4) IMPLIES[Smartwatch][Cellular], (3) OR[NOT[Analog][]][NOT[Cellular][]]]',
-            'Diagnoses: [(5) IMPLIES[Smartwatch][Analog]],[(4) IMPLIES[Smartwatch][Cellular]],[(3) OR[NOT[Analog][]][NOT[Cellular][]]]']
-
-@parameterized.expand(SAT4J_ONLY_PARAMS)
-@skip_if_disabled('hsdag_quickxplain_all')
-def test_hsdag_quickxplain_all(name, is_incremental, solver_name, use_sat4j, enable_profiling):
-    """HSDAG with QuickXPlain: find all conflicts."""
-    print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
-
-    with profiler_session(_profiler_preset(enable_profiling)) as profiler:
-        print_profiler_status(profiler)
-
-        model = (DiagnosisModelBuilder
-                 .from_fide(Resources.FM_INCONSISTENT)
-                 .use_incremental(is_incremental)
-                 .build())
-
-        builder = PySATDiagnosisBuilder.for_conflict_sat4j() if use_sat4j else PySATDiagnosisBuilder.for_conflict()
-        hsdag = builder.build()
-        hsdag.execute(model)
-        result = hsdag.get_result()
-
-        profiler.print_summary(include_raw_timers=True)
-        print(result)
-        assert result == [
-            'Conflict: [(5) IMPLIES[Smartwatch][Analog], (4) IMPLIES[Smartwatch][Cellular], (3) OR[NOT[Analog][]][NOT[Cellular][]]]',
-            'Diagnoses: [(5) IMPLIES[Smartwatch][Analog]],[(4) IMPLIES[Smartwatch][Cellular]],[(3) OR[NOT[Analog][]][NOT[Cellular][]]]']
-
-# =============================================================================
-# CONFIGURATION AND TEST CASE TESTS
-# =============================================================================
-
-@parameterized.expand(STANDARD_PARAMS)
-@skip_if_disabled('hsdag_fastdiag_configuration')
-def test_hsdag_fastdiag_with_configuration(name, is_incremental, solver_name, use_sat4j, enable_profiling):
-    """HSDAG with FastDiag: diagnose with configuration."""
-    print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
-
-    with profiler_session(_profiler_preset(enable_profiling)) as profiler:
-        print_profiler_status(profiler)
-
-        configuration = ConfigurationBasicReader(Resources.CONF_NONVALID).transform()
-        model = (DiagnosisModelBuilder
-                 .from_fide(Resources.FM_CONSISTENT)
-                 .with_configuration(configuration)
-                 .use_incremental(is_incremental)
-                 .build())
-
-        builder = PySATDiagnosisBuilder.for_diagnosis_sat4j() if use_sat4j else PySATDiagnosisBuilder.for_diagnosis()
-        hsdag = builder.build()
-        hsdag.execute(model)
-        result = hsdag.get_result()
-
-        assert result == ['Diagnoses: [E-ink = true],[Analog = true]',
-                          'Conflict: [E-ink = true, Analog = true]']
-
-@parameterized.expand(STANDARD_PARAMS)
-@skip_if_disabled('hsdag_quickxplain_configuration')
-def test_hsdag_quickxplain_with_configuration(name, is_incremental, solver_name, use_sat4j, enable_profiling):
-    """HSDAG with QuickXPlain: find conflicts with configuration."""
-    print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
-
-    with profiler_session(_profiler_preset(enable_profiling)) as profiler:
-        print_profiler_status(profiler)
-
-        configuration = ConfigurationBasicReader(Resources.CONF_NONVALID).transform()
-        model = (DiagnosisModelBuilder
-                 .from_fide(Resources.FM_CONSISTENT)
-                 .with_configuration(configuration)
-                 .use_incremental(is_incremental)
-                 .build())
-
-        builder = PySATDiagnosisBuilder.for_conflict_sat4j() if use_sat4j else PySATDiagnosisBuilder.for_conflict()
-        hsdag = builder.build()
-        hsdag.execute(model)
-        result = hsdag.get_result()
-
-        profiler.print_summary(include_raw_timers=True)
-        print(result)
-        assert result == ['Conflict: [E-ink = true, Analog = true]',
-                          'Diagnoses: [E-ink = true],[Analog = true]']
-
-@parameterized.expand(STANDARD_PARAMS)
-@skip_if_disabled('hsdag_fastdiag_testcase')
-def test_hsdag_fastdiag_with_test_case(name, is_incremental, solver_name, use_sat4j, enable_profiling):
-    """HSDAG with FastDiag: diagnose with test case."""
-    print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
-
-    with profiler_session(_profiler_preset(enable_profiling)) as profiler:
-        print_profiler_status(profiler)
-
-        test_case = ConfigurationBasicReader(Resources.CONF_TESTCASE).transform()
-        model = (DiagnosisModelBuilder
-                 .from_fide(Resources.FM_DEADFEATURE)
-                 .with_test_case(test_case)
-                 .use_incremental(is_incremental)
-                 .build())
-
-        builder = PySATDiagnosisBuilder.for_diagnosis_sat4j() if use_sat4j else PySATDiagnosisBuilder.for_diagnosis()
-        hsdag = builder.build()
-        hsdag.execute(model)
-        result = hsdag.get_result()
-
-        profiler.print_summary(include_raw_timers=True)
-        print(result)
-        assert result == ['Diagnoses: [(4) IMPLIES[Smartwatch][Analog]],'
-                          '[(alternative) Screen[1,1]Analog High Resolution E-ink ]',
-                          'Conflict: [(4) IMPLIES[Smartwatch][Analog], '
-                          '(alternative) Screen[1,1]Analog High Resolution E-ink ]']
-
-@parameterized.expand(STANDARD_PARAMS)
-@skip_if_disabled('hsdag_quickxplain_testcase')
-def test_hsdag_quickxplain_with_testcase(name, is_incremental, solver_name, use_sat4j, enable_profiling):
-    """HSDAG with QuickXPlain: find conflicts with test case."""
-    print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
-
-    with profiler_session(_profiler_preset(enable_profiling)) as profiler:
-        print_profiler_status(profiler)
-
-        test_case = ConfigurationBasicReader(Resources.CONF_TESTCASE).transform()
-        model = (DiagnosisModelBuilder
-                 .from_fide(Resources.FM_DEADFEATURE)
-                 .with_test_case(test_case)
-                 .use_incremental(is_incremental)
-                 .build())
-
-        builder = PySATDiagnosisBuilder.for_conflict_sat4j() if use_sat4j else PySATDiagnosisBuilder.for_conflict()
-        hsdag = builder.build()
-        hsdag.execute(model)
-        result = hsdag.get_result()
-
-        print(result)
-        assert result == ['Conflict: [(4) IMPLIES[Smartwatch][Analog], '
-                          '(alternative) Screen[1,1]Analog High Resolution E-ink ]',
-                          'Diagnoses: [(4) IMPLIES[Smartwatch][Analog]],'
-                          '[(alternative) Screen[1,1]Analog High Resolution E-ink ]']
-
-# =============================================================================
-# HSDAG + KBDIAG TESTS
-# =============================================================================
-
-@parameterized.expand(STANDARD_PARAMS)
-@skip_if_disabled('hsdag_kbdiag_1diag_1')
-def test_hsdag_kbdiag_1diag_1(name, is_incremental, solver_name, use_sat4j, enable_profiling):
-    """HSDAG with KBDIAG: find one diagnosis."""
-    print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
-
-    with (profiler_session(_profiler_preset(enable_profiling)) as profiler):
-        print_profiler_status(profiler)
-
-        positive_testcases = TestSuiteReader(Resources.FM_10_1_POSITIVE_TESTCASES).transform()
-        model = (DiagnosisModelBuilder
-                 .from_uvl(Resources.FM_10_1)
-                 .with_positive_testcases(positive_testcases)
-                 .use_incremental(is_incremental)
-                 .build())
-
-        builder = None if use_sat4j else PySATTestcaseBuilder.for_debugging()
-        if builder is None:
-            return
-
-        hsdag = builder.with_max_diagnoses(1).build()
-        hsdag.execute(model)
-        result = hsdag.get_result()
-
-        profiler.print_summary(include_raw_timers=True)
-        print(result)
-        assert result == [
-            'Diagnosis: [(mandatory) CheckR[1,1]RecEng , (mandatory) CheckR[1,1]QType , (Constraint 0) OR[NOT[CBRec][]][NOT[SDC][]], (Constraint 1) OR[NOT[SDC][]][Stat]]',
-            'No conflict found']
-
-@parameterized.expand(STANDARD_PARAMS)
-@skip_if_disabled('hsdag_kbdiag_1diag_1_neg')
-def test_hsdag_kbdiag_1diag_1_neg(name, is_incremental, solver_name, use_sat4j, enable_profiling):
-    """HSDAG with KBDIAG: find one diagnosis."""
-    print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
-
-    with (profiler_session(_profiler_preset(enable_profiling)) as profiler):
-        print_profiler_status(profiler)
-
-        positive_testcases = TestSuiteReader(Resources.FM_10_1_POSITIVE_TESTCASES).transform()
-        negative_testcases = TestSuiteReader(Resources.FM_10_1_NEGATIVE_TESTCASES).transform()
-        model = (DiagnosisModelBuilder
-                 .from_uvl(Resources.FM_10_1)
-                 .with_positive_testcases(positive_testcases)
-                 .with_negative_testcases(negative_testcases)
-                 .use_incremental(is_incremental)
-                 .build())
-
-        builder = None if use_sat4j else PySATTestcaseBuilder.for_debugging()
-        if builder is None:
-            return
-
-        hsdag = (builder
-                 .with_max_diagnoses(1)
-                 .build())
-        hsdag.execute(model)
-        result = hsdag.get_result()
-
-        profiler.print_summary(include_raw_timers=True)
-        print(result)
-        assert result == [
-            'Diagnosis: [(mandatory) CheckR[1,1]RecEng , (mandatory) CheckR[1,1]SDC , (mandatory) CheckR[1,1]QType ]',
-            'No conflict found']
-
-@parameterized.expand(STANDARD_PARAMS)
-@skip_if_disabled('hsdag_kbdiag_all_1')
-def test_hsdag_kbdiag_all_1(name, is_incremental, solver_name, use_sat4j, enable_profiling):
-    """HSDAG with KBDIAG: all diagnoses."""
-    print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
-
-    with (profiler_session(_profiler_preset(enable_profiling)) as profiler):
-        print_profiler_status(profiler)
-
-        positive_testcases = TestSuiteReader(Resources.FM_10_1_POSITIVE_TESTCASES).transform()
-        model = (DiagnosisModelBuilder
-                 .from_uvl(Resources.FM_10_1)
-                 .with_positive_testcases(positive_testcases)
-                 .use_incremental(is_incremental)
-                 .build())
-
-        builder = None if use_sat4j else PySATTestcaseBuilder.for_debugging()
-        if builder is None:
-            return
-
-        hsdag = builder.build()
-        hsdag.execute(model)
-        result = hsdag.get_result()
-
-        profiler.print_summary(include_raw_timers=True)
-        print(result[0])
-        assert result[0] == ('Diagnoses: [(mandatory) CheckR[1,1]RecEng , (mandatory) CheckR[1,1]QType , '
-                             '(Constraint 0) OR[NOT[CBRec][]][NOT[SDC][]], '
-                             '(Constraint 1) OR[NOT[SDC][]][Stat]],[(mandatory) CheckR[1,1]RecEng , '
-                             '(mandatory) CheckR[1,1]SDC , (mandatory) CheckR[1,1]QType ]')
-
-@parameterized.expand(STANDARD_PARAMS)
-@skip_if_disabled('hsdag_kbdiag_all_1_neg')
-def test_hsdag_kbdiag_all_1_neg(name, is_incremental, solver_name, use_sat4j, enable_profiling):
-    """HSDAG with KBDIAG: all diagnoses."""
-    print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
-
-    with (profiler_session(_profiler_preset(enable_profiling)) as profiler):
-        print_profiler_status(profiler)
-
-        positive_testcases = TestSuiteReader(Resources.FM_10_1_POSITIVE_TESTCASES).transform()
-        negative_testcases = TestSuiteReader(Resources.FM_10_1_NEGATIVE_TESTCASES).transform()
-        model = (DiagnosisModelBuilder
-                 .from_uvl(Resources.FM_10_1)
-                 .with_positive_testcases(positive_testcases)
-                 .with_negative_testcases(negative_testcases)
-                 .use_incremental(is_incremental)
-                 .build())
-
-        builder = None if use_sat4j else PySATTestcaseBuilder.for_debugging()
-        if builder is None:
-            return
-
-        hsdag = (builder
-                 .build())
-        hsdag.execute(model)
-        result = hsdag.get_result()
-
-        profiler.print_summary(include_raw_timers=True)
-        print(result[0])
-        assert result[0] == 'Diagnoses: [(mandatory) CheckR[1,1]RecEng , (mandatory) CheckR[1,1]SDC , (mandatory) CheckR[1,1]QType ],[(mandatory) CheckR[1,1]RecEng , (alternative) RecEng[1,1]UBRec CBRec , (optional) CheckR[0,1]Stat , (mandatory) CheckR[1,1]QType , (or) QType[1,2]MulChoice ImgAnaTask , (Constraint 0) OR[NOT[CBRec][]][NOT[SDC][]], (Constraint 1) OR[NOT[SDC][]][Stat]],[(mandatory) CheckR[1,1]RecEng , (optional) CheckR[0,1]Stat , (mandatory) CheckR[1,1]QType , (or) QType[1,2]MulChoice ImgAnaTask , (Constraint 0) OR[NOT[CBRec][]][NOT[SDC][]], (Constraint 1) OR[NOT[SDC][]][Stat]],[(mandatory) CheckR[1,1]RecEng , (alternative) RecEng[1,1]UBRec CBRec , (mandatory) CheckR[1,1]QType , (or) QType[1,2]MulChoice ImgAnaTask , (Constraint 0) OR[NOT[CBRec][]][NOT[SDC][]], (Constraint 1) OR[NOT[SDC][]][Stat]],[(mandatory) CheckR[1,1]RecEng , (alternative) RecEng[1,1]UBRec CBRec , (optional) CheckR[0,1]Stat , (mandatory) CheckR[1,1]QType , (Constraint 0) OR[NOT[CBRec][]][NOT[SDC][]], (Constraint 1) OR[NOT[SDC][]][Stat]],[(mandatory) CheckR[1,1]RecEng , (mandatory) CheckR[1,1]QType , (or) QType[1,2]MulChoice ImgAnaTask , (Constraint 0) OR[NOT[CBRec][]][NOT[SDC][]], (Constraint 1) OR[NOT[SDC][]][Stat]],[(mandatory) CheckR[1,1]RecEng , (optional) CheckR[0,1]Stat , (mandatory) CheckR[1,1]QType , (Constraint 0) OR[NOT[CBRec][]][NOT[SDC][]], (Constraint 1) OR[NOT[SDC][]][Stat]]'
-
-@parameterized.expand(STANDARD_PARAMS)
-@skip_if_disabled('hsdag_kbdiag_1diag_2')
-def test_hsdag_kbdiag_1diag_2(name, is_incremental, solver_name, use_sat4j, enable_profiling):
-    """HSDAG with KBDIAG: find one diagnosis."""
-    print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
-
-    with (profiler_session(_profiler_preset(enable_profiling)) as profiler):
-        print_profiler_status(profiler)
-
-        positive_testcases = TestSuiteReader(Resources.FM_10_2_POSITIVE_TESTCASES).transform()
-        model = (DiagnosisModelBuilder
-                 .from_uvl(Resources.FM_10_2)
-                 .with_positive_testcases(positive_testcases)
-                 .use_incremental(is_incremental)
-                 .build())
-
-        builder = None if use_sat4j else PySATTestcaseBuilder.for_debugging()
-        if builder is None:
-            return
-
-        hsdag = builder.with_max_diagnoses(1).build()
-        hsdag.execute(model)
-        result = hsdag.get_result()
-
-        profiler.print_summary(include_raw_timers=True)
-        print(result)
-        assert result == [
-            'Diagnosis: [(mandatory) jplug[1,1]interface , (alternative) interface[1,1]sdi mdi , (optional) diagram_builder[0,1]uml , (Constraint 0) OR[NOT[gui_builder][]][NOT[sdi][]]]',
-            'No conflict found']
-
-@parameterized.expand(STANDARD_PARAMS)
-@skip_if_disabled('hsdag_kbdiag_1diag_2_neg')
-def test_hsdag_kbdiag_1diag_2_neg(name, is_incremental, solver_name, use_sat4j, enable_profiling):
-    """HSDAG with KBDIAG: find one diagnosis."""
-    print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
-
-    with (profiler_session(_profiler_preset(enable_profiling)) as profiler):
-        print_profiler_status(profiler)
-
-        positive_testcases = TestSuiteReader(Resources.FM_10_2_POSITIVE_TESTCASES).transform()
-        negative_testcases = TestSuiteReader(Resources.FM_10_2_NEGATIVE_TESTCASES).transform()
-        model = (DiagnosisModelBuilder
-                 .from_uvl(Resources.FM_10_2)
-                 .with_positive_testcases(positive_testcases)
-                 .with_negative_testcases(negative_testcases)
-                 .use_incremental(is_incremental)
-                 .build())
-
-        builder = None if use_sat4j else PySATTestcaseBuilder.for_debugging()
-        if builder is None:
-            return
-
-        hsdag = (builder
-                 .with_max_diagnoses(1)
-                 .build())
-        hsdag.execute(model)
-        result = hsdag.get_result()
-
-        profiler.print_summary(include_raw_timers=True)
-        print(result)
-        assert result == [
-            'Diagnosis: [(mandatory) jplug[1,1]interface , (alternative) interface[1,1]sdi mdi , (optional) diagram_builder[0,1]uml , (Constraint 0) OR[NOT[gui_builder][]][NOT[sdi][]]]',
-            'No conflict found']
-
-@parameterized.expand(STANDARD_PARAMS)
-@skip_if_disabled('hsdag_kbdiag_all_2')
-def test_hsdag_kbdiag_all_2(name, is_incremental, solver_name, use_sat4j, enable_profiling):
-    """HSDAG with KBDIAG: all diagnoses."""
-    print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
-
-    with (profiler_session(_profiler_preset(enable_profiling)) as profiler):
-        print_profiler_status(profiler)
-
-        positive_testcases = TestSuiteReader(Resources.FM_10_2_POSITIVE_TESTCASES).transform()
-        model = (DiagnosisModelBuilder
-                 .from_uvl(Resources.FM_10_2)
-                 .with_positive_testcases(positive_testcases)
-                 .use_incremental(is_incremental)
-                 .build())
-
-        builder = None if use_sat4j else PySATTestcaseBuilder.for_debugging()
-        if builder is None:
-            return
-
-        hsdag = builder.build()
-        hsdag.execute(model)
-        result = hsdag.get_result()
-
-        profiler.print_summary(include_raw_timers=True)
-        print(result[0])
-        assert result[0] == ('Diagnosis: [(mandatory) jplug[1,1]interface , (alternative) interface[1,1]sdi mdi , (optional) diagram_builder[0,1]uml , (Constraint 0) OR[NOT[gui_builder][]][NOT[sdi][]]]')
-
-@parameterized.expand(STANDARD_PARAMS)
-@skip_if_disabled('hsdag_kbdiag_all_2_neg')
-def test_hsdag_kbdiag_all_2_neg(name, is_incremental, solver_name, use_sat4j, enable_profiling):
-    """HSDAG with KBDIAG: all diagnoses."""
-    print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
-
-    with (profiler_session(_profiler_preset(enable_profiling)) as profiler):
-        print_profiler_status(profiler)
-
-        positive_testcases = TestSuiteReader(Resources.FM_10_2_POSITIVE_TESTCASES).transform()
-        negative_testcases = TestSuiteReader(Resources.FM_10_2_NEGATIVE_TESTCASES).transform()
-        model = (DiagnosisModelBuilder
-                 .from_uvl(Resources.FM_10_2)
-                 .with_positive_testcases(positive_testcases)
-                 .with_negative_testcases(negative_testcases)
-                 .use_incremental(is_incremental)
-                 .build())
-
-        builder = None if use_sat4j else PySATTestcaseBuilder.for_debugging()
-        if builder is None:
-            return
-
-        hsdag = (builder
-                 .build())
-        hsdag.execute(model)
-        result = hsdag.get_result()
-
-        profiler.print_summary(include_raw_timers=True)
-        print(result[0])
-        assert result[0] == ('Diagnosis: [(mandatory) jplug[1,1]interface , (alternative) interface[1,1]sdi mdi , (optional) diagram_builder[0,1]uml , (Constraint 0) OR[NOT[gui_builder][]][NOT[sdi][]]]')
-
-# =============================================================================
-# HSDAG + QUICKXPLAINWITHTESTCASES TESTS
-# =============================================================================
-
-@parameterized.expand(STANDARD_PARAMS)
-@skip_if_disabled('hsdag_quickxplainwithtestcases_1diag_1')
-def test_hsdag_quickxplainwithtestcases_1diag_1(name, is_incremental, solver_name, use_sat4j, enable_profiling):
-    print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
-
-    with (profiler_session(_profiler_preset(enable_profiling)) as profiler):
-        print_profiler_status(profiler)
-
-        positive_testcases = TestSuiteReader(Resources.FM_10_1_POSITIVE_TESTCASES).transform()
-        model = (DiagnosisModelBuilder
-                 .from_uvl(Resources.FM_10_1)
-                 .with_positive_testcases(positive_testcases)
-                 .use_incremental(is_incremental)
-                 .build())
-
-        builder = None if use_sat4j else PySATTestcaseQuickXplainBuilder.for_debugging()
-        if builder is None:
-            return
-
-        op = builder.with_max_diagnoses(1).build()
-        op.execute(model)
-        result = op.get_result()
-
-        profiler.print_summary(include_raw_timers=True)
-        print(result)
-        assert result == [
-            'Diagnosis: [(mandatory) CheckR[1,1]SDC , (mandatory) CheckR[1,1]RecEng , (mandatory) CheckR[1,1]QType ]',
-            'Conflicts: [(Constraint 0) OR[NOT[CBRec][]][NOT[SDC][]], (mandatory) '
-            'CheckR[1,1]SDC ],[(Constraint 1) OR[NOT[SDC][]][Stat], (mandatory) '
-            'CheckR[1,1]SDC ],[(mandatory) CheckR[1,1]RecEng ],[(mandatory) '
-            'CheckR[1,1]QType ]']
-
-@parameterized.expand(STANDARD_PARAMS)
-@skip_if_disabled('hsdag_quickxplainwithtestcases_1diag_1_neg')
-def test_hsdag_quickxplainwithtestcases_1diag_1_neg(name, is_incremental, solver_name, use_sat4j, enable_profiling):
-    print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
-
-    with (profiler_session(_profiler_preset(enable_profiling)) as profiler):
-        print_profiler_status(profiler)
-
-        positive_testcases = TestSuiteReader(Resources.FM_10_1_POSITIVE_TESTCASES).transform()
-        negative_testcases = TestSuiteReader(Resources.FM_10_1_NEGATIVE_TESTCASES).transform()
-        model = (DiagnosisModelBuilder
-                 .from_uvl(Resources.FM_10_1)
-                 .with_positive_testcases(positive_testcases)
-                 .with_negative_testcases(negative_testcases)
-                 .use_incremental(is_incremental)
-                 .build())
-
-        builder = None if use_sat4j else PySATTestcaseQuickXplainBuilder.for_debugging()
-        if builder is None:
-            return
-
-        hsdag = (builder
-                 .with_max_diagnoses(1)
-                 .build())
-        hsdag.execute(model)
-        result = hsdag.get_result()
-
-        profiler.print_summary(include_raw_timers=True)
-        print(result)
-        assert result == [
-            'Diagnosis: [(mandatory) CheckR[1,1]SDC , (mandatory) CheckR[1,1]RecEng , (mandatory) CheckR[1,1]QType ]',
-            'Conflicts: [(mandatory) CheckR[1,1]SDC ],[(mandatory) CheckR[1,1]RecEng ],[(mandatory) CheckR[1,1]QType ]']
-
-@parameterized.expand(STANDARD_PARAMS)
-@skip_if_disabled('hsdag_quickxplainwithtestcases_all_1')
-def test_hsdag_quickxplainwithtestcases_all_1(name, is_incremental, solver_name, use_sat4j, enable_profiling):
-    print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
-
-    with (profiler_session(_profiler_preset(enable_profiling)) as profiler):
-        print_profiler_status(profiler)
-
-        positive_testcases = TestSuiteReader(Resources.FM_10_1_POSITIVE_TESTCASES).transform()
-        model = (DiagnosisModelBuilder
-                 .from_uvl(Resources.FM_10_1)
-                 .with_positive_testcases(positive_testcases)
-                 .use_incremental(is_incremental)
-                 .build())
-
-        builder = None if use_sat4j else PySATTestcaseQuickXplainBuilder.for_debugging()
-        if builder is None:
-            return
-
-        hsdag = builder.build()
-        hsdag.execute(model)
-        result = hsdag.get_result()
-
-        profiler.print_summary(include_raw_timers=True)
-        print(result[0])
-        assert result[0] == ('Diagnoses: [(mandatory) CheckR[1,1]SDC , (mandatory) CheckR[1,1]RecEng , '
-                             '(mandatory) CheckR[1,1]QType ],[(Constraint 0) OR[NOT[CBRec][]][NOT[SDC][]], '
-                             '(Constraint 1) OR[NOT[SDC][]][Stat], (mandatory) CheckR[1,1]RecEng , '
-                             '(mandatory) CheckR[1,1]QType ],[(Constraint 0) OR[NOT[CBRec][]][NOT[SDC][]], '
-                             '(mandatory) CheckR[1,1]SDC , (mandatory) CheckR[1,1]RecEng , (mandatory) '
-                             'CheckR[1,1]QType ]')
-
-@parameterized.expand(STANDARD_PARAMS)
-@skip_if_disabled('hsdag_quickxplainwithtestcases_all_1_neg')
-def test_hsdag_quickxplainwithtestcases_all_1_neg(name, is_incremental, solver_name, use_sat4j, enable_profiling):
-    print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
-
-    with (profiler_session(_profiler_preset(enable_profiling)) as profiler):
-        print_profiler_status(profiler)
-
-        positive_testcases = TestSuiteReader(Resources.FM_10_1_POSITIVE_TESTCASES).transform()
-        negative_testcases = TestSuiteReader(Resources.FM_10_1_NEGATIVE_TESTCASES).transform()
-        model = (DiagnosisModelBuilder
-                 .from_uvl(Resources.FM_10_1)
-                 .with_positive_testcases(positive_testcases)
-                 .with_negative_testcases(negative_testcases)
-                 .use_incremental(is_incremental)
-                 .build())
-
-        builder = None if use_sat4j else PySATTestcaseBuilder.for_debugging()
-        if builder is None:
-            return
-
-        hsdag = (builder
-                 .build())
-        hsdag.execute(model)
-        result = hsdag.get_result()
-
-        profiler.print_summary(include_raw_timers=True)
-        print(result[0])
-        assert result[0] == ('Diagnoses: [(mandatory) CheckR[1,1]RecEng , (mandatory) CheckR[1,1]SDC , '
-                             '(mandatory) CheckR[1,1]QType ],[(mandatory) CheckR[1,1]RecEng , '
-                             '(alternative) RecEng[1,1]UBRec CBRec , (optional) CheckR[0,1]Stat , '
-                             '(mandatory) CheckR[1,1]QType , (or) QType[1,2]MulChoice ImgAnaTask , '
-                             '(Constraint 0) OR[NOT[CBRec][]][NOT[SDC][]], (Constraint 1) '
-                             'OR[NOT[SDC][]][Stat]],[(mandatory) CheckR[1,1]RecEng , (optional) '
-                             'CheckR[0,1]Stat , (mandatory) CheckR[1,1]QType , (or) QType[1,2]MulChoice '
-                             'ImgAnaTask , (Constraint 0) OR[NOT[CBRec][]][NOT[SDC][]], (Constraint 1) '
-                             'OR[NOT[SDC][]][Stat]],[(mandatory) CheckR[1,1]RecEng , (alternative) '
-                             'RecEng[1,1]UBRec CBRec , (mandatory) CheckR[1,1]QType , (or) '
-                             'QType[1,2]MulChoice ImgAnaTask , (Constraint 0) '
-                             'OR[NOT[CBRec][]][NOT[SDC][]], (Constraint 1) '
-                             'OR[NOT[SDC][]][Stat]],[(mandatory) CheckR[1,1]RecEng , (alternative) '
-                             'RecEng[1,1]UBRec CBRec , (optional) CheckR[0,1]Stat , (mandatory) '
-                             'CheckR[1,1]QType , (Constraint 0) OR[NOT[CBRec][]][NOT[SDC][]], (Constraint '
-                             '1) OR[NOT[SDC][]][Stat]],[(mandatory) CheckR[1,1]RecEng , (mandatory) '
-                             'CheckR[1,1]QType , (or) QType[1,2]MulChoice ImgAnaTask , (Constraint 0) '
-                             'OR[NOT[CBRec][]][NOT[SDC][]], (Constraint 1) '
-                             'OR[NOT[SDC][]][Stat]],[(mandatory) CheckR[1,1]RecEng , (optional) '
-                             'CheckR[0,1]Stat , (mandatory) CheckR[1,1]QType , (Constraint 0) '
-                             'OR[NOT[CBRec][]][NOT[SDC][]], (Constraint 1) OR[NOT[SDC][]][Stat]]')
-
-# =============================================================================
-# WIPEOUTR_FM TESTS
-# =============================================================================
-
-@parameterized.expand(STANDARD_PARAMS)
-@skip_if_disabled('wipeoutr_fm_redundancy')
-def test_wipeoutr_fm_redundancy(name, is_incremental, solver_name, use_sat4j, enable_profiling):
-    """Test WipeOutR_FM: detect redundant constraints in feature model.
-
-    Uses a feature model with a redundant constraint:
-    - RedundantFM (root)
-      - FeatureA (mandatory)
-      - FeatureB (mandatory)
-      - FeatureC (optional)
-    - Constraint 0: RedundantFM => FeatureA (REDUNDANT - FeatureA is already mandatory)
-    - Constraint 1: FeatureC <=> FeatureB (NOT redundant)
-    """
-    print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
-
-    with profiler_session(_profiler_preset(enable_profiling)) as profiler:
-        print_profiler_status(profiler)
-
-        # Load model with negated forms created during transformation
-        model = (DiagnosisModelBuilder
-                 .from_uvl(Resources.FM_REDUNDANT)
-                 .for_redundancy(True)
-                 .use_incremental(is_incremental)
-                 .build())
-
-        # Verify negated constraint map is populated
-        print(f"Constraint map: {list(model.constraint_map.keys())}")
-        print(f"Negated constraint map: {list(model.negated_constraint_map.keys())}")
-        assert len(model.negated_constraint_map) > 0, "Negated constraint map should be populated"
-
-        # Get constraint IDs and negation map
-        set_cf = model.get_cf()
-        negation_map = model.get_negation_map()
-
-        print(f"CF (constraint IDs): {set_cf}")
-        print(f"negation_map: {negation_map}")
-        assert len(set_cf) > 0, "Should have constraints"
-        assert len(negation_map) > 0, "Should have negated forms"
-
-        builder = None if use_sat4j else PySATRedundancyConstraintsBuilder.for_redundancy_constraints(profiler)
-        if builder is None:
-            return
-
-        operation = builder.build()
-        operation.execute(model)
-
-        # Get results
-        result = operation.get_result()
-
-        print(result)
-
-        profiler.print_summary(include_raw_timers=True)
-
-        assert len(result) == 2, f"Expected 2 lists (redundant and non-redundant), got {len(result)}"
-        assert result[0] == 'Redundant constraints: [(Constraint 0) IMPLIES[RedundantFM][FeatureA]]'
-        assert result[1] == 'Non-redundant constraints: [(Constraint 1) OR[NOT[FeatureC][]][NOT[FeatureB][]], (optional) RedundantFM[0,1]FeatureC , (mandatory) RedundantFM[1,1]FeatureB , (mandatory) RedundantFM[1,1]FeatureA ]'
-
-
-@parameterized.expand(STANDARD_PARAMS)
-@skip_if_disabled('pysat_redundancy_constraints')
-def test_pysat_redundancy_constraints(name, is_incremental, solver_name, use_sat4j, enable_profiling):
-    """Test PySATRedundancyConstraints operation using WipeOutR_FM algorithm.
-
-    Uses a feature model with a redundant constraint:
-    - RedundantFM (root)
-      - FeatureA (mandatory)
-      - FeatureB (mandatory)
-      - FeatureC (optional)
-    - Constraint 0: RedundantFM => FeatureA (REDUNDANT - FeatureA is already mandatory)
-    - Constraint 1: FeatureC <=> FeatureB (NOT redundant)
-
-    This test verifies the PySATRedundancyConstraints operation wrapper.
-    """
-    print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
-
-    with profiler_session(_profiler_preset(enable_profiling)) as profiler:
-        print_profiler_status(profiler)
-
-        # Load model with negated forms created during transformation
-        model = (DiagnosisModelBuilder
-                 .from_uvl(Resources.FM_REDUNDANT)
-                 .for_redundancy(True)
-                 .use_incremental(is_incremental)
-                 .build())
-
-        # Verify negated constraint map is populated
-        print(f"Constraint map: {list(model.constraint_map.keys())}")
-        print(f"Negated constraint map: {list(model.negated_constraint_map.keys())}")
-        assert len(model.negated_constraint_map) > 0, "Negated constraint map should be populated"
-
-        # Create and configure the operation using builder
-        builder = None if use_sat4j else PySATRedundancyConstraintsBuilder.for_redundancy_constraints(profiler)
-        if builder is None:
-            return
-        operation = builder.build()
-
-        # Execute the operation
-        operation.execute(model)
-
-        # Get results
-        redundant = operation.get_redundant()
-        non_redundant = operation.get_non_redundant()
-
-        # Print formatted messages
-        for msg in operation.get_result():
-            print(msg)
-
-        profiler.print_summary(include_raw_timers=True)
-
-        # Verify results
-        print(f"Found {len(redundant)} redundant and {len(non_redundant)} non-redundant constraints")
-
-        # The constraint "RedundantFM => FeatureA" should be detected as redundant
-        assert len(redundant) >= 1, f"Expected at least 1 redundant constraint, got {len(redundant)}"
-
-        # Verify total count matches
-        assert len(redundant) + len(non_redundant) == len(model.get_c()), \
-            "Total redundant + non-redundant should equal all constraints"
-
-        assert operation.get_result()[0] == 'Redundant constraints: [(Constraint 0) IMPLIES[RedundantFM][FeatureA]]'
-        assert operation.get_result()[1] == 'Non-redundant constraints: [(Constraint 1) OR[NOT[FeatureC][]][NOT[FeatureB][]], (optional) RedundantFM[0,1]FeatureC , (mandatory) RedundantFM[1,1]FeatureB , (mandatory) RedundantFM[1,1]FeatureA ]'
-
-
-# =============================================================================
-# WIPEOUTR_T TESTS
-# =============================================================================
-
-@parameterized.expand(STANDARD_PARAMS)
-@skip_if_disabled('wipeoutr_t_redundancy')
-def test_wipeoutr_t_redundancy(name, is_incremental, solver_name, use_sat4j, enable_profiling):
-    """Test PySATRedundancyTestCases operation using WipeOutR_T algorithm.
-
-    Uses the same test suite as test_wipeoutr_t_redundancy:
-    - t1: FeatureA = true (REDUNDANT - covered by t3)
-    - t2: FeatureC = false (NOT redundant)
-    - t3: FeatureA = true, FeatureB = true (more specific than t1)
-
-    This test verifies the PySATRedundancyTestCases operation wrapper.
-    """
-    print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
-
-    with profiler_session(_profiler_preset(enable_profiling)) as profiler:
-        print_profiler_status(profiler)
-
-        testsuite = TestSuiteReader(Resources.REDUNDANT_TESTSUITE).transform()
-        model = (DiagnosisModelBuilder
-                 .from_uvl(Resources.FM_REDUNDANT)
-                 .with_testcases(testsuite)
-                 .use_incremental(is_incremental)
-                 .build())
-
-        print(f"Test suite has {len(testsuite.testcases)} test cases")
-        for i, tc in enumerate(testsuite.testcases):
-            print(f"  t{i + 1}: {tc}")
-
-        builder = None if use_sat4j else PySATRedundancyTestCasesBuilder.for_redundancy_test_cases(profiler)
-        if builder is None:
-            return
-
-        operation = (builder
+            model = (DiagnosisModelBuilder
+                     .from_fide(Resources.FM_INCONSISTENT)
+                     .use_incremental(is_incremental)
                      .build())
-        operation.execute(model)
 
-        # Get results
-        result = operation.get_result()
+            checker = create_checker(use_sat4j, model)
+            fastdiag = FastDiag(checker)
+            diagnosis = fastdiag.find_diagnosis(model.get_c(), model.get_b())
 
-        print(result)
-        profiler.print_summary(include_raw_timers=True)
+            profiler.print_summary(include_raw_timers=True)
 
-        assert len(result) == 2, f"Expected 2 lists (redundant and non-redundant), got {len(result)}"
-        assert result[0] == 'Redundant test cases: [FeatureA=true]', "Expected 'FeatureA = true' to be redundant"
-        assert result[1] == 'Non-redundant test cases: [FeatureC=false, FeatureA=true & FeatureB=true]', \
-            "Expected 'FeatureC = false' and 'FeatureA = true & FeatureB = true' to be non-redundant"
+            diag_mess = _format_results("Diagnosis", "Diagnoses", [diagnosis], model)
+            print(f"{diag_mess}")
+            assert diag_mess == 'Diagnosis: [(5) IMPLIES[Smartwatch][Analog]]'
 
-# =============================================================================
-# TEST RUNNER
-# =============================================================================
+    @parameterized.expand(STANDARD_PARAMS)
+    @_skip_disabled('quickxplain_1cs')
+    def test_quickxplain_1cs(self, name, is_incremental, solver_name, use_sat4j, enable_profiling):
+        """Test QuickXPlain to find one conflict."""
+        print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
 
-def run_all_tests():
-    """Run all enabled test cases."""
-    print("\n" + "=" * 70)
-    print(" DIAGNOSIS TEST SUITE ".center(70, "="))
-    print("=" * 70)
+        with profiler_session(_profiler_preset(enable_profiling)) as profiler:
+            print_profiler_status(profiler)
 
-    # Map test names to functions
-    test_functions = [
-        ("FastDiag 1 Diagnosis", 'fastdiag_1diag', test_fastdiag_1diag),
-        ("QuickXPlain 1 Conflict", 'quickxplain_1cs', test_quickxplain_1cs),
-        ("FastDiagP 1 Diagnosis", 'fastdiagp_1diag', test_fastdiagp_1diag),
-        ("KBDiag 1 Diagnosis 1", 'kbdiag_1diag_1', test_kbdiag_1diag_1),
-        ("KBDiag 1 Diagnosis 1 neg", 'kbdiag_1diag_1_neg', test_kbdiag_1diag_1_neg),
-        ("KBDiag 1 Diagnosis 2", 'kbdiag_1diag_2', test_kbdiag_1diag_2),
-        ("KBDiag 1 Diagnosis 2 neg", 'kbdiag_1diag_2_neg', test_kbdiag_1diag_2_neg),
-        ("QuickXPlainWithTestCases 1 CS 1", 'quickxplainwithtestcases_1cs_1', test_quickxplainwithtestcases_1cs_1),
-        ("QuickXPlainWithTestCases 1 Diag 1 neg", 'quickxplainwithtestcases_1diag_1_neg', test_quickxplainwithtestcases_1diag_1_neg),
-        ("HS-DAG FastDiag 1 Diagnosis", 'hsdag_fastdiag_1diag', test_hsdag_fastdiag_1diag),
-        ("HS-DAG FastDiag 2 Diagnoses", 'hsdag_fastdiag_2diag', test_hsdag_fastdiag_2diag),
-        ("HS-DAG FastDiag All Diagnoses", 'hsdag_fastdiag_all', test_hsdag_fastdiag_all),
-        ("HS-DAG QuickXPlain 1 Conflict", 'hsdag_quickxplain_1cs', test_hsdag_quickxplain_1cs),
-        ("HS-DAG QuickXPlain DFS", 'hsdag_quickxplain_dfs', test_hsdag_quickxplain_one_depth_first_search),
-        ("HS-DAG QuickXPlain 2 Conflicts", 'hsdag_quickxplain_2cs', test_hsdag_quickxplain_2cs),
-        ("HS-DAG QuickXPlain All Conflicts", 'hsdag_quickxplain_all', test_hsdag_quickxplain_all),
-        ("HS-DAG FastDiag with Config", 'hsdag_fastdiag_configuration', test_hsdag_fastdiag_with_configuration),
-        ("HS-DAG QuickXPlain with Config", 'hsdag_quickxplain_configuration', test_hsdag_quickxplain_with_configuration),
-        ("HS-DAG FastDiag with Test Case", 'hsdag_fastdiag_testcase', test_hsdag_fastdiag_with_test_case),
-        ("HS-DAG QuickXPlain with Test Case", 'hsdag_quickxplain_testcase', test_hsdag_quickxplain_with_testcase),
-        ("HS-DAG KBDiag 1 Diagnosis 1", 'hsdag_kbdiag_1diag_1', test_hsdag_kbdiag_1diag_1),
-        ("HS-DAG KBDiag 1 Diagnosis 1 neg", 'hsdag_kbdiag_1diag_1_neg', test_hsdag_kbdiag_1diag_1_neg),
-        ("HS-DAG KBDiag All Diagnoses 1", 'hsdag_kbdiag_all_1', test_hsdag_kbdiag_all_1),
-        ("HS-DAG KBDiag All Diagnoses 1 neg", 'hsdag_kbdiag_all_1_neg', test_hsdag_kbdiag_all_1_neg),
-        ("HS-DAG KBDiag 1 Diagnosis 2", 'hsdag_kbdiag_1diag_2', test_hsdag_kbdiag_1diag_2),
-        ("HS-DAG KBDiag 1 Diagnosis 2 neg", 'hsdag_kbdiag_1diag_2_neg', test_hsdag_kbdiag_1diag_2_neg),
-        ("HS-DAG KBDiag All Diagnoses 2", 'hsdag_kbdiag_all_2', test_hsdag_kbdiag_all_2),
-        ("HS-DAG KBDiag All Diagnoses 2 neg", 'hsdag_kbdiag_all_2_neg', test_hsdag_kbdiag_all_2_neg),
-        ("HS-DAG QuickXPlainWithTestCases 1 CS 1", 'hsdag_quickxplainwithtestcases_1diag_1', test_hsdag_quickxplainwithtestcases_1diag_1),
-        ("HS-DAG QuickXPlainWithTestCases 1 CS 1 neg", 'hsdag_quickxplainwithtestcases_1diag_1_neg', test_hsdag_quickxplainwithtestcases_1diag_1_neg),
-        ("HS-DAG QuickXPlainWithTestCases All CS 1", 'hsdag_quickxplainwithtestcases_all_1', test_hsdag_quickxplainwithtestcases_all_1),
-        ("HS-DAG QuickXPlainWithTestCases All CS 1 neg", 'hsdag_quickxplainwithtestcases_all_1_neg', test_hsdag_quickxplainwithtestcases_all_1_neg),
-        ("WipeOutR_FM Redundancy", 'wipeoutr_fm_redundancy', test_wipeoutr_fm_redundancy),
-        ("PySAT Redundancy Constraints", 'pysat_redundancy_constraints', test_pysat_redundancy_constraints),
-        ("WipeOutR_T Redundancy", 'wipeoutr_t_redundancy', test_wipeoutr_t_redundancy),
-    ]
+            model = (DiagnosisModelBuilder
+                     .from_fide(Resources.FM_INCONSISTENT)
+                     .use_incremental(is_incremental)
+                     .build())
 
-    passed = 0
-    failed = 0
-    skipped = 0
+            checker = create_checker(use_sat4j, model)
+            quickxplain = QuickXPlain(checker)
+            conflict = quickxplain.find_conflict(model.get_c(), model.get_b())
 
-    for display_name, test_key, test_func in test_functions:
-        if not ENABLED_TESTS.get(test_key, True):
-            print(f"\n[SKIPPED] {display_name}")
-            skipped += 1
-            continue
+            profiler.print_summary(include_raw_timers=True)
 
-        try:
-            test_func()
-            passed += 1
-        except Exception as e:
-            failed += 1
-            print(f"\n[FAILED] {display_name}")
-            print(f"Error: {e}")
-            import traceback
-            traceback.print_exc()
+            cs_mess = _format_results("Conflict", "Conflicts", [conflict], model)
+            print(f"{cs_mess}")
+            assert cs_mess == 'Conflict: [(3) OR[NOT[Analog][]][NOT[Cellular][]], (4) IMPLIES[Smartwatch][Cellular], (5) IMPLIES[Smartwatch][Analog]]'
 
-    print("\n" + "=" * 70)
-    print(f" RESULTS: {passed} passed, {failed} failed, {skipped} skipped ".center(70, "="))
-    print("=" * 70 + "\n")
+    @parameterized.expand(STANDARD_PARAMS)
+    @_skip_disabled('fastdiagp_1diag')
+    def test_fastdiagp_1diag(self, name, is_incremental, solver_name, use_sat4j, enable_profiling):
+        """Test FastDiagP (parallel) to find one diagnosis."""
+        print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
 
-    return failed == 0
+        with profiler_session(_profiler_preset(enable_profiling), ProfilerMode.MULTI_PROCESS) as profiler:
+            print_profiler_status(profiler)
+
+            model = (DiagnosisModelBuilder
+                     .from_fide(Resources.FM_INCONSISTENT)
+                     .use_incremental(is_incremental)
+                     .build())
+
+            checker = create_checker(use_sat4j, model)
+            fastdiagp = FastDiagP(checker)
+            diagnosis = fastdiagp.find_diagnosis(model.get_c(), model.get_b())
+
+            profiler.print_summary(include_raw_timers=True)
+
+            diag_mess = _format_results("Diagnosis", "Diagnoses", [diagnosis], model)
+            print(diag_mess)
+            assert diag_mess == 'Diagnosis: [(5) IMPLIES[Smartwatch][Analog]]'
+
+    @parameterized.expand(STANDARD_PARAMS)
+    @_skip_disabled('kbdiag_1diag_1')
+    def test_kbdiag_1diag_1(self, name, is_incremental, solver_name, use_sat4j, enable_profiling):
+        """Test KBDIAG: find one diagnosis."""
+        print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
+
+        with (profiler_session(_profiler_preset(enable_profiling)) as profiler):
+            print_profiler_status(profiler)
+
+            positive_testcases = TestSuiteReader(Resources.FM_10_1_POSITIVE_TESTCASES).transform()
+            model = (DiagnosisModelBuilder
+                     .from_uvl(Resources.FM_10_1)
+                     .use_incremental(is_incremental)
+                     .with_positive_testcases(positive_testcases)
+                     .build())
+
+            checker = create_checker(use_sat4j, model)
+            kbdiag = KBDiag(checker)
+            _, diagnosis = kbdiag.find_diagnosis(model.get_c(), model.get_b(), model.get_tc())
+
+            diag_mess = _format_results("Diagnosis", "Diagnoses", [diagnosis], model)
+
+            profiler.print_summary(include_raw_timers=True)
+            print(diag_mess)
+            assert diag_mess == 'Diagnosis: [(mandatory) CheckR[1,1]RecEng , (mandatory) CheckR[1,1]QType , (Constraint 0) OR[NOT[CBRec][]][NOT[SDC][]], (Constraint 1) OR[NOT[SDC][]][Stat]]'
+
+    @parameterized.expand(STANDARD_PARAMS)
+    @_skip_disabled('kbdiag_1diag_1_neg')
+    def test_kbdiag_1diag_1_neg(self, name, is_incremental, solver_name, use_sat4j, enable_profiling):
+        """Test KBDIAG: find one diagnosis."""
+        print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
+
+        with (profiler_session(_profiler_preset(enable_profiling)) as profiler):
+            print_profiler_status(profiler)
+
+            positive_testcases = TestSuiteReader(Resources.FM_10_1_POSITIVE_TESTCASES).transform()
+            negative_testcases = TestSuiteReader(Resources.FM_10_1_NEGATIVE_TESTCASES).transform()
+            model = (DiagnosisModelBuilder
+                     .from_uvl(Resources.FM_10_1)
+                     .use_incremental(is_incremental)
+                     .with_positive_testcases(positive_testcases)
+                     .with_negative_testcases(negative_testcases)
+                     .build())
+
+            checker = create_checker(use_sat4j, model)
+            kbdiag = KBDiag(checker)
+            _, diagnosis = kbdiag.find_diagnosis(model.get_c(), model.get_b(), model.get_tc(), model.get_neg_tv())
+
+            diag_mess = _format_results("Diagnosis", "Diagnoses", [diagnosis], model)
+
+            profiler.print_summary(include_raw_timers=True)
+            print(diag_mess)
+            assert diag_mess == 'Diagnosis: [(mandatory) CheckR[1,1]RecEng , (mandatory) CheckR[1,1]SDC , (mandatory) CheckR[1,1]QType ]'
+
+    @parameterized.expand(STANDARD_PARAMS)
+    @_skip_disabled('kbdiag_1diag_2')
+    def test_kbdiag_1diag_2(self, name, is_incremental, solver_name, use_sat4j, enable_profiling):
+        """Test KBDIAG: find one diagnosis."""
+        print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
+
+        with (profiler_session(_profiler_preset(enable_profiling)) as profiler):
+            print_profiler_status(profiler)
+
+            positive_testcases = TestSuiteReader(Resources.FM_10_2_POSITIVE_TESTCASES).transform()
+            negative_testcases = TestSuiteReader(Resources.FM_10_2_NEGATIVE_TESTCASES).transform()
+            model = (DiagnosisModelBuilder
+                     .from_uvl(Resources.FM_10_2)
+                     .use_incremental(is_incremental)
+                     .with_positive_testcases(positive_testcases)
+                     .with_negative_testcases(negative_testcases)
+                     .build())
+
+            checker = create_checker(use_sat4j, model)
+            kbdiag = KBDiag(checker)
+            _, diagnosis = kbdiag.find_diagnosis(model.get_c(), model.get_b(), model.get_tc(), model.get_neg_tv())
+
+            diag_mess = _format_results("Diagnosis", "Diagnoses", [diagnosis], model)
+
+            profiler.print_summary(include_raw_timers=True)
+            print(diag_mess)
+            assert diag_mess == 'Diagnosis: [(mandatory) jplug[1,1]interface , (alternative) interface[1,1]sdi mdi , (optional) diagram_builder[0,1]uml , (Constraint 0) OR[NOT[gui_builder][]][NOT[sdi][]]]'
+
+    @parameterized.expand(STANDARD_PARAMS)
+    @_skip_disabled('kbdiag_1diag_2_neg')
+    def test_kbdiag_1diag_2_neg(self, name, is_incremental, solver_name, use_sat4j, enable_profiling):
+        """Test KBDIAG: find one diagnosis."""
+        print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
+
+        with (profiler_session(_profiler_preset(enable_profiling)) as profiler):
+            print_profiler_status(profiler)
+
+            positive_testcases = TestSuiteReader(Resources.FM_10_2_POSITIVE_TESTCASES).transform()
+            negative_testcases = TestSuiteReader(Resources.FM_10_2_NEGATIVE_TESTCASES).transform()
+            model = (DiagnosisModelBuilder
+                     .from_uvl(Resources.FM_10_2)
+                     .use_incremental(is_incremental)
+                     .with_positive_testcases(positive_testcases)
+                     .with_negative_testcases(negative_testcases)
+                     .build())
+
+            checker = create_checker(use_sat4j, model)
+            kbdiag = KBDiag(checker)
+            _, diagnosis = kbdiag.find_diagnosis(model.get_c(), model.get_b(), model.get_tc(), model.get_neg_tv())
+
+            diag_mess = _format_results("Diagnosis", "Diagnoses", [diagnosis], model)
+
+            profiler.print_summary(include_raw_timers=True)
+            print(diag_mess)
+            assert diag_mess == 'Diagnosis: [(mandatory) jplug[1,1]interface , (alternative) interface[1,1]sdi mdi , (optional) diagram_builder[0,1]uml , (Constraint 0) OR[NOT[gui_builder][]][NOT[sdi][]]]'
+
+    @parameterized.expand(STANDARD_PARAMS)
+    @_skip_disabled('quickxplainwithtestcases_1cs_1')
+    def test_quickxplainwithtestcases_1cs_1(self, name, is_incremental, solver_name, use_sat4j, enable_profiling):
+        print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
+
+        with (profiler_session(_profiler_preset(enable_profiling)) as profiler):
+            print_profiler_status(profiler)
+
+            positive_testcases = TestSuiteReader(Resources.FM_10_1_POSITIVE_TESTCASES).transform()
+            model = (DiagnosisModelBuilder
+                     .from_uvl(Resources.FM_10_1)
+                     .use_incremental(is_incremental)
+                     .with_positive_testcases(positive_testcases)
+                     .build())
+
+            checker = create_checker(use_sat4j, model)
+            quickxplain = QuickXPlainWithTestCases(checker)
+            _, cs = quickxplain.find_conflict_set(model.get_c(), model.get_b(), model.get_tc())
+
+            cs_mess = _format_results("Conflict", "Conflicts", [cs], model)
+
+            profiler.print_summary(include_raw_timers=True)
+            print(cs_mess)
+            assert cs_mess == 'Conflict: [(mandatory) CheckR[1,1]SDC , (Constraint 0) OR[NOT[CBRec][]][NOT[SDC][]]]'
+
+    @parameterized.expand(STANDARD_PARAMS)
+    @_skip_disabled('quickxplainwithtestcases_1diag_1_neg')
+    def test_quickxplainwithtestcases_1diag_1_neg(self, name, is_incremental, solver_name, use_sat4j, enable_profiling):
+        print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
+
+        with (profiler_session(_profiler_preset(enable_profiling)) as profiler):
+            print_profiler_status(profiler)
+
+            positive_testcases = TestSuiteReader(Resources.FM_10_1_POSITIVE_TESTCASES).transform()
+            negative_testcases = TestSuiteReader(Resources.FM_10_1_NEGATIVE_TESTCASES).transform()
+            model = (DiagnosisModelBuilder
+                     .from_uvl(Resources.FM_10_1)
+                     .use_incremental(is_incremental)
+                     .with_positive_testcases(positive_testcases)
+                     .with_negative_testcases(negative_testcases)
+                     .build())
+
+            checker = create_checker(use_sat4j, model)
+            quickxplain = QuickXPlainWithTestCases(checker)
+            _, cs = quickxplain.find_conflict_set(model.get_c(), model.get_b(), model.get_tc(), model.get_neg_tv())
+
+            diag_mess = _format_results("Conflict", "Conflicts", [cs], model)
+
+            profiler.print_summary(include_raw_timers=True)
+            print(diag_mess)
+            assert diag_mess == 'Conflict: [(mandatory) CheckR[1,1]SDC ]'
+
+    # =============================================================================
+    # HSDAG WITH FASTDIAG TESTS
+    # =============================================================================
+
+    @parameterized.expand(STANDARD_PARAMS)
+    @_skip_disabled('hsdag_fastdiag_1diag')
+    def test_hsdag_fastdiag_1diag(self, name, is_incremental, solver_name, use_sat4j, enable_profiling):
+        """HSDAG with FastDiag: find one diagnosis."""
+        print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
+
+        with profiler_session(_profiler_preset(enable_profiling)) as profiler:
+            print_profiler_status(profiler)
+
+            model = (DiagnosisModelBuilder
+                     .from_fide(Resources.FM_INCONSISTENT)
+                     .use_incremental(is_incremental)
+                     .build())
+
+            builder = (PySATDiagnosisBuilder.for_diagnosis_sat4j() if use_sat4j else PySATDiagnosisBuilder.for_diagnosis())
+            hsdag = builder.with_max_diagnoses(1).build()
+            hsdag.execute(model)
+            result = hsdag.get_result()
+
+            profiler.print_summary(include_raw_timers=True)
+            print(result)
+            assert result == ['Diagnosis: [(5) IMPLIES[Smartwatch][Analog]]', 'No conflict found']
+
+    @parameterized.expand(STANDARD_PARAMS)
+    @_skip_disabled('hsdag_fastdiag_2diag')
+    def test_hsdag_fastdiag_2diag(self, name, is_incremental, solver_name, use_sat4j, enable_profiling):
+        """HSDAG with FastDiag: find two diagnoses."""
+        print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
+
+        with profiler_session(_profiler_preset(enable_profiling)) as profiler:
+            print_profiler_status(profiler)
+
+            model = (DiagnosisModelBuilder
+                     .from_fide(Resources.FM_INCONSISTENT)
+                     .use_incremental(is_incremental)
+                     .build())
+
+            builder = PySATDiagnosisBuilder.for_diagnosis_sat4j() if use_sat4j else PySATDiagnosisBuilder.for_diagnosis()
+            hsdag = builder.with_max_diagnoses(2).build()
+            hsdag.execute(model)
+            result = hsdag.get_result()
+
+            profiler.print_summary(include_raw_timers=True)
+            print(result)
+            assert result == ['Diagnoses: [(5) IMPLIES[Smartwatch][Analog]],[(4) IMPLIES[Smartwatch][Cellular]]',
+                              'No conflict found']
+
+    @parameterized.expand(STANDARD_PARAMS)
+    @_skip_disabled('hsdag_fastdiag_all')
+    def test_hsdag_fastdiag_all(self, name, is_incremental, solver_name, use_sat4j, enable_profiling):
+        """HSDAG with FastDiag: find all diagnoses."""
+        print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
+
+        with profiler_session(_profiler_preset(enable_profiling)) as profiler:
+            print_profiler_status(profiler)
+
+            model = (DiagnosisModelBuilder
+                     .from_fide(Resources.FM_INCONSISTENT)
+                     .use_incremental(is_incremental)
+                     .build())
+
+            builder = PySATDiagnosisBuilder.for_diagnosis_sat4j() if use_sat4j else PySATDiagnosisBuilder.for_diagnosis()
+            hsdag = builder.build()
+            hsdag.execute(model)
+            result = hsdag.get_result()
+
+            profiler.print_summary(include_raw_timers=True)
+            print(result)
+            assert result == [
+                'Diagnoses: [(5) IMPLIES[Smartwatch][Analog]],[(4) IMPLIES[Smartwatch][Cellular]],[(3) OR[NOT[Analog][]][NOT[Cellular][]]]',
+                'Conflict: [(5) IMPLIES[Smartwatch][Analog], (4) IMPLIES[Smartwatch][Cellular], (3) OR[NOT[Analog][]][NOT[Cellular][]]]']
+
+    # =============================================================================
+    # HSDAG WITH QUICKXPLAIN TESTS
+    # =============================================================================
+
+    @parameterized.expand(STANDARD_PARAMS)
+    @_skip_disabled('hsdag_quickxplain_1cs')
+    def test_hsdag_quickxplain_1cs(self, name, is_incremental, solver_name, use_sat4j, enable_profiling):
+        """HSDAG with QuickXPlain: find one conflict."""
+        print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
+
+        with profiler_session(_profiler_preset(enable_profiling)) as profiler:
+            print_profiler_status(profiler)
+
+            model = (DiagnosisModelBuilder
+                     .from_fide(Resources.FM_INCONSISTENT)
+                     .use_incremental(is_incremental)
+                     .build())
+
+            builder = PySATDiagnosisBuilder.for_conflict_sat4j() if use_sat4j else PySATDiagnosisBuilder.for_conflict()
+            hsdag = builder.with_max_conflicts(1).build()
+            hsdag.execute(model)
+            result = hsdag.get_result()
+
+            profiler.print_summary(include_raw_timers=True)
+            print(result)
+            assert result == [
+                'Conflict: [(5) IMPLIES[Smartwatch][Analog], (4) IMPLIES[Smartwatch][Cellular], (3) OR[NOT[Analog][]][NOT[Cellular][]]]',
+                'No diagnosis found']
+
+    @parameterized.expand(STANDARD_PARAMS)
+    @_skip_disabled('hsdag_quickxplain_dfs')
+    def test_hsdag_quickxplain_one_depth_first_search(self, name, is_incremental, solver_name, use_sat4j, enable_profiling):
+        """HSDAG with QuickXPlain: find one conflict using depth-first search."""
+        print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
+
+        with profiler_session(_profiler_preset(enable_profiling)) as profiler:
+            print_profiler_status(profiler)
+
+            model = (DiagnosisModelBuilder
+                     .from_fide(Resources.FM_INCONSISTENT)
+                     .use_incremental(is_incremental)
+                     .build())
+
+            builder = PySATDiagnosisBuilder.for_conflict_sat4j() if use_sat4j else PySATDiagnosisBuilder.for_conflict()
+            hsdag = builder.with_max_diagnoses(1).with_depth_first_search(True).build()
+            hsdag.execute(model)
+            result = hsdag.get_result()
+
+            profiler.print_summary(include_raw_timers=True)
+            print(result)
+            assert result == [
+                'Conflict: [(5) IMPLIES[Smartwatch][Analog], (4) IMPLIES[Smartwatch][Cellular], (3) OR[NOT[Analog][]][NOT[Cellular][]]]',
+                'Diagnosis: [(5) IMPLIES[Smartwatch][Analog]]']
+
+    @parameterized.expand(STANDARD_PARAMS)
+    @_skip_disabled('hsdag_quickxplain_2cs')
+    def test_hsdag_quickxplain_2cs(self, name, is_incremental, solver_name, use_sat4j, enable_profiling):
+        """HSDAG with QuickXPlain: find two conflicts."""
+        print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
+
+        with profiler_session(_profiler_preset(enable_profiling)) as profiler:
+            print_profiler_status(profiler)
+
+            model = (DiagnosisModelBuilder
+                     .from_fide(Resources.FM_INCONSISTENT)
+                     .use_incremental(is_incremental)
+                     .build())
+
+            builder = PySATDiagnosisBuilder.for_conflict_sat4j() if use_sat4j else PySATDiagnosisBuilder.for_conflict()
+            hsdag = builder.with_max_conflicts(2).build()
+            hsdag.execute(model)
+            result = hsdag.get_result()
+
+            profiler.print_summary(include_raw_timers=True)
+            print(result)
+            assert result == [
+                'Conflict: [(5) IMPLIES[Smartwatch][Analog], (4) IMPLIES[Smartwatch][Cellular], (3) OR[NOT[Analog][]][NOT[Cellular][]]]',
+                'Diagnoses: [(5) IMPLIES[Smartwatch][Analog]],[(4) IMPLIES[Smartwatch][Cellular]],[(3) OR[NOT[Analog][]][NOT[Cellular][]]]']
+
+    @parameterized.expand(SAT4J_ONLY_PARAMS)
+    @_skip_disabled('hsdag_quickxplain_all')
+    def test_hsdag_quickxplain_all(self, name, is_incremental, solver_name, use_sat4j, enable_profiling):
+        """HSDAG with QuickXPlain: find all conflicts."""
+        print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
+
+        with profiler_session(_profiler_preset(enable_profiling)) as profiler:
+            print_profiler_status(profiler)
+
+            model = (DiagnosisModelBuilder
+                     .from_fide(Resources.FM_INCONSISTENT)
+                     .use_incremental(is_incremental)
+                     .build())
+
+            builder = PySATDiagnosisBuilder.for_conflict_sat4j() if use_sat4j else PySATDiagnosisBuilder.for_conflict()
+            hsdag = builder.build()
+            hsdag.execute(model)
+            result = hsdag.get_result()
+
+            profiler.print_summary(include_raw_timers=True)
+            print(result)
+            assert result == [
+                'Conflict: [(5) IMPLIES[Smartwatch][Analog], (4) IMPLIES[Smartwatch][Cellular], (3) OR[NOT[Analog][]][NOT[Cellular][]]]',
+                'Diagnoses: [(5) IMPLIES[Smartwatch][Analog]],[(4) IMPLIES[Smartwatch][Cellular]],[(3) OR[NOT[Analog][]][NOT[Cellular][]]]']
+
+    # =============================================================================
+    # CONFIGURATION AND TEST CASE TESTS
+    # =============================================================================
+
+    @parameterized.expand(STANDARD_PARAMS)
+    @_skip_disabled('hsdag_fastdiag_configuration')
+    def test_hsdag_fastdiag_with_configuration(self, name, is_incremental, solver_name, use_sat4j, enable_profiling):
+        """HSDAG with FastDiag: diagnose with configuration."""
+        print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
+
+        with profiler_session(_profiler_preset(enable_profiling)) as profiler:
+            print_profiler_status(profiler)
+
+            configuration = ConfigurationBasicReader(Resources.CONF_NONVALID).transform()
+            model = (DiagnosisModelBuilder
+                     .from_fide(Resources.FM_CONSISTENT)
+                     .with_configuration(configuration)
+                     .use_incremental(is_incremental)
+                     .build())
+
+            builder = PySATDiagnosisBuilder.for_diagnosis_sat4j() if use_sat4j else PySATDiagnosisBuilder.for_diagnosis()
+            hsdag = builder.build()
+            hsdag.execute(model)
+            result = hsdag.get_result()
+
+            assert result == ['Diagnoses: [E-ink = true],[Analog = true]',
+                              'Conflict: [E-ink = true, Analog = true]']
+
+    @parameterized.expand(STANDARD_PARAMS)
+    @_skip_disabled('hsdag_quickxplain_configuration')
+    def test_hsdag_quickxplain_with_configuration(self, name, is_incremental, solver_name, use_sat4j, enable_profiling):
+        """HSDAG with QuickXPlain: find conflicts with configuration."""
+        print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
+
+        with profiler_session(_profiler_preset(enable_profiling)) as profiler:
+            print_profiler_status(profiler)
+
+            configuration = ConfigurationBasicReader(Resources.CONF_NONVALID).transform()
+            model = (DiagnosisModelBuilder
+                     .from_fide(Resources.FM_CONSISTENT)
+                     .with_configuration(configuration)
+                     .use_incremental(is_incremental)
+                     .build())
+
+            builder = PySATDiagnosisBuilder.for_conflict_sat4j() if use_sat4j else PySATDiagnosisBuilder.for_conflict()
+            hsdag = builder.build()
+            hsdag.execute(model)
+            result = hsdag.get_result()
+
+            profiler.print_summary(include_raw_timers=True)
+            print(result)
+            assert result == ['Conflict: [E-ink = true, Analog = true]',
+                              'Diagnoses: [E-ink = true],[Analog = true]']
+
+    @parameterized.expand(STANDARD_PARAMS)
+    @_skip_disabled('hsdag_fastdiag_testcase')
+    def test_hsdag_fastdiag_with_test_case(self, name, is_incremental, solver_name, use_sat4j, enable_profiling):
+        """HSDAG with FastDiag: diagnose with test case."""
+        print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
+
+        with profiler_session(_profiler_preset(enable_profiling)) as profiler:
+            print_profiler_status(profiler)
+
+            test_case = ConfigurationBasicReader(Resources.CONF_TESTCASE).transform()
+            model = (DiagnosisModelBuilder
+                     .from_fide(Resources.FM_DEADFEATURE)
+                     .with_test_case(test_case)
+                     .use_incremental(is_incremental)
+                     .build())
+
+            builder = PySATDiagnosisBuilder.for_diagnosis_sat4j() if use_sat4j else PySATDiagnosisBuilder.for_diagnosis()
+            hsdag = builder.build()
+            hsdag.execute(model)
+            result = hsdag.get_result()
+
+            profiler.print_summary(include_raw_timers=True)
+            print(result)
+            assert result == ['Diagnoses: [(4) IMPLIES[Smartwatch][Analog]],'
+                              '[(alternative) Screen[1,1]Analog High Resolution E-ink ]',
+                              'Conflict: [(4) IMPLIES[Smartwatch][Analog], '
+                              '(alternative) Screen[1,1]Analog High Resolution E-ink ]']
+
+    @parameterized.expand(STANDARD_PARAMS)
+    @_skip_disabled('hsdag_quickxplain_testcase')
+    def test_hsdag_quickxplain_with_testcase(self, name, is_incremental, solver_name, use_sat4j, enable_profiling):
+        """HSDAG with QuickXPlain: find conflicts with test case."""
+        print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
+
+        with profiler_session(_profiler_preset(enable_profiling)) as profiler:
+            print_profiler_status(profiler)
+
+            test_case = ConfigurationBasicReader(Resources.CONF_TESTCASE).transform()
+            model = (DiagnosisModelBuilder
+                     .from_fide(Resources.FM_DEADFEATURE)
+                     .with_test_case(test_case)
+                     .use_incremental(is_incremental)
+                     .build())
+
+            builder = PySATDiagnosisBuilder.for_conflict_sat4j() if use_sat4j else PySATDiagnosisBuilder.for_conflict()
+            hsdag = builder.build()
+            hsdag.execute(model)
+            result = hsdag.get_result()
+
+            print(result)
+            assert result == ['Conflict: [(4) IMPLIES[Smartwatch][Analog], '
+                              '(alternative) Screen[1,1]Analog High Resolution E-ink ]',
+                              'Diagnoses: [(4) IMPLIES[Smartwatch][Analog]],'
+                              '[(alternative) Screen[1,1]Analog High Resolution E-ink ]']
+
+    # =============================================================================
+    # HSDAG + KBDIAG TESTS
+    # =============================================================================
+
+    @parameterized.expand(STANDARD_PARAMS)
+    @_skip_disabled('hsdag_kbdiag_1diag_1')
+    def test_hsdag_kbdiag_1diag_1(self, name, is_incremental, solver_name, use_sat4j, enable_profiling):
+        """HSDAG with KBDIAG: find one diagnosis."""
+        print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
+
+        with (profiler_session(_profiler_preset(enable_profiling)) as profiler):
+            print_profiler_status(profiler)
+
+            positive_testcases = TestSuiteReader(Resources.FM_10_1_POSITIVE_TESTCASES).transform()
+            model = (DiagnosisModelBuilder
+                     .from_uvl(Resources.FM_10_1)
+                     .with_positive_testcases(positive_testcases)
+                     .use_incremental(is_incremental)
+                     .build())
+
+            builder = None if use_sat4j else PySATTestcaseBuilder.for_debugging()
+            if builder is None:
+                return
+
+            hsdag = builder.with_max_diagnoses(1).build()
+            hsdag.execute(model)
+            result = hsdag.get_result()
+
+            profiler.print_summary(include_raw_timers=True)
+            print(result)
+            assert result == [
+                'Diagnosis: [(mandatory) CheckR[1,1]RecEng , (mandatory) CheckR[1,1]QType , (Constraint 0) OR[NOT[CBRec][]][NOT[SDC][]], (Constraint 1) OR[NOT[SDC][]][Stat]]',
+                'No conflict found']
+
+    @parameterized.expand(STANDARD_PARAMS)
+    @_skip_disabled('hsdag_kbdiag_1diag_1_neg')
+    def test_hsdag_kbdiag_1diag_1_neg(self, name, is_incremental, solver_name, use_sat4j, enable_profiling):
+        """HSDAG with KBDIAG: find one diagnosis."""
+        print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
+
+        with (profiler_session(_profiler_preset(enable_profiling)) as profiler):
+            print_profiler_status(profiler)
+
+            positive_testcases = TestSuiteReader(Resources.FM_10_1_POSITIVE_TESTCASES).transform()
+            negative_testcases = TestSuiteReader(Resources.FM_10_1_NEGATIVE_TESTCASES).transform()
+            model = (DiagnosisModelBuilder
+                     .from_uvl(Resources.FM_10_1)
+                     .with_positive_testcases(positive_testcases)
+                     .with_negative_testcases(negative_testcases)
+                     .use_incremental(is_incremental)
+                     .build())
+
+            builder = None if use_sat4j else PySATTestcaseBuilder.for_debugging()
+            if builder is None:
+                return
+
+            hsdag = (builder
+                     .with_max_diagnoses(1)
+                     .build())
+            hsdag.execute(model)
+            result = hsdag.get_result()
+
+            profiler.print_summary(include_raw_timers=True)
+            print(result)
+            assert result == [
+                'Diagnosis: [(mandatory) CheckR[1,1]RecEng , (mandatory) CheckR[1,1]SDC , (mandatory) CheckR[1,1]QType ]',
+                'No conflict found']
+
+    @parameterized.expand(STANDARD_PARAMS)
+    @_skip_disabled('hsdag_kbdiag_all_1')
+    def test_hsdag_kbdiag_all_1(self, name, is_incremental, solver_name, use_sat4j, enable_profiling):
+        """HSDAG with KBDIAG: all diagnoses."""
+        print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
+
+        with (profiler_session(_profiler_preset(enable_profiling)) as profiler):
+            print_profiler_status(profiler)
+
+            positive_testcases = TestSuiteReader(Resources.FM_10_1_POSITIVE_TESTCASES).transform()
+            model = (DiagnosisModelBuilder
+                     .from_uvl(Resources.FM_10_1)
+                     .with_positive_testcases(positive_testcases)
+                     .use_incremental(is_incremental)
+                     .build())
+
+            builder = None if use_sat4j else PySATTestcaseBuilder.for_debugging()
+            if builder is None:
+                return
+
+            hsdag = builder.build()
+            hsdag.execute(model)
+            result = hsdag.get_result()
+
+            profiler.print_summary(include_raw_timers=True)
+            print(result[0])
+            assert result[0] == ('Diagnoses: [(mandatory) CheckR[1,1]RecEng , (mandatory) CheckR[1,1]QType , '
+                                 '(Constraint 0) OR[NOT[CBRec][]][NOT[SDC][]], '
+                                 '(Constraint 1) OR[NOT[SDC][]][Stat]],[(mandatory) CheckR[1,1]RecEng , '
+                                 '(mandatory) CheckR[1,1]SDC , (mandatory) CheckR[1,1]QType ]')
+
+    @parameterized.expand(STANDARD_PARAMS)
+    @_skip_disabled('hsdag_kbdiag_all_1_neg')
+    def test_hsdag_kbdiag_all_1_neg(self, name, is_incremental, solver_name, use_sat4j, enable_profiling):
+        """HSDAG with KBDIAG: all diagnoses."""
+        print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
+
+        with (profiler_session(_profiler_preset(enable_profiling)) as profiler):
+            print_profiler_status(profiler)
+
+            positive_testcases = TestSuiteReader(Resources.FM_10_1_POSITIVE_TESTCASES).transform()
+            negative_testcases = TestSuiteReader(Resources.FM_10_1_NEGATIVE_TESTCASES).transform()
+            model = (DiagnosisModelBuilder
+                     .from_uvl(Resources.FM_10_1)
+                     .with_positive_testcases(positive_testcases)
+                     .with_negative_testcases(negative_testcases)
+                     .use_incremental(is_incremental)
+                     .build())
+
+            builder = None if use_sat4j else PySATTestcaseBuilder.for_debugging()
+            if builder is None:
+                return
+
+            hsdag = (builder
+                     .build())
+            hsdag.execute(model)
+            result = hsdag.get_result()
+
+            profiler.print_summary(include_raw_timers=True)
+            print(result[0])
+            assert result[0] == 'Diagnoses: [(mandatory) CheckR[1,1]RecEng , (mandatory) CheckR[1,1]SDC , (mandatory) CheckR[1,1]QType ],[(mandatory) CheckR[1,1]RecEng , (alternative) RecEng[1,1]UBRec CBRec , (optional) CheckR[0,1]Stat , (mandatory) CheckR[1,1]QType , (or) QType[1,2]MulChoice ImgAnaTask , (Constraint 0) OR[NOT[CBRec][]][NOT[SDC][]], (Constraint 1) OR[NOT[SDC][]][Stat]],[(mandatory) CheckR[1,1]RecEng , (optional) CheckR[0,1]Stat , (mandatory) CheckR[1,1]QType , (or) QType[1,2]MulChoice ImgAnaTask , (Constraint 0) OR[NOT[CBRec][]][NOT[SDC][]], (Constraint 1) OR[NOT[SDC][]][Stat]],[(mandatory) CheckR[1,1]RecEng , (alternative) RecEng[1,1]UBRec CBRec , (mandatory) CheckR[1,1]QType , (or) QType[1,2]MulChoice ImgAnaTask , (Constraint 0) OR[NOT[CBRec][]][NOT[SDC][]], (Constraint 1) OR[NOT[SDC][]][Stat]],[(mandatory) CheckR[1,1]RecEng , (alternative) RecEng[1,1]UBRec CBRec , (optional) CheckR[0,1]Stat , (mandatory) CheckR[1,1]QType , (Constraint 0) OR[NOT[CBRec][]][NOT[SDC][]], (Constraint 1) OR[NOT[SDC][]][Stat]],[(mandatory) CheckR[1,1]RecEng , (mandatory) CheckR[1,1]QType , (or) QType[1,2]MulChoice ImgAnaTask , (Constraint 0) OR[NOT[CBRec][]][NOT[SDC][]], (Constraint 1) OR[NOT[SDC][]][Stat]],[(mandatory) CheckR[1,1]RecEng , (optional) CheckR[0,1]Stat , (mandatory) CheckR[1,1]QType , (Constraint 0) OR[NOT[CBRec][]][NOT[SDC][]], (Constraint 1) OR[NOT[SDC][]][Stat]]'
+
+    @parameterized.expand(STANDARD_PARAMS)
+    @_skip_disabled('hsdag_kbdiag_1diag_2')
+    def test_hsdag_kbdiag_1diag_2(self, name, is_incremental, solver_name, use_sat4j, enable_profiling):
+        """HSDAG with KBDIAG: find one diagnosis."""
+        print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
+
+        with (profiler_session(_profiler_preset(enable_profiling)) as profiler):
+            print_profiler_status(profiler)
+
+            positive_testcases = TestSuiteReader(Resources.FM_10_2_POSITIVE_TESTCASES).transform()
+            model = (DiagnosisModelBuilder
+                     .from_uvl(Resources.FM_10_2)
+                     .with_positive_testcases(positive_testcases)
+                     .use_incremental(is_incremental)
+                     .build())
+
+            builder = None if use_sat4j else PySATTestcaseBuilder.for_debugging()
+            if builder is None:
+                return
+
+            hsdag = builder.with_max_diagnoses(1).build()
+            hsdag.execute(model)
+            result = hsdag.get_result()
+
+            profiler.print_summary(include_raw_timers=True)
+            print(result)
+            assert result == [
+                'Diagnosis: [(mandatory) jplug[1,1]interface , (alternative) interface[1,1]sdi mdi , (optional) diagram_builder[0,1]uml , (Constraint 0) OR[NOT[gui_builder][]][NOT[sdi][]]]',
+                'No conflict found']
+
+    @parameterized.expand(STANDARD_PARAMS)
+    @_skip_disabled('hsdag_kbdiag_1diag_2_neg')
+    def test_hsdag_kbdiag_1diag_2_neg(self, name, is_incremental, solver_name, use_sat4j, enable_profiling):
+        """HSDAG with KBDIAG: find one diagnosis."""
+        print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
+
+        with (profiler_session(_profiler_preset(enable_profiling)) as profiler):
+            print_profiler_status(profiler)
+
+            positive_testcases = TestSuiteReader(Resources.FM_10_2_POSITIVE_TESTCASES).transform()
+            negative_testcases = TestSuiteReader(Resources.FM_10_2_NEGATIVE_TESTCASES).transform()
+            model = (DiagnosisModelBuilder
+                     .from_uvl(Resources.FM_10_2)
+                     .with_positive_testcases(positive_testcases)
+                     .with_negative_testcases(negative_testcases)
+                     .use_incremental(is_incremental)
+                     .build())
+
+            builder = None if use_sat4j else PySATTestcaseBuilder.for_debugging()
+            if builder is None:
+                return
+
+            hsdag = (builder
+                     .with_max_diagnoses(1)
+                     .build())
+            hsdag.execute(model)
+            result = hsdag.get_result()
+
+            profiler.print_summary(include_raw_timers=True)
+            print(result)
+            assert result == [
+                'Diagnosis: [(mandatory) jplug[1,1]interface , (alternative) interface[1,1]sdi mdi , (optional) diagram_builder[0,1]uml , (Constraint 0) OR[NOT[gui_builder][]][NOT[sdi][]]]',
+                'No conflict found']
+
+    @parameterized.expand(STANDARD_PARAMS)
+    @_skip_disabled('hsdag_kbdiag_all_2')
+    def test_hsdag_kbdiag_all_2(self, name, is_incremental, solver_name, use_sat4j, enable_profiling):
+        """HSDAG with KBDIAG: all diagnoses."""
+        print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
+
+        with (profiler_session(_profiler_preset(enable_profiling)) as profiler):
+            print_profiler_status(profiler)
+
+            positive_testcases = TestSuiteReader(Resources.FM_10_2_POSITIVE_TESTCASES).transform()
+            model = (DiagnosisModelBuilder
+                     .from_uvl(Resources.FM_10_2)
+                     .with_positive_testcases(positive_testcases)
+                     .use_incremental(is_incremental)
+                     .build())
+
+            builder = None if use_sat4j else PySATTestcaseBuilder.for_debugging()
+            if builder is None:
+                return
+
+            hsdag = builder.build()
+            hsdag.execute(model)
+            result = hsdag.get_result()
+
+            profiler.print_summary(include_raw_timers=True)
+            print(result[0])
+            assert result[0] == ('Diagnosis: [(mandatory) jplug[1,1]interface , (alternative) interface[1,1]sdi mdi , (optional) diagram_builder[0,1]uml , (Constraint 0) OR[NOT[gui_builder][]][NOT[sdi][]]]')
+
+    @parameterized.expand(STANDARD_PARAMS)
+    @_skip_disabled('hsdag_kbdiag_all_2_neg')
+    def test_hsdag_kbdiag_all_2_neg(self, name, is_incremental, solver_name, use_sat4j, enable_profiling):
+        """HSDAG with KBDIAG: all diagnoses."""
+        print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
+
+        with (profiler_session(_profiler_preset(enable_profiling)) as profiler):
+            print_profiler_status(profiler)
+
+            positive_testcases = TestSuiteReader(Resources.FM_10_2_POSITIVE_TESTCASES).transform()
+            negative_testcases = TestSuiteReader(Resources.FM_10_2_NEGATIVE_TESTCASES).transform()
+            model = (DiagnosisModelBuilder
+                     .from_uvl(Resources.FM_10_2)
+                     .with_positive_testcases(positive_testcases)
+                     .with_negative_testcases(negative_testcases)
+                     .use_incremental(is_incremental)
+                     .build())
+
+            builder = None if use_sat4j else PySATTestcaseBuilder.for_debugging()
+            if builder is None:
+                return
+
+            hsdag = (builder
+                     .build())
+            hsdag.execute(model)
+            result = hsdag.get_result()
+
+            profiler.print_summary(include_raw_timers=True)
+            print(result[0])
+            assert result[0] == ('Diagnosis: [(mandatory) jplug[1,1]interface , (alternative) interface[1,1]sdi mdi , (optional) diagram_builder[0,1]uml , (Constraint 0) OR[NOT[gui_builder][]][NOT[sdi][]]]')
+
+    # =============================================================================
+    # HSDAG + QUICKXPLAINWITHTESTCASES TESTS
+    # =============================================================================
+
+    @parameterized.expand(STANDARD_PARAMS)
+    @_skip_disabled('hsdag_quickxplainwithtestcases_1diag_1')
+    def test_hsdag_quickxplainwithtestcases_1diag_1(self, name, is_incremental, solver_name, use_sat4j, enable_profiling):
+        print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
+
+        with (profiler_session(_profiler_preset(enable_profiling)) as profiler):
+            print_profiler_status(profiler)
+
+            positive_testcases = TestSuiteReader(Resources.FM_10_1_POSITIVE_TESTCASES).transform()
+            model = (DiagnosisModelBuilder
+                     .from_uvl(Resources.FM_10_1)
+                     .with_positive_testcases(positive_testcases)
+                     .use_incremental(is_incremental)
+                     .build())
+
+            builder = None if use_sat4j else PySATTestcaseQuickXplainBuilder.for_debugging()
+            if builder is None:
+                return
+
+            op = builder.with_max_diagnoses(1).build()
+            op.execute(model)
+            result = op.get_result()
+
+            profiler.print_summary(include_raw_timers=True)
+            print(result)
+            assert result == [
+                'Diagnosis: [(mandatory) CheckR[1,1]SDC , (mandatory) CheckR[1,1]RecEng , (mandatory) CheckR[1,1]QType ]',
+                'Conflicts: [(Constraint 0) OR[NOT[CBRec][]][NOT[SDC][]], (mandatory) '
+                'CheckR[1,1]SDC ],[(Constraint 1) OR[NOT[SDC][]][Stat], (mandatory) '
+                'CheckR[1,1]SDC ],[(mandatory) CheckR[1,1]RecEng ],[(mandatory) '
+                'CheckR[1,1]QType ]']
+
+    @parameterized.expand(STANDARD_PARAMS)
+    @_skip_disabled('hsdag_quickxplainwithtestcases_1diag_1_neg')
+    def test_hsdag_quickxplainwithtestcases_1diag_1_neg(self, name, is_incremental, solver_name, use_sat4j, enable_profiling):
+        print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
+
+        with (profiler_session(_profiler_preset(enable_profiling)) as profiler):
+            print_profiler_status(profiler)
+
+            positive_testcases = TestSuiteReader(Resources.FM_10_1_POSITIVE_TESTCASES).transform()
+            negative_testcases = TestSuiteReader(Resources.FM_10_1_NEGATIVE_TESTCASES).transform()
+            model = (DiagnosisModelBuilder
+                     .from_uvl(Resources.FM_10_1)
+                     .with_positive_testcases(positive_testcases)
+                     .with_negative_testcases(negative_testcases)
+                     .use_incremental(is_incremental)
+                     .build())
+
+            builder = None if use_sat4j else PySATTestcaseQuickXplainBuilder.for_debugging()
+            if builder is None:
+                return
+
+            hsdag = (builder
+                     .with_max_diagnoses(1)
+                     .build())
+            hsdag.execute(model)
+            result = hsdag.get_result()
+
+            profiler.print_summary(include_raw_timers=True)
+            print(result)
+            assert result == [
+                'Diagnosis: [(mandatory) CheckR[1,1]SDC , (mandatory) CheckR[1,1]RecEng , (mandatory) CheckR[1,1]QType ]',
+                'Conflicts: [(mandatory) CheckR[1,1]SDC ],[(mandatory) CheckR[1,1]RecEng ],[(mandatory) CheckR[1,1]QType ]']
+
+    @parameterized.expand(STANDARD_PARAMS)
+    @_skip_disabled('hsdag_quickxplainwithtestcases_all_1')
+    def test_hsdag_quickxplainwithtestcases_all_1(self, name, is_incremental, solver_name, use_sat4j, enable_profiling):
+        print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
+
+        with (profiler_session(_profiler_preset(enable_profiling)) as profiler):
+            print_profiler_status(profiler)
+
+            positive_testcases = TestSuiteReader(Resources.FM_10_1_POSITIVE_TESTCASES).transform()
+            model = (DiagnosisModelBuilder
+                     .from_uvl(Resources.FM_10_1)
+                     .with_positive_testcases(positive_testcases)
+                     .use_incremental(is_incremental)
+                     .build())
+
+            builder = None if use_sat4j else PySATTestcaseQuickXplainBuilder.for_debugging()
+            if builder is None:
+                return
+
+            hsdag = builder.build()
+            hsdag.execute(model)
+            result = hsdag.get_result()
+
+            profiler.print_summary(include_raw_timers=True)
+            print(result[0])
+            assert result[0] == ('Diagnoses: [(mandatory) CheckR[1,1]SDC , (mandatory) CheckR[1,1]RecEng , '
+                                 '(mandatory) CheckR[1,1]QType ],[(Constraint 0) OR[NOT[CBRec][]][NOT[SDC][]], '
+                                 '(Constraint 1) OR[NOT[SDC][]][Stat], (mandatory) CheckR[1,1]RecEng , '
+                                 '(mandatory) CheckR[1,1]QType ],[(Constraint 0) OR[NOT[CBRec][]][NOT[SDC][]], '
+                                 '(mandatory) CheckR[1,1]SDC , (mandatory) CheckR[1,1]RecEng , (mandatory) '
+                                 'CheckR[1,1]QType ]')
+
+    @parameterized.expand(STANDARD_PARAMS)
+    @_skip_disabled('hsdag_quickxplainwithtestcases_all_1_neg')
+    def test_hsdag_quickxplainwithtestcases_all_1_neg(self, name, is_incremental, solver_name, use_sat4j, enable_profiling):
+        print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
+
+        with (profiler_session(_profiler_preset(enable_profiling)) as profiler):
+            print_profiler_status(profiler)
+
+            positive_testcases = TestSuiteReader(Resources.FM_10_1_POSITIVE_TESTCASES).transform()
+            negative_testcases = TestSuiteReader(Resources.FM_10_1_NEGATIVE_TESTCASES).transform()
+            model = (DiagnosisModelBuilder
+                     .from_uvl(Resources.FM_10_1)
+                     .with_positive_testcases(positive_testcases)
+                     .with_negative_testcases(negative_testcases)
+                     .use_incremental(is_incremental)
+                     .build())
+
+            builder = None if use_sat4j else PySATTestcaseBuilder.for_debugging()
+            if builder is None:
+                return
+
+            hsdag = (builder
+                     .build())
+            hsdag.execute(model)
+            result = hsdag.get_result()
+
+            profiler.print_summary(include_raw_timers=True)
+            print(result[0])
+            assert result[0] == ('Diagnoses: [(mandatory) CheckR[1,1]RecEng , (mandatory) CheckR[1,1]SDC , '
+                                 '(mandatory) CheckR[1,1]QType ],[(mandatory) CheckR[1,1]RecEng , '
+                                 '(alternative) RecEng[1,1]UBRec CBRec , (optional) CheckR[0,1]Stat , '
+                                 '(mandatory) CheckR[1,1]QType , (or) QType[1,2]MulChoice ImgAnaTask , '
+                                 '(Constraint 0) OR[NOT[CBRec][]][NOT[SDC][]], (Constraint 1) '
+                                 'OR[NOT[SDC][]][Stat]],[(mandatory) CheckR[1,1]RecEng , (optional) '
+                                 'CheckR[0,1]Stat , (mandatory) CheckR[1,1]QType , (or) QType[1,2]MulChoice '
+                                 'ImgAnaTask , (Constraint 0) OR[NOT[CBRec][]][NOT[SDC][]], (Constraint 1) '
+                                 'OR[NOT[SDC][]][Stat]],[(mandatory) CheckR[1,1]RecEng , (alternative) '
+                                 'RecEng[1,1]UBRec CBRec , (mandatory) CheckR[1,1]QType , (or) '
+                                 'QType[1,2]MulChoice ImgAnaTask , (Constraint 0) '
+                                 'OR[NOT[CBRec][]][NOT[SDC][]], (Constraint 1) '
+                                 'OR[NOT[SDC][]][Stat]],[(mandatory) CheckR[1,1]RecEng , (alternative) '
+                                 'RecEng[1,1]UBRec CBRec , (optional) CheckR[0,1]Stat , (mandatory) '
+                                 'CheckR[1,1]QType , (Constraint 0) OR[NOT[CBRec][]][NOT[SDC][]], (Constraint '
+                                 '1) OR[NOT[SDC][]][Stat]],[(mandatory) CheckR[1,1]RecEng , (mandatory) '
+                                 'CheckR[1,1]QType , (or) QType[1,2]MulChoice ImgAnaTask , (Constraint 0) '
+                                 'OR[NOT[CBRec][]][NOT[SDC][]], (Constraint 1) '
+                                 'OR[NOT[SDC][]][Stat]],[(mandatory) CheckR[1,1]RecEng , (optional) '
+                                 'CheckR[0,1]Stat , (mandatory) CheckR[1,1]QType , (Constraint 0) '
+                                 'OR[NOT[CBRec][]][NOT[SDC][]], (Constraint 1) OR[NOT[SDC][]][Stat]]')
+
+    # =============================================================================
+    # WIPEOUTR_FM TESTS
+    # =============================================================================
+
+    @parameterized.expand(STANDARD_PARAMS)
+    @_skip_disabled('wipeoutr_fm_redundancy')
+    def test_wipeoutr_fm_redundancy(self, name, is_incremental, solver_name, use_sat4j, enable_profiling):
+        """Test WipeOutR_FM: detect redundant constraints in feature model.
+
+        Uses a feature model with a redundant constraint:
+        - RedundantFM (root)
+          - FeatureA (mandatory)
+          - FeatureB (mandatory)
+          - FeatureC (optional)
+        - Constraint 0: RedundantFM => FeatureA (REDUNDANT - FeatureA is already mandatory)
+        - Constraint 1: FeatureC <=> FeatureB (NOT redundant)
+        """
+        print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
+
+        with profiler_session(_profiler_preset(enable_profiling)) as profiler:
+            print_profiler_status(profiler)
+
+            # Load model with negated forms created during transformation
+            model = (DiagnosisModelBuilder
+                     .from_uvl(Resources.FM_REDUNDANT)
+                     .for_redundancy(True)
+                     .use_incremental(is_incremental)
+                     .build())
+
+            # Verify negated constraint map is populated
+            print(f"Constraint map: {list(model.constraint_map.keys())}")
+            print(f"Negated constraint map: {list(model.negated_constraint_map.keys())}")
+            assert len(model.negated_constraint_map) > 0, "Negated constraint map should be populated"
+
+            # Get constraint IDs and negation map
+            set_cf = model.get_cf()
+            negation_map = model.get_negation_map()
+
+            print(f"CF (constraint IDs): {set_cf}")
+            print(f"negation_map: {negation_map}")
+            assert len(set_cf) > 0, "Should have constraints"
+            assert len(negation_map) > 0, "Should have negated forms"
+
+            builder = None if use_sat4j else PySATRedundancyConstraintsBuilder.for_redundancy_constraints(profiler)
+            if builder is None:
+                return
+
+            operation = builder.build()
+            operation.execute(model)
+
+            # Get results
+            result = operation.get_result()
+
+            print(result)
+
+            profiler.print_summary(include_raw_timers=True)
+
+            assert len(result) == 2, f"Expected 2 lists (redundant and non-redundant), got {len(result)}"
+            assert result[0] == 'Redundant constraints: [(Constraint 0) IMPLIES[RedundantFM][FeatureA]]'
+            assert result[1] == 'Non-redundant constraints: [(Constraint 1) OR[NOT[FeatureC][]][NOT[FeatureB][]], (optional) RedundantFM[0,1]FeatureC , (mandatory) RedundantFM[1,1]FeatureB , (mandatory) RedundantFM[1,1]FeatureA ]'
+
+
+    @parameterized.expand(STANDARD_PARAMS)
+    @_skip_disabled('pysat_redundancy_constraints')
+    def test_pysat_redundancy_constraints(self, name, is_incremental, solver_name, use_sat4j, enable_profiling):
+        """Test PySATRedundancyConstraints operation using WipeOutR_FM algorithm.
+
+        Uses a feature model with a redundant constraint:
+        - RedundantFM (root)
+          - FeatureA (mandatory)
+          - FeatureB (mandatory)
+          - FeatureC (optional)
+        - Constraint 0: RedundantFM => FeatureA (REDUNDANT - FeatureA is already mandatory)
+        - Constraint 1: FeatureC <=> FeatureB (NOT redundant)
+
+        This test verifies the PySATRedundancyConstraints operation wrapper.
+        """
+        print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
+
+        with profiler_session(_profiler_preset(enable_profiling)) as profiler:
+            print_profiler_status(profiler)
+
+            # Load model with negated forms created during transformation
+            model = (DiagnosisModelBuilder
+                     .from_uvl(Resources.FM_REDUNDANT)
+                     .for_redundancy(True)
+                     .use_incremental(is_incremental)
+                     .build())
+
+            # Verify negated constraint map is populated
+            print(f"Constraint map: {list(model.constraint_map.keys())}")
+            print(f"Negated constraint map: {list(model.negated_constraint_map.keys())}")
+            assert len(model.negated_constraint_map) > 0, "Negated constraint map should be populated"
+
+            # Create and configure the operation using builder
+            builder = None if use_sat4j else PySATRedundancyConstraintsBuilder.for_redundancy_constraints(profiler)
+            if builder is None:
+                return
+            operation = builder.build()
+
+            # Execute the operation
+            operation.execute(model)
+
+            # Get results
+            redundant = operation.get_redundant()
+            non_redundant = operation.get_non_redundant()
+
+            # Print formatted messages
+            for msg in operation.get_result():
+                print(msg)
+
+            profiler.print_summary(include_raw_timers=True)
+
+            # Verify results
+            print(f"Found {len(redundant)} redundant and {len(non_redundant)} non-redundant constraints")
+
+            # The constraint "RedundantFM => FeatureA" should be detected as redundant
+            assert len(redundant) >= 1, f"Expected at least 1 redundant constraint, got {len(redundant)}"
+
+            # Verify total count matches
+            assert len(redundant) + len(non_redundant) == len(model.get_c()), \
+                "Total redundant + non-redundant should equal all constraints"
+
+            assert operation.get_result()[0] == 'Redundant constraints: [(Constraint 0) IMPLIES[RedundantFM][FeatureA]]'
+            assert operation.get_result()[1] == 'Non-redundant constraints: [(Constraint 1) OR[NOT[FeatureC][]][NOT[FeatureB][]], (optional) RedundantFM[0,1]FeatureC , (mandatory) RedundantFM[1,1]FeatureB , (mandatory) RedundantFM[1,1]FeatureA ]'
+
+
+    # =============================================================================
+    # WIPEOUTR_T TESTS
+    # =============================================================================
+
+    @parameterized.expand(STANDARD_PARAMS)
+    @_skip_disabled('wipeoutr_t_redundancy')
+    def test_wipeoutr_t_redundancy(self, name, is_incremental, solver_name, use_sat4j, enable_profiling):
+        """Test PySATRedundancyTestCases operation using WipeOutR_T algorithm.
+
+        Uses the same test suite as test_wipeoutr_t_redundancy:
+        - t1: FeatureA = true (REDUNDANT - covered by t3)
+        - t2: FeatureC = false (NOT redundant)
+        - t3: FeatureA = true, FeatureB = true (more specific than t1)
+
+        This test verifies the PySATRedundancyTestCases operation wrapper.
+        """
+        print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
+
+        with profiler_session(_profiler_preset(enable_profiling)) as profiler:
+            print_profiler_status(profiler)
+
+            testsuite = TestSuiteReader(Resources.REDUNDANT_TESTSUITE).transform()
+            model = (DiagnosisModelBuilder
+                     .from_uvl(Resources.FM_REDUNDANT)
+                     .with_testcases(testsuite)
+                     .use_incremental(is_incremental)
+                     .build())
+
+            print(f"Test suite has {len(testsuite.testcases)} test cases")
+            for i, tc in enumerate(testsuite.testcases):
+                print(f"  t{i + 1}: {tc}")
+
+            builder = None if use_sat4j else PySATRedundancyTestCasesBuilder.for_redundancy_test_cases(profiler)
+            if builder is None:
+                return
+
+            operation = (builder
+                         .build())
+            operation.execute(model)
+
+            # Get results
+            result = operation.get_result()
+
+            print(result)
+            profiler.print_summary(include_raw_timers=True)
+
+            assert len(result) == 2, f"Expected 2 lists (redundant and non-redundant), got {len(result)}"
+            assert result[0] == 'Redundant test cases: [FeatureA=true]', "Expected 'FeatureA = true' to be redundant"
+            assert result[1] == 'Non-redundant test cases: [FeatureC=false, FeatureA=true & FeatureB=true]', \
+                "Expected 'FeatureC = false' and 'FeatureA = true & FeatureB = true' to be non-redundant"
+
 
 
 if __name__ == '__main__':
-    success = run_all_tests()
-    sys.exit(0 if success else 1)
+    unittest.main()
