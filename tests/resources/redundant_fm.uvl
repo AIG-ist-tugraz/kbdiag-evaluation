@@ -1,0 +1,13 @@
+namespace RedundantFM
+
+features
+    RedundantFM
+        mandatory
+            FeatureA
+            FeatureB
+        optional
+            FeatureC
+
+constraints
+    RedundantFM => FeatureA
+    !FeatureC | !FeatureB

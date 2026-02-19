@@ -1,0 +1,17 @@
+namespace jplug
+
+features
+	jplug
+		mandatory
+			interface
+				alternative
+					sdi
+					mdi
+		optional
+			gui_builder
+			diagram_builder
+				optional
+					uml
+
+constraints
+	!gui_builder | !sdi

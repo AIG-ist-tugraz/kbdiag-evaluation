@@ -1,0 +1,21 @@
+namespace CheckR
+
+features
+	CheckR
+		mandatory
+			RecEng
+				alternative
+					UBRec
+					CBRec
+			SDC
+		optional
+			Stat
+		mandatory
+			QType
+				or
+					MulChoice
+					ImgAnaTask
+
+constraints
+	!CBRec | !SDC
+	!SDC | Stat
