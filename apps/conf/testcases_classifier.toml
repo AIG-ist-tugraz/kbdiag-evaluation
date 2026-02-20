@@ -3,6 +3,7 @@
 
 [classification]
 max_conflict_sets = 3
+max_workers = 4  # parallel FM processes (0 = auto, 1 = sequential)
 
 [solver]
 solver_name = "glucose3"
@@ -11,32 +12,32 @@ solver_name = "glucose3"
 output_dir = "data/jiis/classifiedTS"
 
 # Feature models with their test suites
-[[fm]]
-name = "DELL"
-model = "data/jiis/fms/DELL.uvl"
-testsuite = "data/jiis/testsuite/DELL.testsuite"
+#[[fm]]
+#name = "DELL"
+#model = "data/jiis/fms/DELL.uvl"
+#testsuite = "data/jiis/testsuite/DELL.testsuite"
 
-#[[fm]]
-#name = "REAL-FM-11"
-#model = "data/jiis/fms/REAL-FM-11.uvl"
-#testsuite = "data/jiis/testsuite/REAL-FM-11.testsuite"
-#
-#[[fm]]
-#name = "REAL-FM-4"
-#model = "data/jiis/fms/REAL-FM-4.uvl"
-#testsuite = "data/jiis/testsuite/REAL-FM-4.testsuite"
-#
-#[[fm]]
-#name = "ubuntu"
-#model = "data/jiis/fms/ubuntu.uvl"
-#testsuite = "data/jiis/testsuite/ubuntu.testsuite"
-#
-#[[fm]]
-#name = "windows8"
-#model = "data/jiis/fms/windows8.uvl"
-#testsuite = "data/jiis/testsuite/windows8.testsuite"
-#
-#[[fm]]
-#name = "linux"
-#model = "data/jiis/fms/linux-2.6.33.3.uvl"
-#testsuite = "data/jiis/testsuite/linux.testsuite"
+[[fm]]
+name = "REAL-FM-11"
+model = "data/jiis/fms/REAL-FM-11.uvl"
+testsuite = "data/jiis/testsuite/REAL-FM-11.testsuite"
+
+[[fm]]
+name = "REAL-FM-4"
+model = "data/jiis/fms/REAL-FM-4.uvl"
+testsuite = "data/jiis/testsuite/REAL-FM-4.testsuite"
+
+[[fm]]
+name = "ubuntu"
+model = "data/jiis/fms/ubuntu.uvl"
+testsuite = "data/jiis/testsuite/ubuntu.testsuite"
+
+[[fm]]
+name = "windows8"
+model = "data/jiis/fms/windows8.uvl"
+testsuite = "data/jiis/testsuite/windows8.testsuite"
+
+[[fm]]
+name = "linux"
+model = "data/jiis/fms/linux-2.6.33.3.uvl"
+testsuite = "data/jiis/testsuite/linux.testsuite"

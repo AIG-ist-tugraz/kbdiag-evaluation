@@ -10,15 +10,23 @@
 #
 #  @author: Viet-Man Le (v.m.le@tugraz.at)
 
+#  KBDiag
+#
+#
+#  @author: Viet-Man Le (v.m.le@tugraz.at)
+
 import os
 import tempfile
 import unittest
+from flamapy.metamodels.configuration_metamodel.models import Configuration
+from flamapy.metamodels.fm_metamodel.models import Feature
 from flamapy.metamodels.fm_metamodel.transformations import UVLReader
 
 from apps.testcases_classifier import (
     TestCasesClassifier,
     read_testsuite,
 )
+from explanation.models.diagnosis_model_builder import DiagnosisModelBuilder
 from explanation.models.testsuite import Assignment, TestCase, TestSuite
 
 RESOURCES_DIR = os.path.join(os.path.dirname(__file__), "resources")
@@ -72,7 +80,10 @@ class TestClassifierConsistency(unittest.TestCase):
 
         self.assertEqual(len(clf._violated), 1)
         self.assertEqual(len(clf._non_violated), 0)
-        self.assertIn("CBRec & SDC", clf._violated[0])
+        num_conflicts, fingerprint, tc_str = clf._violated[0]
+        self.assertIn("CBRec & SDC", tc_str)
+        self.assertGreaterEqual(num_conflicts, 1)
+        self.assertTrue(fingerprint.startswith("{"), "Fingerprint should contain conflict set IDs")
 
     def test_mixed_classification(self):
         """Mix of consistent and inconsistent TCs."""
@@ -127,9 +138,15 @@ class TestClassifierOutput(unittest.TestCase):
             violated_count = int(lines[0])
             self.assertEqual(violated_count, 1)
 
-            # violated TCs
+            # violated TCs — verify count|fingerprint|tc format
             violated_tcs = lines[1 : 1 + violated_count]
             self.assertEqual(len(violated_tcs), 1)
+            parts = violated_tcs[0].split("|")
+            self.assertEqual(len(parts), 3, "Expected count|fingerprint|tc format")
+            self.assertTrue(parts[0].isdigit())
+            self.assertGreaterEqual(int(parts[0]), 1)
+            self.assertTrue(parts[1].startswith("{"), "Fingerprint should start with '{'")
+            self.assertIn("&", parts[2])  # tc string has assignments
 
             # non_violated_count
             nv_idx = 1 + violated_count
@@ -194,6 +211,27 @@ class TestReadTestsuite(unittest.TestCase):
             self.assertEqual(len(ts.testcases[2].assignments), 2)
         finally:
             os.unlink(tmppath)
+
+
+class TestAssumptionIdStability(unittest.TestCase):
+    """Verify FM constraint IDs are stable across per-TC model builds."""
+
+    @classmethod
+    def setUpClass(cls):
+        cls.fm = _load_fm(FM_10_1_PATH)
+
+    def test_ids_stable_across_different_test_cases(self):
+        """Same FM → same constraint assumption IDs regardless of TC."""
+        tc1 = Configuration({Feature("CBRec"): False})
+        tc2 = Configuration({Feature("SDC"): False})
+
+        model1 = (DiagnosisModelBuilder.from_feature_model(self.fm)
+                  .with_test_case(tc1).use_incremental().build())
+        model2 = (DiagnosisModelBuilder.from_feature_model(self.fm)
+                  .with_test_case(tc2).use_incremental().build())
+
+        self.assertEqual(set(model1.get_c()), set(model2.get_c()),
+                         "FM constraint IDs must be identical across TC builds")
 
 
 if __name__ == "__main__":

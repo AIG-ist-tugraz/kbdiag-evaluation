@@ -9,11 +9,6 @@
 #
 #  @author: Viet-Man Le (v.m.le@tugraz.at)
 
-#  KBDiag
-#
-#
-#  @author: Viet-Man Le (v.m.le@tugraz.at)
-
 """Test case classifier for feature models.
 
 Classifies test cases in a testsuite as violated (inconsistent with FM,
@@ -129,7 +124,7 @@ class TestCasesClassifier:
         self._max_conflict_sets = max_conflict_sets
         self._solver_name = solver_name
 
-        self._violated: List[str] = []
+        self._violated: List[tuple[int, str, str]] = []  # (count, fingerprint, tc_string)
         self._non_violated: List[str] = []
         self._ignored: int = 0
 
@@ -167,10 +162,10 @@ class TestCasesClassifier:
                 if is_consistent:
                     self._non_violated.append(self._tc_to_string(tc))
                 else:
-                    # Slow path: count conflicts
-                    num_conflicts = self._count_conflicts(tc)
+                    # Slow path: count conflicts + extract fingerprint
+                    num_conflicts, fingerprint = self._count_conflicts(tc)
                     if num_conflicts <= self._max_conflict_sets:
-                        self._violated.append(self._tc_to_string(tc))
+                        self._violated.append((num_conflicts, fingerprint, self._tc_to_string(tc)))
                     else:
                         self._ignored += 1
 
@@ -189,11 +184,14 @@ class TestCasesClassifier:
               f"non_violated={len(self._non_violated)}, "
               f"ignored={self._ignored}")
 
-    def _count_conflicts(self, tc: TestCase) -> int:
-        """Count conflict sets for a violated TC using HSDAG + QuickXPlain.
+    def _count_conflicts(self, tc: TestCase) -> tuple[int, str]:
+        """Count conflict sets and extract fingerprint for a violated TC.
 
         Builds a per-TC model (Use Case 4: error diagnosis) and runs
         HSDAG with max_conflicts = threshold + 1 to detect overflow.
+
+        Returns:
+            (num_conflicts, fingerprint) where fingerprint is e.g. '{3,7},{5,12}'.
         """
         config = Configuration({
             Feature(a.feature): a.value for a in tc.assignments
@@ -211,9 +209,14 @@ class TestCasesClassifier:
               .build())
         op.execute(tc_model)
 
-        num_conflicts = len(op.hsdag.get_conflicts())
+        conflicts = op.hsdag.get_conflicts()
+        num_conflicts = len(conflicts)
+        fingerprint = ",".join(
+            "{" + ",".join(str(c) for c in sorted(cs)) + "}"
+            for cs in conflicts
+        ) if conflicts else "{}"
         op.hsdag = None
-        return num_conflicts
+        return num_conflicts, fingerprint
 
     @staticmethod
     def _tc_to_literals(tc: TestCase, variables: Dict[str, int]) -> List[int]:
@@ -255,8 +258,8 @@ class TestCasesClassifier:
 
         with open(filepath, "w", encoding="utf-8") as f:
             f.write(f"{len(self._violated)}\n")
-            for tc in self._violated:
-                f.write(f"{tc}\n")
+            for num_conflicts, fingerprint, tc in self._violated:
+                f.write(f"{num_conflicts}|{fingerprint}|{tc}\n")
             f.write(f"{len(self._non_violated)}\n")
             for tc in self._non_violated:
                 f.write(f"{tc}\n")
