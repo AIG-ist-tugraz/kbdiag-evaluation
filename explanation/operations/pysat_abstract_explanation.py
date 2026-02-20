@@ -2,13 +2,17 @@
 #
 #  Copyright (c) 2026
 #
+#  @author: Viet-Man Le (v.m.le@tugraz.at)
+
+#  KBDiag
+#
+#
 #  @author: Viet-Man Le (vietman.le@ist.tugraz.at)
 
 from abc import abstractmethod
-from typing import cast, List, Tuple, Optional
-
 from flamapy.core.models import VariabilityModel
 from flamapy.core.operations import Operation
+from typing import cast, List, Tuple, Optional
 
 from explanation.models.pysat_diagnosis_model import DiagnosisModel
 from explanation.operations.algorithms.checker import ConsistencyChecker, CheckerFactory
@@ -157,6 +161,22 @@ class PySATAbstractExplanation(Operation):
             List of result message strings
         """
         return self.result_messages
+
+    def get_diagnoses(self) -> List[List]:
+        """Get raw diagnosis constraint sets from HSDAG.
+
+        Returns:
+            List of diagnoses (each a list of constraints), or empty if HSDAG not executed.
+        """
+        return self.hsdag.get_diagnoses() if self.hsdag else []
+
+    def get_conflicts(self) -> List[List]:
+        """Get raw conflict sets from HSDAG.
+
+        Returns:
+            List of conflicts (each a list of constraints), or empty if HSDAG not executed.
+        """
+        return self.hsdag.get_conflicts() if self.hsdag else []
 
     def _create_checker(self, model: DiagnosisModel) -> ConsistencyChecker:
         """Create consistency checker from model.

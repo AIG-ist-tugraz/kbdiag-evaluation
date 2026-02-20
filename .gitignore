@@ -47,3 +47,5 @@ logs-*.zip
 /papers/
 /plans/
 /plans/reports/
+.env
+/.serena/

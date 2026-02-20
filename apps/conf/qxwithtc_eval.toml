@@ -1,14 +1,14 @@
-# KBDiag Evaluation Configuration
-# Usage: python -m apps.eval_runner apps/conf/kbdiag_eval.toml
+# QuickXPlainWithTestCases+HSDAG Evaluation Configuration
+# Usage: python -m apps.eval_runner apps/conf/qxwithtc_eval.toml
 
 [evaluation]
 # Algorithm: kbdiag, quickxplain_with_testcases
-algorithm = "kbdiag"
+algorithm = "quickxplain_with_testcases"
 # Task: "1" (one diagnosis) or "all" (all diagnoses)
 task = "all"
 # Number of iterations per test case file
 num_iterations = 1
-# m parameter for KBDiag algorithm (ignored by others)
+# m parameter (unused by quickxplain_with_testcases, kept for config compatibility)
 m = 1
 # Run warmup iteration before measurement
 dry_run = true
@@ -29,26 +29,25 @@ preset = "benchmark"  # "benchmark" or "disabled"
 result_path = "data/jiis/results"
 
 # Knowledge bases to evaluate
-# Each [[kb]] entry defines a KB with its model and test case files
 
 [[kb]]
 name = "DELL"
 model = "data/jiis/fms/DELL.uvl"
 scenarios_dir = "data/jiis/scenarios"
 testcases = [
-    "DELL_c5_3.testcases",
-    "DELL_c10_3.testcases",
-    "DELL_c25_3.testcases",
-    "DELL_c50_3.testcases",
-    "DELL_c100_3.testcases",
-    "DELL_c250_3.testcases",
-    "DELL_c500_3.testcases",
+    "DELL_c5_0.testcases",
+    "DELL_c10_0.testcases",
+    "DELL_c25_0.testcases",
+    "DELL_c50_0.testcases",
+    "DELL_c100_0.testcases",
+    "DELL_c250_0.testcases",
+    "DELL_c500_0.testcases",
 ]
 # Per-testcase task override (optional, fnmatch glob patterns)
 # First matching pattern wins. Unmatched files use [evaluation].task.
-#[kb.task_overrides]
-#"*_c5_*" = "all"
-#"*_c25_*" = "all"
+[kb.task_overrides]
+"*_c25_*" = "all"
+"*_c50_*" = "all"
 
 #[[kb]]
 #name = "REAL-FM-11"
@@ -142,4 +141,4 @@ testcases = [
 
 [email]
 enabled = true
-subject_prefix = "[KBDiag]"
+subject_prefix = "[HSDAG]"

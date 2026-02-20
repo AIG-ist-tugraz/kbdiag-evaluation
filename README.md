@@ -44,8 +44,11 @@ java -jar target/main_v2-jar-with-dependencies.jar -e config.txt
 python3 -m venv venv
 source venv/bin/activate
 
+# Generate test suites (optional)
+python -m apps.testsuite_gen apps/conf/testsuite_gen.toml
+
 # Run evaluation
-python -m apps.kbdiag_eval apps/conf/kbdiag_eval.toml
+python -m apps.eval_runner apps/conf/kbdiag_eval.toml
 
 # Run tests
 python -m unittest discover -s tests -v
@@ -69,9 +72,12 @@ KBDiag/
 │   ├── debugging/algorithms/                     # Core diagnosis algorithms
 │   ├── apps/real/                               # Evaluation framework
 │   └── common/                                   # Shared utilities
-├── apps/                                         # Evaluation scripts
-│   ├── kbdiag_eval.py                           # TOML-driven evaluation
-│   └── conf/kbdiag_eval.toml                    # Default config
+├── apps/                                         # Evaluation & generation scripts
+│   ├── eval_runner.py                            # TOML-driven evaluation
+│   ├── testsuite_gen.py                         # Test suite generator
+│   └── conf/                                    # Configuration files
+│       ├── kbdiag_eval.toml                     # KBDiag evaluation config
+│       └── testsuite_gen.toml                   # Test suite generation config
 ├── explanation/                                  # Python implementation (~6.8K LOC, 42 files)
 │   ├── models/                                  # Extended data models
 │   ├── operations/                              # Advanced algorithms + SAT4J support

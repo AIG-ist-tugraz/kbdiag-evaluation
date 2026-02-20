@@ -6,6 +6,11 @@ https://github.com/HiConfiT/hiconfit-core/blob/main/ca-cdr-package/src/main/java
 #
 #  Copyright (c) 2026
 #
+#  @author: Viet-Man Le (v.m.le@tugraz.at)
+
+#  KBDiag
+#
+#
 #  @author: Viet-Man Le (vietman.le@ist.tugraz.at)
 
 #  KBDiag
@@ -13,6 +18,7 @@ https://github.com/HiConfiT/hiconfit-core/blob/main/ca-cdr-package/src/main/java
 #
 #  @author: Viet-Man Le (vietman.le@ist.tugraz.at)
 
+import time
 from typing import List, Optional, Dict, Union, Any
 
 from .labeler.labeler import IHSLabelable, LabelerType, AbstractHSParameters
@@ -49,6 +55,8 @@ class HSDAG:
         self.node_labels: List[List] = []  # list of diagnoses or conflicts found
         self.path_labels: List[List] = []  # list of diagnoses or conflicts found
 
+        self._construct_start_time: float = 0.0  # for path_label_cumulative_runtime
+
         self.root: Optional[Node] = None  # root node of the HS-dag
         self.open_nodes: List[Node] = []  # list of open nodes
         # Map of <label, list of nodes which have the label as its label>
@@ -83,6 +91,8 @@ class HSDAG:
         """
         Constructs the HS-dag.
         """
+        if self.profiler.is_profiling:
+            self._construct_start_time = time.perf_counter()
         param = self.labeler.get_initial_parameters()
 
         has_root_label = self.create_root(param)
@@ -97,7 +107,8 @@ class HSDAG:
         has_root_label = True
 
         if not self.has_root():
-            labels = self.compute_label(self.labeler, param)
+            with self.profiler.timer("node_label_runtime"):
+                labels = self.compute_label(self.labeler, param)
 
             if len(labels) == 0:
                 has_root_label = False
@@ -140,7 +151,8 @@ class HSDAG:
 
         # compute labels if there are none to reuse
         if len(labels) == 0:
-            labels = self.compute_label_from_node(self.labeler, node)
+            with self.profiler.timer("node_label_runtime"):
+                labels = self.compute_label_from_node(self.labeler, node)
 
             self.process_labels(labels)
 
@@ -227,8 +239,11 @@ class HSDAG:
     def found_a_path_label_at_node(self, node: Node) -> None:
         node.status = NodeStatus.CHECKED
         path_label = node.path_label.copy()
-
         self.path_labels.append(path_label)
+
+        if self.profiler.is_profiling:
+            elapsed = time.perf_counter() - self._construct_start_time
+            self.profiler.record_time("path_label_cumulative_runtime", elapsed)
 
     @staticmethod
     def select_label(labels: List[List]) -> List:
