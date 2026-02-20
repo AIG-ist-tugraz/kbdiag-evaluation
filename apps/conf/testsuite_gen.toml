@@ -1,0 +1,39 @@
+# TestSuite Generation Configuration
+# Usage: python -m apps.testsuite_gen apps/conf/testsuite_gen.toml
+
+[generation]
+max_combinations = 3000
+randomly_search = false
+max_items = 5  # max feature subset size for partial configs
+seed = 82  # random seed for reproducibility (remove for non-deterministic)
+
+[concurrency]
+max_workers = 4
+
+[output]
+output_dir = "data/jiis/testsuite"
+
+# Feature models to process (all run in parallel)
+[[fm]]
+name = "DELL"
+model = "data/jiis/fms/DELL.uvl"
+
+[[fm]]
+name = "REAL-FM-11"
+model = "data/jiis/fms/REAL-FM-11.uvl"
+
+[[fm]]
+name = "REAL-FM-4"
+model = "data/jiis/fms/REAL-FM-4.uvl"
+
+[[fm]]
+name = "ubuntu"
+model = "data/jiis/fms/ubuntu.uvl"
+
+[[fm]]
+name = "windows8"
+model = "data/jiis/fms/windows8.uvl"
+
+[[fm]]
+name = "linux"
+model = "data/jiis/fms/linux-2.6.33.3.uvl"
