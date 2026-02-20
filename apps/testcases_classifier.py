@@ -9,6 +9,11 @@
 #
 #  @author: Viet-Man Le (v.m.le@tugraz.at)
 
+#  KBDiag
+#
+#
+#  @author: Viet-Man Le (v.m.le@tugraz.at)
+
 """Test case classifier for feature models.
 
 Classifies test cases in a testsuite as violated (inconsistent with FM,
@@ -23,7 +28,9 @@ Usage:
 """
 
 import gc
+import os
 import sys
+from concurrent.futures import ProcessPoolExecutor, as_completed
 from pathlib import Path
 from typing import Any, Dict, List
 
@@ -199,7 +206,7 @@ class TestCasesClassifier:
 
         op = (PySATDiagnosisBuilder
               .for_conflict()
-              .with_max_conflicts(self._max_conflict_sets)
+              .with_max_conflicts(self._max_conflict_sets + 1)
               .with_solver(self._solver_name)
               .build())
         op.execute(tc_model)
@@ -257,6 +264,42 @@ class TestCasesClassifier:
         print(f"\t[{self._name}] Written to {filepath}")
 
 
+def classify_single_fm(
+    fm_cfg: Dict[str, str],
+    max_conflict_sets: int,
+    solver_name: str,
+    output_dir: str,
+) -> None:
+    """Classify test cases for a single feature model.
+
+    Top-level function required for ProcessPoolExecutor (must be picklable).
+    Each worker independently loads its FM and creates its own solver.
+    """
+    from flamapy.metamodels.fm_metamodel.transformations import UVLReader
+
+    name = fm_cfg["name"]
+    model_path = str(resolve_path(fm_cfg["model"]))
+    testsuite_path = resolve_path(fm_cfg["testsuite"])
+
+    print(f"[{name}] Loading feature model from {model_path}")
+    fm = UVLReader(model_path).transform()
+
+    print(f"[{name}] Reading testsuite from {testsuite_path}")
+    testsuite = read_testsuite(testsuite_path)
+    print(f"[{name}] Loaded {len(testsuite.testcases)} test cases")
+
+    classifier = TestCasesClassifier(
+        fm=fm,
+        fm_name=name,
+        max_conflict_sets=max_conflict_sets,
+        solver_name=solver_name,
+    )
+    classifier.classify(testsuite)
+
+    abs_output = str(ROOT_PROJECT_FOLDER / output_dir)
+    classifier.write_to_file(abs_output)
+
+
 def main() -> None:
     """Entry point: parse CLI config and classify test cases."""
     if len(sys.argv) < 2:
@@ -269,30 +312,43 @@ def main() -> None:
     solver_name = config.get("solver", {}).get("solver_name", "glucose3")
     output_dir = config["output"]["output_dir"]
 
-    from flamapy.metamodels.fm_metamodel.transformations import UVLReader
+    fm_configs = config["fm"]
+    if not fm_configs:
+        print("No [[fm]] entries found in config. Nothing to classify.")
+        return
 
-    for fm_cfg in config["fm"]:
-        name = fm_cfg["name"]
-        model_path = str(resolve_path(fm_cfg["model"]))
-        testsuite_path = resolve_path(fm_cfg["testsuite"])
+    max_workers_cfg = classification_cfg.get("max_workers", 0)
 
-        print(f"[{name}] Loading feature model from {model_path}")
-        fm = UVLReader(model_path).transform()
+    # Auto-detect: min(num_fms, cpu_count), or use configured value
+    if max_workers_cfg <= 0:
+        max_workers = min(len(fm_configs), os.cpu_count() or 1)
+    else:
+        max_workers = min(max_workers_cfg, len(fm_configs))
 
-        print(f"[{name}] Reading testsuite from {testsuite_path}")
-        testsuite = read_testsuite(testsuite_path)
-        print(f"[{name}] Loaded {len(testsuite.testcases)} test cases")
-
-        classifier = TestCasesClassifier(
-            fm=fm,
-            fm_name=name,
-            max_conflict_sets=max_conflict_sets,
-            solver_name=solver_name,
-        )
-        classifier.classify(testsuite)
-
-        abs_output = str(ROOT_PROJECT_FOLDER / output_dir)
-        classifier.write_to_file(abs_output)
+    if max_workers <= 1:
+        # Sequential fallback
+        for fm_cfg in fm_configs:
+            classify_single_fm(fm_cfg, max_conflict_sets, solver_name, output_dir)
+    else:
+        print(f"Running {len(fm_configs)} FMs in parallel (max_workers={max_workers})")
+        with ProcessPoolExecutor(max_workers=max_workers) as executor:
+            futures = {
+                executor.submit(
+                    classify_single_fm, fm_cfg,
+                    max_conflict_sets, solver_name, output_dir,
+                ): fm_cfg["name"]
+                for fm_cfg in fm_configs
+            }
+            failed = []
+            for future in as_completed(futures):
+                name = futures[future]
+                try:
+                    future.result()
+                except Exception as e:
+                    print(f"[{name}] FAILED: {e}")
+                    failed.append(name)
+            if failed:
+                sys.exit(1)
 
 
 if __name__ == "__main__":
