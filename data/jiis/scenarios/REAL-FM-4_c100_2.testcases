@@ -1,0 +1,101 @@
+100
+~Storefront & ~Homepage & Staticcontent & Variationsource & ~Discounts
+Storefront & ~Homepage & ~Staticcontent & ~Timedependent & Producttype
+Storefront & Homepage & Staticcontent & ~Registrationenforcement & ~Registeredcheckout
+Storefront & Homepage & ~Staticcontent & ~Registrationenforcement & ~Shippingaddress
+Storefront & Registration & ~Age
+~Storefront & Homepage & Staticcontent & ~Personalized & ~Faxmailorder
+Storefront & Homepage & Welcomemessage & Substituteproducts
+Storefront & ~Homepage & ~Staticcontent & ~Welcomemessage & ~Custompaymentgateway
+Timedependent & ~Reminders
+Storefront & ~Homepage & ~Staticcontent & ~Personalized & ~Physicalgoodsfulfillment
+Storefront & Homepage & ~Staticcontent & ~Generallayoutmanagement
+~Storefront & Registration & ~Contextsensitiveads
+~Storefront & Homepage & ~Staticcontent & Personalized & Ordernumber
+Storefront & ~Homepage & ~Staticcontent & ~Contenttype & Substituteproducts
+Storefront & Welcomemessage & ~Indexpage
+Storefront & Homepage & Staticcontent & ~Registrationenforcement & ~Questionandfeedbacktracking
+Storefront & ~Homepage & Registrationenforcement & None
+Storefront & Contenttype & ~Handlingmultiplediscounts
+Storefront & Homepage & ~Specialoffers & ~Pop_upads
+Storefront & ~Homepage & ~Staticcontent & ~Basicsearch
+Welcomemessage & ~Shoppingcartcontent
+~Contenttype & ~Ammountspecification
+Contenttype & Region
+Storefront & Homepage & ~Staticcontent & Timedependent & ~Customerpreferences
+Storefront & ~Homepage & ~Registrationenforcement & ~Customfilter
+~Storefront & ~Homepage & Registertobrowse & ~PersonalInformation
+~Storefront & Personalized & ~Multiplecatalogs
+~Storefront & Homepage & Staticcontent & Specialoffers & ~Shipping1
+~Storefront & ~Homepage & ~Staticcontent & Personalized & Productpage
+~Storefront & ~Homepage & ~Staticcontent & Registrationenforcement & ~Video
+Variationsource & ~Securityinformation
+Storefront & Homepage & Staticcontent & Specialoffers & Award
+Storefront & Homepage & ~Registration & Cartsaveaftersession
+Personalized & ~Wishlist
+Storefront & ~Homepage & ~Registertobrowse & Address
+~Contenttype & ~Userbehaviourtrackinginformation
+Storefront & Homepage & Staticcontent & Registration & USPS
+~Welcomemessage & ~Preferences
+Storefront & Homepage & Staticcontent & ~Dynamiccontent & ~Coupons
+Storefront & Dynamiccontent & ~PersonalInformation
+Storefront & Homepage & Staticcontent & ~Registertobrowse & ~Phone
+Storefront & Homepage & Welcomemessage & ~Inventorytracking
+Storefront & Homepage & Staticcontent & Registertobuy & ~Questionandfeedbackforms
+~Homepage & ~Phoneorder
+Storefront & ~Homepage & ~Timedependent & ~Discountconditions
+Storefront & ~Homepage & ~Specialoffers & ~Multipleclassification
+Storefront & ~Homepage & ~Staticcontent & ~Contenttype & Price_Qualityratio
+Storefront & Homepage & Registration & Non_repudiationservice
+Storefront & ~Homepage & ~Dynamiccontent & Eletroniccheque
+Storefront & ~Homepage & ~Specialoffers & ~Multipleshippingaddresses
+~Storefront & ~Homepage & ~Staticcontent & Contenttype & ~Cardnumber
+~Storefront & Homepage & Staticcontent & Dynamiccontent & Demographics1
+~Storefront & ~Homepage & ~Staticcontent & ~Specialoffers & Personalizedviews
+~Storefront & ~Specialoffers & Address
+~Storefront & ~Homepage & Staticcontent & ~Timedependent & ~Assignmenttopagetypesfordisplay
+Storefront & Homepage & Staticcontent & ~Registertobrowse & ~Fulfillment
+~Storefront & Homepage & Staticcontent & Dynamiccontent & ~Demographics1
+~Storefront & Homepage & ~Staticcontent & ~Registration & ~Mediafiles
+~Storefront & Homepage & ~Contenttype & a360degreesimage
+~Storefront & ~Homepage & ~Staticcontent & ~Personalized & Frauddetection
+Storefront & ~Homepage & Registrationenforcement & Wishlist
+Storefront & Homepage & Personalized & ~Flatrate
+Storefront & ~Homepage & ~Staticcontent & Price_Qualityratio
+Storefront & ~Homepage & ~Variationsource & ~Rule_basedtaxation
+Storefront & Homepage & Staticcontent & ~Registertobrowse & Bannerads
+Storefront & ~Homepage & Registration & ~Quantity
+Storefront & Homepage & ~Staticcontent & ~Welcomemessage & ~Personalizedviews
+Storefront & Homepage & ~Specialoffers & Basicsearch
+~Cartsummarypage & Shoppingcart
+Storefront & Homepage & Staticcontent & ~Specialoffers & Shippingoptions
+Storefront & ~Dynamiccontent & ~Customerreviews
+Storefront & Homepage & Staticcontent & Dynamiccontent & ~Behaviourtracked
+Storefront & Homepage & ~Staticcontent & ~Registertobuy & ~Eletronicpage
+Storefront & Homepage & Staticcontent & Timedependent & ~Productpage
+Storefront & Homepage & ~Variationsource & Customfields1
+Welcomemessage & Inventorymanagementsystem
+Storefront & Homepage & ~Welcomemessage & Flatrate
+Storefront & Homepage & ~Staticcontent & ~Registrationenforcement & ~Age
+Storefront & Registration & Cartsaveaftersession
+Storefront & Homepage & Dynamiccontent & Complexproductconfiguration
+Storefront & Homepage & ~Staticcontent & ~Registration & Licensemanagement
+Storefront & ~Homepage & ~Timedependent & Procurement
+Storefront & ~Homepage & ~Staticcontent & Registertobrowse & Up_selling
+Storefront & Specialoffers & ~Customersegments
+~Welcomemessage & ~CustomDemographicfield
+~Staticcontent & Billingaddress
+Storefront & Homepage & ~Staticcontent & Specialoffers & ~Billing
+Storefront & ~Homepage & ~Variationsource & ~Custompaymenttype
+Storefront & ~Homepage & ~Staticcontent & ~Registrationenforcement & ~Region
+Storefront & Homepage & Staticcontent & ~Welcomemessage & CustomDemographicfield
+Storefront & Homepage & Staticcontent & Dynamiccontent & CertiTAX
+Storefront & Homepage & Timedependent & Affiliates
+Storefront & Homepage & ~Personalized & ~Price
+Staticcontent & ~Targetingmechanisms
+Storefront & Homepage & ~Staticcontent & Welcomemessage & Contentmanagement
+Storefront & Homepage & Staticcontent & Variationsource & ~Orderstatus
+Storefront & Personalized & ~Gallery
+Personalized & ~Indexpage
+Storefront & ~Homepage & ~Staticcontent & Registration & ~Dateandtime
+Storefront & Homepage & Staticcontent & ~Contenttype & Productflagging

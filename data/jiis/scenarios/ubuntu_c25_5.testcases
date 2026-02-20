@@ -1,0 +1,26 @@
+25
+Appearance & ~Look & HighContrastInverse & Seeing
+Appearance & ~PrecisePagolin1920x1280 & ~High4
+Appearance & ~Delay1
+~Appearance & ~Look & ~MorningDew1920x1280 & ~Fast4
+Appearance & Look & Background & EarlyBlossom1920x1280 & Normal2
+~Appearance & ~Look & Background & AmbianceDefault & Brightness
+Appearance & Look & Background & ~TwillightFrost1920x1280 & Large1
+~UseTheSameLayoutForAllWindows & Typing2
+Appearance & Look & ~HighContrast & UniversalAccess1
+Appearance & PrecisePagolin1920x1280 & ~_30Minutes
+Appearance & ~Look & Background & TwillightFrost1920x1280 & ~Behavoir
+Appearance & Look & ~Background & Ubuntu1920x1280 & _48
+Appearance & ~Look & Background & EarlyBlossom1920x1280 & ~RaiseWindowAboveOtherWindows
+PrecisePagolin1920x1280 & ~General2
+~Appearance & ~Look & ~Radiance & TurnOnAccessibilityFeaturesFromTheKeyboard
+Appearance & Look & TwillightFrost1920x1280 & ~StickyKeys
+~Appearance & ~Look & ~Ubuntu1920x1280 & _1Hour
+Appearance & Look & Background & MorningDew1920x1280 & ~AlternativeCharactersKey
+~PrecisePagolin1920x1280 & _1Minute_
+Appearance & Look & Background & ~Fast1
+Appearance & ~MorningDew1920x1280 & ~PointerSpeed2
+~Background & Small1
+Appearance & Look & Background & HighContrastInverse & ~Disabled9
+Appearance & Look & TwillightFrost1920x1280 & LowerWindowBelowOtherWindows
+Appearance & Look & Background & ~TwillightFrost1920x1280 & _3Minutes

@@ -1,0 +1,11 @@
+10
+UseTheComputerWithoutADisplay & ~HearTextReadAloud & HearTextReadAloud_1 & ~Control_TheVoiceProperties_Speed_OtherOption & ~TurnOnAudioDescription
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~Control_TheVoiceProperties_Speed_OtherOption & TopSpeed1
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~TurnOnNarrator1 & PreventWindowsFromBeingAutomaticallyArrangedWhenMovedToTheEdgeOfTheScreen2
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & SpeechRecognition & None1
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~TuenOnAudioDescription & ~StartSpeechRecognition
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & HearTextReadAloud_1 & Control_TheVoiceProperties_Speed_OtherOption & ~MakeItEasierToType1
+UseTheComputerWithoutADisplay & ~TextToSpeech & ~_0_3Seconds
+UseTheComputerWithoutADisplay & HearTextReadAloud & TuenOnAudioDescription & ~PreventWindowsFromBeingAutomaticallyArrangedWhenMovedToTheEdgeOfTheScreen2
+~TurnOnNarrator1 & Long
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~SpeechRecognition & LockModifierKeysWhenPressedTwiceInARow

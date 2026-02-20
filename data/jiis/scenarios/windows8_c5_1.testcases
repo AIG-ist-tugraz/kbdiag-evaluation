@@ -1,0 +1,6 @@
+5
+UseTheComputerWithoutADisplay & ~HearTextReadAloud & HearTextReadAloud_1 & SetupTextToSpeech & Feedback
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~Control_TheVoiceProperties_Speed_OtherOption & Low1
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud_1 & ~New
+SetupTextToSpeech & ~IgnoreAllRepeatedKeystrokes
+TuenOnAudioDescription & TB_12

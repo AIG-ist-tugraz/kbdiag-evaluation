@@ -1,0 +1,26 @@
+25
+~UseTheComputerWithoutADisplay & HearTextReadAloud & ~HearTextReadAloud_1 & TuenOnAudioDescription & ~SetupTextToSpeech
+HearTextReadAloud & PointerSpeed1
+~UseTheComputerWithoutADisplay & ~TurnOnNarrator1 & ~SetUpMicrophone
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~TuenOnAudioDescription & ~MakeASoundWhenTurningASettingOnOrOff2
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & Control_TheVoiceProperties_Speed_OtherOption & Advanced1
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & HearTextReadAloud_1 & ~TextToSpeech & NumberOfSpaceToInsertAfterPonctuation
+~UseTheComputerWithoutADisplay & ~_1
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~TuenOnAudioDescription & TB_12
+~TurnOnNarrator1 & MicrosoftDavidDesktopEnglishUS
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~SpeechRecognition & ~_400
+UseTheComputerWithoutADisplay & ~HearTextReadAloud & HearTextReadAloud_1 & ~TurnOnNarrator1 & M_15
+UseTheComputerWithoutADisplay & ~HearTextReadAloud & SetupTextToSpeech & OtherSettings2
+~UseTheComputerWithoutADisplay & HearTextReadAloud & ~HearTextReadAloud_1 & TuenOnAudioDescription & DefaultSpeechProfile
+SetupTextToSpeech & UseSpeechRecognition
+TuenOnAudioDescription & HaveMagnifierFollowTheTextInsertionPoint
+~TurnOnNarrator1 & ~_1_7Seconds__
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~TextToSpeech & Bold1
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~Control_TheVoiceProperties_Speed_OtherOption & ~AvoidAccidentalKeytrockes
+UseTheComputerWithoutADisplay & ~TextToSpeech & ~_10_0Seconds
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~SetupTextToSpeech & ZoomIn
+~UseTheComputerWithoutADisplay & ~TurnOnNarrator1 & ZoomOut
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & EnableVoiceActivation
+~TuenOnAudioDescription & Lens
+~UseTheComputerWithoutADisplay & ~TuenOnAudioDescription & ~SeeAlso2
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & VoiceSelection & ChooseAHighContrastTheme

@@ -1,0 +1,6 @@
+5
+ProductCategory & ~MiniNotebooks & ~InspironLaptops & a160GB & _800__1200
+ProductCategory & ~MiniNotebooks & ~StudioLaptops & a160GB & ~a2GB
+ProductCategory & ~StudioLaptops & a320GB & ~a2GB
+ProductCategory & ~MiniNotebooks & ~InspironLaptops & ~WindowsXPHome & a4GB
+ProductCategory & XPSLaptops & Windows7 & Light

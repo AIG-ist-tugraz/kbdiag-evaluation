@@ -1,0 +1,6 @@
+5
+~Storefront & Welcomemessage & Productpage
+Storefront & Homepage & Staticcontent & ~Variationsource & Demographics
+Storefront & Homepage & Specialoffers & ~Pastcustomersalsobought
+Timedependent & Flatrate
+Storefront & Homepage & ~Dynamiccontent & ~Productreturns

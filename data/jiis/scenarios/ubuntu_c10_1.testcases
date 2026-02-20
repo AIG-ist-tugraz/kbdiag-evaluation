@@ -1,0 +1,11 @@
+10
+Appearance & Look & ~Background & TwillightFrost1920x1280 & Fast3
+Appearance & DelicatePetals1920x1280 & ~LeftHanded
+~DelicatePetals1920x1280 & ~Disabled6
+Appearance & Look & Background & ~EarlyBlossom1920x1280 & LockScreen
+~Look & Disabled1
+~Appearance & ~Look & Background & LauncherIconSize & _1Hour_
+Appearance & Look & ToggleMaximisationState
+~Appearance & ~Look & ~Background & ~HighContrastInverse & Normal2
+Appearance & HighContrastInverse & ~_1Minute_
+Appearance & Look & PrecisePagolin1920x1280 & ~SimulatedSecondaryCLick

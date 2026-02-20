@@ -1,0 +1,41 @@
+# Test Cases Selector Configuration
+# Usage: python -m apps.testcases_selector apps/conf/testcases_selector.toml
+
+[selection]
+num_scenarios = 9
+violated_percent = 0.20
+cardinalities = [5, 10, 25, 50, 100, 250, 500]
+seed = 82  # random seed for reproducibility (remove for non-deterministic)
+min_priority_conflicts = 2  # TCs with >= this many conflicts get selected first
+selection_strategy = "diversity"  # "random" (legacy) or "diversity" (conflict-fingerprint-based)
+
+[concurrency]
+max_workers = 4
+
+[output]
+output_dir = "data/jiis/scenarios"
+
+# Classified test suites to process (all run in parallel)
+#[[ts]]
+#name = "DELL"
+#classified_ts = "data/jiis/classifiedTS/DELL.classifiedts"
+
+[[ts]]
+name = "REAL-FM-11"
+classified_ts = "data/jiis/classifiedTS/REAL-FM-11.classifiedts"
+
+[[ts]]
+name = "REAL-FM-4"
+classified_ts = "data/jiis/classifiedTS/REAL-FM-4.classifiedts"
+
+[[ts]]
+name = "ubuntu"
+classified_ts = "data/jiis/classifiedTS/ubuntu.classifiedts"
+
+[[ts]]
+name = "windows8"
+classified_ts = "data/jiis/classifiedTS/windows8.classifiedts"
+
+#[[ts]]
+#name = "linux"
+#classified_ts = "data/jiis/classifiedTS/linux.classifiedts"

@@ -1,0 +1,11 @@
+10
+Appearance & ~Look & HighContrastInverse & Seeing
+Appearance & ~PrecisePagolin1920x1280 & ~High4
+Appearance & ~Delay1
+~Appearance & ~Look & ~MorningDew1920x1280 & ~Fast4
+Appearance & Look & Background & EarlyBlossom1920x1280 & Normal2
+~Appearance & ~Look & Background & AmbianceDefault & Brightness
+Appearance & Look & Background & ~TwillightFrost1920x1280 & Large1
+~UseTheSameLayoutForAllWindows & Typing2
+Appearance & Look & ~HighContrast & UniversalAccess1
+Appearance & PrecisePagolin1920x1280 & ~_30Minutes

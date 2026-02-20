@@ -1,0 +1,26 @@
+25
+~Storefront & Welcomemessage & Productpage
+Storefront & Homepage & Staticcontent & ~Variationsource & Demographics
+Storefront & Homepage & Specialoffers & ~Pastcustomersalsobought
+Timedependent & Flatrate
+Storefront & Homepage & ~Dynamiccontent & ~Productreturns
+Storefront & Staticcontent & ~Generallayoutmanagement
+Storefront & ~Timedependent & ~Faxmailorder
+Storefront & ProductInformation
+Storefront & Timedependent & ~Custompaymentgateway
+Storefront & Homepage & Staticcontent & ~Contenttype & Cardholdername
+~Storefront & Homepage & Staticcontent & ~Specialoffers & Shipping
+~Storefront & ~Homepage & Dynamiccontent & Detailedinformation
+~Storefront & ~Homepage & ~Contenttype & Multi_level
+Welcomemessage & Percentage
+Storefront & Homepage & Variationsource & Quality
+Storefront & Homepage & Staticcontent & ~Registertobuy & ~Frauddetection
+Storefront & ~Homepage & ~Variationsource & Percentage
+Storefront & Homepage & ~Personalized & Fixed_ratetaxation
+Welcomemessage & ~Billing
+Storefront & Welcomemessage & ~Associatedassets
+Storefront & ~Personalized & ~Userbehaviourtrackinginformation
+Storefront & ~Contenttype & ~Licensemanagement
+~Staticcontent & ~Catalog1
+Storefront & ~Dynamiccontent & ~Productflagging
+Storefront & Homepage & Staticcontent & Registration & ~Price_Qualityratio

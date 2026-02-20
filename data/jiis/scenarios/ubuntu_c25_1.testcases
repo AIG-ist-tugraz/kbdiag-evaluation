@@ -1,0 +1,26 @@
+25
+Appearance & Look & ~Background & TwillightFrost1920x1280 & Fast3
+Appearance & DelicatePetals1920x1280 & ~LeftHanded
+~DelicatePetals1920x1280 & ~Disabled6
+Appearance & Look & Background & ~EarlyBlossom1920x1280 & LockScreen
+~Look & Disabled1
+~Appearance & ~Look & Background & LauncherIconSize & _1Hour_
+Appearance & Look & ToggleMaximisationState
+~Appearance & ~Look & ~Background & ~HighContrastInverse & Normal2
+Appearance & HighContrastInverse & ~_1Minute_
+Appearance & Look & PrecisePagolin1920x1280 & ~SimulatedSecondaryCLick
+Appearance & ~Look & ~Background & EarlyBlossom1920x1280 & ~TimeOut
+~Appearance & Look & ~Background & ~Radiance & ~Disabled6
+~Appearance & Look & ~Background & ~HighContrast & ~Disabled6
+~Background & ~Long2
+Appearance & Look & ~Disabled4
+~HighContrastInverse & ~Delay
+Appearance & Look & Ubuntu1920x1280 & TurnScreenReaderOnOrOff
+Appearance & Look & Background & ~DelicatePetals1920x1280 & General
+Appearance & Ubuntu1920x1280 & ~Rotation
+Theme & ~RaiseWindowAboveOtherWindows
+Appearance & Look & Background & ~PrecisePagolin1920x1280 & ~AutoHideTheLauncher
+~Appearance & ~Look & ~DelicatePetals1920x1280 & ~AllDisplays
+~Appearance & ~HighContrastInverse & HighInverse
+~Appearance & ~Radiance & Print
+~Appearance & ~Look & ~Background & ~DelicatePetals1920x1280 & TurnScreenOffWhenInactiveFor

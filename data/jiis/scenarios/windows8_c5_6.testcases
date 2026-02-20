@@ -1,0 +1,6 @@
+5
+UseTheComputerWithoutADisplay & ~HearTextReadAloud & HearTextReadAloud_1 & ~TurnOnNarrator1 & ~UseTextOrVisualAlternativesForSounds
+ME_23
+UseTheComputerWithoutADisplay & ~HowLongDoYouWantToHoldDownAKeyBeforeYourComputerAcceptsTheAcceptsTheKeystroke
+~TurnOnNarrator1 & SeeAlso7
+~TurnOnNarrator1 & New

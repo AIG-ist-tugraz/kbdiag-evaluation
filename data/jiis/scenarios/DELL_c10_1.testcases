@@ -1,0 +1,11 @@
+10
+ProductCategory & ~MiniNotebooks & ~InspironLaptops & a160GB & _800__1200
+ProductCategory & ~MiniNotebooks & ~StudioLaptops & a160GB & ~a2GB
+ProductCategory & ~StudioLaptops & a320GB & ~a2GB
+ProductCategory & ~MiniNotebooks & ~InspironLaptops & ~WindowsXPHome & a4GB
+ProductCategory & XPSLaptops & Windows7 & Light
+~ProductCategory & ~StudioLaptops & IntelCore2Duo & ~Price
+~MiniNotebooks & Light & _400__800
+ProductCategory & ~InspironLaptops & ~IntelPentiumDualcore & Lessthan_400
+ProductCategory & ~MiniNotebooks & ~Adamo & ~StudioXPSLaptops & WindowsVista64bit
+~InspironLaptops & Windows7 & ~a3GB

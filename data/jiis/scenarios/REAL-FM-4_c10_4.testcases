@@ -1,0 +1,11 @@
+10
+~Storefront & ~Homepage & Staticcontent & ~Timedependent & Discountconditions
+Storefront & Homepage & Staticcontent & Specialoffers & ~Ordertotal
+Storefront & Homepage & ~Registertobrowse & Paymentoptions
+Storefront & Homepage & ~Staticcontent & ~Welcomemessage & ~Previouspurchases1
+Specialoffers & ~Customfields1
+~Storefront & ~Homepage & ~Staticcontent & Registertobuy & Shipping1
+Storefront & Homepage & ~Staticcontent & Personalized & Locallyvisitedpages
+Storefront & Homepage & ~Staticcontent & Specialoffers & ~Logincredentials
+Storefront & Homepage & Staticcontent & Registertobrowse & Wishlist
+Storefront & ~Contenttype & ~Dateandtime

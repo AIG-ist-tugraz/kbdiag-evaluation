@@ -1,0 +1,11 @@
+10
+Appearance & ~Look & HighContrastInverse & ~LockScreenAfter
+Appearance & Look & Background & DelicatePetals1920x1280 & ~EarlyBlossom1920x1280
+~Appearance & ~Background & Speed2
+~Appearance & ~TwillightFrost1920x1280 & RepeatKeys
+~Appearance & ~Look & ~Background & ~EarlyBlossom1920x1280 & ~Delay2
+~Appearance & Look & ~Background & PrecisePagolin1920x1280 & Brightness
+HighContrastInverse & ~Shift_Super_Space
+Appearance & Look & Background & ~Short4
+Appearance & ~HighContrastInverse & ~Fast2
+Appearance & TwillightFrost1920x1280 & ~HighInverse

@@ -1,0 +1,11 @@
+10
+ProductCategory & MiniNotebooks & ~StudioLaptops & Morethan4GB & a3GB
+ProductCategory & StudioLaptops & ~UbuntuLinux & ~a160GB
+ProductCategory & StudioLaptops & ~UbuntuLinux & ~a120GB
+ProductCategory & ~MiniNotebooks & WindowsVista64bit & ~DVD_ROMDriveandDVD__RW
+ProductCategory & a80GB & ~a3GB
+~ProductCategory & MiniNotebooks & ~InspironLaptops & ~LaptopWeight & ~Morethan4GB
+~InspironLaptops & ~XPSLaptops & ~CD_DVD_RW
+ProductCategory & ~StudioLaptops & BluRayDisc & LaptopWeight
+~InspironLaptops & ~a160GB & Morethan_1200
+ProductCategory & InspironLaptops & ~BluRayDisc & _800__1200

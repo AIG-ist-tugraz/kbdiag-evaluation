@@ -1,0 +1,26 @@
+25
+~UseTheComputerWithoutADisplay & HearTextReadAloud & ~HearTextReadAloud_1 & SpeechRecognition & IgnoreAllRepeatedKeystrokes
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~TextToSpeech & ZoomIn
+~UseTheComputerWithoutADisplay & ~SpeechRecognition & ~MakeASoundWhenTurningASettingOnOrOff2
+~HearTextReadAloud & ~MakeTheComputerEasierToSee
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & SpeechRecognition & TurnOnNarrator2
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & HearTextReadAloud_1 & SetupTextToSpeech & ControlTheMouseWithTheKeyboard
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~SetupTextToSpeech & TurnOnFilterKeys2
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & TuenOnAudioDescription & ~_5Seconds
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~TurnOnNarrator1 & HoldDownCTRLToSpeedUpAndSHIFTToSlowDown2
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~TuenOnAudioDescription & ~TB_9
+UseTheComputerWithoutADisplay & ~HearTextReadAloud & HearTextReadAloud_1 & ~VoiceSelection & ~SoundScheme
+~UseTheComputerWithoutADisplay & HearTextReadAloud & ~HearTextReadAloud_1 & SpeechRecognition & ~FilterOption_1
+UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & TuenOnAudioDescription & MakeItEasierToType1
+UseTheComputerWithoutADisplay & TuenOnAudioDescription & Control_TheVoiceProperties_Speed_OtherOption
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~TuenOnAudioDescription & ChooseAHighContrastTheme
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & VoiceSelection & MouseSettings
+UseTheComputerWithoutADisplay & TuenOnAudioDescription & ~Fast1
+UseTheComputerWithoutADisplay & ~TurnOnNarrator1 & ~M_17
+UseTheComputerWithoutADisplay & On1
+UseTheComputerWithoutADisplay & M_12
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~SpeechRecognition & ~M_24
+TurnOnNarrator1 & SeeAlso8
+TurnOnNarrator1 & ~FilterOption_1
+UseTheComputerWithoutADisplay & HearTextReadAloud & SpeechRecognition & Slow1
+TextToSpeech & FollowTheMousePointer

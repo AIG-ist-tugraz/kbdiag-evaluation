@@ -1,0 +1,51 @@
+50
+Storefront & Homepage & Staticcontent & ~Administration
+Storefront & ~Variationsource & ~Discountconditions
+Storefront & Homepage & Staticcontent & ~Registertobuy & Cartsummarypage
+Storefront & ~Homepage & Registration & ~Listsize
+Storefront & ~Homepage & ~Staticcontent & ~Timedependent & Qualityofserviceselection
+~Storefront & Homepage & Staticcontent & ~Dynamiccontent & Campaigns
+~Productpage
+Storefront & Homepage & ~Staticcontent & Registration & Presentationoptions
+Storefront & Homepage & ~Staticcontent & Registertobuy & ~Userbehaviourtracking
+Storefront & Homepage & ~Staticcontent & Registration & ~Customerreviews
+~Storefront & Homepage & ~Contenttype & Video
+~Storefront & ~Homepage & Staticcontent & ~Specialoffers & Searching
+~Storefront & Logincredentials
+Storefront & ~Staticcontent & ~Quantity
+Storefront & Homepage & ~Staticcontent & ~Timedependent & ~Userbehaviourtracking
+Storefront & ~Homepage & ~Dynamiccontent & Inventorymanagementsystem
+~Purchasevalue & Targetingmechanisms
+Storefront & Homepage & Staticcontent & Contenttype & Userbehaviourtracking
+Storefront & ~Homepage & Registrationenforcement & ~Servicesfulfillment
+Welcomemessage & ~COD
+Storefront & Homepage & Staticcontent & Personalized & ~COD
+Storefront & Homepage & Staticcontent & Personalized & E_mail
+~Preferences & Registrationinformation
+Storefront & Homepage & Staticcontent & Timedependent & Mediafiles
+Storefront & ~Homepage & ~Staticcontent & ~Dynamiccontent & ~Userbehaviourtrackinginformation
+~Storefront & Homepage & Contenttype & Paymentgateways
+~Storefront & Homepage & ~Staticcontent & ~Image
+~Storefront & Timedependent & VerisignPayflowPro
+~Storefront & Homepage & Staticcontent & ~Registrationenforcement & ~Paradata
+~Storefront & ~Homepage & Staticcontent & Dynamiccontent & ~Phone
+Storefront & Homepage & ~Personalized & Externalreferringpages
+Storefront & Homepage & Staticcontent & ~Variationsource & City
+Storefront & Homepage & Contenttype & ~Image
+Welcomemessage & ~Registeredcheckout
+Storefront & ~Homepage & ~Welcomemessage & ~Userbehaviourtrackinginformation
+Storefront & Homepage & Staticcontent & ~Variationsource & ~None
+Storefront & Homepage & Welcomemessage & ~Timedependent
+Storefront & Homepage & ~Staticcontent & ~Registertobrowse & ~Cross_selling
+Storefront & Homepage & Staticcontent & Timedependent & Eletronicgoods
+~Dynamiccontent & Associatedassets
+Timedependent & ~Physicalgoodsfulfillment
+Storefront & ~Homepage & ~Staticcontent & ~Welcomemessage & Paymenttypes
+Storefront & ~Homepage & ~Staticcontent & ~Contenttype & Advancedsearch
+Storefront & Homepage & ~Staticcontent & Timedependent & ~Advertisementmanagementinterface
+Storefront & ~Staticcontent & Servicesfulfillment
+Storefront & ~Homepage & ~Staticcontent & ~Filteringcriteria
+Storefront & ~Homepage & ~Staticcontent & Registrationenforcement & ~CyberSource1
+Storefront & Contenttype & Procurement
+Storefront & ~Homepage & ~Registrationenforcement & ~Ratefactors
+Storefront & ~Homepage & ~Specialoffers & Giftoptions

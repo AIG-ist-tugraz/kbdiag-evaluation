@@ -1,0 +1,11 @@
+10
+UseTheComputerWithoutADisplay & ~HearTextReadAloud & TuenOnAudioDescription & ~TurnOnFilterKeys
+~UseTheComputerWithoutADisplay & ~TurnOnNarrator1 & ~HoldDownCTRLToSpeedUpAndSHIFTToSlowDown2
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~Control_TheVoiceProperties_Speed_OtherOption & _5_Secons
+UseTheComputerWithoutADisplay & ~TextToSpeech & Long
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~TextToSpeech & CursorBlinkRate
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & HearTextReadAloud_1 & VoiceSelection & ~_5Minutes
+SetupTextToSpeech & Menus
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~SetupTextToSpeech & ~HoldDownCTRLToSpeedUpAndSHIFTToSlowDown1
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~TurnOnNarrator1 & TurnOnMouseKeysWithLeft_ALT_plus_SHIFT_plus_NUMLOCK
+UseTheComputerWithoutADisplay & ~TuenOnAudioDescription & ~ChangeOnlyTheTextSize

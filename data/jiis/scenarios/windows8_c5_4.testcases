@@ -1,0 +1,6 @@
+5
+UseTheComputerWithoutADisplay & ~HearTextReadAloud & HearTextReadAloud_1 & ~Control_TheVoiceProperties_Speed_OtherOption & ~TurnOnAudioDescription
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~Control_TheVoiceProperties_Speed_OtherOption & TopSpeed1
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~TurnOnNarrator1 & PreventWindowsFromBeingAutomaticallyArrangedWhenMovedToTheEdgeOfTheScreen2
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & SpeechRecognition & None1
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~TuenOnAudioDescription & ~StartSpeechRecognition

@@ -1,0 +1,26 @@
+25
+~_id_1 & ~_id_32 & ~_id_37
+_id_1 & _id_2 & _id_3 & _id_33 & _id_51
+_id_1 & _id_2 & _id_6 & _id_57
+_id_1 & _id_5 & _id_14
+~message & ~pumping
+_id_1 & _id_2 & ~_id_3 & _id_9 & ~moisture_sensor
+_id_1 & _id_8 & ~_id_53
+_id_1 & _id_2 & _id_3 & _id_15 & _id_23
+_id_1 & _id_2 & _id_24 & _id_59
+_id_14 & _id_62
+~_id_1 & ~_id_2 & ~_id_4 & ~_id_16 & _id_28
+_id_1 & _id_3 & ~_id_11 & ~_id_18
+~_id_1 & _id_2 & ~_id_39 & ~_id_55
+_id_16 & ~_id_25
+_id_1 & _id_2 & ~_id_20 & ~pumping
+_id_1 & _id_2 & _id_4 & ~_id_23 & _id_29
+_id_2 & _id_17 & _id_55
+_id_1 & ~_id_37 & _id_52
+_id_1 & ~_id_36 & _id_47
+_id_1 & message & _id_38
+_id_1 & _id_2 & _id_11 & _id_54
+_id_1 & _id_2 & ~_id_38 & _id_58
+~_id_38 & ~_id_42
+_id_1 & _id_3 & _id_5 & ~_id_13
+_id_1 & _id_2 & _id_3 & _id_31 & moisture_sensor

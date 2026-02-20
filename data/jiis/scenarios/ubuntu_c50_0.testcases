@@ -1,0 +1,51 @@
+50
+Appearance & ~Look & HighContrastInverse & ~LockScreenAfter
+Appearance & Look & Background & DelicatePetals1920x1280 & ~EarlyBlossom1920x1280
+~Appearance & ~Background & Speed2
+~Appearance & ~TwillightFrost1920x1280 & RepeatKeys
+~Appearance & ~Look & ~Background & ~EarlyBlossom1920x1280 & ~Delay2
+~Appearance & Look & ~Background & PrecisePagolin1920x1280 & Brightness
+HighContrastInverse & ~Shift_Super_Space
+Appearance & Look & Background & ~Short4
+Appearance & ~HighContrastInverse & ~Fast2
+Appearance & TwillightFrost1920x1280 & ~HighInverse
+~Appearance & Look & ~Theme & ~HighInverse
+Appearance & ~Look & HighContrastInverse & ~CloseWindow
+Appearance & Look & ~Background & ~LauncherIconSize & Displays1
+~Appearance & ~Look & ~Background & ~AmbianceDefault & ~Slow4
+Appearance & Radiance & HighContrastOnOrOff
+TwillightFrost1920x1280 & ~UniversalAccess1
+~Theme & ~ZoomIn
+~Appearance & ~EarlyBlossom1920x1280 & ScreenTurnsOff
+~Appearance & ~Look & ~Ubuntu1920x1280 & ~_180Degres
+Appearance & ~EarlyBlossom1920x1280 & CursorBlinking
+~Appearance & ~Look & ~AmbianceDefault & ~UniversalAccess1
+Appearance & Look & ~HighContrastInverse & ~TextSize
+~Ubuntu1920x1280 & ~Disabled1
+Appearance & Look & Background & AmbianceDefault & High1
+Appearance & Look & EarlyBlossom1920x1280 & TwoFingerScrolling
+Appearance & Look & ~Background & TwillightFrost1920x1280 & SwitchToPreviousSource
+~Appearance & Look & ~Background & Theme & ~High4
+Appearance & ~Look & Background & ~AmbianceDefault & Fast4
+~Appearance & ~Look & Background & LauncherIconSize & ActivateTheWindowMenu
+~Appearance & Look & ~Background & DelicatePetals1920x1280 & Short6
+Appearance & ~HighContrastInverse & ~UniversalAccess1
+EarlyBlossom1920x1280 & Short
+Background & ~Large2
+Appearance & Look & Background & ~TwillightFrost1920x1280 & ~Disabled4
+Appearance & DelicatePetals1920x1280 & ~PrecisePagolin1920x1280
+Appearance & Look & Background & Radiance & ~Short
+~Appearance & ~Look & ~Ubuntu1920x1280 & Typing2_1
+~Appearance & ~Look & ~AmbianceDefault & Disabled3
+~Appearance & ~Look & ~Background & ~CustomShortcuts
+Appearance & Look & PrecisePagolin1920x1280 & ToggleFullscreenMode
+~Appearance & ~MorningDew1920x1280 & NewWindowsUseThePreviousWindowsLayout
+Appearance & Ctrl_Alt_L
+~Appearance & Alt_F7
+~Appearance & ~Look & ~DelicatePetals1920x1280 & ~Long2
+Appearance & ~TwillightFrost1920x1280 & Displays2
+Appearance & Look & Background & Ubuntu1920x1280 & ~Brightness
+Look & ~Slow3
+~Appearance & ~Look & ~TwillightFrost1920x1280 & ~_1Minute_
+Appearance & ~TwillightFrost1920x1280 & TurnScreenReaderOnOrOff
+Appearance & ~EarlyBlossom1920x1280 & Slow

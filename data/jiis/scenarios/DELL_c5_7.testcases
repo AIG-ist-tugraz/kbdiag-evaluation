@@ -1,0 +1,6 @@
+5
+~ProductCategory & MiniNotebooks & ~Adamo & DVD_ROMDriveandDVD__RW
+ProductCategory & ~MiniNotebooks & ~InspironLaptops & Windows7 & a128GBSolidState
+ProductCategory & ~MiniNotebooks & StudioLaptops & ~Windows8 & ~OpticalDrive
+ProductCategory & StudioLaptops & ~CD_DVD_RW & ~Lessthan_400
+ProductCategory & ~MiniNotebooks & XPSLaptops & a500GB & ~Morethan_1200

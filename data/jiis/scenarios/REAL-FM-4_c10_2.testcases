@@ -1,0 +1,11 @@
+10
+~Storefront & ~Homepage & Staticcontent & Variationsource & ~Discounts
+Storefront & ~Homepage & ~Staticcontent & ~Timedependent & Producttype
+Storefront & Homepage & Staticcontent & ~Registrationenforcement & ~Registeredcheckout
+Storefront & Homepage & ~Staticcontent & ~Registrationenforcement & ~Shippingaddress
+Storefront & Registration & ~Age
+~Storefront & Homepage & Staticcontent & ~Personalized & ~Faxmailorder
+Storefront & Homepage & Welcomemessage & Substituteproducts
+Storefront & ~Homepage & ~Staticcontent & ~Welcomemessage & ~Custompaymentgateway
+Timedependent & ~Reminders
+Storefront & ~Homepage & ~Staticcontent & ~Personalized & ~Physicalgoodsfulfillment

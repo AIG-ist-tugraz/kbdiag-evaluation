@@ -1,0 +1,6 @@
+5
+~Storefront & ~Homepage & Staticcontent & Variationsource & ~Discounts
+Storefront & ~Homepage & ~Staticcontent & ~Timedependent & Producttype
+Storefront & Homepage & Staticcontent & ~Registrationenforcement & ~Registeredcheckout
+Storefront & Homepage & ~Staticcontent & ~Registrationenforcement & ~Shippingaddress
+Storefront & Registration & ~Age

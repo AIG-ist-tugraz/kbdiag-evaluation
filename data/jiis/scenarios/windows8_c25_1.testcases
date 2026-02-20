@@ -1,0 +1,26 @@
+25
+UseTheComputerWithoutADisplay & ~HearTextReadAloud & HearTextReadAloud_1 & SetupTextToSpeech & Feedback
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~Control_TheVoiceProperties_Speed_OtherOption & Low1
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud_1 & ~New
+SetupTextToSpeech & ~IgnoreAllRepeatedKeystrokes
+TuenOnAudioDescription & TB_12
+UseTheComputerWithoutADisplay & ~HearTextReadAloud & HearTextReadAloud_1 & ~SpeechRecognition & Language
+~SetupTextToSpeech & OtherSettings1
+~TurnOnNarrator1 & S_23
+UseTheComputerWithoutADisplay & TurnOnNarrator1 & VoiceSelection
+UseTheComputerWithoutADisplay & HearTextReadAloud_1 & ~S_8
+UseTheComputerWithoutADisplay & ~HearTextReadAloud & HearTextReadAloud_1 & ~TuenOnAudioDescription & DisplayTheFilterKeysIconOnTheTaskbar
+UseTheComputerWithoutADisplay & ~HearTextReadAloud & HearTextReadAloud_1 & VoiceSelection & ~Lens
+~UseTheComputerWithoutADisplay & HearTextReadAloud & ~HearTextReadAloud_1 & EnableVoiceActivation
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & TextToSpeech & _15Seconds
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~VoiceSelection & M_18
+~UseTheComputerWithoutADisplay & ~TextToSpeech & ~TB_12
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~TextToSpeech & M_19
+HearTextReadAloud & ~_5_0Seconds
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~TurnOnNarrator1 & ~_150
+UseTheComputerWithoutADisplay & SetupTextToSpeech & _200
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & SpeechRecognition & ~MicrosoftDavidDesktopEnglishUS
+RegularWhite
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~SpeechRecognition & _5Seconds
+UseTheComputerWithoutADisplay & SpeechRecognition & Communications
+HearTextReadAloud_1 & MakeThingsOnTheScreenLarger

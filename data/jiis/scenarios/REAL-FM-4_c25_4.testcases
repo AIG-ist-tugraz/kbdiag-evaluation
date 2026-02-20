@@ -1,0 +1,26 @@
+25
+~Storefront & ~Homepage & Staticcontent & ~Timedependent & Discountconditions
+Storefront & Homepage & Staticcontent & Specialoffers & ~Ordertotal
+Storefront & Homepage & ~Registertobrowse & Paymentoptions
+Storefront & Homepage & ~Staticcontent & ~Welcomemessage & ~Previouspurchases1
+Specialoffers & ~Customfields1
+~Storefront & ~Homepage & ~Staticcontent & Registertobuy & Shipping1
+Storefront & Homepage & ~Staticcontent & Personalized & Locallyvisitedpages
+Storefront & Homepage & ~Staticcontent & Specialoffers & ~Logincredentials
+Storefront & Homepage & Staticcontent & Registertobrowse & Wishlist
+Storefront & ~Contenttype & ~Dateandtime
+Storefront & ~Homepage & ~Staticcontent & Timedependent & ~Searchengineregistration
+~Storefront & Homepage & ~Personalized & ~Multipleclassification
+~Storefront & Homepage & Staticcontent & ~Personalized & Shipping
+Storefront & Homepage & Staticcontent & ~SkipJack
+Storefront & Contextsensitiveads
+Storefront & Homepage & Staticcontent & Variationsource & Securityinformation
+Storefront & Homepage & ~Staticcontent & Dynamiccontent & Qualityofserviceselection
+Storefront & Homepage & ~Variationsource & Externalsystemsintegration
+Storefront & ~Homepage & Registertobrowse & Indexpage
+Storefront & Homepage & ~Staticcontent & Welcomemessage & Productvariants
+Storefront & Homepage & Staticcontent & ~Specialoffers & ~Assignmenttopagetypesfordisplay
+Storefront & ~Homepage & ~Dynamiccontent & ~Discounts
+Storefront & ~Dynamiccontent & ~Targetingmechanisms
+~Previouspurchases & Businessmanagement
+Storefront & Staticcontent & ~Discounts

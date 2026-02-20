@@ -1,0 +1,11 @@
+10
+UseTheComputerWithoutADisplay & ~HearTextReadAloud & HearTextReadAloud_1 & SetupTextToSpeech & Feedback
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~Control_TheVoiceProperties_Speed_OtherOption & Low1
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud_1 & ~New
+SetupTextToSpeech & ~IgnoreAllRepeatedKeystrokes
+TuenOnAudioDescription & TB_12
+UseTheComputerWithoutADisplay & ~HearTextReadAloud & HearTextReadAloud_1 & ~SpeechRecognition & Language
+~SetupTextToSpeech & OtherSettings1
+~TurnOnNarrator1 & S_23
+UseTheComputerWithoutADisplay & TurnOnNarrator1 & VoiceSelection
+UseTheComputerWithoutADisplay & HearTextReadAloud_1 & ~S_8
