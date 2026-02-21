@@ -19,6 +19,11 @@
 #
 #  @author: Viet-Man Le (v.m.le@tugraz.at)
 
+#  KBDiag
+#
+#
+#  @author: Viet-Man Le (v.m.le@tugraz.at)
+
 """Evaluation script for KBDiag diagnosis algorithms.
 
 Reads a TOML config and runs the specified algorithm on each KB/test-case
@@ -68,8 +73,8 @@ PROFILER_COUNTER_LABELS = {
     "quickxplain_with_testcases_calls": "QuickXPlain+TC calls",
     "qx_with_testcases_calls": "QX+TC calls",
     # "hsdag_runtime": "HSDAG runtime",
-    "node_label_runtime": "Node labeling runtime",
-    "path_label_cumulative_runtime": "Cumulative path labeling runtime",
+    # "node_label_runtime": "Node labeling runtime",
+    # "path_label_cumulative_runtime": "Cumulative path labeling runtime",
 }
 
 
@@ -516,6 +521,7 @@ def run_evaluation(config: Dict[str, Any]) -> None:
     task = eval_cfg["task"]
     num_iterations = eval_cfg.get("num_iterations", 3)
     m = eval_cfg.get("m", 1)
+    m_suffix = f"_m{m}" if m > 1 else ""
     dry_run = eval_cfg.get("dry_run", True)
     timeout = eval_cfg.get("timeout", 600)
     timeout_all = eval_cfg.get("timeout_all", None)
@@ -573,22 +579,26 @@ def run_evaluation(config: Dict[str, Any]) -> None:
                     target=_worker_wrapper, args=(queue, *worker_args),
                 )
                 proc.start()
+                print(f"\t[{kb_name}] {tc_file} (task={effective_task})...", end="", flush=True)
                 # Read from queue BEFORE join to avoid pipe-buffer deadlock
                 try:
                     worker_result = queue.get(timeout=effective_timeout)
                 except Exception:
                     worker_result = None
-                proc.join()
+                # Timeout on join so kill logic is reachable
+                proc.join(timeout=10)
+                if proc.is_alive():
+                    proc.kill()
+                    proc.join()
                 if worker_result is None:
-                    if proc.is_alive():
-                        proc.kill()
-                        proc.join()
                     scenario_result = ScenarioResult(timed_out=True)
-                    print(f"\t[{kb_name}] {tc_file}: TIMEOUT ({effective_timeout}s)")
+                    print(f" TIMEOUT ({effective_timeout}s)")
                 elif isinstance(worker_result, Exception):
+                    print(" ERROR")
                     raise worker_result
                 else:
                     scenario_result = worker_result
+                    print(" done")
             else:
                 # No timeout — run inline (zero overhead)
                 scenario_result = run_single_scenario(*worker_args)
@@ -601,12 +611,12 @@ def run_evaluation(config: Dict[str, Any]) -> None:
                     for out_task in ("1", "all"):
                         out_dir = result_dir.parent / out_task
                         out_dir.mkdir(parents=True, exist_ok=True)
-                        out_path = out_dir / f"results_{algorithm}_{kb_name}_{out_task}.txt"
+                        out_path = out_dir / f"results_{algorithm}_{kb_name}{m_suffix}_{out_task}.txt"
                         used_out_paths[out_task] = out_path
                         with open(out_path, "a") as f:
                             write_timeout(f, kb_name, tc_file, effective_timeout)
                 else:
-                    out_path = result_dir / f"results_{algorithm}_{kb_name}_{effective_task}.txt"
+                    out_path = result_dir / f"results_{algorithm}_{kb_name}{m_suffix}_{effective_task}.txt"
                     used_out_paths[effective_task] = out_path
                     with open(out_path, "a") as f:
                         write_timeout(f, kb_name, tc_file, effective_timeout)
@@ -629,7 +639,7 @@ def run_evaluation(config: Dict[str, Any]) -> None:
                         for out_task in ("1", "all"):
                             out_dir = result_dir.parent / out_task
                             out_dir.mkdir(parents=True, exist_ok=True)
-                            out_path = out_dir / f"results_{algorithm}_{kb_name}_{out_task}.txt"
+                            out_path = out_dir / f"results_{algorithm}_{kb_name}{m_suffix}_{out_task}.txt"
                             used_out_paths[out_task] = out_path
                             with open(out_path, "a") as f:
                                 write_iteration(f, kb_name, tc_file, iter_res,
@@ -637,7 +647,7 @@ def run_evaluation(config: Dict[str, Any]) -> None:
                     else:
                         total_time_first += iter_res.time_first
 
-                        out_path = result_dir / f"results_{algorithm}_{kb_name}_{effective_task}.txt"
+                        out_path = result_dir / f"results_{algorithm}_{kb_name}{m_suffix}_{effective_task}.txt"
                         used_out_paths[effective_task] = out_path
                         with open(out_path, "a") as f:
                             write_iteration(f, kb_name, tc_file, iter_res,
