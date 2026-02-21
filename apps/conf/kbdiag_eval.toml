@@ -5,7 +5,7 @@
 # Algorithm: kbdiag, quickxplain_with_testcases
 algorithm = "kbdiag"
 # Task: "1" (one diagnosis) or "all" (all diagnoses)
-task = "all"
+task = "1"
 # Number of iterations per test case file
 num_iterations = 1
 # m parameter for KBDiag algorithm (ignored by others)
@@ -13,9 +13,9 @@ m = 1
 # Run warmup iteration before measurement
 dry_run = true
 # Timeout per scenario in seconds (0 = no timeout)
-timeout = 1800
+timeout = 1200
 # Timeout for task="all" scenarios (overrides timeout when effective_task="all" - 0 means no timeout)
-timeout_all = 3600
+timeout_all = 1800
 
 [solver]
 solver_name = "glucose3"
@@ -46,9 +46,8 @@ testcases = [
 ]
 # Per-testcase task override (optional, fnmatch glob patterns)
 # First matching pattern wins. Unmatched files use [evaluation].task.
-#[kb.task_overrides]
-#"*_c5_*" = "all"
-#"*_c25_*" = "all"
+[kb.task_overrides]
+"*_c25_*" = "all"
 
 #[[kb]]
 #name = "REAL-FM-11"
@@ -91,18 +90,18 @@ testcases = [
 #model = "data/jiis/fms/ubuntu.uvl"
 #scenarios_dir = "data/jiis/scenarios"
 #testcases = [
-#    "ubuntu_c5_0.testcases",
-#    "ubuntu_c10_0.testcases",
-#    "ubuntu_c25_0.testcases",
-#    "ubuntu_c50_0.testcases",
-#    "ubuntu_c100_0.testcases",
-#    "ubuntu_c250_0.testcases",
-#    "ubuntu_c500_0.testcases",
+#    "ubuntu_c5_17.testcases",
+#    "ubuntu_c10_17.testcases",
+#    "ubuntu_c25_17.testcases",
+#    "ubuntu_c50_17.testcases",
+#    "ubuntu_c100_17.testcases",
+#    "ubuntu_c250_17.testcases",
+#    "ubuntu_c500_17.testcases",
 #]
 ## Per-testcase task override (optional, fnmatch glob patterns)
 ## First matching pattern wins. Unmatched files use [evaluation].task.
 #[kb.task_overrides]
-#"*_c25_*" = "all"
+#"*_c50_*" = "all"
 #
 #[[kb]]
 #name = "windows8"

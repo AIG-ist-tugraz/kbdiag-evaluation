@@ -9,6 +9,11 @@
 #
 #  @author: Viet-Man Le (v.m.le@tugraz.at)
 
+#  KBDiag
+#
+#
+#  @author: Viet-Man Le (v.m.le@tugraz.at)
+
 """Evaluation script for KBDiag diagnosis algorithms.
 
 Reads a TOML config and runs the specified algorithm on each KB/test-case
@@ -620,7 +625,7 @@ def run_evaluation(config: Dict[str, Any]) -> None:
                                 write_iteration(f, kb_name, tc_file, iter_res,
                                                 out_task, profiler_enabled)
                     else:
-                        total_time_all += iter_res.time_first
+                        total_time_first += iter_res.time_first
 
                         out_path = result_dir / f"results_{algorithm}_{kb_name}_{effective_task}.txt"
                         used_out_paths[effective_task] = out_path
