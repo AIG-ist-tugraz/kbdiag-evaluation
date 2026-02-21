@@ -14,6 +14,11 @@
 #
 #  @author: Viet-Man Le (v.m.le@tugraz.at)
 
+#  KBDiag
+#
+#
+#  @author: Viet-Man Le (v.m.le@tugraz.at)
+
 """Evaluation script for KBDiag diagnosis algorithms.
 
 Reads a TOML config and runs the specified algorithm on each KB/test-case
@@ -568,16 +573,21 @@ def run_evaluation(config: Dict[str, Any]) -> None:
                     target=_worker_wrapper, args=(queue, *worker_args),
                 )
                 proc.start()
-                proc.join(timeout=effective_timeout)
-                if proc.is_alive():
-                    proc.kill()
-                    proc.join()
+                # Read from queue BEFORE join to avoid pipe-buffer deadlock
+                try:
+                    worker_result = queue.get(timeout=effective_timeout)
+                except Exception:
+                    worker_result = None
+                proc.join()
+                if worker_result is None:
+                    if proc.is_alive():
+                        proc.kill()
+                        proc.join()
                     scenario_result = ScenarioResult(timed_out=True)
                     print(f"\t[{kb_name}] {tc_file}: TIMEOUT ({effective_timeout}s)")
+                elif isinstance(worker_result, Exception):
+                    raise worker_result
                 else:
-                    worker_result = queue.get_nowait()
-                    if isinstance(worker_result, Exception):
-                        raise worker_result
                     scenario_result = worker_result
             else:
                 # No timeout — run inline (zero overhead)
