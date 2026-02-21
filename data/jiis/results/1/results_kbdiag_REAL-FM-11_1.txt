@@ -1,0 +1,224 @@
+REAL-FM-11 REAL-FM-11_c5_0.testcases
+	Diagnosis: [(mandatory) _id_1[1,1]_id_2 ]
+	|D|: 1
+	CC: 13
+	KBDiag runtime: 0.002151 s
+	--- Profiler ---
+	mssDirect calls: 13
+	Consistency checks (TC): 13
+	Consistency checks: 21
+	Node labeling runtime: [0.002915519999987737]
+REAL-FM-11 REAL-FM-11_c5_0.testcases
+	Diagnosis: [(mandatory) _id_1[1,1]_id_2 ]
+	|D|: 1
+	CC: 13
+	KBDiag runtime: 0.002134 s
+	--- Profiler ---
+	mssDirect calls: 13
+	Consistency checks (TC): 13
+	Consistency checks: 21
+	Node labeling runtime: [0.0028541030005726498]
+REAL-FM-11 REAL-FM-11_c5_0.testcases
+	Diagnosis: [(mandatory) _id_1[1,1]_id_2 ]
+	|D|: 1
+	CC: 13
+	KBDiag runtime: 0.002153 s
+	--- Profiler ---
+	mssDirect calls: 13
+	Consistency checks (TC): 13
+	Consistency checks: 21
+	Node labeling runtime: [0.002833450000252924]
+REAL-FM-11 REAL-FM-11_c10_0.testcases
+	Diagnosis: [(mandatory) _id_1[1,1]_id_2 , (mandatory) _id_1[1,1]_id_3 , (mandatory) _id_43[1,1]_id_45 ]
+	|D|: 3
+	CC: 22
+	KBDiag runtime: 0.005846 s
+	--- Profiler ---
+	mssDirect calls: 25
+	Consistency checks (TC): 22
+	Consistency checks: 50
+	Node labeling runtime: [0.007418845999382029]
+REAL-FM-11 REAL-FM-11_c10_0.testcases
+	Diagnosis: [(mandatory) _id_1[1,1]_id_2 , (mandatory) _id_1[1,1]_id_3 , (mandatory) _id_43[1,1]_id_45 ]
+	|D|: 3
+	CC: 22
+	KBDiag runtime: 0.006340 s
+	--- Profiler ---
+	mssDirect calls: 25
+	Consistency checks (TC): 22
+	Consistency checks: 50
+	Node labeling runtime: [0.00782742200044595]
+REAL-FM-11 REAL-FM-11_c10_0.testcases
+	Diagnosis: [(mandatory) _id_1[1,1]_id_2 , (mandatory) _id_1[1,1]_id_3 , (mandatory) _id_43[1,1]_id_45 ]
+	|D|: 3
+	CC: 22
+	KBDiag runtime: 0.005841 s
+	--- Profiler ---
+	mssDirect calls: 25
+	Consistency checks (TC): 22
+	Consistency checks: 50
+	Node labeling runtime: [0.007321850000153063]
+REAL-FM-11 REAL-FM-11_c25_0.testcases
+	Diagnosis: [(mandatory) _id_0[1,1]_id_1 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_1[1,1]_id_3 , (alternative) _id_6[1,1]_id_8 _id_9 , (mandatory) _id_43[1,1]_id_45 , (mandatory) _id_47[1,1]_id_49 , (mandatory) _id_56[1,1]_id_57 ]
+	|D|: 7
+	CC: 352
+	KBDiag runtime: 0.019807 s
+	--- Profiler ---
+	mssDirect calls: 404
+	Consistency checks (TC): 352
+	Consistency checks: 1018
+	Node labeling runtime: [0.024485639999511477, 0.0007372050004050834, 0.0007185409995145164, 0.0003554739996616263, 0.016619283999716572, 0.017305491999650258, 0.01715588899969589, 0.017077665999750025, 0.0007496250000258442, 0.000731902000552509, 0.00036449300023377873, 0.01713386499977787, 0.0179163430002518, 0.01812779900046735, 0.01709065399973042, 0.0007443320000675158, 0.000724141000318923, 0.0003587119999792776, 0.00035785599993687356, 0.017088081000110833]
+	Cumulative path labeling runtime: [0.025323247999949672, 0.026060213000164367, 0.026430099999743106, 0.09579862999999023, 0.09655232499972044, 0.09693782399972406, 0.16850011899987294, 0.1692469039999196, 0.16962824699930934, 0.17000916199958738]
+REAL-FM-11 REAL-FM-11_c25_0.testcases
+	Diagnosis: [(mandatory) _id_0[1,1]_id_1 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_1[1,1]_id_3 , (alternative) _id_6[1,1]_id_8 _id_9 , (mandatory) _id_43[1,1]_id_45 , (mandatory) _id_47[1,1]_id_49 , (mandatory) _id_56[1,1]_id_57 ]
+	|D|: 7
+	CC: 352
+	KBDiag runtime: 0.019856 s
+	--- Profiler ---
+	mssDirect calls: 404
+	Consistency checks (TC): 352
+	Consistency checks: 1018
+	Node labeling runtime: [0.02461365500039392, 0.0007287349999387516, 0.000712342000042554, 0.0003521369999361923, 0.01662174299963226, 0.016812208000374085, 0.016919562999646587, 0.016405994999331597, 0.0007148529994083219, 0.0007026929997664411, 0.00047718099995108787, 0.01666672600003949, 0.017381101000864874, 0.017327891999229905, 0.01724583699979121, 0.0007421099999191938, 0.0007248719994095154, 0.00035971000033896416, 0.0003591920003600535, 0.016915011000492086]
+	Cumulative path labeling runtime: [0.025415709000299103, 0.02614266500040685, 0.02650792599979468, 0.0943573770000512, 0.09508013699996809, 0.09557724699971004, 0.16546721499980777, 0.1662177790003625, 0.16660042999956204, 0.1669833229998403]
+REAL-FM-11 REAL-FM-11_c25_0.testcases
+	Diagnosis: [(mandatory) _id_0[1,1]_id_1 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_1[1,1]_id_3 , (alternative) _id_6[1,1]_id_8 _id_9 , (mandatory) _id_43[1,1]_id_45 , (mandatory) _id_47[1,1]_id_49 , (mandatory) _id_56[1,1]_id_57 ]
+	|D|: 7
+	CC: 352
+	KBDiag runtime: 0.019640 s
+	--- Profiler ---
+	mssDirect calls: 404
+	Consistency checks (TC): 352
+	Consistency checks: 1018
+	Node labeling runtime: [0.024242909000349755, 0.0007253969997691456, 0.0007127479993869201, 0.0003506200000629178, 0.01668727400010539, 0.01719760000014503, 0.017673284999546013, 0.016846829000314756, 0.0007823400001143455, 0.0007025350005278597, 0.00034983400018973043, 0.016635095000310685, 0.017140306999863242, 0.018995724999513186, 0.021289538000019093, 0.0008172420002665604, 0.0007939050001368742, 0.00037142899964237586, 0.0003693859998747939, 0.020009065999147424]
+	Cumulative path labeling runtime: [0.0250350440001057, 0.025762321999536653, 0.026126570999622345, 0.09570850299951417, 0.09643164399949455, 0.09680182699958095, 0.17223681500036037, 0.17305725799997163, 0.17345351299991307, 0.17384652999953687]
+REAL-FM-11 REAL-FM-11_c50_0.testcases
+	Diagnosis: [(mandatory) _id_0[1,1]_id_1 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_1[1,1]_id_3 , (alternative) _id_6[1,1]_id_8 _id_9 , (optional) _id_22[0,1]_id_23 , (mandatory) _id_24[1,1]_id_25 , (mandatory) _id_32[1,1]_id_33 , (mandatory) _id_43[1,1]_id_45 , (mandatory) _id_46[1,1]sprinkler , (mandatory) _id_47[1,1]_id_49 , (mandatory) _id_56[1,1]_id_57 ]
+	|D|: 11
+	CC: 52
+	KBDiag runtime: 0.053615 s
+	--- Profiler ---
+	mssDirect calls: 63
+	Consistency checks (TC): 52
+	Consistency checks: 265
+	Node labeling runtime: [0.06596232099946064]
+REAL-FM-11 REAL-FM-11_c50_0.testcases
+	Diagnosis: [(mandatory) _id_0[1,1]_id_1 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_1[1,1]_id_3 , (alternative) _id_6[1,1]_id_8 _id_9 , (optional) _id_22[0,1]_id_23 , (mandatory) _id_24[1,1]_id_25 , (mandatory) _id_32[1,1]_id_33 , (mandatory) _id_43[1,1]_id_45 , (mandatory) _id_46[1,1]sprinkler , (mandatory) _id_47[1,1]_id_49 , (mandatory) _id_56[1,1]_id_57 ]
+	|D|: 11
+	CC: 52
+	KBDiag runtime: 0.051567 s
+	--- Profiler ---
+	mssDirect calls: 63
+	Consistency checks (TC): 52
+	Consistency checks: 265
+	Node labeling runtime: [0.06391781300044386]
+REAL-FM-11 REAL-FM-11_c50_0.testcases
+	Diagnosis: [(mandatory) _id_0[1,1]_id_1 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_1[1,1]_id_3 , (alternative) _id_6[1,1]_id_8 _id_9 , (optional) _id_22[0,1]_id_23 , (mandatory) _id_24[1,1]_id_25 , (mandatory) _id_32[1,1]_id_33 , (mandatory) _id_43[1,1]_id_45 , (mandatory) _id_46[1,1]sprinkler , (mandatory) _id_47[1,1]_id_49 , (mandatory) _id_56[1,1]_id_57 ]
+	|D|: 11
+	CC: 52
+	KBDiag runtime: 0.051347 s
+	--- Profiler ---
+	mssDirect calls: 63
+	Consistency checks (TC): 52
+	Consistency checks: 265
+	Node labeling runtime: [0.06352736799999548]
+REAL-FM-11 REAL-FM-11_c100_0.testcases
+	Diagnosis: [(mandatory) _id_0[1,1]_id_1 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_1[1,1]_id_3 , (alternative) _id_6[1,1]_id_8 _id_9 , (mandatory) _id_15[1,1]_id_16 , (mandatory) _id_22[1,1]water , (optional) _id_22[0,1]_id_23 , (mandatory) _id_24[1,1]_id_25 , (mandatory) _id_32[1,1]_id_33 , (mandatory) _id_43[1,1]_id_45 , (mandatory) _id_46[1,1]sprinkler , (mandatory) _id_0[1,1]_id_47 , (mandatory) _id_56[1,1]_id_57 , (mandatory) _id_56[1,1]_id_58 , (mandatory) _id_59[1,1]_id_60 ]
+	|D|: 15
+	CC: 65
+	KBDiag runtime: 0.165170 s
+	--- Profiler ---
+	mssDirect calls: 79
+	Consistency checks (TC): 65
+	Consistency checks: 548
+	Node labeling runtime: [0.20349921399974846]
+REAL-FM-11 REAL-FM-11_c100_0.testcases
+	Diagnosis: [(mandatory) _id_0[1,1]_id_1 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_1[1,1]_id_3 , (alternative) _id_6[1,1]_id_8 _id_9 , (mandatory) _id_15[1,1]_id_16 , (mandatory) _id_22[1,1]water , (optional) _id_22[0,1]_id_23 , (mandatory) _id_24[1,1]_id_25 , (mandatory) _id_32[1,1]_id_33 , (mandatory) _id_43[1,1]_id_45 , (mandatory) _id_46[1,1]sprinkler , (mandatory) _id_0[1,1]_id_47 , (mandatory) _id_56[1,1]_id_57 , (mandatory) _id_56[1,1]_id_58 , (mandatory) _id_59[1,1]_id_60 ]
+	|D|: 15
+	CC: 65
+	KBDiag runtime: 0.167868 s
+	--- Profiler ---
+	mssDirect calls: 79
+	Consistency checks (TC): 65
+	Consistency checks: 548
+	Node labeling runtime: [0.20590805400024692]
+REAL-FM-11 REAL-FM-11_c100_0.testcases
+	Diagnosis: [(mandatory) _id_0[1,1]_id_1 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_1[1,1]_id_3 , (alternative) _id_6[1,1]_id_8 _id_9 , (mandatory) _id_15[1,1]_id_16 , (mandatory) _id_22[1,1]water , (optional) _id_22[0,1]_id_23 , (mandatory) _id_24[1,1]_id_25 , (mandatory) _id_32[1,1]_id_33 , (mandatory) _id_43[1,1]_id_45 , (mandatory) _id_46[1,1]sprinkler , (mandatory) _id_0[1,1]_id_47 , (mandatory) _id_56[1,1]_id_57 , (mandatory) _id_56[1,1]_id_58 , (mandatory) _id_59[1,1]_id_60 ]
+	|D|: 15
+	CC: 65
+	KBDiag runtime: 0.166617 s
+	--- Profiler ---
+	mssDirect calls: 79
+	Consistency checks (TC): 65
+	Consistency checks: 548
+	Node labeling runtime: [0.20406458100023883]
+REAL-FM-11 REAL-FM-11_c250_0.testcases
+	Diagnosis: [(mandatory) _id_0[1,1]_id_1 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_1[1,1]_id_3 , (mandatory) _id_3[1,1]_id_4 , (alternative) _id_6[1,1]_id_8 _id_9 , (mandatory) _id_3[1,1]_id_10 , (mandatory) _id_1[1,1]_id_15 , (mandatory) _id_24[1,1]_id_25 , (mandatory) _id_32[1,1]_id_33 , (mandatory) _id_0[1,1]_id_43 , (mandatory) _id_0[1,1]_id_46 , (mandatory) _id_0[1,1]_id_47 , (mandatory) _id_47[1,1]_id_55 , (mandatory) _id_56[1,1]_id_57 , (mandatory) _id_56[1,1]_id_58 , (mandatory) _id_56[1,1]_id_59 ]
+	|D|: 16
+	CC: 64
+	KBDiag runtime: 0.767975 s
+	--- Profiler ---
+	mssDirect calls: 75
+	Consistency checks (TC): 64
+	Consistency checks: 1324
+	Node labeling runtime: [0.9484996909995971]
+REAL-FM-11 REAL-FM-11_c250_0.testcases
+	Diagnosis: [(mandatory) _id_0[1,1]_id_1 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_1[1,1]_id_3 , (mandatory) _id_3[1,1]_id_4 , (alternative) _id_6[1,1]_id_8 _id_9 , (mandatory) _id_3[1,1]_id_10 , (mandatory) _id_1[1,1]_id_15 , (mandatory) _id_24[1,1]_id_25 , (mandatory) _id_32[1,1]_id_33 , (mandatory) _id_0[1,1]_id_43 , (mandatory) _id_0[1,1]_id_46 , (mandatory) _id_0[1,1]_id_47 , (mandatory) _id_47[1,1]_id_55 , (mandatory) _id_56[1,1]_id_57 , (mandatory) _id_56[1,1]_id_58 , (mandatory) _id_56[1,1]_id_59 ]
+	|D|: 16
+	CC: 64
+	KBDiag runtime: 0.778265 s
+	--- Profiler ---
+	mssDirect calls: 75
+	Consistency checks (TC): 64
+	Consistency checks: 1324
+	Node labeling runtime: [0.9615124599995397]
+REAL-FM-11 REAL-FM-11_c250_0.testcases
+	Diagnosis: [(mandatory) _id_0[1,1]_id_1 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_1[1,1]_id_3 , (mandatory) _id_3[1,1]_id_4 , (alternative) _id_6[1,1]_id_8 _id_9 , (mandatory) _id_3[1,1]_id_10 , (mandatory) _id_1[1,1]_id_15 , (mandatory) _id_24[1,1]_id_25 , (mandatory) _id_32[1,1]_id_33 , (mandatory) _id_0[1,1]_id_43 , (mandatory) _id_0[1,1]_id_46 , (mandatory) _id_0[1,1]_id_47 , (mandatory) _id_47[1,1]_id_55 , (mandatory) _id_56[1,1]_id_57 , (mandatory) _id_56[1,1]_id_58 , (mandatory) _id_56[1,1]_id_59 ]
+	|D|: 16
+	CC: 64
+	KBDiag runtime: 0.779950 s
+	--- Profiler ---
+	mssDirect calls: 75
+	Consistency checks (TC): 64
+	Consistency checks: 1324
+	Node labeling runtime: [0.963393336000081]
+REAL-FM-11 REAL-FM-11_c500_0.testcases
+	Diagnosis: [(mandatory) _id_0[1,1]_id_1 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_1[1,1]_id_3 , (mandatory) _id_3[1,1]_id_4 , (alternative) _id_6[1,1]_id_8 _id_9 , (mandatory) _id_3[1,1]_id_10 , (mandatory) _id_1[1,1]_id_15 , (mandatory) flood[1,1]_id_24 , (mandatory) flood[1,1]_id_30 , (mandatory) _id_0[1,1]_id_32 , (mandatory) _id_0[1,1]_id_43 , (mandatory) _id_0[1,1]_id_46 , (mandatory) _id_0[1,1]_id_47 , (mandatory) _id_47[1,1]_id_55 , (mandatory) _id_0[1,1]_id_56 ]
+	|D|: 15
+	CC: 61
+	KBDiag runtime: 2.690064 s
+	--- Profiler ---
+	mssDirect calls: 71
+	Consistency checks (TC): 61
+	Consistency checks: 2612
+	Node labeling runtime: [3.33475769100005]
+REAL-FM-11 REAL-FM-11_c500_0.testcases
+	Diagnosis: [(mandatory) _id_0[1,1]_id_1 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_1[1,1]_id_3 , (mandatory) _id_3[1,1]_id_4 , (alternative) _id_6[1,1]_id_8 _id_9 , (mandatory) _id_3[1,1]_id_10 , (mandatory) _id_1[1,1]_id_15 , (mandatory) flood[1,1]_id_24 , (mandatory) flood[1,1]_id_30 , (mandatory) _id_0[1,1]_id_32 , (mandatory) _id_0[1,1]_id_43 , (mandatory) _id_0[1,1]_id_46 , (mandatory) _id_0[1,1]_id_47 , (mandatory) _id_47[1,1]_id_55 , (mandatory) _id_0[1,1]_id_56 ]
+	|D|: 15
+	CC: 61
+	KBDiag runtime: 2.641267 s
+	--- Profiler ---
+	mssDirect calls: 71
+	Consistency checks (TC): 61
+	Consistency checks: 2612
+	Node labeling runtime: [3.2649191540003812]
+REAL-FM-11 REAL-FM-11_c500_0.testcases
+	Diagnosis: [(mandatory) _id_0[1,1]_id_1 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_1[1,1]_id_3 , (mandatory) _id_3[1,1]_id_4 , (alternative) _id_6[1,1]_id_8 _id_9 , (mandatory) _id_3[1,1]_id_10 , (mandatory) _id_1[1,1]_id_15 , (mandatory) flood[1,1]_id_24 , (mandatory) flood[1,1]_id_30 , (mandatory) _id_0[1,1]_id_32 , (mandatory) _id_0[1,1]_id_43 , (mandatory) _id_0[1,1]_id_46 , (mandatory) _id_0[1,1]_id_47 , (mandatory) _id_47[1,1]_id_55 , (mandatory) _id_0[1,1]_id_56 ]
+	|D|: 15
+	CC: 61
+	KBDiag runtime: 2.626832 s
+	--- Profiler ---
+	mssDirect calls: 71
+	Consistency checks (TC): 61
+	Consistency checks: 2612
+	Node labeling runtime: [3.2473463770002127]
+
+=== Evaluation Results: kbdiag (m=1, task=1) ===
+Testcase                  | Avg Time (s) |   |D| |  #Diag
+---------------------------------------------------------
+REAL-FM-11/REAL-FM-11_c5_0.testcases |     0.002146 |     1 |      1
+REAL-FM-11/REAL-FM-11_c10_0.testcases |     0.006009 |     3 |      1
+REAL-FM-11/REAL-FM-11_c25_0.testcases |     0.019768 |     7 |     10
+REAL-FM-11/REAL-FM-11_c50_0.testcases |     0.052176 |    11 |      1
+REAL-FM-11/REAL-FM-11_c100_0.testcases |     0.166552 |    15 |      1
+REAL-FM-11/REAL-FM-11_c250_0.testcases |     0.775396 |    16 |      1
+REAL-FM-11/REAL-FM-11_c500_0.testcases |     2.652721 |    15 |      1

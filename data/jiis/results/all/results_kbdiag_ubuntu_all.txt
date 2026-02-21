@@ -1,0 +1,59 @@
+ubuntu ubuntu_c50_17.testcases
+	Diagnosis 1 (|D|=5, t=0.135726s): [(mandatory) Appearance[1,1]Look , (mandatory) Look[1,1]Background , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (alternative) Theme[1,1]HighContrastInverse AmbianceDefault Radiance HighContrast , (alternative) RevealLocation[1,1]Left TopLeftCorner ]
+	Diagnosis 2 (|D|=5, t=0.110821s): [(mandatory) Appearance[1,1]Look , (mandatory) Look[1,1]Background , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (mandatory) Look[1,1]Theme , (alternative) RevealLocation[1,1]Left TopLeftCorner ]
+	Diagnosis 3 (|D|=5, t=0.108983s): [(mandatory) Appearance[1,1]Look , (mandatory) Look[1,1]Background , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (alternative) Theme[1,1]HighContrastInverse AmbianceDefault Radiance HighContrast , (mandatory) Behavoir[1,1]RevealLocation ]
+	Diagnosis 4 (|D|=5, t=0.114627s): [(mandatory) Appearance[1,1]Look , (mandatory) Look[1,1]Background , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (mandatory) Look[1,1]Theme , (mandatory) Behavoir[1,1]RevealLocation ]
+	Diagnosis 5 (|D|=5, t=0.162325s): [(mandatory) Appearance[1,1]Look , (mandatory) Look[1,1]Background , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (alternative) Theme[1,1]HighContrastInverse AmbianceDefault Radiance HighContrast , (mandatory) Appearance[1,1]Behavoir ]
+	Diagnosis 6 (|D|=5, t=0.113537s): [(mandatory) Appearance[1,1]Look , (mandatory) Look[1,1]Background , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (mandatory) Look[1,1]Theme , (mandatory) Appearance[1,1]Behavoir ]
+	#Diagnoses: 6
+	CC: 184
+	KBDiag runtime: 0.746018 s
+	--- Profiler ---
+	mssDirect calls: 170
+	Consistency checks (TC): 184
+	Consistency checks: 1294
+	Node labeling runtime: [0.16666564499973902, 0.0005809610001961119, 0.0011751729998650262, 0.0005685719997927663, 0.11695602199961286, 0.11496091499975591, 0.0005917260004935088, 0.0011812140000984073, 0.0005781489999208134, 0.0012196829993627034, 0.12100240399922768, 0.0006185649999679299, 0.0012896250000267173, 0.0006608140001844731, 0.168599519000054, 0.0008229420000134269, 0.0015326619995903457, 0.0007317839999814169, 0.0014749590000064927, 0.12112224600059562, 0.0006011689993101754, 0.0012179190007373109, 0.0006095879998611053, 0.0056286770004589926, 0.0005772630001956713, 0.0011828349997813348, 0.0005784520008091931, 0.0013805990001856117, 0.005696526999599882]
+	Cumulative path labeling runtime: [0.1673498109994398, 0.16854402199987817, 0.16912679599954572, 0.4018230689998745, 0.40302173599957314, 0.4036167280000882, 0.40485329199964326, 0.526610392999828, 0.527921862999392, 0.5286065579994101, 0.6984115989998827, 0.6999733129996457, 0.7007312519999687, 0.7022320949999994, 0.8240945039997314, 0.8253339109996887, 0.82596483099951, 0.8316157029994429, 0.8322165330000644, 0.8334213299995099, 0.8340223619998142, 0.8354279989998759, 0.84117316999982]
+ubuntu ubuntu_c50_17.testcases
+	Diagnosis 1 (|D|=5, t=0.139574s): [(mandatory) Appearance[1,1]Look , (mandatory) Look[1,1]Background , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (alternative) Theme[1,1]HighContrastInverse AmbianceDefault Radiance HighContrast , (alternative) RevealLocation[1,1]Left TopLeftCorner ]
+	Diagnosis 2 (|D|=5, t=0.117237s): [(mandatory) Appearance[1,1]Look , (mandatory) Look[1,1]Background , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (mandatory) Look[1,1]Theme , (alternative) RevealLocation[1,1]Left TopLeftCorner ]
+	Diagnosis 3 (|D|=5, t=0.111575s): [(mandatory) Appearance[1,1]Look , (mandatory) Look[1,1]Background , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (alternative) Theme[1,1]HighContrastInverse AmbianceDefault Radiance HighContrast , (mandatory) Behavoir[1,1]RevealLocation ]
+	Diagnosis 4 (|D|=5, t=0.111193s): [(mandatory) Appearance[1,1]Look , (mandatory) Look[1,1]Background , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (mandatory) Look[1,1]Theme , (mandatory) Behavoir[1,1]RevealLocation ]
+	Diagnosis 5 (|D|=5, t=0.120221s): [(mandatory) Appearance[1,1]Look , (mandatory) Look[1,1]Background , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (alternative) Theme[1,1]HighContrastInverse AmbianceDefault Radiance HighContrast , (mandatory) Appearance[1,1]Behavoir ]
+	Diagnosis 6 (|D|=5, t=0.112651s): [(mandatory) Appearance[1,1]Look , (mandatory) Look[1,1]Background , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (mandatory) Look[1,1]Theme , (mandatory) Appearance[1,1]Behavoir ]
+	#Diagnoses: 6
+	CC: 184
+	KBDiag runtime: 0.712451 s
+	--- Profiler ---
+	mssDirect calls: 170
+	Consistency checks (TC): 184
+	Consistency checks: 1294
+	Node labeling runtime: [0.16974683399985224, 0.0006687049999527517, 0.0011930999999094638, 0.000578476999180566, 0.1235434919999534, 0.1181140279995816, 0.0005870360000699293, 0.0012613250000867993, 0.0006432919999497244, 0.0011931609997191117, 0.11727412500022183, 0.0008913669998946716, 0.0011846779998450074, 0.00057356700017408, 0.12640180400012468, 0.0005929999997533741, 0.0011912899999515503, 0.0005787399995824671, 0.0011834659999294672, 0.11925761299971782, 0.0006094440004744683, 0.0012371010006972938, 0.0006017559999236255, 0.00571697800023685, 0.0005995490000714199, 0.0012304889996812562, 0.0006020810005793464, 0.0012217439998494228, 0.005717723000088881]
+	Cumulative path labeling runtime: [0.17049811800006864, 0.17170561700004328, 0.17229698200026178, 0.4147217060008188, 0.4160008740000194, 0.41667597200012096, 0.4178881080006249, 0.5361601840004369, 0.537365434000094, 0.5379562330008412, 0.6650883900001645, 0.6663015050007743, 0.6669008240005496, 0.6681048530008411, 0.7881091040007959, 0.7893681570003537, 0.7899920710005972, 0.7957324160006465, 0.7963578150001922, 0.7976107510003203, 0.7982357590008178, 0.7994807620007123, 0.8052234910001062]
+ubuntu ubuntu_c50_17.testcases
+	Diagnosis 1 (|D|=5, t=0.161459s): [(mandatory) Appearance[1,1]Look , (mandatory) Look[1,1]Background , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (alternative) Theme[1,1]HighContrastInverse AmbianceDefault Radiance HighContrast , (alternative) RevealLocation[1,1]Left TopLeftCorner ]
+	Diagnosis 2 (|D|=5, t=0.141442s): [(mandatory) Appearance[1,1]Look , (mandatory) Look[1,1]Background , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (mandatory) Look[1,1]Theme , (alternative) RevealLocation[1,1]Left TopLeftCorner ]
+	Diagnosis 3 (|D|=5, t=0.118068s): [(mandatory) Appearance[1,1]Look , (mandatory) Look[1,1]Background , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (alternative) Theme[1,1]HighContrastInverse AmbianceDefault Radiance HighContrast , (mandatory) Behavoir[1,1]RevealLocation ]
+	Diagnosis 4 (|D|=5, t=0.137146s): [(mandatory) Appearance[1,1]Look , (mandatory) Look[1,1]Background , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (mandatory) Look[1,1]Theme , (mandatory) Behavoir[1,1]RevealLocation ]
+	Diagnosis 5 (|D|=5, t=0.114835s): [(mandatory) Appearance[1,1]Look , (mandatory) Look[1,1]Background , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (alternative) Theme[1,1]HighContrastInverse AmbianceDefault Radiance HighContrast , (mandatory) Appearance[1,1]Behavoir ]
+	Diagnosis 6 (|D|=5, t=0.112286s): [(mandatory) Appearance[1,1]Look , (mandatory) Look[1,1]Background , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (mandatory) Look[1,1]Theme , (mandatory) Appearance[1,1]Behavoir ]
+	#Diagnoses: 6
+	CC: 184
+	KBDiag runtime: 0.785234 s
+	--- Profiler ---
+	mssDirect calls: 170
+	Consistency checks (TC): 184
+	Consistency checks: 1294
+	Node labeling runtime: [0.20676216700030636, 0.0008614340003987309, 0.0012408190004862263, 0.0005967170000076294, 0.14826414399976784, 0.12537008700019214, 0.000606321000304888, 0.0012124969998694723, 0.0006006350004099659, 0.001488971000071615, 0.14356613000018115, 0.0006048870000086026, 0.0013213289994382649, 0.0006060470004740637, 0.12120904800030985, 0.000663535000057891, 0.0012248130005900748, 0.0005916189993513399, 0.0012116729994886555, 0.11887059599939676, 0.0006024449994583847, 0.0012141150000388734, 0.0005940949995419942, 0.005516344000170648, 0.0005887110000912799, 0.0012051509993398213, 0.0005900739997741766, 0.0012193820002721623, 0.005615197000224725]
+	Cumulative path labeling runtime: [0.207713982000314, 0.20897696500014717, 0.20959121200030495, 0.4840445979998549, 0.48527631600063614, 0.48589568300030805, 0.4874086480003825, 0.6317079390000799, 0.6330491960006839, 0.6336767450002299, 0.7556834269998944, 0.756943708000108, 0.757557087999885, 0.7587903330004337, 0.8783976640006586, 0.8796335800007, 0.8802498730001389, 0.8857879300003333, 0.8863992650003638, 0.8876268630001505, 0.8882396770004561, 0.8894819710003503, 0.8951218140000492]
+
+=== Evaluation Results: kbdiag (m=1, task=all) ===
+Testcase                  | Avg Time (s) |   |D| |  #Diag
+---------------------------------------------------------
+ubuntu/ubuntu_c5_17.testcases |     0.000000 |     2 |      1
+ubuntu/ubuntu_c10_17.testcases |     0.000000 |     4 |      1
+ubuntu/ubuntu_c25_17.testcases |     0.000000 |     4 |      1
+ubuntu/ubuntu_c50_17.testcases |     0.747901 |     5 |      6
+ubuntu/ubuntu_c100_17.testcases |     0.000000 |     5 |      1
+ubuntu/ubuntu_c250_17.testcases |     0.000000 |     7 |      1
+ubuntu/ubuntu_c500_17.testcases |     0.000000 |     7 |      1
