@@ -1,0 +1,11 @@
+10
+Appearance & ~Look & Background & HighContrast & DisableTouchpadWhileTyping
+~PrecisePagolin1920x1280 & ~Normal2
+~Fast1 & Speed1
+Ubuntu1920x1280 & StickyKeys
+Appearance & Look & Background & ~TwillightFrost1920x1280 & ~Navigation
+Appearance & ~Look & Background & PrecisePagolin1920x1280 & AcceptanceDelay2
+Appearance & Look & Background & ~Ubuntu1920x1280 & ~TurnScreenOffWhenInactiveFor
+Appearance & Look & Background & PrecisePagolin1920x1280 & ~HighContrastOnOrOff
+~HighContrastInverse & CopyAScreenshotOfAwindowToClipboard
+Appearance & TwillightFrost1920x1280 & MotionThreshold

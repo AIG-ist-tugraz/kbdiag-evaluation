@@ -1,0 +1,51 @@
+50
+Appearance & ~Look & Background & ~HighContrast & ~_1Hour
+Look & CopyAScreenshotToClipboard
+Appearance & Look & ~Radiance & TurnZoomOnOrOff
+TwillightFrost1920x1280 & ~Long4
+~MorningDew1920x1280 & ~MouseKeys
+Appearance & ~Look & Radiance & Disabled4
+~AmbianceDefault & Delay1
+Appearance & Look & AmbianceDefault & Ctrl_Alt_T
+~Appearance & ~EarlyBlossom1920x1280 & ~UniversalAccess
+Appearance & Look & Background & ~DelicatePetals1920x1280 & ~Speed2
+Appearance & ~Look & AmbianceDefault & ~ShowPositionOfPointerWhenTheControlKeyIsPressed
+~Appearance & ~Look & Background & LauncherIconSize & Short3
+~Appearance & Look & Background & ~LauncherIconSize & NewWindowsUseTheDefaultLayout
+Appearance & Look & Background & ~Radiance & LockScreen
+~Appearance & ~Look & ~Background & ~HighContrastInverse & ~RevealSensitivity
+Appearance & Look & HighContrastInverse & ~_32
+~Appearance & ~Look & ResizeWindow
+~Appearance & ~Look & ~Background & ~DelicatePetals1920x1280 & TakeAScreenshotOfAWindow
+Appearance & Look & Background & AmbianceDefault & Shift_Super_Space
+Theme & ~Mouse_2
+~Appearance & ~Look & ~PrecisePagolin1920x1280 & Seeing
+Appearance & Look & Background & Radiance & ~Normal1
+~Appearance & ~Look & ~Background & ~AmbianceDefault & Slow
+Theme & TurnZoomOnOrOff
+~_3Minutes & TurnScreenOffWhenInactiveFor
+~Appearance & AmbianceDefault & ~LauncherIconSize
+~Appearance & Look & ~Background & ~HighContrastInverse & Shift_Print
+~Appearance & ~Look & Background & Theme & Disabled
+Appearance & ~Look & Background & ~MorningDew1920x1280 & ~Rotation
+Appearance & ~Look & EarlyBlossom1920x1280 & CopyAScreenhotOfAnAreaToClipboard
+~Appearance & ~Radiance & BounceKeys
+Appearance & Look & Background & HighContrastInverse & Ctrl_Alt_Print
+MorningDew1920x1280 & RequireMyPasswordWhenWakingFromSuspend
+Appearance & Look & Background & ~EarlyBlossom1920x1280 & ~Shift_Super_Space
+Appearance & Look & Background & ~DelicatePetals1920x1280 & ~Scrolling
+Appearance & Look & Background & HighContrastInverse & Slow1
+Appearance & Look & Background & TwillightFrost1920x1280 & ~_1Hour_
+Appearance & Look & Background & HighContrastInverse & CopyAScreenshotToClipboard
+~Appearance & ~Look & ~TwillightFrost1920x1280 & LeftHanded
+~Appearance & ~Look & ~PrecisePagolin1920x1280 & RaiseWindowAboveOtherWindows
+Appearance & Look & HighContrastInverse & ~Low4
+Appearance & Look & Background & Radiance & UniversalAccess2
+Appearance & MorningDew1920x1280 & ~MoveWindowToWorkspace
+~TwillightFrost1920x1280 & Navigation
+Appearance & ~AmbianceDefault & _1Hour_
+DelicatePetals1920x1280 & AutoHideTheLauncher
+~Appearance & ~Look & ~Background & ~Theme & LauncherTerminal
+Appearance & Look & ~TwillightFrost1920x1280 & ~Long1
+~Appearance & ~Look & ~PrecisePagolin1920x1280 & MoveWindowToWorkspace
+Appearance & ~DelicatePetals1920x1280 & _2Minutes

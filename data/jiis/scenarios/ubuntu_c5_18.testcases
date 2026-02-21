@@ -1,0 +1,6 @@
+5
+Appearance & ~Look & HighContrastInverse & Rotation
+~AmbianceDefault & KeyToShowTheHUD
+Appearance & Look & Radiance & ~Hearing
+Look & ~RestoreWindow
+Appearance & HighContrastInverse & ~_64

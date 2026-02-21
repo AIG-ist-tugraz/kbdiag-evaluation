@@ -1,0 +1,51 @@
+50
+Appearance & Look & ~Background & Ubuntu1920x1280 & Disabled3
+Ubuntu1920x1280 & BeepWhenCapsAndNumLockAreUsed
+Appearance & Look & ~Radiance & ~LayoutSettings
+~Appearance & ~Look & ~MorningDew1920x1280 & ToggleFullscreenMode
+Background & ~Clockwise
+Appearance & ~Look & Background & EarlyBlossom1920x1280 & AlternativeCharactersKey
+Appearance & Look & Background & ~EarlyBlossom1920x1280 & ~BeepWhenAKeysIs
+Appearance & Look & Background & ~MorningDew1920x1280 & Delay
+Appearance & Look & ~DelicatePetals1920x1280 & UniversalAccess1
+~Appearance & ~AmbianceDefault & ~Typing1
+Appearance & ~Look & ~Background & AmbianceDefault & ~TurnScreenReaderOnOrOff
+Appearance & ~Look & ~Background & Theme & ~LowerWindowBelowOtherWindows
+~Appearance & Look & ~Background & ~Radiance & Fast2
+~Appearance & ~Background & ~_3Minutes
+~Appearance & ~Look & ~Background & ~EarlyBlossom1920x1280 & DimSceenToSavePower
+Appearance & Look & ~TwillightFrost1920x1280 & Low3
+~Appearance & ~Look & ~Background & ~PrecisePagolin1920x1280 & ~General1_1
+~Appearance & ~Look & ~Background & ~HighContrastInverse & Long
+~HighContrastInverse & ShowPositionOfPointerWhenTheControlKeyIsPressed
+~Appearance & ~Look & ~Theme & MoveWindowToWorkspace
+Background & StickyKeys
+Appearance & Look & Background & ~Ubuntu1920x1280 & PointerSpeed1
+Appearance & Look & ~HighContrastInverse & RevealSensitivity
+Appearance & Look & Background & ~Ubuntu1920x1280 & ~HighContrastInverse
+Appearance & Look & Background & ~TwillightFrost1920x1280 & ~MinimizeWindow
+Appearance & Look & ~Background & Ubuntu1920x1280 & Acceleration2
+Appearance & ~Look & Background & ~Ubuntu1920x1280 & MoveWindow
+Appearance & Look & ~Background & MorningDew1920x1280 & ~TextSize
+~Appearance & ~Look & Background & Radiance & ~Low4
+Appearance & ~Look & Background & Theme & ~Short4
+~Appearance & ~Look & ~Theme & ~Small
+Appearance & Look & ~MorningDew1920x1280 & ~AutoHideTheLauncher
+HighContrastInverse & ~Ctrl_Super_Down
+Appearance & ~Ubuntu1920x1280 & _10Minutes_
+Appearance & Look & Radiance & ~TurnScreenReaderOnOrOff
+Theme
+~Appearance & ~Look & ~HighContrastInverse & UseAVisualIndicationWhenAnAlertSoundOccurs
+~MorningDew1920x1280 & ~SwitchToPreviousSource
+Appearance & Look & ~TwillightFrost1920x1280 & ~HighContrast
+~Appearance & ~Look & ~Ubuntu1920x1280 & ~TurnOnScreenKeyboardOnOrOff
+Appearance & Look & Theme & Slow
+~Appearance & ~Look & ~AmbianceDefault & _2Minutes
+Appearance & Look & ~MorningDew1920x1280 & _3Minutes
+Appearance & HighContrastInverse & DimSceenToSavePower
+Appearance & Ubuntu1920x1280 & ToggleShadedState
+~Appearance & ~Background & ~Acceleration1
+Appearance & ~HighContrastInverse & LogOut
+PrecisePagolin1920x1280 & ToggleShadedState
+HighContrastInverse & ~Acceleration
+Appearance & Look & Background & Ubuntu1920x1280 & ~ToggleShadedState

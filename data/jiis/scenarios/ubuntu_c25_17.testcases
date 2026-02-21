@@ -1,0 +1,26 @@
+25
+Appearance & ~Look & ~Background & PrecisePagolin1920x1280 & ~Accepted
+Appearance & Look & Background & ~TwillightFrost1920x1280 & BeepWhenAKeyIsRejected
+~Appearance & ~Look & ~HighContrastInverse & LauncherTerminal
+TwillightFrost1920x1280 & ~ScreenReader
+~Appearance & ~Look & ~TwillightFrost1920x1280 & Large2
+~Appearance & ~Look & Background & Radiance & ~BeepWhenAKeyIsRejected
+DelicatePetals1920x1280 & Disabled3
+Appearance & ~EarlyBlossom1920x1280 & ~AcceptanceDelay1
+~Appearance & ~Look & ~Background & ~HighContrastInverse & ~TypingAssistant
+Appearance & AmbianceDefault & ~Ctrl_Alt_0
+Appearance & Look & ~Background & MorningDew1920x1280 & HighContrastInverse
+Appearance & ~Look & Ubuntu1920x1280 & ComposeKey
+Appearance & ~Look & Background & MorningDew1920x1280 & Fast
+Appearance & Look & Background & Radiance & ~MotionThreshold
+PrecisePagolin1920x1280 & ~DoubleClickTimeOut
+Appearance & Radiance & Launchers
+~Appearance & ~Look & ~Background & ~Radiance & ~RaiseWindowAboveOtherWindows
+Appearance & Look & AmbianceDefault & ~Normal2
+~Appearance & ~DelicatePetals1920x1280 & PointerSpeed1
+Appearance & Look & ~EarlyBlossom1920x1280 & Tbreshold
+Appearance & Look & Background & ~Ubuntu1920x1280 & ~Low
+Appearance & Look & Background & Theme & Ctrl_Alt_S
+~Look & LockScreen
+~Appearance & ~Look & ~Background & ~PrecisePagolin1920x1280 & ~Navigation
+Appearance & Look & ~HighContrastInverse & ActivateTheWindowMenu

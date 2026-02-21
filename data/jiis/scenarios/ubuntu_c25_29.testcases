@@ -1,0 +1,26 @@
+25
+~Appearance & ~Look & Background & Radiance & LayoutSettings
+Appearance & Look & Background & General1_1
+Appearance & ~HighContrastInverse & Ctrl_Alt_S
+Appearance & ~TwillightFrost1920x1280 & Mouse_2
+Appearance & Look & ~TwillightFrost1920x1280 & ~Alt_Space
+Appearance & Look & ~Background & Ubuntu1920x1280 & ~PointerSpeed1
+EarlyBlossom1920x1280 & Alt_Super_plusMinus
+Appearance & DelicatePetals1920x1280 & AcceptanceDelay1
+Appearance & Look & Background & ~DelicatePetals1920x1280 & ~ToggleFullscreenMode
+~Appearance & ~Look & ~Ubuntu1920x1280 & AllDisplays
+~Appearance & Look & Background & ~Theme & ~High2
+Appearance & ~Look & Background & ~MorningDew1920x1280 & ~ToggleFullscreenMode
+~Appearance & ~Look & Background & PrecisePagolin1920x1280 & Low1
+~Appearance & ~TwillightFrost1920x1280 & AllowDifferentLayoutsForIndividualWindows
+~Appearance & ~Look & ~Background & ~Navigation
+AmbianceDefault & ~_1Hour
+Appearance & Look & Ubuntu1920x1280 & MoveWindowToWorkspace
+~Appearance & ~Look & ~Background & ~EarlyBlossom1920x1280 & ~_32
+Appearance & Theme & ~High1
+Appearance & Look & ~Ubuntu1920x1280 & ~ScreenReader
+~Appearance & ~HighContrastInverse & ~Alt_F8
+~Appearance & ~Look & ~Background & ~MorningDew1920x1280 & Long2
+Theme & Large
+~Appearance & ~Look & ~EarlyBlossom1920x1280 & ~MoveWindowToWorkspace
+Appearance & Look & Background & ~TwillightFrost1920x1280 & MoveWindowToWorkspace

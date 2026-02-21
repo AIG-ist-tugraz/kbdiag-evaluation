@@ -1,0 +1,101 @@
+100
+~Appearance & ~Look & Background & HighContrast & HighContrastOnOrOff
+Appearance & ~Ubuntu1920x1280 & HighContrastOnOrOff
+~Appearance & ~TwillightFrost1920x1280 & Normal2
+Appearance & Look & PrecisePagolin1920x1280 & ~BeepWhenCapsAndNumLockAreUsed
+Appearance & EarlyBlossom1920x1280 & PointerSpeed2
+~Appearance & Look & ~Background & Theme & DoubleClickTimeOut
+Appearance & Look & Background & Ubuntu1920x1280 & BeepWhenAKeysIs
+Appearance & Look & Background & TwillightFrost1920x1280 & ~Brightness
+~Appearance & ~Look & ~Background & ~HighContrastInverse & ~Scrolling
+~DelicatePetals1920x1280 & Normal2
+~Appearance & Look & ~Background & ~HighContrast & ~_5Minutes_
+Appearance & ~Look & Background & Ubuntu1920x1280 & Ctrl_Alt_S
+~Appearance & Look & ~Background & TwillightFrost1920x1280 & ~TurnZoomOnOrOff
+Appearance & Look & TwillightFrost1920x1280 & FlashTheEntireScreen
+Appearance & Look & Background & ~HighContrast & TakeAScreenshotOfAnArea
+~Appearance & ~HighContrastInverse & LockScreenAfter
+Appearance & Look & Background & Radiance & ComposeKey
+Appearance & Look & Background & HighContrastInverse & ~Acceleration1
+Appearance & Look & Background & ~HighContrastInverse & ~StickyEdges
+Appearance & Ubuntu1920x1280 & Large
+Appearance & Look & Background & Ubuntu1920x1280 & Large1
+~Appearance & ~Background & ~TakeAScreenshot
+~Appearance & ~Look & ~EarlyBlossom1920x1280 & System
+Appearance & Look & Background & TwillightFrost1920x1280 & ~AcceptanceDelay1
+~Appearance & ~Look & ~Background & ~HighContrastInverse & ~DimSceenToSavePower
+Appearance & ~Look & Background & AmbianceDefault & Never
+~Appearance & Look & ~Background & ~Theme & ~SwitchToNextSource
+Appearance & ~Look & EarlyBlossom1920x1280 & ~Long1
+~Appearance & Look & ~Background & ~AmbianceDefault & MouseSettings
+~Appearance & ~Look & Background & Radiance & ~Accepted
+Appearance & Look & EarlyBlossom1920x1280 & Fast
+~Appearance & ~Look & ~AmbianceDefault & ~Ctrl_Alt_L
+~Background & TextSize
+Appearance & Look & Background & LauncherIconSize & ~Alt_Super_plusEqual
+Ubuntu1920x1280 & Ctrl_Alt_S
+Appearance & Look & Background & Theme & Disabled5
+TwillightFrost1920x1280 & Navigation
+Appearance & Look & Background & HighContrastInverse & ~AcceptanceDelay1
+~PrecisePagolin1920x1280 & Alt_Super_plusS
+Appearance & Look & Background & Radiance & ~Low2
+~Appearance & ~Look & ~Background & ~MorningDew1920x1280 & ~CustomShortcuts
+~Appearance & ~EarlyBlossom1920x1280 & ~Sensitivity2
+~Appearance & ~Look & ~Background & ~AmbianceDefault & VisualAlerts
+Appearance & Look & ~EarlyBlossom1920x1280 & Disabled8
+Appearance & Ubuntu1920x1280 & TextSize
+~Appearance & ~Look & ~Background & ~HighContrastInverse & ~Left
+Appearance & Look & Radiance & ~Sensitivity
+~Ubuntu1920x1280 & Small2
+~Appearance & ~HighContrastInverse & ~Disabled9
+~Appearance & ~PrecisePagolin1920x1280 & Scrolling
+Appearance & ~Look & Theme & ~HoverClick
+Appearance & ~Look & Background & ~TwillightFrost1920x1280 & ~Seeing
+Appearance & ~Look & ~Background & Ubuntu1920x1280 & ~Delay2
+Appearance & ~Look & AmbianceDefault & ~Typing2
+~Appearance & Look & ~Background & ~TwillightFrost1920x1280 & Displays2
+Appearance & ~Look & Background & Radiance & ~ZoomOut
+Appearance & ~Look & Ubuntu1920x1280 & HighContrast
+~Appearance & Look & ~Background & LauncherIconSize & ~MoveWindowToWorkspace
+Appearance & ~Look & Background & ~EarlyBlossom1920x1280 & FlashTheWindowTitle
+~Appearance & Look & ~Background & DelicatePetals1920x1280 & ~KeyToShowTheHUD
+~Appearance & ~EarlyBlossom1920x1280 & Typing2
+HighContrastInverse & Typing2
+~Appearance & ~Look & ~Background & ~AmbianceDefault & HighContrastOnOrOff
+Appearance & TopLeftCorner
+TwillightFrost1920x1280 & ~_48
+Appearance & Look & Background & MorningDew1920x1280 & ~Normal1
+Appearance & Look & ~Sensitivity2
+~Appearance & ~Look & ~Ubuntu1920x1280 & Long4
+~HighContrastInverse & Short4
+~Theme & ~Ctrl_Alt_T
+Ubuntu1920x1280 & ~SoundAndMedia
+Appearance & Look & Background & EarlyBlossom1920x1280 & Short5
+Appearance & Look & ~MorningDew1920x1280 & Laptop
+MorningDew1920x1280 & Behavoir
+Appearance & Look & ~Radiance & ~Laptop
+~Appearance & ~Look & ~Background & ~AmbianceDefault & ~KeyboardSetting
+~DelicatePetals1920x1280 & ~Low1
+Appearance & Look & Background & ~Ubuntu1920x1280 & ~_1Minute_
+~Appearance & ~TwillightFrost1920x1280 & Contrast
+~Appearance & ~HighContrastInverse & ~SimulatedSecondaryCLick
+Appearance & Look & Background & AmbianceDefault & ~Low
+~TwillightFrost1920x1280 & _10Minutes_
+~Appearance & ~Look & ~Background & ~DelicatePetals1920x1280 & Slow4
+Appearance & ~Ubuntu1920x1280 & Long3
+Appearance & Ubuntu1920x1280 & LauncherIconSize
+~DelicatePetals1920x1280 & Small2
+Appearance & Look & PrecisePagolin1920x1280 & Low2
+Appearance & PrecisePagolin1920x1280 & ~AllDisplays
+Appearance & TwillightFrost1920x1280 & ~Short5
+~Appearance & ~Look & ~HighContrastInverse & Long2
+Appearance & ~DelicatePetals1920x1280 & BeepWhenCapsAndNumLockAreUsed
+Ubuntu1920x1280 & Typing3
+~Appearance & ~Look & ~Background & ~HighContrastInverse & ~Speed2
+Appearance & Look & Background & ~DelicatePetals1920x1280 & ~_1Minute_
+Appearance & Look & Background & MorningDew1920x1280 & Seeing
+Appearance & Look & PrecisePagolin1920x1280 & ~Fast4
+~Appearance & ~Look & ~HighContrastInverse & _1Hour
+Appearance & Look & Background & ~EarlyBlossom1920x1280 & Sensitivity1
+Appearance & Look & Background & Ubuntu1920x1280 & TakeAScreenshotOfAnArea
+Theme & ~MotionThreshold

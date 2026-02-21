@@ -1,0 +1,11 @@
+10
+~Appearance & ~Look & Background & AmbianceDefault & Ctrl_Print
+~Appearance & ~Look & ~Background & _1Minute
+Appearance & Look & Background & Theme & NewWindowsUseThePreviousWindowsLayout
+Appearance & Ubuntu1920x1280 & _5Minutes_
+Appearance & HighContrastInverse & LogOut
+~Appearance & Look & ~Theme & _30Minutes
+Appearance & Look & Background & TwillightFrost1920x1280 & ~Ctrl_Alt_5
+Appearance & Look & ~HighContrast & StickyEdges
+Appearance & PrecisePagolin1920x1280 & IncreaseTextSize
+Appearance & Look & PrecisePagolin1920x1280 & Scrolling

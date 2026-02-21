@@ -1,0 +1,26 @@
+25
+~Appearance & ~Look & Background & HighContrast & HighContrastOnOrOff
+Appearance & ~Ubuntu1920x1280 & HighContrastOnOrOff
+~Appearance & ~TwillightFrost1920x1280 & Normal2
+Appearance & Look & PrecisePagolin1920x1280 & ~BeepWhenCapsAndNumLockAreUsed
+Appearance & EarlyBlossom1920x1280 & PointerSpeed2
+~Appearance & Look & ~Background & Theme & DoubleClickTimeOut
+Appearance & Look & Background & Ubuntu1920x1280 & BeepWhenAKeysIs
+Appearance & Look & Background & TwillightFrost1920x1280 & ~Brightness
+~Appearance & ~Look & ~Background & ~HighContrastInverse & ~Scrolling
+~DelicatePetals1920x1280 & Normal2
+~Appearance & Look & ~Background & ~HighContrast & ~_5Minutes_
+Appearance & ~Look & Background & Ubuntu1920x1280 & Ctrl_Alt_S
+~Appearance & Look & ~Background & TwillightFrost1920x1280 & ~TurnZoomOnOrOff
+Appearance & Look & TwillightFrost1920x1280 & FlashTheEntireScreen
+Appearance & Look & Background & ~HighContrast & TakeAScreenshotOfAnArea
+~Appearance & ~HighContrastInverse & LockScreenAfter
+Appearance & Look & Background & Radiance & ComposeKey
+Appearance & Look & Background & HighContrastInverse & ~Acceleration1
+Appearance & Look & Background & ~HighContrastInverse & ~StickyEdges
+Appearance & Ubuntu1920x1280 & Large
+Appearance & Look & Background & Ubuntu1920x1280 & Large1
+~Appearance & ~Background & ~TakeAScreenshot
+~Appearance & ~Look & ~EarlyBlossom1920x1280 & System
+Appearance & Look & Background & TwillightFrost1920x1280 & ~AcceptanceDelay1
+~Appearance & ~Look & ~Background & ~HighContrastInverse & ~DimSceenToSavePower

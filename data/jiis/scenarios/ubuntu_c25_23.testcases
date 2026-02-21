@@ -1,0 +1,26 @@
+25
+Appearance & ~Look & Background & ~HighContrast & ~_1Hour
+Look & CopyAScreenshotToClipboard
+Appearance & Look & ~Radiance & TurnZoomOnOrOff
+TwillightFrost1920x1280 & ~Long4
+~MorningDew1920x1280 & ~MouseKeys
+Appearance & ~Look & Radiance & Disabled4
+~AmbianceDefault & Delay1
+Appearance & Look & AmbianceDefault & Ctrl_Alt_T
+~Appearance & ~EarlyBlossom1920x1280 & ~UniversalAccess
+Appearance & Look & Background & ~DelicatePetals1920x1280 & ~Speed2
+Appearance & ~Look & AmbianceDefault & ~ShowPositionOfPointerWhenTheControlKeyIsPressed
+~Appearance & ~Look & Background & LauncherIconSize & Short3
+~Appearance & Look & Background & ~LauncherIconSize & NewWindowsUseTheDefaultLayout
+Appearance & Look & Background & ~Radiance & LockScreen
+~Appearance & ~Look & ~Background & ~HighContrastInverse & ~RevealSensitivity
+Appearance & Look & HighContrastInverse & ~_32
+~Appearance & ~Look & ResizeWindow
+~Appearance & ~Look & ~Background & ~DelicatePetals1920x1280 & TakeAScreenshotOfAWindow
+Appearance & Look & Background & AmbianceDefault & Shift_Super_Space
+Theme & ~Mouse_2
+~Appearance & ~Look & ~PrecisePagolin1920x1280 & Seeing
+Appearance & Look & Background & Radiance & ~Normal1
+~Appearance & ~Look & ~Background & ~AmbianceDefault & Slow
+Theme & TurnZoomOnOrOff
+~_3Minutes & TurnScreenOffWhenInactiveFor
