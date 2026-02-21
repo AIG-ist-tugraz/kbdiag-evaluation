@@ -8,16 +8,6 @@ https://github.com/HiConfiT/hiconfit-core/blob/main/ca-cdr-package/src/main/java
 #
 #  @author: Viet-Man Le (v.m.le@tugraz.at)
 
-#  KBDiag
-#
-#
-#  @author: Viet-Man Le (vietman.le@ist.tugraz.at)
-
-#  KBDiag
-#
-#
-#  @author: Viet-Man Le (vietman.le@ist.tugraz.at)
-
 import time
 from typing import List, Optional, Dict, Union, Any
 

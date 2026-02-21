@@ -3,11 +3,6 @@
 #  Copyright (c) 2025
 #
 #  @author: Viet-Man Le (vietman.le@ist.tugraz.at)
-
-#  KBDiag
-#
-#
-#  @author: Viet-Man Le (vietman.le@ist.tugraz.at)
 import argparse
 import os
 import subprocess

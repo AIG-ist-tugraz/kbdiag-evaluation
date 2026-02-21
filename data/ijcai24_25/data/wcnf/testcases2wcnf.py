@@ -3,11 +3,6 @@
 #  Copyright (c) 2025
 #
 #  @author: Viet-Man Le (vietman.le@ist.tugraz.at)
-
-#  KBDiag
-#
-#
-#  @author: Viet-Man Le (vietman.le@ist.tugraz.at)
 from pysat.formula import WCNF
 
 KBs = ['DELL', 'ubuntu', 'windows8']

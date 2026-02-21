@@ -4,11 +4,6 @@
 #
 #  @author: Viet-Man Le (v.m.le@tugraz.at)
 
-#  KBDiag
-#
-#
-#  @author: Viet-Man Le (v.m.le@tugraz.at)
-
 """Test cases selector for classified test suites.
 
 Selects test case scenarios from classified test suites (.classifiedts)

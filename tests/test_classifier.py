@@ -1,17 +1,8 @@
 """Tests for the test case classifier."""
+
 #  KBDiag
 #
 #  Copyright (c) 2026
-#
-#  @author: Viet-Man Le (v.m.le@tugraz.at)
-
-#  KBDiag
-#
-#
-#  @author: Viet-Man Le (v.m.le@tugraz.at)
-
-#  KBDiag
-#
 #
 #  @author: Viet-Man Le (v.m.le@tugraz.at)
 

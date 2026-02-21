@@ -16,11 +16,6 @@ Author: Viet-Man Le (Python port)
 #
 #  @author: Viet-Man Le (v.m.le@tugraz.at)
 
-#  KBDiag
-#
-#
-#  @author: Viet-Man Le (vietman.le@ist.tugraz.at)
-
 import logging
 from dataclasses import dataclass, field
 from typing import List, Any, Optional

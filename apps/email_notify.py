@@ -6,11 +6,6 @@
 #
 #  @author: Viet-Man Le (v.m.le@tugraz.at)
 
-#  KBDiag
-#
-#
-#  @author: Viet-Man Le (v.m.le@tugraz.at)
-
 import os
 import smtplib
 from email.mime.text import MIMEText

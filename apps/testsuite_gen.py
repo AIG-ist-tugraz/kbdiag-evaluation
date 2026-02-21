@@ -4,11 +4,6 @@
 #
 #  @author: Viet-Man Le (v.m.le@tugraz.at)
 
-#  KBDiag
-#
-#
-#  @author: Viet-Man Le (v.m.le@tugraz.at)
-
 """Test suite generator for feature models.
 
 Generates 5 types of test cases: dead feature, false optional,

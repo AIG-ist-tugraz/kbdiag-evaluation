@@ -4,11 +4,6 @@
 #
 #  @author: Viet-Man Le (v.m.le@tugraz.at)
 
-#  KBDiag
-#
-#
-#  @author: Viet-Man Le (v.m.le@tugraz.at)
-
 """Test case classifier for feature models.
 
 Classifies test cases in a testsuite as violated (inconsistent with FM,

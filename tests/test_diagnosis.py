@@ -13,14 +13,8 @@ To enable/disable specific parameter combinations, modify ENABLED_PARAMS.
 #
 #  @author: Viet-Man Le (v.m.le@tugraz.at)
 
-#  KBDiag
-#
-#
-#  @author: Viet-Man Le (vietman.le@ist.tugraz.at)
-
 import os
 import unittest
-
 from flamapy.metamodels.configuration_metamodel.transformations import ConfigurationBasicReader
 from parameterized import parameterized
 

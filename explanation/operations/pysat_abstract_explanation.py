@@ -4,11 +4,6 @@
 #
 #  @author: Viet-Man Le (v.m.le@tugraz.at)
 
-#  KBDiag
-#
-#
-#  @author: Viet-Man Le (vietman.le@ist.tugraz.at)
-
 from abc import abstractmethod
 from flamapy.core.models import VariabilityModel
 from flamapy.core.operations import Operation

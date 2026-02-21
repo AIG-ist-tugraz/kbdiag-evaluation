@@ -1,13 +1,9 @@
 #  KBDiag
 #
-#  Copyright (c) 2025
+#  Copyright (c) –2026
 #
-#  @author: Viet-Man Le (vietman.le@ist.tugraz.at)
+#  @author: Viet-Man Le (v.m.le@tugraz.at)
 
-#  KBDiag
-#
-#
-#  @author: Viet-Man Le (vietman.le@ist.tugraz.at)
 from pysat.formula import CNF
 
 KBs = ['DELL', 'ubuntu', 'windows8']
