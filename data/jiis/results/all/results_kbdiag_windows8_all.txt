@@ -1,0 +1,65 @@
+windows8 windows8_c25_0.testcases
+	Diagnosis 1 (|D|=4, t=0.127656s): [(mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (or) SetupTextToSpeech[1,2]TextToSpeech SpeechRecognition , (alternative) Communications[1,1]ReduceTheVolumeOfOtherSoundsBy50 ReduceTheVolumeOfOtherSoundsBy80 MuteAllOtherSounds DoNothing ]
+	Diagnosis 2 (|D|=4, t=0.102324s): [(mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (optional) HearTextReadAloud[0,1]SetupTextToSpeech , (alternative) Communications[1,1]ReduceTheVolumeOfOtherSoundsBy50 ReduceTheVolumeOfOtherSoundsBy80 MuteAllOtherSounds DoNothing ]
+	Diagnosis 3 (|D|=4, t=0.102788s): [(mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (or) SetupTextToSpeech[1,2]TextToSpeech SpeechRecognition , (mandatory) AudioDevicesAndSoundThemes[1,1]Communications ]
+	Diagnosis 4 (|D|=4, t=0.102582s): [(mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (optional) HearTextReadAloud[0,1]SetupTextToSpeech , (mandatory) AudioDevicesAndSoundThemes[1,1]Communications ]
+	Diagnosis 5 (|D|=4, t=0.101759s): [(mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (or) SetupTextToSpeech[1,2]TextToSpeech SpeechRecognition , (or) SeeAlso1[1,2]LearnAboutAdditionalAssistiveTechnologiesOnline1 AudioDevicesAndSoundThemes ]
+	Diagnosis 6 (|D|=4, t=0.105548s): [(mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (optional) HearTextReadAloud[0,1]SetupTextToSpeech , (or) SeeAlso1[1,2]LearnAboutAdditionalAssistiveTechnologiesOnline1 AudioDevicesAndSoundThemes ]
+	Diagnosis 7 (|D|=4, t=0.101993s): [(mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (or) SetupTextToSpeech[1,2]TextToSpeech SpeechRecognition , (optional) UseTheComputerWithoutADisplay[0,1]SeeAlso1 ]
+	Diagnosis 8 (|D|=4, t=0.110266s): [(mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (optional) HearTextReadAloud[0,1]SetupTextToSpeech , (optional) UseTheComputerWithoutADisplay[0,1]SeeAlso1 ]
+	#Diagnoses: 8
+	CC: 249
+	KBDiag runtime: 0.854917 s
+	--- Profiler ---
+	mssDirect calls: 260
+	Consistency checks (TC): 249
+	Consistency checks: 929
+	Node labeling runtime: [0.15432076399974903, 0.0009903820000545238, 0.001989457000490802, 0.10748975400019845, 0.10786543999984133, 0.0009798769997360068, 0.0020046579993504565, 0.0009770699998625787, 0.10773586799950863, 0.0009873350009002024, 0.002076095999655081, 0.10690501899989613, 0.0009601769997971132, 0.0020736619999297545, 0.0009578460003467626, 0.11063460900004429, 0.0010907859996223124, 0.001987439999538765, 0.10716076899916516, 0.0009620709997761878, 0.0019472029998723883, 0.0009535170001981896, 0.11543118600002344, 0.001013080999655358, 0.002044875999672513, 0.00307706799958396, 0.0009988889996748185, 0.0020313570003054338, 0.000999365000097896, 0.0030718940006408957]
+	Cumulative path labeling runtime: [0.15541094499985775, 0.15741896700001234, 0.3739062720005677, 0.37592755000059697, 0.37692097000035574, 0.48572621200037247, 0.48781789100030437, 0.5957867770002849, 0.5978790460003438, 0.5988551030004601, 0.71068296500016, 0.7126893770000606, 0.8209189680001145, 0.8228870540006028, 0.8238615730006131, 0.9404324699999052, 0.9425002410007437, 0.9456007879998651, 0.9466227540006003, 0.9486772000000201, 0.9497001400004592, 0.9527950150004472]
+windows8 windows8_c25_0.testcases
+	Diagnosis 1 (|D|=4, t=0.127418s): [(mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (or) SetupTextToSpeech[1,2]TextToSpeech SpeechRecognition , (alternative) Communications[1,1]ReduceTheVolumeOfOtherSoundsBy50 ReduceTheVolumeOfOtherSoundsBy80 MuteAllOtherSounds DoNothing ]
+	Diagnosis 2 (|D|=4, t=0.100998s): [(mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (optional) HearTextReadAloud[0,1]SetupTextToSpeech , (alternative) Communications[1,1]ReduceTheVolumeOfOtherSoundsBy50 ReduceTheVolumeOfOtherSoundsBy80 MuteAllOtherSounds DoNothing ]
+	Diagnosis 3 (|D|=4, t=0.098242s): [(mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (or) SetupTextToSpeech[1,2]TextToSpeech SpeechRecognition , (mandatory) AudioDevicesAndSoundThemes[1,1]Communications ]
+	Diagnosis 4 (|D|=4, t=0.102970s): [(mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (optional) HearTextReadAloud[0,1]SetupTextToSpeech , (mandatory) AudioDevicesAndSoundThemes[1,1]Communications ]
+	Diagnosis 5 (|D|=4, t=0.100297s): [(mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (or) SetupTextToSpeech[1,2]TextToSpeech SpeechRecognition , (or) SeeAlso1[1,2]LearnAboutAdditionalAssistiveTechnologiesOnline1 AudioDevicesAndSoundThemes ]
+	Diagnosis 6 (|D|=4, t=0.104867s): [(mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (optional) HearTextReadAloud[0,1]SetupTextToSpeech , (or) SeeAlso1[1,2]LearnAboutAdditionalAssistiveTechnologiesOnline1 AudioDevicesAndSoundThemes ]
+	Diagnosis 7 (|D|=4, t=0.102714s): [(mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (or) SetupTextToSpeech[1,2]TextToSpeech SpeechRecognition , (optional) UseTheComputerWithoutADisplay[0,1]SeeAlso1 ]
+	Diagnosis 8 (|D|=4, t=0.102084s): [(mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (optional) HearTextReadAloud[0,1]SetupTextToSpeech , (optional) UseTheComputerWithoutADisplay[0,1]SeeAlso1 ]
+	#Diagnoses: 8
+	CC: 249
+	KBDiag runtime: 0.839590 s
+	--- Profiler ---
+	mssDirect calls: 260
+	Consistency checks (TC): 249
+	Consistency checks: 929
+	Node labeling runtime: [0.15249872300046263, 0.0009885839999697055, 0.002071983999485383, 0.10610852900026657, 0.1032677679995686, 0.0009514200000921846, 0.001931200000399258, 0.0009521169995423406, 0.10793826299959619, 0.0009794249999686144, 0.0020308929997554515, 0.1053757889994813, 0.0009555200003887876, 0.001934049000738014, 0.0009481719998802873, 0.1097911330007264, 0.0009753590002219426, 0.0019832680000035907, 0.10778749600012816, 0.0009788489996935823, 0.002033280000432569, 0.0009726459993544267, 0.10702579200005857, 0.0009776159995453781, 0.0019761110006584204, 0.002977267000460415, 0.0009649459998399834, 0.0019760959994528093, 0.0009695190001366427, 0.0029809420002493425]
+	Cumulative path labeling runtime: [0.15356631799932075, 0.1556517620001614, 0.36610322399974393, 0.36804977700012387, 0.36901752299945656, 0.4780181839996658, 0.4800647559995923, 0.5864855879999595, 0.5884378969994941, 0.589404139999715, 0.7002798909998091, 0.7022817189999842, 0.8111694549997992, 0.8132245959995998, 0.8142188159999932, 0.9223319399998218, 0.9243297799994252, 0.9273289799994018, 0.9283164879998367, 0.9303150289997575, 0.9313076039998123, 0.9343109060000643]
+windows8 windows8_c25_0.testcases
+	Diagnosis 1 (|D|=4, t=0.127565s): [(mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (or) SetupTextToSpeech[1,2]TextToSpeech SpeechRecognition , (alternative) Communications[1,1]ReduceTheVolumeOfOtherSoundsBy50 ReduceTheVolumeOfOtherSoundsBy80 MuteAllOtherSounds DoNothing ]
+	Diagnosis 2 (|D|=4, t=0.101099s): [(mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (optional) HearTextReadAloud[0,1]SetupTextToSpeech , (alternative) Communications[1,1]ReduceTheVolumeOfOtherSoundsBy50 ReduceTheVolumeOfOtherSoundsBy80 MuteAllOtherSounds DoNothing ]
+	Diagnosis 3 (|D|=4, t=0.101895s): [(mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (or) SetupTextToSpeech[1,2]TextToSpeech SpeechRecognition , (mandatory) AudioDevicesAndSoundThemes[1,1]Communications ]
+	Diagnosis 4 (|D|=4, t=0.103471s): [(mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (optional) HearTextReadAloud[0,1]SetupTextToSpeech , (mandatory) AudioDevicesAndSoundThemes[1,1]Communications ]
+	Diagnosis 5 (|D|=4, t=0.101600s): [(mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (or) SetupTextToSpeech[1,2]TextToSpeech SpeechRecognition , (or) SeeAlso1[1,2]LearnAboutAdditionalAssistiveTechnologiesOnline1 AudioDevicesAndSoundThemes ]
+	Diagnosis 6 (|D|=4, t=0.104153s): [(mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (optional) HearTextReadAloud[0,1]SetupTextToSpeech , (or) SeeAlso1[1,2]LearnAboutAdditionalAssistiveTechnologiesOnline1 AudioDevicesAndSoundThemes ]
+	Diagnosis 7 (|D|=4, t=0.101557s): [(mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (or) SetupTextToSpeech[1,2]TextToSpeech SpeechRecognition , (optional) UseTheComputerWithoutADisplay[0,1]SeeAlso1 ]
+	Diagnosis 8 (|D|=4, t=0.102071s): [(mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (optional) HearTextReadAloud[0,1]SetupTextToSpeech , (optional) UseTheComputerWithoutADisplay[0,1]SeeAlso1 ]
+	#Diagnoses: 8
+	CC: 249
+	KBDiag runtime: 0.843412 s
+	--- Profiler ---
+	mssDirect calls: 260
+	Consistency checks (TC): 249
+	Consistency checks: 929
+	Node labeling runtime: [0.15304374900006223, 0.0009769489997779601, 0.002055402999758371, 0.10618421400067746, 0.10714042000017798, 0.0009642499999245047, 0.0019593380002334015, 0.0009664230001362739, 0.10916888600058883, 0.0010672150001482805, 0.0020637940006054123, 0.10666335400037497, 0.0009986760005631368, 0.002166515000681102, 0.0009805939998841495, 0.10931782200077578, 0.0009590849995220196, 0.0019473389993436285, 0.10654549800074165, 0.0009589879991835915, 0.0019870179994541104, 0.0009569240000928403, 0.10707287300010648, 0.0009570430001986097, 0.0019462670006760163, 0.0030034010005692835, 0.0009550240001772181, 0.0019480500004647183, 0.0009608660002413671, 0.002953140000499843]
+	Cumulative path labeling runtime: [0.15409203699982754, 0.15616051699998934, 0.37058828199951677, 0.37256359000002703, 0.37354556700029207, 0.48387266999998246, 0.48595234699951106, 0.5937093800002913, 0.5958950069998536, 0.5968947860001208, 0.7072642590001124, 0.7092293079995216, 0.8168390009996074, 0.8188468930002273, 0.8198243030001322, 0.927960752999752, 0.9299283840000498, 0.9329534589996911, 0.933930768999744, 0.9359004050002113, 0.9368840179995459, 0.9398591299996042]
+
+=== Evaluation Results: kbdiag (m=1, task=all) ===
+Testcase                  | Avg Time (s) |   |D| |  #Diag
+---------------------------------------------------------
+windows8/windows8_c5_0.testcases |     0.000000 |     2 |      1
+windows8/windows8_c10_0.testcases |     0.000000 |     3 |      1
+windows8/windows8_c25_0.testcases |     0.845973 |     4 |      8
+windows8/windows8_c50_0.testcases |     0.000000 |     5 |      1
+windows8/windows8_c100_0.testcases |     0.000000 |     7 |      1
+windows8/windows8_c250_0.testcases |     0.000000 |     8 |      1
+windows8/windows8_c500_0.testcases |     0.000000 |    10 |      1

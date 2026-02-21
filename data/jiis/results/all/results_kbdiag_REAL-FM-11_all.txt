@@ -1,0 +1,71 @@
+REAL-FM-11 REAL-FM-11_c25_0.testcases
+	Diagnosis 1 (|D|=7, t=0.019807s): [(mandatory) _id_0[1,1]_id_1 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_1[1,1]_id_3 , (alternative) _id_6[1,1]_id_8 _id_9 , (mandatory) _id_43[1,1]_id_45 , (mandatory) _id_47[1,1]_id_49 , (mandatory) _id_56[1,1]_id_57 ]
+	Diagnosis 2 (|D|=7, t=0.015717s): [(mandatory) _id_0[1,1]_id_1 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_1[1,1]_id_3 , (mandatory) _id_5[1,1]_id_6 , (mandatory) _id_43[1,1]_id_45 , (mandatory) _id_47[1,1]_id_49 , (mandatory) _id_56[1,1]_id_57 ]
+	Diagnosis 3 (|D|=7, t=0.016188s): [(mandatory) _id_0[1,1]_id_1 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_1[1,1]_id_3 , (alternative) _id_6[1,1]_id_8 _id_9 , (mandatory) _id_0[1,1]_id_43 , (mandatory) _id_47[1,1]_id_49 , (mandatory) _id_56[1,1]_id_57 ]
+	Diagnosis 4 (|D|=7, t=0.016217s): [(mandatory) _id_0[1,1]_id_1 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_1[1,1]_id_3 , (alternative) _id_6[1,1]_id_8 _id_9 , (mandatory) _id_43[1,1]_id_45 , (mandatory) _id_0[1,1]_id_47 , (mandatory) _id_56[1,1]_id_57 ]
+	Diagnosis 5 (|D|=7, t=0.016141s): [(mandatory) _id_0[1,1]_id_1 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_1[1,1]_id_3 , (alternative) _id_6[1,1]_id_8 _id_9 , (mandatory) _id_43[1,1]_id_45 , (mandatory) _id_47[1,1]_id_49 , (mandatory) _id_0[1,1]_id_56 ]
+	Diagnosis 6 (|D|=7, t=0.016212s): [(mandatory) _id_0[1,1]_id_1 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_1[1,1]_id_3 , (mandatory) _id_4[1,1]_id_5 , (mandatory) _id_43[1,1]_id_45 , (mandatory) _id_47[1,1]_id_49 , (mandatory) _id_56[1,1]_id_57 ]
+	Diagnosis 7 (|D|=7, t=0.016970s): [(mandatory) _id_0[1,1]_id_1 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_1[1,1]_id_3 , (mandatory) _id_5[1,1]_id_6 , (mandatory) _id_0[1,1]_id_43 , (mandatory) _id_47[1,1]_id_49 , (mandatory) _id_56[1,1]_id_57 ]
+	Diagnosis 8 (|D|=7, t=0.017172s): [(mandatory) _id_0[1,1]_id_1 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_1[1,1]_id_3 , (mandatory) _id_5[1,1]_id_6 , (mandatory) _id_43[1,1]_id_45 , (mandatory) _id_0[1,1]_id_47 , (mandatory) _id_56[1,1]_id_57 ]
+	Diagnosis 9 (|D|=7, t=0.016168s): [(mandatory) _id_0[1,1]_id_1 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_1[1,1]_id_3 , (mandatory) _id_5[1,1]_id_6 , (mandatory) _id_43[1,1]_id_45 , (mandatory) _id_47[1,1]_id_49 , (mandatory) _id_0[1,1]_id_56 ]
+	Diagnosis 10 (|D|=7, t=0.016067s): [(mandatory) _id_0[1,1]_id_1 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_1[1,1]_id_3 , (alternative) _id_6[1,1]_id_8 _id_9 , (mandatory) _id_0[1,1]_id_43 , (mandatory) _id_0[1,1]_id_47 , (mandatory) _id_56[1,1]_id_57 ]
+	#Diagnoses: 10
+	CC: 352
+	KBDiag runtime: 0.166658 s
+	--- Profiler ---
+	mssDirect calls: 404
+	Consistency checks (TC): 352
+	Consistency checks: 1018
+	Node labeling runtime: [0.024485639999511477, 0.0007372050004050834, 0.0007185409995145164, 0.0003554739996616263, 0.016619283999716572, 0.017305491999650258, 0.01715588899969589, 0.017077665999750025, 0.0007496250000258442, 0.000731902000552509, 0.00036449300023377873, 0.01713386499977787, 0.0179163430002518, 0.01812779900046735, 0.01709065399973042, 0.0007443320000675158, 0.000724141000318923, 0.0003587119999792776, 0.00035785599993687356, 0.017088081000110833]
+	Cumulative path labeling runtime: [0.025323247999949672, 0.026060213000164367, 0.026430099999743106, 0.09579862999999023, 0.09655232499972044, 0.09693782399972406, 0.16850011899987294, 0.1692469039999196, 0.16962824699930934, 0.17000916199958738]
+REAL-FM-11 REAL-FM-11_c25_0.testcases
+	Diagnosis 1 (|D|=7, t=0.019856s): [(mandatory) _id_0[1,1]_id_1 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_1[1,1]_id_3 , (alternative) _id_6[1,1]_id_8 _id_9 , (mandatory) _id_43[1,1]_id_45 , (mandatory) _id_47[1,1]_id_49 , (mandatory) _id_56[1,1]_id_57 ]
+	Diagnosis 2 (|D|=7, t=0.015728s): [(mandatory) _id_0[1,1]_id_1 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_1[1,1]_id_3 , (mandatory) _id_5[1,1]_id_6 , (mandatory) _id_43[1,1]_id_45 , (mandatory) _id_47[1,1]_id_49 , (mandatory) _id_56[1,1]_id_57 ]
+	Diagnosis 3 (|D|=7, t=0.015911s): [(mandatory) _id_0[1,1]_id_1 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_1[1,1]_id_3 , (alternative) _id_6[1,1]_id_8 _id_9 , (mandatory) _id_0[1,1]_id_43 , (mandatory) _id_47[1,1]_id_49 , (mandatory) _id_56[1,1]_id_57 ]
+	Diagnosis 4 (|D|=7, t=0.016022s): [(mandatory) _id_0[1,1]_id_1 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_1[1,1]_id_3 , (alternative) _id_6[1,1]_id_8 _id_9 , (mandatory) _id_43[1,1]_id_45 , (mandatory) _id_0[1,1]_id_47 , (mandatory) _id_56[1,1]_id_57 ]
+	Diagnosis 5 (|D|=7, t=0.015503s): [(mandatory) _id_0[1,1]_id_1 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_1[1,1]_id_3 , (alternative) _id_6[1,1]_id_8 _id_9 , (mandatory) _id_43[1,1]_id_45 , (mandatory) _id_47[1,1]_id_49 , (mandatory) _id_0[1,1]_id_56 ]
+	Diagnosis 6 (|D|=7, t=0.015783s): [(mandatory) _id_0[1,1]_id_1 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_1[1,1]_id_3 , (mandatory) _id_4[1,1]_id_5 , (mandatory) _id_43[1,1]_id_45 , (mandatory) _id_47[1,1]_id_49 , (mandatory) _id_56[1,1]_id_57 ]
+	Diagnosis 7 (|D|=7, t=0.016476s): [(mandatory) _id_0[1,1]_id_1 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_1[1,1]_id_3 , (mandatory) _id_5[1,1]_id_6 , (mandatory) _id_0[1,1]_id_43 , (mandatory) _id_47[1,1]_id_49 , (mandatory) _id_56[1,1]_id_57 ]
+	Diagnosis 8 (|D|=7, t=0.016369s): [(mandatory) _id_0[1,1]_id_1 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_1[1,1]_id_3 , (mandatory) _id_5[1,1]_id_6 , (mandatory) _id_43[1,1]_id_45 , (mandatory) _id_0[1,1]_id_47 , (mandatory) _id_56[1,1]_id_57 ]
+	Diagnosis 9 (|D|=7, t=0.016320s): [(mandatory) _id_0[1,1]_id_1 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_1[1,1]_id_3 , (mandatory) _id_5[1,1]_id_6 , (mandatory) _id_43[1,1]_id_45 , (mandatory) _id_47[1,1]_id_49 , (mandatory) _id_0[1,1]_id_56 ]
+	Diagnosis 10 (|D|=7, t=0.016003s): [(mandatory) _id_0[1,1]_id_1 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_1[1,1]_id_3 , (alternative) _id_6[1,1]_id_8 _id_9 , (mandatory) _id_0[1,1]_id_43 , (mandatory) _id_0[1,1]_id_47 , (mandatory) _id_56[1,1]_id_57 ]
+	#Diagnoses: 10
+	CC: 352
+	KBDiag runtime: 0.163970 s
+	--- Profiler ---
+	mssDirect calls: 404
+	Consistency checks (TC): 352
+	Consistency checks: 1018
+	Node labeling runtime: [0.02461365500039392, 0.0007287349999387516, 0.000712342000042554, 0.0003521369999361923, 0.01662174299963226, 0.016812208000374085, 0.016919562999646587, 0.016405994999331597, 0.0007148529994083219, 0.0007026929997664411, 0.00047718099995108787, 0.01666672600003949, 0.017381101000864874, 0.017327891999229905, 0.01724583699979121, 0.0007421099999191938, 0.0007248719994095154, 0.00035971000033896416, 0.0003591920003600535, 0.016915011000492086]
+	Cumulative path labeling runtime: [0.025415709000299103, 0.02614266500040685, 0.02650792599979468, 0.0943573770000512, 0.09508013699996809, 0.09557724699971004, 0.16546721499980777, 0.1662177790003625, 0.16660042999956204, 0.1669833229998403]
+REAL-FM-11 REAL-FM-11_c25_0.testcases
+	Diagnosis 1 (|D|=7, t=0.019640s): [(mandatory) _id_0[1,1]_id_1 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_1[1,1]_id_3 , (alternative) _id_6[1,1]_id_8 _id_9 , (mandatory) _id_43[1,1]_id_45 , (mandatory) _id_47[1,1]_id_49 , (mandatory) _id_56[1,1]_id_57 ]
+	Diagnosis 2 (|D|=7, t=0.015798s): [(mandatory) _id_0[1,1]_id_1 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_1[1,1]_id_3 , (mandatory) _id_5[1,1]_id_6 , (mandatory) _id_43[1,1]_id_45 , (mandatory) _id_47[1,1]_id_49 , (mandatory) _id_56[1,1]_id_57 ]
+	Diagnosis 3 (|D|=7, t=0.016284s): [(mandatory) _id_0[1,1]_id_1 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_1[1,1]_id_3 , (alternative) _id_6[1,1]_id_8 _id_9 , (mandatory) _id_0[1,1]_id_43 , (mandatory) _id_47[1,1]_id_49 , (mandatory) _id_56[1,1]_id_57 ]
+	Diagnosis 4 (|D|=7, t=0.016756s): [(mandatory) _id_0[1,1]_id_1 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_1[1,1]_id_3 , (alternative) _id_6[1,1]_id_8 _id_9 , (mandatory) _id_43[1,1]_id_45 , (mandatory) _id_0[1,1]_id_47 , (mandatory) _id_56[1,1]_id_57 ]
+	Diagnosis 5 (|D|=7, t=0.015901s): [(mandatory) _id_0[1,1]_id_1 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_1[1,1]_id_3 , (alternative) _id_6[1,1]_id_8 _id_9 , (mandatory) _id_43[1,1]_id_45 , (mandatory) _id_47[1,1]_id_49 , (mandatory) _id_0[1,1]_id_56 ]
+	Diagnosis 6 (|D|=7, t=0.015748s): [(mandatory) _id_0[1,1]_id_1 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_1[1,1]_id_3 , (mandatory) _id_4[1,1]_id_5 , (mandatory) _id_43[1,1]_id_45 , (mandatory) _id_47[1,1]_id_49 , (mandatory) _id_56[1,1]_id_57 ]
+	Diagnosis 7 (|D|=7, t=0.016237s): [(mandatory) _id_0[1,1]_id_1 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_1[1,1]_id_3 , (mandatory) _id_5[1,1]_id_6 , (mandatory) _id_0[1,1]_id_43 , (mandatory) _id_47[1,1]_id_49 , (mandatory) _id_56[1,1]_id_57 ]
+	Diagnosis 8 (|D|=7, t=0.018057s): [(mandatory) _id_0[1,1]_id_1 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_1[1,1]_id_3 , (mandatory) _id_5[1,1]_id_6 , (mandatory) _id_43[1,1]_id_45 , (mandatory) _id_0[1,1]_id_47 , (mandatory) _id_56[1,1]_id_57 ]
+	Diagnosis 9 (|D|=7, t=0.020230s): [(mandatory) _id_0[1,1]_id_1 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_1[1,1]_id_3 , (mandatory) _id_5[1,1]_id_6 , (mandatory) _id_43[1,1]_id_45 , (mandatory) _id_47[1,1]_id_49 , (mandatory) _id_0[1,1]_id_56 ]
+	Diagnosis 10 (|D|=7, t=0.019056s): [(mandatory) _id_0[1,1]_id_1 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_1[1,1]_id_3 , (alternative) _id_6[1,1]_id_8 _id_9 , (mandatory) _id_0[1,1]_id_43 , (mandatory) _id_0[1,1]_id_47 , (mandatory) _id_56[1,1]_id_57 ]
+	#Diagnoses: 10
+	CC: 352
+	KBDiag runtime: 0.173707 s
+	--- Profiler ---
+	mssDirect calls: 404
+	Consistency checks (TC): 352
+	Consistency checks: 1018
+	Node labeling runtime: [0.024242909000349755, 0.0007253969997691456, 0.0007127479993869201, 0.0003506200000629178, 0.01668727400010539, 0.01719760000014503, 0.017673284999546013, 0.016846829000314756, 0.0007823400001143455, 0.0007025350005278597, 0.00034983400018973043, 0.016635095000310685, 0.017140306999863242, 0.018995724999513186, 0.021289538000019093, 0.0008172420002665604, 0.0007939050001368742, 0.00037142899964237586, 0.0003693859998747939, 0.020009065999147424]
+	Cumulative path labeling runtime: [0.0250350440001057, 0.025762321999536653, 0.026126570999622345, 0.09570850299951417, 0.09643164399949455, 0.09680182699958095, 0.17223681500036037, 0.17305725799997163, 0.17345351299991307, 0.17384652999953687]
+
+=== Evaluation Results: kbdiag (m=1, task=all) ===
+Testcase                  | Avg Time (s) |   |D| |  #Diag
+---------------------------------------------------------
+REAL-FM-11/REAL-FM-11_c5_0.testcases |     0.000000 |     1 |      1
+REAL-FM-11/REAL-FM-11_c10_0.testcases |     0.000000 |     3 |      1
+REAL-FM-11/REAL-FM-11_c25_0.testcases |     0.168112 |     7 |     10
+REAL-FM-11/REAL-FM-11_c50_0.testcases |     0.000000 |    11 |      1
+REAL-FM-11/REAL-FM-11_c100_0.testcases |     0.000000 |    15 |      1
+REAL-FM-11/REAL-FM-11_c250_0.testcases |     0.000000 |    16 |      1
+REAL-FM-11/REAL-FM-11_c500_0.testcases |     0.000000 |    15 |      1
