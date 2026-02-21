@@ -14,6 +14,11 @@ Author: Viet-Man Le (Python port)
 #
 #  Copyright (c) 2026
 #
+#  @author: Viet-Man Le (v.m.le@tugraz.at)
+
+#  KBDiag
+#
+#
 #  @author: Viet-Man Le (vietman.le@ist.tugraz.at)
 
 import logging
@@ -185,8 +190,15 @@ class QuickXPlainWithTestCasesLabeler(QuickXPlainWithTestCases, IHSLabelable):
         if not current_testcase:
             return set_tc.copy()
 
+        # Unwrap single-element list from find_conflict_set return value
+        # find_conflict_set wraps integer test cases as [tc] for consistency,
+        # but set_tc contains bare integers
+        search_key = (current_testcase[0]
+                      if isinstance(current_testcase, list) and len(current_testcase) == 1
+                      else current_testcase)
+
         try:
-            index = set_tc.index(current_testcase)
+            index = set_tc.index(search_key)
             # Return from current testcase onwards (including it)
             return set_tc[index:]
         except ValueError:
