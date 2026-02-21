@@ -7,15 +7,15 @@ algorithm = "kbdiag"
 # Task: "1" (one diagnosis) or "all" (all diagnoses)
 task = "1"
 # Number of iterations per test case file
-num_iterations = 1
+num_iterations = 3
 # m parameter for KBDiag algorithm (ignored by others)
 m = 1
 # Run warmup iteration before measurement
 dry_run = true
 # Timeout per scenario in seconds (0 = no timeout)
-timeout = 1200
+timeout = 3600  # 3 iterations
 # Timeout for task="all" scenarios (overrides timeout when effective_task="all" - 0 means no timeout)
-timeout_all = 1800
+timeout_all = 5400  # 3 iterations
 
 [solver]
 solver_name = "glucose3"
