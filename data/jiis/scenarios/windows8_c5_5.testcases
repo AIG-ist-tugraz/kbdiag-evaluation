@@ -1,6 +1,0 @@
-5
-UseTheComputerWithoutADisplay & ~HearTextReadAloud & TextToSpeech & ~Low2
-~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~TextToSpeech & ~S_17
-UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~TurnOnNarrator1 & ~TurnOnMouseKeys
-HearTextReadAloud_1 & ~Option2
-UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~SpeechRecognition & Fast

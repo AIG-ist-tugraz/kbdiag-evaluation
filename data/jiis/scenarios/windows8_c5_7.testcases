@@ -1,6 +1,0 @@
-5
-UseTheComputerWithoutADisplay & ~HearTextReadAloud & TuenOnAudioDescription & ~TurnOnFilterKeys
-~UseTheComputerWithoutADisplay & ~TurnOnNarrator1 & ~HoldDownCTRLToSpeedUpAndSHIFTToSlowDown2
-UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~Control_TheVoiceProperties_Speed_OtherOption & _5_Secons
-UseTheComputerWithoutADisplay & ~TextToSpeech & Long
-~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~TextToSpeech & CursorBlinkRate

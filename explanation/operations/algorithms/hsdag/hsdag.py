@@ -175,26 +175,25 @@ class HSDAG:
             new_param = self.labeler.identify_new_node_parameters(param_parent_node, arc_label)
 
             # rule 1.a - reuse node
-            # node = self.get_reusable_node(node_to_expand.path_label, arc_label)
-            # if node is not None:
-            #     node.add_parent(node_to_expand)
-            # else:  # rule 1.b - generate a new node
-            # TODO: check???
-            node = Node(parent=node_to_expand, arc_label=arc_label, parameters=new_param)
-            hashcode = get_hashcode(node.path_label)
-            self.nodes_lookup[hashcode] = node
+            node = self.get_reusable_node(node_to_expand.path_label, arc_label)
+            if node is not None:
+                node.add_parent(node_to_expand)
+            else:  # rule 1.b - generate a new node
+                node = Node(parent=node_to_expand, arc_label=arc_label, parameters=new_param)
+                hashcode = get_hashcode(node.path_label)
+                self.nodes_lookup[hashcode] = node
 
-            if not self.can_prune(node):
-                self.open_nodes.append(node)
-                # new_nodes.append(node)
-                # if self.depth_first_search:
-                #     first_node_index = self.open_nodes.index(first_node) if first_node else 0
-                #     if first_node_index == 0:
-                #         self.open_nodes.append(node)
-                #     else:
-                #         self.open_nodes.insert(first_node_index, node)
-                # else:
-                #     self.open_nodes.append(node)
+                if not self.can_prune(node):
+                    self.open_nodes.append(node)
+                    # new_nodes.append(node)
+                    # if self.depth_first_search:
+                    #     first_node_index = self.open_nodes.index(first_node) if first_node else 0
+                    #     if first_node_index == 0:
+                    #         self.open_nodes.append(node)
+                    #     else:
+                    #         self.open_nodes.insert(first_node_index, node)
+                    # else:
+                    #     self.open_nodes.append(node)
 
         # if self.depth_first_search:
         #     self.open_nodes = new_nodes + self.open_nodes
@@ -229,6 +228,7 @@ class HSDAG:
     def found_a_path_label_at_node(self, node: Node) -> None:
         node.status = NodeStatus.CHECKED
         path_label = node.path_label.copy()
+
         self.path_labels.append(path_label)
 
         if self.profiler.is_profiling:
