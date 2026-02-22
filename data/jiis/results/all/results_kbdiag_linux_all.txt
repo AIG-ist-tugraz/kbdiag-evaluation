@@ -1,0 +1,396 @@
+linux linux_c25_1.testcases
+	Diagnosis 1 (|D|=2, t=2.464255s): [(mandatory) root[1,1]HZ_300_alt , (alternative) HZ_300_alt[1,1]HZ_100 HZ_250 HZ_300 HZ_1000 ]
+	#Diagnoses: 1
+	CC: 32
+	KBDiag runtime: 2.464255 s
+	--- Profiler ---
+	mssDirect calls: 29
+	Consistency checks (TC): 32
+	Consistency checks: 192
+linux linux_c25_1.testcases
+	Diagnosis 1 (|D|=2, t=2.391001s): [(mandatory) root[1,1]HZ_300_alt , (alternative) HZ_300_alt[1,1]HZ_100 HZ_250 HZ_300 HZ_1000 ]
+	#Diagnoses: 1
+	CC: 32
+	KBDiag runtime: 2.391001 s
+	--- Profiler ---
+	mssDirect calls: 29
+	Consistency checks (TC): 32
+	Consistency checks: 192
+linux linux_c25_1.testcases
+	Diagnosis 1 (|D|=2, t=2.361494s): [(mandatory) root[1,1]HZ_300_alt , (alternative) HZ_300_alt[1,1]HZ_100 HZ_250 HZ_300 HZ_1000 ]
+	#Diagnoses: 1
+	CC: 32
+	KBDiag runtime: 2.361494 s
+	--- Profiler ---
+	mssDirect calls: 29
+	Consistency checks (TC): 32
+	Consistency checks: 192
+linux linux_c50_1.testcases
+	Diagnosis 1 (|D|=3, t=4.352137s): [(mandatory) root[1,1]HZ_300_alt , (alternative) HZ_300_alt[1,1]HZ_100 HZ_250 HZ_300 HZ_1000 , (Constraint 6925) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[VME_BUS][]]]
+	#Diagnoses: 1
+	CC: 99
+	KBDiag runtime: 8.157101 s
+	--- Profiler ---
+	mssDirect calls: 102
+	Consistency checks (TC): 99
+	Consistency checks: 724
+linux linux_c50_1.testcases
+	Diagnosis 1 (|D|=3, t=4.211886s): [(mandatory) root[1,1]HZ_300_alt , (alternative) HZ_300_alt[1,1]HZ_100 HZ_250 HZ_300 HZ_1000 , (Constraint 6925) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[VME_BUS][]]]
+	#Diagnoses: 1
+	CC: 99
+	KBDiag runtime: 7.953440 s
+	--- Profiler ---
+	mssDirect calls: 102
+	Consistency checks (TC): 99
+	Consistency checks: 724
+linux linux_c50_1.testcases
+	Diagnosis 1 (|D|=3, t=4.233001s): [(mandatory) root[1,1]HZ_300_alt , (alternative) HZ_300_alt[1,1]HZ_100 HZ_250 HZ_300 HZ_1000 , (Constraint 6925) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[VME_BUS][]]]
+	#Diagnoses: 1
+	CC: 99
+	KBDiag runtime: 8.022344 s
+	--- Profiler ---
+	mssDirect calls: 102
+	Consistency checks (TC): 99
+	Consistency checks: 724
+
+=== Evaluation Results: kbdiag (m=1, task=all) ===
+Testcase                  | Avg Time (s) |   |D| |  #Diag
+---------------------------------------------------------
+linux/linux_c25_1.testcases |     2.405583 |     2 |      1
+linux/linux_c50_1.testcases |     8.044295 |     3 |      1
+linux linux_c25_2.testcases
+	Diagnosis 1 (|D|=2, t=2.524667s): [(mandatory) root[1,1]HZ_300_alt , (alternative) HZ_300_alt[1,1]HZ_100 HZ_250 HZ_300 HZ_1000 ]
+	#Diagnoses: 1
+	CC: 32
+	KBDiag runtime: 2.524667 s
+	--- Profiler ---
+	mssDirect calls: 29
+	Consistency checks (TC): 32
+	Consistency checks: 192
+linux linux_c25_2.testcases
+	Diagnosis 1 (|D|=2, t=2.457670s): [(mandatory) root[1,1]HZ_300_alt , (alternative) HZ_300_alt[1,1]HZ_100 HZ_250 HZ_300 HZ_1000 ]
+	#Diagnoses: 1
+	CC: 32
+	KBDiag runtime: 2.457670 s
+	--- Profiler ---
+	mssDirect calls: 29
+	Consistency checks (TC): 32
+	Consistency checks: 192
+linux linux_c25_2.testcases
+	Diagnosis 1 (|D|=2, t=2.446561s): [(mandatory) root[1,1]HZ_300_alt , (alternative) HZ_300_alt[1,1]HZ_100 HZ_250 HZ_300 HZ_1000 ]
+	#Diagnoses: 1
+	CC: 32
+	KBDiag runtime: 2.446561 s
+	--- Profiler ---
+	mssDirect calls: 29
+	Consistency checks (TC): 32
+	Consistency checks: 192
+linux linux_c50_2.testcases
+	Diagnosis 1 (|D|=2, t=4.041452s): [(mandatory) root[1,1]HZ_300_alt , (alternative) HZ_300_alt[1,1]HZ_100 HZ_250 HZ_300 HZ_1000 ]
+	#Diagnoses: 1
+	CC: 32
+	KBDiag runtime: 4.041452 s
+	--- Profiler ---
+	mssDirect calls: 29
+	Consistency checks (TC): 32
+	Consistency checks: 382
+linux linux_c50_2.testcases
+	Diagnosis 1 (|D|=2, t=4.006829s): [(mandatory) root[1,1]HZ_300_alt , (alternative) HZ_300_alt[1,1]HZ_100 HZ_250 HZ_300 HZ_1000 ]
+	#Diagnoses: 1
+	CC: 32
+	KBDiag runtime: 4.006829 s
+	--- Profiler ---
+	mssDirect calls: 29
+	Consistency checks (TC): 32
+	Consistency checks: 382
+linux linux_c50_2.testcases
+	Diagnosis 1 (|D|=2, t=4.023458s): [(mandatory) root[1,1]HZ_300_alt , (alternative) HZ_300_alt[1,1]HZ_100 HZ_250 HZ_300 HZ_1000 ]
+	#Diagnoses: 1
+	CC: 32
+	KBDiag runtime: 4.023458 s
+	--- Profiler ---
+	mssDirect calls: 29
+	Consistency checks (TC): 32
+	Consistency checks: 382
+
+=== Evaluation Results: kbdiag (m=1, task=all) ===
+Testcase                  | Avg Time (s) |   |D| |  #Diag
+---------------------------------------------------------
+linux/linux_c25_2.testcases |     2.476299 |     2 |      1
+linux/linux_c50_2.testcases |     4.023913 |     2 |      1
+linux linux_c25_3.testcases
+	Diagnosis 1 (|D|=2, t=2.342387s): [(mandatory) root[1,1]HZ_300_alt , (alternative) HZ_300_alt[1,1]HZ_100 HZ_250 HZ_300 HZ_1000 ]
+	#Diagnoses: 1
+	CC: 32
+	KBDiag runtime: 2.342387 s
+	--- Profiler ---
+	mssDirect calls: 29
+	Consistency checks (TC): 32
+	Consistency checks: 192
+linux linux_c25_3.testcases
+	Diagnosis 1 (|D|=2, t=2.362354s): [(mandatory) root[1,1]HZ_300_alt , (alternative) HZ_300_alt[1,1]HZ_100 HZ_250 HZ_300 HZ_1000 ]
+	#Diagnoses: 1
+	CC: 32
+	KBDiag runtime: 2.362354 s
+	--- Profiler ---
+	mssDirect calls: 29
+	Consistency checks (TC): 32
+	Consistency checks: 192
+linux linux_c25_3.testcases
+	Diagnosis 1 (|D|=2, t=2.411843s): [(mandatory) root[1,1]HZ_300_alt , (alternative) HZ_300_alt[1,1]HZ_100 HZ_250 HZ_300 HZ_1000 ]
+	#Diagnoses: 1
+	CC: 32
+	KBDiag runtime: 2.411843 s
+	--- Profiler ---
+	mssDirect calls: 29
+	Consistency checks (TC): 32
+	Consistency checks: 192
+linux linux_c50_3.testcases
+	Diagnosis 1 (|D|=2, t=4.005653s): [(mandatory) root[1,1]HZ_300_alt , (alternative) HZ_300_alt[1,1]HZ_100 HZ_250 HZ_300 HZ_1000 ]
+	#Diagnoses: 1
+	CC: 32
+	KBDiag runtime: 4.005653 s
+	--- Profiler ---
+	mssDirect calls: 29
+	Consistency checks (TC): 32
+	Consistency checks: 382
+linux linux_c50_3.testcases
+	Diagnosis 1 (|D|=2, t=4.943169s): [(mandatory) root[1,1]HZ_300_alt , (alternative) HZ_300_alt[1,1]HZ_100 HZ_250 HZ_300 HZ_1000 ]
+	#Diagnoses: 1
+	CC: 32
+	KBDiag runtime: 4.943169 s
+	--- Profiler ---
+	mssDirect calls: 29
+	Consistency checks (TC): 32
+	Consistency checks: 382
+linux linux_c50_3.testcases
+	Diagnosis 1 (|D|=2, t=4.244457s): [(mandatory) root[1,1]HZ_300_alt , (alternative) HZ_300_alt[1,1]HZ_100 HZ_250 HZ_300 HZ_1000 ]
+	#Diagnoses: 1
+	CC: 32
+	KBDiag runtime: 4.244457 s
+	--- Profiler ---
+	mssDirect calls: 29
+	Consistency checks (TC): 32
+	Consistency checks: 382
+
+=== Evaluation Results: kbdiag (m=1, task=all) ===
+Testcase                  | Avg Time (s) |   |D| |  #Diag
+---------------------------------------------------------
+linux/linux_c25_3.testcases |     2.372195 |     2 |      1
+linux/linux_c50_3.testcases |     4.397760 |     2 |      1
+linux linux_c25_4.testcases
+	Diagnosis 1 (|D|=2, t=2.396169s): [(mandatory) root[1,1]HZ_300_alt , (alternative) HZ_300_alt[1,1]HZ_100 HZ_250 HZ_300 HZ_1000 ]
+	#Diagnoses: 1
+	CC: 32
+	KBDiag runtime: 2.396169 s
+	--- Profiler ---
+	mssDirect calls: 29
+	Consistency checks (TC): 32
+	Consistency checks: 192
+linux linux_c25_4.testcases
+	Diagnosis 1 (|D|=2, t=2.384691s): [(mandatory) root[1,1]HZ_300_alt , (alternative) HZ_300_alt[1,1]HZ_100 HZ_250 HZ_300 HZ_1000 ]
+	#Diagnoses: 1
+	CC: 32
+	KBDiag runtime: 2.384691 s
+	--- Profiler ---
+	mssDirect calls: 29
+	Consistency checks (TC): 32
+	Consistency checks: 192
+linux linux_c25_4.testcases
+	Diagnosis 1 (|D|=2, t=2.453616s): [(mandatory) root[1,1]HZ_300_alt , (alternative) HZ_300_alt[1,1]HZ_100 HZ_250 HZ_300 HZ_1000 ]
+	#Diagnoses: 1
+	CC: 32
+	KBDiag runtime: 2.453616 s
+	--- Profiler ---
+	mssDirect calls: 29
+	Consistency checks (TC): 32
+	Consistency checks: 192
+linux linux_c50_4.testcases
+	Diagnosis 1 (|D|=4, t=4.344241s): [(mandatory) root[1,1]HZ_300_alt , (alternative) HZ_300_alt[1,1]HZ_100 HZ_250 HZ_300 HZ_1000 , (Constraint 4616) OR[NOT[VIDEO_HELPER_CHIPS_AUTO][]][NOT[VIDEO_ADV7180][]], (Constraint 6947) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[SCA3000][]]]
+	#Diagnoses: 1
+	CC: 2284
+	KBDiag runtime: 125.874378 s
+	--- Profiler ---
+	mssDirect calls: 2408
+	Consistency checks (TC): 2284
+	Consistency checks: 10668
+linux linux_c50_4.testcases
+	Diagnosis 1 (|D|=4, t=4.334933s): [(mandatory) root[1,1]HZ_300_alt , (alternative) HZ_300_alt[1,1]HZ_100 HZ_250 HZ_300 HZ_1000 , (Constraint 4616) OR[NOT[VIDEO_HELPER_CHIPS_AUTO][]][NOT[VIDEO_ADV7180][]], (Constraint 6947) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[SCA3000][]]]
+	#Diagnoses: 1
+	CC: 2284
+	KBDiag runtime: 164.862881 s
+	--- Profiler ---
+	mssDirect calls: 2408
+	Consistency checks (TC): 2284
+	Consistency checks: 10668
+linux linux_c50_4.testcases
+	Diagnosis 1 (|D|=4, t=5.736208s): [(mandatory) root[1,1]HZ_300_alt , (alternative) HZ_300_alt[1,1]HZ_100 HZ_250 HZ_300 HZ_1000 , (Constraint 4616) OR[NOT[VIDEO_HELPER_CHIPS_AUTO][]][NOT[VIDEO_ADV7180][]], (Constraint 6947) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[SCA3000][]]]
+	#Diagnoses: 1
+	CC: 2284
+	KBDiag runtime: 155.294793 s
+	--- Profiler ---
+	mssDirect calls: 2408
+	Consistency checks (TC): 2284
+	Consistency checks: 10668
+
+=== Evaluation Results: kbdiag (m=1, task=all) ===
+Testcase                  | Avg Time (s) |   |D| |  #Diag
+---------------------------------------------------------
+linux/linux_c25_4.testcases |     2.411492 |     2 |      1
+linux/linux_c50_4.testcases |   148.677351 |     4 |      1
+linux linux_c25_5.testcases
+	Diagnosis 1 (|D|=3, t=2.456283s): [(mandatory) root[1,1]HZ_300_alt , (alternative) HZ_300_alt[1,1]HZ_100 HZ_250 HZ_300 HZ_1000 , (Constraint 6856) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[MSM_CAMERA_FLASH][]]]
+	#Diagnoses: 1
+	CC: 205
+	KBDiag runtime: 9.456011 s
+	--- Profiler ---
+	mssDirect calls: 220
+	Consistency checks (TC): 205
+	Consistency checks: 651
+linux linux_c25_5.testcases
+	Diagnosis 1 (|D|=3, t=2.455017s): [(mandatory) root[1,1]HZ_300_alt , (alternative) HZ_300_alt[1,1]HZ_100 HZ_250 HZ_300 HZ_1000 , (Constraint 6856) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[MSM_CAMERA_FLASH][]]]
+	#Diagnoses: 1
+	CC: 205
+	KBDiag runtime: 9.369341 s
+	--- Profiler ---
+	mssDirect calls: 220
+	Consistency checks (TC): 205
+	Consistency checks: 651
+linux linux_c25_5.testcases
+	Diagnosis 1 (|D|=3, t=2.406018s): [(mandatory) root[1,1]HZ_300_alt , (alternative) HZ_300_alt[1,1]HZ_100 HZ_250 HZ_300 HZ_1000 , (Constraint 6856) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[MSM_CAMERA_FLASH][]]]
+	#Diagnoses: 1
+	CC: 205
+	KBDiag runtime: 9.620431 s
+	--- Profiler ---
+	mssDirect calls: 220
+	Consistency checks (TC): 205
+	Consistency checks: 651
+linux linux_c50_5.testcases
+	Diagnosis 1 (|D|=3, t=4.233424s): [(mandatory) root[1,1]HZ_300_alt , (alternative) HZ_300_alt[1,1]HZ_100 HZ_250 HZ_300 HZ_1000 , (Constraint 6856) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[MSM_CAMERA_FLASH][]]]
+	#Diagnoses: 1
+	CC: 205
+	KBDiag runtime: 16.012320 s
+	--- Profiler ---
+	mssDirect calls: 220
+	Consistency checks (TC): 205
+	Consistency checks: 1291
+linux linux_c50_5.testcases
+	Diagnosis 1 (|D|=3, t=4.184201s): [(mandatory) root[1,1]HZ_300_alt , (alternative) HZ_300_alt[1,1]HZ_100 HZ_250 HZ_300 HZ_1000 , (Constraint 6856) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[MSM_CAMERA_FLASH][]]]
+	#Diagnoses: 1
+	CC: 205
+	KBDiag runtime: 17.541731 s
+	--- Profiler ---
+	mssDirect calls: 220
+	Consistency checks (TC): 205
+	Consistency checks: 1291
+linux linux_c50_5.testcases
+	Diagnosis 1 (|D|=3, t=4.138516s): [(mandatory) root[1,1]HZ_300_alt , (alternative) HZ_300_alt[1,1]HZ_100 HZ_250 HZ_300 HZ_1000 , (Constraint 6856) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[MSM_CAMERA_FLASH][]]]
+	#Diagnoses: 1
+	CC: 205
+	KBDiag runtime: 15.462859 s
+	--- Profiler ---
+	mssDirect calls: 220
+	Consistency checks (TC): 205
+	Consistency checks: 1291
+
+=== Evaluation Results: kbdiag (m=1, task=all) ===
+Testcase                  | Avg Time (s) |   |D| |  #Diag
+---------------------------------------------------------
+linux/linux_c25_5.testcases |     9.481928 |     3 |      1
+linux/linux_c50_5.testcases |    16.338970 |     3 |      1
+linux linux_c25_6.testcases
+	Diagnosis 1 (|D|=2, t=2.382258s): [(mandatory) root[1,1]HZ_300_alt , (alternative) HZ_300_alt[1,1]HZ_100 HZ_250 HZ_300 HZ_1000 ]
+	#Diagnoses: 1
+	CC: 32
+	KBDiag runtime: 2.382258 s
+	--- Profiler ---
+	mssDirect calls: 29
+	Consistency checks (TC): 32
+	Consistency checks: 192
+linux linux_c50_6.testcases
+	Diagnosis 1 (|D|=4, t=4.361247s): [(mandatory) root[1,1]HZ_300_alt , (alternative) HZ_300_alt[1,1]HZ_100 HZ_250 HZ_300 HZ_1000 , (Constraint 6850) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[DREAM][]], (Constraint 6851) OR[BROKEN][NOT[DREAM][]]]
+	#Diagnoses: 1
+	CC: 302
+	KBDiag runtime: 20.412770 s
+	--- Profiler ---
+	mssDirect calls: 349
+	Consistency checks (TC): 302
+	Consistency checks: 1786
+
+=== Evaluation Results: kbdiag (m=1, task=all) ===
+Testcase                  | Avg Time (s) |   |D| |  #Diag
+---------------------------------------------------------
+linux/linux_c25_6.testcases |     2.382258 |     2 |      1
+linux/linux_c50_6.testcases |    20.412770 |     4 |      1
+linux linux_c25_7.testcases
+	Diagnosis 1 (|D|=3, t=2.642532s): [(mandatory) root[1,1]HZ_300_alt , (alternative) HZ_300_alt[1,1]HZ_100 HZ_250 HZ_300 HZ_1000 , (Constraint 6088) NOT[SND_SOC_AU1XPSC_I2S][]]
+	#Diagnoses: 1
+	CC: 51
+	KBDiag runtime: 2.642532 s
+	--- Profiler ---
+	mssDirect calls: 55
+	Consistency checks (TC): 51
+	Consistency checks: 212
+linux linux_c50_7.testcases
+	Diagnosis 1 (|D|=3, t=4.253780s): [(mandatory) root[1,1]HZ_300_alt , (alternative) HZ_300_alt[1,1]HZ_100 HZ_250 HZ_300 HZ_1000 , (Constraint 6088) NOT[SND_SOC_AU1XPSC_I2S][]]
+	#Diagnoses: 1
+	CC: 51
+	KBDiag runtime: 4.253780 s
+	--- Profiler ---
+	mssDirect calls: 55
+	Consistency checks (TC): 51
+	Consistency checks: 402
+
+=== Evaluation Results: kbdiag (m=1, task=all) ===
+Testcase                  | Avg Time (s) |   |D| |  #Diag
+---------------------------------------------------------
+linux/linux_c25_7.testcases |     2.642532 |     3 |      1
+linux/linux_c50_7.testcases |     4.253780 |     3 |      1
+linux linux_c25_8.testcases
+	Diagnosis 1 (|D|=3, t=2.660584s): [(mandatory) root[1,1]HZ_300_alt , (alternative) HZ_300_alt[1,1]HZ_100 HZ_250 HZ_300 HZ_1000 , (Constraint 4626) OR[NOT[VIDEO_HELPER_CHIPS_AUTO][]][NOT[VIDEO_TVP514X][]]]
+	#Diagnoses: 1
+	CC: 98
+	KBDiag runtime: 5.006496 s
+	--- Profiler ---
+	mssDirect calls: 100
+	Consistency checks (TC): 98
+	Consistency checks: 379
+linux linux_c50_8.testcases
+	Diagnosis 1 (|D|=3, t=4.268110s): [(mandatory) root[1,1]HZ_300_alt , (alternative) HZ_300_alt[1,1]HZ_100 HZ_250 HZ_300 HZ_1000 , (Constraint 4626) OR[NOT[VIDEO_HELPER_CHIPS_AUTO][]][NOT[VIDEO_TVP514X][]]]
+	#Diagnoses: 1
+	CC: 98
+	KBDiag runtime: 7.955352 s
+	--- Profiler ---
+	mssDirect calls: 100
+	Consistency checks (TC): 98
+	Consistency checks: 719
+
+=== Evaluation Results: kbdiag (m=1, task=all) ===
+Testcase                  | Avg Time (s) |   |D| |  #Diag
+---------------------------------------------------------
+linux/linux_c25_8.testcases |     5.006496 |     3 |      1
+linux/linux_c50_8.testcases |     7.955352 |     3 |      1
+linux linux_c25_9.testcases
+	Diagnosis 1 (|D|=2, t=2.432488s): [(mandatory) root[1,1]HZ_300_alt , (alternative) HZ_300_alt[1,1]HZ_100 HZ_250 HZ_300 HZ_1000 ]
+	#Diagnoses: 1
+	CC: 32
+	KBDiag runtime: 2.432488 s
+	--- Profiler ---
+	mssDirect calls: 29
+	Consistency checks (TC): 32
+	Consistency checks: 192
+linux linux_c50_9.testcases
+	Diagnosis 1 (|D|=2, t=4.312284s): [(mandatory) root[1,1]HZ_300_alt , (alternative) HZ_300_alt[1,1]HZ_100 HZ_250 HZ_300 HZ_1000 ]
+	#Diagnoses: 1
+	CC: 32
+	KBDiag runtime: 4.312284 s
+	--- Profiler ---
+	mssDirect calls: 29
+	Consistency checks (TC): 32
+	Consistency checks: 382
+
+=== Evaluation Results: kbdiag (m=1, task=all) ===
+Testcase                  | Avg Time (s) |   |D| |  #Diag
+---------------------------------------------------------
+linux/linux_c25_9.testcases |     2.432488 |     2 |      1
+linux/linux_c50_9.testcases |     4.312284 |     2 |      1

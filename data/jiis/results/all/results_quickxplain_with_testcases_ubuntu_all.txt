@@ -1,0 +1,56 @@
+ubuntu ubuntu_c50_17.testcases
+	Diagnosis 1 (|D|=5, t=0.119530s): [(alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (mandatory) Appearance[1,1]Look , (alternative) Theme[1,1]HighContrastInverse AmbianceDefault Radiance HighContrast , (mandatory) Look[1,1]Background , (alternative) RevealLocation[1,1]Left TopLeftCorner ]
+	Diagnosis 2 (|D|=5, t=0.132900s): [(alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (mandatory) Appearance[1,1]Look , (alternative) Theme[1,1]HighContrastInverse AmbianceDefault Radiance HighContrast , (mandatory) Look[1,1]Background , (mandatory) Behavoir[1,1]RevealLocation ]
+	Diagnosis 3 (|D|=5, t=0.146164s): [(alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (mandatory) Appearance[1,1]Look , (alternative) Theme[1,1]HighContrastInverse AmbianceDefault Radiance HighContrast , (mandatory) Look[1,1]Background , (mandatory) Appearance[1,1]Behavoir ]
+	Diagnosis 4 (|D|=5, t=0.160106s): [(alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (mandatory) Appearance[1,1]Look , (mandatory) Look[1,1]Theme , (mandatory) Look[1,1]Background , (alternative) RevealLocation[1,1]Left TopLeftCorner ]
+	Diagnosis 5 (|D|=5, t=0.173703s): [(alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (mandatory) Appearance[1,1]Look , (mandatory) Look[1,1]Theme , (mandatory) Look[1,1]Background , (mandatory) Behavoir[1,1]RevealLocation ]
+	Diagnosis 6 (|D|=5, t=0.186615s): [(alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (mandatory) Appearance[1,1]Look , (mandatory) Look[1,1]Theme , (mandatory) Look[1,1]Background , (mandatory) Appearance[1,1]Behavoir ]
+	#Diagnoses: 6
+	CC: 121
+	QuickXPlain+TC runtime: 0.186619 s
+	--- Profiler ---
+	Consistency checks (TC): 121
+	Consistency checks: 298
+	QuickXPlain+TC calls: 13
+	QX+TC calls: 123
+ubuntu ubuntu_c50_17.testcases
+	Diagnosis 1 (|D|=5, t=0.123140s): [(alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (mandatory) Appearance[1,1]Look , (alternative) Theme[1,1]HighContrastInverse AmbianceDefault Radiance HighContrast , (mandatory) Look[1,1]Background , (alternative) RevealLocation[1,1]Left TopLeftCorner ]
+	Diagnosis 2 (|D|=5, t=0.135862s): [(alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (mandatory) Appearance[1,1]Look , (alternative) Theme[1,1]HighContrastInverse AmbianceDefault Radiance HighContrast , (mandatory) Look[1,1]Background , (mandatory) Behavoir[1,1]RevealLocation ]
+	Diagnosis 3 (|D|=5, t=0.149429s): [(alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (mandatory) Appearance[1,1]Look , (alternative) Theme[1,1]HighContrastInverse AmbianceDefault Radiance HighContrast , (mandatory) Look[1,1]Background , (mandatory) Appearance[1,1]Behavoir ]
+	Diagnosis 4 (|D|=5, t=0.162520s): [(alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (mandatory) Appearance[1,1]Look , (mandatory) Look[1,1]Theme , (mandatory) Look[1,1]Background , (alternative) RevealLocation[1,1]Left TopLeftCorner ]
+	Diagnosis 5 (|D|=5, t=0.175619s): [(alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (mandatory) Appearance[1,1]Look , (mandatory) Look[1,1]Theme , (mandatory) Look[1,1]Background , (mandatory) Behavoir[1,1]RevealLocation ]
+	Diagnosis 6 (|D|=5, t=0.189309s): [(alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (mandatory) Appearance[1,1]Look , (mandatory) Look[1,1]Theme , (mandatory) Look[1,1]Background , (mandatory) Appearance[1,1]Behavoir ]
+	#Diagnoses: 6
+	CC: 121
+	QuickXPlain+TC runtime: 0.189315 s
+	--- Profiler ---
+	Consistency checks (TC): 121
+	Consistency checks: 298
+	QuickXPlain+TC calls: 13
+	QX+TC calls: 123
+ubuntu ubuntu_c50_17.testcases
+	Diagnosis 1 (|D|=5, t=0.117053s): [(alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (mandatory) Appearance[1,1]Look , (alternative) Theme[1,1]HighContrastInverse AmbianceDefault Radiance HighContrast , (mandatory) Look[1,1]Background , (alternative) RevealLocation[1,1]Left TopLeftCorner ]
+	Diagnosis 2 (|D|=5, t=0.130380s): [(alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (mandatory) Appearance[1,1]Look , (alternative) Theme[1,1]HighContrastInverse AmbianceDefault Radiance HighContrast , (mandatory) Look[1,1]Background , (mandatory) Behavoir[1,1]RevealLocation ]
+	Diagnosis 3 (|D|=5, t=0.143770s): [(alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (mandatory) Appearance[1,1]Look , (alternative) Theme[1,1]HighContrastInverse AmbianceDefault Radiance HighContrast , (mandatory) Look[1,1]Background , (mandatory) Appearance[1,1]Behavoir ]
+	Diagnosis 4 (|D|=5, t=0.156567s): [(alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (mandatory) Appearance[1,1]Look , (mandatory) Look[1,1]Theme , (mandatory) Look[1,1]Background , (alternative) RevealLocation[1,1]Left TopLeftCorner ]
+	Diagnosis 5 (|D|=5, t=0.170033s): [(alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (mandatory) Appearance[1,1]Look , (mandatory) Look[1,1]Theme , (mandatory) Look[1,1]Background , (mandatory) Behavoir[1,1]RevealLocation ]
+	Diagnosis 6 (|D|=5, t=0.182909s): [(alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (mandatory) Appearance[1,1]Look , (mandatory) Look[1,1]Theme , (mandatory) Look[1,1]Background , (mandatory) Appearance[1,1]Behavoir ]
+	#Diagnoses: 6
+	CC: 121
+	QuickXPlain+TC runtime: 0.182915 s
+	--- Profiler ---
+	Consistency checks (TC): 121
+	Consistency checks: 298
+	QuickXPlain+TC calls: 13
+	QX+TC calls: 123
+
+=== Evaluation Results: quickxplain_with_testcases (m=1, task=all) ===
+Testcase                  | Avg Time (s) |   |D| |  #Diag
+---------------------------------------------------------
+ubuntu/ubuntu_c5_17.testcases |     0.000000 |     2 |      1
+ubuntu/ubuntu_c10_17.testcases |     0.000000 |     4 |      1
+ubuntu/ubuntu_c25_17.testcases |     0.000000 |     4 |      1
+ubuntu/ubuntu_c50_17.testcases |     0.186283 |     5 |      6
+ubuntu/ubuntu_c100_17.testcases |     0.000000 |     5 |      1
+ubuntu/ubuntu_c250_17.testcases |     0.000000 |     6 |      1
+ubuntu/ubuntu_c500_17.testcases |     0.000000 |     6 |      1

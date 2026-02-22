@@ -1,0 +1,68 @@
+REAL-FM-4 REAL-FM-4_c25_0.testcases
+	Diagnosis 1 (|D|=6, t=1.271762s): [(mandatory) Registration[1,1]Registrationinformation , (mandatory) eShop[1,1]Storefront , (or) Paymenttypes[1,9]COD Creditcard Debitcard Eletroniccheque Faxmailorder Purchaseorder Giftcertificate Phoneorder Custompaymenttype , (or) Homepage[1,2]Staticcontent Dynamiccontent , (mandatory) Orderstatusreview[1,1]Filteringcriteria , (optional) Storefront[0,1]Homepage ]
+	Diagnosis 2 (|D|=6, t=1.277171s): [(mandatory) Registration[1,1]Registrationinformation , (mandatory) eShop[1,1]Storefront , (or) Paymenttypes[1,9]COD Creditcard Debitcard Eletroniccheque Faxmailorder Purchaseorder Giftcertificate Phoneorder Custompaymenttype , (or) Homepage[1,2]Staticcontent Dynamiccontent , (or) Customerservice[1,4]Questionandfeedbackforms Productreturns Orderstatusreview Shipmentstatustracking , (optional) Storefront[0,1]Homepage ]
+	Diagnosis 3 (|D|=6, t=1.282665s): [(mandatory) Registration[1,1]Registrationinformation , (mandatory) eShop[1,1]Storefront , (or) Paymenttypes[1,9]COD Creditcard Debitcard Eletroniccheque Faxmailorder Purchaseorder Giftcertificate Phoneorder Custompaymenttype , (or) Homepage[1,2]Staticcontent Dynamiccontent , (optional) Storefront[0,1]Customerservice , (optional) Storefront[0,1]Homepage ]
+	Diagnosis 4 (|D|=6, t=1.288032s): [(mandatory) Registration[1,1]Registrationinformation , (mandatory) eShop[1,1]Storefront , (mandatory) Paymentoptions[1,1]Paymenttypes , (or) Homepage[1,2]Staticcontent Dynamiccontent , (mandatory) Orderstatusreview[1,1]Filteringcriteria , (optional) Storefront[0,1]Homepage ]
+	Diagnosis 5 (|D|=6, t=1.293528s): [(mandatory) Registration[1,1]Registrationinformation , (mandatory) eShop[1,1]Storefront , (mandatory) Paymentoptions[1,1]Paymenttypes , (or) Homepage[1,2]Staticcontent Dynamiccontent , (or) Customerservice[1,4]Questionandfeedbackforms Productreturns Orderstatusreview Shipmentstatustracking , (optional) Storefront[0,1]Homepage ]
+	Diagnosis 6 (|D|=6, t=1.298883s): [(mandatory) Registration[1,1]Registrationinformation , (mandatory) eShop[1,1]Storefront , (mandatory) Paymentoptions[1,1]Paymenttypes , (or) Homepage[1,2]Staticcontent Dynamiccontent , (optional) Storefront[0,1]Customerservice , (optional) Storefront[0,1]Homepage ]
+	Diagnosis 7 (|D|=6, t=1.304377s): [(mandatory) Registration[1,1]Registrationinformation , (mandatory) eShop[1,1]Storefront , (mandatory) Checkout[1,1]Paymentoptions , (or) Homepage[1,2]Staticcontent Dynamiccontent , (mandatory) Orderstatusreview[1,1]Filteringcriteria , (optional) Storefront[0,1]Homepage ]
+	Diagnosis 8 (|D|=6, t=1.309878s): [(mandatory) Registration[1,1]Registrationinformation , (mandatory) eShop[1,1]Storefront , (mandatory) Checkout[1,1]Paymentoptions , (or) Homepage[1,2]Staticcontent Dynamiccontent , (or) Customerservice[1,4]Questionandfeedbackforms Productreturns Orderstatusreview Shipmentstatustracking , (optional) Storefront[0,1]Homepage ]
+	Diagnosis 9 (|D|=6, t=1.315342s): [(mandatory) Registration[1,1]Registrationinformation , (mandatory) eShop[1,1]Storefront , (mandatory) Checkout[1,1]Paymentoptions , (or) Homepage[1,2]Staticcontent Dynamiccontent , (optional) Storefront[0,1]Customerservice , (optional) Storefront[0,1]Homepage ]
+	Diagnosis 10 (|D|=6, t=1.320737s): [(mandatory) Registration[1,1]Registrationinformation , (mandatory) eShop[1,1]Storefront , (mandatory) Buypaths[1,1]Checkout , (or) Homepage[1,2]Staticcontent Dynamiccontent , (mandatory) Orderstatusreview[1,1]Filteringcriteria , (optional) Storefront[0,1]Homepage ]
+	#Diagnoses: 10
+	CC: 3147
+	QuickXPlain+TC runtime: 1.320740 s
+	--- Profiler ---
+	Consistency checks (TC): 3147
+	Consistency checks: 3497
+	QuickXPlain+TC calls: 203
+	QX+TC calls: 3359
+REAL-FM-4 REAL-FM-4_c25_0.testcases
+	Diagnosis 1 (|D|=6, t=1.270478s): [(mandatory) Registration[1,1]Registrationinformation , (mandatory) eShop[1,1]Storefront , (or) Paymenttypes[1,9]COD Creditcard Debitcard Eletroniccheque Faxmailorder Purchaseorder Giftcertificate Phoneorder Custompaymenttype , (or) Homepage[1,2]Staticcontent Dynamiccontent , (mandatory) Orderstatusreview[1,1]Filteringcriteria , (optional) Storefront[0,1]Homepage ]
+	Diagnosis 2 (|D|=6, t=1.276045s): [(mandatory) Registration[1,1]Registrationinformation , (mandatory) eShop[1,1]Storefront , (or) Paymenttypes[1,9]COD Creditcard Debitcard Eletroniccheque Faxmailorder Purchaseorder Giftcertificate Phoneorder Custompaymenttype , (or) Homepage[1,2]Staticcontent Dynamiccontent , (or) Customerservice[1,4]Questionandfeedbackforms Productreturns Orderstatusreview Shipmentstatustracking , (optional) Storefront[0,1]Homepage ]
+	Diagnosis 3 (|D|=6, t=1.281606s): [(mandatory) Registration[1,1]Registrationinformation , (mandatory) eShop[1,1]Storefront , (or) Paymenttypes[1,9]COD Creditcard Debitcard Eletroniccheque Faxmailorder Purchaseorder Giftcertificate Phoneorder Custompaymenttype , (or) Homepage[1,2]Staticcontent Dynamiccontent , (optional) Storefront[0,1]Customerservice , (optional) Storefront[0,1]Homepage ]
+	Diagnosis 4 (|D|=6, t=1.287151s): [(mandatory) Registration[1,1]Registrationinformation , (mandatory) eShop[1,1]Storefront , (mandatory) Paymentoptions[1,1]Paymenttypes , (or) Homepage[1,2]Staticcontent Dynamiccontent , (mandatory) Orderstatusreview[1,1]Filteringcriteria , (optional) Storefront[0,1]Homepage ]
+	Diagnosis 5 (|D|=6, t=1.292647s): [(mandatory) Registration[1,1]Registrationinformation , (mandatory) eShop[1,1]Storefront , (mandatory) Paymentoptions[1,1]Paymenttypes , (or) Homepage[1,2]Staticcontent Dynamiccontent , (or) Customerservice[1,4]Questionandfeedbackforms Productreturns Orderstatusreview Shipmentstatustracking , (optional) Storefront[0,1]Homepage ]
+	Diagnosis 6 (|D|=6, t=1.298261s): [(mandatory) Registration[1,1]Registrationinformation , (mandatory) eShop[1,1]Storefront , (mandatory) Paymentoptions[1,1]Paymenttypes , (or) Homepage[1,2]Staticcontent Dynamiccontent , (optional) Storefront[0,1]Customerservice , (optional) Storefront[0,1]Homepage ]
+	Diagnosis 7 (|D|=6, t=1.303752s): [(mandatory) Registration[1,1]Registrationinformation , (mandatory) eShop[1,1]Storefront , (mandatory) Checkout[1,1]Paymentoptions , (or) Homepage[1,2]Staticcontent Dynamiccontent , (mandatory) Orderstatusreview[1,1]Filteringcriteria , (optional) Storefront[0,1]Homepage ]
+	Diagnosis 8 (|D|=6, t=1.309887s): [(mandatory) Registration[1,1]Registrationinformation , (mandatory) eShop[1,1]Storefront , (mandatory) Checkout[1,1]Paymentoptions , (or) Homepage[1,2]Staticcontent Dynamiccontent , (or) Customerservice[1,4]Questionandfeedbackforms Productreturns Orderstatusreview Shipmentstatustracking , (optional) Storefront[0,1]Homepage ]
+	Diagnosis 9 (|D|=6, t=1.315432s): [(mandatory) Registration[1,1]Registrationinformation , (mandatory) eShop[1,1]Storefront , (mandatory) Checkout[1,1]Paymentoptions , (or) Homepage[1,2]Staticcontent Dynamiccontent , (optional) Storefront[0,1]Customerservice , (optional) Storefront[0,1]Homepage ]
+	Diagnosis 10 (|D|=6, t=1.320945s): [(mandatory) Registration[1,1]Registrationinformation , (mandatory) eShop[1,1]Storefront , (mandatory) Buypaths[1,1]Checkout , (or) Homepage[1,2]Staticcontent Dynamiccontent , (mandatory) Orderstatusreview[1,1]Filteringcriteria , (optional) Storefront[0,1]Homepage ]
+	#Diagnoses: 10
+	CC: 3147
+	QuickXPlain+TC runtime: 1.320948 s
+	--- Profiler ---
+	Consistency checks (TC): 3147
+	Consistency checks: 3497
+	QuickXPlain+TC calls: 203
+	QX+TC calls: 3359
+REAL-FM-4 REAL-FM-4_c25_0.testcases
+	Diagnosis 1 (|D|=6, t=1.262290s): [(mandatory) Registration[1,1]Registrationinformation , (mandatory) eShop[1,1]Storefront , (or) Paymenttypes[1,9]COD Creditcard Debitcard Eletroniccheque Faxmailorder Purchaseorder Giftcertificate Phoneorder Custompaymenttype , (or) Homepage[1,2]Staticcontent Dynamiccontent , (mandatory) Orderstatusreview[1,1]Filteringcriteria , (optional) Storefront[0,1]Homepage ]
+	Diagnosis 2 (|D|=6, t=1.267993s): [(mandatory) Registration[1,1]Registrationinformation , (mandatory) eShop[1,1]Storefront , (or) Paymenttypes[1,9]COD Creditcard Debitcard Eletroniccheque Faxmailorder Purchaseorder Giftcertificate Phoneorder Custompaymenttype , (or) Homepage[1,2]Staticcontent Dynamiccontent , (or) Customerservice[1,4]Questionandfeedbackforms Productreturns Orderstatusreview Shipmentstatustracking , (optional) Storefront[0,1]Homepage ]
+	Diagnosis 3 (|D|=6, t=1.273700s): [(mandatory) Registration[1,1]Registrationinformation , (mandatory) eShop[1,1]Storefront , (or) Paymenttypes[1,9]COD Creditcard Debitcard Eletroniccheque Faxmailorder Purchaseorder Giftcertificate Phoneorder Custompaymenttype , (or) Homepage[1,2]Staticcontent Dynamiccontent , (optional) Storefront[0,1]Customerservice , (optional) Storefront[0,1]Homepage ]
+	Diagnosis 4 (|D|=6, t=1.279308s): [(mandatory) Registration[1,1]Registrationinformation , (mandatory) eShop[1,1]Storefront , (mandatory) Paymentoptions[1,1]Paymenttypes , (or) Homepage[1,2]Staticcontent Dynamiccontent , (mandatory) Orderstatusreview[1,1]Filteringcriteria , (optional) Storefront[0,1]Homepage ]
+	Diagnosis 5 (|D|=6, t=1.284910s): [(mandatory) Registration[1,1]Registrationinformation , (mandatory) eShop[1,1]Storefront , (mandatory) Paymentoptions[1,1]Paymenttypes , (or) Homepage[1,2]Staticcontent Dynamiccontent , (or) Customerservice[1,4]Questionandfeedbackforms Productreturns Orderstatusreview Shipmentstatustracking , (optional) Storefront[0,1]Homepage ]
+	Diagnosis 6 (|D|=6, t=1.290587s): [(mandatory) Registration[1,1]Registrationinformation , (mandatory) eShop[1,1]Storefront , (mandatory) Paymentoptions[1,1]Paymenttypes , (or) Homepage[1,2]Staticcontent Dynamiccontent , (optional) Storefront[0,1]Customerservice , (optional) Storefront[0,1]Homepage ]
+	Diagnosis 7 (|D|=6, t=1.296284s): [(mandatory) Registration[1,1]Registrationinformation , (mandatory) eShop[1,1]Storefront , (mandatory) Checkout[1,1]Paymentoptions , (or) Homepage[1,2]Staticcontent Dynamiccontent , (mandatory) Orderstatusreview[1,1]Filteringcriteria , (optional) Storefront[0,1]Homepage ]
+	Diagnosis 8 (|D|=6, t=1.301924s): [(mandatory) Registration[1,1]Registrationinformation , (mandatory) eShop[1,1]Storefront , (mandatory) Checkout[1,1]Paymentoptions , (or) Homepage[1,2]Staticcontent Dynamiccontent , (or) Customerservice[1,4]Questionandfeedbackforms Productreturns Orderstatusreview Shipmentstatustracking , (optional) Storefront[0,1]Homepage ]
+	Diagnosis 9 (|D|=6, t=1.307626s): [(mandatory) Registration[1,1]Registrationinformation , (mandatory) eShop[1,1]Storefront , (mandatory) Checkout[1,1]Paymentoptions , (or) Homepage[1,2]Staticcontent Dynamiccontent , (optional) Storefront[0,1]Customerservice , (optional) Storefront[0,1]Homepage ]
+	Diagnosis 10 (|D|=6, t=1.313403s): [(mandatory) Registration[1,1]Registrationinformation , (mandatory) eShop[1,1]Storefront , (mandatory) Buypaths[1,1]Checkout , (or) Homepage[1,2]Staticcontent Dynamiccontent , (mandatory) Orderstatusreview[1,1]Filteringcriteria , (optional) Storefront[0,1]Homepage ]
+	#Diagnoses: 10
+	CC: 3147
+	QuickXPlain+TC runtime: 1.313406 s
+	--- Profiler ---
+	Consistency checks (TC): 3147
+	Consistency checks: 3497
+	QuickXPlain+TC calls: 203
+	QX+TC calls: 3359
+
+=== Evaluation Results: quickxplain_with_testcases (m=1, task=all) ===
+Testcase                  | Avg Time (s) |   |D| |  #Diag
+---------------------------------------------------------
+REAL-FM-4/REAL-FM-4_c5_0.testcases |     0.000000 |     2 |      1
+REAL-FM-4/REAL-FM-4_c10_0.testcases |     0.000000 |     4 |      1
+REAL-FM-4/REAL-FM-4_c25_0.testcases |     1.318365 |     6 |     10
+REAL-FM-4/REAL-FM-4_c50_0.testcases |     0.000000 |     6 |      1
+REAL-FM-4/REAL-FM-4_c100_0.testcases |     0.000000 |     9 |      1
+REAL-FM-4/REAL-FM-4_c250_0.testcases |  1200.000000 |    TO |     TO
+REAL-FM-4/REAL-FM-4_c500_0.testcases |  1200.000000 |    TO |     TO
