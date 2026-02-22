@@ -1,0 +1,6 @@
+5
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~ChooseVisualWarning
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~TurnOnNarrator1 & UseTheComputerWithoutAMouseOrKeyboard_1
+~M_15
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~Control_TheVoiceProperties_Speed_OtherOption & Magnifier2
+~SetupTextToSpeech & MicrosoftDavidDesktopEnglishUS

@@ -7,13 +7,13 @@ violated_percent = 0.20
 cardinalities = [5, 10, 25, 50, 100, 250, 500]
 seed = 82  # random seed for reproducibility (remove for non-deterministic)
 min_priority_conflicts = 2  # TCs with >= this many conflicts get selected first
-selection_strategy = "diversity"  # "random" (legacy) or "diversity" (conflict-fingerprint-based)
+selection_strategy = "diversity-optimized"  # "random" (legacy) or "diversity" (conflict-fingerprint-based) or "diversity-optimized"
 
 [concurrency]
 max_workers = 4
 
 [output]
-output_dir = "data/jiis/scenarios"
+output_dir = "data/jiis/scenarios-diversity-optimized"
 
 # Classified test suites to process (all run in parallel)
 [[ts]]

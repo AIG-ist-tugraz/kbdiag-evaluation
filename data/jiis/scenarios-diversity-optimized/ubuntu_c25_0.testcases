@@ -1,0 +1,26 @@
+25
+~Appearance & ~Look & ~Background & ~DelicatePetals1920x1280 & ~TwillightFrost1920x1280
+~Appearance & ~Background & Speed2
+~Appearance & ~TwillightFrost1920x1280 & RepeatKeys
+~Appearance & ~Look & ~Background & ~TwillightFrost1920x1280 & ~SwitchToNextSource
+Appearance & ~Behavoir
+HighContrastInverse & ~Shift_Super_Space
+Appearance & Look & Background & ~EarlyBlossom1920x1280 & TwoFingerScrolling
+~Appearance & ~Look & ~Background & ~AmbianceDefault & ~Windows
+Appearance & HighContrastInverse & ~AcceptanceDelay3
+~Theme & HighContrastInverse
+Appearance & Never
+Ubuntu1920x1280 & ~RepeatKeys
+Appearance & Ubuntu1920x1280 & StickyKeys
+~Appearance & ~Look & ~EarlyBlossom1920x1280 & ~Fast2
+~Appearance & ~HighContrastInverse & ~BeepWhenAKeyIsRejected
+~Appearance & ~AmbianceDefault & ~Shift_Super_Space
+Appearance & Look & EarlyBlossom1920x1280 & ~HighContrast
+Appearance & Look & Background & Radiance & _30Minutes
+Appearance & Radiance & Disabled4
+Appearance & DelicatePetals1920x1280 & ~Rotation
+~Appearance & ~Ubuntu1920x1280 & Alt_Super_plusEqual
+Appearance & Look & Background & ~PrecisePagolin1920x1280 & ~Ctrl_Alt_L
+~Appearance & _48
+Look & ~Theme
+~Background & DelicatePetals1920x1280

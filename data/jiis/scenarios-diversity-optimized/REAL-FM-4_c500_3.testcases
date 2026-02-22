@@ -1,0 +1,501 @@
+500
+Registration & ~Categories1
+Storefront & Registration & Pricing
+Storefront & Homepage & ~Staticcontent & Contenttype & Permissions
+Storefront & Homepage & ~Staticcontent & Personalized & CyberSource
+Storefront & Contenttype & ~Variationsource
+Storefront & Homepage & Registration & ~Servicesfulfillment
+Storefront & ~Homepage & ~Staticcontent & ~Registrationenforcement & Sound
+Storefront & Homepage & Staticcontent & Contenttype & Mail
+Storefront & Staticcontent & ~CertiTAX
+Storefront & ~Homepage & ~Registration & Quickcheckoutprofile
+Storefront & Homepage & Personalized & Preferences
+~Multipleclassification & Catalog1
+Storefront & Homepage & ~Registrationenforcement & Personalizedviews
+Storefront & Homepage & Staticcontent & Registration & ~Handlingmultiplediscounts
+Dynamiccontent & Expirydate
+Storefront & Homepage & Staticcontent & ~Dynamiccontent & ~Servicesfulfillment
+Storefront & Homepage & Staticcontent & Welcomemessage & ~Advertisementmanagementinterface
+Storefront & ~Homepage & ~Staticcontent & ~Registration & ~Rule_basedtaxation
+Storefront & Homepage & Staticcontent & Dynamiccontent & Pop_upads
+Storefront & Personalized & Creditcardinformation
+Storefront & Homepage & Staticcontent & ~Dynamiccontent & ~Partnertracking
+Storefront & Homepage & ~Staticcontent & Registertobrowse & Flatrate
+Storefront & ~Homepage & ~Staticcontent & ~Registertobuy & ~Guestcheckout
+Storefront & ~Registrationenforcement & Restrictedaccess
+~Homepage & ~Basicinformation
+Storefront & ~Homepage & ~Specialoffers & ~Affiliateregistration
+~Variationsource & Size
+Storefront & ~Homepage & ~Staticcontent & ~Registertobrowse & Quantitypurchased
+Storefront & Homepage & ~Registration & Categories1
+Storefront & Timedependent & ~Previouspurchases
+Storefront & Personalized & ~Customtargetcriteria
+Storefront & Homepage & Eligibilityrequirements
+Storefront & Homepage & ~Staticcontent & ~Registertobuy & Services
+Taxgateways
+Storefront & ~Staticcontent & Enableprofileupdateoncheckout
+Storefront & ~Homepage & ~Registrationenforcement & Personalinformation
+Homepage & Productflagging
+Storefront & Homepage & ~Staticcontent & ~Registertobrowse & Shippingaddress1
+Storefront & ~Homepage & ~Staticcontent & ~Timedependent & PhoneOrdering
+Storefront & Homepage & ~Staticcontent & Dynamiccontent & Registrationinformation
+Storefront & ~Homepage & ~Staticcontent & Registertobuy & Custompaymenttype
+Storefront & Welcomemessage & Substituteproducts
+Storefront & Homepage & ~Contenttype & Storeadministration
+Storefront & Homepage & ~Staticcontent & Registertobuy & ~Giftcertificate
+Storefront & ~Dynamiccontent & ~Eletronicpage
+Storefront & ~Homepage & ~Registrationenforcement & Customerpreferences
+~Staticcontent & ~ProductInformation
+Storefront & Specialoffers & ~Displayandnotification
+Storefront & ~Contenttype & Variationsource
+Storefront & Staticcontent & ~Orderconfirmation
+Storefront & ~Homepage & ~Staticcontent & Registertobrowse & ~Authorize_Net
+Storefront & ~Homepage & Graduationby
+Storefront & Personalized & ~VerisignPayflowPro
+Storefront & ~Staticcontent & Filteringcriteria
+~Staticcontent & ~Registration
+Storefront & Homepage & ~Staticcontent & ~Registration & ~Discounts
+Storefront & ~Homepage & ~Staticcontent & ~Specialoffers & ~Variationsource
+Rule_basedtaxation
+Storefront & Homepage & Staticcontent & ~Welcomemessage & ~Multipleshippingaddresses
+Storefront & Homepage & ~Staticcontent & ~Registertobuy & ~Thumbnail
+Storefront & Homepage & Staticcontent & Contenttype & Shippingaddress
+~Welcomemessage & Gallery
+Storefront & Timedependent & Shippingaddress
+Storefront & Personalized & ~Size
+Storefront & Homepage & ~Staticcontent & ~Welcomemessage & Percentage
+Storefront & Contenttype & ~CyberSource1
+Registration & ~Paradata
+Storefront & Homepage & ~Contenttype & Mail
+Storefront & Homepage & Personalized & ~Ordernumber
+Storefront & Homepage & Staticcontent & Registertobrowse & ~Pop_upads
+Storefront & ~Timedependent & Phoneorder
+~Timedependent & ~CustomDemographicfield
+Storefront & ~Homepage & ~Registration & ~E_mailwishlist
+Variationsource & Externalreferringpages
+Homepage & ~Orderdate
+Storefront & Homepage & Staticcontent & ~Welcomemessage & Shippinggateways
+Storefront & Homepage & ~Staticcontent & Personalized & ~Advertisementsources
+Storefront & ~Homepage & ~Staticcontent & PersonalInformation
+Storefront & Homepage & ~Staticcontent & ~Registrationenforcement & ~LinkPoint
+~Fixed_ratetaxation
+Storefront & Homepage & Staticcontent & ~Welcomemessage & Searchengineregistration
+Storefront & Homepage & ~Staticcontent & Dynamiccontent & Productkitting
+Storefront & ~Homepage & ~Specialoffers & SkipJack
+Storefront & Homepage & Registration & Pricing
+Storefront & Homepage & Staticcontent & ~Personalized & Productflagging
+Storefront & Homepage & Staticcontent & Registrationenforcement & Reportformats
+Storefront & Homepage & Personalized & Manufacturername
+Storefront & Homepage & ~Staticcontent & Specialoffers & Levelofdetail
+Storefront & Homepage & Staticcontent & ~Specialoffers & CertiTAX
+Storefront & Homepage & Staticcontent & ~Registration & Productclassification
+Storefront & Homepage & ~Dynamiccontent & Variationsource
+~Staticcontent & ~Producttype
+Storefront & ~Registrationenforcement & Billingaddress
+Storefront & Homepage & ~Buypaths_4
+Storefront & Homepage & Specialoffers & ~Timescope
+Storefront & Homepage & Staticcontent & Registration & ~Wishlist
+Storefront & Homepage & Staticcontent & ~Contenttype & Welcomemessage
+Storefront & Homepage & ~Variationsource & Personalized
+Storefront & Homepage & Staticcontent & ~Registration & Permissions
+Storefront & Homepage & Dynamiccontent & ~Contenttype
+Storefront & Homepage & Staticcontent & ~Registertobrowse & ~Categorypage
+Storefront & Homepage & ~Bannerads
+Storefront & Contenttype & Cross_selling
+Storefront & ~Homepage & ~Contenttype & Guestcheckout
+~Variationsource & ~Shoppingcartcontent
+~Contenttype & Up_selling
+Storefront & Homepage & ~Staticcontent & Contenttype & Displayandnotification
+Storefront & Homepage & ~Affiliateregistration
+Storefront & ~Timedependent & Purchasevalue
+Storefront & Homepage & Staticcontent & ~Timedependent & Resourceplanning
+Storefront & Homepage & ~Logincredentials
+Storefront & Homepage & ~Staticcontent & Registration & Previouspurchases1
+Storefront & ~Homepage & ~Staticcontent & ~Registration & ~Reportformats
+Storefront & Homepage & ~Staticcontent & Dynamiccontent & Physicalgoodsfulfillment
+Storefront & Homepage & ~Staticcontent & ~Timedependent & Resolution
+Storefront & ~Homepage & ~Dynamiccontent & Contentmanagement
+Timedependent & ~Partnertracking
+Storefront & Homepage & Staticcontent & ~Welcomemessage & Externaldistributorsystem
+Storefront & ~Homepage & ~Welcomemessage & ~CustomDemographicfield
+Staticcontent & Differentperspectives
+Storefront & Homepage & ~Staticcontent & ~Registration & ~Sellstrategies
+Storefront & ~Homepage & ~Staticcontent & ~Dynamiccontent & ~Discounts
+Storefront & Homepage & Welcomemessage & Country
+Storefront & Homepage & ~Staticcontent & Welcomemessage & ~Paidadvertisements
+Storefront & Homepage & Staticcontent & ~Dynamiccontent & Multi_level
+Storefront & Homepage & Staticcontent & ~Registration & ~Creditcardinformation
+Storefront & Contenttype & USPS
+~Welcomemessage & ~Flatrate
+Storefront & Homepage & Personalized & ~Orderstatus
+Storefront & Contenttype & ~Locallyvisitedpages
+Storefront & ~Homepage & ~Staticcontent & ~Welcomemessage & ~Specialoffers
+Storefront & Homepage & ~Variationsource & ~Externalsystemsintegration
+Storefront & Personalized & ~Productpage
+Storefront & ~Staticcontent & Stockreplenishment
+Storefront & Staticcontent & Categories
+Storefront & Homepage & Staticcontent & Personalized & Targeting
+Storefront & Homepage & Staticcontent & Registrationenforcement & ~Advertisements
+Storefront & ~Timedependent & ~Timescope
+Storefront & Homepage & Staticcontent & ~Timedependent & ~Inventorymanagementsystem
+Storefront & ~Staticcontent & Resourceplanning
+Storefront & ~Homepage & ~Registration & Shippingcostcalculation
+Storefront & Homepage & Staticcontent & ~Specialoffers & ~Custompaymenttype
+Storefront & Homepage & ~Contenttype & Detailedinformation
+Storefront & ~Homepage & ~Contenttype & Levelofdetail
+Personalized & ~Ratefactors
+Storefront & Homepage & ~Staticcontent & Specialoffers & Businessmanagement
+~Timedependent & Demographics1
+~Staticcontent & ~Custompaymenttype
+Storefront & Homepage & ~Staticcontent & Personalized & a2Dimage
+Storefront & Homepage & Staticcontent & ~Dynamiccontent & ~FedEX
+Storefront & Homepage & ~Welcomemessage & Up_selling
+Storefront & Homepage & ~Registrationenforcement & ~Multiplewishlists
+Storefront & Homepage & ~Registration & Contentmanagement
+Storefront & Homepage & Staticcontent & Registrationenforcement & Eletroniccheque
+Specialoffers & ~Privateaccess
+Storefront & Homepage & Dynamiccontent & ~Mail
+Storefront & ~Homepage & Registertobrowse & Paradata
+Storefront & ~Homepage & ~Specialoffers & ~Price
+Storefront & Homepage & Staticcontent & ~Variationsource & Personalinformation
+Storefront & Dynamiccontent & ~Customtargetcriteria
+Storefront & ~Homepage & ~Staticcontent & ~Dynamiccontent & ~Shippinggateways
+Storefront & Variationsource & ~Non_repudiationservice
+Storefront & Homepage & Staticcontent & ~Dynamiccontent & ~Eletroniccheque
+Storefront & Homepage & ~Staticcontent & Registertobrowse & ~USPS
+Storefront & Homepage & ~Staticcontent & Registrationenforcement & Cardholdername
+Storefront & ~Homepage & Registration & ~Locallyvisitedpages
+Storefront & Homepage & Staticcontent & ~Welcomemessage & Resolution
+Storefront & Homepage & Staticcontent & Registration & Rule_basedtaxation
+Storefront & Homepage & ~Personalized & ~Filteringcriteria
+Storefront & Homepage & Registertobrowse & ~Physicalgoods
+Storefront & Timedependent & ~CustomDemographicfield
+Storefront & ~Staticcontent & Permissions
+Storefront & Homepage & ~Staticcontent & Timedependent & Percentagediscount
+Storefront & Homepage & Timedependent & ~Targetingcriteria
+Storefront & Homepage & ~Registrationenforcement & Address
+Homepage & ~Allowbackorders
+Storefront & ~Homepage & ~Staticcontent & ~Contenttype & Pricing
+Storefront & Homepage & Staticcontent & ~Registration & Warehousemanagement
+Storefront & Homepage & Staticcontent & Registertobrowse & Paymenttypes
+Storefront & Homepage & ~Staticcontent & Specialoffers & Handlingmultiplediscounts
+Storefront & ~Homepage & ~Staticcontent & Registration & ~Differentperspectives
+Storefront & ~Homepage & ~Staticcontent & Registertobrowse & Freeitem
+Storefront & Homepage & Timedependent & Stockreplenishment
+Storefront & Homepage & ~Staticcontent & Paymentoptions
+Storefront & Homepage & Staticcontent & Registration & Allowbackorders
+Storefront & Homepage & Staticcontent & ~Registration & ~Percentagediscount
+Storefront & ~Homepage & ~Staticcontent & ~Specialoffers & Questionandfeedbackforms
+Storefront & ~Homepage & ~Specialoffers & Ordertotal
+Storefront & Homepage & ~Registertobrowse & ~Giftoptions
+Storefront & Homepage & ~Staticcontent & Registrationenforcement & Billingaddress
+Storefront & Dynamiccontent & Presentationoptions
+Storefront & ~Homepage & ~Staticcontent & ~Dynamiccontent & ~Variationsource
+Storefront & Homepage & Timedependent & ~Customerpreferences
+Storefront & Homepage & ~Timedependent & ~Substituteproducts
+Storefront & Homepage & Staticcontent & Contenttype & Timedependent
+Storefront & ~Variationsource & ~Coupons
+Storefront & Homepage & ~Staticcontent & Contenttype & ~a3Dimage
+Storefront & Homepage & ~Staticcontent & ~Registrationenforcement & ~None
+Storefront & Personalized & ~Customfilter
+Storefront & ~Personalized & Warehousemanagement
+Storefront & ~Personalized & Purchasevaluescope
+~Variationsource & PersonalInformation
+Storefront & Homepage & ~Staticcontent & SkipJack
+Storefront & Welcomemessage & Listsize
+Storefront & ~Homepage & Searchengineregistration
+Storefront & Variationsource & Servicesfulfillment
+~Personalized & ~Inventorytracking
+Storefront & Homepage & Staticcontent & ~Contenttype & ~Allowbackorders
+Storefront & ~Personalized & ~Targeting
+Storefront & Homepage & Staticcontent & ~Specialoffers & Percentage
+Homepage & Catalog
+Storefront & Homepage & ~Staticcontent & Registration & USPS
+Storefront & Personalized & Manual
+Storefront & ~Homepage & ~Staticcontent & ~Dynamiccontent & Freeitem
+~Personalized & Multipleshipments
+Storefront & Registrationenforcement & Sitelayout
+Storefront & Homepage & Staticcontent & Welcomemessage & Affiliates
+Storefront & ~Homepage & ~Staticcontent & ~Customersegments
+Storefront & ~Homepage & ~Staticcontent & ~Registertobuy & CertiTAX
+Storefront & Timedependent & ProductInformation
+Storefront & ~Homepage & Personalized
+~Staticcontent & ~Basicinformation
+Storefront & ~Registration & Listsize
+Storefront & ~Registrationenforcement & Privateaccess
+Storefront & Homepage & Specialoffers & ~Targeting
+Storefront & Homepage & ~Dynamiccontent & Contenttype
+Storefront & ~Homepage & ~Cartcontentpage
+Storefront & Homepage & ~Staticcontent & Registration & ~Wishlist
+Storefront & ~Homepage & ~Staticcontent & ~Contenttype & Welcomemessage
+Storefront & ~Registration & Registertobuy
+Storefront & ~Registration & Cardnumber
+Storefront & ~Registration & Education
+Storefront & ~Staticcontent & ~Orderconfirmation
+Storefront & ~Registration & Logincredentials
+~Storefront & ~Welcomemessage
+Storefront & ~Homepage & ~Paymenttypes
+Storefront & ~Contenttype & ~Catalog
+Storefront & ~Homepage & ~Buypaths_4
+Storefront & ~Homepage & ~Dynamiccontent & Variationsource
+Storefront & ~Homepage & ~Registration & Billingaddress
+Storefront & ~Homepage & ~Registration & Customfields
+Storefront & ~Homepage & ~Registrationenforcement & Userbehaviourtrackinginformation
+Storefront & ~Homepage & ~Registration & Reminders
+Storefront & ~Homepage & ~Registrationenforcement & E_mailwishlist
+Storefront & Homepage & ~Registration & Shippingaddress
+Storefront & Homepage & ~Staticcontent & ~Registration & Permissions
+Storefront & Homepage & Staticcontent & Specialoffers & ~Productandquantityscope
+Storefront & Homepage & Staticcontent & Specialoffers & ~Discounts
+Storefront & Homepage & Staticcontent & ~Registration & Quickcheckoutprofile
+Storefront & ~Homepage & ~Variationsource & Personalized
+Storefront & Homepage & Timedependent & Securityinformation
+Personalized & Permissions
+~Specialoffers & ~Procurement
+Storefront & Homepage & ~Welcomemessage & ~Productreturns
+Staticcontent & Purchaseorder
+Storefront & Homepage & ~Registrationenforcement & Productdatabasemanagement
+Storefront & Homepage & Staticcontent & Registertobrowse & Inventorymanagementsystem
+~Contenttype & Timescope
+Storefront & ~Registration & Cartcontentpage
+Storefront & ~Homepage & ~Personalized & ~Paidadvertisements
+Storefront & Timedependent & ~Quality
+Storefront & Homepage & ~Staticcontent & Personalized & ~Categories
+Storefront & ~Homepage & ~Staticcontent & Registration & ~Demographics
+Storefront & Homepage & ~Personalized & Locallyvisitedpages
+Storefront & Staticcontent & ~Purchaseorder
+Storefront & Dynamiccontent & Warrantyinformation
+Storefront & ~Registrationenforcement & Complexproductconfiguration
+Storefront & Homepage & Staticcontent & Personalized & Personalinformation
+Storefront & Homepage & ~Staticcontent & Contenttype & ProductInformation
+Storefront & Homepage & Staticcontent & Registertobrowse & ~Targeting
+Storefront & Homepage & ~Staticcontent & ~Registrationenforcement & ~Questionandfeedbackforms
+Storefront & Homepage & Staticcontent & ~Contenttype & Shoppingcart
+Storefront & Specialoffers & Eletroniccheque
+~Personalized & Customtaxation
+Storefront & Homepage & ~Staticcontent & Welcomemessage & CustomDemographicfield
+Storefront & Welcomemessage & ~Warrantyinformation
+Storefront & Homepage & Staticcontent & ~Registrationenforcement & Catalog
+Staticcontent & Checkouttype
+Storefront & ~Homepage & ~Contenttype & COD
+Storefront & ~Homepage & ~Welcomemessage & Productdatabasemanagement
+Storefront & Homepage & ~Staticcontent & Registertobrowse & ~Partnertracking
+~Searching
+Storefront & Homepage & ~Staticcontent & ~Registertobrowse & CertiTAX
+Staticcontent & ~Procurementsystem
+Storefront & Homepage & ~Staticcontent & Welcomemessage & PhoneOrdering
+Storefront & ~Homepage & ~Staticcontent & Registertobuy & Mail
+~Homepage & Fulfillment
+Welcomemessage & Questionandfeedbackforms
+~Timedependent & ~Orderdate
+Storefront & Homepage & ~Staticcontent & ~Registration & ~Education
+Storefront & ~Homepage & ~Staticcontent & Registertobrowse & ~Fixeddiscount
+Storefront & ~Homepage & ~Contenttype & ~CyberSource
+Storefront & Homepage & Staticcontent & ~Personalized & Producttype
+Storefront & Homepage & ~Registrationenforcement & E_mail
+Storefront & ~Homepage & ~Staticcontent & ~Contenttype & ~Giftoptions
+Storefront & Homepage & ~Staticcontent & Registertobrowse & PhoneOrdering
+Storefront & ~Homepage & ~Staticcontent & Registrationenforcement & Paymenttypes
+Storefront & Homepage & Contenttype & Ordermanagement
+Storefront & ~Homepage & ~Registration & Productvariants
+Dynamiccontent & Handlingmultiplediscounts
+Storefront & Homepage & Staticcontent & Dynamiccontent & Purchasevaluescope
+Storefront & Homepage & Staticcontent & Specialoffers & ~Authorize_Net
+Storefront & ~Welcomemessage & ~Multi_level
+Storefront & ~Variationsource & ~Pop_upads
+Storefront & ~Homepage & ~Staticcontent & Registration & Purchasevaluescope
+Storefront & Homepage & ~Staticcontent & Variationsource & Ammountspecification
+~Physicalgoods & ProductInformation
+Storefront & Homepage & Staticcontent & Specialoffers & Shipping1
+Storefront & Homepage & ~Staticcontent & Registertobrowse & ~Image
+Storefront & ~Timedependent & ~Surcharge
+Storefront & Homepage & Staticcontent & Contenttype & Privateaccess
+Storefront & Homepage & ~Registrationenforcement & ~Paidadvertisements
+Storefront & ~Registration & Externaldistributorsystem
+Storefront & ~Homepage & ~Registertobrowse & ~Permissions
+Storefront & Homepage & ~Welcomemessage & ~Targetingcriteria
+Storefront & Homepage & ~Dynamiccontent & Catalog
+Specialoffers & ~Enableprofileupdateoncheckout
+Storefront & ~Homepage & ~Welcomemessage & ~Productpage
+Storefront & Homepage & ~Staticcontent & ~Specialoffers & Multiplebillingaddresses
+Storefront & ~Registrationenforcement & ~Eletronicpage
+Storefront & Homepage & Staticcontent & Welcomemessage & Education
+Storefront & Homepage & ~Staticcontent & ~Welcomemessage & ~CanadaPost
+Storefront & ~Homepage & ~Staticcontent & ~Welcomemessage & CertiTAX
+Storefront & Homepage & ~Contenttype & Browsing
+Storefront & ~Homepage & ~Staticcontent & ~Timedependent & Presentationoptions
+Storefront & Homepage & ~Registration & Responsetracking
+Storefront & Homepage & Contenttype & Categories1
+Storefront & ~Homepage & ~Staticcontent & Registration & Customshippinggateway
+Storefront & Homepage & Dynamiccontent & Address
+Storefront & PersonalInformation
+Storefront & Homepage & ~Staticcontent & Contenttype & ~Questionandfeedbacktracking
+Storefront & Homepage & ~Staticcontent & Dynamiccontent & Custompaymentgateway
+Storefront & ~Homepage & ~Staticcontent & ~Timedependent & ~Surcharge
+Storefront & Registration & Flatrate
+Timedependent & Faxmailorder
+Storefront & Homepage & Staticcontent & ~Registration & Orderstatus
+Storefront & ~Homepage & ~Staticcontent & Registertobuy & ~None
+Storefront & Welcomemessage & ~Userbehaviourtrackinginformation
+Storefront & ~Contenttype & ~Multiplecatalogs
+Storefront & ~Homepage & ~Staticcontent & ~Contenttype & ~Custompaymentgateway
+~Staticcontent & ~Custompaymentgateway
+Storefront & Homepage & VerisignPayflowPro
+Storefront & Homepage & ~Staticcontent & Registertobuy & Cardnumber
+Storefront & Homepage & Staticcontent & Registration & ~Purchasevaluescope
+Storefront & ~Homepage & ~Staticcontent & ~Welcomemessage & ~Coupons
+Storefront & Homepage & ~Staticcontent & ~Welcomemessage & None
+Storefront & Homepage & Staticcontent & ~Registration & LinkPoint
+Storefront & Homepage & Staticcontent & Welcomemessage & ~Previouspurchases
+Storefront & Homepage & Staticcontent & Specialoffers & ~Registration
+Storefront & ~Homepage & Registrationenforcement & Purchasevaluescope
+~Multipleshippingaddresses & Registrationinformation
+Storefront & Homepage & Staticcontent & Specialoffers & ~Coupons
+Storefront & ~Homepage & ~Specialoffers & Contentapproval
+Storefront & ~Personalized & ~USPS
+Registration & ~Qualityofserviceselection
+Storefront & Homepage & Staticcontent & Timedependent & Image
+~Personalized & Taxcodes
+Storefront & Homepage & Staticcontent & ~Registration & ~Phoneorder
+Storefront & ~Homepage & ~Registrationenforcement & Region
+Registration & Complexproductconfiguration
+Storefront & ~Homepage & ~Variationsource & Browsing
+Storefront & Homepage & ~Personalized & Phoneorder
+Storefront & Homepage & ~Specialoffers & Sitesearch
+Storefront & ~Homepage & ~Welcomemessage & ~CanadaPost
+~Homepage & Services
+Storefront & ~Homepage & ~Staticcontent & ~Registertobuy & Inventorymanagementpolicy
+Storefront & Homepage & Staticcontent & Personalized & ~Paymentgateways
+Storefront & ~Specialoffers & ~Orderstatus
+Storefront & Homepage & Staticcontent & Welcomemessage & ~Language
+Storefront & Homepage & ~Staticcontent & Specialoffers & Seasonalproductviews
+Storefront & Homepage & ~Staticcontent & ~Registertobrowse & ~PersonalInformation
+Storefront & Homepage & ~Multipleshippingaddresses
+Storefront & Homepage & Variationsource & ~Orderstatus
+Storefront & Homepage & ~Staticcontent & ~Registrationenforcement & ~CanadaPost
+~Questionandfeedbacktracking & Storefront
+Storefront & Homepage & Staticcontent & Timedependent & Eletroniccheque
+Homepage & ~Mail
+Storefront & Homepage & ~Staticcontent & Registertobrowse & ~Price
+~Timedependent & ~Thumbnail
+Storefront & Registration & ~Reminders
+Storefront & ~Homepage & ~Dynamiccontent & Authorize_Net
+Storefront & Staticcontent & ~Cross_selling
+Storefront & Homepage & Staticcontent & Registration & ~Gallery
+Storefront & ~Homepage & Registrationenforcement & DigitalDialing
+Storefront & Homepage & Timedependent & Fixeddiscount
+Storefront & Homepage & ~Staticcontent & Personalized & ~Customerservice
+Storefront & Homepage & Registrationenforcement & Licensemanagement
+Storefront & Staticcontent & Purchasevaluescope
+Storefront & Homepage & Staticcontent & ~Registertobrowse & ~Customtaxgateway
+Storefront & Homepage & ~Dynamiccontent & ~Shoppingcartcontent
+Storefront & Homepage & Timedependent & Inventorymanagementpolicy
+Storefront & Homepage & Staticcontent & ~Timedependent & ~Manual
+Storefront & ~Homepage & ~Staticcontent & Categories
+Storefront & Variationsource & Externaldistributorsystem
+Storefront & Homepage & ~Staticcontent & ~Registration & ~Personalized1
+Storefront & Homepage & Staticcontent & ~Registration & Contentmanagement
+Storefront & Homepage & Staticcontent & Registertobrowse & Customtaxgateway
+Storefront & Homepage & ~Contenttype & FedEX
+Storefront & ~Registration & PhoneOrdering
+Storefront & Homepage & ~Dynamiccontent & ~Externalreferringpages
+Storefront & ~Homepage & ~Timedependent & ~Orderstatusreview
+Storefront & ~Homepage & Registrationenforcement & Productflagging
+Storefront & Registration & Cardnumber
+Storefront & Homepage & ~Staticcontent & Contenttype & ~FType
+Storefront & Homepage & Staticcontent & ~Registration & ~Services
+Storefront & ~Personalized & ~Indexpage
+Storefront & Homepage & Staticcontent & ~Contenttype & Advertisementtypes
+Storefront & Homepage & Dynamiccontent & ~Personalizedviews
+Storefront & Homepage & Dynamiccontent & ~Previouslyvisitedpages
+Storefront & Homepage & Staticcontent & Contenttype & Advertisements
+Storefront & ~Homepage & ~Staticcontent & ~Personalized & Warehousemanagement
+Storefront & Variationsource & Taxgateways
+Storefront & Homepage & Specialoffers & ~Timedependent
+Storefront & Homepage & Staticcontent & Timedependent & ~Customshippinggateway
+Storefront & ~Dynamiccontent & Demographics1
+Storefront & Homepage & ~Staticcontent & ~Registertobrowse & Categorypage
+Storefront & Homepage & ~Staticcontent & ~Specialoffers & ~Pricing
+Storefront & Homepage & Registration & ~Image
+Storefront & Variationsource & Billing
+Storefront & ~Homepage & ~Staticcontent & Registrationenforcement & Categories
+Storefront & ~Variationsource & Timescope
+Storefront & ~Homepage & ~Welcomemessage & ~Displayandnotification
+Storefront & ~Contenttype & ~Demographics1
+Variationsource & Behaviourtracked
+Storefront & Homepage & ~Staticcontent & Specialoffers & Up_selling
+Storefront & Homepage & Staticcontent & ~Personalized & Physicalgoods
+Storefront & Homepage & Non_repudiationservice
+Storefront & Homepage & ~Registertobrowse & a3Dimage
+Storefront & ~Homepage & ~Staticcontent & ~Timedependent & ~Substituteproducts
+Storefront & ~Homepage & ~Staticcontent & ~Welcomemessage & ~Dateandtime
+Timedependent & Price_Qualityratio
+Storefront & Homepage & ~Staticcontent & Timedependent & ~City
+Storefront & ~Homepage & ~Staticcontent & ~Registrationenforcement & Productflagging
+Storefront & Homepage & ~Staticcontent & ~Personalized & Quality
+Storefront & Contenttype & Substituteproducts
+Personalized & Appointmentscheduling
+Storefront & Homepage & Staticcontent & ~Dynamiccontent & Userbehaviourtrackinginformation
+Storefront & ~Homepage & ~Staticcontent & ~Welcomemessage & Reportformats
+Storefront & Homepage & ~Staticcontent & ~Registration & Targeting
+Storefront & Homepage & Staticcontent & ~Registertobrowse & ~Shipping1
+Storefront & Homepage & ~Staticcontent & Contenttype & ~Language
+Storefront & ~Registration & ~Advancedsearch
+~Welcomemessage & Advertisementtypes
+~Registration & Customerreviews
+Storefront & Homepage & ~Staticcontent & Registration & ~Targetingcriteria
+Storefront & Homepage & ~Staticcontent & ~Registertobuy & Privateaccess
+Storefront & Homepage & Contenttype & ~Campaigns
+Storefront & ~Homepage & ~Staticcontent & Registertobuy & Categories
+Storefront & Homepage & ~Contenttype & Reportingandanalysis
+Storefront & Homepage & ~Staticcontent & Registrationenforcement & Externalreferringpages
+Storefront & Homepage & ~Staticcontent & Specialoffers & ~Productandquantityscope
+~Dynamiccontent & ~ProductInformation
+Storefront & ~Registrationenforcement & Logincredentials
+Storefront & Staticcontent & ~Buypaths
+Storefront & ~Dynamiccontent & Timedependent
+Storefront & Homepage & ~Registration & Publicaccess
+Storefront & ~Homepage & ~Dynamiccontent & Contenttype
+Storefront & Homepage & ~Staticcontent & ~Registration & E_mailwishlist
+Storefront & Homepage & Staticcontent & ~Registration & Userbehaviourtrackinginformation
+Storefront & ~Homepage & ~Staticcontent & Registration & ~Wishlist
+Storefront & ~Homepage & Staticcontent & Dynamiccontent
+Storefront & Homepage & Staticcontent & ~Contenttype & Specialoffers
+Storefront & Welcomemessage & ~Catalog
+Storefront & Staticcontent & ~Paymenttypes
+Storefront & ~Registration & None
+Storefront & Staticcontent & ~Cartcontentpage
+~Storefront & ~Specialoffers
+Storefront & ~Registration & Expirydate
+Storefront & ~Registration & Language
+Storefront & ~Registration & CustomDemographicfield
+Storefront & Homepage & ~Registration & Multiplebillingaddresses
+Storefront & ~Homepage & ~Registration & Multipleshippingaddresses
+Storefront & Homepage & Registration & ~Registrationinformation
+Storefront & Homepage & Specialoffers & ~Targetingcriteria
+Storefront & Homepage & ~Staticcontent & Specialoffers & ~Discounts
+~Homepage & ~DigitalDialing
+Storefront & Homepage & Registrationenforcement & ~Wishlistsaveaftersession
+Storefront & Homepage & ~Registrationenforcement & Permissions
+~Homepage & ~Inventorymanagementpolicy
+~Homepage & ~Checkout
+Storefront & ~Registrationenforcement & Cardnumber
+Storefront & ~Homepage & Specialoffers
+Storefront & Homepage & Staticcontent & ~Registrationenforcement & Customerpreferences
+~Storefront & Externalreferringpages
+~Storefront & ~Searchengineregistration
+~Storefront & Orderstatusreview
+Storefront & ~Homepage & Staticcontent & ~Registertobuy & Quickcheckout
+~Storefront & ~Homepage & Wishlist
+~Storefront & Price_Qualityratio
+~Storefront & Multi_level
+~Storefront & Eletronicpage
+~Storefront & ~Homepage & ~Businessmanagement
+~Storefront & ~Homepage & Basicsearch
+~Storefront & Dynamiccontent
+~Storefront & ~Homepage & Seasonalproductviews
+~Storefront & ~Registration & Registrationinformation
+Storefront & ~Homepage & Staticcontent & ~Buypaths
+Storefront & ~Homepage & Staticcontent & Specialoffers & ~Award
+Storefront & ~Homepage & Staticcontent & ~Registrationenforcement & Registertobrowse
+Storefront & ~Homepage & Staticcontent & ~Catalog

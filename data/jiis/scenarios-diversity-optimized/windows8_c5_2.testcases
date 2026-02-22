@@ -1,0 +1,6 @@
+5
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & RemoveBackgroundImageWhenAvailable1
+UseTheComputerWithoutADisplay & SetupTextToSpeech & MakeItEasierToFocusOnTasks
+UseTheComputerWithoutADisplay & ~TuenOnAudioDescription & ~SeeAlso3
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~TurnOnNarrator1 & LearnAboutAdditionalAssistiveTechnologiesOnline5
+SetupTextToSpeech & ~HowLongShouldWindowsNotificationDialogBoxesStayOpen1

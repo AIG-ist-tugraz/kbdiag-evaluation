@@ -1,0 +1,26 @@
+25
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & SetupMouseKeys
+~TuenOnAudioDescription & ME_16
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~VoiceSelection & M_20
+UseTheComputerWithoutADisplay & HearTextReadAloud & TurnOnNarrator1 & ~UseMouseKeysWhenNUMLOCKis
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & Normal
+~UseTheComputerWithoutADisplay & ~TuenOnAudioDescription & ~RegularBlack
+HearTextReadAloud & Menus
+UseTheComputerWithoutADisplay & HearTextReadAloud & TurnOnNarrator1 & S_1
+~UseTheComputerWithoutADisplay & ~TuenOnAudioDescription & ~_1_7Seconds___
+~UseTheComputerWithoutADisplay & ~TurnOnNarrator1 & Advanced
+UseTheComputerWithoutADisplay & ~TuenOnAudioDescription & _200
+SetupTextToSpeech & MakeASoundWhenTurningASettingOnOrOff
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~TurnOnNarrator1 & ~TB_10
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~SetupTextToSpeech & ~_7_Seconds
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~Control_TheVoiceProperties_Speed_OtherOption & Help
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~SpeechRecognition & UseMouseKeysWhenNUMLOCKis1
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & VoiceSelection & ME_14
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~SetupTextToSpeech & ~MakeItEasierToType1
+~UseTheComputerWithoutADisplay & ~SetupTextToSpeech & UseSpeechRecognition2
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~TextToSpeech & TB_20
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~SetupTextToSpeech & ~TurnOnStickyKeyWhenSHIFTisPressedFiveTimes
+~UseTheComputerWithoutADisplay & ~SetupTextToSpeech & ~M_11
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud_1 & Recording
+~SetupTextToSpeech & MicrosoftZiraDesktopEnglishUS
+UseTheComputerWithoutADisplay & TextToSpeech & ~AdjustTimeLimitsAndFlashingVisuals

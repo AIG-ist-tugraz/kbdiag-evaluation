@@ -1,0 +1,26 @@
+25
+Storefront & Homepage & ~Staticcontent & Timedependent & ~Shippingcostcalculation
+~Timedependent & Differentperspectives
+Storefront & Homepage & Staticcontent & ~Contenttype & Cardnumber
+Storefront & Homepage & ~Timedependent & ~Registertobrowse
+Storefront & ~Variationsource & Personalized
+Storefront & Homepage & ~Staticcontent & Registrationenforcement & ~a3Dimage
+Storefront & ~Homepage & Registration & ~E_mail
+Storefront & Homepage & ~Staticcontent & Timedependent & Orderstatusreview
+Storefront & ~Dynamiccontent & Reminders
+Storefront & Dynamiccontent & ~Variationsource
+Storefront & Homepage & ~Variationsource & Customfilter
+~Registration & Categorypage
+Storefront & Homepage & Variationsource & ~Fulfillmentsystem
+Storefront & ~Homepage & ~Staticcontent & Registrationenforcement & Paidadvertisements
+Storefront & Responsetracking
+Storefront & ~Homepage & ~Timedependent & Multiplebillingaddresses
+Storefront & Homepage & ~Staticcontent & Contenttype & ~Affiliates
+Storefront & Homepage & ~Staticcontent & ~Specialoffers & Displayandnotification
+Storefront & Homepage & ~Personalized & ~E_mailwishlist
+Storefront & Homepage & Staticcontent & ~Specialoffers & Registeredcheckout
+Storefront & Registration & ~Searching
+~Staticcontent & Externalreferringpages
+Storefront & ~Staticcontent & ~Catalog
+~Paymentoptions
+~Homepage & Specialoffers

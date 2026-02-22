@@ -1,0 +1,6 @@
+5
+Storefront & Homepage & ~Staticcontent & Timedependent & ~Shippingcostcalculation
+~Timedependent & Differentperspectives
+Storefront & Homepage & Staticcontent & ~Contenttype & Cardnumber
+Storefront & Homepage & ~Timedependent & ~Registertobrowse
+Storefront & ~Variationsource & Personalized

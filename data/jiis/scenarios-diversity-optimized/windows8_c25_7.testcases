@@ -1,0 +1,26 @@
+25
+SetupTextToSpeech & ~M_7
+UseTheComputerWithoutADisplay & HearTextReadAloud & SpeechRecognition & ~_1_Minute
+~TurnOnNarrator1 & ~LearnAboutAdditionalAssistiveTechnologiesOnline6
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & SeeAlso6
+~HearTextReadAloud_1 & LearnAboutAdditionalAssistiveTechnologiesOnline1
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~Microphone
+~UseTheComputerWithoutADisplay & ~SetupTextToSpeech & ~DoNothing
+~M_24 & ChangeTheSizeOfTextAndIcons
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & TuenOnAudioDescription & ~ME_16
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~SetupTextToSpeech & SpeechRecognition
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~SetupTextToSpeech & ~KeyboardShortcut
+S_8
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~TurnOnNarrator1 & Option1
+UseTheComputerWithoutADisplay & HearTextReadAloud_1 & ~Slow2
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~TurnOnNarrator1 & MakeItEasierToType
+~TuenOnAudioDescription & ~HearTextAndDescriptionReadAloud
+UseTheComputerWithoutADisplay & HearTextReadAloud & TurnOnNarrator1 & ~PersonalizeAppearanceAndSoundEffect
+~SetupTextToSpeech & DisplayAWarningMessageWhenTurningASettingOn4
+HearTextReadAloud_1 & AddADvorakKeyboardAndChangeOtherKeyboardInputSetting
+UseTheComputerWithoutADisplay & SetupTextToSpeech & ~Long
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~SetupTextToSpeech & _1_5Seconds_
+UseTheComputerWithoutADisplay & ~TuenOnAudioDescription & Microphone
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~SetupTextToSpeech & AudioInput
+~HearTextReadAloud_1 & AudioDevicesAndSoundThemes
+UseTheComputerWithoutADisplay & ~TurnOnNarrator1 & ~AdjustTimeLimitsAndFlashingVisuals

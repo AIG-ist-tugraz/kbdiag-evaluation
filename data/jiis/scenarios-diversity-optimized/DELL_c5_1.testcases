@@ -1,0 +1,6 @@
+5
+ProductCategory & StudioLaptops & UltraLight & ~IntelAtom
+ProductCategory & ~MiniNotebooks & ~Adamo & WindowsVista64bit & a320GB
+ProductCategory & ~MiniNotebooks & StudioLaptops & ~Morethan_1200
+ProductCategory & MiniNotebooks & ~InspironLaptops & ~Light & ~Morethan4GB
+ProductCategory & StudioXPSLaptops & UbuntuLinux

@@ -1,0 +1,6 @@
+5
+ProductCategory & MiniNotebooks & ~XPSLaptops & ~Morethan4GB & ~a1GB
+ProductCategory & ~MiniNotebooks & ~IntelAtom & Morethan_1200
+ProductCategory & ~StudioLaptops & ~DVD__RWandCD_RWCombo & Memory
+ProductCategory & ~MiniNotebooks & XPSLaptops & ~a250GB & ~CD_DVD_RW
+ProductCategory & Adamo & a160GB

@@ -1,0 +1,11 @@
+10
+ProductCategory & StudioLaptops & UltraLight & ~IntelAtom
+ProductCategory & ~MiniNotebooks & ~Adamo & WindowsVista64bit & a320GB
+ProductCategory & ~MiniNotebooks & StudioLaptops & ~Morethan_1200
+ProductCategory & MiniNotebooks & ~InspironLaptops & ~Light & ~Morethan4GB
+ProductCategory & StudioXPSLaptops & UbuntuLinux
+ProductCategory & ~MiniNotebooks & ~InspironLaptops & WindowsVista64bit & a320GB
+ProductCategory & ~MiniNotebooks & ~XPSLaptops & a2GB & ~IntelPentiumDualcore
+ProductCategory & ~MiniNotebooks & InspironLaptops & Windows8 & ~a3GB
+ProductCategory & a80GB & ~OpticalDrive
+ProductCategory & InspironLaptops & DVD__RWandCD_RWCombo

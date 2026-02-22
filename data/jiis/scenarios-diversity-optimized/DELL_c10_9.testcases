@@ -1,0 +1,11 @@
+10
+ProductCategory & ~MiniNotebooks & BluRayDisc & ~DesktopReplacement
+ProductCategory & ~MiniNotebooks & ~Adamo & ~a250GB & Morethan_1200
+MiniNotebooks & ~Windows8 & a2GB
+ProductCategory & XPSLaptops & ~UbuntuLinux & ~UltraLight
+ProductCategory & Adamo & ~a128GBSolidState
+ProductCategory & MiniNotebooks & ~Morethan4GB & ~a3GB
+ProductCategory & ~InspironLaptops & ~UltraLight & ~a1GB
+ProductCategory & ~MiniNotebooks & ~XPSLaptops & CD_DVD_RW & IntelPentiumDualcore
+ProductCategory & ~MiniNotebooks & XPSLaptops & ~CD_DVD_RW & ~UltraLight
+ProductCategory & WindowsVista64bit & Lessthan_400

@@ -1,0 +1,26 @@
+25
+_id_1 & _id_2 & _id_3 & ~communication & _id_50
+_id_2 & _id_16 & _id_59
+_id_1 & _id_2 & _id_3 & ~_id_28 & _id_33
+_id_1 & _id_2 & _id_29 & _id_53
+~_id_8 & ~_id_12
+_id_1 & _id_2 & _id_3 & _id_4 & _id_28
+_id_1 & _id_2 & _id_4 & _id_21 & ~_id_31
+_id_2 & ~_id_9 & _id_28
+_id_1 & _id_2 & _id_3 & _id_5 & _id_56
+_id_1 & _id_2 & _id_3 & _id_43 & ~_id_44
+_id_1 & _id_2 & _id_9 & ~_id_31
+_id_1 & _id_2 & _id_3 & ~_id_20 & ~moisture_sensor
+_id_1 & _id_3 & _id_12 & _id_26
+_id_2 & ~_id_13 & communication
+_id_2 & _id_8 & ~_id_62
+_id_1 & _id_17 & _id_39
+~message & ~_id_13
+_id_1 & _id_2 & _id_3 & message & flood
+_id_1 & _id_24 & _id_59
+_id_1 & _id_22 & _id_47
+_id_21 & _id_47
+_id_1 & _id_3 & _id_11 & ~pumping
+_id_3 & ~_id_43
+~_id_24 & pumping
+_id_2 & ~_id_47

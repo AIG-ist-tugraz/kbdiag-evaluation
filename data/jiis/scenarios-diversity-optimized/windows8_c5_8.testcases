@@ -1,0 +1,6 @@
+5
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & SetupMouseKeys
+~TuenOnAudioDescription & ME_16
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~VoiceSelection & M_20
+UseTheComputerWithoutADisplay & HearTextReadAloud & TurnOnNarrator1 & ~UseMouseKeysWhenNUMLOCKis
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & Normal

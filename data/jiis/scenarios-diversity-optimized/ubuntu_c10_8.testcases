@@ -1,0 +1,11 @@
+10
+Appearance & Background & ~AcceptanceDelay1
+~Appearance & ~Background & ~Large2
+~Appearance & ~Look & ~TwillightFrost1920x1280 & Fast4
+EarlyBlossom1920x1280 & AcceptanceDelay3
+~Appearance & ~DelicatePetals1920x1280 & HighContrast
+~Appearance & ~HighContrastInverse & ~Short5
+MorningDew1920x1280 & TopLeftCorner
+Appearance & Look & Background & TwillightFrost1920x1280 & ScreenReader
+~Appearance & ~DelicatePetals1920x1280 & ~Scrolling
+~Appearance & ~Look & ~Theme & LauncherIconSize

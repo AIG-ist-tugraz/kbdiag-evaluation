@@ -16,6 +16,7 @@ Usage:
 
 import math
 import random
+import re
 import sys
 from concurrent.futures import ProcessPoolExecutor, as_completed
 from pathlib import Path
@@ -66,6 +67,7 @@ class TestCasesSelector:
         seed: Optional[int] = None,
         min_priority_conflicts: int = 2,
         selection_strategy: str = "random",
+        similarity_threshold: float = 0.5,
     ) -> None:
         self._name = name
         self._classified_ts_path = classified_ts_path
@@ -75,6 +77,7 @@ class TestCasesSelector:
         self._seed = seed
         self._min_priority_conflicts = min_priority_conflicts
         self._selection_strategy = selection_strategy
+        self._similarity_threshold = similarity_threshold
 
         self._violated: List[tuple[int, str, Set[int]]] = []  # (count, tc, constraint_ids)
         self._nonviolated: List[str] = []
@@ -85,9 +88,9 @@ class TestCasesSelector:
 
         # Split violated pool into priority (>= threshold) and regular (< threshold)
         priority_pool = [(c, tc, ids) for c, tc, ids in self._violated
-                         if c >= self._min_priority_conflicts]
+                         if c < self._min_priority_conflicts]
         regular_pool = [(c, tc, ids) for c, tc, ids in self._violated
-                        if c < self._min_priority_conflicts]
+                        if c >= self._min_priority_conflicts]
         nonviolated_pool = list(self._nonviolated)
 
         print(f"[{self._name}] Priority pool: {len(priority_pool)}, "
@@ -104,16 +107,20 @@ class TestCasesSelector:
                 random.seed(self._seed + scenario_idx)
             testcases: List[str] = []
             covered_ids: Set[int] = set()  # persists across cardinalities
+            total_violated_selected = 0  # track violated TCs across cardinalities
 
             # Iterates cardinalities; selects and writes testcases from prioritized pools
             for cardinality in self._cardinalities:
                 remaining = cardinality - len(testcases)
 
-                # Java Math.round half-up (Python round uses banker's rounding)
+                # Compute target violated from total cardinality, then incremental
                 total_violated_available = len(priority_pool) + len(regular_pool)
+                target_violated = max(
+                    int(math.floor(cardinality * self._violated_percent + 0.5)), 1)
                 num_violated = min(
-                    max(int(math.floor(remaining * self._violated_percent + 0.5)), 1),
+                    max(target_violated - total_violated_selected, 0),
                     total_violated_available,
+                    remaining,
                 )
                 num_nonviolated = max(
                     min(remaining - num_violated, len(nonviolated_pool)),
@@ -121,42 +128,95 @@ class TestCasesSelector:
                 )
 
                 if self._selection_strategy == "diversity":
-                    # Diversity-weighted draw from priority pool first
+                    # S3: Diversity-weighted draw with feature overlap tracking
+                    selected_features: Set[str] = set()
                     selected_items = self._draw_diversity_weighted(
-                        priority_pool, num_violated, covered_ids,
+                        priority_pool, num_violated, covered_ids, selected_features,
                     )
-                    # Fill from regular pool if needed
                     remaining_violated = num_violated - len(selected_items)
                     if remaining_violated > 0:
                         selected_items.extend(self._draw_diversity_weighted(
                             regular_pool, remaining_violated, covered_ids,
+                            selected_features,
                         ))
+                    # S1: Sort by conflict count ascending
+                    selected_items.sort(key=lambda x: x[0])
                     selected_violated = [tc for _, tc, _ in selected_items]
+
+                elif self._selection_strategy == "diversity-optimized":
+                    # S4: Cluster each pool separately by fingerprint
+                    priority_clusters = self._cluster_by_fingerprint(
+                        priority_pool, self._similarity_threshold)
+                    priority_reps = self._select_representatives(
+                        priority_clusters, len(priority_pool))
+                    regular_clusters = self._cluster_by_fingerprint(
+                        regular_pool, self._similarity_threshold)
+                    regular_reps = self._select_representatives(
+                        regular_clusters, len(regular_pool))
+
+                    # S2: Two-phase greedy overlap-minimizing selection
+                    selected_ids: Set[int] = set()
+                    selected_features: Set[str] = set()
+
+                    # Phase 1: priority representatives
+                    selected_items = self._greedy_overlap_select(
+                        priority_reps, num_violated,
+                        selected_ids, selected_features)
+
+                    # Phase 2: regular representatives (carry over overlap)
+                    remaining_violated = num_violated - len(selected_items)
+                    if remaining_violated > 0:
+                        selected_items.extend(self._greedy_overlap_select(
+                            regular_reps, remaining_violated,
+                            selected_ids, selected_features))
+
+                    # S1: Sort by conflict count ascending
+                    selected_items.sort(key=lambda x: x[0])
+                    selected_violated = [tc for _, tc, _ in selected_items]
+
+                    # Remove selected from pools
+                    selected_set = set(id(item) for item in selected_items)
+                    priority_pool[:] = [
+                        p for p in priority_pool if id(p) not in selected_set]
+                    regular_pool[:] = [
+                        r for r in regular_pool if id(r) not in selected_set]
+
                 else:
                     # Legacy random behavior
                     random.shuffle(priority_pool)
                     from_priority = min(num_violated, len(priority_pool))
-                    selected_violated = [tc for _, tc, _ in priority_pool[:from_priority]]
+                    selected_items = priority_pool[:from_priority]
                     priority_pool = priority_pool[from_priority:]
 
                     remaining_violated = num_violated - from_priority
                     if remaining_violated > 0:
                         random.shuffle(regular_pool)
                         from_regular = min(remaining_violated, len(regular_pool))
-                        selected_violated.extend(tc for _, tc, _ in regular_pool[:from_regular])
+                        selected_items.extend(regular_pool[:from_regular])
                         regular_pool = regular_pool[from_regular:]
 
-                testcases.extend(selected_violated)
+                    # S1: Sort by conflict count ascending
+                    selected_items.sort(key=lambda x: x[0])
+                    selected_violated = [tc for _, tc, _ in selected_items]
 
                 # Shuffle and select from nonviolated pool
                 random.shuffle(nonviolated_pool)
                 selected_nonviolated = nonviolated_pool[:num_nonviolated]
                 nonviolated_pool = nonviolated_pool[num_nonviolated:]
-                testcases.extend(selected_nonviolated)
+
+                # S2: Non-violated first for diversity-optimized
+                if self._selection_strategy == "diversity-optimized":
+                    testcases.extend(selected_nonviolated)
+                    testcases.extend(selected_violated)
+                else:
+                    testcases.extend(selected_violated)
+                    testcases.extend(selected_nonviolated)
+
+                total_violated_selected += len(selected_violated)
 
                 print(f"  [{self._name}] c{cardinality} scenario {scenario_idx}: "
-                      f"violated={num_violated}, nonviolated={num_nonviolated}, "
-                      f"total={len(testcases)}")
+                      f"violated={total_violated_selected} (+{num_violated}), "
+                      f"nonviolated={num_nonviolated}, total={len(testcases)}")
 
                 if len(testcases) < cardinality:
                     print(f"  [{self._name}] WARNING: c{cardinality} scenario "
@@ -182,21 +242,124 @@ class TestCasesSelector:
         pool: List[tuple[int, str, Set[int]]],
         n: int,
         covered_ids: Set[int],
+        selected_features: Optional[Set[str]] = None,
     ) -> List[tuple[int, str, Set[int]]]:
-        """Draw n items weighted by novel constraint IDs.
+        """Draw n items weighted by novel constraint IDs and feature diversity.
 
-        Each draw updates covered_ids, biasing subsequent draws toward
-        TCs with constraint IDs not yet covered.
+        Each draw updates covered_ids and selected_features, biasing
+        subsequent draws toward TCs with novel constraints and features.
         """
+        if selected_features is None:
+            selected_features = set()
         selected = []
-        # Selects items; updates covered IDs to bias subsequent draws
         for _ in range(min(n, len(pool))):
-            weights = [max(len(ids - covered_ids), 1) for _, _, ids in pool]
+            weights = []
+            for _, tc, ids in pool:
+                novelty = max(len(ids - covered_ids), 1)
+                tc_features = self._extract_features(tc)
+                feat_overlap = len(tc_features & selected_features)
+                diversity_bonus = max(len(tc_features) - feat_overlap, 1)
+                weights.append(novelty * diversity_bonus)
             idx = random.choices(range(len(pool)), weights=weights, k=1)[0]
             item = pool.pop(idx)
             selected.append(item)
             covered_ids.update(item[2])
+            selected_features.update(self._extract_features(item[1]))
         return selected
+
+    @staticmethod
+    def _extract_features(tc_str: str) -> Set[str]:
+        """Extract feature names from TC boolean expression."""
+        return set(re.findall(r'[A-Za-z_]\w*', tc_str))
+
+    def _greedy_overlap_select(
+        self,
+        pool: List[tuple[int, str, Set[int]]],
+        n: int,
+        selected_ids: Set[int],
+        selected_features: Set[str],
+    ) -> List[tuple[int, str, Set[int]]]:
+        """Greedy overlap-minimizing selection from pool.
+
+        Picks items with minimal fingerprint/feature overlap, breaking ties
+        by conflict count then random choice. Mutates pool, selected_ids,
+        and selected_features in-place.
+        """
+        selected = []
+        for _ in range(min(n, len(pool))):
+            scored = []
+            for item in pool:
+                fp_ov, feat_ov = self._compute_overlap_score(
+                    item, selected_ids, selected_features)
+                scored.append((fp_ov, feat_ov, item[0], item))
+
+            scored.sort(key=lambda x: (x[0], x[1], x[2]))
+            min_key = (scored[0][0], scored[0][1], scored[0][2])
+            group = [s[3] for s in scored
+                     if (s[0], s[1], s[2]) == min_key]
+
+            pick = random.choice(group)
+            pool.remove(pick)
+            selected.append(pick)
+            selected_ids.update(pick[2])
+            selected_features.update(self._extract_features(pick[1]))
+        return selected
+
+    def _compute_overlap_score(
+        self,
+        item: tuple,
+        selected_ids: Set[int],
+        selected_features: Set[str],
+    ) -> tuple:
+        """Return (fingerprint_overlap, feature_overlap) for sorting."""
+        _, tc, ids = item
+        fp_overlap = len(ids & selected_ids) if ids else 0
+        feat_overlap = len(self._extract_features(tc) & selected_features)
+        return (fp_overlap, feat_overlap)
+
+    @staticmethod
+    def _cluster_by_fingerprint(
+        pool: List[tuple[int, str, Set[int]]],
+        threshold: float = 0.5,
+    ) -> List[List[tuple[int, str, Set[int]]]]:
+        """Group TCs by Jaccard similarity on constraint ID sets.
+
+        TCs without fingerprint data (empty ids) go into individual clusters.
+        """
+        clusters: List[List[tuple[int, str, Set[int]]]] = []
+        for item in pool:
+            _, _, ids = item
+            if not ids:
+                clusters.append([item])
+                continue
+            merged = False
+            for cluster in clusters:
+                rep_ids = cluster[0][2]
+                if not rep_ids:
+                    continue
+                intersection = len(ids & rep_ids)
+                union = len(ids | rep_ids)
+                jaccard = intersection / union if union > 0 else 0.0
+                if jaccard >= threshold:
+                    cluster.append(item)
+                    merged = True
+                    break
+            if not merged:
+                clusters.append([item])
+        return clusters
+
+    @staticmethod
+    def _select_representatives(
+        clusters: List[List[tuple[int, str, Set[int]]]],
+        n: int,
+    ) -> List[tuple[int, str, Set[int]]]:
+        """Select 1 representative per cluster, preferring lower conflict count."""
+        reps = []
+        for cluster in clusters:
+            rep = min(cluster, key=lambda x: x[0])
+            reps.append(rep)
+        reps.sort(key=lambda x: x[0])
+        return reps[:n]
 
     def _read_classified_ts(self) -> None:
         """Parse .classifiedts file with backward-compatible format detection.
@@ -270,6 +433,7 @@ def select_for_ts(
         seed=seed,
         min_priority_conflicts=sel_config.get("min_priority_conflicts", 2),
         selection_strategy=sel_config.get("selection_strategy", "random"),
+        similarity_threshold=sel_config.get("similarity_threshold", 0.5),
     )
     abs_output = str(ROOT_PROJECT_FOLDER / output_dir)
     selector.select(abs_output)

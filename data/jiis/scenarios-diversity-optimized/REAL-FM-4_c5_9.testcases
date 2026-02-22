@@ -1,0 +1,6 @@
+5
+Storefront & ~Homepage & ~Staticcontent & Quantity
+Storefront & ~Homepage & ~Staticcontent & ~Specialoffers & Percentage
+Storefront & ~Timedependent & E_mailwishlist
+Storefront & ~Homepage & ~Staticcontent & Registrationenforcement & ~Externalreferringpages
+~Contenttype & ~Buypaths_4

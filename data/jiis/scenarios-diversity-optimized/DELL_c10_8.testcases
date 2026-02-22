@@ -1,0 +1,11 @@
+10
+~MiniNotebooks & a128GBSolidState & LaptopWeight
+ProductCategory & MiniNotebooks & ~InspironLaptops & ~DVD__RWandCD_RWCombo & ~a3GB
+ProductCategory & MiniNotebooks & ~Lessthan_400 & _400__800
+ProductCategory & MiniNotebooks & ~DVD_ROMDriveandDVD__RW & ~_400__800
+~MiniNotebooks & StudioXPSLaptops & a1GB
+~InspironLaptops & WindowsVista64bit & ~IntelPentiumDualcore
+~MiniNotebooks & OpticalDrive & Morethan_1200
+ProductCategory & ~MiniNotebooks & XPSLaptops & ~CD_DVD_RW & BluRayDisc
+ProductCategory & MiniNotebooks & ~StudioLaptops & a120GB & Processor
+~StudioLaptops & Adamo & _800__1200

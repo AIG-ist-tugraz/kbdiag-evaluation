@@ -1,0 +1,11 @@
+10
+Storefront & Specialoffers & ~Reporttypes
+Storefront & Homepage & Staticcontent & Registertobrowse & Multi_level
+~Personalized & Paymentoptions
+Storefront & Homepage & ~Timedependent & ~Warehousemanagement
+Storefront & Homepage & ~Staticcontent & ~Registration & Billingaddress
+Storefront & Homepage & ~Staticcontent & Welcomemessage & ~Inventorymanagementsystem
+Homepage & ~Levelofdetail
+Storefront & ~Homepage & Registration & CertiTAX
+Storefront & ~Homepage & ~Variationsource & Userbehaviourtracking
+Storefront & ~Registrationenforcement & Language

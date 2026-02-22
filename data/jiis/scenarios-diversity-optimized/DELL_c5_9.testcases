@@ -1,0 +1,6 @@
+5
+ProductCategory & ~MiniNotebooks & BluRayDisc & ~DesktopReplacement
+ProductCategory & ~MiniNotebooks & ~Adamo & ~a250GB & Morethan_1200
+MiniNotebooks & ~Windows8 & a2GB
+ProductCategory & XPSLaptops & ~UbuntuLinux & ~UltraLight
+ProductCategory & Adamo & ~a128GBSolidState

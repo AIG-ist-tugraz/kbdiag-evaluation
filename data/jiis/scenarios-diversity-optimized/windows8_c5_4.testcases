@@ -1,0 +1,6 @@
+5
+UseTheComputerWithoutADisplay & TurnOnNarrator1 & ~M_11
+~ME_23 & MakeTheComputerEasierToSee_1
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~On2
+TextToSpeech & M_12
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & Control_TheVoiceProperties_Speed_OtherOption & ~VoiceSelection

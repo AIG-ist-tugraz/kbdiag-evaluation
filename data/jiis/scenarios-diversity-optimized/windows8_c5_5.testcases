@@ -1,0 +1,6 @@
+5
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~TurnOnNarrator1 & S_21
+SetupTextToSpeech & ~Fast4
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~SetupTextToSpeech & LargeWhite
+UseTheComputerWithoutADisplay & TuenOnAudioDescription & ~Magnifier1
+~HearTextReadAloud_1 & NumberOfSpaceToInsertAfterPonctuation

@@ -1,0 +1,26 @@
+25
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & RemoveBackgroundImageWhenAvailable1
+UseTheComputerWithoutADisplay & SetupTextToSpeech & MakeItEasierToFocusOnTasks
+UseTheComputerWithoutADisplay & ~TuenOnAudioDescription & ~SeeAlso3
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~TurnOnNarrator1 & LearnAboutAdditionalAssistiveTechnologiesOnline5
+SetupTextToSpeech & ~HowLongShouldWindowsNotificationDialogBoxesStayOpen1
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~TextToSpeech & ~_1Minute
+UseTheComputerWithoutADisplay & ~S_9
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~SpeechRecognition & ~_1
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~TextToSpeech & MakeASoundWhenTurningASettingOnOrOff5
+UseTheComputerWithoutADisplay & ~SetupTextToSpeech & Level
+UseTheComputerWithoutADisplay & HearTextReadAloud & Control_TheVoiceProperties_Speed_OtherOption & ~KeyboardShortcut1
+HearTextReadAloud_1 & ~ScaleToThisPercentageOfNormalSize
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~Control_TheVoiceProperties_Speed_OtherOption & Acceleration1
+UseTheComputerWithoutADisplay & HearTextReadAloud & Control_TheVoiceProperties_Speed_OtherOption & DoNothing
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~TextToSpeech & ~_0_5Seconds_
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & VoiceSelection & LargeWhite
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~Control_TheVoiceProperties_Speed_OtherOption & ~HighContrast
+TextToSpeech & ~MicrosoftSpeechRecognizer8_0ForWindowsEnglishUS
+~UseTheComputerWithoutADisplay & ~SetupTextToSpeech & ~__100
+UseTheComputerWithoutADisplay & ~SetupTextToSpeech & ~TurnOffAllUnnecessaryAnimation
+UseTheComputerWithoutADisplay & HearTextReadAloud & SpeechRecognition & ~ME_20
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud_1 & ChangeOnlyTheTextSize
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~SpeechRecognition & NumberOfSpaceToInsertAfterPonctuation
+~HearTextReadAloud_1 & TurnOffAllUnnecessaryAnimation
+~SetupTextToSpeech & MicrosoftSpeechRecognizer8_0ForWindowsEnglishUK

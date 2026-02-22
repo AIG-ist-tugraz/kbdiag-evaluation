@@ -1,0 +1,501 @@
+500
+_id_32 & _id_43
+_id_1 & _id_26 & _id_60
+_id_42 & ~moisture_sensor
+_id_1 & _id_2 & _id_3 & _id_51 & ~_id_53
+_id_10 & ~_id_56
+_id_1 & _id_17 & ~_id_21
+_id_1 & _id_4 & _id_39
+_id_1 & _id_2 & _id_3 & _id_43
+~_id_42 & _id_44
+_id_1 & _id_3 & message & ~_id_37
+~message & _id_41
+_id_1 & _id_2 & _id_3 & ~moisture_sensor & _id_62
+_id_11 & ~_id_25
+_id_1 & _id_3 & message & _id_20
+_id_1 & _id_2 & _id_3 & _id_12 & ~_id_42
+_id_1 & _id_2 & ~flood & ~_id_26
+_id_1 & ~_id_26 & _id_39
+_id_1 & _id_17 & ~_id_29
+_id_1 & _id_2 & _id_30 & ~_id_38
+~_id_30 & _id_47
+_id_20 & pumping
+_id_12 & _id_31
+_id_12 & ~_id_57
+_id_1 & _id_2 & _id_4 & ~flood & pumping
+~_id_14 & ~water
+_id_1 & _id_2 & _id_25 & _id_54
+_id_4 & ~_id_36
+_id_1 & _id_3 & _id_10 & _id_62
+_id_1 & _id_2 & _id_4 & _id_21 & _id_45
+message & moisture_sensor
+_id_1 & ~_id_28 & _id_47
+_id_1 & _id_2 & _id_4 & _id_5 & ~moisture_sensor
+_id_1 & _id_2 & _id_3 & _id_13 & _id_39
+~sump_pump & _id_48
+_id_45 & _id_48
+_id_1 & _id_2 & _id_4 & ~_id_14 & ~_id_23
+~_id_36 & _id_49
+_id_9 & _id_30
+_id_1 & _id_2 & _id_12 & _id_14
+_id_13 & ~_id_53
+_id_1 & _id_2 & _id_4 & _id_16 & _id_18
+_id_1 & _id_2 & _id_3 & water & _id_36
+_id_1 & _id_46 & ~_id_63
+_id_2 & ~_id_14 & _id_63
+_id_1 & _id_2 & _id_3 & ~pumping & _id_58
+~_id_13 & ~_id_18
+_id_1 & _id_2 & _id_4 & _id_24 & ~_id_25
+~_id_9 & ~_id_60
+_id_12 & ~_id_55
+_id_12 & ~_id_43
+water & ~flood
+_id_1 & ~_id_21 & ~_id_63
+_id_20 & _id_64
+_id_1 & _id_2 & ~_id_31 & _id_39
+_id_1 & _id_2 & _id_3 & _id_23 & ~flood
+_id_1 & _id_2 & _id_3 & ~_id_23 & moisture_sensor
+_id_1 & _id_2 & _id_3 & ~message & _id_52
+_id_1 & _id_2 & message & _id_53
+_id_1 & _id_2 & _id_3 & _id_45 & _id_58
+_id_2 & ~message & ~_id_21
+_id_9 & _id_64
+~flood & ~_id_37
+_id_1 & _id_2 & _id_4 & _id_20 & ~_id_62
+_id_1 & _id_10 & _id_45
+_id_1 & _id_2 & _id_3 & _id_5 & ~_id_14
+_id_1 & pumping & ~communication
+~_id_31 & _id_60
+_id_1 & _id_31 & sprinkler
+_id_1 & _id_2 & _id_3 & _id_37 & sump_pump
+_id_1 & _id_2 & _id_3 & ~_id_24 & _id_45
+_id_1 & _id_2 & ~_id_8 & sump_pump
+_id_36 & _id_50
+_id_1 & ~flood & _id_59
+_id_1 & _id_33 & moisture_sensor
+_id_1 & _id_2 & ~_id_28 & _id_64
+_id_2 & ~_id_13 & _id_57
+_id_1 & _id_2 & _id_3 & _id_8 & ~_id_62
+_id_1 & _id_2 & _id_4 & _id_17 & _id_32
+_id_2 & _id_8 & _id_18
+_id_1 & _id_2 & pumping & ~_id_37
+_id_1 & _id_2 & _id_4 & _id_21 & sump_pump
+_id_42 & _id_62
+_id_22 & _id_23
+_id_1 & _id_2 & _id_3 & _id_30 & ~_id_38
+_id_1 & _id_2 & _id_3 & ~_id_38 & _id_48
+_id_38 & ~_id_41
+_id_1 & _id_3 & _id_13 & ~_id_29
+~moisture_sensor & _id_48
+_id_1 & _id_2 & ~_id_36 & sprinkler
+_id_1 & _id_2 & _id_3 & ~_id_36 & ~moisture_sensor
+_id_12 & ~_id_58
+_id_1 & _id_2 & _id_4 & ~flood & _id_24
+~_id_11 & ~_id_28
+_id_5 & ~_id_50
+_id_12 & ~_id_45
+_id_12 & ~_id_32
+_id_1 & _id_3 & _id_13 & ~_id_37
+_id_1 & ~_id_2 & _id_14
+_id_1 & _id_12 & ~_id_15
+_id_1 & _id_2 & _id_3 & ~communication & _id_41
+~_id_53
+_id_1 & _id_2 & _id_4 & ~_id_20 & _id_55
+_id_1 & _id_3 & _id_21 & ~_id_36
+~sump_pump & ~_id_63
+_id_13 & _id_44
+_id_1 & _id_42 & _id_53
+_id_1 & ~_id_31 & _id_58
+_id_1 & _id_2 & _id_3 & _id_23 & ~_id_26
+_id_1 & _id_2 & _id_3 & ~_id_41 & _id_42
+_id_1 & _id_2 & _id_3 & ~_id_21 & _id_30
+_id_1 & _id_2 & ~_id_28 & moisture_sensor
+_id_18
+_id_1 & _id_55 & _id_56
+_id_1 & _id_50 & _id_64
+_id_10 & _id_28
+_id_1 & _id_2 & _id_28 & ~pumping
+~_id_24 & ~_id_36
+_id_1 & _id_2 & _id_3 & _id_4 & _id_56
+_id_44 & sprinkler
+_id_1 & _id_52 & _id_63
+_id_1 & _id_2 & _id_3 & ~_id_21 & ~_id_42
+~_id_29 & _id_26
+_id_17 & pumping
+_id_5 & _id_10
+_id_1 & _id_3 & ~_id_21 & _id_30
+_id_1 & _id_2 & _id_3 & _id_28 & _id_60
+_id_1 & ~message & _id_39
+_id_2 & _id_14 & _id_30
+_id_1 & _id_49 & _id_51
+_id_15 & _id_60
+_id_1 & _id_2 & _id_4 & ~_id_8 & ~communication
+_id_1 & _id_2 & _id_45
+_id_1 & _id_3 & ~_id_14 & _id_31
+_id_1 & _id_2 & _id_3 & _id_9 & _id_25
+~_id_39 & ~_id_53
+_id_1 & _id_2 & _id_22 & ~_id_30
+_id_1 & _id_2 & _id_3 & ~message & _id_55
+_id_1 & _id_2 & _id_3 & _id_28 & ~communication
+_id_1 & ~_id_20 & ~communication
+_id_1 & _id_2 & _id_4 & ~message & ~_id_21
+_id_49 & _id_50
+_id_1 & _id_2 & _id_4 & _id_23 & communication
+_id_2 & _id_12 & ~_id_26
+~_id_9 & _id_14
+_id_1 & _id_3 & _id_6 & ~_id_35
+~_id_24 & _id_32
+_id_1 & ~_id_9 & _id_10
+_id_1 & _id_2 & _id_3 & ~_id_9 & _id_12
+_id_1 & _id_2 & _id_3 & ~_id_30 & _id_39
+~_id_8 & _id_37
+_id_37 & _id_53
+_id_1 & _id_26 & _id_35
+_id_50 & _id_64
+_id_1 & _id_2 & _id_17 & ~pumping
+_id_1 & _id_2 & _id_31 & ~_id_37
+~_id_30 & ~_id_63
+_id_1 & _id_3 & ~_id_21 & flood
+_id_1 & _id_30 & ~_id_39
+~_id_21 & _id_29
+_id_1 & _id_2 & _id_39 & _id_62
+~sump_pump & _id_56
+_id_1 & _id_3 & _id_4 & ~_id_23
+_id_1 & _id_2 & _id_22 & _id_39
+_id_1 & _id_2 & _id_3 & ~_id_26 & _id_43
+~_id_26 & _id_41
+~_id_24 & _id_49
+_id_1 & _id_13 & ~_id_30
+_id_1 & _id_2 & _id_3 & _id_54 & _id_57
+_id_1 & _id_2 & _id_3 & _id_10 & water
+_id_1 & _id_35 & _id_55
+_id_1 & _id_2 & _id_9 & ~_id_23
+_id_1 & _id_2 & _id_3 & _id_11 & _id_36
+_id_1 & _id_3 & ~_id_20 & _id_37
+_id_4 & ~pumping
+_id_1 & _id_2 & _id_3 & ~_id_41 & _id_62
+_id_55 & _id_64
+_id_1 & ~_id_42 & _id_55
+_id_2 & _id_11 & ~_id_28
+_id_16 & ~communication
+_id_1 & ~_id_41 & ~moisture_sensor
+_id_1 & ~message & ~moisture_sensor
+~_id_38 & sump_pump
+message & _id_48
+_id_1 & _id_2 & ~_id_53
+_id_1 & _id_2 & ~moisture_sensor & _id_62
+_id_1 & _id_2 & _id_3 & ~_id_21 & _id_28
+~_id_25 & _id_48
+_id_1 & _id_2 & _id_3 & ~_id_14 & ~_id_21
+_id_1 & ~communication & _id_45
+_id_1 & _id_4 & ~_id_63
+_id_1 & _id_2 & _id_5 & _id_51
+_id_1 & _id_2 & _id_3 & _id_15 & _id_17
+_id_2 & _id_3 & _id_46
+_id_1 & _id_2 & _id_46 & _id_58
+_id_1 & _id_2 & water & ~moisture_sensor
+_id_1 & _id_2 & _id_3 & _id_24 & ~communication
+_id_2 & _id_15 & _id_45
+_id_1 & _id_2 & _id_4 & _id_6 & ~_id_35
+_id_1 & _id_2 & ~_id_21 & _id_22
+_id_1 & _id_2 & _id_4 & ~_id_14 & _id_52
+_id_1 & _id_2 & _id_3 & _id_31 & ~_id_37
+_id_1 & _id_3 & ~_id_20 & ~moisture_sensor
+_id_1 & _id_3 & _id_14 & _id_56
+_id_1 & _id_14 & sump_pump
+_id_2 & _id_14 & _id_56
+_id_1 & _id_2 & _id_3 & _id_24 & _id_37
+_id_1 & _id_2 & _id_14 & _id_17
+_id_2 & _id_5 & _id_22
+~flood & ~_id_53
+_id_1 & ~_id_24 & _id_51
+~_id_35 & moisture_sensor
+_id_1 & _id_2 & _id_4 & _id_14 & _id_15
+_id_2 & ~_id_13 & _id_48
+_id_1 & _id_2 & _id_3 & ~_id_38 & _id_45
+_id_1 & _id_2 & _id_3 & _id_21 & _id_39
+_id_1 & _id_2 & _id_17 & _id_55
+_id_1 & _id_2 & _id_3 & ~_id_30 & moisture_sensor
+~_id_42 & _id_60
+_id_1 & flood & _id_30
+_id_1 & ~_id_9 & _id_38
+_id_1 & ~_id_25 & _id_31
+_id_10 & ~_id_59
+message & ~_id_55
+~_id_4 & ~_id_21
+_id_12 & ~_id_33
+_id_1 & _id_5 & ~_id_18
+_id_1 & _id_2 & _id_3 & ~communication & _id_42
+_id_12 & ~_id_44
+_id_1 & _id_3 & _id_14 & ~_id_37
+_id_1 & ~_id_2 & ~_id_14
+_id_1 & _id_3 & ~_id_10 & ~_id_12
+_id_1 & _id_2 & _id_4 & ~_id_5 & message
+_id_11 & ~_id_48
+~_id_8 & ~_id_52
+message & ~_id_45
+_id_5 & ~_id_51
+message & ~_id_58
+message & ~_id_57
+_id_10 & ~_id_64
+~_id_1 & ~_id_16
+_id_1 & message & ~_id_15
+_id_1 & ~_id_3 & _id_16
+_id_1 & _id_3 & ~_id_4 & _id_13
+_id_1 & _id_2 & _id_3 & _id_41 & _id_42
+_id_1 & _id_2 & _id_4 & ~_id_24 & _id_25
+_id_1 & _id_2 & _id_4 & ~message & _id_14
+~_id_20 & ~water
+_id_1 & ~flood & _id_26
+_id_1 & ~_id_12 & _id_16
+_id_1 & _id_2 & _id_4 & ~_id_24 & pumping
+_id_1 & _id_2 & _id_4 & _id_20 & _id_38
+_id_1 & _id_2 & _id_4 & _id_14 & ~_id_42
+_id_1 & _id_2 & _id_3 & _id_25 & ~_id_62
+_id_1 & _id_2 & _id_4 & ~_id_23 & ~_id_36
+_id_1 & _id_17 & _id_45
+_id_25 & _id_43
+_id_32 & _id_46
+_id_1 & _id_2 & _id_3 & ~_id_39 & sprinkler
+_id_1 & _id_2 & _id_3 & _id_16 & _id_42
+_id_1 & _id_2 & _id_3 & _id_42 & ~_id_62
+_id_2 & _id_4 & ~sump_pump
+_id_1 & _id_2 & _id_31 & communication
+_id_1 & communication & _id_44
+_id_1 & _id_2 & _id_4 & _id_22 & _id_53
+_id_1 & _id_18 & sump_pump
+_id_1 & _id_2 & ~_id_9 & ~_id_23
+_id_1 & _id_2 & ~_id_25 & sump_pump
+_id_17 & _id_53
+_id_1 & _id_16 & _id_23
+_id_1 & _id_2 & _id_3 & message & ~_id_36
+_id_1 & _id_2 & _id_22 & _id_32
+~_id_20 & _id_21
+_id_3 & ~_id_26
+_id_2 & ~message & ~sump_pump
+_id_2 & _id_4 & _id_60
+_id_1 & _id_3 & _id_20 & _id_29
+_id_1 & _id_2 & _id_3 & ~_id_26 & _id_46
+_id_2 & _id_8 & _id_60
+_id_1 & _id_3 & _id_10 & _id_15
+_id_1 & _id_2 & _id_47
+_id_1 & _id_42 & ~_id_63
+_id_2 & ~_id_13
+_id_42 & _id_54
+_id_1 & _id_2 & _id_3 & ~_id_26
+_id_1 & _id_2 & _id_4 & _id_5 & _id_33
+_id_1 & _id_2 & _id_4 & _id_11 & ~_id_53
+_id_1 & message & ~_id_13
+_id_1 & message & ~_id_41
+~_id_23 & _id_44
+_id_4 & message
+_id_1 & _id_2 & message & _id_64
+_id_1 & _id_2 & _id_3 & _id_10 & ~_id_62
+_id_1 & _id_3 & _id_6 & _id_10
+_id_1 & ~_id_30 & _id_41
+~_id_24 & _id_41
+_id_1 & _id_2 & _id_3 & ~communication & _id_59
+_id_1 & _id_4 & ~message
+~_id_24 & ~moisture_sensor
+_id_1 & _id_10 & _id_44
+_id_1 & _id_2 & _id_18 & ~_id_20
+_id_47 & _id_64
+_id_1 & _id_2 & _id_3 & communication & _id_43
+_id_1 & _id_2 & _id_4 & _id_5 & ~_id_9
+_id_1 & _id_2 & _id_8 & _id_56
+_id_1 & _id_17 & ~_id_20
+_id_1 & _id_2 & _id_29
+_id_1 & _id_2 & _id_3 & ~_id_24 & sprinkler
+_id_1 & _id_2 & _id_52 & _id_59
+_id_1 & _id_2 & _id_4 & ~_id_9 & _id_51
+_id_1 & _id_2 & ~_id_14 & _id_53
+_id_1 & ~_id_31 & moisture_sensor
+_id_1 & _id_13 & _id_37
+_id_1 & _id_2 & _id_4 & _id_20 & pumping
+~_id_21 & _id_31
+_id_38 & _id_63
+_id_1 & ~_id_42 & _id_44
+_id_16 & _id_62
+_id_39 & ~_id_41
+_id_1 & _id_2 & _id_13 & _id_26
+_id_1 & _id_2 & _id_31 & _id_35
+_id_1 & _id_3 & _id_21 & _id_38
+_id_1 & _id_2 & _id_4 & _id_15 & ~_id_62
+~_id_28 & ~_id_38
+_id_1 & _id_32 & ~_id_63
+_id_1 & _id_3 & ~_id_8 & _id_59
+_id_18 & ~_id_29
+_id_1 & _id_2 & ~_id_29 & _id_37
+_id_2 & _id_8 & ~moisture_sensor
+_id_1 & _id_2 & _id_3 & _id_6 & ~moisture_sensor
+_id_1 & _id_2 & _id_24 & _id_28
+_id_1 & _id_39 & _id_56
+~_id_9 & _id_33
+_id_1 & _id_13 & _id_49
+_id_1 & _id_2 & _id_29 & _id_50
+~_id_31 & _id_63
+_id_1 & _id_2 & _id_3 & ~_id_28 & _id_44
+_id_1 & _id_2 & _id_3 & ~_id_38 & ~_id_39
+_id_8 & ~_id_21
+~_id_20 & ~_id_35
+_id_5 & _id_58
+_id_1 & _id_2 & _id_4 & _id_10 & ~_id_13
+_id_1 & _id_2 & _id_6 & _id_56
+_id_1 & _id_2 & _id_4 & _id_11 & ~_id_39
+_id_1 & _id_3 & _id_12 & ~_id_38
+message & _id_58
+_id_1 & _id_2 & ~_id_25 & _id_63
+_id_1 & _id_35 & _id_59
+_id_1 & _id_11 & ~communication
+_id_1 & ~_id_24 & _id_59
+_id_1 & _id_2 & sump_pump & _id_64
+~_id_29 & _id_48
+_id_2 & _id_17 & ~_id_39
+_id_1 & _id_2 & _id_28 & _id_48
+_id_1 & _id_3 & water & _id_43
+_id_1 & _id_2 & ~_id_14 & ~_id_21
+_id_1 & ~_id_38 & _id_55
+_id_1 & _id_2 & _id_4 & ~_id_14 & _id_53
+~_id_23 & ~_id_37
+_id_1 & _id_2 & _id_3 & _id_31 & _id_35
+_id_1 & _id_2 & ~_id_26 & ~_id_37
+_id_1 & _id_2 & ~_id_23 & _id_62
+_id_31 & ~_id_38
+~_id_24 & _id_64
+_id_1 & _id_2 & _id_4 & ~_id_14 & ~sump_pump
+_id_1 & message & ~_id_29
+_id_1 & _id_2 & sump_pump & _id_55
+_id_1 & ~_id_28 & _id_59
+message & _id_56
+_id_1 & _id_2 & _id_41 & _id_54
+_id_1 & _id_2 & _id_25 & _id_33
+_id_1 & ~_id_28 & _id_60
+_id_10 & pumping
+_id_1 & _id_11 & _id_18
+pumping & _id_62
+_id_47 & _id_56
+_id_1 & _id_2 & _id_4 & _id_10 & ~_id_53
+_id_17 & _id_21
+_id_1 & ~_id_8 & ~_id_62
+~_id_20 & _id_17
+_id_26 & _id_52
+_id_1 & _id_2 & _id_3 & _id_8 & ~_id_30
+~_id_20 & _id_57
+_id_1 & _id_2 & _id_3 & _id_5 & ~_id_41
+_id_25 & _id_28
+_id_1 & _id_2 & _id_4 & ~_id_8 & ~_id_62
+_id_1 & _id_2 & _id_3 & message & _id_64
+_id_2 & ~_id_8 & moisture_sensor
+_id_1 & _id_2 & _id_4 & _id_8 & _id_43
+_id_1 & _id_2 & _id_3 & _id_4 & ~_id_53
+_id_2 & _id_13 & pumping
+_id_1 & _id_2 & _id_3 & _id_8 & _id_60
+_id_1 & _id_3 & _id_8 & ~_id_20
+_id_1 & _id_3 & _id_21 & ~pumping
+~_id_8 & ~_id_21
+_id_1 & _id_18 & _id_29
+_id_2 & _id_5 & _id_54
+_id_1 & _id_2 & flood & ~_id_29
+_id_1 & _id_2 & _id_3 & _id_18 & ~_id_23
+_id_1 & _id_55 & _id_57
+_id_1 & _id_2 & _id_3 & _id_22 & ~_id_36
+_id_1 & _id_2 & _id_4 & _id_15 & ~communication
+_id_1 & _id_2 & _id_3 & message & _id_59
+_id_2 & _id_16 & communication
+_id_1 & _id_2 & _id_3 & _id_37 & _id_51
+_id_1 & _id_35 & ~sump_pump
+_id_1 & _id_2 & _id_4 & _id_6 & _id_39
+_id_3 & pumping
+_id_1 & _id_2 & _id_9 & ~_id_14
+_id_1 & _id_2 & _id_3 & _id_21 & _id_47
+_id_1 & _id_3 & ~_id_14 & _id_37
+sump_pump & _id_55
+_id_1 & _id_2 & _id_4 & _id_6 & ~_id_23
+_id_1 & _id_2 & message & ~_id_20
+_id_1 & ~_id_28 & _id_48
+_id_1 & _id_2 & _id_52 & ~_id_53
+_id_1 & ~_id_8 & _id_37
+_id_1 & _id_2 & ~_id_8 & pumping
+_id_1 & _id_2 & _id_4 & ~_id_9 & ~_id_37
+_id_1 & _id_2 & _id_3 & _id_8 & ~flood
+_id_1 & _id_2 & _id_4 & ~_id_13 & _id_44
+_id_2 & ~_id_13 & ~_id_28
+_id_1 & _id_2 & _id_3 & ~_id_9 & communication
+_id_1 & _id_13 & _id_20
+~_id_21 & ~_id_26
+_id_1 & _id_3 & ~_id_20 & _id_44
+_id_1 & ~_id_29 & _id_41
+_id_14 & ~_id_62
+_id_1 & _id_2 & _id_3 & _id_46 & ~sump_pump
+_id_1 & _id_3 & ~_id_8 & _id_16
+_id_4 & _id_14
+_id_1 & _id_2 & _id_3 & sprinkler
+_id_1 & _id_2 & _id_3 & _id_38 & ~sump_pump
+_id_1 & _id_22 & _id_29
+_id_1 & _id_2 & _id_5 & _id_12
+_id_1 & _id_3 & _id_22 & _id_26
+_id_2 & ~message & _id_41
+_id_1 & _id_20 & ~sump_pump
+_id_1 & _id_2 & _id_4 & _id_13 & _id_25
+_id_1 & _id_2 & _id_3 & sprinkler & _id_49
+_id_1 & _id_2 & _id_3 & ~_id_28 & ~_id_31
+_id_1 & _id_3 & _id_16 & ~_id_26
+_id_1 & _id_2 & _id_3 & ~_id_21 & _id_25
+_id_1 & _id_22 & _id_42
+_id_1 & _id_3 & _id_14 & _id_64
+_id_1 & _id_2 & _id_3 & _id_18 & ~_id_42
+_id_1 & _id_2 & ~message & ~_id_20
+_id_16 & _id_30
+_id_1 & _id_6 & _id_55
+_id_1 & _id_2 & _id_3 & ~moisture_sensor
+_id_1 & _id_2 & _id_13 & pumping
+~_id_1 & ~_id_17
+_id_6 & ~_id_49
+_id_10 & ~_id_60
+message & ~_id_32
+message & ~_id_43
+_id_1 & _id_2 & _id_4 & _id_13 & ~_id_14
+_id_1 & ~flood & _id_28
+_id_1 & ~message & ~_id_15
+_id_1 & _id_2 & _id_3 & ~_id_37 & _id_39
+_id_1 & ~_id_12 & _id_17
+_id_1 & ~_id_2 & _id_15
+_id_1 & _id_2 & _id_3 & flood & ~_id_31
+_id_1 & _id_3 & ~_id_4 & ~_id_13
+_id_1 & _id_2 & _id_4 & ~_id_5 & ~message
+_id_9 & ~_id_52
+_id_11 & ~_id_56
+~message & ~_id_55
+_id_12 & ~_id_48
+_id_1 & _id_6 & ~_id_18
+_id_1 & ~_id_3 & _id_17
+_id_1 & _id_2 & _id_3 & _id_14 & ~communication
+_id_1 & _id_3 & ~_id_10 & ~message
+~_id_21 & ~water
+_id_1 & _id_2 & _id_3 & message & ~_id_37
+_id_1 & _id_25 & ~_id_30
+~_id_11 & ~_id_29
+~_id_4 & ~_id_23
+~_id_14 & ~_id_16
+_id_1 & ~_id_6 & ~_id_13
+_id_1 & water & ~sprinkler
+~_id_33 & _id_35
+~_id_57 & _id_58
+~_id_44 & ~_id_45
+~_id_1 & _id_56 & ~_id_64
+~_id_1 & _id_8 & _id_9
+flood & ~_id_43
+~_id_1 & ~_id_39 & _id_41
+_id_1 & ~_id_2 & ~_id_30 & pumping
+~_id_1 & ~_id_2 & _id_52 & ~_id_54
+~_id_1 & ~_id_2 & ~_id_3 & _id_62 & _id_63
+~_id_1 & ~_id_2 & ~_id_18 & _id_20
+~_id_1 & ~_id_2 & _id_49 & ~_id_50
+_id_1 & _id_2 & ~_id_3 & pumping & ~sump_pump
+_id_1 & ~_id_2 & _id_3 & _id_49 & ~_id_51
+_id_1 & _id_3 & ~_id_10 & message
+~_id_1 & ~_id_2 & ~_id_3 & ~_id_22 & _id_23
+~_id_47 & _id_55
+~_id_1 & _id_24
+~_id_56 & _id_59
+~_id_1 & ~_id_46

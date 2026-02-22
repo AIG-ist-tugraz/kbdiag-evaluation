@@ -1,0 +1,11 @@
+10
+~HearTextReadAloud & ~HowLongShouldWindowsNotificationDialogBoxesStayOpen2
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~TextToSpeech & _0_0Seconds
+~UseTheComputerWithoutADisplay & ~SetupTextToSpeech & S_24
+UseTheComputerWithoutADisplay & _1_5Seconds_
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~SetupTextToSpeech & Control_TheVoiceProperties_Speed_OtherOption
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & TextToSpeech & ~_7Seconds
+UseTheComputerWithoutADisplay & HearTextReadAloud & TuenOnAudioDescription & SetHowMuchTheViewChangesWhenZoomingInOrOut
+~HearTextReadAloud_1 & ~_7_Seconds
+UseTheComputerWithoutADisplay & TextToSpeech & TurnOnMouseKeysWithLeft_ALT_plus_SHIFT_plus_NUMLOCK1
+UseTheComputerWithoutADisplay & HearTextReadAloud_1 & ~HowLongShouldWindowsNotificationDialogBoxesStayOpen

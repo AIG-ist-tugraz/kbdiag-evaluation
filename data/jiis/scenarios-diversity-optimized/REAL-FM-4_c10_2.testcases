@@ -1,0 +1,11 @@
+10
+Storefront & Homepage & ~Staticcontent & Timedependent & ~Shippingcostcalculation
+~Timedependent & Differentperspectives
+Storefront & Homepage & Staticcontent & ~Contenttype & Cardnumber
+Storefront & Homepage & ~Timedependent & ~Registertobrowse
+Storefront & ~Variationsource & Personalized
+Storefront & Homepage & ~Staticcontent & Registrationenforcement & ~a3Dimage
+Storefront & ~Homepage & Registration & ~E_mail
+Storefront & Homepage & ~Staticcontent & Timedependent & Orderstatusreview
+Storefront & ~Dynamiccontent & Reminders
+Storefront & Dynamiccontent & ~Variationsource

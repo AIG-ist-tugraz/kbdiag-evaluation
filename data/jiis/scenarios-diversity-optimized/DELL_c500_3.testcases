@@ -1,0 +1,501 @@
+500
+ProductCategory & MiniNotebooks & ~XPSLaptops & ~Morethan4GB & ~a1GB
+ProductCategory & ~MiniNotebooks & ~IntelAtom & Morethan_1200
+ProductCategory & ~StudioLaptops & ~DVD__RWandCD_RWCombo & Memory
+ProductCategory & ~MiniNotebooks & XPSLaptops & ~a250GB & ~CD_DVD_RW
+ProductCategory & Adamo & a160GB
+~MiniNotebooks & XPSLaptops & ~WindowsXPHome
+~WindowsVista64bit & ~a128GBSolidState
+ProductCategory & ~StudioLaptops & ~WindowsXPHome & ~DVD_ROMDriveandDVD__RW
+ProductCategory & ~StudioLaptops & ~CD_DVD_RW & ~DVD__RWandCD_RWCombo
+ProductCategory & Adamo & BluRayDisc
+ProductCategory & ~MiniNotebooks & Adamo & ~WindowsXPHome & Memory
+~InspironLaptops & DVD_ROMDriveandDVD__RW & a3GB
+~InspironLaptops & ~WindowsXPHome & ~a250GB
+WindowsXPHome & ~a128GBSolidState
+ProductCategory & MiniNotebooks & ~InspironLaptops & ~Adamo & LaptopWeight
+ProductCategory & ~MiniNotebooks & ~XPSLaptops & ~UbuntuLinux & a250GB
+ProductCategory & ~MiniNotebooks & StudioLaptops & Windows7 & ~a160GB
+MiniNotebooks & UltraLight & ~DesktopReplacement
+ProductCategory & ~MiniNotebooks & ~InspironLaptops & WindowsVista64bit & a128GBSolidState
+ProductCategory & MiniNotebooks & ~InspironLaptops & OperatingSystem & ~a320GB
+ProductCategory & ~MiniNotebooks & ~a160GB & ~IntelCeleron
+~StudioLaptops & WindowsVista64bit & ~Windows7
+~MiniNotebooks & Adamo & a1GB
+ProductCategory & XPSLaptops & DVD_ROMDriveandDVD__RW
+~InspironLaptops & StudioLaptops & a2GB
+ProductCategory & ~StudioLaptops & ~a80GB & _400__800
+a250GB & ~CD_DVD_RW
+ProductCategory & ~MiniNotebooks & ~StudioLaptops & Light & ~DesktopReplacement
+ProductCategory & MiniNotebooks & ~XPSLaptops & OperatingSystem & ~_800__1200
+~MiniNotebooks & a250GB & ~_800__1200
+ProductCategory & ~StudioLaptops & ~DVD_ROMDriveandDVD__RW & a2GB
+ProductCategory & MiniNotebooks & ~DVD__RWandCD_RWCombo & LaptopWeight
+ProductCategory & ~InspironLaptops & ~a500GB & Morethan_1200
+ProductCategory & ~MiniNotebooks & ~InspironLaptops & HardDrive & a320GB
+ProductCategory & ~Lessthan_400 & _400__800
+ProductCategory & StudioLaptops & OperatingSystem & ~Morethan4GB
+MiniNotebooks & a160GB & ~DVD_ROMDriveandDVD__RW
+ProductCategory & InspironLaptops & ~DVD__RWandCD_RWCombo & _800__1200
+ProductCategory & ~InspironLaptops & ~a128GBSolidState & _800__1200
+ProductCategory & MiniNotebooks & ~Adamo & ~a500GB & a160GB
+ProductCategory & StudioLaptops & Processor & ~IntelPentiumDualcore
+ProductCategory & ~StudioLaptops & ~XPSLaptops & a3GB
+ProductCategory & MiniNotebooks & ~InspironLaptops & Memory & ~IntelPentiumDualcore
+ProductCategory & InspironLaptops & Windows7 & a500GB
+ProductCategory & ~MiniNotebooks & a4GB & ~a3GB
+ProductCategory & StudioLaptops & IntelCeleron
+MiniNotebooks & ~InspironLaptops & Light
+WindowsVista64bit & a160GB
+DVD_ROMDriveandDVD__RW & DVD__RWandCD_RWCombo
+ProductCategory & XPSLaptops & ~IntelCore2Duo
+ProductCategory & ~MiniNotebooks & ~XPSLaptops & ~StudioXPSLaptops & ~a500GB
+ProductCategory & StudioLaptops & ~a160GB & ~IntelPentiumDualcore
+ProductCategory & XPSLaptops & ~StudioXPSLaptops & ~Lessthan_400
+MiniNotebooks & ~Light & ~IntelCore2Duo
+ProductCategory & ~InspironLaptops & ~CD_DVD_RW & _400__800
+~MiniNotebooks & ~a500GB & ~_400__800
+ProductCategory & InspironLaptops & ~a128GBSolidState & ~a1GB
+ProductCategory & InspironLaptops & ~Windows7 & ~a320GB
+ProductCategory & UltraLight
+ProductCategory & ~StudioLaptops & WindowsVista64bit & a500GB
+ProductCategory & StudioLaptops & a4GB & Processor
+ProductCategory & ~MiniNotebooks & ~StudioLaptops & a128GBSolidState & ~BluRayDisc
+ProductCategory & ~MiniNotebooks & XPSLaptops & ~WindowsVista64bit & ~a1GB
+~InspironLaptops & CD_DVD_RW & ~_400__800
+~StudioLaptops & ~XPSLaptops & ~a128GBSolidState
+ProductCategory & ~StudioLaptops & ~CD_DVD_RW & Price
+ProductCategory & ~MiniNotebooks & ~StudioLaptops & Memory & a2GB
+ProductCategory & MiniNotebooks & ~StudioLaptops & ~Windows7 & ~a80GB
+ProductCategory & ~XPSLaptops & ~WindowsXPHome & ~Morethan_1200
+ProductCategory & StudioLaptops & ~a120GB & UltraLight
+ProductCategory & ~UbuntuLinux & a320GB
+~StudioLaptops & OperatingSystem & IntelAtom
+ProductCategory & ~MiniNotebooks & StudioLaptops & ~OpticalDrive & DesktopReplacement
+ProductCategory & ~StudioLaptops & HardDrive & DesktopReplacement
+ProductCategory & ~MiniNotebooks & ~InspironLaptops & ~a120GB & ~a1GB
+~DesktopReplacement & a4GB
+MiniNotebooks & ~StudioLaptops & ~Morethan_1200
+ProductCategory & MiniNotebooks & ~StudioLaptops & ~UbuntuLinux & _400__800
+ProductCategory & ~InspironLaptops & ~XPSLaptops & ~Windows8
+ProductCategory & ~MiniNotebooks & ~StudioLaptops & XPSLaptops
+ProductCategory & MiniNotebooks & ~StudioLaptops & ~IntelPentiumDualcore & ~_400__800
+ProductCategory & ~a500GB & _800__1200
+ProductCategory & ~InspironLaptops & OpticalDrive & ~_800__1200
+ProductCategory & StudioLaptops & ~DVD_ROMDriveandDVD__RW & UltraLight
+ProductCategory & MiniNotebooks & ~InspironLaptops & ~Morethan4GB & Lessthan_400
+~InspironLaptops & ~a500GB & a80GB
+ProductCategory & ~StudioLaptops & ~a120GB & IntelPentiumDualcore
+ProductCategory & a120GB & a2GB
+InspironLaptops & ~a4GB & ~_800__1200
+ProductCategory & StudioLaptops & OperatingSystem & OpticalDrive
+ProductCategory & MiniNotebooks & a128GBSolidState
+DVD_ROMDriveandDVD__RW & BluRayDisc
+InspironLaptops & ~Processor
+a1GB & IntelCore2Duo
+StudioLaptops & ~HardDrive
+~MiniNotebooks & XPSLaptops & a80GB
+~StudioLaptops & Adamo & DVD__RWandCD_RWCombo
+~MiniNotebooks & StudioXPSLaptops & _400__800
+~InspironLaptops & ~Price
+ProductCategory & WindowsVista64bit & Windows7
+ProductCategory & MiniNotebooks & ~InspironLaptops & ~Adamo & ~a128GBSolidState
+ProductCategory & ~StudioLaptops & ~IntelCeleron & ~_400__800
+Adamo & ~UbuntuLinux
+ProductCategory & MiniNotebooks & ~Adamo & ~a250GB & a1GB
+ProductCategory & ~StudioXPSLaptops & UbuntuLinux
+~a250GB & ~Morethan4GB
+ProductCategory & ~XPSLaptops & StudioXPSLaptops & ~UltraLight
+ProductCategory & ~InspironLaptops & Windows7 & OpticalDrive
+~MiniNotebooks & StudioXPSLaptops & ~Morethan_1200
+ProductCategory & ~MiniNotebooks & ~StudioLaptops & ~WindowsXPHome & a2GB
+ProductCategory & ~MiniNotebooks & InspironLaptops & ~_400__800 & ~Morethan_1200
+ProductCategory & ~XPSLaptops & ~WindowsVista64bit & ~DesktopReplacement
+~MiniNotebooks & Adamo & ~a160GB
+ProductCategory & ~StudioLaptops & XPSLaptops & ~IntelPentiumDualcore
+ProductCategory & MiniNotebooks & ~XPSLaptops & ~Windows7 & Lessthan_400
+ProductCategory & ~MiniNotebooks & ~StudioLaptops & ~DesktopReplacement & a4GB
+ProductCategory & ~MiniNotebooks & Adamo & ~WindowsXPHome & ~IntelAtom
+ProductCategory & ~MiniNotebooks & XPSLaptops & ~Windows8 & OpticalDrive
+ProductCategory & XPSLaptops & ~Adamo & ~a80GB
+ProductCategory & ~MiniNotebooks & ~XPSLaptops & a500GB & Price
+~InspironLaptops & ~a120GB & DesktopReplacement
+ProductCategory & InspironLaptops & Windows8 & a320GB
+ProductCategory & InspironLaptops & Light & Lessthan_400
+ProductCategory & MiniNotebooks & ~XPSLaptops & ~Adamo & IntelAtom
+ProductCategory & ~StudioLaptops & ~UbuntuLinux & IntelPentiumDualcore
+ProductCategory & ~MiniNotebooks & ~Adamo & ~WindowsXPHome & ~a500GB
+ProductCategory & MiniNotebooks & ~StudioLaptops & ~WindowsXPHome & UltraLight
+ProductCategory & ~MiniNotebooks & StudioLaptops & ~Light & ~a3GB
+ProductCategory & ~MiniNotebooks & StudioLaptops & ~BluRayDisc & ~IntelCeleron
+ProductCategory & ~InspironLaptops & ~a160GB & a1GB
+ProductCategory & ~MiniNotebooks & ~InspironLaptops & ~Adamo & ~Windows8
+ProductCategory & ~Light & ~Morethan4GB
+ProductCategory & ~MiniNotebooks & ~StudioLaptops & ~a3GB & ~a2GB
+ProductCategory & ~MiniNotebooks & ~XPSLaptops & Windows8 & ~Light
+ProductCategory & ~MiniNotebooks & XPSLaptops & ~StudioXPSLaptops & a320GB
+ProductCategory & ~InspironLaptops & Light & a4GB
+ProductCategory & InspironLaptops & ~StudioLaptops & ~_800__1200
+ProductCategory & ~MiniNotebooks & ~InspironLaptops & ~OpticalDrive & ~IntelAtom
+ProductCategory & ~XPSLaptops & ~Windows7 & ~a2GB
+ProductCategory & MiniNotebooks & ~XPSLaptops & UbuntuLinux & Lessthan_400
+ProductCategory & MiniNotebooks & ~XPSLaptops & HardDrive & ~OpticalDrive
+ProductCategory & ~MiniNotebooks & ~XPSLaptops & ~WindowsXPHome & DVD_ROMDriveandDVD__RW
+~InspironLaptops & StudioLaptops & a4GB
+ProductCategory & ~InspironLaptops & ~UbuntuLinux & ~DesktopReplacement
+ProductCategory & ~MiniNotebooks & LaptopWeight & ~a2GB
+ProductCategory & ~MiniNotebooks & ~InspironLaptops & ~StudioLaptops & IntelCore2Duo
+ProductCategory & ~MiniNotebooks & ~Adamo & a160GB & ~a80GB
+ProductCategory & MiniNotebooks & ~InspironLaptops & ~Windows7 & ~OpticalDrive
+ProductCategory & ~MiniNotebooks & StudioXPSLaptops & UltraLight
+ProductCategory & MiniNotebooks & ~StudioLaptops & ~IntelCore2Duo
+ProductCategory & ~MiniNotebooks & ~XPSLaptops & ~Windows7 & Price
+ProductCategory & MiniNotebooks & ~StudioLaptops & a120GB & UltraLight
+ProductCategory & ~MiniNotebooks & XPSLaptops & ~a160GB & _800__1200
+ProductCategory & ~MiniNotebooks & ~Adamo & Windows8 & a320GB
+MiniNotebooks & ~UbuntuLinux & ~a320GB
+InspironLaptops & ~UbuntuLinux & ~a500GB
+ProductCategory & ~MiniNotebooks & a500GB & ~a120GB
+ProductCategory & ~a500GB & ~a3GB
+ProductCategory & ~MiniNotebooks & ~a4GB & _400__800
+ProductCategory & ~MiniNotebooks & ~StudioLaptops & ~WindowsVista64bit & a128GBSolidState
+ProductCategory & MiniNotebooks & ~Adamo & UbuntuLinux & a1GB
+ProductCategory & ~MiniNotebooks & ~InspironLaptops & a4GB & _400__800
+ProductCategory & ~MiniNotebooks & ~XPSLaptops & Light & _800__1200
+InspironLaptops & ~a250GB & ~DVD_ROMDriveandDVD__RW
+InspironLaptops & ~WindowsXPHome & ~Windows7
+~MiniNotebooks & UltraLight & _800__1200
+~MiniNotebooks & ~UbuntuLinux & ~a3GB
+ProductCategory & ~MiniNotebooks & XPSLaptops & ~a320GB & ~UltraLight
+InspironLaptops & a160GB & Price
+ProductCategory & ~MiniNotebooks & StudioLaptops & BluRayDisc & ~UltraLight
+~MiniNotebooks & ~WindowsVista64bit & ~a3GB
+ProductCategory & ~MiniNotebooks & ~InspironLaptops & XPSLaptops & ~Windows7
+ProductCategory & ~a500GB & ~a1GB
+ProductCategory & ~MiniNotebooks & OperatingSystem & ~a128GBSolidState
+ProductCategory & ~MiniNotebooks & InspironLaptops & ~a80GB & ~_800__1200
+ProductCategory & StudioLaptops & ~a1GB & _400__800
+ProductCategory & ~MiniNotebooks & XPSLaptops & ~a120GB & a3GB
+ProductCategory & MiniNotebooks & ~XPSLaptops & Lessthan_400 & ~_800__1200
+ProductCategory & ~MiniNotebooks & Adamo & ~UbuntuLinux & ~Windows8
+ProductCategory & ~MiniNotebooks & ~StudioLaptops & ~BluRayDisc & a4GB
+Processor & ~_400__800
+ProductCategory & ~MiniNotebooks & ~Adamo & Windows8 & DVD__RWandCD_RWCombo
+ProductCategory & ~MiniNotebooks & _400__800
+InspironLaptops & ~CD_DVD_RW & ~DVD_ROMDriveandDVD__RW
+ProductCategory & ~MiniNotebooks & InspironLaptops & HardDrive & CD_DVD_RW
+ProductCategory & ~MiniNotebooks & StudioLaptops & ~XPSLaptops & ~IntelPentiumDualcore
+StudioXPSLaptops & a500GB
+InspironLaptops & ~StudioLaptops & ~Lessthan_400
+~MiniNotebooks & OpticalDrive & DVD__RWandCD_RWCombo
+~MiniNotebooks & DVD_ROMDriveandDVD__RW & DesktopReplacement
+~InspironLaptops & ~WindowsXPHome & ~Light
+ProductCategory & MiniNotebooks & OperatingSystem & ~a128GBSolidState
+ProductCategory & ~MiniNotebooks & ~InspironLaptops & ~StudioLaptops & ~OpticalDrive
+ProductCategory & MiniNotebooks & ~InspironLaptops & ~OpticalDrive & ~a4GB
+~WindowsXPHome & DVD_ROMDriveandDVD__RW
+ProductCategory & ~MiniNotebooks & ~Adamo & OperatingSystem & a320GB
+~MiniNotebooks & ~a160GB & DVD_ROMDriveandDVD__RW
+ProductCategory & ~MiniNotebooks & ~StudioLaptops & a2GB & ~IntelCeleron
+~InspironLaptops & a128GBSolidState & UltraLight
+~MiniNotebooks & a2GB & ~Lessthan_400
+ProductCategory & ~MiniNotebooks & ~InspironLaptops & ~XPSLaptops & IntelCore2Duo
+ProductCategory & ~MiniNotebooks & ~XPSLaptops & a500GB & ~IntelCore2Duo
+ProductCategory & ~MiniNotebooks & XPSLaptops & BluRayDisc & a4GB
+ProductCategory & ~InspironLaptops & DVD_ROMDriveandDVD__RW & ~a1GB
+~InspironLaptops & HardDrive & ~OpticalDrive
+ProductCategory & StudioLaptops & ~UbuntuLinux & a3GB
+ProductCategory & ~MiniNotebooks & ~XPSLaptops & ~IntelCore2Duo & ~IntelPentiumDualcore
+ProductCategory & ~XPSLaptops & Windows8 & ~CD_DVD_RW
+InspironLaptops & ~WindowsXPHome
+ProductCategory & InspironLaptops & ~WindowsVista64bit & ~_800__1200
+ProductCategory & ~MiniNotebooks & ~InspironLaptops & ~StudioLaptops & ~Morethan_1200
+ProductCategory & ~InspironLaptops & ~WindowsVista64bit & ~a250GB
+ProductCategory & MiniNotebooks & ~StudioLaptops & Windows8 & LaptopWeight
+ProductCategory & MiniNotebooks & ~Windows8 & IntelAtom
+ProductCategory & ~MiniNotebooks & InspironLaptops & ~StudioXPSLaptops & ~a500GB
+ProductCategory & ~XPSLaptops & WindowsXPHome & ~DVD_ROMDriveandDVD__RW
+ProductCategory & ~MiniNotebooks & ~XPSLaptops & ~a1GB & ~IntelAtom
+ProductCategory & ~MiniNotebooks & ~XPSLaptops & Windows7 & IntelPentiumDualcore
+ProductCategory & ~MiniNotebooks & ~StudioLaptops & ~IntelCeleron & Lessthan_400
+ProductCategory & Morethan4GB & Morethan_1200
+~MiniNotebooks & InspironLaptops & UltraLight
+ProductCategory & ~StudioLaptops & ~XPSLaptops & DesktopReplacement
+DVD__RWandCD_RWCombo & BluRayDisc
+Adamo & ~a128GBSolidState
+~MiniNotebooks & StudioXPSLaptops & WindowsXPHome
+ProductCategory & Lessthan_400 & _800__1200
+~MiniNotebooks & IntelCore2Duo & IntelPentiumDualcore
+ProductCategory & WindowsVista64bit & Windows8
+StudioLaptops & ~Price
+~InspironLaptops & ~Processor
+InspironLaptops & ~LaptopWeight
+StudioLaptops & ~OperatingSystem
+~StudioLaptops & ~Memory
+ProductCategory & Morethan4GB & a3GB
+ProductCategory & StudioLaptops & a120GB
+~ProductCategory & ~InspironLaptops
+ProductCategory & XPSLaptops & UbuntuLinux
+~StudioLaptops & Adamo & IntelAtom
+~MiniNotebooks & Adamo & DVD_ROMDriveandDVD__RW
+MiniNotebooks & ~Adamo & a320GB
+~InspironLaptops & XPSLaptops & a80GB
+~MiniNotebooks & XPSLaptops & a1GB
+ProductCategory & Adamo & Light
+StudioLaptops & ~XPSLaptops & a2GB
+MiniNotebooks & ~StudioLaptops & a500GB
+ProductCategory & StudioLaptops & Morethan_1200
+~MiniNotebooks & XPSLaptops & IntelCeleron
+~MiniNotebooks & StudioLaptops & a160GB
+~MiniNotebooks & Adamo & _400__800
+MiniNotebooks & ~InspironLaptops & a250GB
+ProductCategory & MiniNotebooks & ~StudioLaptops & Price
+ProductCategory & ~MiniNotebooks & XPSLaptops & UltraLight & Price
+ProductCategory & ~MiniNotebooks & ~InspironLaptops & ~UbuntuLinux & DesktopReplacement
+ProductCategory & ~MiniNotebooks & XPSLaptops & OperatingSystem & CD_DVD_RW
+ProductCategory & MiniNotebooks & ~XPSLaptops & ~StudioXPSLaptops & ~DVD__RWandCD_RWCombo
+ProductCategory & InspironLaptops & a320GB & _800__1200
+~MiniNotebooks & a4GB & ~IntelPentiumDualcore
+ProductCategory & ~StudioLaptops & IntelCore2Duo & ~_400__800
+ProductCategory & ~MiniNotebooks & ~StudioLaptops & ~Adamo & IntelPentiumDualcore
+ProductCategory & ~MiniNotebooks & ~StudioLaptops & ~a3GB & ~_800__1200
+ProductCategory & ~MiniNotebooks & ~StudioLaptops & Windows7 & a250GB
+ProductCategory & MiniNotebooks & ~StudioLaptops & ~Adamo & ~IntelCore2Duo
+ProductCategory & ~MiniNotebooks & StudioLaptops & HardDrive & ~_800__1200
+ProductCategory & ~MiniNotebooks & ~Adamo & ~a500GB & ~a128GBSolidState
+ProductCategory & ~MiniNotebooks & ~InspironLaptops & StudioXPSLaptops & CD_DVD_RW
+StudioLaptops & ~Adamo & ~a320GB
+ProductCategory & ~MiniNotebooks & ~InspironLaptops & ~OpticalDrive & ~a2GB
+ProductCategory & WindowsXPHome & _400__800
+ProductCategory & ~MiniNotebooks & ~a160GB & Memory
+ProductCategory & MiniNotebooks & ~XPSLaptops & LaptopWeight & ~IntelCore2Duo
+ProductCategory & ~InspironLaptops & ~_400__800 & ~_800__1200
+ProductCategory & ~MiniNotebooks & ~InspironLaptops & ~a500GB & Morethan4GB
+ProductCategory & ~MiniNotebooks & ~WindowsXPHome & ~_800__1200
+~XPSLaptops & UltraLight
+ProductCategory & ~a128GBSolidState & ~a2GB
+ProductCategory & ~MiniNotebooks & ~InspironLaptops & ~WindowsXPHome & ~_800__1200
+ProductCategory & ~MiniNotebooks & InspironLaptops & ~a3GB & ~a2GB
+ProductCategory & ~MiniNotebooks & ~StudioLaptops & Windows7 & ~a320GB
+~InspironLaptops & StudioLaptops & Windows8
+~StudioLaptops & ~StudioXPSLaptops & ~a80GB
+ProductCategory & MiniNotebooks & ~InspironLaptops & ~Windows8 & ~OpticalDrive
+ProductCategory & ~StudioLaptops & Adamo
+ProductCategory & XPSLaptops & ~a320GB
+ProductCategory & MiniNotebooks & ~StudioLaptops & ~XPSLaptops
+ProductCategory & ~MiniNotebooks & ~InspironLaptops & ~UltraLight & ~IntelAtom
+ProductCategory & ~MiniNotebooks & ~XPSLaptops & ~a320GB & BluRayDisc
+~InspironLaptops & a320GB & _800__1200
+ProductCategory & StudioLaptops & ~a128GBSolidState & ~IntelCeleron
+ProductCategory & ~MiniNotebooks & StudioLaptops & HardDrive & ~IntelCore2Duo
+~InspironLaptops & a500GB & ~a3GB
+~WindowsXPHome & a3GB
+ProductCategory & ~MiniNotebooks & StudioLaptops & Windows7 & HardDrive
+ProductCategory & ~MiniNotebooks & ~InspironLaptops & WindowsVista64bit & ~a160GB
+~InspironLaptops & WindowsVista64bit & ~IntelCore2Duo
+ProductCategory & StudioLaptops & ~UbuntuLinux & ~a1GB
+~InspironLaptops & Adamo & ~a120GB
+ProductCategory & ~MiniNotebooks & StudioLaptops & IntelPentiumDualcore & ~Lessthan_400
+ProductCategory & ~MiniNotebooks & ~Adamo & ~a500GB & ~_800__1200
+InspironLaptops & ~a320GB & ~a1GB
+ProductCategory & ~MiniNotebooks & a320GB & UltraLight
+ProductCategory & InspironLaptops & ~IntelCeleron & ~IntelAtom
+~InspironLaptops & a250GB & LaptopWeight
+ProductCategory & ~MiniNotebooks & a160GB & Processor
+~MiniNotebooks & ~UbuntuLinux & IntelCore2Duo
+ProductCategory & MiniNotebooks & ~a250GB & ~BluRayDisc
+ProductCategory & MiniNotebooks & ~InspironLaptops & ~BluRayDisc & ~IntelCeleron
+ProductCategory & ~MiniNotebooks & StudioLaptops & ~OpticalDrive & ~IntelAtom
+ProductCategory & ~MiniNotebooks & InspironLaptops & ~WindowsVista64bit & ~DesktopReplacement
+ProductCategory & ~StudioLaptops & ~IntelCore2Duo & ~_400__800
+~InspironLaptops & BluRayDisc & ~_800__1200
+ProductCategory & ~InspironLaptops & ~IntelCore2Duo & ~IntelCeleron
+ProductCategory & ~MiniNotebooks & ~UbuntuLinux & DVD_ROMDriveandDVD__RW
+ProductCategory & ~InspironLaptops & ~UltraLight & ~a3GB
+ProductCategory & DVD_ROMDriveandDVD__RW & ~Morethan4GB
+ProductCategory & StudioLaptops & ~Windows8 & a3GB
+ProductCategory & ~MiniNotebooks & StudioLaptops & ~DesktopReplacement & ~IntelAtom
+ProductCategory & XPSLaptops & ~UbuntuLinux & a250GB
+~MiniNotebooks & a500GB & OpticalDrive
+ProductCategory & ~MiniNotebooks & ~XPSLaptops & a160GB & ~IntelCeleron
+ProductCategory & ~MiniNotebooks & XPSLaptops & ~a120GB & ~IntelPentiumDualcore
+ProductCategory & ~MiniNotebooks & ~BluRayDisc & Morethan_1200
+ProductCategory & ~StudioLaptops & HardDrive & Processor
+ProductCategory & ~InspironLaptops & UbuntuLinux & a2GB
+ProductCategory & MiniNotebooks & ~XPSLaptops & ~DVD__RWandCD_RWCombo & Memory
+ProductCategory & InspironLaptops & OpticalDrive & Lessthan_400
+ProductCategory & ~InspironLaptops & ~a160GB & _800__1200
+ProductCategory & ~MiniNotebooks & ~_400__800 & Morethan_1200
+ProductCategory & ~InspironLaptops & a120GB & ~a3GB
+ProductCategory & ~MiniNotebooks & ~DesktopReplacement & ~Morethan_1200
+ProductCategory & ~MiniNotebooks & Windows7 & ~DVD_ROMDriveandDVD__RW
+~MiniNotebooks & a160GB & ~a4GB
+ProductCategory & ~MiniNotebooks & StudioLaptops & Light & ~IntelAtom
+ProductCategory & ~MiniNotebooks & ~InspironLaptops & a320GB & Processor
+ProductCategory & ~MiniNotebooks & ~XPSLaptops & IntelPentiumDualcore & _800__1200
+ProductCategory & ~MiniNotebooks & ~Adamo & ~a160GB & ~UltraLight
+ProductCategory & ~StudioLaptops & Processor & Morethan_1200
+ProductCategory & ~InspironLaptops & ~CD_DVD_RW & a2GB
+~MiniNotebooks & ~a128GBSolidState
+ProductCategory & ~MiniNotebooks & InspironLaptops & OperatingSystem & CD_DVD_RW
+InspironLaptops & ~UbuntuLinux & IntelCore2Duo
+ProductCategory & XPSLaptops & ~UbuntuLinux & BluRayDisc
+ProductCategory & ~MiniNotebooks & InspironLaptops & ~DesktopReplacement & Price
+ProductCategory & ~MiniNotebooks & InspironLaptops & ~StudioLaptops & CD_DVD_RW
+ProductCategory & ~MiniNotebooks & StudioLaptops & ~WindowsXPHome & IntelCore2Duo
+ProductCategory & ~MiniNotebooks & ~InspironLaptops & a500GB & BluRayDisc
+ProductCategory & ~StudioLaptops & ~WindowsXPHome & ~UbuntuLinux
+ProductCategory & ~MiniNotebooks & ~StudioLaptops & ~a4GB & a3GB
+InspironLaptops & IntelCeleron & Price
+InspironLaptops & ~WindowsXPHome & ~IntelCore2Duo
+ProductCategory & MiniNotebooks & ~XPSLaptops & ~DVD_ROMDriveandDVD__RW & ~Light
+InspironLaptops & IntelCore2Duo
+ProductCategory & ~MiniNotebooks & ~WindowsXPHome & HardDrive
+~XPSLaptops & ~IntelPentiumDualcore
+ProductCategory & ~MiniNotebooks & ~StudioLaptops & BluRayDisc & ~Morethan4GB
+ProductCategory & ~MiniNotebooks & StudioLaptops & ~OpticalDrive & ~Morethan_1200
+ProductCategory & InspironLaptops & ~a500GB & ~IntelAtom
+ProductCategory & ~a160GB & ~Morethan_1200
+~StudioLaptops & ~XPSLaptops & ~DVD__RWandCD_RWCombo
+ProductCategory & ~MiniNotebooks & ~InspironLaptops & _400__800 & ~Morethan_1200
+~MiniNotebooks & ~a120GB & a4GB
+~InspironLaptops & ~BluRayDisc & IntelCore2Duo
+ProductCategory & ~MiniNotebooks & ~StudioLaptops & ~a3GB & ~Morethan_1200
+ProductCategory & ~MiniNotebooks & ~InspironLaptops & ~a250GB & ~UltraLight
+ProductCategory & StudioLaptops & ~Windows8 & ~a320GB
+ProductCategory & ~MiniNotebooks & ~XPSLaptops & OpticalDrive & IntelPentiumDualcore
+MiniNotebooks & ~StudioXPSLaptops & ~IntelPentiumDualcore
+ProductCategory & ~MiniNotebooks & ~StudioLaptops & Windows7 & ~_800__1200
+ProductCategory & MiniNotebooks & LaptopWeight & Price
+ProductCategory & ~MiniNotebooks & ~StudioLaptops & BluRayDisc & _800__1200
+InspironLaptops & ~Adamo & a3GB
+ProductCategory & ~XPSLaptops & UbuntuLinux & ~Windows8
+ProductCategory & ~MiniNotebooks & ~Adamo & ~a500GB & ~a320GB
+ProductCategory & MiniNotebooks & ~InspironLaptops & ~a160GB & ~a128GBSolidState
+ProductCategory & OperatingSystem & LaptopWeight
+ProductCategory & MiniNotebooks & ~StudioLaptops & ~a250GB & ~CD_DVD_RW
+~WindowsVista64bit & BluRayDisc
+~InspironLaptops & OpticalDrive & ~DesktopReplacement
+ProductCategory & ~MiniNotebooks & ~a320GB & _400__800
+ProductCategory & InspironLaptops & a320GB & Lessthan_400
+ProductCategory & InspironLaptops & a250GB & ~a1GB
+ProductCategory & ~XPSLaptops & ~UbuntuLinux & ~a3GB
+MiniNotebooks & ~OpticalDrive & IntelAtom
+InspironLaptops & ~DVD_ROMDriveandDVD__RW & ~IntelPentiumDualcore
+ProductCategory & ~MiniNotebooks & ~StudioLaptops & OperatingSystem & ~DesktopReplacement
+ProductCategory & InspironLaptops & ~StudioXPSLaptops & HardDrive
+a1GB & Lessthan_400
+ProductCategory & ~MiniNotebooks & ~Adamo & ~Windows7 & ~a1GB
+a120GB & ~a4GB
+ProductCategory & ~MiniNotebooks & ~Adamo & ~a500GB & ~Light
+ProductCategory & ~InspironLaptops & ~CD_DVD_RW & a4GB
+ProductCategory & ~MiniNotebooks & XPSLaptops & ~Windows8 & ~_400__800
+~InspironLaptops & ~Morethan4GB & a4GB
+ProductCategory & ~MiniNotebooks & ~StudioLaptops & ~WindowsXPHome & ~a160GB
+ProductCategory & ~MiniNotebooks & ~XPSLaptops & DVD__RWandCD_RWCombo & _800__1200
+ProductCategory & ~MiniNotebooks & WindowsVista64bit & ~a1GB
+StudioLaptops & ~Adamo & BluRayDisc
+ProductCategory & ~MiniNotebooks & ~Adamo & ~Windows8 & ~OpticalDrive
+ProductCategory & ~XPSLaptops & ~UbuntuLinux & a160GB
+ProductCategory & ~MiniNotebooks & ~Adamo & ~a160GB & Memory
+InspironLaptops & ~Adamo & Price
+InspironLaptops & a250GB & a3GB
+ProductCategory & ~StudioLaptops & Windows8 & ~IntelAtom
+ProductCategory & MiniNotebooks & ~Adamo & OperatingSystem & ~Windows8
+ProductCategory & InspironLaptops & ~a128GBSolidState & LaptopWeight
+~StudioLaptops & ~Adamo & ~Light
+InspironLaptops & ~UltraLight & Light
+ProductCategory & ~MiniNotebooks & ~InspironLaptops & a500GB & ~_800__1200
+ProductCategory & ~MiniNotebooks & XPSLaptops & ~DVD__RWandCD_RWCombo & ~a2GB
+ProductCategory & MiniNotebooks & ~XPSLaptops & ~IntelPentiumDualcore & ~Morethan_1200
+ProductCategory & ~MiniNotebooks & XPSLaptops & ~CD_DVD_RW & ~a3GB
+~MiniNotebooks & a500GB & DVD__RWandCD_RWCombo
+ProductCategory & ~MiniNotebooks & InspironLaptops & ~StudioXPSLaptops & ~Morethan_1200
+~InspironLaptops & ~a128GBSolidState & IntelAtom
+ProductCategory & ~XPSLaptops & ~Windows8 & CD_DVD_RW
+~WindowsXPHome & ~CD_DVD_RW
+ProductCategory & ~StudioLaptops & ~XPSLaptops & ~IntelPentiumDualcore
+ProductCategory & MiniNotebooks & ~StudioLaptops & ~Morethan4GB & ~IntelPentiumDualcore
+ProductCategory & MiniNotebooks & ~StudioLaptops & ~DesktopReplacement & Processor
+ProductCategory & StudioLaptops & ~DesktopReplacement & ~a1GB
+ProductCategory & InspironLaptops & ~IntelCore2Duo & _400__800
+ProductCategory & MiniNotebooks & ~Adamo & UltraLight
+~InspironLaptops & ~OpticalDrive & ~a3GB
+~MiniNotebooks & ~DesktopReplacement & IntelPentiumDualcore
+ProductCategory & ~StudioLaptops & a250GB & IntelCeleron
+ProductCategory & ~a80GB & BluRayDisc
+Windows7 & a500GB
+ProductCategory & ~MiniNotebooks & ~XPSLaptops & Memory & ~IntelCore2Duo
+ProductCategory & StudioXPSLaptops & ~a80GB
+ProductCategory & MiniNotebooks & ~StudioLaptops & ~a80GB & LaptopWeight
+ProductCategory & ~MiniNotebooks & IntelCore2Duo & ~Morethan_1200
+~MiniNotebooks & ~Windows7 & ~IntelCeleron
+ProductCategory & Morethan4GB & _400__800
+~InspironLaptops & ~a320GB & ~a2GB
+ProductCategory & ~XPSLaptops & StudioXPSLaptops & ~_400__800
+ProductCategory & ~MiniNotebooks & ~XPSLaptops & ~IntelAtom
+ProductCategory & ~MiniNotebooks & InspironLaptops & ~StudioXPSLaptops & ~a120GB
+ProductCategory & ~MiniNotebooks & ~StudioLaptops & a160GB & Processor
+~MiniNotebooks & ~WindowsXPHome & ~a120GB
+ProductCategory & MiniNotebooks & ~a320GB & LaptopWeight
+ProductCategory & ~MiniNotebooks & ~XPSLaptops & ~a250GB & ~DVD_ROMDriveandDVD__RW
+InspironLaptops & ~WindowsXPHome & ~a320GB
+ProductCategory & MiniNotebooks & ~XPSLaptops & OperatingSystem & ~BluRayDisc
+ProductCategory & ~StudioLaptops & a120GB & Memory
+ProductCategory & ~MiniNotebooks & ~StudioLaptops & HardDrive & ~a1GB
+ProductCategory & XPSLaptops & ~Adamo & Windows7
+ProductCategory & ~InspironLaptops & OperatingSystem & ~OpticalDrive
+~InspironLaptops & StudioXPSLaptops & ~Morethan4GB
+ProductCategory & ~MiniNotebooks & StudioLaptops & Windows7 & ~a320GB
+ProductCategory & ~StudioLaptops & IntelCore2Duo & ~Morethan_1200
+ProductCategory & MiniNotebooks & ~XPSLaptops & ~a320GB & a2GB
+~InspironLaptops & StudioLaptops & Morethan4GB
+ProductCategory & Adamo & WindowsXPHome
+~MiniNotebooks & a160GB & ~Light
+XPSLaptops & ~Memory
+ProductCategory & StudioXPSLaptops & a128GBSolidState
+~StudioLaptops & ~HardDrive
+ProductCategory & a500GB & a320GB
+MiniNotebooks & ~Lessthan_400 & ~_400__800
+StudioLaptops & ~Processor
+~StudioLaptops & ~OperatingSystem
+ProductCategory & a4GB & a3GB
+~MiniNotebooks & IntelCore2Duo & IntelCeleron
+ProductCategory & ~OpticalDrive & CD_DVD_RW
+StudioLaptops & ~Adamo & a2GB
+MiniNotebooks & ~StudioLaptops & a250GB
+ProductCategory & Adamo & UbuntuLinux
+MiniNotebooks & ~StudioLaptops & DVD_ROMDriveandDVD__RW
+MiniNotebooks & ~StudioLaptops & WindowsVista64bit
+InspironLaptops & ~XPSLaptops & Morethan_1200
+~MiniNotebooks & StudioXPSLaptops & a80GB
+ProductCategory & XPSLaptops & IntelPentiumDualcore
+ProductCategory & Adamo & a120GB
+ProductCategory & StudioXPSLaptops & IntelAtom
+~MiniNotebooks & Adamo & DesktopReplacement
+~MiniNotebooks & StudioXPSLaptops & BluRayDisc
+ProductCategory & StudioXPSLaptops & a1GB
+~MiniNotebooks & Adamo & _800__1200
+MiniNotebooks & ~InspironLaptops & DVD__RWandCD_RWCombo
+~InspironLaptops & StudioLaptops & a80GB
+~MiniNotebooks & StudioLaptops & IntelCeleron
+ProductCategory & StudioXPSLaptops & Lessthan_400
+~InspironLaptops & StudioXPSLaptops & a120GB
+ProductCategory & InspironLaptops & WindowsVista64bit
+ProductCategory & StudioLaptops & IntelAtom
+~InspironLaptops & StudioXPSLaptops & _400__800
+~InspironLaptops & StudioXPSLaptops & a3GB
+~MiniNotebooks & Adamo & a250GB
+~MiniNotebooks & XPSLaptops & UbuntuLinux
+~MiniNotebooks & InspironLaptops & WindowsXPHome
+~MiniNotebooks & XPSLaptops & DVD_ROMDriveandDVD__RW
+~InspironLaptops & StudioXPSLaptops & DVD_ROMDriveandDVD__RW
+~MiniNotebooks & StudioXPSLaptops & IntelCeleron
+~StudioLaptops & XPSLaptops & a80GB
+~MiniNotebooks & StudioLaptops & Morethan_1200
+ProductCategory & MiniNotebooks & CD_DVD_RW
+~MiniNotebooks & InspironLaptops & IntelAtom
+~MiniNotebooks & StudioLaptops & a120GB
+ProductCategory & InspironLaptops & UbuntuLinux
+~InspironLaptops & Adamo & _400__800
+~MiniNotebooks & XPSLaptops & a2GB

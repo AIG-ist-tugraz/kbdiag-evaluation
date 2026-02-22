@@ -46,9 +46,10 @@ VALID_TASKS = {"1", "all"}
 # Profiler metric keys → short display labels
 PROFILER_COUNTER_LABELS = {
     # "kbdiag_runtime": "KBDiag runtime",
+    "kbdiag_calls": "KBDiag calls",
     "mssDirect_calls": "mssDirect calls",
     "is_consistent_test_cases_calls": "Consistency checks (TC)",
-    "is_consistent_calls": "Consistency checks",
+    "is_consistent_calls": "Solver calls",
     # "quickxplain_with_testcases_runtime": "QuickXPlain+TC runtime",
     "quickxplain_with_testcases_calls": "QuickXPlain+TC calls",
     "qx_with_testcases_calls": "QX+TC calls",

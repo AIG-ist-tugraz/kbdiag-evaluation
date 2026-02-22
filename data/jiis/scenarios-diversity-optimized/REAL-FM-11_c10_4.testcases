@@ -1,0 +1,11 @@
+10
+_id_1 & _id_2 & _id_3 & _id_22 & _id_29
+_id_1 & _id_2 & _id_32 & _id_49
+~_id_29 & _id_62
+~_id_21 & ~_id_24
+_id_1 & _id_2 & _id_4 & _id_15 & ~_id_22
+_id_1 & _id_2 & _id_3 & pumping & ~_id_63
+message & _id_17
+_id_10 & _id_52
+_id_1 & _id_2 & _id_4 & _id_9 & ~_id_28
+_id_1 & ~_id_2 & _id_8

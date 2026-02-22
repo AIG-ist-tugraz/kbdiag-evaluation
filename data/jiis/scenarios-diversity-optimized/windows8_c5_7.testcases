@@ -1,0 +1,6 @@
+5
+SetupTextToSpeech & ~M_7
+UseTheComputerWithoutADisplay & HearTextReadAloud & SpeechRecognition & ~_1_Minute
+~TurnOnNarrator1 & ~LearnAboutAdditionalAssistiveTechnologiesOnline6
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & SeeAlso6
+~HearTextReadAloud_1 & LearnAboutAdditionalAssistiveTechnologiesOnline1

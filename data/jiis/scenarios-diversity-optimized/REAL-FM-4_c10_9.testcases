@@ -1,0 +1,11 @@
+10
+Storefront & ~Homepage & ~Staticcontent & Quantity
+Storefront & ~Homepage & ~Staticcontent & ~Specialoffers & Percentage
+Storefront & ~Timedependent & E_mailwishlist
+Storefront & ~Homepage & ~Staticcontent & Registrationenforcement & ~Externalreferringpages
+~Contenttype & ~Buypaths_4
+Storefront & Homepage & Staticcontent & ~Dynamiccontent & Sound
+Storefront & ~Dynamiccontent & ~Logincredentials
+Dynamiccontent & Shipping1
+Storefront & Homepage & Staticcontent & ~Specialoffers & ~Pop_upads
+Storefront & ~Homepage & ~Timedependent & Personalized

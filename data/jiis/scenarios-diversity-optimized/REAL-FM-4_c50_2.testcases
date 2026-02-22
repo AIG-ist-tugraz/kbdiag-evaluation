@@ -1,0 +1,51 @@
+50
+Storefront & Homepage & ~Staticcontent & Timedependent & ~Shippingcostcalculation
+~Timedependent & Differentperspectives
+Storefront & Homepage & Staticcontent & ~Contenttype & Cardnumber
+Storefront & Homepage & ~Timedependent & ~Registertobrowse
+Storefront & ~Variationsource & Personalized
+Storefront & Homepage & ~Staticcontent & Registrationenforcement & ~a3Dimage
+Storefront & ~Homepage & Registration & ~E_mail
+Storefront & Homepage & ~Staticcontent & Timedependent & Orderstatusreview
+Storefront & ~Dynamiccontent & Reminders
+Storefront & Dynamiccontent & ~Variationsource
+Storefront & Homepage & ~Variationsource & Customfilter
+~Registration & Categorypage
+Storefront & Homepage & Variationsource & ~Fulfillmentsystem
+Storefront & ~Homepage & ~Staticcontent & Registrationenforcement & Paidadvertisements
+Storefront & Responsetracking
+Storefront & ~Homepage & ~Timedependent & Multiplebillingaddresses
+Storefront & Homepage & ~Staticcontent & Contenttype & ~Affiliates
+Storefront & Homepage & ~Staticcontent & ~Specialoffers & Displayandnotification
+Storefront & Homepage & ~Personalized & ~E_mailwishlist
+Storefront & Homepage & Staticcontent & ~Specialoffers & Registeredcheckout
+Storefront & Registration & ~Searching
+~Staticcontent & Externalreferringpages
+Storefront & ~Staticcontent & ~Catalog
+~Paymentoptions
+~Homepage & Specialoffers
+Storefront & Homepage & Specialoffers & Cartcontentpage
+Storefront & Homepage & Staticcontent & Video
+Storefront & Homepage & ~Staticcontent & Registrationenforcement & Guestcheckout
+Storefront & ~Homepage & ~Variationsource & Productclassification
+Storefront & Homepage & Staticcontent & ~Personalized & LinkPoint
+Storefront & Homepage & Staticcontent & ~Personalized & Pricing
+Storefront & Homepage & Contenttype & ~Cartsaveaftersession
+Storefront & ~Contenttype & ~Shipping1
+Storefront & Homepage & ~Staticcontent & Variationsource & ~Paradata
+~Contenttype & Mediafiles
+Storefront & Homepage & Staticcontent & ~Personalized & Pastcustomersalsobought
+Storefront & ~Homepage & ~Staticcontent & ~Registertobrowse & Productvariants
+Homepage & Cardnumber
+Storefront & Homepage & ~Staticcontent & Registrationenforcement & ~CertiTAX
+Storefront & ~Homepage & ~Staticcontent & ~Registertobuy & Creditcard
+Storefront & Homepage & Staticcontent & ~Registrationenforcement & Searching
+Storefront & Homepage & Staticcontent & Registrationenforcement & Timescope
+Storefront & Homepage & ~Staticcontent & Dynamiccontent & Services
+Storefront & Homepage & ~Staticcontent & ~Welcomemessage & FType
+Storefront & Homepage & ~Specialoffers & Billing
+Storefront & Homepage & Specialoffers & ~Graduationby
+~Buypaths_4
+~Registration & None
+~Dynamiccontent & Specialoffers
+~Registration & Securityinformation

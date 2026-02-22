@@ -1,0 +1,6 @@
+5
+ProductCategory & InspironLaptops & Light & Memory
+ProductCategory & InspironLaptops & ~a500GB & ~DesktopReplacement
+~MiniNotebooks & ~WindowsXPHome & a500GB
+MiniNotebooks & ~IntelPentiumDualcore & ~Lessthan_400
+ProductCategory & XPSLaptops & a120GB

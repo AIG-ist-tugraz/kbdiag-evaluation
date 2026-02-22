@@ -1,0 +1,26 @@
+25
+Storefront & ~Homepage & ~Staticcontent & Quantity
+Storefront & ~Homepage & ~Staticcontent & ~Specialoffers & Percentage
+Storefront & ~Timedependent & E_mailwishlist
+Storefront & ~Homepage & ~Staticcontent & Registrationenforcement & ~Externalreferringpages
+~Contenttype & ~Buypaths_4
+Storefront & Homepage & Staticcontent & ~Dynamiccontent & Sound
+Storefront & ~Dynamiccontent & ~Logincredentials
+Dynamiccontent & Shipping1
+Storefront & Homepage & Staticcontent & ~Specialoffers & ~Pop_upads
+Storefront & ~Homepage & ~Timedependent & Personalized
+Storefront & Staticcontent & Ratefactors
+Storefront & Homepage & Staticcontent & ~Registertobrowse & ~Targetingcriteria
+Storefront & Homepage & Staticcontent & Timedependent & ~Paidadvertisements
+~Variationsource & ~Multiplewishlists
+Storefront & Timedependent & ~Pastcustomersalsobought
+Storefront & Homepage & ~Timedependent & Multipleshipments
+Storefront & Homepage & Dynamiccontent & ~Restrictedaccess
+Storefront & Homepage & Staticcontent & Registertobrowse & a3Dimage
+Storefront & Homepage & Variationsource & ~Detailedinformation
+~Timedependent & CyberSource
+Storefront & Homepage & Staticcontent & Dynamiccontent & Previouspurchases1
+Storefront & Homepage & ~Staticcontent & ~Cartsummarypage
+Storefront & ~Contenttype & ~Paymenttypes
+~Timedependent & ~Producttype
+Storefront & Homepage & ~Staticcontent & ~Registrationenforcement & Registertobuy

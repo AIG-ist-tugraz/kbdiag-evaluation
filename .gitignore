@@ -43,6 +43,9 @@ build/
 logs.log
 logs-*.zip
 
+### Python ###
+__pycache__/
+
 *.tmp
 /papers/
 /plans/

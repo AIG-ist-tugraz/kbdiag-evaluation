@@ -1,0 +1,11 @@
+10
+InspironLaptops & a500GB & a4GB
+ProductCategory & ~InspironLaptops & StudioXPSLaptops & ~Windows7
+ProductCategory & MiniNotebooks & ~a120GB & ~DesktopReplacement
+ProductCategory & MiniNotebooks & ~XPSLaptops & ~UbuntuLinux & ~IntelPentiumDualcore
+~InspironLaptops & Adamo & IntelPentiumDualcore
+ProductCategory & ~MiniNotebooks & ~InspironLaptops & IntelPentiumDualcore & ~IntelCeleron
+ProductCategory & ~MiniNotebooks & ~StudioLaptops & a160GB & IntelCore2Duo
+ProductCategory & ~StudioLaptops & Light & IntelCeleron
+~InspironLaptops & a320GB & Morethan_1200
+ProductCategory & ~MiniNotebooks & Adamo & CD_DVD_RW

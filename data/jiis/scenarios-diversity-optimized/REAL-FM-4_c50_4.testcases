@@ -1,0 +1,51 @@
+50
+Storefront & ~Homepage & ~Staticcontent & ~Registration & Manufacturername
+Storefront & Homepage & Welcomemessage & Productclassification
+Storefront & Homepage & ~Staticcontent & Contenttype & FType
+Storefront & ~Homepage & ~Specialoffers & Multipleshippingaddresses
+~Homepage & ~Cartcontentpage
+~Contenttype & ~LinkPoint
+Contenttype & Logincredentials
+Storefront & ~Homepage & ~Personalized & Inventorymanagementsystem
+Storefront & ~Homepage & ~Staticcontent & ~Registration & ~Pricing
+Storefront & ~Homepage & ~Registration & Multiplebillingaddresses
+Storefront & Homepage & Contenttype & Eletroniccheque
+Storefront & Homepage & ~Staticcontent & Contenttype & CertiTAX
+Storefront & ~Personalized & Locallyvisitedpages
+Specialoffers & ~Purchaseorder
+Contenttype & Browsing
+Storefront & Personalized & Eletronicgoods
+~Education & Storefront
+Storefront & Staticcontent & ~Price_Qualityratio
+Storefront & Staticcontent & Commissiontracking
+Storefront & Homepage & Personalized & Productandquantityscope
+Timedependent & Cartsummarypage
+Storefront & ~Homepage & ~Specialoffers & Registrationinformation
+Storefront & ~Homepage & ~Registration & Publicaccess
+~Dynamiccontent & ~Producttype
+Storefront & ~Staticcontent & ~Paymenttypes
+Storefront & Homepage & ~Staticcontent & ~Customshippingmethod
+Storefront & Homepage & Staticcontent & Contenttype & ~Physicalgoods
+Storefront & Homepage & ~Welcomemessage & ~Eletronicpage
+Storefront & Homepage & Staticcontent & ~Registration & Differentperspectives
+Storefront & ~Homepage & ~Staticcontent & Registertobuy & ~Qualityofserviceselection
+~Variationsource & ~Shippingcostcalculation
+Storefront & ~Homepage & ~Staticcontent & ~Registertobrowse & Fixeddiscount
+~Dynamiccontent & Reportformats
+Storefront & ~Registrationenforcement & Questionandfeedbackforms
+Storefront & Homepage & ~Staticcontent & Specialoffers & ~Availability
+~E_mailwishlist
+Storefront & Homepage & ~Staticcontent & Welcomemessage & ~Registrationenforcement
+Storefront & Homepage & Staticcontent & Registration & ~Personalinformation
+Storefront & Homepage & ~Automatic
+Storefront & Homepage & Welcomemessage & Paidadvertisements
+Storefront & Multiplebillingaddresses
+Storefront & Homepage & Address
+Storefront & Homepage & ~Staticcontent & ~Registration & ~Authorize_Net
+Storefront & Homepage & Staticcontent & Registertobrowse & ~COD
+Personalized & Ordernumber
+Storefront & Homepage & Registertobrowse & ~Wishlist
+~Staticcontent & ~Inventorymanagementpolicy
+Storefront & ~Registration & Customerpreferences
+Storefront & ~Welcomemessage & ~Catalog
+Storefront & ~Dynamiccontent & Personalized

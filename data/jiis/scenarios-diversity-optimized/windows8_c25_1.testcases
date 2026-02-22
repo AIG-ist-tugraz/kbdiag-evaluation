@@ -1,0 +1,26 @@
+25
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & SetupTextToSpeech & _30_Seconds
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~TurnOnNarrator1 & PreventWindowsFromBeingAutomaticallyArrangedWhenMovedToTheEdgeOfTheScreen
+UseTheComputerWithoutADisplay & HearTextReadAloud & TextToSpeech & ~LearnAboutAdditionalAssistiveTechnologiesOnline3
+UseTheComputerWithoutADisplay & ~TextToSpeech & ~M_14
+~SetupTextToSpeech & Advanced2
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~SetupTextToSpeech & Sounds
+TuenOnAudioDescription & ~AdjustTimeLimitsAndFlashingVisuals2
+TextToSpeech & ~Menus
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ME_23
+UseTheComputerWithoutADisplay & ~SetupTextToSpeech & Advanced2
+TuenOnAudioDescription & ~_7Seconds
+TuenOnAudioDescription & ~_1_4Seconds
+UseTheComputerWithoutADisplay & SpeechRecognition & ~S_19
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~TextToSpeech & ~ChangeOnlyTheTextSize
+TuenOnAudioDescription & ~Fast4
+SetupTextToSpeech & MicrosoftZiraDesktopEnglishUS
+HearTextReadAloud_1 & ~DisplayAWarningMessageWhenTurningASettingOn1
+~UseTheComputerWithoutADisplay & ~SetupTextToSpeech & ~CursorBlinkRate
+UseTheComputerWithoutADisplay & TuenOnAudioDescription & Magnifier1_1
+UseTheComputerWithoutADisplay & TurnOnNarrator1 & SetupMouseKeys
+~TextToSpeech & LearnAboutAdditionalAssistiveTechnologiesOnline3
+~PreventWindowsFromBeingAutomaticallyArrangedWhenMovedToTheEdgeOfTheScreen2
+~HearTextReadAloud & Advanced
+~HearTextReadAloud_1 & Playback
+~UseTheComputerWithoutADisplay & HowLongShouldWindowsNotificationDialogBoxesStayOpen1

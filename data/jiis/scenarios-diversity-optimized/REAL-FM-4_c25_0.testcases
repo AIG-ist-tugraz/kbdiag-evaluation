@@ -1,0 +1,26 @@
+25
+Storefront & ~Staticcontent & ~Cartsummarypage
+~Welcomemessage & Displayandnotification
+Storefront & Homepage & Staticcontent & Specialoffers & UPS
+Storefront & ~Homepage & ~Staticcontent & Registertobuy & Qualityofserviceselection
+~Homepage & Staticcontent
+Storefront & Dynamiccontent & ~Advertisements
+Storefront & Homepage & ~Staticcontent & ~Registration & Multipleclassification
+Welcomemessage & Personalized
+Storefront & Homepage & Staticcontent & Registertobuy & Taxgateways
+Storefront & Homepage & Registertobrowse & ~Wishlistsaveaftersession
+Storefront & ~Homepage & Registration & ~E_mails
+~Contenttype & Education
+Storefront & Homepage & ~Staticcontent & Welcomemessage & ~UPS
+Storefront & Homepage & ~Contenttype & ~Cross_selling
+Shipmentstatustracking
+Storefront & Homepage & ~Staticcontent & Dynamiccontent & ~Registration
+Storefront & ~Homepage & ~Staticcontent & ~Registrationenforcement & ~Customfilter
+Storefront & Homepage & ~Timedependent & Userbehaviourtracking
+Storefront & Homepage & ~Timedependent & Warehousemanagement
+Storefront & Homepage & Staticcontent & Registration & Affiliates
+Storefront & Homepage & Staticcontent & ~Welcomemessage & Orderstatusreview
+Storefront & Timedependent & Advertisementresponsetracking
+Storefront & ~Homepage & Registertobrowse & ~Wishlistsaveaftersession
+~Registration & Multipleshippingaddresses
+Dynamiccontent & ~Contenttype

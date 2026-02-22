@@ -1,0 +1,11 @@
+10
+ProductCategory & ~StudioLaptops & OpticalDrive & ~a4GB
+~InspironLaptops & ~WindowsXPHome & a4GB
+ProductCategory & MiniNotebooks & ~InspironLaptops & IntelAtom & ~_400__800
+~a160GB & a1GB
+ProductCategory & WindowsVista64bit & a160GB
+ProductCategory & ~MiniNotebooks & ~InspironLaptops & StudioXPSLaptops & LaptopWeight
+ProductCategory & ~MiniNotebooks & ~XPSLaptops & ~WindowsXPHome & Windows7
+~InspironLaptops & ~WindowsVista64bit & ~UbuntuLinux
+MiniNotebooks & a80GB & ~Light
+InspironLaptops & ~StudioLaptops & UbuntuLinux

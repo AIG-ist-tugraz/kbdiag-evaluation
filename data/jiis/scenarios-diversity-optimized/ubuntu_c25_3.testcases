@@ -1,0 +1,26 @@
+25
+~Appearance & ~AmbianceDefault & ~EnableHorizontalScrolling
+Appearance & Look & ~DelicatePetals1920x1280 & ~HighContrastInverse
+~Appearance & ~Look & ~TwillightFrost1920x1280 & SimulatedSecondaryCLick
+DelicatePetals1920x1280 & ToggleMaximisationState
+~Theme & _32
+~Appearance & ~Look & ~Background & ~Ubuntu1920x1280 & ~HighContrastOnOrOff
+~Appearance & ~Look & ~Background & ~TwillightFrost1920x1280 & ~DisableTouchpadWhileTyping
+Appearance & AmbianceDefault & ~_180Degres
+~Appearance & ~Look & ~Background & ~AmbianceDefault & Short6
+~Appearance & Look & ~DelicatePetals1920x1280
+Appearance & Look & Background & TwillightFrost1920x1280 & LockScreen
+~Appearance & ~Look & ~Background & ~MorningDew1920x1280 & ~_30Seconds
+Appearance & Look & Background & ~Radiance & ~_10Minutes_
+Appearance & Look & Background & HighContrast & PointerSpeed2
+Appearance & Look & Background & PrecisePagolin1920x1280 & Acceleration2
+Appearance & Background & _5Minutes_
+Appearance & MorningDew1920x1280 & Mouse_2
+Appearance & HighContrastInverse & ~CustomShortcuts
+~TwillightFrost1920x1280 & Disabled4
+Appearance & ~EarlyBlossom1920x1280 & ShowPositionOfPointerWhenTheControlKeyIsPressed
+Appearance & Look & Background & ~Radiance & Disabled10
+EarlyBlossom1920x1280 & Normal
+~Appearance & ~MorningDew1920x1280 & AutoHideTheLauncher
+DelicatePetals1920x1280 & EarlyBlossom1920x1280
+~Look & HighContrast

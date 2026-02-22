@@ -1,0 +1,11 @@
+10
+_id_1 & ~_id_30 & ~_id_41
+_id_1 & _id_2 & _id_15 & _id_45
+_id_1 & _id_2 & _id_3 & _id_35 & _id_49
+_id_1 & _id_2 & _id_50 & ~_id_62
+~_id_8 & ~water
+_id_1 & _id_3 & ~_id_8 & ~flood
+_id_1 & _id_2 & _id_4 & ~_id_13 & ~_id_24
+communication & _id_50
+_id_1 & _id_2 & _id_3 & _id_17 & ~pumping
+_id_1 & _id_2 & ~flood & _id_30

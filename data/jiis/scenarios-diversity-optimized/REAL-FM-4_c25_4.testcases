@@ -1,0 +1,26 @@
+25
+Storefront & ~Homepage & ~Staticcontent & ~Registration & Manufacturername
+Storefront & Homepage & Welcomemessage & Productclassification
+Storefront & Homepage & ~Staticcontent & Contenttype & FType
+Storefront & ~Homepage & ~Specialoffers & Multipleshippingaddresses
+~Homepage & ~Cartcontentpage
+~Contenttype & ~LinkPoint
+Contenttype & Logincredentials
+Storefront & ~Homepage & ~Personalized & Inventorymanagementsystem
+Storefront & ~Homepage & ~Staticcontent & ~Registration & ~Pricing
+Storefront & ~Homepage & ~Registration & Multiplebillingaddresses
+Storefront & Homepage & Contenttype & Eletroniccheque
+Storefront & Homepage & ~Staticcontent & Contenttype & CertiTAX
+Storefront & ~Personalized & Locallyvisitedpages
+Specialoffers & ~Purchaseorder
+Contenttype & Browsing
+Storefront & Personalized & Eletronicgoods
+~Education & Storefront
+Storefront & Staticcontent & ~Price_Qualityratio
+Storefront & Staticcontent & Commissiontracking
+Storefront & Homepage & Personalized & Productandquantityscope
+Timedependent & Cartsummarypage
+Storefront & ~Homepage & ~Specialoffers & Registrationinformation
+Storefront & ~Homepage & ~Registration & Publicaccess
+~Dynamiccontent & ~Producttype
+Storefront & ~Staticcontent & ~Paymenttypes

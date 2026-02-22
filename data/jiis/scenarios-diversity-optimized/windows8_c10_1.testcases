@@ -1,0 +1,11 @@
+10
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & SetupTextToSpeech & _30_Seconds
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~TurnOnNarrator1 & PreventWindowsFromBeingAutomaticallyArrangedWhenMovedToTheEdgeOfTheScreen
+UseTheComputerWithoutADisplay & HearTextReadAloud & TextToSpeech & ~LearnAboutAdditionalAssistiveTechnologiesOnline3
+UseTheComputerWithoutADisplay & ~TextToSpeech & ~M_14
+~SetupTextToSpeech & Advanced2
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~SetupTextToSpeech & Sounds
+TuenOnAudioDescription & ~AdjustTimeLimitsAndFlashingVisuals2
+TextToSpeech & ~Menus
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ME_23
+UseTheComputerWithoutADisplay & ~SetupTextToSpeech & Advanced2

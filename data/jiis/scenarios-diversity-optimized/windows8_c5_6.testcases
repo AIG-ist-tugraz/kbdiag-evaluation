@@ -1,0 +1,6 @@
+5
+~HearTextReadAloud & ~HowLongShouldWindowsNotificationDialogBoxesStayOpen2
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~TextToSpeech & _0_0Seconds
+~UseTheComputerWithoutADisplay & ~SetupTextToSpeech & S_24
+UseTheComputerWithoutADisplay & _1_5Seconds_
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~SetupTextToSpeech & Control_TheVoiceProperties_Speed_OtherOption

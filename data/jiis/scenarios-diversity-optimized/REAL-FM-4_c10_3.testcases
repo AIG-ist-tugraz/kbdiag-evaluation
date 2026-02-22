@@ -1,0 +1,11 @@
+10
+Registration & ~Categories1
+Storefront & Registration & Pricing
+Storefront & Homepage & ~Staticcontent & Contenttype & Permissions
+Storefront & Homepage & ~Staticcontent & Personalized & CyberSource
+Storefront & Contenttype & ~Variationsource
+Storefront & Homepage & Registration & ~Servicesfulfillment
+Storefront & ~Homepage & ~Staticcontent & ~Registrationenforcement & Sound
+Storefront & Homepage & Staticcontent & Contenttype & Mail
+Storefront & Staticcontent & ~CertiTAX
+Storefront & ~Homepage & ~Registration & Quickcheckoutprofile

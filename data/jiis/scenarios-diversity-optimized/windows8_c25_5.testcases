@@ -1,0 +1,26 @@
+25
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~TurnOnNarrator1 & S_21
+SetupTextToSpeech & ~Fast4
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~SetupTextToSpeech & LargeWhite
+UseTheComputerWithoutADisplay & TuenOnAudioDescription & ~Magnifier1
+~HearTextReadAloud_1 & NumberOfSpaceToInsertAfterPonctuation
+TextToSpeech & TB_10
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~SetupTextToSpeech & ME_14
+UseTheComputerWithoutADisplay & ~TuenOnAudioDescription & MakeTouchEasierToUse
+UseTheComputerWithoutADisplay & HearTextReadAloud & Control_TheVoiceProperties_Speed_OtherOption & ~S_18
+~UseTheComputerWithoutADisplay & Fast1
+HearTextReadAloud & PreventWindowsFromBeingAutomaticallyArrangedWhenMovedToTheEdgeOfTheScreen1
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & TuenOnAudioDescription & ~Low2
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & TurnOnNarrator1 & Fast2
+UseTheComputerWithoutADisplay & ~TuenOnAudioDescription & WindowsDefault
+~HearTextReadAloud & ~UseVisualCuesInteadOfSounds
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~TextToSpeech & ~SetupMouseKeys1
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~SetupTextToSpeech & ~Pointer
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~SetupTextToSpeech & Speed
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~TuenOnAudioDescription & ~PlayWindowsStartupSound
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~SetupTextToSpeech & TurnOnToggleKeys
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~SetupTextToSpeech & ~TurnOffAllUnnecessaryAnimation
+UseTheComputerWithoutADisplay & HearTextReadAloud & TextToSpeech & ~KeyboardSettings
+~UseTheComputerWithoutADisplay & ~TuenOnAudioDescription & ~SetupMouseKeys
+~HearTextReadAloud & AudioOutput
+~HearTextReadAloud_1 & Microphone2

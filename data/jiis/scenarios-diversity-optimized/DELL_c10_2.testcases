@@ -1,0 +1,11 @@
+10
+ProductCategory & InspironLaptops & Light & Memory
+ProductCategory & InspironLaptops & ~a500GB & ~DesktopReplacement
+~MiniNotebooks & ~WindowsXPHome & a500GB
+MiniNotebooks & ~IntelPentiumDualcore & ~Lessthan_400
+ProductCategory & XPSLaptops & a120GB
+ProductCategory & ~MiniNotebooks & ~StudioLaptops & LaptopWeight & ~a1GB
+ProductCategory & ~MiniNotebooks & ~a250GB & Morethan_1200
+ProductCategory & ~MiniNotebooks & ~Adamo & ~a500GB & ~OpticalDrive
+ProductCategory & InspironLaptops & IntelCeleron & ~_400__800
+~MiniNotebooks & Adamo & DVD__RWandCD_RWCombo

@@ -1,0 +1,11 @@
+10
+Adamo & Morethan_1200
+ProductCategory & ~MiniNotebooks & ~StudioLaptops & Morethan4GB & ~_400__800
+ProductCategory & ~MiniNotebooks & Adamo & OperatingSystem & ~Lessthan_400
+BluRayDisc & ~IntelCore2Duo
+ProductCategory & ~StudioLaptops & DVD_ROMDriveandDVD__RW
+ProductCategory & MiniNotebooks & ~StudioLaptops & ~a320GB & ~a2GB
+MiniNotebooks & ~WindowsVista64bit & ~Morethan_1200
+ProductCategory & ~MiniNotebooks & Adamo & ~WindowsXPHome & ~IntelCeleron
+ProductCategory & ~MiniNotebooks & ~DVD_ROMDriveandDVD__RW & ~Light
+~StudioLaptops & Adamo & IntelPentiumDualcore

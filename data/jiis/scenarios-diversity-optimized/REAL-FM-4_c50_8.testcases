@@ -1,0 +1,51 @@
+50
+Storefront & ~Welcomemessage & ~Catalog1
+Storefront & Homepage & Staticcontent & ~E_mail
+~Variationsource & ~Eletronicgoodsfulfillment
+Storefront & Homepage & ~Staticcontent & ~Specialoffers & ~Billing
+Storefront & Staticcontent & ~Basicinformation
+Personalized & ~Questionandfeedbacktracking
+~Staticcontent & Customfields1
+~Personalized & ~Reporttypes
+Storefront & Homepage & Staticcontent & ~Registertobuy & Customfields
+Storefront & Homepage & ~Registration & Listsize
+Storefront & Staticcontent & Region
+Storefront & ~Variationsource & Handlingmultiplediscounts
+Storefront & Homepage & ~Timedependent & Behaviourtracked
+Storefront & Homepage & ~Staticcontent & ~Registration & Categories1
+Storefront & ~Homepage & ~Staticcontent & ~Registertobrowse & ~Quantity
+~Contenttype & Resolution
+Storefront & Welcomemessage & Shippingaddress1
+Storefront & Homepage & ~Dynamiccontent & Indexpage
+Storefront & Homepage & Welcomemessage & Size
+Storefront & ~Homepage & ~Staticcontent & ~Personalized & Dateandtime
+Storefront & ~Homepage & ~Personalized & Privateaccess
+Storefront & ~Homepage & Registertobrowse & ~Orderdate
+Storefront & Dynamiccontent & ~Buypaths_4
+~Variationsource & ~Producttype
+Storefront & ~Homepage & ~Registration & None
+Storefront & ~Homepage & ~Staticcontent & ~Welcomemessage & Responsetracking
+Storefront & Homepage & ~Staticcontent & Variationsource & Carrierselection
+Storefront & Homepage & Staticcontent & Taxgateways
+Storefront & ~Homepage & ~Staticcontent & ~Registrationenforcement & ~Size
+Storefront & Homepage & Staticcontent & Specialoffers & Paymentoptions
+Storefront & Homepage & Staticcontent & ~Specialoffers & Shippingoptions
+Storefront & Homepage & Staticcontent & Contenttype & ~FType
+Storefront & Homepage & ~Staticcontent & ~Registrationenforcement & Surcharge
+Storefront & ~Registration & Previouspurchases1
+Homepage & Customshippingmethod
+Storefront & Homepage & ~Staticcontent & Variationsource & Customerpreferences
+Storefront & Homepage & Staticcontent & ~Specialoffers & ~Previouspurchases1
+~Contenttype & Reporttypes
+Storefront & ~Homepage & ~Staticcontent & ~Timedependent & ~Sortingfilters
+Storefront & ~Welcomemessage & Ratefactors
+Storefront & Homepage & ~Registertobrowse & Documents
+Storefront & Homepage & ~Staticcontent & ~Timedependent & Timescope
+Storefront & ~Homepage & CyberSource
+Storefront & Homepage & ~Registrationenforcement & ~Customfilter
+Storefront & Homepage & Specialoffers & Orderstatusreview
+Storefront & Contenttype & ~Producttype
+~Dynamiccontent & ~Paymenttypes
+Storefront & ~Homepage & ~Specialoffers & Timedependent
+Storefront & ~Homepage & ~Registration & Income
+Storefront & Homepage & ~Staticcontent & ~Registrationenforcement & Permissions

@@ -1,0 +1,51 @@
+50
+Storefront & ~Homepage & ~Staticcontent & Quantity
+Storefront & ~Homepage & ~Staticcontent & ~Specialoffers & Percentage
+Storefront & ~Timedependent & E_mailwishlist
+Storefront & ~Homepage & ~Staticcontent & Registrationenforcement & ~Externalreferringpages
+~Contenttype & ~Buypaths_4
+Storefront & Homepage & Staticcontent & ~Dynamiccontent & Sound
+Storefront & ~Dynamiccontent & ~Logincredentials
+Dynamiccontent & Shipping1
+Storefront & Homepage & Staticcontent & ~Specialoffers & ~Pop_upads
+Storefront & ~Homepage & ~Timedependent & Personalized
+Storefront & Staticcontent & Ratefactors
+Storefront & Homepage & Staticcontent & ~Registertobrowse & ~Targetingcriteria
+Storefront & Homepage & Staticcontent & Timedependent & ~Paidadvertisements
+~Variationsource & ~Multiplewishlists
+Storefront & Timedependent & ~Pastcustomersalsobought
+Storefront & Homepage & ~Timedependent & Multipleshipments
+Storefront & Homepage & Dynamiccontent & ~Restrictedaccess
+Storefront & Homepage & Staticcontent & Registertobrowse & a3Dimage
+Storefront & Homepage & Variationsource & ~Detailedinformation
+~Timedependent & CyberSource
+Storefront & Homepage & Staticcontent & Dynamiccontent & Previouspurchases1
+Storefront & Homepage & ~Staticcontent & ~Cartsummarypage
+Storefront & ~Contenttype & ~Paymenttypes
+~Timedependent & ~Producttype
+Storefront & Homepage & ~Staticcontent & ~Registrationenforcement & Registertobuy
+Storefront & ~Specialoffers & ~Quickcheckout
+Storefront & ~Homepage & ~Staticcontent & ~Registration & ~Eletroniccheque
+Storefront & Homepage & ~Registration & Purchasevaluescope
+Storefront & Homepage & Staticcontent & ~Variationsource & Sound
+Storefront & Homepage & ~Staticcontent & ~Registertobrowse & Securityinformation
+Storefront & ~Personalized & Age
+Storefront & Specialoffers & E_mails
+Storefront & Homepage & Specialoffers & Pricing
+Storefront & Homepage & Staticcontent & Timedependent & Questionandfeedbacktracking
+Storefront & Homepage & Staticcontent & ~Variationsource & ~Differentperspectives
+~Size & Catalog
+Storefront & ~Homepage & ~Staticcontent & ~Registertobrowse & Catalog1
+Storefront & Homepage & Staticcontent & Indexpage
+Storefront & Homepage & Staticcontent & ~Contenttype & ~Ordernumber
+Storefront & Dynamiccontent & ~Frauddetection
+Storefront & ~Homepage & ~Staticcontent & ~Multipleshippingaddresses
+Storefront & ~Specialoffers & ~Procurementsystem
+Storefront & Homepage & Staticcontent & Dynamiccontent & Administration
+Storefront & Homepage & ~Staticcontent & Registertobrowse & ~Appointmentscheduling
+Storefront & Homepage & ~Staticcontent & Registertobuy & ~CyberSource1
+Storefront & ~Contenttype & ~Buypaths_4
+~Timedependent & ~Basicinformation
+Storefront & Homepage & ~Registrationenforcement & Logincredentials
+Storefront & Homepage & Staticcontent & ~Registration & Restrictedaccess
+Storefront & ~Homepage & Welcomemessage & ~Timedependent

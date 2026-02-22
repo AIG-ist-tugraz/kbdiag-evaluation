@@ -1,0 +1,26 @@
+25
+Storefront & Specialoffers & ~Reporttypes
+Storefront & Homepage & Staticcontent & Registertobrowse & Multi_level
+~Personalized & Paymentoptions
+Storefront & Homepage & ~Timedependent & ~Warehousemanagement
+Storefront & Homepage & ~Staticcontent & ~Registration & Billingaddress
+Storefront & Homepage & ~Staticcontent & Welcomemessage & ~Inventorymanagementsystem
+Homepage & ~Levelofdetail
+Storefront & ~Homepage & Registration & CertiTAX
+Storefront & ~Homepage & ~Variationsource & Userbehaviourtracking
+Storefront & ~Registrationenforcement & Language
+Storefront & Homepage & Staticcontent & ~Registration & ~Customfields
+Storefront & Homepage & ~Specialoffers & ~None
+Storefront & Homepage & ~Variationsource & ~Timescope
+~Personalized & ~USPS
+Storefront & Homepage & Staticcontent & ~Personalized & Shipmentstatustracking
+Storefront & ~Homepage & ~Staticcontent & ~Contenttype & ~Timescope
+Storefront & ~Homepage & ~Registrationenforcement & Customersegments
+Storefront & ~Registrationenforcement & Resolution
+Storefront & ~Homepage & ~Staticcontent & ~Variationsource & ~Discounts
+Contenttype & Privateaccess
+Storefront & Homepage & Staticcontent & ~Timedependent & Manufacturername
+Storefront & Homepage & ~Registertobrowse & Wishlistsaveaftersession
+Storefront & Homepage & Staticcontent & ~Dynamiccontent & Variationsource
+~Contenttype & ~Inventorymanagementpolicy
+Storefront & ~Personalized & ~Catalog

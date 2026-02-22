@@ -1,0 +1,51 @@
+50
+Storefront & Homepage & Staticcontent & Welcomemessage & Procurement
+Staticcontent & Customfields1
+Storefront & Homepage & ~Welcomemessage & Sitelayout
+Storefront & Homepage & Staticcontent & Contenttype & Complexproductconfiguration
+Storefront & Specialoffers & ~Graduationby
+Storefront & Specialoffers & ~SkipJack
+Storefront & Homepage & Staticcontent & ~Welcomemessage & ~Wishlistsaveaftersession
+Storefront & ~Homepage & ~Registration & ~Sound
+Storefront & ~Variationsource & Authorize_Net
+Storefront & ~Contenttype & Welcomemessage
+Storefront & Homepage & Staticcontent & Registrationenforcement & ~Video
+Storefront & ~Homepage & ~Staticcontent & ~Variationsource & Bannerads
+Storefront & ~Homepage & ~Staticcontent & ~Contenttype & ~Quantity
+Storefront & Homepage & Dynamiccontent & ~Custompaymenttype
+Storefront & Homepage & Personalized & ~Custompaymenttype
+Storefront & Homepage & ~Staticcontent & Registertobrowse & ~Dateandtime
+Storefront & Homepage & ~Personalized & Domainnamesetup
+Storefront & Homepage & Registration & Questionandfeedbacktracking
+Storefront & ~Variationsource & Customfields1
+Storefront & Homepage & Registrationenforcement & ~Language
+Storefront & Homepage & Welcomemessage & Buypaths_4
+Storefront & ~Homepage & ~Staticcontent & ~Registration & ~Substituteproducts
+~Registration & Privateaccess
+Storefront & Specialoffers & ~Handlingmultiplediscounts
+~ProductInformation
+Storefront & Homepage & Registertobrowse & ~Customfields1
+Storefront & Homepage & Staticcontent & Registertobuy & ~Customviews
+Storefront & ~Homepage & ~Staticcontent & ~Registration & Generallayoutmanagement
+Storefront & Homepage & Welcomemessage & ~Percentagediscount
+Storefront & Homepage & Staticcontent & Registration & ~Multiplecatalogs
+Registration & None
+Storefront & Homepage & Staticcontent & Variationsource & ~Servicesfulfillment
+Storefront & Dynamiccontent & ~Taxgateways
+Storefront & Homepage & ~Timedependent & ~Freeitem
+Storefront & ~Dynamiccontent & Pastcustomersalsobought
+Storefront & Registrationenforcement & Eletroniccheque
+Storefront & Homepage & ~Contenttype & Sitesearch
+Storefront & Dynamiccontent & Checkout
+Storefront & Homepage & Productclassification
+Storefront & ~Securityinformation
+Storefront & Homepage & ~Specialoffers & ~Userbehaviourtracking
+Storefront & Homepage & ~Staticcontent & Registrationenforcement & ~Customviews
+Dynamiccontent & ~Purchasevalue
+Variationsource & ~Customshippingmethod
+~Timedependent & Advertisementtypes
+~Registration & Demographics
+Storefront & Specialoffers & ~Award
+~Checkout
+~Homepage & Personalized
+Storefront & Registrationenforcement & ~Wishlist
