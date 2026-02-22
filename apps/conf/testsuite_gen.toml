@@ -37,3 +37,11 @@ model = "data/jiis/fms/windows8.uvl"
 [[fm]]
 name = "linux"
 model = "data/jiis/fms/linux-2.6.33.3.uvl"
+
+[[fm]]
+name = "CNNl"
+model = "data/jiis/fms/Ghamizi2019-light.uvl"
+
+[[fm]]
+name = "EA"
+model = "data/jiis/fms/ea2468.uvl"
