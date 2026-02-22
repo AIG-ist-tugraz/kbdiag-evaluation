@@ -3,3 +3,5 @@
 [REAL-FM-4] Classification complete: violated=97399, non_violated=69740, ignored=14013
 [ubuntu] Classification complete: violated=118500, non_violated=62078, ignored=122
 [windows8] Classification complete: violated=118589, non_violated=62838, ignored=148
+[EA] Classification complete: violated=140955, non_violated=25642, ignored=16588
+[CNNl] Classification complete: violated=121653, non_violated=39949, ignored=34600

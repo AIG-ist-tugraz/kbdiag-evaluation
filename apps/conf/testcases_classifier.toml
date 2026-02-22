@@ -41,3 +41,13 @@ testsuite = "data/jiis/testsuite/windows8.testsuite"
 name = "linux"
 model = "data/jiis/fms/linux-2.6.33.3.uvl"
 testsuite = "data/jiis/testsuite/linux.testsuite"
+
+[[fm]]
+name = "CNNl"
+model = "data/jiis/fms/Ghamizi2019-light.uvl"
+testsuite = "data/jiis/testsuite/CNNl.testsuite"
+
+[[fm]]
+name = "EA"
+model = "data/jiis/fms/ea2468.uvl"
+testsuite = "data/jiis/testsuite/EA.testsuite"
