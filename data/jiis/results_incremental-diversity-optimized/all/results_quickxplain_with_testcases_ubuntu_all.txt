@@ -1,0 +1,308 @@
+ubuntu ubuntu_c5_1.testcases
+	Diagnosis 1 (|D|=1, t=0.000669s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 ]
+	Diagnosis 2 (|D|=1, t=0.000714s): [(mandatory) Look[1,1]LauncherIconSize ]
+	#Diagnoses: 2
+	CC: 17
+	QuickXPlain+TC runtime: 0.000717 s
+	--- Profiler ---
+	Consistency checks (TC): 17
+	Solver calls: 21
+	QuickXPlain+TC calls: 3
+	QX+TC calls: 17
+ubuntu ubuntu_c5_1.testcases
+	Diagnosis 1 (|D|=1, t=0.000635s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 ]
+	Diagnosis 2 (|D|=1, t=0.000674s): [(mandatory) Look[1,1]LauncherIconSize ]
+	#Diagnoses: 2
+	CC: 17
+	QuickXPlain+TC runtime: 0.000676 s
+	--- Profiler ---
+	Consistency checks (TC): 17
+	Solver calls: 21
+	QuickXPlain+TC calls: 3
+	QX+TC calls: 17
+ubuntu ubuntu_c5_1.testcases
+	Diagnosis 1 (|D|=1, t=0.000652s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 ]
+	Diagnosis 2 (|D|=1, t=0.000690s): [(mandatory) Look[1,1]LauncherIconSize ]
+	#Diagnoses: 2
+	CC: 17
+	QuickXPlain+TC runtime: 0.000692 s
+	--- Profiler ---
+	Consistency checks (TC): 17
+	Solver calls: 21
+	QuickXPlain+TC calls: 3
+	QX+TC calls: 17
+ubuntu ubuntu_c10_1.testcases
+	Diagnosis 1 (|D|=2, t=0.001742s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Behavoir[1,1]RevealLocation ]
+	Diagnosis 2 (|D|=2, t=0.001788s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Behavoir ]
+	Diagnosis 3 (|D|=2, t=0.001831s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 ]
+	Diagnosis 4 (|D|=2, t=0.001874s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Look[1,1]Background ]
+	Diagnosis 5 (|D|=2, t=0.001916s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Look ]
+	Diagnosis 6 (|D|=2, t=0.002107s): [(mandatory) Look[1,1]LauncherIconSize , (mandatory) Behavoir[1,1]RevealLocation ]
+	Diagnosis 7 (|D|=2, t=0.002287s): [(mandatory) Look[1,1]LauncherIconSize , (mandatory) Appearance[1,1]Behavoir ]
+	Diagnosis 8 (|D|=2, t=0.002472s): [(mandatory) Look[1,1]LauncherIconSize , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 ]
+	Diagnosis 9 (|D|=2, t=0.002652s): [(mandatory) Look[1,1]LauncherIconSize , (mandatory) Look[1,1]Background ]
+	Diagnosis 10 (|D|=2, t=0.002833s): [(mandatory) Look[1,1]LauncherIconSize , (mandatory) Appearance[1,1]Look ]
+	#Diagnoses: 10
+	CC: 50
+	QuickXPlain+TC runtime: 0.002835 s
+	--- Profiler ---
+	Consistency checks (TC): 50
+	Solver calls: 84
+	QuickXPlain+TC calls: 12
+	QX+TC calls: 46
+ubuntu ubuntu_c10_1.testcases
+	Diagnosis 1 (|D|=2, t=0.001661s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Behavoir[1,1]RevealLocation ]
+	Diagnosis 2 (|D|=2, t=0.001707s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Behavoir ]
+	Diagnosis 3 (|D|=2, t=0.001751s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 ]
+	Diagnosis 4 (|D|=2, t=0.001794s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Look[1,1]Background ]
+	Diagnosis 5 (|D|=2, t=0.001837s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Look ]
+	Diagnosis 6 (|D|=2, t=0.002022s): [(mandatory) Look[1,1]LauncherIconSize , (mandatory) Behavoir[1,1]RevealLocation ]
+	Diagnosis 7 (|D|=2, t=0.002209s): [(mandatory) Look[1,1]LauncherIconSize , (mandatory) Appearance[1,1]Behavoir ]
+	Diagnosis 8 (|D|=2, t=0.002392s): [(mandatory) Look[1,1]LauncherIconSize , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 ]
+	Diagnosis 9 (|D|=2, t=0.002578s): [(mandatory) Look[1,1]LauncherIconSize , (mandatory) Look[1,1]Background ]
+	Diagnosis 10 (|D|=2, t=0.002760s): [(mandatory) Look[1,1]LauncherIconSize , (mandatory) Appearance[1,1]Look ]
+	#Diagnoses: 10
+	CC: 50
+	QuickXPlain+TC runtime: 0.002762 s
+	--- Profiler ---
+	Consistency checks (TC): 50
+	Solver calls: 84
+	QuickXPlain+TC calls: 12
+	QX+TC calls: 46
+ubuntu ubuntu_c10_1.testcases
+	Diagnosis 1 (|D|=2, t=0.001859s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Behavoir[1,1]RevealLocation ]
+	Diagnosis 2 (|D|=2, t=0.001904s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Behavoir ]
+	Diagnosis 3 (|D|=2, t=0.001947s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 ]
+	Diagnosis 4 (|D|=2, t=0.001989s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Look[1,1]Background ]
+	Diagnosis 5 (|D|=2, t=0.002031s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Look ]
+	Diagnosis 6 (|D|=2, t=0.002215s): [(mandatory) Look[1,1]LauncherIconSize , (mandatory) Behavoir[1,1]RevealLocation ]
+	Diagnosis 7 (|D|=2, t=0.002398s): [(mandatory) Look[1,1]LauncherIconSize , (mandatory) Appearance[1,1]Behavoir ]
+	Diagnosis 8 (|D|=2, t=0.002583s): [(mandatory) Look[1,1]LauncherIconSize , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 ]
+	Diagnosis 9 (|D|=2, t=0.002766s): [(mandatory) Look[1,1]LauncherIconSize , (mandatory) Look[1,1]Background ]
+	Diagnosis 10 (|D|=2, t=0.002950s): [(mandatory) Look[1,1]LauncherIconSize , (mandatory) Appearance[1,1]Look ]
+	#Diagnoses: 10
+	CC: 50
+	QuickXPlain+TC runtime: 0.002953 s
+	--- Profiler ---
+	Consistency checks (TC): 50
+	Solver calls: 84
+	QuickXPlain+TC calls: 12
+	QX+TC calls: 46
+ubuntu ubuntu_c25_1.testcases
+	Diagnosis 1 (|D|=3, t=0.005141s): [(mandatory) Look[1,1]LauncherIconSize , (mandatory) Appearance[1,1]Behavoir , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 ]
+	Diagnosis 2 (|D|=3, t=0.005188s): [(mandatory) Look[1,1]LauncherIconSize , (mandatory) Appearance[1,1]Behavoir , (mandatory) Look[1,1]Background ]
+	Diagnosis 3 (|D|=3, t=0.005855s): [(mandatory) Look[1,1]LauncherIconSize , (mandatory) Appearance[1,1]Look , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 ]
+	Diagnosis 4 (|D|=3, t=0.006516s): [(mandatory) Look[1,1]LauncherIconSize , (mandatory) Appearance[1,1]Look , (mandatory) Look[1,1]Background ]
+	Diagnosis 5 (|D|=4, t=0.006595s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Behavoir , (mandatory) Look[1,1]LauncherIconSize , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 ]
+	Diagnosis 6 (|D|=4, t=0.006672s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Behavoir , (mandatory) Look[1,1]LauncherIconSize , (mandatory) Look[1,1]Background ]
+	Diagnosis 7 (|D|=4, t=0.006751s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Behavoir , (mandatory) Look[1,1]Theme , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 ]
+	Diagnosis 8 (|D|=4, t=0.006829s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Behavoir , (mandatory) Look[1,1]Theme , (mandatory) Look[1,1]Background ]
+	Diagnosis 9 (|D|=4, t=0.007340s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Look , (mandatory) Look[1,1]LauncherIconSize , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 ]
+	Diagnosis 10 (|D|=4, t=0.007847s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Look , (mandatory) Look[1,1]LauncherIconSize , (mandatory) Look[1,1]Background ]
+	#Diagnoses: 10
+	CC: 102
+	QuickXPlain+TC runtime: 0.007851 s
+	--- Profiler ---
+	Consistency checks (TC): 102
+	Solver calls: 232
+	QuickXPlain+TC calls: 15
+	QX+TC calls: 103
+ubuntu ubuntu_c25_1.testcases
+	Diagnosis 1 (|D|=3, t=0.005072s): [(mandatory) Look[1,1]LauncherIconSize , (mandatory) Appearance[1,1]Behavoir , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 ]
+	Diagnosis 2 (|D|=3, t=0.005118s): [(mandatory) Look[1,1]LauncherIconSize , (mandatory) Appearance[1,1]Behavoir , (mandatory) Look[1,1]Background ]
+	Diagnosis 3 (|D|=3, t=0.005780s): [(mandatory) Look[1,1]LauncherIconSize , (mandatory) Appearance[1,1]Look , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 ]
+	Diagnosis 4 (|D|=3, t=0.006437s): [(mandatory) Look[1,1]LauncherIconSize , (mandatory) Appearance[1,1]Look , (mandatory) Look[1,1]Background ]
+	Diagnosis 5 (|D|=4, t=0.006515s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Behavoir , (mandatory) Look[1,1]LauncherIconSize , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 ]
+	Diagnosis 6 (|D|=4, t=0.006592s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Behavoir , (mandatory) Look[1,1]LauncherIconSize , (mandatory) Look[1,1]Background ]
+	Diagnosis 7 (|D|=4, t=0.006671s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Behavoir , (mandatory) Look[1,1]Theme , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 ]
+	Diagnosis 8 (|D|=4, t=0.006748s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Behavoir , (mandatory) Look[1,1]Theme , (mandatory) Look[1,1]Background ]
+	Diagnosis 9 (|D|=4, t=0.007254s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Look , (mandatory) Look[1,1]LauncherIconSize , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 ]
+	Diagnosis 10 (|D|=4, t=0.007759s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Look , (mandatory) Look[1,1]LauncherIconSize , (mandatory) Look[1,1]Background ]
+	#Diagnoses: 10
+	CC: 102
+	QuickXPlain+TC runtime: 0.007761 s
+	--- Profiler ---
+	Consistency checks (TC): 102
+	Solver calls: 232
+	QuickXPlain+TC calls: 15
+	QX+TC calls: 103
+ubuntu ubuntu_c25_1.testcases
+	Diagnosis 1 (|D|=3, t=0.005058s): [(mandatory) Look[1,1]LauncherIconSize , (mandatory) Appearance[1,1]Behavoir , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 ]
+	Diagnosis 2 (|D|=3, t=0.005105s): [(mandatory) Look[1,1]LauncherIconSize , (mandatory) Appearance[1,1]Behavoir , (mandatory) Look[1,1]Background ]
+	Diagnosis 3 (|D|=3, t=0.005769s): [(mandatory) Look[1,1]LauncherIconSize , (mandatory) Appearance[1,1]Look , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 ]
+	Diagnosis 4 (|D|=3, t=0.006426s): [(mandatory) Look[1,1]LauncherIconSize , (mandatory) Appearance[1,1]Look , (mandatory) Look[1,1]Background ]
+	Diagnosis 5 (|D|=4, t=0.006506s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Behavoir , (mandatory) Look[1,1]LauncherIconSize , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 ]
+	Diagnosis 6 (|D|=4, t=0.006584s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Behavoir , (mandatory) Look[1,1]LauncherIconSize , (mandatory) Look[1,1]Background ]
+	Diagnosis 7 (|D|=4, t=0.006662s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Behavoir , (mandatory) Look[1,1]Theme , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 ]
+	Diagnosis 8 (|D|=4, t=0.006739s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Behavoir , (mandatory) Look[1,1]Theme , (mandatory) Look[1,1]Background ]
+	Diagnosis 9 (|D|=4, t=0.007245s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Look , (mandatory) Look[1,1]LauncherIconSize , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 ]
+	Diagnosis 10 (|D|=4, t=0.007749s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Look , (mandatory) Look[1,1]LauncherIconSize , (mandatory) Look[1,1]Background ]
+	#Diagnoses: 10
+	CC: 102
+	QuickXPlain+TC runtime: 0.007751 s
+	--- Profiler ---
+	Consistency checks (TC): 102
+	Solver calls: 232
+	QuickXPlain+TC calls: 15
+	QX+TC calls: 103
+ubuntu ubuntu_c50_1.testcases
+	Diagnosis 1 (|D|=4, t=0.011493s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Behavoir , (mandatory) Look[1,1]Theme , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 ]
+	Diagnosis 2 (|D|=4, t=0.012593s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Behavoir , (mandatory) Look[1,1]Theme , (mandatory) Look[1,1]Background ]
+	Diagnosis 3 (|D|=4, t=0.012957s): [(mandatory) Look[1,1]LauncherIconSize , (mandatory) Appearance[1,1]Behavoir , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (mandatory) Look[1,1]Theme ]
+	Diagnosis 4 (|D|=4, t=0.014836s): [(mandatory) Look[1,1]LauncherIconSize , (mandatory) Appearance[1,1]Behavoir , (mandatory) Look[1,1]Background , (mandatory) Look[1,1]Theme ]
+	Diagnosis 5 (|D|=5, t=0.016148s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Behavoir , (mandatory) Look[1,1]LauncherIconSize , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (mandatory) Look[1,1]Theme ]
+	Diagnosis 6 (|D|=5, t=0.017265s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Behavoir , (mandatory) Look[1,1]LauncherIconSize , (mandatory) Look[1,1]Background , (mandatory) Look[1,1]Theme ]
+	Diagnosis 7 (|D|=5, t=0.019140s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Look , (mandatory) Look[1,1]Theme , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (alternative) RevealLocation[1,1]Left TopLeftCorner ]
+	Diagnosis 8 (|D|=5, t=0.020783s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Look , (mandatory) Look[1,1]Theme , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (mandatory) Behavoir[1,1]RevealLocation ]
+	Diagnosis 9 (|D|=5, t=0.022466s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Look , (mandatory) Look[1,1]Theme , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (mandatory) Appearance[1,1]Behavoir ]
+	Diagnosis 10 (|D|=5, t=0.024127s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Look , (mandatory) Look[1,1]Theme , (mandatory) Look[1,1]Background , (alternative) RevealLocation[1,1]Left TopLeftCorner ]
+	#Diagnoses: 10
+	CC: 157
+	QuickXPlain+TC runtime: 0.024139 s
+	--- Profiler ---
+	Consistency checks (TC): 157
+	Solver calls: 573
+	QuickXPlain+TC calls: 18
+	QX+TC calls: 164
+ubuntu ubuntu_c50_1.testcases
+	Diagnosis 1 (|D|=4, t=0.011171s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Behavoir , (mandatory) Look[1,1]Theme , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 ]
+	Diagnosis 2 (|D|=4, t=0.012171s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Behavoir , (mandatory) Look[1,1]Theme , (mandatory) Look[1,1]Background ]
+	Diagnosis 3 (|D|=4, t=0.012487s): [(mandatory) Look[1,1]LauncherIconSize , (mandatory) Appearance[1,1]Behavoir , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (mandatory) Look[1,1]Theme ]
+	Diagnosis 4 (|D|=4, t=0.014409s): [(mandatory) Look[1,1]LauncherIconSize , (mandatory) Appearance[1,1]Behavoir , (mandatory) Look[1,1]Background , (mandatory) Look[1,1]Theme ]
+	Diagnosis 5 (|D|=5, t=0.015775s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Behavoir , (mandatory) Look[1,1]LauncherIconSize , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (mandatory) Look[1,1]Theme ]
+	Diagnosis 6 (|D|=5, t=0.016964s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Behavoir , (mandatory) Look[1,1]LauncherIconSize , (mandatory) Look[1,1]Background , (mandatory) Look[1,1]Theme ]
+	Diagnosis 7 (|D|=5, t=0.018871s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Look , (mandatory) Look[1,1]Theme , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (alternative) RevealLocation[1,1]Left TopLeftCorner ]
+	Diagnosis 8 (|D|=5, t=0.020544s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Look , (mandatory) Look[1,1]Theme , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (mandatory) Behavoir[1,1]RevealLocation ]
+	Diagnosis 9 (|D|=5, t=0.022203s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Look , (mandatory) Look[1,1]Theme , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (mandatory) Appearance[1,1]Behavoir ]
+	Diagnosis 10 (|D|=5, t=0.023895s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Look , (mandatory) Look[1,1]Theme , (mandatory) Look[1,1]Background , (alternative) RevealLocation[1,1]Left TopLeftCorner ]
+	#Diagnoses: 10
+	CC: 157
+	QuickXPlain+TC runtime: 0.023898 s
+	--- Profiler ---
+	Consistency checks (TC): 157
+	Solver calls: 573
+	QuickXPlain+TC calls: 18
+	QX+TC calls: 164
+ubuntu ubuntu_c50_1.testcases
+	Diagnosis 1 (|D|=4, t=0.011095s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Behavoir , (mandatory) Look[1,1]Theme , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 ]
+	Diagnosis 2 (|D|=4, t=0.012144s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Behavoir , (mandatory) Look[1,1]Theme , (mandatory) Look[1,1]Background ]
+	Diagnosis 3 (|D|=4, t=0.012476s): [(mandatory) Look[1,1]LauncherIconSize , (mandatory) Appearance[1,1]Behavoir , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (mandatory) Look[1,1]Theme ]
+	Diagnosis 4 (|D|=4, t=0.014282s): [(mandatory) Look[1,1]LauncherIconSize , (mandatory) Appearance[1,1]Behavoir , (mandatory) Look[1,1]Background , (mandatory) Look[1,1]Theme ]
+	Diagnosis 5 (|D|=5, t=0.015565s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Behavoir , (mandatory) Look[1,1]LauncherIconSize , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (mandatory) Look[1,1]Theme ]
+	Diagnosis 6 (|D|=5, t=0.016662s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Behavoir , (mandatory) Look[1,1]LauncherIconSize , (mandatory) Look[1,1]Background , (mandatory) Look[1,1]Theme ]
+	Diagnosis 7 (|D|=5, t=0.018480s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Look , (mandatory) Look[1,1]Theme , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (alternative) RevealLocation[1,1]Left TopLeftCorner ]
+	Diagnosis 8 (|D|=5, t=0.020082s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Look , (mandatory) Look[1,1]Theme , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (mandatory) Behavoir[1,1]RevealLocation ]
+	Diagnosis 9 (|D|=5, t=0.021679s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Look , (mandatory) Look[1,1]Theme , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (mandatory) Appearance[1,1]Behavoir ]
+	Diagnosis 10 (|D|=5, t=0.023289s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Look , (mandatory) Look[1,1]Theme , (mandatory) Look[1,1]Background , (alternative) RevealLocation[1,1]Left TopLeftCorner ]
+	#Diagnoses: 10
+	CC: 157
+	QuickXPlain+TC runtime: 0.023292 s
+	--- Profiler ---
+	Consistency checks (TC): 157
+	Solver calls: 573
+	QuickXPlain+TC calls: 18
+	QX+TC calls: 164
+ubuntu ubuntu_c100_1.testcases
+	Diagnosis 1 (|D|=5, t=0.020704s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Behavoir , (mandatory) Look[1,1]Theme , (mandatory) Look[1,1]Background , (alternative) Theme[1,1]HighContrastInverse AmbianceDefault Radiance HighContrast ]
+	Diagnosis 2 (|D|=5, t=0.023467s): [(mandatory) Look[1,1]LauncherIconSize , (mandatory) Appearance[1,1]Behavoir , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (mandatory) Look[1,1]Theme , (alternative) Theme[1,1]HighContrastInverse AmbianceDefault Radiance HighContrast ]
+	Diagnosis 3 (|D|=5, t=0.030075s): [(mandatory) Look[1,1]LauncherIconSize , (mandatory) Appearance[1,1]Behavoir , (mandatory) Look[1,1]Background , (mandatory) Look[1,1]Theme , (alternative) Theme[1,1]HighContrastInverse AmbianceDefault Radiance HighContrast ]
+	Diagnosis 4 (|D|=6, t=0.030469s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Behavoir , (mandatory) Look[1,1]Theme , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (alternative) Theme[1,1]HighContrastInverse AmbianceDefault Radiance HighContrast , (mandatory) Look[1,1]Background ]
+	#Diagnoses: 4
+	CC: 197
+	QuickXPlain+TC runtime: 0.035304 s
+	--- Profiler ---
+	Consistency checks (TC): 197
+	Solver calls: 731
+	QuickXPlain+TC calls: 15
+	QX+TC calls: 215
+ubuntu ubuntu_c100_1.testcases
+	Diagnosis 1 (|D|=5, t=0.020300s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Behavoir , (mandatory) Look[1,1]Theme , (mandatory) Look[1,1]Background , (alternative) Theme[1,1]HighContrastInverse AmbianceDefault Radiance HighContrast ]
+	Diagnosis 2 (|D|=5, t=0.023002s): [(mandatory) Look[1,1]LauncherIconSize , (mandatory) Appearance[1,1]Behavoir , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (mandatory) Look[1,1]Theme , (alternative) Theme[1,1]HighContrastInverse AmbianceDefault Radiance HighContrast ]
+	Diagnosis 3 (|D|=5, t=0.029573s): [(mandatory) Look[1,1]LauncherIconSize , (mandatory) Appearance[1,1]Behavoir , (mandatory) Look[1,1]Background , (mandatory) Look[1,1]Theme , (alternative) Theme[1,1]HighContrastInverse AmbianceDefault Radiance HighContrast ]
+	Diagnosis 4 (|D|=6, t=0.029878s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Behavoir , (mandatory) Look[1,1]Theme , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (alternative) Theme[1,1]HighContrastInverse AmbianceDefault Radiance HighContrast , (mandatory) Look[1,1]Background ]
+	#Diagnoses: 4
+	CC: 197
+	QuickXPlain+TC runtime: 0.034628 s
+	--- Profiler ---
+	Consistency checks (TC): 197
+	Solver calls: 731
+	QuickXPlain+TC calls: 15
+	QX+TC calls: 215
+ubuntu ubuntu_c100_1.testcases
+	Diagnosis 1 (|D|=5, t=0.020107s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Behavoir , (mandatory) Look[1,1]Theme , (mandatory) Look[1,1]Background , (alternative) Theme[1,1]HighContrastInverse AmbianceDefault Radiance HighContrast ]
+	Diagnosis 2 (|D|=5, t=0.022776s): [(mandatory) Look[1,1]LauncherIconSize , (mandatory) Appearance[1,1]Behavoir , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (mandatory) Look[1,1]Theme , (alternative) Theme[1,1]HighContrastInverse AmbianceDefault Radiance HighContrast ]
+	Diagnosis 3 (|D|=5, t=0.029304s): [(mandatory) Look[1,1]LauncherIconSize , (mandatory) Appearance[1,1]Behavoir , (mandatory) Look[1,1]Background , (mandatory) Look[1,1]Theme , (alternative) Theme[1,1]HighContrastInverse AmbianceDefault Radiance HighContrast ]
+	Diagnosis 4 (|D|=6, t=0.029610s): [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Behavoir , (mandatory) Look[1,1]Theme , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (alternative) Theme[1,1]HighContrastInverse AmbianceDefault Radiance HighContrast , (mandatory) Look[1,1]Background ]
+	#Diagnoses: 4
+	CC: 197
+	QuickXPlain+TC runtime: 0.034294 s
+	--- Profiler ---
+	Consistency checks (TC): 197
+	Solver calls: 731
+	QuickXPlain+TC calls: 15
+	QX+TC calls: 215
+ubuntu ubuntu_c250_1.testcases
+	#Diagnoses: 0
+	CC: 260
+	QuickXPlain+TC runtime: 0.104136 s
+	--- Profiler ---
+	Consistency checks (TC): 260
+	Solver calls: 1410
+	QuickXPlain+TC calls: 15
+	QX+TC calls: 287
+ubuntu ubuntu_c250_1.testcases
+	#Diagnoses: 0
+	CC: 260
+	QuickXPlain+TC runtime: 0.103961 s
+	--- Profiler ---
+	Consistency checks (TC): 260
+	Solver calls: 1410
+	QuickXPlain+TC calls: 15
+	QX+TC calls: 287
+ubuntu ubuntu_c250_1.testcases
+	#Diagnoses: 0
+	CC: 260
+	QuickXPlain+TC runtime: 0.103964 s
+	--- Profiler ---
+	Consistency checks (TC): 260
+	Solver calls: 1410
+	QuickXPlain+TC calls: 15
+	QX+TC calls: 287
+ubuntu ubuntu_c500_1.testcases
+	#Diagnoses: 0
+	CC: 260
+	QuickXPlain+TC runtime: 0.156067 s
+	--- Profiler ---
+	Consistency checks (TC): 260
+	Solver calls: 1410
+	QuickXPlain+TC calls: 15
+	QX+TC calls: 287
+ubuntu ubuntu_c500_1.testcases
+	#Diagnoses: 0
+	CC: 260
+	QuickXPlain+TC runtime: 0.156675 s
+	--- Profiler ---
+	Consistency checks (TC): 260
+	Solver calls: 1410
+	QuickXPlain+TC calls: 15
+	QX+TC calls: 287
+ubuntu ubuntu_c500_1.testcases
+	#Diagnoses: 0
+	CC: 260
+	QuickXPlain+TC runtime: 0.156376 s
+	--- Profiler ---
+	Consistency checks (TC): 260
+	Solver calls: 1410
+	QuickXPlain+TC calls: 15
+	QX+TC calls: 287
+
+=== Evaluation Results: quickxplain_with_testcases (m=1, task=all) ===
+Testcase                  | Avg Time (s) |   |D| |  #Diag
+---------------------------------------------------------
+ubuntu/ubuntu_c5_1.testcases |     0.000695 |     1 |      2
+ubuntu/ubuntu_c10_1.testcases |     0.002850 |     2 |     10
+ubuntu/ubuntu_c25_1.testcases |     0.007787 |     3 |     10
+ubuntu/ubuntu_c50_1.testcases |     0.023776 |     4 |     10
+ubuntu/ubuntu_c100_1.testcases |     0.034742 |     5 |      4
+ubuntu/ubuntu_c250_1.testcases |     0.104020 |     0 |      0
+ubuntu/ubuntu_c500_1.testcases |     0.156373 |     0 |      0

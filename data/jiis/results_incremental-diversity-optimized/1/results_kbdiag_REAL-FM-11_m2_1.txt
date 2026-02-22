@@ -1,0 +1,221 @@
+REAL-FM-11 REAL-FM-11_c5_1.testcases
+	Diagnosis: [(mandatory) flood[1,1]_id_30 , (mandatory) _id_30[1,1]_id_31 ]
+	|D|: 2
+	CC: 96
+	KBDiag runtime: 0.000258 s
+	--- Profiler ---
+	KBDiag calls: 10
+	mssDirect calls: 110
+	Consistency checks (TC): 96
+	Solver calls: 104
+REAL-FM-11 REAL-FM-11_c5_1.testcases
+	Diagnosis: [(mandatory) flood[1,1]_id_30 , (mandatory) _id_30[1,1]_id_31 ]
+	|D|: 2
+	CC: 96
+	KBDiag runtime: 0.000212 s
+	--- Profiler ---
+	KBDiag calls: 10
+	mssDirect calls: 110
+	Consistency checks (TC): 96
+	Solver calls: 104
+REAL-FM-11 REAL-FM-11_c5_1.testcases
+	Diagnosis: [(mandatory) flood[1,1]_id_30 , (mandatory) _id_30[1,1]_id_31 ]
+	|D|: 2
+	CC: 96
+	KBDiag runtime: 0.000207 s
+	--- Profiler ---
+	KBDiag calls: 10
+	mssDirect calls: 110
+	Consistency checks (TC): 96
+	Solver calls: 104
+REAL-FM-11 REAL-FM-11_c10_1.testcases
+	Diagnosis: [(mandatory) flood[1,1]_id_24 , (mandatory) _id_24[1,1]_id_25 ]
+	|D|: 2
+	CC: 94
+	KBDiag runtime: 0.000384 s
+	--- Profiler ---
+	KBDiag calls: 10
+	mssDirect calls: 110
+	Consistency checks (TC): 94
+	Solver calls: 184
+REAL-FM-11 REAL-FM-11_c10_1.testcases
+	Diagnosis: [(mandatory) flood[1,1]_id_24 , (mandatory) _id_24[1,1]_id_25 ]
+	|D|: 2
+	CC: 94
+	KBDiag runtime: 0.000358 s
+	--- Profiler ---
+	KBDiag calls: 10
+	mssDirect calls: 110
+	Consistency checks (TC): 94
+	Solver calls: 184
+REAL-FM-11 REAL-FM-11_c10_1.testcases
+	Diagnosis: [(mandatory) flood[1,1]_id_24 , (mandatory) _id_24[1,1]_id_25 ]
+	|D|: 2
+	CC: 94
+	KBDiag runtime: 0.000348 s
+	--- Profiler ---
+	KBDiag calls: 10
+	mssDirect calls: 110
+	Consistency checks (TC): 94
+	Solver calls: 184
+REAL-FM-11 REAL-FM-11_c25_1.testcases
+	Diagnosis: [(mandatory) _id_0[1,1]_id_1 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_4[1,1]_id_5 , (mandatory) _id_5[1,1]_id_6 , (mandatory) flood[1,1]_id_24 , (mandatory) _id_24[1,1]_id_25 ]
+	|D|: 6
+	CC: 182
+	KBDiag runtime: 0.001105 s
+	--- Profiler ---
+	KBDiag calls: 10
+	mssDirect calls: 190
+	Consistency checks (TC): 182
+	Solver calls: 571
+REAL-FM-11 REAL-FM-11_c25_1.testcases
+	Diagnosis: [(mandatory) _id_0[1,1]_id_1 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_4[1,1]_id_5 , (mandatory) _id_5[1,1]_id_6 , (mandatory) flood[1,1]_id_24 , (mandatory) _id_24[1,1]_id_25 ]
+	|D|: 6
+	CC: 182
+	KBDiag runtime: 0.001067 s
+	--- Profiler ---
+	KBDiag calls: 10
+	mssDirect calls: 190
+	Consistency checks (TC): 182
+	Solver calls: 571
+REAL-FM-11 REAL-FM-11_c25_1.testcases
+	Diagnosis: [(mandatory) _id_0[1,1]_id_1 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_4[1,1]_id_5 , (mandatory) _id_5[1,1]_id_6 , (mandatory) flood[1,1]_id_24 , (mandatory) _id_24[1,1]_id_25 ]
+	|D|: 6
+	CC: 182
+	KBDiag runtime: 0.001045 s
+	--- Profiler ---
+	KBDiag calls: 10
+	mssDirect calls: 190
+	Consistency checks (TC): 182
+	Solver calls: 571
+REAL-FM-11 REAL-FM-11_c50_1.testcases
+	Diagnosis: [(mandatory) _id_0[1,1]_id_1 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_4[1,1]_id_5 , (mandatory) _id_5[1,1]_id_6 , (mandatory) _id_15[1,1]_id_16 , (mandatory) _id_16[1,1]_id_17 , (mandatory) flood[1,1]_id_24 , (mandatory) _id_24[1,1]_id_25 , (mandatory) flood[1,1]_id_30 , (mandatory) _id_30[1,1]_id_31 , (mandatory) _id_56[1,1]_id_59 , (mandatory) _id_59[1,1]_id_60 , (Constraint 2) IMPLIES[message][communication], (Constraint 3) IMPLIES[flood][moisture_sensor]]
+	|D|: 14
+	CC: 301
+	KBDiag runtime: 0.002760 s
+	--- Profiler ---
+	KBDiag calls: 10
+	mssDirect calls: 354
+	Consistency checks (TC): 301
+	Solver calls: 1154
+REAL-FM-11 REAL-FM-11_c50_1.testcases
+	Diagnosis: [(mandatory) _id_0[1,1]_id_1 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_4[1,1]_id_5 , (mandatory) _id_5[1,1]_id_6 , (mandatory) _id_15[1,1]_id_16 , (mandatory) _id_16[1,1]_id_17 , (mandatory) flood[1,1]_id_24 , (mandatory) _id_24[1,1]_id_25 , (mandatory) flood[1,1]_id_30 , (mandatory) _id_30[1,1]_id_31 , (mandatory) _id_56[1,1]_id_59 , (mandatory) _id_59[1,1]_id_60 , (Constraint 2) IMPLIES[message][communication], (Constraint 3) IMPLIES[flood][moisture_sensor]]
+	|D|: 14
+	CC: 301
+	KBDiag runtime: 0.002705 s
+	--- Profiler ---
+	KBDiag calls: 10
+	mssDirect calls: 354
+	Consistency checks (TC): 301
+	Solver calls: 1154
+REAL-FM-11 REAL-FM-11_c50_1.testcases
+	Diagnosis: [(mandatory) _id_0[1,1]_id_1 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_4[1,1]_id_5 , (mandatory) _id_5[1,1]_id_6 , (mandatory) _id_15[1,1]_id_16 , (mandatory) _id_16[1,1]_id_17 , (mandatory) flood[1,1]_id_24 , (mandatory) _id_24[1,1]_id_25 , (mandatory) flood[1,1]_id_30 , (mandatory) _id_30[1,1]_id_31 , (mandatory) _id_56[1,1]_id_59 , (mandatory) _id_59[1,1]_id_60 , (Constraint 2) IMPLIES[message][communication], (Constraint 3) IMPLIES[flood][moisture_sensor]]
+	|D|: 14
+	CC: 301
+	KBDiag runtime: 0.002741 s
+	--- Profiler ---
+	KBDiag calls: 10
+	mssDirect calls: 354
+	Consistency checks (TC): 301
+	Solver calls: 1154
+REAL-FM-11 REAL-FM-11_c100_1.testcases
+	Diagnosis: [(mandatory) _id_0[1,1]_id_1 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_4[1,1]_id_5 , (mandatory) _id_5[1,1]_id_6 , (mandatory) _id_10[1,1]_id_11 , (mandatory) _id_10[1,1]_id_12 , (mandatory) _id_15[1,1]_id_16 , (mandatory) _id_16[1,1]_id_17 , (mandatory) flood[1,1]_id_24 , (mandatory) _id_24[1,1]_id_25 , (mandatory) flood[1,1]_id_30 , (mandatory) _id_30[1,1]_id_31 , (alternative) _id_39[1,1]_id_41 _id_42 , (mandatory) _id_0[1,1]_id_43 , (mandatory) _id_43[1,1]_id_44 , (mandatory) _id_43[1,1]_id_45 , (mandatory) _id_49[1,1]_id_51 , (mandatory) _id_47[1,1]_id_52 , (mandatory) _id_56[1,1]_id_57 , (mandatory) _id_56[1,1]_id_58 , (mandatory) _id_56[1,1]_id_59 , (mandatory) _id_59[1,1]_id_60 , (Constraint 2) IMPLIES[message][communication], (Constraint 3) IMPLIES[flood][moisture_sensor]]
+	|D|: 24
+	CC: 452
+	KBDiag runtime: 0.007557 s
+	--- Profiler ---
+	KBDiag calls: 10
+	mssDirect calls: 508
+	Consistency checks (TC): 452
+	Solver calls: 2281
+REAL-FM-11 REAL-FM-11_c100_1.testcases
+	Diagnosis: [(mandatory) _id_0[1,1]_id_1 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_4[1,1]_id_5 , (mandatory) _id_5[1,1]_id_6 , (mandatory) _id_10[1,1]_id_11 , (mandatory) _id_10[1,1]_id_12 , (mandatory) _id_15[1,1]_id_16 , (mandatory) _id_16[1,1]_id_17 , (mandatory) flood[1,1]_id_24 , (mandatory) _id_24[1,1]_id_25 , (mandatory) flood[1,1]_id_30 , (mandatory) _id_30[1,1]_id_31 , (alternative) _id_39[1,1]_id_41 _id_42 , (mandatory) _id_0[1,1]_id_43 , (mandatory) _id_43[1,1]_id_44 , (mandatory) _id_43[1,1]_id_45 , (mandatory) _id_49[1,1]_id_51 , (mandatory) _id_47[1,1]_id_52 , (mandatory) _id_56[1,1]_id_57 , (mandatory) _id_56[1,1]_id_58 , (mandatory) _id_56[1,1]_id_59 , (mandatory) _id_59[1,1]_id_60 , (Constraint 2) IMPLIES[message][communication], (Constraint 3) IMPLIES[flood][moisture_sensor]]
+	|D|: 24
+	CC: 452
+	KBDiag runtime: 0.007277 s
+	--- Profiler ---
+	KBDiag calls: 10
+	mssDirect calls: 508
+	Consistency checks (TC): 452
+	Solver calls: 2281
+REAL-FM-11 REAL-FM-11_c100_1.testcases
+	Diagnosis: [(mandatory) _id_0[1,1]_id_1 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_4[1,1]_id_5 , (mandatory) _id_5[1,1]_id_6 , (mandatory) _id_10[1,1]_id_11 , (mandatory) _id_10[1,1]_id_12 , (mandatory) _id_15[1,1]_id_16 , (mandatory) _id_16[1,1]_id_17 , (mandatory) flood[1,1]_id_24 , (mandatory) _id_24[1,1]_id_25 , (mandatory) flood[1,1]_id_30 , (mandatory) _id_30[1,1]_id_31 , (alternative) _id_39[1,1]_id_41 _id_42 , (mandatory) _id_0[1,1]_id_43 , (mandatory) _id_43[1,1]_id_44 , (mandatory) _id_43[1,1]_id_45 , (mandatory) _id_49[1,1]_id_51 , (mandatory) _id_47[1,1]_id_52 , (mandatory) _id_56[1,1]_id_57 , (mandatory) _id_56[1,1]_id_58 , (mandatory) _id_56[1,1]_id_59 , (mandatory) _id_59[1,1]_id_60 , (Constraint 2) IMPLIES[message][communication], (Constraint 3) IMPLIES[flood][moisture_sensor]]
+	|D|: 24
+	CC: 452
+	KBDiag runtime: 0.007308 s
+	--- Profiler ---
+	KBDiag calls: 10
+	mssDirect calls: 508
+	Consistency checks (TC): 452
+	Solver calls: 2281
+REAL-FM-11 REAL-FM-11_c250_1.testcases
+	Diagnosis: [(mandatory) _id_0[1,1]_id_1 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_4[1,1]_id_5 , (mandatory) _id_5[1,1]_id_6 , (alternative) _id_6[1,1]_id_8 _id_9 , (mandatory) _id_3[1,1]_id_10 , (mandatory) message[1,1]_id_14 , (mandatory) _id_1[1,1]_id_15 , (mandatory) _id_15[1,1]_id_16 , (mandatory) _id_16[1,1]_id_17 , (mandatory) _id_17[1,1]_id_18 , (alternative) _id_18[1,1]_id_20 _id_21 , (mandatory) flood[1,1]_id_24 , (mandatory) _id_24[1,1]_id_25 , (mandatory) _id_25[1,1]_id_26 , (alternative) _id_26[1,1]_id_28 _id_29 , (mandatory) flood[1,1]_id_30 , (mandatory) _id_30[1,1]_id_31 , (mandatory) _id_32[1,1]_id_33 , (alternative) _id_33[1,1]_id_35 _id_36 , (optional) _id_0[0,1]communication , (mandatory) communication[1,1]_id_37 , (alternative) _id_39[1,1]_id_41 _id_42 , (mandatory) _id_0[1,1]_id_43 , (mandatory) _id_43[1,1]_id_44 , (mandatory) _id_43[1,1]_id_45 , (mandatory) _id_47[1,1]_id_49 , (mandatory) _id_49[1,1]_id_50 , (mandatory) _id_49[1,1]_id_51 , (mandatory) _id_47[1,1]_id_52 , (mandatory) _id_47[1,1]_id_55 , (mandatory) _id_0[1,1]_id_56 , (mandatory) _id_56[1,1]_id_57 , (mandatory) _id_56[1,1]_id_58 , (mandatory) _id_56[1,1]_id_59 , (mandatory) _id_59[1,1]_id_60 , (alternative) _id_60[1,1]_id_62 _id_63 , (mandatory) _id_56[1,1]_id_64 , (Constraint 0) IMPLIES[water][sprinkler], (Constraint 1) IMPLIES[pumping][sump_pump], (Constraint 2) IMPLIES[message][communication], (Constraint 3) IMPLIES[flood][moisture_sensor]]
+	|D|: 42
+	CC: 568
+	KBDiag runtime: 0.033700 s
+	--- Profiler ---
+	KBDiag calls: 10
+	mssDirect calls: 604
+	Consistency checks (TC): 568
+	Solver calls: 5706
+REAL-FM-11 REAL-FM-11_c250_1.testcases
+	Diagnosis: [(mandatory) _id_0[1,1]_id_1 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_4[1,1]_id_5 , (mandatory) _id_5[1,1]_id_6 , (alternative) _id_6[1,1]_id_8 _id_9 , (mandatory) _id_3[1,1]_id_10 , (mandatory) message[1,1]_id_14 , (mandatory) _id_1[1,1]_id_15 , (mandatory) _id_15[1,1]_id_16 , (mandatory) _id_16[1,1]_id_17 , (mandatory) _id_17[1,1]_id_18 , (alternative) _id_18[1,1]_id_20 _id_21 , (mandatory) flood[1,1]_id_24 , (mandatory) _id_24[1,1]_id_25 , (mandatory) _id_25[1,1]_id_26 , (alternative) _id_26[1,1]_id_28 _id_29 , (mandatory) flood[1,1]_id_30 , (mandatory) _id_30[1,1]_id_31 , (mandatory) _id_32[1,1]_id_33 , (alternative) _id_33[1,1]_id_35 _id_36 , (optional) _id_0[0,1]communication , (mandatory) communication[1,1]_id_37 , (alternative) _id_39[1,1]_id_41 _id_42 , (mandatory) _id_0[1,1]_id_43 , (mandatory) _id_43[1,1]_id_44 , (mandatory) _id_43[1,1]_id_45 , (mandatory) _id_47[1,1]_id_49 , (mandatory) _id_49[1,1]_id_50 , (mandatory) _id_49[1,1]_id_51 , (mandatory) _id_47[1,1]_id_52 , (mandatory) _id_47[1,1]_id_55 , (mandatory) _id_0[1,1]_id_56 , (mandatory) _id_56[1,1]_id_57 , (mandatory) _id_56[1,1]_id_58 , (mandatory) _id_56[1,1]_id_59 , (mandatory) _id_59[1,1]_id_60 , (alternative) _id_60[1,1]_id_62 _id_63 , (mandatory) _id_56[1,1]_id_64 , (Constraint 0) IMPLIES[water][sprinkler], (Constraint 1) IMPLIES[pumping][sump_pump], (Constraint 2) IMPLIES[message][communication], (Constraint 3) IMPLIES[flood][moisture_sensor]]
+	|D|: 42
+	CC: 568
+	KBDiag runtime: 0.033032 s
+	--- Profiler ---
+	KBDiag calls: 10
+	mssDirect calls: 604
+	Consistency checks (TC): 568
+	Solver calls: 5706
+REAL-FM-11 REAL-FM-11_c250_1.testcases
+	Diagnosis: [(mandatory) _id_0[1,1]_id_1 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_4[1,1]_id_5 , (mandatory) _id_5[1,1]_id_6 , (alternative) _id_6[1,1]_id_8 _id_9 , (mandatory) _id_3[1,1]_id_10 , (mandatory) message[1,1]_id_14 , (mandatory) _id_1[1,1]_id_15 , (mandatory) _id_15[1,1]_id_16 , (mandatory) _id_16[1,1]_id_17 , (mandatory) _id_17[1,1]_id_18 , (alternative) _id_18[1,1]_id_20 _id_21 , (mandatory) flood[1,1]_id_24 , (mandatory) _id_24[1,1]_id_25 , (mandatory) _id_25[1,1]_id_26 , (alternative) _id_26[1,1]_id_28 _id_29 , (mandatory) flood[1,1]_id_30 , (mandatory) _id_30[1,1]_id_31 , (mandatory) _id_32[1,1]_id_33 , (alternative) _id_33[1,1]_id_35 _id_36 , (optional) _id_0[0,1]communication , (mandatory) communication[1,1]_id_37 , (alternative) _id_39[1,1]_id_41 _id_42 , (mandatory) _id_0[1,1]_id_43 , (mandatory) _id_43[1,1]_id_44 , (mandatory) _id_43[1,1]_id_45 , (mandatory) _id_47[1,1]_id_49 , (mandatory) _id_49[1,1]_id_50 , (mandatory) _id_49[1,1]_id_51 , (mandatory) _id_47[1,1]_id_52 , (mandatory) _id_47[1,1]_id_55 , (mandatory) _id_0[1,1]_id_56 , (mandatory) _id_56[1,1]_id_57 , (mandatory) _id_56[1,1]_id_58 , (mandatory) _id_56[1,1]_id_59 , (mandatory) _id_59[1,1]_id_60 , (alternative) _id_60[1,1]_id_62 _id_63 , (mandatory) _id_56[1,1]_id_64 , (Constraint 0) IMPLIES[water][sprinkler], (Constraint 1) IMPLIES[pumping][sump_pump], (Constraint 2) IMPLIES[message][communication], (Constraint 3) IMPLIES[flood][moisture_sensor]]
+	|D|: 42
+	CC: 568
+	KBDiag runtime: 0.032847 s
+	--- Profiler ---
+	KBDiag calls: 10
+	mssDirect calls: 604
+	Consistency checks (TC): 568
+	Solver calls: 5706
+REAL-FM-11 REAL-FM-11_c500_1.testcases
+	Diagnosis: [(mandatory) _id_0[1,1]_id_1 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_1[1,1]_id_3 , (mandatory) _id_3[1,1]_id_4 , (mandatory) _id_4[1,1]_id_5 , (mandatory) _id_5[1,1]_id_6 , (alternative) _id_6[1,1]_id_8 _id_9 , (mandatory) _id_3[1,1]_id_10 , (optional) _id_10[0,1]message , (optional) message[0,1]_id_13 , (mandatory) message[1,1]_id_14 , (mandatory) _id_1[1,1]_id_15 , (mandatory) _id_15[1,1]_id_16 , (mandatory) _id_16[1,1]_id_17 , (mandatory) _id_17[1,1]_id_18 , (alternative) _id_18[1,1]_id_20 _id_21 , (mandatory) _id_15[1,1]_id_22 , (mandatory) _id_22[1,1]water , (mandatory) flood[1,1]_id_24 , (mandatory) _id_24[1,1]_id_25 , (mandatory) _id_25[1,1]_id_26 , (alternative) _id_26[1,1]_id_28 _id_29 , (mandatory) flood[1,1]_id_30 , (mandatory) _id_30[1,1]_id_31 , (optional) _id_30[0,1]pumping , (mandatory) _id_0[1,1]_id_32 , (mandatory) _id_32[1,1]_id_33 , (alternative) _id_33[1,1]_id_35 _id_36 , (optional) _id_0[0,1]communication , (mandatory) communication[1,1]_id_37 , (optional) communication[0,1]_id_38 , (mandatory) _id_38[1,1]_id_39 , (alternative) _id_39[1,1]_id_41 _id_42 , (mandatory) _id_0[1,1]_id_43 , (mandatory) _id_43[1,1]_id_44 , (mandatory) _id_43[1,1]_id_45 , (mandatory) _id_0[1,1]_id_47 , (mandatory) _id_47[1,1]_id_48 , (mandatory) _id_47[1,1]_id_49 , (mandatory) _id_49[1,1]_id_50 , (mandatory) _id_49[1,1]_id_51 , (mandatory) _id_47[1,1]_id_52 , (mandatory) _id_47[1,1]_id_55 , (mandatory) _id_0[1,1]_id_56 , (mandatory) _id_56[1,1]_id_57 , (mandatory) _id_56[1,1]_id_58 , (mandatory) _id_56[1,1]_id_59 , (mandatory) _id_59[1,1]_id_60 , (alternative) _id_60[1,1]_id_62 _id_63 , (mandatory) _id_56[1,1]_id_64 , (Constraint 0) IMPLIES[water][sprinkler], (Constraint 1) IMPLIES[pumping][sump_pump], (Constraint 2) IMPLIES[message][communication], (Constraint 3) IMPLIES[flood][moisture_sensor]]
+	|D|: 54
+	CC: 595
+	KBDiag runtime: 0.114036 s
+	--- Profiler ---
+	KBDiag calls: 10
+	mssDirect calls: 610
+	Consistency checks (TC): 595
+	Solver calls: 11365
+REAL-FM-11 REAL-FM-11_c500_1.testcases
+	Diagnosis: [(mandatory) _id_0[1,1]_id_1 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_1[1,1]_id_3 , (mandatory) _id_3[1,1]_id_4 , (mandatory) _id_4[1,1]_id_5 , (mandatory) _id_5[1,1]_id_6 , (alternative) _id_6[1,1]_id_8 _id_9 , (mandatory) _id_3[1,1]_id_10 , (optional) _id_10[0,1]message , (optional) message[0,1]_id_13 , (mandatory) message[1,1]_id_14 , (mandatory) _id_1[1,1]_id_15 , (mandatory) _id_15[1,1]_id_16 , (mandatory) _id_16[1,1]_id_17 , (mandatory) _id_17[1,1]_id_18 , (alternative) _id_18[1,1]_id_20 _id_21 , (mandatory) _id_15[1,1]_id_22 , (mandatory) _id_22[1,1]water , (mandatory) flood[1,1]_id_24 , (mandatory) _id_24[1,1]_id_25 , (mandatory) _id_25[1,1]_id_26 , (alternative) _id_26[1,1]_id_28 _id_29 , (mandatory) flood[1,1]_id_30 , (mandatory) _id_30[1,1]_id_31 , (optional) _id_30[0,1]pumping , (mandatory) _id_0[1,1]_id_32 , (mandatory) _id_32[1,1]_id_33 , (alternative) _id_33[1,1]_id_35 _id_36 , (optional) _id_0[0,1]communication , (mandatory) communication[1,1]_id_37 , (optional) communication[0,1]_id_38 , (mandatory) _id_38[1,1]_id_39 , (alternative) _id_39[1,1]_id_41 _id_42 , (mandatory) _id_0[1,1]_id_43 , (mandatory) _id_43[1,1]_id_44 , (mandatory) _id_43[1,1]_id_45 , (mandatory) _id_0[1,1]_id_47 , (mandatory) _id_47[1,1]_id_48 , (mandatory) _id_47[1,1]_id_49 , (mandatory) _id_49[1,1]_id_50 , (mandatory) _id_49[1,1]_id_51 , (mandatory) _id_47[1,1]_id_52 , (mandatory) _id_47[1,1]_id_55 , (mandatory) _id_0[1,1]_id_56 , (mandatory) _id_56[1,1]_id_57 , (mandatory) _id_56[1,1]_id_58 , (mandatory) _id_56[1,1]_id_59 , (mandatory) _id_59[1,1]_id_60 , (alternative) _id_60[1,1]_id_62 _id_63 , (mandatory) _id_56[1,1]_id_64 , (Constraint 0) IMPLIES[water][sprinkler], (Constraint 1) IMPLIES[pumping][sump_pump], (Constraint 2) IMPLIES[message][communication], (Constraint 3) IMPLIES[flood][moisture_sensor]]
+	|D|: 54
+	CC: 595
+	KBDiag runtime: 0.116605 s
+	--- Profiler ---
+	KBDiag calls: 10
+	mssDirect calls: 610
+	Consistency checks (TC): 595
+	Solver calls: 11365
+REAL-FM-11 REAL-FM-11_c500_1.testcases
+	Diagnosis: [(mandatory) _id_0[1,1]_id_1 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_1[1,1]_id_3 , (mandatory) _id_3[1,1]_id_4 , (mandatory) _id_4[1,1]_id_5 , (mandatory) _id_5[1,1]_id_6 , (alternative) _id_6[1,1]_id_8 _id_9 , (mandatory) _id_3[1,1]_id_10 , (optional) _id_10[0,1]message , (optional) message[0,1]_id_13 , (mandatory) message[1,1]_id_14 , (mandatory) _id_1[1,1]_id_15 , (mandatory) _id_15[1,1]_id_16 , (mandatory) _id_16[1,1]_id_17 , (mandatory) _id_17[1,1]_id_18 , (alternative) _id_18[1,1]_id_20 _id_21 , (mandatory) _id_15[1,1]_id_22 , (mandatory) _id_22[1,1]water , (mandatory) flood[1,1]_id_24 , (mandatory) _id_24[1,1]_id_25 , (mandatory) _id_25[1,1]_id_26 , (alternative) _id_26[1,1]_id_28 _id_29 , (mandatory) flood[1,1]_id_30 , (mandatory) _id_30[1,1]_id_31 , (optional) _id_30[0,1]pumping , (mandatory) _id_0[1,1]_id_32 , (mandatory) _id_32[1,1]_id_33 , (alternative) _id_33[1,1]_id_35 _id_36 , (optional) _id_0[0,1]communication , (mandatory) communication[1,1]_id_37 , (optional) communication[0,1]_id_38 , (mandatory) _id_38[1,1]_id_39 , (alternative) _id_39[1,1]_id_41 _id_42 , (mandatory) _id_0[1,1]_id_43 , (mandatory) _id_43[1,1]_id_44 , (mandatory) _id_43[1,1]_id_45 , (mandatory) _id_0[1,1]_id_47 , (mandatory) _id_47[1,1]_id_48 , (mandatory) _id_47[1,1]_id_49 , (mandatory) _id_49[1,1]_id_50 , (mandatory) _id_49[1,1]_id_51 , (mandatory) _id_47[1,1]_id_52 , (mandatory) _id_47[1,1]_id_55 , (mandatory) _id_0[1,1]_id_56 , (mandatory) _id_56[1,1]_id_57 , (mandatory) _id_56[1,1]_id_58 , (mandatory) _id_56[1,1]_id_59 , (mandatory) _id_59[1,1]_id_60 , (alternative) _id_60[1,1]_id_62 _id_63 , (mandatory) _id_56[1,1]_id_64 , (Constraint 0) IMPLIES[water][sprinkler], (Constraint 1) IMPLIES[pumping][sump_pump], (Constraint 2) IMPLIES[message][communication], (Constraint 3) IMPLIES[flood][moisture_sensor]]
+	|D|: 54
+	CC: 595
+	KBDiag runtime: 0.117498 s
+	--- Profiler ---
+	KBDiag calls: 10
+	mssDirect calls: 610
+	Consistency checks (TC): 595
+	Solver calls: 11365
+
+=== Evaluation Results: kbdiag (m=2, task=1) ===
+Testcase                  | Avg Time (s) |   |D| |  #Diag
+---------------------------------------------------------
+REAL-FM-11/REAL-FM-11_c5_1.testcases |     0.000226 |     2 |     10
+REAL-FM-11/REAL-FM-11_c10_1.testcases |     0.000363 |     2 |     10
+REAL-FM-11/REAL-FM-11_c25_1.testcases |     0.001072 |     6 |     10
+REAL-FM-11/REAL-FM-11_c50_1.testcases |     0.002735 |    14 |     10
+REAL-FM-11/REAL-FM-11_c100_1.testcases |     0.007381 |    24 |     10
+REAL-FM-11/REAL-FM-11_c250_1.testcases |     0.033193 |    42 |     10
+REAL-FM-11/REAL-FM-11_c500_1.testcases |     0.116046 |    54 |     10

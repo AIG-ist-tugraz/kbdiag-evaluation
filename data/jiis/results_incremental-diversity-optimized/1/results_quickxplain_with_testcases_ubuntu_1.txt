@@ -1,0 +1,221 @@
+ubuntu ubuntu_c5_1.testcases
+	Diagnosis: [(alternative) LauncherIconSize[1,1]_48 _64 _32 ]
+	|D|: 1
+	CC: 17
+	QuickXPlain+TC runtime: 0.000717 s
+	--- Profiler ---
+	Consistency checks (TC): 17
+	Solver calls: 21
+	QuickXPlain+TC calls: 3
+	QX+TC calls: 17
+ubuntu ubuntu_c5_1.testcases
+	Diagnosis: [(alternative) LauncherIconSize[1,1]_48 _64 _32 ]
+	|D|: 1
+	CC: 17
+	QuickXPlain+TC runtime: 0.000676 s
+	--- Profiler ---
+	Consistency checks (TC): 17
+	Solver calls: 21
+	QuickXPlain+TC calls: 3
+	QX+TC calls: 17
+ubuntu ubuntu_c5_1.testcases
+	Diagnosis: [(alternative) LauncherIconSize[1,1]_48 _64 _32 ]
+	|D|: 1
+	CC: 17
+	QuickXPlain+TC runtime: 0.000692 s
+	--- Profiler ---
+	Consistency checks (TC): 17
+	Solver calls: 21
+	QuickXPlain+TC calls: 3
+	QX+TC calls: 17
+ubuntu ubuntu_c10_1.testcases
+	Diagnosis: [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Behavoir[1,1]RevealLocation ]
+	|D|: 2
+	CC: 50
+	QuickXPlain+TC runtime: 0.002835 s
+	--- Profiler ---
+	Consistency checks (TC): 50
+	Solver calls: 84
+	QuickXPlain+TC calls: 12
+	QX+TC calls: 46
+ubuntu ubuntu_c10_1.testcases
+	Diagnosis: [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Behavoir[1,1]RevealLocation ]
+	|D|: 2
+	CC: 50
+	QuickXPlain+TC runtime: 0.002762 s
+	--- Profiler ---
+	Consistency checks (TC): 50
+	Solver calls: 84
+	QuickXPlain+TC calls: 12
+	QX+TC calls: 46
+ubuntu ubuntu_c10_1.testcases
+	Diagnosis: [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Behavoir[1,1]RevealLocation ]
+	|D|: 2
+	CC: 50
+	QuickXPlain+TC runtime: 0.002953 s
+	--- Profiler ---
+	Consistency checks (TC): 50
+	Solver calls: 84
+	QuickXPlain+TC calls: 12
+	QX+TC calls: 46
+ubuntu ubuntu_c25_1.testcases
+	Diagnosis: [(mandatory) Look[1,1]LauncherIconSize , (mandatory) Appearance[1,1]Behavoir , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 ]
+	|D|: 3
+	CC: 102
+	QuickXPlain+TC runtime: 0.007851 s
+	--- Profiler ---
+	Consistency checks (TC): 102
+	Solver calls: 232
+	QuickXPlain+TC calls: 15
+	QX+TC calls: 103
+ubuntu ubuntu_c25_1.testcases
+	Diagnosis: [(mandatory) Look[1,1]LauncherIconSize , (mandatory) Appearance[1,1]Behavoir , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 ]
+	|D|: 3
+	CC: 102
+	QuickXPlain+TC runtime: 0.007761 s
+	--- Profiler ---
+	Consistency checks (TC): 102
+	Solver calls: 232
+	QuickXPlain+TC calls: 15
+	QX+TC calls: 103
+ubuntu ubuntu_c25_1.testcases
+	Diagnosis: [(mandatory) Look[1,1]LauncherIconSize , (mandatory) Appearance[1,1]Behavoir , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 ]
+	|D|: 3
+	CC: 102
+	QuickXPlain+TC runtime: 0.007751 s
+	--- Profiler ---
+	Consistency checks (TC): 102
+	Solver calls: 232
+	QuickXPlain+TC calls: 15
+	QX+TC calls: 103
+ubuntu ubuntu_c50_1.testcases
+	Diagnosis: [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Behavoir , (mandatory) Look[1,1]Theme , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 ]
+	|D|: 4
+	CC: 157
+	QuickXPlain+TC runtime: 0.024139 s
+	--- Profiler ---
+	Consistency checks (TC): 157
+	Solver calls: 573
+	QuickXPlain+TC calls: 18
+	QX+TC calls: 164
+ubuntu ubuntu_c50_1.testcases
+	Diagnosis: [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Behavoir , (mandatory) Look[1,1]Theme , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 ]
+	|D|: 4
+	CC: 157
+	QuickXPlain+TC runtime: 0.023898 s
+	--- Profiler ---
+	Consistency checks (TC): 157
+	Solver calls: 573
+	QuickXPlain+TC calls: 18
+	QX+TC calls: 164
+ubuntu ubuntu_c50_1.testcases
+	Diagnosis: [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Behavoir , (mandatory) Look[1,1]Theme , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 ]
+	|D|: 4
+	CC: 157
+	QuickXPlain+TC runtime: 0.023292 s
+	--- Profiler ---
+	Consistency checks (TC): 157
+	Solver calls: 573
+	QuickXPlain+TC calls: 18
+	QX+TC calls: 164
+ubuntu ubuntu_c100_1.testcases
+	Diagnosis: [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Behavoir , (mandatory) Look[1,1]Theme , (mandatory) Look[1,1]Background , (alternative) Theme[1,1]HighContrastInverse AmbianceDefault Radiance HighContrast ]
+	|D|: 5
+	CC: 197
+	QuickXPlain+TC runtime: 0.035304 s
+	--- Profiler ---
+	Consistency checks (TC): 197
+	Solver calls: 731
+	QuickXPlain+TC calls: 15
+	QX+TC calls: 215
+ubuntu ubuntu_c100_1.testcases
+	Diagnosis: [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Behavoir , (mandatory) Look[1,1]Theme , (mandatory) Look[1,1]Background , (alternative) Theme[1,1]HighContrastInverse AmbianceDefault Radiance HighContrast ]
+	|D|: 5
+	CC: 197
+	QuickXPlain+TC runtime: 0.034628 s
+	--- Profiler ---
+	Consistency checks (TC): 197
+	Solver calls: 731
+	QuickXPlain+TC calls: 15
+	QX+TC calls: 215
+ubuntu ubuntu_c100_1.testcases
+	Diagnosis: [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Behavoir , (mandatory) Look[1,1]Theme , (mandatory) Look[1,1]Background , (alternative) Theme[1,1]HighContrastInverse AmbianceDefault Radiance HighContrast ]
+	|D|: 5
+	CC: 197
+	QuickXPlain+TC runtime: 0.034294 s
+	--- Profiler ---
+	Consistency checks (TC): 197
+	Solver calls: 731
+	QuickXPlain+TC calls: 15
+	QX+TC calls: 215
+ubuntu ubuntu_c250_1.testcases
+	Diagnosis: none
+	|D|: 0
+	CC: 260
+	QuickXPlain+TC runtime: 0.104136 s
+	--- Profiler ---
+	Consistency checks (TC): 260
+	Solver calls: 1410
+	QuickXPlain+TC calls: 15
+	QX+TC calls: 287
+ubuntu ubuntu_c250_1.testcases
+	Diagnosis: none
+	|D|: 0
+	CC: 260
+	QuickXPlain+TC runtime: 0.103961 s
+	--- Profiler ---
+	Consistency checks (TC): 260
+	Solver calls: 1410
+	QuickXPlain+TC calls: 15
+	QX+TC calls: 287
+ubuntu ubuntu_c250_1.testcases
+	Diagnosis: none
+	|D|: 0
+	CC: 260
+	QuickXPlain+TC runtime: 0.103964 s
+	--- Profiler ---
+	Consistency checks (TC): 260
+	Solver calls: 1410
+	QuickXPlain+TC calls: 15
+	QX+TC calls: 287
+ubuntu ubuntu_c500_1.testcases
+	Diagnosis: none
+	|D|: 0
+	CC: 260
+	QuickXPlain+TC runtime: 0.156067 s
+	--- Profiler ---
+	Consistency checks (TC): 260
+	Solver calls: 1410
+	QuickXPlain+TC calls: 15
+	QX+TC calls: 287
+ubuntu ubuntu_c500_1.testcases
+	Diagnosis: none
+	|D|: 0
+	CC: 260
+	QuickXPlain+TC runtime: 0.156675 s
+	--- Profiler ---
+	Consistency checks (TC): 260
+	Solver calls: 1410
+	QuickXPlain+TC calls: 15
+	QX+TC calls: 287
+ubuntu ubuntu_c500_1.testcases
+	Diagnosis: none
+	|D|: 0
+	CC: 260
+	QuickXPlain+TC runtime: 0.156376 s
+	--- Profiler ---
+	Consistency checks (TC): 260
+	Solver calls: 1410
+	QuickXPlain+TC calls: 15
+	QX+TC calls: 287
+
+=== Evaluation Results: quickxplain_with_testcases (m=1, task=1) ===
+Testcase                  | Avg Time (s) |   |D| |  #Diag
+---------------------------------------------------------
+ubuntu/ubuntu_c5_1.testcases |     0.000695 |     1 |      2
+ubuntu/ubuntu_c10_1.testcases |     0.002850 |     2 |     10
+ubuntu/ubuntu_c25_1.testcases |     0.007787 |     3 |     10
+ubuntu/ubuntu_c50_1.testcases |     0.023776 |     4 |     10
+ubuntu/ubuntu_c100_1.testcases |     0.034742 |     5 |      4
+ubuntu/ubuntu_c250_1.testcases |     0.104020 |     0 |      0
+ubuntu/ubuntu_c500_1.testcases |     0.156373 |     0 |      0

@@ -1,0 +1,221 @@
+REAL-FM-4 REAL-FM-4_c5_0.testcases
+	Diagnosis: [(or) Homepage[1,2]Staticcontent Dynamiccontent ]
+	|D|: 1
+	CC: 17
+	KBDiag runtime: 0.000767 s
+	--- Profiler ---
+	KBDiag calls: 1
+	mssDirect calls: 17
+	Consistency checks (TC): 17
+	Solver calls: 25
+REAL-FM-4 REAL-FM-4_c5_0.testcases
+	Diagnosis: [(or) Homepage[1,2]Staticcontent Dynamiccontent ]
+	|D|: 1
+	CC: 17
+	KBDiag runtime: 0.000771 s
+	--- Profiler ---
+	KBDiag calls: 1
+	mssDirect calls: 17
+	Consistency checks (TC): 17
+	Solver calls: 25
+REAL-FM-4 REAL-FM-4_c5_0.testcases
+	Diagnosis: [(or) Homepage[1,2]Staticcontent Dynamiccontent ]
+	|D|: 1
+	CC: 17
+	KBDiag runtime: 0.000752 s
+	--- Profiler ---
+	KBDiag calls: 1
+	mssDirect calls: 17
+	Consistency checks (TC): 17
+	Solver calls: 25
+REAL-FM-4 REAL-FM-4_c10_0.testcases
+	Diagnosis: [(or) Homepage[1,2]Staticcontent Dynamiccontent , (Constraint 1) OR[NOT[Registration][]][Wishlistsaveaftersession]]
+	|D|: 2
+	CC: 71
+	KBDiag runtime: 0.001243 s
+	--- Profiler ---
+	KBDiag calls: 3
+	mssDirect calls: 77
+	Consistency checks (TC): 71
+	Solver calls: 116
+REAL-FM-4 REAL-FM-4_c10_0.testcases
+	Diagnosis: [(or) Homepage[1,2]Staticcontent Dynamiccontent , (Constraint 1) OR[NOT[Registration][]][Wishlistsaveaftersession]]
+	|D|: 2
+	CC: 71
+	KBDiag runtime: 0.001264 s
+	--- Profiler ---
+	KBDiag calls: 3
+	mssDirect calls: 77
+	Consistency checks (TC): 71
+	Solver calls: 116
+REAL-FM-4 REAL-FM-4_c10_0.testcases
+	Diagnosis: [(or) Homepage[1,2]Staticcontent Dynamiccontent , (Constraint 1) OR[NOT[Registration][]][Wishlistsaveaftersession]]
+	|D|: 2
+	CC: 71
+	KBDiag runtime: 0.001237 s
+	--- Profiler ---
+	KBDiag calls: 3
+	mssDirect calls: 77
+	Consistency checks (TC): 71
+	Solver calls: 116
+REAL-FM-4 REAL-FM-4_c25_0.testcases
+	Diagnosis: [(or) Homepage[1,2]Staticcontent Dynamiccontent , (mandatory) Dynamiccontent[1,1]Contenttype , (optional) Shippingaddress[0,1]Multipleshippingaddresses , (Constraint 1) OR[NOT[Registration][]][Wishlistsaveaftersession]]
+	|D|: 4
+	CC: 272
+	KBDiag runtime: 0.002937 s
+	--- Profiler ---
+	KBDiag calls: 9
+	mssDirect calls: 287
+	Consistency checks (TC): 272
+	Solver calls: 829
+REAL-FM-4 REAL-FM-4_c25_0.testcases
+	Diagnosis: [(or) Homepage[1,2]Staticcontent Dynamiccontent , (mandatory) Dynamiccontent[1,1]Contenttype , (optional) Shippingaddress[0,1]Multipleshippingaddresses , (Constraint 1) OR[NOT[Registration][]][Wishlistsaveaftersession]]
+	|D|: 4
+	CC: 272
+	KBDiag runtime: 0.002908 s
+	--- Profiler ---
+	KBDiag calls: 9
+	mssDirect calls: 287
+	Consistency checks (TC): 272
+	Solver calls: 829
+REAL-FM-4 REAL-FM-4_c25_0.testcases
+	Diagnosis: [(or) Homepage[1,2]Staticcontent Dynamiccontent , (mandatory) Dynamiccontent[1,1]Contenttype , (optional) Shippingaddress[0,1]Multipleshippingaddresses , (Constraint 1) OR[NOT[Registration][]][Wishlistsaveaftersession]]
+	|D|: 4
+	CC: 272
+	KBDiag runtime: 0.002900 s
+	--- Profiler ---
+	KBDiag calls: 9
+	mssDirect calls: 287
+	Consistency checks (TC): 272
+	Solver calls: 829
+REAL-FM-4 REAL-FM-4_c50_0.testcases
+	Diagnosis: [(or) Homepage[1,2]Staticcontent Dynamiccontent , (mandatory) Dynamiccontent[1,1]Contenttype , (or) Contenttype[1,2]Welcomemessage Specialoffers , (or) Variationsource[1,2]Timedependent Personalized , (optional) Shippingaddress[0,1]Multipleshippingaddresses , (or) Demographics[1,4]Age Income Education CustomDemographicfield , (mandatory) Storefront[1,1]Catalog , (Constraint 1) OR[NOT[Registration][]][Wishlistsaveaftersession], (Constraint 15) OR[NOT[Specialoffers][]][Discounts]]
+	|D|: 9
+	CC: 582
+	KBDiag runtime: 0.006482 s
+	--- Profiler ---
+	KBDiag calls: 10
+	mssDirect calls: 674
+	Consistency checks (TC): 582
+	Solver calls: 1748
+REAL-FM-4 REAL-FM-4_c50_0.testcases
+	Diagnosis: [(or) Homepage[1,2]Staticcontent Dynamiccontent , (mandatory) Dynamiccontent[1,1]Contenttype , (or) Contenttype[1,2]Welcomemessage Specialoffers , (or) Variationsource[1,2]Timedependent Personalized , (optional) Shippingaddress[0,1]Multipleshippingaddresses , (or) Demographics[1,4]Age Income Education CustomDemographicfield , (mandatory) Storefront[1,1]Catalog , (Constraint 1) OR[NOT[Registration][]][Wishlistsaveaftersession], (Constraint 15) OR[NOT[Specialoffers][]][Discounts]]
+	|D|: 9
+	CC: 582
+	KBDiag runtime: 0.006382 s
+	--- Profiler ---
+	KBDiag calls: 10
+	mssDirect calls: 674
+	Consistency checks (TC): 582
+	Solver calls: 1748
+REAL-FM-4 REAL-FM-4_c50_0.testcases
+	Diagnosis: [(or) Homepage[1,2]Staticcontent Dynamiccontent , (mandatory) Dynamiccontent[1,1]Contenttype , (or) Contenttype[1,2]Welcomemessage Specialoffers , (or) Variationsource[1,2]Timedependent Personalized , (optional) Shippingaddress[0,1]Multipleshippingaddresses , (or) Demographics[1,4]Age Income Education CustomDemographicfield , (mandatory) Storefront[1,1]Catalog , (Constraint 1) OR[NOT[Registration][]][Wishlistsaveaftersession], (Constraint 15) OR[NOT[Specialoffers][]][Discounts]]
+	|D|: 9
+	CC: 582
+	KBDiag runtime: 0.006422 s
+	--- Profiler ---
+	KBDiag calls: 10
+	mssDirect calls: 674
+	Consistency checks (TC): 582
+	Solver calls: 1748
+REAL-FM-4 REAL-FM-4_c100_0.testcases
+	Diagnosis: [(or) Homepage[1,2]Staticcontent Dynamiccontent , (mandatory) Dynamiccontent[1,1]Contenttype , (or) Contenttype[1,2]Welcomemessage Specialoffers , (or) Variationsource[1,2]Timedependent Personalized , (or) Registrationenforcement[1,3]Registertobrowse Registertobuy None , (optional) Shippingaddress[0,1]Multipleshippingaddresses , (or) Demographics[1,4]Age Income Education CustomDemographicfield , (mandatory) Storefront[1,1]Catalog , (mandatory) Buypaths_4[1,1]PhoneOrdering , (Constraint 1) OR[NOT[Registration][]][Wishlistsaveaftersession], (Constraint 11) OR[NOT[Registeredcheckout][]][Registertobuy], (Constraint 15) OR[NOT[Specialoffers][]][Discounts], (Constraint 19) OR[NOT[Permissions][]][Registration], (Constraint 20) OR[NOT[E_mailwishlist][]][Registration]]
+	|D|: 14
+	CC: 813
+	KBDiag runtime: 0.014678 s
+	--- Profiler ---
+	KBDiag calls: 10
+	mssDirect calls: 930
+	Consistency checks (TC): 813
+	Solver calls: 3314
+REAL-FM-4 REAL-FM-4_c100_0.testcases
+	Diagnosis: [(or) Homepage[1,2]Staticcontent Dynamiccontent , (mandatory) Dynamiccontent[1,1]Contenttype , (or) Contenttype[1,2]Welcomemessage Specialoffers , (or) Variationsource[1,2]Timedependent Personalized , (or) Registrationenforcement[1,3]Registertobrowse Registertobuy None , (optional) Shippingaddress[0,1]Multipleshippingaddresses , (or) Demographics[1,4]Age Income Education CustomDemographicfield , (mandatory) Storefront[1,1]Catalog , (mandatory) Buypaths_4[1,1]PhoneOrdering , (Constraint 1) OR[NOT[Registration][]][Wishlistsaveaftersession], (Constraint 11) OR[NOT[Registeredcheckout][]][Registertobuy], (Constraint 15) OR[NOT[Specialoffers][]][Discounts], (Constraint 19) OR[NOT[Permissions][]][Registration], (Constraint 20) OR[NOT[E_mailwishlist][]][Registration]]
+	|D|: 14
+	CC: 813
+	KBDiag runtime: 0.014984 s
+	--- Profiler ---
+	KBDiag calls: 10
+	mssDirect calls: 930
+	Consistency checks (TC): 813
+	Solver calls: 3314
+REAL-FM-4 REAL-FM-4_c100_0.testcases
+	Diagnosis: [(or) Homepage[1,2]Staticcontent Dynamiccontent , (mandatory) Dynamiccontent[1,1]Contenttype , (or) Contenttype[1,2]Welcomemessage Specialoffers , (or) Variationsource[1,2]Timedependent Personalized , (or) Registrationenforcement[1,3]Registertobrowse Registertobuy None , (optional) Shippingaddress[0,1]Multipleshippingaddresses , (or) Demographics[1,4]Age Income Education CustomDemographicfield , (mandatory) Storefront[1,1]Catalog , (mandatory) Buypaths_4[1,1]PhoneOrdering , (Constraint 1) OR[NOT[Registration][]][Wishlistsaveaftersession], (Constraint 11) OR[NOT[Registeredcheckout][]][Registertobuy], (Constraint 15) OR[NOT[Specialoffers][]][Discounts], (Constraint 19) OR[NOT[Permissions][]][Registration], (Constraint 20) OR[NOT[E_mailwishlist][]][Registration]]
+	|D|: 14
+	CC: 813
+	KBDiag runtime: 0.015167 s
+	--- Profiler ---
+	KBDiag calls: 10
+	mssDirect calls: 930
+	Consistency checks (TC): 813
+	Solver calls: 3314
+REAL-FM-4 REAL-FM-4_c250_0.testcases
+	Diagnosis: [(mandatory) eShop[1,1]Storefront , (or) Homepage[1,2]Staticcontent Dynamiccontent , (mandatory) Dynamiccontent[1,1]Contenttype , (or) Contenttype[1,2]Welcomemessage Specialoffers , (mandatory) Dynamiccontent[1,1]Variationsource , (or) Variationsource[1,2]Timedependent Personalized , (mandatory) Registration[1,1]Registrationenforcement , (or) Registrationenforcement[1,3]Registertobrowse Registertobuy None , (mandatory) Registration[1,1]Registrationinformation , (optional) Registration[0,1]Userbehaviourtrackinginformation , (mandatory) Storefront[1,1]Catalog , (mandatory) Storefront[1,1]Buypaths , (Constraint 1) OR[NOT[Registration][]][Wishlistsaveaftersession], (Constraint 11) OR[NOT[Registeredcheckout][]][Registertobuy], (Constraint 15) OR[NOT[Specialoffers][]][Discounts], (Constraint 19) OR[NOT[Permissions][]][Registration], (Constraint 20) OR[NOT[E_mailwishlist][]][Registration]]
+	|D|: 17
+	CC: 267
+	KBDiag runtime: 0.055380 s
+	--- Profiler ---
+	KBDiag calls: 3
+	mssDirect calls: 263
+	Consistency checks (TC): 267
+	Solver calls: 3444
+REAL-FM-4 REAL-FM-4_c250_0.testcases
+	Diagnosis: [(mandatory) eShop[1,1]Storefront , (or) Homepage[1,2]Staticcontent Dynamiccontent , (mandatory) Dynamiccontent[1,1]Contenttype , (or) Contenttype[1,2]Welcomemessage Specialoffers , (mandatory) Dynamiccontent[1,1]Variationsource , (or) Variationsource[1,2]Timedependent Personalized , (mandatory) Registration[1,1]Registrationenforcement , (or) Registrationenforcement[1,3]Registertobrowse Registertobuy None , (mandatory) Registration[1,1]Registrationinformation , (optional) Registration[0,1]Userbehaviourtrackinginformation , (mandatory) Storefront[1,1]Catalog , (mandatory) Storefront[1,1]Buypaths , (Constraint 1) OR[NOT[Registration][]][Wishlistsaveaftersession], (Constraint 11) OR[NOT[Registeredcheckout][]][Registertobuy], (Constraint 15) OR[NOT[Specialoffers][]][Discounts], (Constraint 19) OR[NOT[Permissions][]][Registration], (Constraint 20) OR[NOT[E_mailwishlist][]][Registration]]
+	|D|: 17
+	CC: 267
+	KBDiag runtime: 0.055353 s
+	--- Profiler ---
+	KBDiag calls: 3
+	mssDirect calls: 263
+	Consistency checks (TC): 267
+	Solver calls: 3444
+REAL-FM-4 REAL-FM-4_c250_0.testcases
+	Diagnosis: [(mandatory) eShop[1,1]Storefront , (or) Homepage[1,2]Staticcontent Dynamiccontent , (mandatory) Dynamiccontent[1,1]Contenttype , (or) Contenttype[1,2]Welcomemessage Specialoffers , (mandatory) Dynamiccontent[1,1]Variationsource , (or) Variationsource[1,2]Timedependent Personalized , (mandatory) Registration[1,1]Registrationenforcement , (or) Registrationenforcement[1,3]Registertobrowse Registertobuy None , (mandatory) Registration[1,1]Registrationinformation , (optional) Registration[0,1]Userbehaviourtrackinginformation , (mandatory) Storefront[1,1]Catalog , (mandatory) Storefront[1,1]Buypaths , (Constraint 1) OR[NOT[Registration][]][Wishlistsaveaftersession], (Constraint 11) OR[NOT[Registeredcheckout][]][Registertobuy], (Constraint 15) OR[NOT[Specialoffers][]][Discounts], (Constraint 19) OR[NOT[Permissions][]][Registration], (Constraint 20) OR[NOT[E_mailwishlist][]][Registration]]
+	|D|: 17
+	CC: 267
+	KBDiag runtime: 0.053727 s
+	--- Profiler ---
+	KBDiag calls: 3
+	mssDirect calls: 263
+	Consistency checks (TC): 267
+	Solver calls: 3444
+REAL-FM-4 REAL-FM-4_c500_0.testcases
+	Diagnosis: [(mandatory) eShop[1,1]Storefront , (optional) Storefront[0,1]Homepage , (or) Homepage[1,2]Staticcontent Dynamiccontent , (mandatory) Dynamiccontent[1,1]Contenttype , (or) Contenttype[1,2]Welcomemessage Specialoffers , (mandatory) Dynamiccontent[1,1]Variationsource , (or) Variationsource[1,2]Timedependent Personalized , (mandatory) Registration[1,1]Registrationenforcement , (or) Registrationenforcement[1,3]Registertobrowse Registertobuy None , (mandatory) Registration[1,1]Registrationinformation , (optional) Registration[0,1]Userbehaviourtrackinginformation , (mandatory) Storefront[1,1]Catalog , (optional) Storefront[0,1]Wishlist , (mandatory) Storefront[1,1]Buypaths , (optional) Storefront[0,1]Customerservice , (optional) Storefront[0,1]Userbehaviourtracking , (mandatory) eShop[1,1]Businessmanagement , (Constraint 1) OR[NOT[Registration][]][Wishlistsaveaftersession], (Constraint 11) OR[NOT[Registeredcheckout][]][Registertobuy], (Constraint 15) OR[NOT[Specialoffers][]][Discounts], (Constraint 19) OR[NOT[Permissions][]][Registration], (Constraint 20) OR[NOT[E_mailwishlist][]][Registration]]
+	|D|: 22
+	CC: 124
+	KBDiag runtime: 0.178612 s
+	--- Profiler ---
+	KBDiag calls: 1
+	mssDirect calls: 121
+	Consistency checks (TC): 124
+	Solver calls: 3109
+REAL-FM-4 REAL-FM-4_c500_0.testcases
+	Diagnosis: [(mandatory) eShop[1,1]Storefront , (optional) Storefront[0,1]Homepage , (or) Homepage[1,2]Staticcontent Dynamiccontent , (mandatory) Dynamiccontent[1,1]Contenttype , (or) Contenttype[1,2]Welcomemessage Specialoffers , (mandatory) Dynamiccontent[1,1]Variationsource , (or) Variationsource[1,2]Timedependent Personalized , (mandatory) Registration[1,1]Registrationenforcement , (or) Registrationenforcement[1,3]Registertobrowse Registertobuy None , (mandatory) Registration[1,1]Registrationinformation , (optional) Registration[0,1]Userbehaviourtrackinginformation , (mandatory) Storefront[1,1]Catalog , (optional) Storefront[0,1]Wishlist , (mandatory) Storefront[1,1]Buypaths , (optional) Storefront[0,1]Customerservice , (optional) Storefront[0,1]Userbehaviourtracking , (mandatory) eShop[1,1]Businessmanagement , (Constraint 1) OR[NOT[Registration][]][Wishlistsaveaftersession], (Constraint 11) OR[NOT[Registeredcheckout][]][Registertobuy], (Constraint 15) OR[NOT[Specialoffers][]][Discounts], (Constraint 19) OR[NOT[Permissions][]][Registration], (Constraint 20) OR[NOT[E_mailwishlist][]][Registration]]
+	|D|: 22
+	CC: 124
+	KBDiag runtime: 0.178635 s
+	--- Profiler ---
+	KBDiag calls: 1
+	mssDirect calls: 121
+	Consistency checks (TC): 124
+	Solver calls: 3109
+REAL-FM-4 REAL-FM-4_c500_0.testcases
+	Diagnosis: [(mandatory) eShop[1,1]Storefront , (optional) Storefront[0,1]Homepage , (or) Homepage[1,2]Staticcontent Dynamiccontent , (mandatory) Dynamiccontent[1,1]Contenttype , (or) Contenttype[1,2]Welcomemessage Specialoffers , (mandatory) Dynamiccontent[1,1]Variationsource , (or) Variationsource[1,2]Timedependent Personalized , (mandatory) Registration[1,1]Registrationenforcement , (or) Registrationenforcement[1,3]Registertobrowse Registertobuy None , (mandatory) Registration[1,1]Registrationinformation , (optional) Registration[0,1]Userbehaviourtrackinginformation , (mandatory) Storefront[1,1]Catalog , (optional) Storefront[0,1]Wishlist , (mandatory) Storefront[1,1]Buypaths , (optional) Storefront[0,1]Customerservice , (optional) Storefront[0,1]Userbehaviourtracking , (mandatory) eShop[1,1]Businessmanagement , (Constraint 1) OR[NOT[Registration][]][Wishlistsaveaftersession], (Constraint 11) OR[NOT[Registeredcheckout][]][Registertobuy], (Constraint 15) OR[NOT[Specialoffers][]][Discounts], (Constraint 19) OR[NOT[Permissions][]][Registration], (Constraint 20) OR[NOT[E_mailwishlist][]][Registration]]
+	|D|: 22
+	CC: 124
+	KBDiag runtime: 0.180424 s
+	--- Profiler ---
+	KBDiag calls: 1
+	mssDirect calls: 121
+	Consistency checks (TC): 124
+	Solver calls: 3109
+
+=== Evaluation Results: kbdiag (m=1, task=1) ===
+Testcase                  | Avg Time (s) |   |D| |  #Diag
+---------------------------------------------------------
+REAL-FM-4/REAL-FM-4_c5_0.testcases |     0.000763 |     1 |      1
+REAL-FM-4/REAL-FM-4_c10_0.testcases |     0.001248 |     2 |      3
+REAL-FM-4/REAL-FM-4_c25_0.testcases |     0.002915 |     4 |      9
+REAL-FM-4/REAL-FM-4_c50_0.testcases |     0.006429 |     9 |     10
+REAL-FM-4/REAL-FM-4_c100_0.testcases |     0.014943 |    14 |     10
+REAL-FM-4/REAL-FM-4_c250_0.testcases |     0.054820 |    17 |      3
+REAL-FM-4/REAL-FM-4_c500_0.testcases |     0.179224 |    22 |      1
