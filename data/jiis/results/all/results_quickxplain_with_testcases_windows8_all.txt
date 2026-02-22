@@ -1,0 +1,62 @@
+windows8 windows8_c25_0.testcases
+	Diagnosis 1 (|D|=4, t=0.198112s): [(or) SetupTextToSpeech[1,2]TextToSpeech SpeechRecognition , (mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (alternative) Communications[1,1]ReduceTheVolumeOfOtherSoundsBy50 ReduceTheVolumeOfOtherSoundsBy80 MuteAllOtherSounds DoNothing ]
+	Diagnosis 2 (|D|=4, t=0.214463s): [(or) SetupTextToSpeech[1,2]TextToSpeech SpeechRecognition , (mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (mandatory) AudioDevicesAndSoundThemes[1,1]Communications ]
+	Diagnosis 3 (|D|=4, t=0.230044s): [(or) SetupTextToSpeech[1,2]TextToSpeech SpeechRecognition , (mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (or) SeeAlso1[1,2]LearnAboutAdditionalAssistiveTechnologiesOnline1 AudioDevicesAndSoundThemes ]
+	Diagnosis 4 (|D|=4, t=0.246297s): [(or) SetupTextToSpeech[1,2]TextToSpeech SpeechRecognition , (mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (optional) UseTheComputerWithoutADisplay[0,1]SeeAlso1 ]
+	Diagnosis 5 (|D|=4, t=0.261801s): [(optional) HearTextReadAloud[0,1]SetupTextToSpeech , (mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (alternative) Communications[1,1]ReduceTheVolumeOfOtherSoundsBy50 ReduceTheVolumeOfOtherSoundsBy80 MuteAllOtherSounds DoNothing ]
+	Diagnosis 6 (|D|=4, t=0.278311s): [(optional) HearTextReadAloud[0,1]SetupTextToSpeech , (mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (mandatory) AudioDevicesAndSoundThemes[1,1]Communications ]
+	Diagnosis 7 (|D|=4, t=0.293967s): [(optional) HearTextReadAloud[0,1]SetupTextToSpeech , (mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (or) SeeAlso1[1,2]LearnAboutAdditionalAssistiveTechnologiesOnline1 AudioDevicesAndSoundThemes ]
+	Diagnosis 8 (|D|=4, t=0.310708s): [(optional) HearTextReadAloud[0,1]SetupTextToSpeech , (mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (optional) UseTheComputerWithoutADisplay[0,1]SeeAlso1 ]
+	#Diagnoses: 8
+	CC: 145
+	QuickXPlain+TC runtime: 0.310715 s
+	--- Profiler ---
+	Consistency checks (TC): 145
+	Consistency checks: 277
+	QuickXPlain+TC calls: 15
+	QX+TC calls: 149
+windows8 windows8_c25_0.testcases
+	Diagnosis 1 (|D|=4, t=0.188420s): [(or) SetupTextToSpeech[1,2]TextToSpeech SpeechRecognition , (mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (alternative) Communications[1,1]ReduceTheVolumeOfOtherSoundsBy50 ReduceTheVolumeOfOtherSoundsBy80 MuteAllOtherSounds DoNothing ]
+	Diagnosis 2 (|D|=4, t=0.203841s): [(or) SetupTextToSpeech[1,2]TextToSpeech SpeechRecognition , (mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (mandatory) AudioDevicesAndSoundThemes[1,1]Communications ]
+	Diagnosis 3 (|D|=4, t=0.219959s): [(or) SetupTextToSpeech[1,2]TextToSpeech SpeechRecognition , (mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (or) SeeAlso1[1,2]LearnAboutAdditionalAssistiveTechnologiesOnline1 AudioDevicesAndSoundThemes ]
+	Diagnosis 4 (|D|=4, t=0.235492s): [(or) SetupTextToSpeech[1,2]TextToSpeech SpeechRecognition , (mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (optional) UseTheComputerWithoutADisplay[0,1]SeeAlso1 ]
+	Diagnosis 5 (|D|=4, t=0.251905s): [(optional) HearTextReadAloud[0,1]SetupTextToSpeech , (mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (alternative) Communications[1,1]ReduceTheVolumeOfOtherSoundsBy50 ReduceTheVolumeOfOtherSoundsBy80 MuteAllOtherSounds DoNothing ]
+	Diagnosis 6 (|D|=4, t=0.267159s): [(optional) HearTextReadAloud[0,1]SetupTextToSpeech , (mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (mandatory) AudioDevicesAndSoundThemes[1,1]Communications ]
+	Diagnosis 7 (|D|=4, t=0.282810s): [(optional) HearTextReadAloud[0,1]SetupTextToSpeech , (mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (or) SeeAlso1[1,2]LearnAboutAdditionalAssistiveTechnologiesOnline1 AudioDevicesAndSoundThemes ]
+	Diagnosis 8 (|D|=4, t=0.298100s): [(optional) HearTextReadAloud[0,1]SetupTextToSpeech , (mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (optional) UseTheComputerWithoutADisplay[0,1]SeeAlso1 ]
+	#Diagnoses: 8
+	CC: 145
+	QuickXPlain+TC runtime: 0.298105 s
+	--- Profiler ---
+	Consistency checks (TC): 145
+	Consistency checks: 277
+	QuickXPlain+TC calls: 15
+	QX+TC calls: 149
+windows8 windows8_c25_0.testcases
+	Diagnosis 1 (|D|=4, t=0.193703s): [(or) SetupTextToSpeech[1,2]TextToSpeech SpeechRecognition , (mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (alternative) Communications[1,1]ReduceTheVolumeOfOtherSoundsBy50 ReduceTheVolumeOfOtherSoundsBy80 MuteAllOtherSounds DoNothing ]
+	Diagnosis 2 (|D|=4, t=0.213460s): [(or) SetupTextToSpeech[1,2]TextToSpeech SpeechRecognition , (mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (mandatory) AudioDevicesAndSoundThemes[1,1]Communications ]
+	Diagnosis 3 (|D|=4, t=0.230137s): [(or) SetupTextToSpeech[1,2]TextToSpeech SpeechRecognition , (mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (or) SeeAlso1[1,2]LearnAboutAdditionalAssistiveTechnologiesOnline1 AudioDevicesAndSoundThemes ]
+	Diagnosis 4 (|D|=4, t=0.246011s): [(or) SetupTextToSpeech[1,2]TextToSpeech SpeechRecognition , (mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (optional) UseTheComputerWithoutADisplay[0,1]SeeAlso1 ]
+	Diagnosis 5 (|D|=4, t=0.261902s): [(optional) HearTextReadAloud[0,1]SetupTextToSpeech , (mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (alternative) Communications[1,1]ReduceTheVolumeOfOtherSoundsBy50 ReduceTheVolumeOfOtherSoundsBy80 MuteAllOtherSounds DoNothing ]
+	Diagnosis 6 (|D|=4, t=0.278868s): [(optional) HearTextReadAloud[0,1]SetupTextToSpeech , (mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (mandatory) AudioDevicesAndSoundThemes[1,1]Communications ]
+	Diagnosis 7 (|D|=4, t=0.294260s): [(optional) HearTextReadAloud[0,1]SetupTextToSpeech , (mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (or) SeeAlso1[1,2]LearnAboutAdditionalAssistiveTechnologiesOnline1 AudioDevicesAndSoundThemes ]
+	Diagnosis 8 (|D|=4, t=0.310187s): [(optional) HearTextReadAloud[0,1]SetupTextToSpeech , (mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (optional) UseTheComputerWithoutADisplay[0,1]SeeAlso1 ]
+	#Diagnoses: 8
+	CC: 145
+	QuickXPlain+TC runtime: 0.310192 s
+	--- Profiler ---
+	Consistency checks (TC): 145
+	Consistency checks: 277
+	QuickXPlain+TC calls: 15
+	QX+TC calls: 149
+
+=== Evaluation Results: quickxplain_with_testcases (m=1, task=all) ===
+Testcase                  | Avg Time (s) |   |D| |  #Diag
+---------------------------------------------------------
+windows8/windows8_c5_0.testcases |     0.000000 |     2 |      1
+windows8/windows8_c10_0.testcases |     0.000000 |     3 |      1
+windows8/windows8_c25_0.testcases |     0.306338 |     4 |      8
+windows8/windows8_c50_0.testcases |     0.000000 |     5 |      1
+windows8/windows8_c100_0.testcases |     0.000000 |     6 |      1
+windows8/windows8_c250_0.testcases |     0.000000 |     7 |      1
+windows8/windows8_c500_0.testcases |     0.000000 |     8 |      1

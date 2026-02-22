@@ -1,0 +1,200 @@
+DELL DELL_c5_3.testcases
+	Diagnosis: [(mandatory) DellLaptops_Notebooks[1,1]ProductCategory , (alternative) OperatingSystem[1,1]WindowsVista64bit WindowsXPHome UbuntuLinux Windows7 Windows8 , (mandatory) DellLaptops_Notebooks[1,1]HardDrive ]
+	|D|: 3
+	CC: 16
+	KBDiag runtime: 0.003897 s
+	--- Profiler ---
+	mssDirect calls: 15
+	Consistency checks (TC): 16
+	Consistency checks: 24
+DELL DELL_c5_3.testcases
+	Diagnosis: [(mandatory) DellLaptops_Notebooks[1,1]ProductCategory , (alternative) OperatingSystem[1,1]WindowsVista64bit WindowsXPHome UbuntuLinux Windows7 Windows8 , (mandatory) DellLaptops_Notebooks[1,1]HardDrive ]
+	|D|: 3
+	CC: 16
+	KBDiag runtime: 0.003990 s
+	--- Profiler ---
+	mssDirect calls: 15
+	Consistency checks (TC): 16
+	Consistency checks: 24
+DELL DELL_c5_3.testcases
+	Diagnosis: [(mandatory) DellLaptops_Notebooks[1,1]ProductCategory , (alternative) OperatingSystem[1,1]WindowsVista64bit WindowsXPHome UbuntuLinux Windows7 Windows8 , (mandatory) DellLaptops_Notebooks[1,1]HardDrive ]
+	|D|: 3
+	CC: 16
+	KBDiag runtime: 0.003834 s
+	--- Profiler ---
+	mssDirect calls: 15
+	Consistency checks (TC): 16
+	Consistency checks: 24
+DELL DELL_c10_3.testcases
+	Diagnosis: [(mandatory) DellLaptops_Notebooks[1,1]ProductCategory , (alternative) ProductCategory[1,1]MiniNotebooks InspironLaptops StudioLaptops XPSLaptops Adamo StudioXPSLaptops , (mandatory) DellLaptops_Notebooks[1,1]OperatingSystem , (alternative) OperatingSystem[1,1]WindowsVista64bit WindowsXPHome UbuntuLinux Windows7 Windows8 , (mandatory) DellLaptops_Notebooks[1,1]HardDrive , (Constraint 23) OR[NOT[InspironLaptops][]][NOT[UltraLight][]], (Constraint 24) OR[NOT[InspironLaptops][]][NOT[DesktopReplacement][]]]
+	|D|: 7
+	CC: 22
+	KBDiag runtime: 0.009001 s
+	--- Profiler ---
+	mssDirect calls: 23
+	Consistency checks (TC): 22
+	Consistency checks: 52
+DELL DELL_c10_3.testcases
+	Diagnosis: [(mandatory) DellLaptops_Notebooks[1,1]ProductCategory , (alternative) ProductCategory[1,1]MiniNotebooks InspironLaptops StudioLaptops XPSLaptops Adamo StudioXPSLaptops , (mandatory) DellLaptops_Notebooks[1,1]OperatingSystem , (alternative) OperatingSystem[1,1]WindowsVista64bit WindowsXPHome UbuntuLinux Windows7 Windows8 , (mandatory) DellLaptops_Notebooks[1,1]HardDrive , (Constraint 23) OR[NOT[InspironLaptops][]][NOT[UltraLight][]], (Constraint 24) OR[NOT[InspironLaptops][]][NOT[DesktopReplacement][]]]
+	|D|: 7
+	CC: 22
+	KBDiag runtime: 0.009027 s
+	--- Profiler ---
+	mssDirect calls: 23
+	Consistency checks (TC): 22
+	Consistency checks: 52
+DELL DELL_c10_3.testcases
+	Diagnosis: [(mandatory) DellLaptops_Notebooks[1,1]ProductCategory , (alternative) ProductCategory[1,1]MiniNotebooks InspironLaptops StudioLaptops XPSLaptops Adamo StudioXPSLaptops , (mandatory) DellLaptops_Notebooks[1,1]OperatingSystem , (alternative) OperatingSystem[1,1]WindowsVista64bit WindowsXPHome UbuntuLinux Windows7 Windows8 , (mandatory) DellLaptops_Notebooks[1,1]HardDrive , (Constraint 23) OR[NOT[InspironLaptops][]][NOT[UltraLight][]], (Constraint 24) OR[NOT[InspironLaptops][]][NOT[DesktopReplacement][]]]
+	|D|: 7
+	CC: 22
+	KBDiag runtime: 0.008754 s
+	--- Profiler ---
+	mssDirect calls: 23
+	Consistency checks (TC): 22
+	Consistency checks: 52
+DELL DELL_c25_3.testcases
+	Diagnosis: [(mandatory) DellLaptops_Notebooks[1,1]ProductCategory , (alternative) ProductCategory[1,1]MiniNotebooks InspironLaptops StudioLaptops XPSLaptops Adamo StudioXPSLaptops , (mandatory) DellLaptops_Notebooks[1,1]OperatingSystem , (alternative) OperatingSystem[1,1]WindowsVista64bit WindowsXPHome UbuntuLinux Windows7 Windows8 , (mandatory) DellLaptops_Notebooks[1,1]HardDrive , (alternative) Processor[1,1]IntelCore2Duo IntelPentiumDualcore IntelCeleron IntelAtom , (mandatory) DellLaptops_Notebooks[1,1]Price , (Constraint 4) OR[NOT[XPSLaptops][]][NOT[a128GBSolidState][]], (Constraint 5) OR[NOT[XPSLaptops][]][NOT[a120GB][]], (Constraint 23) OR[NOT[InspironLaptops][]][NOT[UltraLight][]], (Constraint 24) OR[NOT[InspironLaptops][]][NOT[DesktopReplacement][]], (Constraint 89) OR[NOT[MiniNotebooks][]][NOT[a250GB][]], (Constraint 90) OR[NOT[Adamo][]][NOT[IntelAtom][]]]
+	|D|: 13
+	CC: 36
+	KBDiag runtime: 0.023148 s
+	--- Profiler ---
+	mssDirect calls: 43
+	Consistency checks (TC): 36
+	Consistency checks: 118
+DELL DELL_c25_3.testcases
+	Diagnosis: [(mandatory) DellLaptops_Notebooks[1,1]ProductCategory , (alternative) ProductCategory[1,1]MiniNotebooks InspironLaptops StudioLaptops XPSLaptops Adamo StudioXPSLaptops , (mandatory) DellLaptops_Notebooks[1,1]OperatingSystem , (alternative) OperatingSystem[1,1]WindowsVista64bit WindowsXPHome UbuntuLinux Windows7 Windows8 , (mandatory) DellLaptops_Notebooks[1,1]HardDrive , (alternative) Processor[1,1]IntelCore2Duo IntelPentiumDualcore IntelCeleron IntelAtom , (mandatory) DellLaptops_Notebooks[1,1]Price , (Constraint 4) OR[NOT[XPSLaptops][]][NOT[a128GBSolidState][]], (Constraint 5) OR[NOT[XPSLaptops][]][NOT[a120GB][]], (Constraint 23) OR[NOT[InspironLaptops][]][NOT[UltraLight][]], (Constraint 24) OR[NOT[InspironLaptops][]][NOT[DesktopReplacement][]], (Constraint 89) OR[NOT[MiniNotebooks][]][NOT[a250GB][]], (Constraint 90) OR[NOT[Adamo][]][NOT[IntelAtom][]]]
+	|D|: 13
+	CC: 36
+	KBDiag runtime: 0.023524 s
+	--- Profiler ---
+	mssDirect calls: 43
+	Consistency checks (TC): 36
+	Consistency checks: 118
+DELL DELL_c25_3.testcases
+	Diagnosis: [(mandatory) DellLaptops_Notebooks[1,1]ProductCategory , (alternative) ProductCategory[1,1]MiniNotebooks InspironLaptops StudioLaptops XPSLaptops Adamo StudioXPSLaptops , (mandatory) DellLaptops_Notebooks[1,1]OperatingSystem , (alternative) OperatingSystem[1,1]WindowsVista64bit WindowsXPHome UbuntuLinux Windows7 Windows8 , (mandatory) DellLaptops_Notebooks[1,1]HardDrive , (alternative) Processor[1,1]IntelCore2Duo IntelPentiumDualcore IntelCeleron IntelAtom , (mandatory) DellLaptops_Notebooks[1,1]Price , (Constraint 4) OR[NOT[XPSLaptops][]][NOT[a128GBSolidState][]], (Constraint 5) OR[NOT[XPSLaptops][]][NOT[a120GB][]], (Constraint 23) OR[NOT[InspironLaptops][]][NOT[UltraLight][]], (Constraint 24) OR[NOT[InspironLaptops][]][NOT[DesktopReplacement][]], (Constraint 89) OR[NOT[MiniNotebooks][]][NOT[a250GB][]], (Constraint 90) OR[NOT[Adamo][]][NOT[IntelAtom][]]]
+	|D|: 13
+	CC: 36
+	KBDiag runtime: 0.024246 s
+	--- Profiler ---
+	mssDirect calls: 43
+	Consistency checks (TC): 36
+	Consistency checks: 118
+DELL DELL_c50_3.testcases
+	Diagnosis: [(mandatory) DellLaptops_Notebooks[1,1]ProductCategory , (alternative) ProductCategory[1,1]MiniNotebooks InspironLaptops StudioLaptops XPSLaptops Adamo StudioXPSLaptops , (mandatory) DellLaptops_Notebooks[1,1]OperatingSystem , (alternative) OperatingSystem[1,1]WindowsVista64bit WindowsXPHome UbuntuLinux Windows7 Windows8 , (mandatory) DellLaptops_Notebooks[1,1]HardDrive , (alternative) Processor[1,1]IntelCore2Duo IntelPentiumDualcore IntelCeleron IntelAtom , (mandatory) DellLaptops_Notebooks[1,1]Price , (Constraint 4) OR[NOT[XPSLaptops][]][NOT[a128GBSolidState][]], (Constraint 5) OR[NOT[XPSLaptops][]][NOT[a120GB][]], (Constraint 23) OR[NOT[InspironLaptops][]][NOT[UltraLight][]], (Constraint 24) OR[NOT[InspironLaptops][]][NOT[DesktopReplacement][]], (Constraint 64) OR[NOT[MiniNotebooks][]][NOT[a3GB][]], (Constraint 65) OR[NOT[MiniNotebooks][]][NOT[a4GB][]], (Constraint 89) OR[NOT[MiniNotebooks][]][NOT[a250GB][]], (Constraint 90) OR[NOT[Adamo][]][NOT[IntelAtom][]], (Constraint 95) OR[NOT[MiniNotebooks][]][NOT[DVD__RWandCD_RWCombo][]], (Constraint 96) OR[NOT[MiniNotebooks][]][NOT[DVD_ROMDriveandDVD__RW][]]]
+	|D|: 17
+	CC: 43
+	KBDiag runtime: 0.063446 s
+	--- Profiler ---
+	mssDirect calls: 53
+	Consistency checks (TC): 43
+	Consistency checks: 242
+DELL DELL_c50_3.testcases
+	Diagnosis: [(mandatory) DellLaptops_Notebooks[1,1]ProductCategory , (alternative) ProductCategory[1,1]MiniNotebooks InspironLaptops StudioLaptops XPSLaptops Adamo StudioXPSLaptops , (mandatory) DellLaptops_Notebooks[1,1]OperatingSystem , (alternative) OperatingSystem[1,1]WindowsVista64bit WindowsXPHome UbuntuLinux Windows7 Windows8 , (mandatory) DellLaptops_Notebooks[1,1]HardDrive , (alternative) Processor[1,1]IntelCore2Duo IntelPentiumDualcore IntelCeleron IntelAtom , (mandatory) DellLaptops_Notebooks[1,1]Price , (Constraint 4) OR[NOT[XPSLaptops][]][NOT[a128GBSolidState][]], (Constraint 5) OR[NOT[XPSLaptops][]][NOT[a120GB][]], (Constraint 23) OR[NOT[InspironLaptops][]][NOT[UltraLight][]], (Constraint 24) OR[NOT[InspironLaptops][]][NOT[DesktopReplacement][]], (Constraint 64) OR[NOT[MiniNotebooks][]][NOT[a3GB][]], (Constraint 65) OR[NOT[MiniNotebooks][]][NOT[a4GB][]], (Constraint 89) OR[NOT[MiniNotebooks][]][NOT[a250GB][]], (Constraint 90) OR[NOT[Adamo][]][NOT[IntelAtom][]], (Constraint 95) OR[NOT[MiniNotebooks][]][NOT[DVD__RWandCD_RWCombo][]], (Constraint 96) OR[NOT[MiniNotebooks][]][NOT[DVD_ROMDriveandDVD__RW][]]]
+	|D|: 17
+	CC: 43
+	KBDiag runtime: 0.062137 s
+	--- Profiler ---
+	mssDirect calls: 53
+	Consistency checks (TC): 43
+	Consistency checks: 242
+DELL DELL_c50_3.testcases
+	Diagnosis: [(mandatory) DellLaptops_Notebooks[1,1]ProductCategory , (alternative) ProductCategory[1,1]MiniNotebooks InspironLaptops StudioLaptops XPSLaptops Adamo StudioXPSLaptops , (mandatory) DellLaptops_Notebooks[1,1]OperatingSystem , (alternative) OperatingSystem[1,1]WindowsVista64bit WindowsXPHome UbuntuLinux Windows7 Windows8 , (mandatory) DellLaptops_Notebooks[1,1]HardDrive , (alternative) Processor[1,1]IntelCore2Duo IntelPentiumDualcore IntelCeleron IntelAtom , (mandatory) DellLaptops_Notebooks[1,1]Price , (Constraint 4) OR[NOT[XPSLaptops][]][NOT[a128GBSolidState][]], (Constraint 5) OR[NOT[XPSLaptops][]][NOT[a120GB][]], (Constraint 23) OR[NOT[InspironLaptops][]][NOT[UltraLight][]], (Constraint 24) OR[NOT[InspironLaptops][]][NOT[DesktopReplacement][]], (Constraint 64) OR[NOT[MiniNotebooks][]][NOT[a3GB][]], (Constraint 65) OR[NOT[MiniNotebooks][]][NOT[a4GB][]], (Constraint 89) OR[NOT[MiniNotebooks][]][NOT[a250GB][]], (Constraint 90) OR[NOT[Adamo][]][NOT[IntelAtom][]], (Constraint 95) OR[NOT[MiniNotebooks][]][NOT[DVD__RWandCD_RWCombo][]], (Constraint 96) OR[NOT[MiniNotebooks][]][NOT[DVD_ROMDriveandDVD__RW][]]]
+	|D|: 17
+	CC: 43
+	KBDiag runtime: 0.062036 s
+	--- Profiler ---
+	mssDirect calls: 53
+	Consistency checks (TC): 43
+	Consistency checks: 242
+DELL DELL_c100_3.testcases
+	Diagnosis: [(mandatory) DellLaptops_Notebooks[1,1]ProductCategory , (alternative) ProductCategory[1,1]MiniNotebooks InspironLaptops StudioLaptops XPSLaptops Adamo StudioXPSLaptops , (mandatory) DellLaptops_Notebooks[1,1]OperatingSystem , (alternative) OperatingSystem[1,1]WindowsVista64bit WindowsXPHome UbuntuLinux Windows7 Windows8 , (mandatory) DellLaptops_Notebooks[1,1]HardDrive , (alternative) HardDrive[1,1]a500GB a320GB a250GB a160GB a128GBSolidState a120GB a80GB , (optional) DellLaptops_Notebooks[0,1]OpticalDrive , (alternative) Processor[1,1]IntelCore2Duo IntelPentiumDualcore IntelCeleron IntelAtom , (mandatory) DellLaptops_Notebooks[1,1]Price , (Constraint 4) OR[NOT[XPSLaptops][]][NOT[a128GBSolidState][]], (Constraint 5) OR[NOT[XPSLaptops][]][NOT[a120GB][]], (Constraint 23) OR[NOT[InspironLaptops][]][NOT[UltraLight][]], (Constraint 24) OR[NOT[InspironLaptops][]][NOT[DesktopReplacement][]], (Constraint 60) OR[NOT[MiniNotebooks][]][NOT[Light][]], (Constraint 61) OR[NOT[MiniNotebooks][]][NOT[BluRayDisc][]], (Constraint 64) OR[NOT[MiniNotebooks][]][NOT[a3GB][]], (Constraint 65) OR[NOT[MiniNotebooks][]][NOT[a4GB][]], (Constraint 89) OR[NOT[MiniNotebooks][]][NOT[a250GB][]], (Constraint 90) OR[NOT[Adamo][]][NOT[IntelAtom][]], (Constraint 91) OR[NOT[MiniNotebooks][]][NOT[a320GB][]], (Constraint 92) OR[NOT[Adamo][]][NOT[_800__1200][]], (Constraint 95) OR[NOT[MiniNotebooks][]][NOT[DVD__RWandCD_RWCombo][]], (Constraint 96) OR[NOT[MiniNotebooks][]][NOT[DVD_ROMDriveandDVD__RW][]]]
+	|D|: 23
+	CC: 45
+	KBDiag runtime: 0.203375 s
+	--- Profiler ---
+	mssDirect calls: 55
+	Consistency checks (TC): 45
+	Consistency checks: 474
+DELL DELL_c100_3.testcases
+	Diagnosis: [(mandatory) DellLaptops_Notebooks[1,1]ProductCategory , (alternative) ProductCategory[1,1]MiniNotebooks InspironLaptops StudioLaptops XPSLaptops Adamo StudioXPSLaptops , (mandatory) DellLaptops_Notebooks[1,1]OperatingSystem , (alternative) OperatingSystem[1,1]WindowsVista64bit WindowsXPHome UbuntuLinux Windows7 Windows8 , (mandatory) DellLaptops_Notebooks[1,1]HardDrive , (alternative) HardDrive[1,1]a500GB a320GB a250GB a160GB a128GBSolidState a120GB a80GB , (optional) DellLaptops_Notebooks[0,1]OpticalDrive , (alternative) Processor[1,1]IntelCore2Duo IntelPentiumDualcore IntelCeleron IntelAtom , (mandatory) DellLaptops_Notebooks[1,1]Price , (Constraint 4) OR[NOT[XPSLaptops][]][NOT[a128GBSolidState][]], (Constraint 5) OR[NOT[XPSLaptops][]][NOT[a120GB][]], (Constraint 23) OR[NOT[InspironLaptops][]][NOT[UltraLight][]], (Constraint 24) OR[NOT[InspironLaptops][]][NOT[DesktopReplacement][]], (Constraint 60) OR[NOT[MiniNotebooks][]][NOT[Light][]], (Constraint 61) OR[NOT[MiniNotebooks][]][NOT[BluRayDisc][]], (Constraint 64) OR[NOT[MiniNotebooks][]][NOT[a3GB][]], (Constraint 65) OR[NOT[MiniNotebooks][]][NOT[a4GB][]], (Constraint 89) OR[NOT[MiniNotebooks][]][NOT[a250GB][]], (Constraint 90) OR[NOT[Adamo][]][NOT[IntelAtom][]], (Constraint 91) OR[NOT[MiniNotebooks][]][NOT[a320GB][]], (Constraint 92) OR[NOT[Adamo][]][NOT[_800__1200][]], (Constraint 95) OR[NOT[MiniNotebooks][]][NOT[DVD__RWandCD_RWCombo][]], (Constraint 96) OR[NOT[MiniNotebooks][]][NOT[DVD_ROMDriveandDVD__RW][]]]
+	|D|: 23
+	CC: 45
+	KBDiag runtime: 0.250018 s
+	--- Profiler ---
+	mssDirect calls: 55
+	Consistency checks (TC): 45
+	Consistency checks: 474
+DELL DELL_c100_3.testcases
+	Diagnosis: [(mandatory) DellLaptops_Notebooks[1,1]ProductCategory , (alternative) ProductCategory[1,1]MiniNotebooks InspironLaptops StudioLaptops XPSLaptops Adamo StudioXPSLaptops , (mandatory) DellLaptops_Notebooks[1,1]OperatingSystem , (alternative) OperatingSystem[1,1]WindowsVista64bit WindowsXPHome UbuntuLinux Windows7 Windows8 , (mandatory) DellLaptops_Notebooks[1,1]HardDrive , (alternative) HardDrive[1,1]a500GB a320GB a250GB a160GB a128GBSolidState a120GB a80GB , (optional) DellLaptops_Notebooks[0,1]OpticalDrive , (alternative) Processor[1,1]IntelCore2Duo IntelPentiumDualcore IntelCeleron IntelAtom , (mandatory) DellLaptops_Notebooks[1,1]Price , (Constraint 4) OR[NOT[XPSLaptops][]][NOT[a128GBSolidState][]], (Constraint 5) OR[NOT[XPSLaptops][]][NOT[a120GB][]], (Constraint 23) OR[NOT[InspironLaptops][]][NOT[UltraLight][]], (Constraint 24) OR[NOT[InspironLaptops][]][NOT[DesktopReplacement][]], (Constraint 60) OR[NOT[MiniNotebooks][]][NOT[Light][]], (Constraint 61) OR[NOT[MiniNotebooks][]][NOT[BluRayDisc][]], (Constraint 64) OR[NOT[MiniNotebooks][]][NOT[a3GB][]], (Constraint 65) OR[NOT[MiniNotebooks][]][NOT[a4GB][]], (Constraint 89) OR[NOT[MiniNotebooks][]][NOT[a250GB][]], (Constraint 90) OR[NOT[Adamo][]][NOT[IntelAtom][]], (Constraint 91) OR[NOT[MiniNotebooks][]][NOT[a320GB][]], (Constraint 92) OR[NOT[Adamo][]][NOT[_800__1200][]], (Constraint 95) OR[NOT[MiniNotebooks][]][NOT[DVD__RWandCD_RWCombo][]], (Constraint 96) OR[NOT[MiniNotebooks][]][NOT[DVD_ROMDriveandDVD__RW][]]]
+	|D|: 23
+	CC: 45
+	KBDiag runtime: 0.183539 s
+	--- Profiler ---
+	mssDirect calls: 55
+	Consistency checks (TC): 45
+	Consistency checks: 474
+DELL DELL_c250_3.testcases
+	Diagnosis: [(mandatory) DellLaptops_Notebooks[1,1]ProductCategory , (alternative) ProductCategory[1,1]MiniNotebooks InspironLaptops StudioLaptops XPSLaptops Adamo StudioXPSLaptops , (mandatory) DellLaptops_Notebooks[1,1]OperatingSystem , (alternative) OperatingSystem[1,1]WindowsVista64bit WindowsXPHome UbuntuLinux Windows7 Windows8 , (mandatory) DellLaptops_Notebooks[1,1]HardDrive , (alternative) HardDrive[1,1]a500GB a320GB a250GB a160GB a128GBSolidState a120GB a80GB , (optional) DellLaptops_Notebooks[0,1]OpticalDrive , (alternative) OpticalDrive[1,1]CD_DVD_RW DVD_ROMDriveandDVD__RW DVD__RWandCD_RWCombo BluRayDisc , (mandatory) DellLaptops_Notebooks[1,1]LaptopWeight , (alternative) Memory[1,1]Morethan4GB a4GB a3GB a2GB a1GB , (mandatory) DellLaptops_Notebooks[1,1]Processor , (alternative) Processor[1,1]IntelCore2Duo IntelPentiumDualcore IntelCeleron IntelAtom , (mandatory) DellLaptops_Notebooks[1,1]Price , (Constraint 4) OR[NOT[XPSLaptops][]][NOT[a128GBSolidState][]], (Constraint 5) OR[NOT[XPSLaptops][]][NOT[a120GB][]], (Constraint 12) OR[NOT[Adamo][]][NOT[a500GB][]], (Constraint 13) OR[NOT[Adamo][]][NOT[a320GB][]], (Constraint 23) OR[NOT[InspironLaptops][]][NOT[UltraLight][]], (Constraint 24) OR[NOT[InspironLaptops][]][NOT[DesktopReplacement][]], (Constraint 32) OR[NOT[StudioLaptops][]][NOT[a80GB][]], (Constraint 33) OR[NOT[StudioLaptops][]][NOT[Morethan4GB][]], (Constraint 38) OR[NOT[StudioLaptops][]][NOT[Lessthan_400][]], (Constraint 39) OR[NOT[StudioLaptops][]][NOT[Morethan_1200][]], (Constraint 47) OR[NOT[InspironLaptops][]][NOT[DVD_ROMDriveandDVD__RW][]], (Constraint 48) OR[NOT[InspironLaptops][]][NOT[WindowsXPHome][]], (Constraint 60) OR[NOT[MiniNotebooks][]][NOT[Light][]], (Constraint 61) OR[NOT[MiniNotebooks][]][NOT[BluRayDisc][]], (Constraint 62) OR[NOT[MiniNotebooks][]][NOT[Morethan4GB][]], (Constraint 63) OR[NOT[MiniNotebooks][]][NOT[DesktopReplacement][]], (Constraint 64) OR[NOT[MiniNotebooks][]][NOT[a3GB][]], (Constraint 65) OR[NOT[MiniNotebooks][]][NOT[a4GB][]], (Constraint 87) OR[NOT[MiniNotebooks][]][NOT[a128GBSolidState][]], (Constraint 88) OR[NOT[Adamo][]][NOT[Lessthan_400][]], (Constraint 89) OR[NOT[MiniNotebooks][]][NOT[a250GB][]], (Constraint 90) OR[NOT[Adamo][]][NOT[IntelAtom][]], (Constraint 91) OR[NOT[MiniNotebooks][]][NOT[a320GB][]], (Constraint 92) OR[NOT[Adamo][]][NOT[_800__1200][]], (Constraint 95) OR[NOT[MiniNotebooks][]][NOT[DVD__RWandCD_RWCombo][]], (Constraint 96) OR[NOT[MiniNotebooks][]][NOT[DVD_ROMDriveandDVD__RW][]], (Constraint 101) OR[NOT[MiniNotebooks][]][NOT[WindowsVista64bit][]], (Constraint 102) OR[NOT[StudioXPSLaptops][]][NOT[a160GB][]]]
+	|D|: 41
+	CC: 73
+	KBDiag runtime: 0.744356 s
+	--- Profiler ---
+	mssDirect calls: 87
+	Consistency checks (TC): 73
+	Consistency checks: 1159
+DELL DELL_c250_3.testcases
+	Diagnosis: [(mandatory) DellLaptops_Notebooks[1,1]ProductCategory , (alternative) ProductCategory[1,1]MiniNotebooks InspironLaptops StudioLaptops XPSLaptops Adamo StudioXPSLaptops , (mandatory) DellLaptops_Notebooks[1,1]OperatingSystem , (alternative) OperatingSystem[1,1]WindowsVista64bit WindowsXPHome UbuntuLinux Windows7 Windows8 , (mandatory) DellLaptops_Notebooks[1,1]HardDrive , (alternative) HardDrive[1,1]a500GB a320GB a250GB a160GB a128GBSolidState a120GB a80GB , (optional) DellLaptops_Notebooks[0,1]OpticalDrive , (alternative) OpticalDrive[1,1]CD_DVD_RW DVD_ROMDriveandDVD__RW DVD__RWandCD_RWCombo BluRayDisc , (mandatory) DellLaptops_Notebooks[1,1]LaptopWeight , (alternative) Memory[1,1]Morethan4GB a4GB a3GB a2GB a1GB , (mandatory) DellLaptops_Notebooks[1,1]Processor , (alternative) Processor[1,1]IntelCore2Duo IntelPentiumDualcore IntelCeleron IntelAtom , (mandatory) DellLaptops_Notebooks[1,1]Price , (Constraint 4) OR[NOT[XPSLaptops][]][NOT[a128GBSolidState][]], (Constraint 5) OR[NOT[XPSLaptops][]][NOT[a120GB][]], (Constraint 12) OR[NOT[Adamo][]][NOT[a500GB][]], (Constraint 13) OR[NOT[Adamo][]][NOT[a320GB][]], (Constraint 23) OR[NOT[InspironLaptops][]][NOT[UltraLight][]], (Constraint 24) OR[NOT[InspironLaptops][]][NOT[DesktopReplacement][]], (Constraint 32) OR[NOT[StudioLaptops][]][NOT[a80GB][]], (Constraint 33) OR[NOT[StudioLaptops][]][NOT[Morethan4GB][]], (Constraint 38) OR[NOT[StudioLaptops][]][NOT[Lessthan_400][]], (Constraint 39) OR[NOT[StudioLaptops][]][NOT[Morethan_1200][]], (Constraint 47) OR[NOT[InspironLaptops][]][NOT[DVD_ROMDriveandDVD__RW][]], (Constraint 48) OR[NOT[InspironLaptops][]][NOT[WindowsXPHome][]], (Constraint 60) OR[NOT[MiniNotebooks][]][NOT[Light][]], (Constraint 61) OR[NOT[MiniNotebooks][]][NOT[BluRayDisc][]], (Constraint 62) OR[NOT[MiniNotebooks][]][NOT[Morethan4GB][]], (Constraint 63) OR[NOT[MiniNotebooks][]][NOT[DesktopReplacement][]], (Constraint 64) OR[NOT[MiniNotebooks][]][NOT[a3GB][]], (Constraint 65) OR[NOT[MiniNotebooks][]][NOT[a4GB][]], (Constraint 87) OR[NOT[MiniNotebooks][]][NOT[a128GBSolidState][]], (Constraint 88) OR[NOT[Adamo][]][NOT[Lessthan_400][]], (Constraint 89) OR[NOT[MiniNotebooks][]][NOT[a250GB][]], (Constraint 90) OR[NOT[Adamo][]][NOT[IntelAtom][]], (Constraint 91) OR[NOT[MiniNotebooks][]][NOT[a320GB][]], (Constraint 92) OR[NOT[Adamo][]][NOT[_800__1200][]], (Constraint 95) OR[NOT[MiniNotebooks][]][NOT[DVD__RWandCD_RWCombo][]], (Constraint 96) OR[NOT[MiniNotebooks][]][NOT[DVD_ROMDriveandDVD__RW][]], (Constraint 101) OR[NOT[MiniNotebooks][]][NOT[WindowsVista64bit][]], (Constraint 102) OR[NOT[StudioXPSLaptops][]][NOT[a160GB][]]]
+	|D|: 41
+	CC: 73
+	KBDiag runtime: 0.725250 s
+	--- Profiler ---
+	mssDirect calls: 87
+	Consistency checks (TC): 73
+	Consistency checks: 1159
+DELL DELL_c250_3.testcases
+	Diagnosis: [(mandatory) DellLaptops_Notebooks[1,1]ProductCategory , (alternative) ProductCategory[1,1]MiniNotebooks InspironLaptops StudioLaptops XPSLaptops Adamo StudioXPSLaptops , (mandatory) DellLaptops_Notebooks[1,1]OperatingSystem , (alternative) OperatingSystem[1,1]WindowsVista64bit WindowsXPHome UbuntuLinux Windows7 Windows8 , (mandatory) DellLaptops_Notebooks[1,1]HardDrive , (alternative) HardDrive[1,1]a500GB a320GB a250GB a160GB a128GBSolidState a120GB a80GB , (optional) DellLaptops_Notebooks[0,1]OpticalDrive , (alternative) OpticalDrive[1,1]CD_DVD_RW DVD_ROMDriveandDVD__RW DVD__RWandCD_RWCombo BluRayDisc , (mandatory) DellLaptops_Notebooks[1,1]LaptopWeight , (alternative) Memory[1,1]Morethan4GB a4GB a3GB a2GB a1GB , (mandatory) DellLaptops_Notebooks[1,1]Processor , (alternative) Processor[1,1]IntelCore2Duo IntelPentiumDualcore IntelCeleron IntelAtom , (mandatory) DellLaptops_Notebooks[1,1]Price , (Constraint 4) OR[NOT[XPSLaptops][]][NOT[a128GBSolidState][]], (Constraint 5) OR[NOT[XPSLaptops][]][NOT[a120GB][]], (Constraint 12) OR[NOT[Adamo][]][NOT[a500GB][]], (Constraint 13) OR[NOT[Adamo][]][NOT[a320GB][]], (Constraint 23) OR[NOT[InspironLaptops][]][NOT[UltraLight][]], (Constraint 24) OR[NOT[InspironLaptops][]][NOT[DesktopReplacement][]], (Constraint 32) OR[NOT[StudioLaptops][]][NOT[a80GB][]], (Constraint 33) OR[NOT[StudioLaptops][]][NOT[Morethan4GB][]], (Constraint 38) OR[NOT[StudioLaptops][]][NOT[Lessthan_400][]], (Constraint 39) OR[NOT[StudioLaptops][]][NOT[Morethan_1200][]], (Constraint 47) OR[NOT[InspironLaptops][]][NOT[DVD_ROMDriveandDVD__RW][]], (Constraint 48) OR[NOT[InspironLaptops][]][NOT[WindowsXPHome][]], (Constraint 60) OR[NOT[MiniNotebooks][]][NOT[Light][]], (Constraint 61) OR[NOT[MiniNotebooks][]][NOT[BluRayDisc][]], (Constraint 62) OR[NOT[MiniNotebooks][]][NOT[Morethan4GB][]], (Constraint 63) OR[NOT[MiniNotebooks][]][NOT[DesktopReplacement][]], (Constraint 64) OR[NOT[MiniNotebooks][]][NOT[a3GB][]], (Constraint 65) OR[NOT[MiniNotebooks][]][NOT[a4GB][]], (Constraint 87) OR[NOT[MiniNotebooks][]][NOT[a128GBSolidState][]], (Constraint 88) OR[NOT[Adamo][]][NOT[Lessthan_400][]], (Constraint 89) OR[NOT[MiniNotebooks][]][NOT[a250GB][]], (Constraint 90) OR[NOT[Adamo][]][NOT[IntelAtom][]], (Constraint 91) OR[NOT[MiniNotebooks][]][NOT[a320GB][]], (Constraint 92) OR[NOT[Adamo][]][NOT[_800__1200][]], (Constraint 95) OR[NOT[MiniNotebooks][]][NOT[DVD__RWandCD_RWCombo][]], (Constraint 96) OR[NOT[MiniNotebooks][]][NOT[DVD_ROMDriveandDVD__RW][]], (Constraint 101) OR[NOT[MiniNotebooks][]][NOT[WindowsVista64bit][]], (Constraint 102) OR[NOT[StudioXPSLaptops][]][NOT[a160GB][]]]
+	|D|: 41
+	CC: 73
+	KBDiag runtime: 0.731897 s
+	--- Profiler ---
+	mssDirect calls: 87
+	Consistency checks (TC): 73
+	Consistency checks: 1159
+DELL DELL_c500_3.testcases
+	Diagnosis: [(mandatory) DellLaptops_Notebooks[1,1]ProductCategory , (alternative) ProductCategory[1,1]MiniNotebooks InspironLaptops StudioLaptops XPSLaptops Adamo StudioXPSLaptops , (mandatory) DellLaptops_Notebooks[1,1]OperatingSystem , (alternative) OperatingSystem[1,1]WindowsVista64bit WindowsXPHome UbuntuLinux Windows7 Windows8 , (mandatory) DellLaptops_Notebooks[1,1]HardDrive , (alternative) HardDrive[1,1]a500GB a320GB a250GB a160GB a128GBSolidState a120GB a80GB , (optional) DellLaptops_Notebooks[0,1]OpticalDrive , (alternative) OpticalDrive[1,1]CD_DVD_RW DVD_ROMDriveandDVD__RW DVD__RWandCD_RWCombo BluRayDisc , (mandatory) DellLaptops_Notebooks[1,1]LaptopWeight , (alternative) LaptopWeight[1,1]UltraLight Light DesktopReplacement , (mandatory) DellLaptops_Notebooks[1,1]Memory , (alternative) Memory[1,1]Morethan4GB a4GB a3GB a2GB a1GB , (mandatory) DellLaptops_Notebooks[1,1]Processor , (alternative) Processor[1,1]IntelCore2Duo IntelPentiumDualcore IntelCeleron IntelAtom , (mandatory) DellLaptops_Notebooks[1,1]Price , (Constraint 4) OR[NOT[XPSLaptops][]][NOT[a128GBSolidState][]], (Constraint 5) OR[NOT[XPSLaptops][]][NOT[a120GB][]], (Constraint 12) OR[NOT[Adamo][]][NOT[a500GB][]], (Constraint 13) OR[NOT[Adamo][]][NOT[a320GB][]], (Constraint 17) OR[NOT[Adamo][]][NOT[a160GB][]], (Constraint 18) OR[NOT[Adamo][]][NOT[a250GB][]], (Constraint 23) OR[NOT[InspironLaptops][]][NOT[UltraLight][]], (Constraint 24) OR[NOT[InspironLaptops][]][NOT[DesktopReplacement][]], (Constraint 32) OR[NOT[StudioLaptops][]][NOT[a80GB][]], (Constraint 33) OR[NOT[StudioLaptops][]][NOT[Morethan4GB][]], (Constraint 36) OR[NOT[StudioLaptops][]][NOT[IntelCeleron][]], (Constraint 37) OR[NOT[StudioLaptops][]][NOT[IntelAtom][]], (Constraint 38) OR[NOT[StudioLaptops][]][NOT[Lessthan_400][]], (Constraint 39) OR[NOT[StudioLaptops][]][NOT[Morethan_1200][]], (Constraint 45) OR[NOT[InspironLaptops][]][NOT[BluRayDisc][]], (Constraint 46) OR[NOT[InspironLaptops][]][NOT[DVD__RWandCD_RWCombo][]], (Constraint 47) OR[NOT[InspironLaptops][]][NOT[DVD_ROMDriveandDVD__RW][]], (Constraint 48) OR[NOT[InspironLaptops][]][NOT[WindowsXPHome][]], (Constraint 49) OR[NOT[InspironLaptops][]][NOT[WindowsVista64bit][]], (Constraint 50) OR[NOT[MiniNotebooks][]][NOT[Morethan_1200][]], (Constraint 51) OR[NOT[InspironLaptops][]][NOT[a80GB][]], (Constraint 52) OR[NOT[InspironLaptops][]][NOT[a120GB][]], (Constraint 57) OR[NOT[MiniNotebooks][]][NOT[IntelCore2Duo][]], (Constraint 58) OR[NOT[MiniNotebooks][]][NOT[_800__1200][]], (Constraint 59) OR[NOT[MiniNotebooks][]][NOT[IntelCeleron][]], (Constraint 60) OR[NOT[MiniNotebooks][]][NOT[Light][]], (Constraint 61) OR[NOT[MiniNotebooks][]][NOT[BluRayDisc][]], (Constraint 62) OR[NOT[MiniNotebooks][]][NOT[Morethan4GB][]], (Constraint 63) OR[NOT[MiniNotebooks][]][NOT[DesktopReplacement][]], (Constraint 64) OR[NOT[MiniNotebooks][]][NOT[a3GB][]], (Constraint 65) OR[NOT[MiniNotebooks][]][NOT[a4GB][]], (Constraint 66) OR[NOT[Adamo][]][NOT[BluRayDisc][]], (Constraint 67) OR[NOT[StudioXPSLaptops][]][NOT[DesktopReplacement][]], (Constraint 87) OR[NOT[MiniNotebooks][]][NOT[a128GBSolidState][]], (Constraint 88) OR[NOT[Adamo][]][NOT[Lessthan_400][]], (Constraint 89) OR[NOT[MiniNotebooks][]][NOT[a250GB][]], (Constraint 90) OR[NOT[Adamo][]][NOT[IntelAtom][]], (Constraint 91) OR[NOT[MiniNotebooks][]][NOT[a320GB][]], (Constraint 92) OR[NOT[Adamo][]][NOT[_800__1200][]], (Constraint 93) OR[NOT[MiniNotebooks][]][NOT[a500GB][]], (Constraint 94) OR[NOT[Adamo][]][NOT[_400__800][]], (Constraint 95) OR[NOT[MiniNotebooks][]][NOT[DVD__RWandCD_RWCombo][]], (Constraint 96) OR[NOT[MiniNotebooks][]][NOT[DVD_ROMDriveandDVD__RW][]], (Constraint 101) OR[NOT[MiniNotebooks][]][NOT[WindowsVista64bit][]], (Constraint 102) OR[NOT[StudioXPSLaptops][]][NOT[a160GB][]]]
+	|D|: 60
+	CC: 91
+	KBDiag runtime: 3.803364 s
+	--- Profiler ---
+	mssDirect calls: 103
+	Consistency checks (TC): 91
+	Consistency checks: 2432
+DELL DELL_c500_3.testcases
+	Diagnosis: [(mandatory) DellLaptops_Notebooks[1,1]ProductCategory , (alternative) ProductCategory[1,1]MiniNotebooks InspironLaptops StudioLaptops XPSLaptops Adamo StudioXPSLaptops , (mandatory) DellLaptops_Notebooks[1,1]OperatingSystem , (alternative) OperatingSystem[1,1]WindowsVista64bit WindowsXPHome UbuntuLinux Windows7 Windows8 , (mandatory) DellLaptops_Notebooks[1,1]HardDrive , (alternative) HardDrive[1,1]a500GB a320GB a250GB a160GB a128GBSolidState a120GB a80GB , (optional) DellLaptops_Notebooks[0,1]OpticalDrive , (alternative) OpticalDrive[1,1]CD_DVD_RW DVD_ROMDriveandDVD__RW DVD__RWandCD_RWCombo BluRayDisc , (mandatory) DellLaptops_Notebooks[1,1]LaptopWeight , (alternative) LaptopWeight[1,1]UltraLight Light DesktopReplacement , (mandatory) DellLaptops_Notebooks[1,1]Memory , (alternative) Memory[1,1]Morethan4GB a4GB a3GB a2GB a1GB , (mandatory) DellLaptops_Notebooks[1,1]Processor , (alternative) Processor[1,1]IntelCore2Duo IntelPentiumDualcore IntelCeleron IntelAtom , (mandatory) DellLaptops_Notebooks[1,1]Price , (Constraint 4) OR[NOT[XPSLaptops][]][NOT[a128GBSolidState][]], (Constraint 5) OR[NOT[XPSLaptops][]][NOT[a120GB][]], (Constraint 12) OR[NOT[Adamo][]][NOT[a500GB][]], (Constraint 13) OR[NOT[Adamo][]][NOT[a320GB][]], (Constraint 17) OR[NOT[Adamo][]][NOT[a160GB][]], (Constraint 18) OR[NOT[Adamo][]][NOT[a250GB][]], (Constraint 23) OR[NOT[InspironLaptops][]][NOT[UltraLight][]], (Constraint 24) OR[NOT[InspironLaptops][]][NOT[DesktopReplacement][]], (Constraint 32) OR[NOT[StudioLaptops][]][NOT[a80GB][]], (Constraint 33) OR[NOT[StudioLaptops][]][NOT[Morethan4GB][]], (Constraint 36) OR[NOT[StudioLaptops][]][NOT[IntelCeleron][]], (Constraint 37) OR[NOT[StudioLaptops][]][NOT[IntelAtom][]], (Constraint 38) OR[NOT[StudioLaptops][]][NOT[Lessthan_400][]], (Constraint 39) OR[NOT[StudioLaptops][]][NOT[Morethan_1200][]], (Constraint 45) OR[NOT[InspironLaptops][]][NOT[BluRayDisc][]], (Constraint 46) OR[NOT[InspironLaptops][]][NOT[DVD__RWandCD_RWCombo][]], (Constraint 47) OR[NOT[InspironLaptops][]][NOT[DVD_ROMDriveandDVD__RW][]], (Constraint 48) OR[NOT[InspironLaptops][]][NOT[WindowsXPHome][]], (Constraint 49) OR[NOT[InspironLaptops][]][NOT[WindowsVista64bit][]], (Constraint 50) OR[NOT[MiniNotebooks][]][NOT[Morethan_1200][]], (Constraint 51) OR[NOT[InspironLaptops][]][NOT[a80GB][]], (Constraint 52) OR[NOT[InspironLaptops][]][NOT[a120GB][]], (Constraint 57) OR[NOT[MiniNotebooks][]][NOT[IntelCore2Duo][]], (Constraint 58) OR[NOT[MiniNotebooks][]][NOT[_800__1200][]], (Constraint 59) OR[NOT[MiniNotebooks][]][NOT[IntelCeleron][]], (Constraint 60) OR[NOT[MiniNotebooks][]][NOT[Light][]], (Constraint 61) OR[NOT[MiniNotebooks][]][NOT[BluRayDisc][]], (Constraint 62) OR[NOT[MiniNotebooks][]][NOT[Morethan4GB][]], (Constraint 63) OR[NOT[MiniNotebooks][]][NOT[DesktopReplacement][]], (Constraint 64) OR[NOT[MiniNotebooks][]][NOT[a3GB][]], (Constraint 65) OR[NOT[MiniNotebooks][]][NOT[a4GB][]], (Constraint 66) OR[NOT[Adamo][]][NOT[BluRayDisc][]], (Constraint 67) OR[NOT[StudioXPSLaptops][]][NOT[DesktopReplacement][]], (Constraint 87) OR[NOT[MiniNotebooks][]][NOT[a128GBSolidState][]], (Constraint 88) OR[NOT[Adamo][]][NOT[Lessthan_400][]], (Constraint 89) OR[NOT[MiniNotebooks][]][NOT[a250GB][]], (Constraint 90) OR[NOT[Adamo][]][NOT[IntelAtom][]], (Constraint 91) OR[NOT[MiniNotebooks][]][NOT[a320GB][]], (Constraint 92) OR[NOT[Adamo][]][NOT[_800__1200][]], (Constraint 93) OR[NOT[MiniNotebooks][]][NOT[a500GB][]], (Constraint 94) OR[NOT[Adamo][]][NOT[_400__800][]], (Constraint 95) OR[NOT[MiniNotebooks][]][NOT[DVD__RWandCD_RWCombo][]], (Constraint 96) OR[NOT[MiniNotebooks][]][NOT[DVD_ROMDriveandDVD__RW][]], (Constraint 101) OR[NOT[MiniNotebooks][]][NOT[WindowsVista64bit][]], (Constraint 102) OR[NOT[StudioXPSLaptops][]][NOT[a160GB][]]]
+	|D|: 60
+	CC: 91
+	KBDiag runtime: 3.327784 s
+	--- Profiler ---
+	mssDirect calls: 103
+	Consistency checks (TC): 91
+	Consistency checks: 2432
+DELL DELL_c500_3.testcases
+	Diagnosis: [(mandatory) DellLaptops_Notebooks[1,1]ProductCategory , (alternative) ProductCategory[1,1]MiniNotebooks InspironLaptops StudioLaptops XPSLaptops Adamo StudioXPSLaptops , (mandatory) DellLaptops_Notebooks[1,1]OperatingSystem , (alternative) OperatingSystem[1,1]WindowsVista64bit WindowsXPHome UbuntuLinux Windows7 Windows8 , (mandatory) DellLaptops_Notebooks[1,1]HardDrive , (alternative) HardDrive[1,1]a500GB a320GB a250GB a160GB a128GBSolidState a120GB a80GB , (optional) DellLaptops_Notebooks[0,1]OpticalDrive , (alternative) OpticalDrive[1,1]CD_DVD_RW DVD_ROMDriveandDVD__RW DVD__RWandCD_RWCombo BluRayDisc , (mandatory) DellLaptops_Notebooks[1,1]LaptopWeight , (alternative) LaptopWeight[1,1]UltraLight Light DesktopReplacement , (mandatory) DellLaptops_Notebooks[1,1]Memory , (alternative) Memory[1,1]Morethan4GB a4GB a3GB a2GB a1GB , (mandatory) DellLaptops_Notebooks[1,1]Processor , (alternative) Processor[1,1]IntelCore2Duo IntelPentiumDualcore IntelCeleron IntelAtom , (mandatory) DellLaptops_Notebooks[1,1]Price , (Constraint 4) OR[NOT[XPSLaptops][]][NOT[a128GBSolidState][]], (Constraint 5) OR[NOT[XPSLaptops][]][NOT[a120GB][]], (Constraint 12) OR[NOT[Adamo][]][NOT[a500GB][]], (Constraint 13) OR[NOT[Adamo][]][NOT[a320GB][]], (Constraint 17) OR[NOT[Adamo][]][NOT[a160GB][]], (Constraint 18) OR[NOT[Adamo][]][NOT[a250GB][]], (Constraint 23) OR[NOT[InspironLaptops][]][NOT[UltraLight][]], (Constraint 24) OR[NOT[InspironLaptops][]][NOT[DesktopReplacement][]], (Constraint 32) OR[NOT[StudioLaptops][]][NOT[a80GB][]], (Constraint 33) OR[NOT[StudioLaptops][]][NOT[Morethan4GB][]], (Constraint 36) OR[NOT[StudioLaptops][]][NOT[IntelCeleron][]], (Constraint 37) OR[NOT[StudioLaptops][]][NOT[IntelAtom][]], (Constraint 38) OR[NOT[StudioLaptops][]][NOT[Lessthan_400][]], (Constraint 39) OR[NOT[StudioLaptops][]][NOT[Morethan_1200][]], (Constraint 45) OR[NOT[InspironLaptops][]][NOT[BluRayDisc][]], (Constraint 46) OR[NOT[InspironLaptops][]][NOT[DVD__RWandCD_RWCombo][]], (Constraint 47) OR[NOT[InspironLaptops][]][NOT[DVD_ROMDriveandDVD__RW][]], (Constraint 48) OR[NOT[InspironLaptops][]][NOT[WindowsXPHome][]], (Constraint 49) OR[NOT[InspironLaptops][]][NOT[WindowsVista64bit][]], (Constraint 50) OR[NOT[MiniNotebooks][]][NOT[Morethan_1200][]], (Constraint 51) OR[NOT[InspironLaptops][]][NOT[a80GB][]], (Constraint 52) OR[NOT[InspironLaptops][]][NOT[a120GB][]], (Constraint 57) OR[NOT[MiniNotebooks][]][NOT[IntelCore2Duo][]], (Constraint 58) OR[NOT[MiniNotebooks][]][NOT[_800__1200][]], (Constraint 59) OR[NOT[MiniNotebooks][]][NOT[IntelCeleron][]], (Constraint 60) OR[NOT[MiniNotebooks][]][NOT[Light][]], (Constraint 61) OR[NOT[MiniNotebooks][]][NOT[BluRayDisc][]], (Constraint 62) OR[NOT[MiniNotebooks][]][NOT[Morethan4GB][]], (Constraint 63) OR[NOT[MiniNotebooks][]][NOT[DesktopReplacement][]], (Constraint 64) OR[NOT[MiniNotebooks][]][NOT[a3GB][]], (Constraint 65) OR[NOT[MiniNotebooks][]][NOT[a4GB][]], (Constraint 66) OR[NOT[Adamo][]][NOT[BluRayDisc][]], (Constraint 67) OR[NOT[StudioXPSLaptops][]][NOT[DesktopReplacement][]], (Constraint 87) OR[NOT[MiniNotebooks][]][NOT[a128GBSolidState][]], (Constraint 88) OR[NOT[Adamo][]][NOT[Lessthan_400][]], (Constraint 89) OR[NOT[MiniNotebooks][]][NOT[a250GB][]], (Constraint 90) OR[NOT[Adamo][]][NOT[IntelAtom][]], (Constraint 91) OR[NOT[MiniNotebooks][]][NOT[a320GB][]], (Constraint 92) OR[NOT[Adamo][]][NOT[_800__1200][]], (Constraint 93) OR[NOT[MiniNotebooks][]][NOT[a500GB][]], (Constraint 94) OR[NOT[Adamo][]][NOT[_400__800][]], (Constraint 95) OR[NOT[MiniNotebooks][]][NOT[DVD__RWandCD_RWCombo][]], (Constraint 96) OR[NOT[MiniNotebooks][]][NOT[DVD_ROMDriveandDVD__RW][]], (Constraint 101) OR[NOT[MiniNotebooks][]][NOT[WindowsVista64bit][]], (Constraint 102) OR[NOT[StudioXPSLaptops][]][NOT[a160GB][]]]
+	|D|: 60
+	CC: 91
+	KBDiag runtime: 2.804744 s
+	--- Profiler ---
+	mssDirect calls: 103
+	Consistency checks (TC): 91
+	Consistency checks: 2432
+
+=== Evaluation Results: kbdiag (m=2, task=1) ===
+Testcase                  | Avg Time (s) |   |D| |  #Diag
+---------------------------------------------------------
+DELL/DELL_c5_3.testcases  |     0.003907 |     3 |      1
+DELL/DELL_c10_3.testcases |     0.008927 |     7 |      1
+DELL/DELL_c25_3.testcases |     0.023639 |    13 |      1
+DELL/DELL_c50_3.testcases |     0.062540 |    17 |      1
+DELL/DELL_c100_3.testcases |     0.212311 |    23 |      1
+DELL/DELL_c250_3.testcases |     0.733834 |    41 |      1
+DELL/DELL_c500_3.testcases |     3.311964 |    60 |      1

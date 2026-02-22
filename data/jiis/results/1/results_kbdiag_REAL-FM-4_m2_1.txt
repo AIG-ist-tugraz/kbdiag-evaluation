@@ -1,0 +1,200 @@
+REAL-FM-4 REAL-FM-4_c5_0.testcases
+	Diagnosis: [(mandatory) eShop[1,1]Storefront , (or) Registrationenforcement[1,3]Registertobrowse Registertobuy None , (mandatory) Registration[1,1]Registrationinformation ]
+	|D|: 3
+	CC: 19
+	KBDiag runtime: 0.007797 s
+	--- Profiler ---
+	mssDirect calls: 19
+	Consistency checks (TC): 19
+	Consistency checks: 27
+REAL-FM-4 REAL-FM-4_c5_0.testcases
+	Diagnosis: [(mandatory) eShop[1,1]Storefront , (or) Registrationenforcement[1,3]Registertobrowse Registertobuy None , (mandatory) Registration[1,1]Registrationinformation ]
+	|D|: 3
+	CC: 19
+	KBDiag runtime: 0.007679 s
+	--- Profiler ---
+	mssDirect calls: 19
+	Consistency checks (TC): 19
+	Consistency checks: 27
+REAL-FM-4 REAL-FM-4_c5_0.testcases
+	Diagnosis: [(mandatory) eShop[1,1]Storefront , (or) Registrationenforcement[1,3]Registertobrowse Registertobuy None , (mandatory) Registration[1,1]Registrationinformation ]
+	|D|: 3
+	CC: 19
+	KBDiag runtime: 0.007742 s
+	--- Profiler ---
+	mssDirect calls: 19
+	Consistency checks (TC): 19
+	Consistency checks: 27
+REAL-FM-4 REAL-FM-4_c10_0.testcases
+	Diagnosis: [(mandatory) eShop[1,1]Storefront , (optional) Storefront[0,1]Homepage , (or) Homepage[1,2]Staticcontent Dynamiccontent , (or) Registrationenforcement[1,3]Registertobrowse Registertobuy None , (mandatory) Registration[1,1]Registrationinformation , (or) Paymenttypes[1,9]COD Creditcard Debitcard Eletroniccheque Faxmailorder Purchaseorder Giftcertificate Phoneorder Custompaymenttype , (optional) Paymentoptions[0,1]Frauddetection ]
+	|D|: 7
+	CC: 25
+	KBDiag runtime: 0.016175 s
+	--- Profiler ---
+	mssDirect calls: 29
+	Consistency checks (TC): 25
+	Consistency checks: 57
+REAL-FM-4 REAL-FM-4_c10_0.testcases
+	Diagnosis: [(mandatory) eShop[1,1]Storefront , (optional) Storefront[0,1]Homepage , (or) Homepage[1,2]Staticcontent Dynamiccontent , (or) Registrationenforcement[1,3]Registertobrowse Registertobuy None , (mandatory) Registration[1,1]Registrationinformation , (or) Paymenttypes[1,9]COD Creditcard Debitcard Eletroniccheque Faxmailorder Purchaseorder Giftcertificate Phoneorder Custompaymenttype , (optional) Paymentoptions[0,1]Frauddetection ]
+	|D|: 7
+	CC: 25
+	KBDiag runtime: 0.017219 s
+	--- Profiler ---
+	mssDirect calls: 29
+	Consistency checks (TC): 25
+	Consistency checks: 57
+REAL-FM-4 REAL-FM-4_c10_0.testcases
+	Diagnosis: [(mandatory) eShop[1,1]Storefront , (optional) Storefront[0,1]Homepage , (or) Homepage[1,2]Staticcontent Dynamiccontent , (or) Registrationenforcement[1,3]Registertobrowse Registertobuy None , (mandatory) Registration[1,1]Registrationinformation , (or) Paymenttypes[1,9]COD Creditcard Debitcard Eletroniccheque Faxmailorder Purchaseorder Giftcertificate Phoneorder Custompaymenttype , (optional) Paymentoptions[0,1]Frauddetection ]
+	|D|: 7
+	CC: 25
+	KBDiag runtime: 0.016443 s
+	--- Profiler ---
+	mssDirect calls: 29
+	Consistency checks (TC): 25
+	Consistency checks: 57
+REAL-FM-4 REAL-FM-4_c25_0.testcases
+	Diagnosis: [(mandatory) eShop[1,1]Storefront , (optional) Storefront[0,1]Homepage , (or) Homepage[1,2]Staticcontent Dynamiccontent , (or) Registrationenforcement[1,3]Registertobrowse Registertobuy None , (mandatory) Registration[1,1]Registrationinformation , (or) Paymenttypes[1,9]COD Creditcard Debitcard Eletroniccheque Faxmailorder Purchaseorder Giftcertificate Phoneorder Custompaymenttype , (optional) Paymentoptions[0,1]Frauddetection , (mandatory) Orderstatusreview[1,1]Filteringcriteria , (or) Filteringcriteria[1,3]Ordernumber Orderdate Orderstatus ]
+	|D|: 9
+	CC: 35
+	KBDiag runtime: 0.046254 s
+	--- Profiler ---
+	mssDirect calls: 41
+	Consistency checks (TC): 35
+	Consistency checks: 139
+REAL-FM-4 REAL-FM-4_c25_0.testcases
+	Diagnosis: [(mandatory) eShop[1,1]Storefront , (optional) Storefront[0,1]Homepage , (or) Homepage[1,2]Staticcontent Dynamiccontent , (or) Registrationenforcement[1,3]Registertobrowse Registertobuy None , (mandatory) Registration[1,1]Registrationinformation , (or) Paymenttypes[1,9]COD Creditcard Debitcard Eletroniccheque Faxmailorder Purchaseorder Giftcertificate Phoneorder Custompaymenttype , (optional) Paymentoptions[0,1]Frauddetection , (mandatory) Orderstatusreview[1,1]Filteringcriteria , (or) Filteringcriteria[1,3]Ordernumber Orderdate Orderstatus ]
+	|D|: 9
+	CC: 35
+	KBDiag runtime: 0.044849 s
+	--- Profiler ---
+	mssDirect calls: 41
+	Consistency checks (TC): 35
+	Consistency checks: 139
+REAL-FM-4 REAL-FM-4_c25_0.testcases
+	Diagnosis: [(mandatory) eShop[1,1]Storefront , (optional) Storefront[0,1]Homepage , (or) Homepage[1,2]Staticcontent Dynamiccontent , (or) Registrationenforcement[1,3]Registertobrowse Registertobuy None , (mandatory) Registration[1,1]Registrationinformation , (or) Paymenttypes[1,9]COD Creditcard Debitcard Eletroniccheque Faxmailorder Purchaseorder Giftcertificate Phoneorder Custompaymenttype , (optional) Paymentoptions[0,1]Frauddetection , (mandatory) Orderstatusreview[1,1]Filteringcriteria , (or) Filteringcriteria[1,3]Ordernumber Orderdate Orderstatus ]
+	|D|: 9
+	CC: 35
+	KBDiag runtime: 0.043349 s
+	--- Profiler ---
+	mssDirect calls: 41
+	Consistency checks (TC): 35
+	Consistency checks: 139
+REAL-FM-4 REAL-FM-4_c50_0.testcases
+	Diagnosis: [(mandatory) eShop[1,1]Storefront , (optional) Storefront[0,1]Homepage , (or) Homepage[1,2]Staticcontent Dynamiccontent , (or) Registrationenforcement[1,3]Registertobrowse Registertobuy None , (mandatory) Registration[1,1]Registrationinformation , (optional) Rule_basedtaxation[0,1]Resolution , (or) Resolution[1,3]Country Region City , (or) Paymenttypes[1,9]COD Creditcard Debitcard Eletroniccheque Faxmailorder Purchaseorder Giftcertificate Phoneorder Custompaymenttype , (optional) Paymentoptions[0,1]Frauddetection , (mandatory) Orderstatusreview[1,1]Filteringcriteria , (or) Filteringcriteria[1,3]Ordernumber Orderdate Orderstatus ]
+	|D|: 11
+	CC: 39
+	KBDiag runtime: 0.100286 s
+	--- Profiler ---
+	mssDirect calls: 45
+	Consistency checks (TC): 39
+	Consistency checks: 267
+REAL-FM-4 REAL-FM-4_c50_0.testcases
+	Diagnosis: [(mandatory) eShop[1,1]Storefront , (optional) Storefront[0,1]Homepage , (or) Homepage[1,2]Staticcontent Dynamiccontent , (or) Registrationenforcement[1,3]Registertobrowse Registertobuy None , (mandatory) Registration[1,1]Registrationinformation , (optional) Rule_basedtaxation[0,1]Resolution , (or) Resolution[1,3]Country Region City , (or) Paymenttypes[1,9]COD Creditcard Debitcard Eletroniccheque Faxmailorder Purchaseorder Giftcertificate Phoneorder Custompaymenttype , (optional) Paymentoptions[0,1]Frauddetection , (mandatory) Orderstatusreview[1,1]Filteringcriteria , (or) Filteringcriteria[1,3]Ordernumber Orderdate Orderstatus ]
+	|D|: 11
+	CC: 39
+	KBDiag runtime: 0.098725 s
+	--- Profiler ---
+	mssDirect calls: 45
+	Consistency checks (TC): 39
+	Consistency checks: 267
+REAL-FM-4 REAL-FM-4_c50_0.testcases
+	Diagnosis: [(mandatory) eShop[1,1]Storefront , (optional) Storefront[0,1]Homepage , (or) Homepage[1,2]Staticcontent Dynamiccontent , (or) Registrationenforcement[1,3]Registertobrowse Registertobuy None , (mandatory) Registration[1,1]Registrationinformation , (optional) Rule_basedtaxation[0,1]Resolution , (or) Resolution[1,3]Country Region City , (or) Paymenttypes[1,9]COD Creditcard Debitcard Eletroniccheque Faxmailorder Purchaseorder Giftcertificate Phoneorder Custompaymenttype , (optional) Paymentoptions[0,1]Frauddetection , (mandatory) Orderstatusreview[1,1]Filteringcriteria , (or) Filteringcriteria[1,3]Ordernumber Orderdate Orderstatus ]
+	|D|: 11
+	CC: 39
+	KBDiag runtime: 0.100480 s
+	--- Profiler ---
+	mssDirect calls: 45
+	Consistency checks (TC): 39
+	Consistency checks: 267
+REAL-FM-4 REAL-FM-4_c100_0.testcases
+	Diagnosis: [(mandatory) eShop[1,1]Storefront , (optional) Storefront[0,1]Homepage , (or) Homepage[1,2]Staticcontent Dynamiccontent , (mandatory) Dynamiccontent[1,1]Contenttype , (or) Registrationenforcement[1,3]Registertobrowse Registertobuy None , (mandatory) Registration[1,1]Registrationinformation , (optional) Categories1[0,1]Multipleclassification , (optional) Catalog[0,1]Multiplecatalogs , (mandatory) Buypaths[1,1]Shoppingcart , (mandatory) Shoppingcart[1,1]Inventorymanagementpolicy , (optional) Rule_basedtaxation[0,1]Resolution , (or) Resolution[1,3]Country Region City , (or) Paymenttypes[1,9]COD Creditcard Debitcard Eletroniccheque Faxmailorder Purchaseorder Giftcertificate Phoneorder Custompaymenttype , (optional) Paymentoptions[0,1]Frauddetection , (mandatory) Buypaths_4[1,1]PhoneOrdering , (mandatory) PhoneOrdering[1,1]DigitalDialing , (mandatory) Orderstatusreview[1,1]Filteringcriteria , (or) Filteringcriteria[1,3]Ordernumber Orderdate Orderstatus , (mandatory) Administration[1,1]Storeadministration , (mandatory) Storeadministration[1,1]Sitesearch ]
+	|D|: 20
+	CC: 63
+	KBDiag runtime: 0.256192 s
+	--- Profiler ---
+	mssDirect calls: 77
+	Consistency checks (TC): 63
+	Consistency checks: 547
+REAL-FM-4 REAL-FM-4_c100_0.testcases
+	Diagnosis: [(mandatory) eShop[1,1]Storefront , (optional) Storefront[0,1]Homepage , (or) Homepage[1,2]Staticcontent Dynamiccontent , (mandatory) Dynamiccontent[1,1]Contenttype , (or) Registrationenforcement[1,3]Registertobrowse Registertobuy None , (mandatory) Registration[1,1]Registrationinformation , (optional) Categories1[0,1]Multipleclassification , (optional) Catalog[0,1]Multiplecatalogs , (mandatory) Buypaths[1,1]Shoppingcart , (mandatory) Shoppingcart[1,1]Inventorymanagementpolicy , (optional) Rule_basedtaxation[0,1]Resolution , (or) Resolution[1,3]Country Region City , (or) Paymenttypes[1,9]COD Creditcard Debitcard Eletroniccheque Faxmailorder Purchaseorder Giftcertificate Phoneorder Custompaymenttype , (optional) Paymentoptions[0,1]Frauddetection , (mandatory) Buypaths_4[1,1]PhoneOrdering , (mandatory) PhoneOrdering[1,1]DigitalDialing , (mandatory) Orderstatusreview[1,1]Filteringcriteria , (or) Filteringcriteria[1,3]Ordernumber Orderdate Orderstatus , (mandatory) Administration[1,1]Storeadministration , (mandatory) Storeadministration[1,1]Sitesearch ]
+	|D|: 20
+	CC: 63
+	KBDiag runtime: 0.257175 s
+	--- Profiler ---
+	mssDirect calls: 77
+	Consistency checks (TC): 63
+	Consistency checks: 547
+REAL-FM-4 REAL-FM-4_c100_0.testcases
+	Diagnosis: [(mandatory) eShop[1,1]Storefront , (optional) Storefront[0,1]Homepage , (or) Homepage[1,2]Staticcontent Dynamiccontent , (mandatory) Dynamiccontent[1,1]Contenttype , (or) Registrationenforcement[1,3]Registertobrowse Registertobuy None , (mandatory) Registration[1,1]Registrationinformation , (optional) Categories1[0,1]Multipleclassification , (optional) Catalog[0,1]Multiplecatalogs , (mandatory) Buypaths[1,1]Shoppingcart , (mandatory) Shoppingcart[1,1]Inventorymanagementpolicy , (optional) Rule_basedtaxation[0,1]Resolution , (or) Resolution[1,3]Country Region City , (or) Paymenttypes[1,9]COD Creditcard Debitcard Eletroniccheque Faxmailorder Purchaseorder Giftcertificate Phoneorder Custompaymenttype , (optional) Paymentoptions[0,1]Frauddetection , (mandatory) Buypaths_4[1,1]PhoneOrdering , (mandatory) PhoneOrdering[1,1]DigitalDialing , (mandatory) Orderstatusreview[1,1]Filteringcriteria , (or) Filteringcriteria[1,3]Ordernumber Orderdate Orderstatus , (mandatory) Administration[1,1]Storeadministration , (mandatory) Storeadministration[1,1]Sitesearch ]
+	|D|: 20
+	CC: 63
+	KBDiag runtime: 0.255164 s
+	--- Profiler ---
+	mssDirect calls: 77
+	Consistency checks (TC): 63
+	Consistency checks: 547
+REAL-FM-4 REAL-FM-4_c250_0.testcases
+	Diagnosis: [(mandatory) eShop[1,1]Storefront , (optional) Storefront[0,1]Homepage , (or) Homepage[1,2]Staticcontent Dynamiccontent , (mandatory) Dynamiccontent[1,1]Contenttype , (optional) Storefront[0,1]Registration , (mandatory) Registration[1,1]Registrationenforcement , (or) Preferences[1,3]Sitelayout Listsize Language , (optional) Registrationinformation[0,1]Reminders , (optional) Categories1[0,1]Multipleclassification , (optional) Catalog[0,1]Multiplecatalogs , (or) Searching[1,2]Basicsearch Advancedsearch , (optional) Catalog[0,1]Browsing , (or) Permissions[1,3]Publicaccess Restrictedaccess Privateaccess , (mandatory) Storefront[1,1]Buypaths , (optional) Questionandfeedbackforms[0,1]Questionandfeedbacktracking , (mandatory) Orderstatusreview[1,1]Filteringcriteria , (or) Filteringcriteria[1,3]Ordernumber Orderdate Orderstatus , (optional) Storefront[0,1]Userbehaviourtracking , (mandatory) Userbehaviourtracking[1,1]Behaviourtracked , (mandatory) eShop[1,1]Businessmanagement , (mandatory) Businessmanagement[1,1]Ordermanagement , (Constraint 1) OR[NOT[Registration][]][Wishlistsaveaftersession], (Constraint 2) OR[NOT[Eletronicgoods][]][Size], (Constraint 8) OR[NOT[Services][]][Servicesfulfillment], (Constraint 9) OR[NOT[Physicalgoods][]][Physicalgoodsfulfillment], (Constraint 15) OR[NOT[Specialoffers][]][Discounts], (Constraint 16) OR[NOT[Availability][]][Inventorytracking]]
+	|D|: 27
+	CC: 74
+	KBDiag runtime: 1.019607 s
+	--- Profiler ---
+	mssDirect calls: 91
+	Consistency checks (TC): 74
+	Consistency checks: 1334
+REAL-FM-4 REAL-FM-4_c250_0.testcases
+	Diagnosis: [(mandatory) eShop[1,1]Storefront , (optional) Storefront[0,1]Homepage , (or) Homepage[1,2]Staticcontent Dynamiccontent , (mandatory) Dynamiccontent[1,1]Contenttype , (optional) Storefront[0,1]Registration , (mandatory) Registration[1,1]Registrationenforcement , (or) Preferences[1,3]Sitelayout Listsize Language , (optional) Registrationinformation[0,1]Reminders , (optional) Categories1[0,1]Multipleclassification , (optional) Catalog[0,1]Multiplecatalogs , (or) Searching[1,2]Basicsearch Advancedsearch , (optional) Catalog[0,1]Browsing , (or) Permissions[1,3]Publicaccess Restrictedaccess Privateaccess , (mandatory) Storefront[1,1]Buypaths , (optional) Questionandfeedbackforms[0,1]Questionandfeedbacktracking , (mandatory) Orderstatusreview[1,1]Filteringcriteria , (or) Filteringcriteria[1,3]Ordernumber Orderdate Orderstatus , (optional) Storefront[0,1]Userbehaviourtracking , (mandatory) Userbehaviourtracking[1,1]Behaviourtracked , (mandatory) eShop[1,1]Businessmanagement , (mandatory) Businessmanagement[1,1]Ordermanagement , (Constraint 1) OR[NOT[Registration][]][Wishlistsaveaftersession], (Constraint 2) OR[NOT[Eletronicgoods][]][Size], (Constraint 8) OR[NOT[Services][]][Servicesfulfillment], (Constraint 9) OR[NOT[Physicalgoods][]][Physicalgoodsfulfillment], (Constraint 15) OR[NOT[Specialoffers][]][Discounts], (Constraint 16) OR[NOT[Availability][]][Inventorytracking]]
+	|D|: 27
+	CC: 74
+	KBDiag runtime: 1.012077 s
+	--- Profiler ---
+	mssDirect calls: 91
+	Consistency checks (TC): 74
+	Consistency checks: 1334
+REAL-FM-4 REAL-FM-4_c250_0.testcases
+	Diagnosis: [(mandatory) eShop[1,1]Storefront , (optional) Storefront[0,1]Homepage , (or) Homepage[1,2]Staticcontent Dynamiccontent , (mandatory) Dynamiccontent[1,1]Contenttype , (optional) Storefront[0,1]Registration , (mandatory) Registration[1,1]Registrationenforcement , (or) Preferences[1,3]Sitelayout Listsize Language , (optional) Registrationinformation[0,1]Reminders , (optional) Categories1[0,1]Multipleclassification , (optional) Catalog[0,1]Multiplecatalogs , (or) Searching[1,2]Basicsearch Advancedsearch , (optional) Catalog[0,1]Browsing , (or) Permissions[1,3]Publicaccess Restrictedaccess Privateaccess , (mandatory) Storefront[1,1]Buypaths , (optional) Questionandfeedbackforms[0,1]Questionandfeedbacktracking , (mandatory) Orderstatusreview[1,1]Filteringcriteria , (or) Filteringcriteria[1,3]Ordernumber Orderdate Orderstatus , (optional) Storefront[0,1]Userbehaviourtracking , (mandatory) Userbehaviourtracking[1,1]Behaviourtracked , (mandatory) eShop[1,1]Businessmanagement , (mandatory) Businessmanagement[1,1]Ordermanagement , (Constraint 1) OR[NOT[Registration][]][Wishlistsaveaftersession], (Constraint 2) OR[NOT[Eletronicgoods][]][Size], (Constraint 8) OR[NOT[Services][]][Servicesfulfillment], (Constraint 9) OR[NOT[Physicalgoods][]][Physicalgoodsfulfillment], (Constraint 15) OR[NOT[Specialoffers][]][Discounts], (Constraint 16) OR[NOT[Availability][]][Inventorytracking]]
+	|D|: 27
+	CC: 74
+	KBDiag runtime: 1.036022 s
+	--- Profiler ---
+	mssDirect calls: 91
+	Consistency checks (TC): 74
+	Consistency checks: 1334
+REAL-FM-4 REAL-FM-4_c500_0.testcases
+	Diagnosis: [(mandatory) eShop[1,1]Storefront , (optional) Storefront[0,1]Homepage , (or) Homepage[1,2]Staticcontent Dynamiccontent , (mandatory) Dynamiccontent[1,1]Contenttype , (optional) Storefront[0,1]Registration , (mandatory) Registration[1,1]Registrationenforcement , (or) Preferences[1,3]Sitelayout Listsize Language , (optional) Registrationinformation[0,1]Reminders , (mandatory) ProductInformation[1,1]Basicinformation , (optional) ProductInformation[0,1]Detailedinformation , (optional) ProductInformation[0,1]Associatedassets , (or) Associatedassets[1,2]Documents Mediafiles , (optional) Catalog[0,1]Categories , (mandatory) Categories[1,1]Catalog1 , (or) Searching[1,2]Basicsearch Advancedsearch , (optional) Catalog[0,1]Browsing , (optional) Wishlist[0,1]Multiplewishlists , (optional) Wishlist[0,1]Permissions , (or) Permissions[1,3]Publicaccess Restrictedaccess Privateaccess , (mandatory) Storefront[1,1]Buypaths , (optional) Storefront[0,1]Customerservice , (or) Customerservice[1,4]Questionandfeedbackforms Productreturns Orderstatusreview Shipmentstatustracking , (optional) Storefront[0,1]Userbehaviourtracking , (mandatory) Userbehaviourtracking[1,1]Behaviourtracked , (mandatory) eShop[1,1]Businessmanagement , (mandatory) Businessmanagement[1,1]Ordermanagement , (Constraint 1) OR[NOT[Registration][]][Wishlistsaveaftersession], (Constraint 2) OR[NOT[Eletronicgoods][]][Size], (Constraint 8) OR[NOT[Services][]][Servicesfulfillment], (Constraint 9) OR[NOT[Physicalgoods][]][Physicalgoodsfulfillment], (Constraint 10) OR[NOT[Wishlistcontent][]][Wishlist], (Constraint 11) OR[NOT[Registeredcheckout][]][Registertobuy], (Constraint 12) OR[NOT[Shippingoptions][]][Shipping1], (Constraint 13) OR[NOT[Registeredcheckout][]][Registrationenforcement], (Constraint 15) OR[NOT[Specialoffers][]][Discounts], (Constraint 16) OR[NOT[Availability][]][Inventorytracking]]
+	|D|: 36
+	CC: 85
+	KBDiag runtime: 3.322654 s
+	--- Profiler ---
+	mssDirect calls: 105
+	Consistency checks (TC): 85
+	Consistency checks: 2637
+REAL-FM-4 REAL-FM-4_c500_0.testcases
+	Diagnosis: [(mandatory) eShop[1,1]Storefront , (optional) Storefront[0,1]Homepage , (or) Homepage[1,2]Staticcontent Dynamiccontent , (mandatory) Dynamiccontent[1,1]Contenttype , (optional) Storefront[0,1]Registration , (mandatory) Registration[1,1]Registrationenforcement , (or) Preferences[1,3]Sitelayout Listsize Language , (optional) Registrationinformation[0,1]Reminders , (mandatory) ProductInformation[1,1]Basicinformation , (optional) ProductInformation[0,1]Detailedinformation , (optional) ProductInformation[0,1]Associatedassets , (or) Associatedassets[1,2]Documents Mediafiles , (optional) Catalog[0,1]Categories , (mandatory) Categories[1,1]Catalog1 , (or) Searching[1,2]Basicsearch Advancedsearch , (optional) Catalog[0,1]Browsing , (optional) Wishlist[0,1]Multiplewishlists , (optional) Wishlist[0,1]Permissions , (or) Permissions[1,3]Publicaccess Restrictedaccess Privateaccess , (mandatory) Storefront[1,1]Buypaths , (optional) Storefront[0,1]Customerservice , (or) Customerservice[1,4]Questionandfeedbackforms Productreturns Orderstatusreview Shipmentstatustracking , (optional) Storefront[0,1]Userbehaviourtracking , (mandatory) Userbehaviourtracking[1,1]Behaviourtracked , (mandatory) eShop[1,1]Businessmanagement , (mandatory) Businessmanagement[1,1]Ordermanagement , (Constraint 1) OR[NOT[Registration][]][Wishlistsaveaftersession], (Constraint 2) OR[NOT[Eletronicgoods][]][Size], (Constraint 8) OR[NOT[Services][]][Servicesfulfillment], (Constraint 9) OR[NOT[Physicalgoods][]][Physicalgoodsfulfillment], (Constraint 10) OR[NOT[Wishlistcontent][]][Wishlist], (Constraint 11) OR[NOT[Registeredcheckout][]][Registertobuy], (Constraint 12) OR[NOT[Shippingoptions][]][Shipping1], (Constraint 13) OR[NOT[Registeredcheckout][]][Registrationenforcement], (Constraint 15) OR[NOT[Specialoffers][]][Discounts], (Constraint 16) OR[NOT[Availability][]][Inventorytracking]]
+	|D|: 36
+	CC: 85
+	KBDiag runtime: 3.315138 s
+	--- Profiler ---
+	mssDirect calls: 105
+	Consistency checks (TC): 85
+	Consistency checks: 2637
+REAL-FM-4 REAL-FM-4_c500_0.testcases
+	Diagnosis: [(mandatory) eShop[1,1]Storefront , (optional) Storefront[0,1]Homepage , (or) Homepage[1,2]Staticcontent Dynamiccontent , (mandatory) Dynamiccontent[1,1]Contenttype , (optional) Storefront[0,1]Registration , (mandatory) Registration[1,1]Registrationenforcement , (or) Preferences[1,3]Sitelayout Listsize Language , (optional) Registrationinformation[0,1]Reminders , (mandatory) ProductInformation[1,1]Basicinformation , (optional) ProductInformation[0,1]Detailedinformation , (optional) ProductInformation[0,1]Associatedassets , (or) Associatedassets[1,2]Documents Mediafiles , (optional) Catalog[0,1]Categories , (mandatory) Categories[1,1]Catalog1 , (or) Searching[1,2]Basicsearch Advancedsearch , (optional) Catalog[0,1]Browsing , (optional) Wishlist[0,1]Multiplewishlists , (optional) Wishlist[0,1]Permissions , (or) Permissions[1,3]Publicaccess Restrictedaccess Privateaccess , (mandatory) Storefront[1,1]Buypaths , (optional) Storefront[0,1]Customerservice , (or) Customerservice[1,4]Questionandfeedbackforms Productreturns Orderstatusreview Shipmentstatustracking , (optional) Storefront[0,1]Userbehaviourtracking , (mandatory) Userbehaviourtracking[1,1]Behaviourtracked , (mandatory) eShop[1,1]Businessmanagement , (mandatory) Businessmanagement[1,1]Ordermanagement , (Constraint 1) OR[NOT[Registration][]][Wishlistsaveaftersession], (Constraint 2) OR[NOT[Eletronicgoods][]][Size], (Constraint 8) OR[NOT[Services][]][Servicesfulfillment], (Constraint 9) OR[NOT[Physicalgoods][]][Physicalgoodsfulfillment], (Constraint 10) OR[NOT[Wishlistcontent][]][Wishlist], (Constraint 11) OR[NOT[Registeredcheckout][]][Registertobuy], (Constraint 12) OR[NOT[Shippingoptions][]][Shipping1], (Constraint 13) OR[NOT[Registeredcheckout][]][Registrationenforcement], (Constraint 15) OR[NOT[Specialoffers][]][Discounts], (Constraint 16) OR[NOT[Availability][]][Inventorytracking]]
+	|D|: 36
+	CC: 85
+	KBDiag runtime: 3.330659 s
+	--- Profiler ---
+	mssDirect calls: 105
+	Consistency checks (TC): 85
+	Consistency checks: 2637
+
+=== Evaluation Results: kbdiag (m=2, task=1) ===
+Testcase                  | Avg Time (s) |   |D| |  #Diag
+---------------------------------------------------------
+REAL-FM-4/REAL-FM-4_c5_0.testcases |     0.007740 |     3 |      1
+REAL-FM-4/REAL-FM-4_c10_0.testcases |     0.016612 |     7 |      1
+REAL-FM-4/REAL-FM-4_c25_0.testcases |     0.044817 |     9 |      1
+REAL-FM-4/REAL-FM-4_c50_0.testcases |     0.099830 |    11 |      1
+REAL-FM-4/REAL-FM-4_c100_0.testcases |     0.256177 |    20 |      1
+REAL-FM-4/REAL-FM-4_c250_0.testcases |     1.022569 |    27 |      1
+REAL-FM-4/REAL-FM-4_c500_0.testcases |     3.322817 |    36 |      1

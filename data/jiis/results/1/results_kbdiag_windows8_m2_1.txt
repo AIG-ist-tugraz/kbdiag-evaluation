@@ -1,0 +1,200 @@
+windows8 windows8_c5_0.testcases
+	Diagnosis: [(mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (optional) HearTextReadAloud[0,1]SetupTextToSpeech , (or) SetupTextToSpeech[1,2]TextToSpeech SpeechRecognition ]
+	|D|: 4
+	CC: 18
+	KBDiag runtime: 0.020955 s
+	--- Profiler ---
+	mssDirect calls: 19
+	Consistency checks (TC): 18
+	Consistency checks: 26
+windows8 windows8_c5_0.testcases
+	Diagnosis: [(mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (optional) HearTextReadAloud[0,1]SetupTextToSpeech , (or) SetupTextToSpeech[1,2]TextToSpeech SpeechRecognition ]
+	|D|: 4
+	CC: 18
+	KBDiag runtime: 0.020490 s
+	--- Profiler ---
+	mssDirect calls: 19
+	Consistency checks (TC): 18
+	Consistency checks: 26
+windows8 windows8_c5_0.testcases
+	Diagnosis: [(mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (optional) HearTextReadAloud[0,1]SetupTextToSpeech , (or) SetupTextToSpeech[1,2]TextToSpeech SpeechRecognition ]
+	|D|: 4
+	CC: 18
+	KBDiag runtime: 0.020378 s
+	--- Profiler ---
+	mssDirect calls: 19
+	Consistency checks (TC): 18
+	Consistency checks: 26
+windows8 windows8_c10_0.testcases
+	Diagnosis: [(mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (optional) HearTextReadAloud[0,1]SetupTextToSpeech , (or) SetupTextToSpeech[1,2]TextToSpeech SpeechRecognition ]
+	|D|: 4
+	CC: 18
+	KBDiag runtime: 0.041045 s
+	--- Profiler ---
+	mssDirect calls: 19
+	Consistency checks (TC): 18
+	Consistency checks: 52
+windows8 windows8_c10_0.testcases
+	Diagnosis: [(mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (optional) HearTextReadAloud[0,1]SetupTextToSpeech , (or) SetupTextToSpeech[1,2]TextToSpeech SpeechRecognition ]
+	|D|: 4
+	CC: 18
+	KBDiag runtime: 0.041394 s
+	--- Profiler ---
+	mssDirect calls: 19
+	Consistency checks (TC): 18
+	Consistency checks: 52
+windows8 windows8_c10_0.testcases
+	Diagnosis: [(mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (optional) HearTextReadAloud[0,1]SetupTextToSpeech , (or) SetupTextToSpeech[1,2]TextToSpeech SpeechRecognition ]
+	|D|: 4
+	CC: 18
+	KBDiag runtime: 0.041622 s
+	--- Profiler ---
+	mssDirect calls: 19
+	Consistency checks (TC): 18
+	Consistency checks: 52
+windows8 windows8_c25_0.testcases
+	Diagnosis: [(mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (optional) HearTextReadAloud[0,1]SetupTextToSpeech , (or) SetupTextToSpeech[1,2]TextToSpeech SpeechRecognition , (alternative) Communications[1,1]ReduceTheVolumeOfOtherSoundsBy50 ReduceTheVolumeOfOtherSoundsBy80 MuteAllOtherSounds DoNothing , (optional) Accessibility[0,1]MakeTheComputerEasierToSee ]
+	|D|: 6
+	CC: 23
+	KBDiag runtime: 0.111112 s
+	--- Profiler ---
+	mssDirect calls: 27
+	Consistency checks (TC): 23
+	Consistency checks: 132
+windows8 windows8_c25_0.testcases
+	Diagnosis: [(mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (optional) HearTextReadAloud[0,1]SetupTextToSpeech , (or) SetupTextToSpeech[1,2]TextToSpeech SpeechRecognition , (alternative) Communications[1,1]ReduceTheVolumeOfOtherSoundsBy50 ReduceTheVolumeOfOtherSoundsBy80 MuteAllOtherSounds DoNothing , (optional) Accessibility[0,1]MakeTheComputerEasierToSee ]
+	|D|: 6
+	CC: 23
+	KBDiag runtime: 0.107430 s
+	--- Profiler ---
+	mssDirect calls: 27
+	Consistency checks (TC): 23
+	Consistency checks: 132
+windows8 windows8_c25_0.testcases
+	Diagnosis: [(mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (optional) HearTextReadAloud[0,1]SetupTextToSpeech , (or) SetupTextToSpeech[1,2]TextToSpeech SpeechRecognition , (alternative) Communications[1,1]ReduceTheVolumeOfOtherSoundsBy50 ReduceTheVolumeOfOtherSoundsBy80 MuteAllOtherSounds DoNothing , (optional) Accessibility[0,1]MakeTheComputerEasierToSee ]
+	|D|: 6
+	CC: 23
+	KBDiag runtime: 0.105858 s
+	--- Profiler ---
+	mssDirect calls: 27
+	Consistency checks (TC): 23
+	Consistency checks: 132
+windows8 windows8_c50_0.testcases
+	Diagnosis: [(mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (optional) HearTextReadAloud[0,1]SetupTextToSpeech , (or) SetupTextToSpeech[1,2]TextToSpeech SpeechRecognition , (mandatory) AdjustTimeLimitsAndFlashingVisuals1[1,1]HowLongShouldWindowsNotificationDialogBoxesStayOpen1 , (alternative) HowLongShouldWindowsNotificationDialogBoxesStayOpen1[1,1]_5Minutes _15Seconds _5Seconds _7Seconds _1Minute _30Seconds , (alternative) Communications[1,1]ReduceTheVolumeOfOtherSoundsBy50 ReduceTheVolumeOfOtherSoundsBy80 MuteAllOtherSounds DoNothing , (optional) Accessibility[0,1]MakeTheComputerEasierToSee ]
+	|D|: 8
+	CC: 28
+	KBDiag runtime: 0.232594 s
+	--- Profiler ---
+	mssDirect calls: 33
+	Consistency checks (TC): 28
+	Consistency checks: 265
+windows8 windows8_c50_0.testcases
+	Diagnosis: [(mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (optional) HearTextReadAloud[0,1]SetupTextToSpeech , (or) SetupTextToSpeech[1,2]TextToSpeech SpeechRecognition , (mandatory) AdjustTimeLimitsAndFlashingVisuals1[1,1]HowLongShouldWindowsNotificationDialogBoxesStayOpen1 , (alternative) HowLongShouldWindowsNotificationDialogBoxesStayOpen1[1,1]_5Minutes _15Seconds _5Seconds _7Seconds _1Minute _30Seconds , (alternative) Communications[1,1]ReduceTheVolumeOfOtherSoundsBy50 ReduceTheVolumeOfOtherSoundsBy80 MuteAllOtherSounds DoNothing , (optional) Accessibility[0,1]MakeTheComputerEasierToSee ]
+	|D|: 8
+	CC: 28
+	KBDiag runtime: 0.228130 s
+	--- Profiler ---
+	mssDirect calls: 33
+	Consistency checks (TC): 28
+	Consistency checks: 265
+windows8 windows8_c50_0.testcases
+	Diagnosis: [(mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (optional) HearTextReadAloud[0,1]SetupTextToSpeech , (or) SetupTextToSpeech[1,2]TextToSpeech SpeechRecognition , (mandatory) AdjustTimeLimitsAndFlashingVisuals1[1,1]HowLongShouldWindowsNotificationDialogBoxesStayOpen1 , (alternative) HowLongShouldWindowsNotificationDialogBoxesStayOpen1[1,1]_5Minutes _15Seconds _5Seconds _7Seconds _1Minute _30Seconds , (alternative) Communications[1,1]ReduceTheVolumeOfOtherSoundsBy50 ReduceTheVolumeOfOtherSoundsBy80 MuteAllOtherSounds DoNothing , (optional) Accessibility[0,1]MakeTheComputerEasierToSee ]
+	|D|: 8
+	CC: 28
+	KBDiag runtime: 0.303917 s
+	--- Profiler ---
+	mssDirect calls: 33
+	Consistency checks (TC): 28
+	Consistency checks: 265
+windows8 windows8_c100_0.testcases
+	Diagnosis: [(mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (or) HearTextReadAloud_1[1,2]TuenOnAudioDescription TurnOnNarrator1 , (optional) HearTextReadAloud[0,1]SetupTextToSpeech , (or) SetupTextToSpeech[1,2]TextToSpeech SpeechRecognition , (mandatory) AdjustTimeLimitsAndFlashingVisuals1[1,1]HowLongShouldWindowsNotificationDialogBoxesStayOpen1 , (alternative) HowLongShouldWindowsNotificationDialogBoxesStayOpen1[1,1]_5Minutes _15Seconds _5Seconds _7Seconds _1Minute _30Seconds , (mandatory) AudioDevicesAndSoundThemes[1,1]Playback , (mandatory) Playback[1,1]Speakers , (alternative) Communications[1,1]ReduceTheVolumeOfOtherSoundsBy50 ReduceTheVolumeOfOtherSoundsBy80 MuteAllOtherSounds DoNothing , (optional) Accessibility[0,1]MakeTheComputerEasierToSee ]
+	|D|: 11
+	CC: 30
+	KBDiag runtime: 0.510023 s
+	--- Profiler ---
+	mssDirect calls: 35
+	Consistency checks (TC): 30
+	Consistency checks: 527
+windows8 windows8_c100_0.testcases
+	Diagnosis: [(mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (or) HearTextReadAloud_1[1,2]TuenOnAudioDescription TurnOnNarrator1 , (optional) HearTextReadAloud[0,1]SetupTextToSpeech , (or) SetupTextToSpeech[1,2]TextToSpeech SpeechRecognition , (mandatory) AdjustTimeLimitsAndFlashingVisuals1[1,1]HowLongShouldWindowsNotificationDialogBoxesStayOpen1 , (alternative) HowLongShouldWindowsNotificationDialogBoxesStayOpen1[1,1]_5Minutes _15Seconds _5Seconds _7Seconds _1Minute _30Seconds , (mandatory) AudioDevicesAndSoundThemes[1,1]Playback , (mandatory) Playback[1,1]Speakers , (alternative) Communications[1,1]ReduceTheVolumeOfOtherSoundsBy50 ReduceTheVolumeOfOtherSoundsBy80 MuteAllOtherSounds DoNothing , (optional) Accessibility[0,1]MakeTheComputerEasierToSee ]
+	|D|: 11
+	CC: 30
+	KBDiag runtime: 0.505949 s
+	--- Profiler ---
+	mssDirect calls: 35
+	Consistency checks (TC): 30
+	Consistency checks: 527
+windows8 windows8_c100_0.testcases
+	Diagnosis: [(mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (or) HearTextReadAloud_1[1,2]TuenOnAudioDescription TurnOnNarrator1 , (optional) HearTextReadAloud[0,1]SetupTextToSpeech , (or) SetupTextToSpeech[1,2]TextToSpeech SpeechRecognition , (mandatory) AdjustTimeLimitsAndFlashingVisuals1[1,1]HowLongShouldWindowsNotificationDialogBoxesStayOpen1 , (alternative) HowLongShouldWindowsNotificationDialogBoxesStayOpen1[1,1]_5Minutes _15Seconds _5Seconds _7Seconds _1Minute _30Seconds , (mandatory) AudioDevicesAndSoundThemes[1,1]Playback , (mandatory) Playback[1,1]Speakers , (alternative) Communications[1,1]ReduceTheVolumeOfOtherSoundsBy50 ReduceTheVolumeOfOtherSoundsBy80 MuteAllOtherSounds DoNothing , (optional) Accessibility[0,1]MakeTheComputerEasierToSee ]
+	|D|: 11
+	CC: 30
+	KBDiag runtime: 0.517769 s
+	--- Profiler ---
+	mssDirect calls: 35
+	Consistency checks (TC): 30
+	Consistency checks: 527
+windows8 windows8_c250_0.testcases
+	Diagnosis: [(mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (or) HearTextReadAloud_1[1,2]TuenOnAudioDescription TurnOnNarrator1 , (optional) HearTextReadAloud[0,1]SetupTextToSpeech , (or) SetupTextToSpeech[1,2]TextToSpeech SpeechRecognition , (optional) Microphone1[0,1]ConfigureMicrophone , (mandatory) UseTheComputerWithoutADisplay[1,1]AdjustTimeLimitsAndFlashingVisuals1 , (mandatory) AudioDevicesAndSoundThemes[1,1]Playback , (mandatory) Playback[1,1]Speakers , (alternative) Communications[1,1]ReduceTheVolumeOfOtherSoundsBy50 ReduceTheVolumeOfOtherSoundsBy80 MuteAllOtherSounds DoNothing , (optional) Accessibility[0,1]MakeTheComputerEasierToSee ]
+	|D|: 11
+	CC: 31
+	KBDiag runtime: 1.641206 s
+	--- Profiler ---
+	mssDirect calls: 37
+	Consistency checks (TC): 31
+	Consistency checks: 1307
+windows8 windows8_c250_0.testcases
+	Diagnosis: [(mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (or) HearTextReadAloud_1[1,2]TuenOnAudioDescription TurnOnNarrator1 , (optional) HearTextReadAloud[0,1]SetupTextToSpeech , (or) SetupTextToSpeech[1,2]TextToSpeech SpeechRecognition , (optional) Microphone1[0,1]ConfigureMicrophone , (mandatory) UseTheComputerWithoutADisplay[1,1]AdjustTimeLimitsAndFlashingVisuals1 , (mandatory) AudioDevicesAndSoundThemes[1,1]Playback , (mandatory) Playback[1,1]Speakers , (alternative) Communications[1,1]ReduceTheVolumeOfOtherSoundsBy50 ReduceTheVolumeOfOtherSoundsBy80 MuteAllOtherSounds DoNothing , (optional) Accessibility[0,1]MakeTheComputerEasierToSee ]
+	|D|: 11
+	CC: 31
+	KBDiag runtime: 1.642964 s
+	--- Profiler ---
+	mssDirect calls: 37
+	Consistency checks (TC): 31
+	Consistency checks: 1307
+windows8 windows8_c250_0.testcases
+	Diagnosis: [(mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (or) HearTextReadAloud_1[1,2]TuenOnAudioDescription TurnOnNarrator1 , (optional) HearTextReadAloud[0,1]SetupTextToSpeech , (or) SetupTextToSpeech[1,2]TextToSpeech SpeechRecognition , (optional) Microphone1[0,1]ConfigureMicrophone , (mandatory) UseTheComputerWithoutADisplay[1,1]AdjustTimeLimitsAndFlashingVisuals1 , (mandatory) AudioDevicesAndSoundThemes[1,1]Playback , (mandatory) Playback[1,1]Speakers , (alternative) Communications[1,1]ReduceTheVolumeOfOtherSoundsBy50 ReduceTheVolumeOfOtherSoundsBy80 MuteAllOtherSounds DoNothing , (optional) Accessibility[0,1]MakeTheComputerEasierToSee ]
+	|D|: 11
+	CC: 31
+	KBDiag runtime: 1.641247 s
+	--- Profiler ---
+	mssDirect calls: 37
+	Consistency checks (TC): 31
+	Consistency checks: 1307
+windows8 windows8_c500_0.testcases
+	Diagnosis: [(mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (or) HearTextReadAloud_1[1,2]TuenOnAudioDescription TurnOnNarrator1 , (optional) HearTextReadAloud[0,1]SetupTextToSpeech , (or) SetupTextToSpeech[1,2]TextToSpeech SpeechRecognition , (mandatory) TextToSpeech[1,1]VoiceSelection , (alternative) VoiceSelection[1,1]MicrosoftDavidDesktopEnglishUS MicrosoftZiraDesktopEnglishGB MicrosoftDavidDesktopEnglishGB MicrosoftZiraDesktopEnglishUS , (optional) Microphone1[0,1]ConfigureMicrophone , (mandatory) UseTheComputerWithoutADisplay[1,1]AdjustTimeLimitsAndFlashingVisuals1 , (mandatory) AudioDevicesAndSoundThemes[1,1]Playback , (mandatory) Playback[1,1]Speakers , (alternative) SoundScheme[1,1]WindowsDefault NoSounds , (optional) Sounds[0,1]PlayWindowsStartupSound , (alternative) Communications[1,1]ReduceTheVolumeOfOtherSoundsBy50 ReduceTheVolumeOfOtherSoundsBy80 MuteAllOtherSounds DoNothing , (optional) Accessibility[0,1]MakeTheComputerEasierToSee ]
+	|D|: 15
+	CC: 37
+	KBDiag runtime: 4.477182 s
+	--- Profiler ---
+	mssDirect calls: 45
+	Consistency checks (TC): 37
+	Consistency checks: 2611
+windows8 windows8_c500_0.testcases
+	Diagnosis: [(mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (or) HearTextReadAloud_1[1,2]TuenOnAudioDescription TurnOnNarrator1 , (optional) HearTextReadAloud[0,1]SetupTextToSpeech , (or) SetupTextToSpeech[1,2]TextToSpeech SpeechRecognition , (mandatory) TextToSpeech[1,1]VoiceSelection , (alternative) VoiceSelection[1,1]MicrosoftDavidDesktopEnglishUS MicrosoftZiraDesktopEnglishGB MicrosoftDavidDesktopEnglishGB MicrosoftZiraDesktopEnglishUS , (optional) Microphone1[0,1]ConfigureMicrophone , (mandatory) UseTheComputerWithoutADisplay[1,1]AdjustTimeLimitsAndFlashingVisuals1 , (mandatory) AudioDevicesAndSoundThemes[1,1]Playback , (mandatory) Playback[1,1]Speakers , (alternative) SoundScheme[1,1]WindowsDefault NoSounds , (optional) Sounds[0,1]PlayWindowsStartupSound , (alternative) Communications[1,1]ReduceTheVolumeOfOtherSoundsBy50 ReduceTheVolumeOfOtherSoundsBy80 MuteAllOtherSounds DoNothing , (optional) Accessibility[0,1]MakeTheComputerEasierToSee ]
+	|D|: 15
+	CC: 37
+	KBDiag runtime: 4.437080 s
+	--- Profiler ---
+	mssDirect calls: 45
+	Consistency checks (TC): 37
+	Consistency checks: 2611
+windows8 windows8_c500_0.testcases
+	Diagnosis: [(mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 , (or) HearTextReadAloud_1[1,2]TuenOnAudioDescription TurnOnNarrator1 , (optional) HearTextReadAloud[0,1]SetupTextToSpeech , (or) SetupTextToSpeech[1,2]TextToSpeech SpeechRecognition , (mandatory) TextToSpeech[1,1]VoiceSelection , (alternative) VoiceSelection[1,1]MicrosoftDavidDesktopEnglishUS MicrosoftZiraDesktopEnglishGB MicrosoftDavidDesktopEnglishGB MicrosoftZiraDesktopEnglishUS , (optional) Microphone1[0,1]ConfigureMicrophone , (mandatory) UseTheComputerWithoutADisplay[1,1]AdjustTimeLimitsAndFlashingVisuals1 , (mandatory) AudioDevicesAndSoundThemes[1,1]Playback , (mandatory) Playback[1,1]Speakers , (alternative) SoundScheme[1,1]WindowsDefault NoSounds , (optional) Sounds[0,1]PlayWindowsStartupSound , (alternative) Communications[1,1]ReduceTheVolumeOfOtherSoundsBy50 ReduceTheVolumeOfOtherSoundsBy80 MuteAllOtherSounds DoNothing , (optional) Accessibility[0,1]MakeTheComputerEasierToSee ]
+	|D|: 15
+	CC: 37
+	KBDiag runtime: 4.433511 s
+	--- Profiler ---
+	mssDirect calls: 45
+	Consistency checks (TC): 37
+	Consistency checks: 2611
+
+=== Evaluation Results: kbdiag (m=2, task=1) ===
+Testcase                  | Avg Time (s) |   |D| |  #Diag
+---------------------------------------------------------
+windows8/windows8_c5_0.testcases |     0.020607 |     4 |      1
+windows8/windows8_c10_0.testcases |     0.041354 |     4 |      1
+windows8/windows8_c25_0.testcases |     0.108134 |     6 |      1
+windows8/windows8_c50_0.testcases |     0.254881 |     8 |      1
+windows8/windows8_c100_0.testcases |     0.511247 |    11 |      1
+windows8/windows8_c250_0.testcases |     1.641806 |    11 |      1
+windows8/windows8_c500_0.testcases |     4.449258 |    15 |      1
