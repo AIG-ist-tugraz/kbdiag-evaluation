@@ -1,0 +1,6 @@
+5
+Base & Training & Block2_Element4_Cell_Input1_Dense_activation
+~Block3_Element3_Cell_Input1_Pooling_stride_1x1 & Training
+Base & Training & Architecture & ~Block5_Element2_Cell_Input1_Dense_activation_softmax
+Base & Training & ~Block4_Element5_Cell_Input2_Pooling
+Base & ~Training & ~Block1_Element1_Cell_Input1_Zeros

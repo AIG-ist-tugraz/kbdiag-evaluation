@@ -1,0 +1,6 @@
+5
+Base & Training & Architecture & Input & Block2_Element3_Cell_Input1_Convolution_kernel_3x3
+Base & Training & ~Block3_Element5_Cell_Input2_Pooling_type_average
+Block3_Element5_Cell_Input2_Dense_features
+~Block5_Element4_Cell_Input2_Dense_activation_sigmoid & Block5_Element4_Cell_Input2_Dense_activation
+~Base & ~Block1_Element1_Cell_Input1_Convolution_kernel_3x1

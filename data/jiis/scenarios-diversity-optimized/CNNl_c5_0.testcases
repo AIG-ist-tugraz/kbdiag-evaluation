@@ -1,0 +1,6 @@
+5
+Base & Training & Architecture & ~Block3_Element4_Cell_Input2_Convolution_activation
+Base & Training & ~Block3_Element1_Cell_Input2_Pooling_type
+Base & Training & Architecture & Input & ~Block2_Element1_Cell_Operation1
+Base & Block5_Element2_Cell_Input2_Zeros
+Base & Training & Architecture & ~Input

@@ -68,6 +68,7 @@ class TestCasesSelector:
         min_priority_conflicts: int = 2,
         selection_strategy: str = "random",
         similarity_threshold: float = 0.5,
+        priority_switch_threshold: int = 0,
     ) -> None:
         self._name = name
         self._classified_ts_path = classified_ts_path
@@ -78,6 +79,7 @@ class TestCasesSelector:
         self._min_priority_conflicts = min_priority_conflicts
         self._selection_strategy = selection_strategy
         self._similarity_threshold = similarity_threshold
+        self._priority_switch_threshold = priority_switch_threshold
 
         self._violated: List[tuple[int, str, Set[int]]] = []  # (count, tc, constraint_ids)
         self._nonviolated: List[str] = []
@@ -158,16 +160,22 @@ class TestCasesSelector:
                     selected_ids: Set[int] = set()
                     selected_features: Set[str] = set()
 
-                    # Phase 1: priority representatives
+                    # Swap phase order based on cardinality vs threshold
+                    if cardinality <= self._priority_switch_threshold:
+                        first_reps, second_reps = regular_reps, priority_reps
+                    else:
+                        first_reps, second_reps = priority_reps, regular_reps
+
+                    # Phase 1
                     selected_items = self._greedy_overlap_select(
-                        priority_reps, num_violated,
+                        first_reps, num_violated,
                         selected_ids, selected_features)
 
-                    # Phase 2: regular representatives (carry over overlap)
+                    # Phase 2 (carry over overlap)
                     remaining_violated = num_violated - len(selected_items)
                     if remaining_violated > 0:
                         selected_items.extend(self._greedy_overlap_select(
-                            regular_reps, remaining_violated,
+                            second_reps, remaining_violated,
                             selected_ids, selected_features))
 
                     # S1: Sort by conflict count ascending
@@ -424,6 +432,7 @@ def select_for_ts(
 ) -> str:
     """Top-level picklable function for ProcessPoolExecutor."""
     name = ts_cfg["name"]
+    global_threshold = sel_config.get("priority_switch_threshold", 0)
     selector = TestCasesSelector(
         name=name,
         classified_ts_path=ts_cfg["classified_ts"],
@@ -434,6 +443,7 @@ def select_for_ts(
         min_priority_conflicts=sel_config.get("min_priority_conflicts", 2),
         selection_strategy=sel_config.get("selection_strategy", "random"),
         similarity_threshold=sel_config.get("similarity_threshold", 0.5),
+        priority_switch_threshold=ts_cfg.get("priority_switch_threshold", global_threshold),
     )
     abs_output = str(ROOT_PROJECT_FOLDER / output_dir)
     selector.select(abs_output)

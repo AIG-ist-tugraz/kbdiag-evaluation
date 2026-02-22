@@ -27,10 +27,12 @@ classified_ts = "data/jiis/classifiedTS/REAL-FM-11.classifiedts"
 [[ts]]
 name = "REAL-FM-4"
 classified_ts = "data/jiis/classifiedTS/REAL-FM-4.classifiedts"
+priority_switch_threshold = 10  # cardinality <= threshold: regular_clusters first; > threshold: priority_clusters first
 
 [[ts]]
 name = "ubuntu"
 classified_ts = "data/jiis/classifiedTS/ubuntu.classifiedts"
+priority_switch_threshold = 10  # cardinality <= threshold: regular_clusters first; > threshold: priority_clusters first
 
 [[ts]]
 name = "windows8"
@@ -39,3 +41,13 @@ classified_ts = "data/jiis/classifiedTS/windows8.classifiedts"
 [[ts]]
 name = "linux"
 classified_ts = "data/jiis/classifiedTS/linux.classifiedts"
+priority_switch_threshold = 10  # cardinality <= threshold: regular_clusters first; > threshold: priority_clusters first
+
+[[ts]]
+name = "CNNl"
+classified_ts = "data/jiis/classifiedTS/CNNl.classifiedts"
+
+[[ts]]
+name = "EA"
+classified_ts = "data/jiis/classifiedTS/EA.classifiedts"
+

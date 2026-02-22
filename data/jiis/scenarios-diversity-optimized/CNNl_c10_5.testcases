@@ -1,0 +1,11 @@
+10
+Base & Training & Architecture & Block4_Element3_Cell_Input1_Convolution_activation_tanh
+Base & Training & Block4_Element5_Cell_Output_Block
+~Block4_Element3_Cell_Input2_Pooling_type_dilated & Architecture
+~Block4_Element4_Cell_Input1_Pooling_kernel_3x3 & Block4_Element4_Cell_Input1
+Base & ~Training & ~Block1_Element1_Cell_Input1_Convolution_features
+Base & Training & Architecture & ~Block4_Element2_Cell_Combination
+Base & Training & Architecture & Input & Block1_Element5_Cell_Input1_Convolution_kernel_3x1
+Base & Training & Architecture & Input & ~Block4_Element5_Cell_Input1_Pooling_stride_3x3
+Base & Training & Block1_Element1_Cell_Operation1_Dropout_0_5
+Base & Training & Architecture & ~Input & ~Block1_Element1_Cell_Input1_Dense

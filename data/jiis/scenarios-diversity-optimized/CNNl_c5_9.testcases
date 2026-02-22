@@ -1,0 +1,6 @@
+5
+Base & Training & Block1_Element3_Cell_Input1_Pooling_type_max
+Base & Training & Architecture & Input & Block2_Element3_Cell_Input1_Convolution_padding
+Base & Training & Architecture & Input & ~Block2_Element4_Cell_Output_Cell
+~Block2_Element4_Cell_Input2_Pooling & Training
+~Base & ~Block1_Element1_Cell_Input1_Pooling_type_dilated

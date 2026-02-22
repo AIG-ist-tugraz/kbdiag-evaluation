@@ -1,0 +1,11 @@
+10
+~AmbianceDefault & BeepWhenAKeysIs
+Appearance & Look & HighContrastInverse & CursorBlinking
+~Appearance & ~HighContrastInverse & ~EnableHorizontalScrolling
+~Appearance & ~Look & ~Background & ~AmbianceDefault & ~Fast4
+~Appearance & ~EarlyBlossom1920x1280 & Low1
+Appearance & Look & Background & DelicatePetals1920x1280 & _10Minutes_
+~Background & UniversalAccess1
+~Appearance & ResizeWindow
+Appearance & Look & Background & ~HighContrast & ~CursorBlinksInTextFields
+Appearance & ~Look & ~Radiance

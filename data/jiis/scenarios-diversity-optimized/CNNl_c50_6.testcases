@@ -1,0 +1,51 @@
+50
+~Block4_Element1_Cell_Input1_Dense_activation_tanh & Training
+~Block4_Element1_Cell_Input2_Pooling_stride_2x2 & Block4_Element1_Cell_Input2
+Base & Training & ~Block1_Element1_Cell_Input2_Pooling_type_average
+Block5_Element5_Cell_Input1_Dense_features_256
+Base & Training & Architecture & ~Input & ~Block1_Element1_Cell_Input1_Convolution_kernel_2x2
+Base & Training & Architecture & ~Block4_Element5_Cell_Input1_Convolution_activation_relu
+Block3_Element2_Cell_Input2_Convolution_kernel_3x3
+Base & Training & Architecture & Block4_Element2_Cell_Input1_Convolution_padding_valid
+~Block5_Element4_Cell_Operation1_Flatten & Training
+~Base & ~Block1_Element1_Cell_Input1_Convolution_padding
+~Block5_Element1_Cell_Input2_Convolution_stride_3x3 & Base
+Base & Training & Architecture & Block2_Element5_Cell_Input2_Pooling_type_global
+~Block4_Element5_Cell_Input2_Convolution_features_16 & Block4_Element5_Cell_Input2_Convolution_features
+Block5_Element3_Cell_Input1_Convolution_kernel_1x1
+~Block5_Element1_Cell_Input1_Pooling_stride_3x3 & Training
+~Block4_Element4_Cell_Input2_Pooling_stride_2x2 & Training
+Base & Training & Block1_Element4_Cell_Input2_Convolution_stride_2x2
+Base & Training & Block1_Element3_Cell_Input1_Pooling_stride_1x1
+Base & Training & ~Block3_Element1_Cell_Input2_Pooling_type_global
+Base & Block4_Element4_Cell_Input2_Pooling_type_global
+Base & Training & Block5_Element1_Cell_Operation1_Void
+~Block2_Element2_Cell_Input2_Convolution & Base
+Base & ~Training & ~Block1_Element1_Cell_Input1_Convolution_padding_same
+~Base & ~Block1_Element1_Cell_Input1_Convolution_padding_valid
+Base & Training & ~Architecture & ~Block1_Element1_Cell_Input1_Convolution_features
+Base & Training & Architecture & Input & Block4_Element2_Cell_Input1_Convolution_stride_1x1
+Base & Block4_Element1_Cell_Input2_Dense_activation_softmax
+Base & Training & Architecture & Input & Block3_Element3_Cell_Input1_Convolution_padding_valid
+Base & Block4_Element2_Cell_Input2_Dense_activation_sigmoid
+Base & ~Block1_Element3_Cell_Input2_Convolution_padding_same
+Base & Training & Architecture & Input & Block2_Element3_Cell_Operation1_Dropout_value
+Base & Training & Architecture & ~Block1_Element5_Cell_Input2_Pooling_type_average
+Base & Training & ~Block2_Element5_Cell_Input2_Convolution_padding
+Block3_Element4_Cell_Operation1
+Base & Training & Architecture & Input & Block1_Element3_Cell_Input2_Convolution_kernel_3x1
+Base & ~Block3_Element1_Cell_Input1_Convolution_activation_sigmoid
+~Block2_Element2_Cell_Input1_Dense_activation_relu & Base
+Base & Training & Block4_Element1_Cell_Input1_Pooling_kernel_2x2
+Base & Block2_Element3_Cell_Input1_Dense_features_16
+~Block5_Element1_Cell_Operation2_Dropout_0_5 & Base
+Base & Training & Architecture & Block2_Element4_Cell_Input1_Dense_activation_sigmoid
+~Block5_Element1_Cell_Input2_Zeros & Block5_Element1_Cell_Input2
+~Block3_Element1_Cell_Input1_Pooling_type_average & Block3_Element1_Cell_Input1_Pooling_type
+~Block5_Element2_Cell_Input2_Convolution_stride_1x1 & Training
+~Block2_Element2_Cell_Operation2_Dropout_0_7 & Training
+Base & ~Training & ~Block1_Element1_Cell_Input1_Convolution_activation
+~Base & ~Block1_Element1_Cell_Input1_Convolution_padding_same
+Base & Training & Architecture & ~Input & Block1_Element1_Cell_Input1_Convolution_kernel_3x1
+Base & Training & ~Architecture & ~Block1_Element1_Cell_Input1_Convolution_features_16
+Base & Training & ~Architecture & Block1_Element3_Cell_Input2_Convolution_stride_1x1

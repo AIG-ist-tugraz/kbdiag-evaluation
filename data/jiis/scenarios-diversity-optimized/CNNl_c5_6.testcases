@@ -1,0 +1,6 @@
+5
+~Block4_Element1_Cell_Input1_Dense_activation_tanh & Training
+~Block4_Element1_Cell_Input2_Pooling_stride_2x2 & Block4_Element1_Cell_Input2
+Base & Training & ~Block1_Element1_Cell_Input2_Pooling_type_average
+Block5_Element5_Cell_Input1_Dense_features_256
+Base & Training & Architecture & ~Input & ~Block1_Element1_Cell_Input1_Convolution_kernel_2x2

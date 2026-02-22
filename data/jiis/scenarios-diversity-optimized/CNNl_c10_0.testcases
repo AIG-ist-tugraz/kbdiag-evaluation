@@ -1,0 +1,11 @@
+10
+Base & Training & Architecture & ~Block3_Element4_Cell_Input2_Convolution_activation
+Base & Training & ~Block3_Element1_Cell_Input2_Pooling_type
+Base & Training & Architecture & Input & ~Block2_Element1_Cell_Operation1
+Base & Block5_Element2_Cell_Input2_Zeros
+Base & Training & Architecture & ~Input
+Base & Training & Architecture & Input & ~Block4_Element5_Cell_Input1_Convolution_stride_2x2
+~Block5_Element3_Cell_Combination_Concat & Base
+~Block4_Element4_Cell_Input1_Convolution_padding_valid & Base
+Base & Training & Architecture & Input & ~Block4_Element4_Cell_Input2_Pooling_kernel_1x1
+Base & Training & Architecture & ~Output
