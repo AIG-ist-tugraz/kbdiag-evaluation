@@ -1,0 +1,194 @@
+REAL-FM-11 REAL-FM-11_c5_1.testcases
+	Diagnosis: [(mandatory) _id_30[1,1]_id_31 ]
+	|D|: 1
+	CC: 23
+	QuickXPlain+TC runtime: 0.001218 s
+	--- Profiler ---
+	Consistency checks (TC): 23
+	Solver calls: 27
+	QuickXPlain+TC calls: 6
+	QX+TC calls: 21
+REAL-FM-11 REAL-FM-11_c5_1.testcases
+	Diagnosis: [(mandatory) _id_30[1,1]_id_31 ]
+	|D|: 1
+	CC: 23
+	QuickXPlain+TC runtime: 0.000924 s
+	--- Profiler ---
+	Consistency checks (TC): 23
+	Solver calls: 27
+	QuickXPlain+TC calls: 6
+	QX+TC calls: 21
+REAL-FM-11 REAL-FM-11_c5_1.testcases
+	Diagnosis: [(mandatory) _id_30[1,1]_id_31 ]
+	|D|: 1
+	CC: 23
+	QuickXPlain+TC runtime: 0.001107 s
+	--- Profiler ---
+	Consistency checks (TC): 23
+	Solver calls: 27
+	QuickXPlain+TC calls: 6
+	QX+TC calls: 21
+REAL-FM-11 REAL-FM-11_c10_1.testcases
+	Diagnosis: [(mandatory) _id_24[1,1]_id_25 ]
+	|D|: 1
+	CC: 35
+	QuickXPlain+TC runtime: 0.002595 s
+	--- Profiler ---
+	Consistency checks (TC): 35
+	Solver calls: 54
+	QuickXPlain+TC calls: 4
+	QX+TC calls: 40
+REAL-FM-11 REAL-FM-11_c10_1.testcases
+	Diagnosis: [(mandatory) _id_24[1,1]_id_25 ]
+	|D|: 1
+	CC: 35
+	QuickXPlain+TC runtime: 0.002206 s
+	--- Profiler ---
+	Consistency checks (TC): 35
+	Solver calls: 54
+	QuickXPlain+TC calls: 4
+	QX+TC calls: 40
+REAL-FM-11 REAL-FM-11_c10_1.testcases
+	Diagnosis: [(mandatory) _id_24[1,1]_id_25 ]
+	|D|: 1
+	CC: 35
+	QuickXPlain+TC runtime: 0.003814 s
+	--- Profiler ---
+	Consistency checks (TC): 35
+	Solver calls: 54
+	QuickXPlain+TC calls: 4
+	QX+TC calls: 40
+REAL-FM-11 REAL-FM-11_c25_1.testcases
+	Diagnosis: [(mandatory) _id_24[1,1]_id_25 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_5[1,1]_id_6 ]
+	|D|: 3
+	CC: 61
+	QuickXPlain+TC runtime: 0.004153 s
+	--- Profiler ---
+	Consistency checks (TC): 61
+	Solver calls: 132
+	QuickXPlain+TC calls: 8
+	QX+TC calls: 66
+REAL-FM-11 REAL-FM-11_c25_1.testcases
+	Diagnosis: [(mandatory) _id_24[1,1]_id_25 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_5[1,1]_id_6 ]
+	|D|: 3
+	CC: 61
+	QuickXPlain+TC runtime: 0.004119 s
+	--- Profiler ---
+	Consistency checks (TC): 61
+	Solver calls: 132
+	QuickXPlain+TC calls: 8
+	QX+TC calls: 66
+REAL-FM-11 REAL-FM-11_c25_1.testcases
+	Diagnosis: [(mandatory) _id_24[1,1]_id_25 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_5[1,1]_id_6 ]
+	|D|: 3
+	CC: 61
+	QuickXPlain+TC runtime: 0.004097 s
+	--- Profiler ---
+	Consistency checks (TC): 61
+	Solver calls: 132
+	QuickXPlain+TC calls: 8
+	QX+TC calls: 66
+REAL-FM-11 REAL-FM-11_c50_1.testcases
+	Diagnosis: [(mandatory) _id_24[1,1]_id_25 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_5[1,1]_id_6 , (Constraint 2) IMPLIES[message][communication], (mandatory) _id_16[1,1]_id_17 , (mandatory) _id_59[1,1]_id_60 , (mandatory) flood[1,1]_id_30 , (mandatory) _id_4[1,1]_id_5 ]
+	|D|: 8
+	CC: 141
+	QuickXPlain+TC runtime: 0.016250 s
+	--- Profiler ---
+	Consistency checks (TC): 141
+	Solver calls: 224
+	QuickXPlain+TC calls: 19
+	QX+TC calls: 157
+REAL-FM-11 REAL-FM-11_c50_1.testcases
+	Diagnosis: [(mandatory) _id_24[1,1]_id_25 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_5[1,1]_id_6 , (Constraint 2) IMPLIES[message][communication], (mandatory) _id_16[1,1]_id_17 , (mandatory) _id_59[1,1]_id_60 , (mandatory) flood[1,1]_id_30 , (mandatory) _id_4[1,1]_id_5 ]
+	|D|: 8
+	CC: 141
+	QuickXPlain+TC runtime: 0.016217 s
+	--- Profiler ---
+	Consistency checks (TC): 141
+	Solver calls: 224
+	QuickXPlain+TC calls: 19
+	QX+TC calls: 157
+REAL-FM-11 REAL-FM-11_c50_1.testcases
+	Diagnosis: [(mandatory) _id_24[1,1]_id_25 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_5[1,1]_id_6 , (Constraint 2) IMPLIES[message][communication], (mandatory) _id_16[1,1]_id_17 , (mandatory) _id_59[1,1]_id_60 , (mandatory) flood[1,1]_id_30 , (mandatory) _id_4[1,1]_id_5 ]
+	|D|: 8
+	CC: 141
+	QuickXPlain+TC runtime: 0.016149 s
+	--- Profiler ---
+	Consistency checks (TC): 141
+	Solver calls: 224
+	QuickXPlain+TC calls: 19
+	QX+TC calls: 157
+REAL-FM-11 REAL-FM-11_c100_1.testcases
+	Diagnosis: [(mandatory) _id_24[1,1]_id_25 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_5[1,1]_id_6 , (Constraint 2) IMPLIES[message][communication], (mandatory) _id_16[1,1]_id_17 , (mandatory) _id_59[1,1]_id_60 , (mandatory) flood[1,1]_id_30 , (mandatory) _id_4[1,1]_id_5 , (mandatory) _id_47[1,1]_id_52 , (mandatory) _id_56[1,1]_id_58 , (mandatory) _id_49[1,1]_id_51 , (alternative) _id_39[1,1]_id_41 _id_42 , (mandatory) _id_43[1,1]_id_44 , (mandatory) _id_10[1,1]_id_11 ]
+	|D|: 14
+	CC: 207
+	QuickXPlain+TC runtime: 0.683914 s
+	--- Profiler ---
+	Consistency checks (TC): 207
+	Solver calls: 359
+	QuickXPlain+TC calls: 25
+	QX+TC calls: 241
+REAL-FM-11 REAL-FM-11_c100_1.testcases
+	Diagnosis: [(mandatory) _id_24[1,1]_id_25 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_5[1,1]_id_6 , (Constraint 2) IMPLIES[message][communication], (mandatory) _id_16[1,1]_id_17 , (mandatory) _id_59[1,1]_id_60 , (mandatory) flood[1,1]_id_30 , (mandatory) _id_4[1,1]_id_5 , (mandatory) _id_47[1,1]_id_52 , (mandatory) _id_56[1,1]_id_58 , (mandatory) _id_49[1,1]_id_51 , (alternative) _id_39[1,1]_id_41 _id_42 , (mandatory) _id_43[1,1]_id_44 , (mandatory) _id_10[1,1]_id_11 ]
+	|D|: 14
+	CC: 207
+	QuickXPlain+TC runtime: 0.702531 s
+	--- Profiler ---
+	Consistency checks (TC): 207
+	Solver calls: 359
+	QuickXPlain+TC calls: 25
+	QX+TC calls: 241
+REAL-FM-11 REAL-FM-11_c100_1.testcases
+	Diagnosis: [(mandatory) _id_24[1,1]_id_25 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_5[1,1]_id_6 , (Constraint 2) IMPLIES[message][communication], (mandatory) _id_16[1,1]_id_17 , (mandatory) _id_59[1,1]_id_60 , (mandatory) flood[1,1]_id_30 , (mandatory) _id_4[1,1]_id_5 , (mandatory) _id_47[1,1]_id_52 , (mandatory) _id_56[1,1]_id_58 , (mandatory) _id_49[1,1]_id_51 , (alternative) _id_39[1,1]_id_41 _id_42 , (mandatory) _id_43[1,1]_id_44 , (mandatory) _id_10[1,1]_id_11 ]
+	|D|: 14
+	CC: 207
+	QuickXPlain+TC runtime: 0.716406 s
+	--- Profiler ---
+	Consistency checks (TC): 207
+	Solver calls: 359
+	QuickXPlain+TC calls: 25
+	QX+TC calls: 241
+REAL-FM-11 REAL-FM-11_c250_1.testcases
+	Diagnosis: [(mandatory) _id_24[1,1]_id_25 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_5[1,1]_id_6 , (mandatory) communication[1,1]_id_37 , (mandatory) _id_16[1,1]_id_17 , (mandatory) _id_0[1,1]_id_56 , (mandatory) flood[1,1]_id_30 , (mandatory) _id_4[1,1]_id_5 , (mandatory) _id_47[1,1]_id_52 , (mandatory) _id_56[1,1]_id_58 , (mandatory) _id_47[1,1]_id_49 , (alternative) _id_39[1,1]_id_41 _id_42 , (mandatory) _id_43[1,1]_id_44 , (mandatory) _id_3[1,1]_id_10 , (Constraint 2) IMPLIES[message][communication], (alternative) _id_18[1,1]_id_20 _id_21 , (mandatory) message[1,1]_id_14 , (mandatory) _id_43[1,1]_id_45 , (mandatory) _id_59[1,1]_id_60 , (mandatory) _id_15[1,1]_id_22 , (alternative) _id_6[1,1]_id_8 _id_9 , (mandatory) _id_32[1,1]_id_33 , (optional) _id_30[0,1]pumping , (alternative) _id_26[1,1]_id_28 _id_29 , (mandatory) _id_0[1,1]_id_43 , (alternative) _id_60[1,1]_id_62 _id_63 , (mandatory) _id_56[1,1]_id_57 , (mandatory) _id_56[1,1]_id_64 , (alternative) _id_33[1,1]_id_35 _id_36 , (Constraint 1) IMPLIES[pumping][sump_pump], (mandatory) _id_56[1,1]_id_59 , (mandatory) _id_47[1,1]_id_55 ]
+	|D|: 32
+	CC: 452
+	QuickXPlain+TC runtime: 1206.162803 s
+	--- Profiler ---
+	Consistency checks (TC): 452
+	Solver calls: 1949
+	QuickXPlain+TC calls: 49
+	QX+TC calls: 573
+REAL-FM-11 REAL-FM-11_c250_1.testcases
+	Diagnosis: [(mandatory) _id_24[1,1]_id_25 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_5[1,1]_id_6 , (mandatory) communication[1,1]_id_37 , (mandatory) _id_16[1,1]_id_17 , (mandatory) _id_0[1,1]_id_56 , (mandatory) flood[1,1]_id_30 , (mandatory) _id_4[1,1]_id_5 , (mandatory) _id_47[1,1]_id_52 , (mandatory) _id_56[1,1]_id_58 , (mandatory) _id_47[1,1]_id_49 , (alternative) _id_39[1,1]_id_41 _id_42 , (mandatory) _id_43[1,1]_id_44 , (mandatory) _id_3[1,1]_id_10 , (Constraint 2) IMPLIES[message][communication], (alternative) _id_18[1,1]_id_20 _id_21 , (mandatory) message[1,1]_id_14 , (mandatory) _id_43[1,1]_id_45 , (mandatory) _id_59[1,1]_id_60 , (mandatory) _id_15[1,1]_id_22 , (alternative) _id_6[1,1]_id_8 _id_9 , (mandatory) _id_32[1,1]_id_33 , (optional) _id_30[0,1]pumping , (alternative) _id_26[1,1]_id_28 _id_29 , (mandatory) _id_0[1,1]_id_43 , (alternative) _id_60[1,1]_id_62 _id_63 , (mandatory) _id_56[1,1]_id_57 , (mandatory) _id_56[1,1]_id_64 , (alternative) _id_33[1,1]_id_35 _id_36 , (Constraint 1) IMPLIES[pumping][sump_pump], (mandatory) _id_56[1,1]_id_59 , (mandatory) _id_47[1,1]_id_55 ]
+	|D|: 32
+	CC: 452
+	QuickXPlain+TC runtime: 1149.379176 s
+	--- Profiler ---
+	Consistency checks (TC): 452
+	Solver calls: 1949
+	QuickXPlain+TC calls: 49
+	QX+TC calls: 573
+REAL-FM-11 REAL-FM-11_c250_1.testcases
+	Diagnosis: [(mandatory) _id_24[1,1]_id_25 , (mandatory) _id_1[1,1]_id_2 , (mandatory) _id_5[1,1]_id_6 , (mandatory) communication[1,1]_id_37 , (mandatory) _id_16[1,1]_id_17 , (mandatory) _id_0[1,1]_id_56 , (mandatory) flood[1,1]_id_30 , (mandatory) _id_4[1,1]_id_5 , (mandatory) _id_47[1,1]_id_52 , (mandatory) _id_56[1,1]_id_58 , (mandatory) _id_47[1,1]_id_49 , (alternative) _id_39[1,1]_id_41 _id_42 , (mandatory) _id_43[1,1]_id_44 , (mandatory) _id_3[1,1]_id_10 , (Constraint 2) IMPLIES[message][communication], (alternative) _id_18[1,1]_id_20 _id_21 , (mandatory) message[1,1]_id_14 , (mandatory) _id_43[1,1]_id_45 , (mandatory) _id_59[1,1]_id_60 , (mandatory) _id_15[1,1]_id_22 , (alternative) _id_6[1,1]_id_8 _id_9 , (mandatory) _id_32[1,1]_id_33 , (optional) _id_30[0,1]pumping , (alternative) _id_26[1,1]_id_28 _id_29 , (mandatory) _id_0[1,1]_id_43 , (alternative) _id_60[1,1]_id_62 _id_63 , (mandatory) _id_56[1,1]_id_57 , (mandatory) _id_56[1,1]_id_64 , (alternative) _id_33[1,1]_id_35 _id_36 , (Constraint 1) IMPLIES[pumping][sump_pump], (mandatory) _id_56[1,1]_id_59 , (mandatory) _id_47[1,1]_id_55 ]
+	|D|: 32
+	CC: 452
+	QuickXPlain+TC runtime: 1128.741709 s
+	--- Profiler ---
+	Consistency checks (TC): 452
+	Solver calls: 1949
+	QuickXPlain+TC calls: 49
+	QX+TC calls: 573
+REAL-FM-11 REAL-FM-11_c500_1.testcases
+	Diag: TO
+	Time: 3600.000000 s (timeout)
+
+=== Evaluation Results: quickxplain_with_testcases (m=1, task=1) ===
+Testcase                  | Avg Time (s) |   |D| |  #Diag
+---------------------------------------------------------
+REAL-FM-11/REAL-FM-11_c5_1.testcases |     0.001083 |     1 |      5
+REAL-FM-11/REAL-FM-11_c10_1.testcases |     0.002872 |     1 |      2
+REAL-FM-11/REAL-FM-11_c25_1.testcases |     0.004123 |     3 |      4
+REAL-FM-11/REAL-FM-11_c50_1.testcases |     0.016205 |     8 |     10
+REAL-FM-11/REAL-FM-11_c100_1.testcases |     0.700950 |    14 |     10
+REAL-FM-11/REAL-FM-11_c250_1.testcases |  1161.427896 |    32 |     10
+REAL-FM-11/REAL-FM-11_c500_1.testcases |  3600.000000 |    TO |     TO

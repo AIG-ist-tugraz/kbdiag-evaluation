@@ -1,0 +1,167 @@
+linux linux_c5_0.testcases
+	Diagnosis: [(Constraint 6914) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[VT6656][]]]
+	|D|: 1
+	CC: 42
+	QuickXPlain+TC runtime: 0.062605 s
+	--- Profiler ---
+	Consistency checks (TC): 42
+	Solver calls: 46
+	QuickXPlain+TC calls: 3
+	QX+TC calls: 55
+linux linux_c5_0.testcases
+	Diagnosis: [(Constraint 6914) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[VT6656][]]]
+	|D|: 1
+	CC: 42
+	QuickXPlain+TC runtime: 0.057366 s
+	--- Profiler ---
+	Consistency checks (TC): 42
+	Solver calls: 46
+	QuickXPlain+TC calls: 3
+	QX+TC calls: 55
+linux linux_c5_0.testcases
+	Diagnosis: [(Constraint 6914) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[VT6656][]]]
+	|D|: 1
+	CC: 42
+	QuickXPlain+TC runtime: 0.054274 s
+	--- Profiler ---
+	Consistency checks (TC): 42
+	Solver calls: 46
+	QuickXPlain+TC calls: 3
+	QX+TC calls: 55
+linux linux_c10_0.testcases
+	Diagnosis: [(Constraint 6914) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[VT6656][]], (mandatory) root[1,1]ZONE_DMA_FLAG ]
+	|D|: 2
+	CC: 63
+	QuickXPlain+TC runtime: 0.093682 s
+	--- Profiler ---
+	Consistency checks (TC): 63
+	Solver calls: 77
+	QuickXPlain+TC calls: 4
+	QX+TC calls: 84
+linux linux_c10_0.testcases
+	Diagnosis: [(Constraint 6914) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[VT6656][]], (mandatory) root[1,1]ZONE_DMA_FLAG ]
+	|D|: 2
+	CC: 63
+	QuickXPlain+TC runtime: 0.089513 s
+	--- Profiler ---
+	Consistency checks (TC): 63
+	Solver calls: 77
+	QuickXPlain+TC calls: 4
+	QX+TC calls: 84
+linux linux_c10_0.testcases
+	Diagnosis: [(Constraint 6914) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[VT6656][]], (mandatory) root[1,1]ZONE_DMA_FLAG ]
+	|D|: 2
+	CC: 63
+	QuickXPlain+TC runtime: 0.089517 s
+	--- Profiler ---
+	Consistency checks (TC): 63
+	Solver calls: 77
+	QuickXPlain+TC calls: 4
+	QX+TC calls: 84
+linux linux_c25_0.testcases
+	Diagnosis: [(Constraint 6914) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[VT6656][]], (mandatory) root[1,1]ZONE_DMA_FLAG , (Constraint 6628) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[VIDEO_GO7007][]], (Constraint 4542) NOT[MFD_WM8352_CONFIG_MODE_3][], (mandatory) root[1,1]VMSPLIT_3G_OPT_alt ]
+	|D|: 5
+	CC: 149
+	QuickXPlain+TC runtime: 0.250500 s
+	--- Profiler ---
+	Consistency checks (TC): 149
+	Solver calls: 215
+	QuickXPlain+TC calls: 9
+	QX+TC calls: 193
+linux linux_c25_0.testcases
+	Diagnosis: [(Constraint 6914) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[VT6656][]], (mandatory) root[1,1]ZONE_DMA_FLAG , (Constraint 6628) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[VIDEO_GO7007][]], (Constraint 4542) NOT[MFD_WM8352_CONFIG_MODE_3][], (mandatory) root[1,1]VMSPLIT_3G_OPT_alt ]
+	|D|: 5
+	CC: 149
+	QuickXPlain+TC runtime: 0.251400 s
+	--- Profiler ---
+	Consistency checks (TC): 149
+	Solver calls: 215
+	QuickXPlain+TC calls: 9
+	QX+TC calls: 193
+linux linux_c25_0.testcases
+	Diagnosis: [(Constraint 6914) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[VT6656][]], (mandatory) root[1,1]ZONE_DMA_FLAG , (Constraint 6628) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[VIDEO_GO7007][]], (Constraint 4542) NOT[MFD_WM8352_CONFIG_MODE_3][], (mandatory) root[1,1]VMSPLIT_3G_OPT_alt ]
+	|D|: 5
+	CC: 149
+	QuickXPlain+TC runtime: 0.251336 s
+	--- Profiler ---
+	Consistency checks (TC): 149
+	Solver calls: 215
+	QuickXPlain+TC calls: 9
+	QX+TC calls: 193
+linux linux_c50_0.testcases
+	Diagnosis: [(Constraint 6914) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[VT6656][]], (mandatory) root[1,1]ZONE_DMA_FLAG , (Constraint 6628) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[VIDEO_GO7007][]], (Constraint 4542) NOT[MFD_WM8352_CONFIG_MODE_3][], (mandatory) root[1,1]VMSPLIT_3G_OPT_alt , (Constraint 6885) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[IDE_PHISON][]], (mandatory) root[1,1]NR_CPUS , (Constraint 2300) OR[SBUS][NOT[SUNLANCE][]], (Constraint 6687) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[W35UND][]], (Constraint 93) NOT[ARCH_INLINE_WRITE_LOCK_BH][]]
+	|D|: 10
+	CC: 318
+	QuickXPlain+TC runtime: 0.531024 s
+	--- Profiler ---
+	Consistency checks (TC): 318
+	Solver calls: 442
+	QuickXPlain+TC calls: 20
+	QX+TC calls: 414
+linux linux_c50_0.testcases
+	Diagnosis: [(Constraint 6914) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[VT6656][]], (mandatory) root[1,1]ZONE_DMA_FLAG , (Constraint 6628) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[VIDEO_GO7007][]], (Constraint 4542) NOT[MFD_WM8352_CONFIG_MODE_3][], (mandatory) root[1,1]VMSPLIT_3G_OPT_alt , (Constraint 6885) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[IDE_PHISON][]], (mandatory) root[1,1]NR_CPUS , (Constraint 2300) OR[SBUS][NOT[SUNLANCE][]], (Constraint 6687) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[W35UND][]], (Constraint 93) NOT[ARCH_INLINE_WRITE_LOCK_BH][]]
+	|D|: 10
+	CC: 318
+	QuickXPlain+TC runtime: 0.541046 s
+	--- Profiler ---
+	Consistency checks (TC): 318
+	Solver calls: 442
+	QuickXPlain+TC calls: 20
+	QX+TC calls: 414
+linux linux_c50_0.testcases
+	Diagnosis: [(Constraint 6914) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[VT6656][]], (mandatory) root[1,1]ZONE_DMA_FLAG , (Constraint 6628) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[VIDEO_GO7007][]], (Constraint 4542) NOT[MFD_WM8352_CONFIG_MODE_3][], (mandatory) root[1,1]VMSPLIT_3G_OPT_alt , (Constraint 6885) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[IDE_PHISON][]], (mandatory) root[1,1]NR_CPUS , (Constraint 2300) OR[SBUS][NOT[SUNLANCE][]], (Constraint 6687) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[W35UND][]], (Constraint 93) NOT[ARCH_INLINE_WRITE_LOCK_BH][]]
+	|D|: 10
+	CC: 318
+	QuickXPlain+TC runtime: 0.552967 s
+	--- Profiler ---
+	Consistency checks (TC): 318
+	Solver calls: 442
+	QuickXPlain+TC calls: 20
+	QX+TC calls: 414
+linux linux_c100_0.testcases
+	Diagnosis: [(Constraint 6914) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[VT6656][]], (mandatory) root[1,1]ZONE_DMA_FLAG , (Constraint 6628) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[VIDEO_GO7007][]], (Constraint 4542) NOT[MFD_WM8352_CONFIG_MODE_3][], (mandatory) root[1,1]VMSPLIT_3G_OPT_alt , (Constraint 6885) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[IDE_PHISON][]], (mandatory) root[1,1]NR_CPUS , (Constraint 2300) OR[SBUS][NOT[SUNLANCE][]], (Constraint 6687) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[W35UND][]], (Constraint 93) NOT[ARCH_INLINE_WRITE_LOCK_BH][], (Constraint 6091) NOT[SND_SOC_SH4_SSI][], (mandatory) root[1,1]HZ_300_alt , (Constraint 95) NOT[ARCH_INLINE_WRITE_LOCK_IRQSAVE][], (Constraint 77) NOT[ARCH_INLINE_SPIN_LOCK_IRQSAVE][], (Constraint 2943) OR[BROKEN][NOT[B43_NPHY][]], (Constraint 6984) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[SAMSUNG_LAPTOP][]], (mandatory) root[1,1]EXTRA_FIRMWARE_DIR , (Constraint 6907) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[USB_SERIAL_QUATECH_USB2][]], (mandatory) root[1,1]IO_DELAY_TYPE_0X80 , (Constraint 6831) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[RTL8192SU][]]]
+	|D|: 20
+	CC: 617
+	QuickXPlain+TC runtime: 1.450621 s
+	--- Profiler ---
+	Consistency checks (TC): 617
+	Solver calls: 746
+	QuickXPlain+TC calls: 30
+	QX+TC calls: 806
+linux linux_c100_0.testcases
+	Diagnosis: [(Constraint 6914) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[VT6656][]], (mandatory) root[1,1]ZONE_DMA_FLAG , (Constraint 6628) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[VIDEO_GO7007][]], (Constraint 4542) NOT[MFD_WM8352_CONFIG_MODE_3][], (mandatory) root[1,1]VMSPLIT_3G_OPT_alt , (Constraint 6885) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[IDE_PHISON][]], (mandatory) root[1,1]NR_CPUS , (Constraint 2300) OR[SBUS][NOT[SUNLANCE][]], (Constraint 6687) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[W35UND][]], (Constraint 93) NOT[ARCH_INLINE_WRITE_LOCK_BH][], (Constraint 6091) NOT[SND_SOC_SH4_SSI][], (mandatory) root[1,1]HZ_300_alt , (Constraint 95) NOT[ARCH_INLINE_WRITE_LOCK_IRQSAVE][], (Constraint 77) NOT[ARCH_INLINE_SPIN_LOCK_IRQSAVE][], (Constraint 2943) OR[BROKEN][NOT[B43_NPHY][]], (Constraint 6984) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[SAMSUNG_LAPTOP][]], (mandatory) root[1,1]EXTRA_FIRMWARE_DIR , (Constraint 6907) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[USB_SERIAL_QUATECH_USB2][]], (mandatory) root[1,1]IO_DELAY_TYPE_0X80 , (Constraint 6831) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[RTL8192SU][]]]
+	|D|: 20
+	CC: 617
+	QuickXPlain+TC runtime: 1.398353 s
+	--- Profiler ---
+	Consistency checks (TC): 617
+	Solver calls: 746
+	QuickXPlain+TC calls: 30
+	QX+TC calls: 806
+linux linux_c100_0.testcases
+	Diagnosis: [(Constraint 6914) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[VT6656][]], (mandatory) root[1,1]ZONE_DMA_FLAG , (Constraint 6628) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[VIDEO_GO7007][]], (Constraint 4542) NOT[MFD_WM8352_CONFIG_MODE_3][], (mandatory) root[1,1]VMSPLIT_3G_OPT_alt , (Constraint 6885) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[IDE_PHISON][]], (mandatory) root[1,1]NR_CPUS , (Constraint 2300) OR[SBUS][NOT[SUNLANCE][]], (Constraint 6687) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[W35UND][]], (Constraint 93) NOT[ARCH_INLINE_WRITE_LOCK_BH][], (Constraint 6091) NOT[SND_SOC_SH4_SSI][], (mandatory) root[1,1]HZ_300_alt , (Constraint 95) NOT[ARCH_INLINE_WRITE_LOCK_IRQSAVE][], (Constraint 77) NOT[ARCH_INLINE_SPIN_LOCK_IRQSAVE][], (Constraint 2943) OR[BROKEN][NOT[B43_NPHY][]], (Constraint 6984) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[SAMSUNG_LAPTOP][]], (mandatory) root[1,1]EXTRA_FIRMWARE_DIR , (Constraint 6907) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[USB_SERIAL_QUATECH_USB2][]], (mandatory) root[1,1]IO_DELAY_TYPE_0X80 , (Constraint 6831) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[RTL8192SU][]]]
+	|D|: 20
+	CC: 617
+	QuickXPlain+TC runtime: 1.392923 s
+	--- Profiler ---
+	Consistency checks (TC): 617
+	Solver calls: 746
+	QuickXPlain+TC calls: 30
+	QX+TC calls: 806
+linux linux_c250_0.testcases
+	Diag: TO
+	Time: 3600.000000 s (timeout)
+linux linux_c500_0.testcases
+	Diag: TO
+	Time: 3600.000000 s (timeout)
+
+=== Evaluation Results: quickxplain_with_testcases (m=1, task=1) ===
+Testcase                  | Avg Time (s) |   |D| |  #Diag
+---------------------------------------------------------
+linux/linux_c5_0.testcases |     0.058082 |     1 |      2
+linux/linux_c10_0.testcases |     0.090904 |     2 |      2
+linux/linux_c25_0.testcases |     0.251079 |     5 |      4
+linux/linux_c50_0.testcases |     0.541679 |    10 |     10
+linux/linux_c100_0.testcases |     1.413966 |    20 |     10
+linux/linux_c250_0.testcases |  3600.000000 |    TO |     TO
+linux/linux_c500_0.testcases |  3600.000000 |    TO |     TO

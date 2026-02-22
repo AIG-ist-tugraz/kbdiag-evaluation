@@ -1,0 +1,221 @@
+ubuntu ubuntu_c5_1.testcases
+	Diagnosis: [(alternative) LauncherIconSize[1,1]_48 _64 _32 ]
+	|D|: 1
+	CC: 32
+	KBDiag runtime: 0.001199 s
+	--- Profiler ---
+	KBDiag calls: 2
+	mssDirect calls: 34
+	Consistency checks (TC): 32
+	Solver calls: 40
+ubuntu ubuntu_c5_1.testcases
+	Diagnosis: [(alternative) LauncherIconSize[1,1]_48 _64 _32 ]
+	|D|: 1
+	CC: 32
+	KBDiag runtime: 0.001142 s
+	--- Profiler ---
+	KBDiag calls: 2
+	mssDirect calls: 34
+	Consistency checks (TC): 32
+	Solver calls: 40
+ubuntu ubuntu_c5_1.testcases
+	Diagnosis: [(alternative) LauncherIconSize[1,1]_48 _64 _32 ]
+	|D|: 1
+	CC: 32
+	KBDiag runtime: 0.001188 s
+	--- Profiler ---
+	KBDiag calls: 2
+	mssDirect calls: 34
+	Consistency checks (TC): 32
+	Solver calls: 40
+ubuntu ubuntu_c10_1.testcases
+	Diagnosis: [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Behavoir[1,1]RevealLocation ]
+	|D|: 2
+	CC: 200
+	KBDiag runtime: 0.002094 s
+	--- Profiler ---
+	KBDiag calls: 10
+	mssDirect calls: 212
+	Consistency checks (TC): 200
+	Solver calls: 353
+ubuntu ubuntu_c10_1.testcases
+	Diagnosis: [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Behavoir[1,1]RevealLocation ]
+	|D|: 2
+	CC: 200
+	KBDiag runtime: 0.002140 s
+	--- Profiler ---
+	KBDiag calls: 10
+	mssDirect calls: 212
+	Consistency checks (TC): 200
+	Solver calls: 353
+ubuntu ubuntu_c10_1.testcases
+	Diagnosis: [(alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Behavoir[1,1]RevealLocation ]
+	|D|: 2
+	CC: 200
+	KBDiag runtime: 0.002082 s
+	--- Profiler ---
+	KBDiag calls: 10
+	mssDirect calls: 212
+	Consistency checks (TC): 200
+	Solver calls: 353
+ubuntu ubuntu_c25_1.testcases
+	Diagnosis: [(alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (mandatory) Look[1,1]LauncherIconSize , (mandatory) Appearance[1,1]Behavoir ]
+	|D|: 3
+	CC: 195
+	KBDiag runtime: 0.004778 s
+	--- Profiler ---
+	KBDiag calls: 8
+	mssDirect calls: 190
+	Consistency checks (TC): 195
+	Solver calls: 740
+ubuntu ubuntu_c25_1.testcases
+	Diagnosis: [(alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (mandatory) Look[1,1]LauncherIconSize , (mandatory) Appearance[1,1]Behavoir ]
+	|D|: 3
+	CC: 195
+	KBDiag runtime: 0.004811 s
+	--- Profiler ---
+	KBDiag calls: 8
+	mssDirect calls: 190
+	Consistency checks (TC): 195
+	Solver calls: 740
+ubuntu ubuntu_c25_1.testcases
+	Diagnosis: [(alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (mandatory) Look[1,1]LauncherIconSize , (mandatory) Appearance[1,1]Behavoir ]
+	|D|: 3
+	CC: 195
+	KBDiag runtime: 0.004660 s
+	--- Profiler ---
+	KBDiag calls: 8
+	mssDirect calls: 190
+	Consistency checks (TC): 195
+	Solver calls: 740
+ubuntu ubuntu_c50_1.testcases
+	Diagnosis: [(alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (mandatory) Look[1,1]Theme , (alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Behavoir ]
+	|D|: 4
+	CC: 230
+	KBDiag runtime: 0.010434 s
+	--- Profiler ---
+	KBDiag calls: 8
+	mssDirect calls: 216
+	Consistency checks (TC): 230
+	Solver calls: 1556
+ubuntu ubuntu_c50_1.testcases
+	Diagnosis: [(alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (mandatory) Look[1,1]Theme , (alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Behavoir ]
+	|D|: 4
+	CC: 230
+	KBDiag runtime: 0.013179 s
+	--- Profiler ---
+	KBDiag calls: 8
+	mssDirect calls: 216
+	Consistency checks (TC): 230
+	Solver calls: 1556
+ubuntu ubuntu_c50_1.testcases
+	Diagnosis: [(alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (mandatory) Look[1,1]Theme , (alternative) LauncherIconSize[1,1]_48 _64 _32 , (mandatory) Appearance[1,1]Behavoir ]
+	|D|: 4
+	CC: 230
+	KBDiag runtime: 0.010487 s
+	--- Profiler ---
+	KBDiag calls: 8
+	mssDirect calls: 216
+	Consistency checks (TC): 230
+	Solver calls: 1556
+ubuntu ubuntu_c100_1.testcases
+	Diagnosis: [(alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (mandatory) Look[1,1]Theme , (alternative) Theme[1,1]HighContrastInverse AmbianceDefault Radiance HighContrast , (mandatory) Look[1,1]LauncherIconSize , (mandatory) Appearance[1,1]Behavoir ]
+	|D|: 5
+	CC: 86
+	KBDiag runtime: 0.025608 s
+	--- Profiler ---
+	KBDiag calls: 3
+	mssDirect calls: 75
+	Consistency checks (TC): 86
+	Solver calls: 1239
+ubuntu ubuntu_c100_1.testcases
+	Diagnosis: [(alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (mandatory) Look[1,1]Theme , (alternative) Theme[1,1]HighContrastInverse AmbianceDefault Radiance HighContrast , (mandatory) Look[1,1]LauncherIconSize , (mandatory) Appearance[1,1]Behavoir ]
+	|D|: 5
+	CC: 86
+	KBDiag runtime: 0.024822 s
+	--- Profiler ---
+	KBDiag calls: 3
+	mssDirect calls: 75
+	Consistency checks (TC): 86
+	Solver calls: 1239
+ubuntu ubuntu_c100_1.testcases
+	Diagnosis: [(alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (mandatory) Look[1,1]Theme , (alternative) Theme[1,1]HighContrastInverse AmbianceDefault Radiance HighContrast , (mandatory) Look[1,1]LauncherIconSize , (mandatory) Appearance[1,1]Behavoir ]
+	|D|: 5
+	CC: 86
+	KBDiag runtime: 0.027648 s
+	--- Profiler ---
+	KBDiag calls: 3
+	mssDirect calls: 75
+	Consistency checks (TC): 86
+	Solver calls: 1239
+ubuntu ubuntu_c250_1.testcases
+	Diagnosis: [(mandatory) Appearance[1,1]Look , (mandatory) Look[1,1]Background , (mandatory) Look[1,1]Theme , (alternative) Theme[1,1]HighContrastInverse AmbianceDefault Radiance HighContrast , (mandatory) Look[1,1]LauncherIconSize , (mandatory) Appearance[1,1]Behavoir ]
+	|D|: 6
+	CC: 37
+	KBDiag runtime: 0.093249 s
+	--- Profiler ---
+	KBDiag calls: 1
+	mssDirect calls: 31
+	Consistency checks (TC): 37
+	Solver calls: 1354
+ubuntu ubuntu_c250_1.testcases
+	Diagnosis: [(mandatory) Appearance[1,1]Look , (mandatory) Look[1,1]Background , (mandatory) Look[1,1]Theme , (alternative) Theme[1,1]HighContrastInverse AmbianceDefault Radiance HighContrast , (mandatory) Look[1,1]LauncherIconSize , (mandatory) Appearance[1,1]Behavoir ]
+	|D|: 6
+	CC: 37
+	KBDiag runtime: 0.093776 s
+	--- Profiler ---
+	KBDiag calls: 1
+	mssDirect calls: 31
+	Consistency checks (TC): 37
+	Solver calls: 1354
+ubuntu ubuntu_c250_1.testcases
+	Diagnosis: [(mandatory) Appearance[1,1]Look , (mandatory) Look[1,1]Background , (mandatory) Look[1,1]Theme , (alternative) Theme[1,1]HighContrastInverse AmbianceDefault Radiance HighContrast , (mandatory) Look[1,1]LauncherIconSize , (mandatory) Appearance[1,1]Behavoir ]
+	|D|: 6
+	CC: 37
+	KBDiag runtime: 0.095513 s
+	--- Profiler ---
+	KBDiag calls: 1
+	mssDirect calls: 31
+	Consistency checks (TC): 37
+	Solver calls: 1354
+ubuntu ubuntu_c500_1.testcases
+	Diagnosis: [(mandatory) Appearance[1,1]Look , (mandatory) Look[1,1]Background , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (mandatory) Look[1,1]Theme , (alternative) Theme[1,1]HighContrastInverse AmbianceDefault Radiance HighContrast , (mandatory) Look[1,1]LauncherIconSize , (mandatory) Appearance[1,1]Behavoir ]
+	|D|: 7
+	CC: 38
+	KBDiag runtime: 0.235589 s
+	--- Profiler ---
+	KBDiag calls: 1
+	mssDirect calls: 31
+	Consistency checks (TC): 38
+	Solver calls: 2329
+ubuntu ubuntu_c500_1.testcases
+	Diagnosis: [(mandatory) Appearance[1,1]Look , (mandatory) Look[1,1]Background , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (mandatory) Look[1,1]Theme , (alternative) Theme[1,1]HighContrastInverse AmbianceDefault Radiance HighContrast , (mandatory) Look[1,1]LauncherIconSize , (mandatory) Appearance[1,1]Behavoir ]
+	|D|: 7
+	CC: 38
+	KBDiag runtime: 0.231927 s
+	--- Profiler ---
+	KBDiag calls: 1
+	mssDirect calls: 31
+	Consistency checks (TC): 38
+	Solver calls: 2329
+ubuntu ubuntu_c500_1.testcases
+	Diagnosis: [(mandatory) Appearance[1,1]Look , (mandatory) Look[1,1]Background , (alternative) Background[1,1]DelicatePetals1920x1280 MorningDew1920x1280 Ubuntu1920x1280 PrecisePagolin1920x1280 TwillightFrost1920x1280 EarlyBlossom1920x1280 , (mandatory) Look[1,1]Theme , (alternative) Theme[1,1]HighContrastInverse AmbianceDefault Radiance HighContrast , (mandatory) Look[1,1]LauncherIconSize , (mandatory) Appearance[1,1]Behavoir ]
+	|D|: 7
+	CC: 38
+	KBDiag runtime: 0.235576 s
+	--- Profiler ---
+	KBDiag calls: 1
+	mssDirect calls: 31
+	Consistency checks (TC): 38
+	Solver calls: 2329
+
+=== Evaluation Results: kbdiag (m=1, task=1) ===
+Testcase                  | Avg Time (s) |   |D| |  #Diag
+---------------------------------------------------------
+ubuntu/ubuntu_c5_1.testcases |     0.001176 |     1 |      2
+ubuntu/ubuntu_c10_1.testcases |     0.002105 |     2 |     10
+ubuntu/ubuntu_c25_1.testcases |     0.004750 |     3 |      8
+ubuntu/ubuntu_c50_1.testcases |     0.011366 |     4 |      8
+ubuntu/ubuntu_c100_1.testcases |     0.026026 |     5 |      3
+ubuntu/ubuntu_c250_1.testcases |     0.094179 |     6 |      1
+ubuntu/ubuntu_c500_1.testcases |     0.234364 |     7 |      1
