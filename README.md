@@ -10,13 +10,13 @@ Developed at TU Graz by Viet-Man Le. Licensed under MIT.
 
 ## Key Features
 
-- **Core Diagnosis Algorithms**: KBDiag, FastDiag, FastDiagP, QuickXPlain, and Syntactic Relevance
-- **Advanced Algorithms**: WipeOutR variants (feature model and test case optimization)
+- **Core Diagnosis Algorithms**: KBDiag, FastDiag, QuickXPlain, and Syntactic Relevance
+- **Extended Algorithms**: FastDiagP, WipeOutR variants (Python explanation/ module)
 - **Hitting Set DAG (HS-DAG)**: Efficiently computes all diagnoses through shared computations with multiple labelers
-- **SAT Solver Integration**: Choco (Java), PySAT (Python), and SAT4J solver support
-- **Dual Implementation**: Both Java (primary, ~10.6K LOC) and expanded Python (~6.8K LOC in explanation/ module)
-- **Evaluation Framework**: Comprehensive benchmarking against real-world and synthetic feature models
-- **Comprehensive Testing**: Automated tests in tests/ directory with 14 resource files
+- **SAT Solver Integration**: Choco (Java), PySAT and SAT4J (Python)
+- **Dual Implementation**: Java primary (~8,040 LOC), Python extended (~10,770 LOC total)
+- **Evaluation Framework**: Comprehensive benchmarking with TOML-driven configuration
+- **Testing**: 16 Java test files + 4 Python test files with 14 resource fixtures
 
 ## Quick Start
 
@@ -68,22 +68,23 @@ See `/docs` directory for detailed documentation:
 
 ```
 KBDiag/
-├── src/main/java/at/tugraz/ist/ase/kbdiag/     # Java implementation (~10.6K LOC)
+├── src/main/java/at/tugraz/ist/ase/kbdiag/     # Java implementation (~8,040 LOC, 44 files)
 │   ├── debugging/algorithms/                     # Core diagnosis algorithms
-│   ├── apps/real/                               # Evaluation framework
-│   └── common/                                   # Shared utilities
-├── apps/                                         # Evaluation & generation scripts
-│   ├── eval_runner.py                            # TOML-driven evaluation
-│   ├── testsuite_gen.py                         # Test suite generator
-│   └── conf/                                    # Configuration files
-│       ├── kbdiag_eval.toml                     # KBDiag evaluation config
-│       └── testsuite_gen.toml                   # Test suite generation config
-├── explanation/                                  # Python implementation (~6.8K LOC, 42 files)
-│   ├── models/                                  # Extended data models
-│   ├── operations/                              # Advanced algorithms + SAT4J support
-│   │   └── algorithms/                          # FastDiag, FastDiagP, WipeOutR, profiling
-│   └── transformations/                         # DIMACS, FM conversions
-├── tests/                                        # Comprehensive test suite (4 files + 14 resources)
+│   ├── apps/real/                               # Evaluation framework (15 evaluator classes)
+│   └── common/                                   # Shared utilities + configuration
+├── apps/                                         # Python evaluation & generation scripts
+│   ├── eval_runner.py                            # TOML-driven evaluation orchestrator
+│   ├── testsuite_gen.py                         # Test suite generator from FMs
+│   ├── testcases_classifier.py                  # TC classification (violated/non-violated)
+│   ├── testcases_selector.py                    # Diversity-optimized TC selection
+│   ├── results_table_gen.py                     # Markdown/LaTeX table generation
+│   └── conf/                                    # Configuration files (TOML)
+├── explanation/                                  # Python implementation (~5,944 LOC, 34 files)
+│   ├── models/                                  # Extended data models + builders
+│   ├── operations/                              # Diagnosis operations + SAT4J support
+│   │   └── algorithms/                          # FastDiag(P), WipeOutR(FM/T), profiler
+│   └── transformations/                         # DIMACS, FM, testsuite readers
+├── tests/                                        # Python test suite (4 files + 14 resources)
 │   ├── test_diagnosis.py
 │   ├── test_profiler.py
 │   ├── test_utils.py
@@ -121,9 +122,10 @@ KBDiag/
 
 ## Datasets
 
-- **ijcai24_25** (primary): 4 feature models (DELL, ubuntu, windows8, REAL-FM-11) in multiple formats (SPLOT, UVL, DIMACS, WCNF) with test cases at 7 sizes (5, 10, 25, 50, 100, 250, 500)
-- **realworld**: Additional real-world feature models (legacy)
-- **synthesized**: 126 synthetically generated test scenarios (legacy)
+- **jiis** (current): 9 feature models in UVL format with diversity-optimized test scenarios (630 test case files across 7 cardinalities)
+- **ijcai24_25** (primary): 4 models (DELL, ubuntu, windows8, REAL-FM-11) in SPLOT, UVL, WCNF, DIMACS with 7 test case sizes
+- **realworld**: Additional real-world models (legacy)
+- **synthesized**: 126 synthetically generated scenarios (legacy)
 
 ## Research Context
 

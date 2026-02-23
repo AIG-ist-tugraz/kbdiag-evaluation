@@ -77,6 +77,6 @@ table4_test_size = 100
 [[kb]]
 name = "linux"
 display_name = "linux"
-num_constraints = 0
+num_constraints = 13972
 total_diagnoses = 0
 table4_test_size = 100
