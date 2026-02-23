@@ -15,6 +15,7 @@ Usage:
 
 import fnmatch
 import multiprocessing
+import re
 import sys
 import time
 from dataclasses import dataclass, field
@@ -172,6 +173,16 @@ def resolve_path(relative: str) -> Path:
     if not resolved.exists():
         raise FileNotFoundError(f"Path not found: {resolved}")
     return resolved
+
+
+def parse_tc_size(tc_file: str) -> Optional[int]:
+    """Extract the test case count from a filename like 'REAL-FM-4_c25_9.testcases'.
+
+    Returns:
+        The integer after '_c', or None if pattern not found.
+    """
+    match = re.search(r'_c(\d+)_', tc_file)
+    return int(match.group(1)) if match else None
 
 
 def resolve_task(tc_file: str, default_task: str, overrides: Dict[str, str]) -> str:
@@ -542,51 +553,63 @@ def run_evaluation(config: Dict[str, Any]) -> None:
 
         # Track which output files are used for per-KB summaries
         used_out_paths: Dict[str, Any] = {}  # task_label → path
+        # Timeout propagation: effective_task → smallest c-size that timed out
+        timeout_thresholds: Dict[str, int] = {}
 
         for tc_file in kb_cfg["testcases"]:
             effective_task = resolve_task(tc_file, task, task_overrides)
             effective_timeout = timeout_all if (effective_task == "all" and timeout_all is not None) else timeout
             tc_path = resolve_path(f"{scenarios_dir}/{tc_file}")
 
-            # Run scenario (with or without timeout)
-            worker_args = (
-                str(kb_path), algorithm, str(tc_path),
-                effective_task, solver_name, m, num_iterations,
-                profiler_preset.name, profiler_enabled, use_incremental,
-            )
-            if effective_timeout > 0:
-                queue: multiprocessing.Queue = multiprocessing.Queue()
-                proc = multiprocessing.Process(
-                    target=_worker_wrapper, args=(queue, *worker_args),
-                )
-                proc.start()
-                print(f"\t[{kb_name}] {tc_file} (task={effective_task})...", end="", flush=True)
-                # Read from queue BEFORE join to avoid pipe-buffer deadlock
-                try:
-                    worker_result = queue.get(timeout=effective_timeout)
-                except Exception:
-                    worker_result = None
-                # Timeout on join so kill logic is reachable
-                proc.join(timeout=10)
-                if proc.is_alive():
-                    proc.kill()
-                    proc.join()
-                if worker_result is None:
-                    scenario_result = ScenarioResult(timed_out=True)
-                    print(f" TIMEOUT ({effective_timeout}s)")
-                elif isinstance(worker_result, Exception):
-                    print(" ERROR")
-                    raise worker_result
-                else:
-                    scenario_result = worker_result
-                    print(" done")
+            # Skip if a smaller test case with the same task already timed out
+            tc_size = parse_tc_size(tc_file)
+            threshold = timeout_thresholds.get(effective_task)
+            if tc_size is not None and threshold is not None and tc_size >= threshold:
+                scenario_result = ScenarioResult(timed_out=True)
+                print(f"\t[{kb_name}] {tc_file} (task={effective_task})... SKIPPED (propagated timeout from c{threshold})")
             else:
-                # No timeout — run inline (zero overhead)
-                scenario_result = run_single_scenario(*worker_args)
+                # Run scenario (with or without timeout)
+                worker_args = (
+                    str(kb_path), algorithm, str(tc_path),
+                    effective_task, solver_name, m, num_iterations,
+                    profiler_preset.name, profiler_enabled, use_incremental,
+                )
+                if effective_timeout > 0:
+                    queue: multiprocessing.Queue = multiprocessing.Queue()
+                    proc = multiprocessing.Process(
+                        target=_worker_wrapper, args=(queue, *worker_args),
+                    )
+                    proc.start()
+                    print(f"\t[{kb_name}] {tc_file} (task={effective_task})...", end="", flush=True)
+                    # Read from queue BEFORE join to avoid pipe-buffer deadlock
+                    try:
+                        worker_result = queue.get(timeout=effective_timeout)
+                    except Exception:
+                        worker_result = None
+                    # Timeout on join so kill logic is reachable
+                    proc.join(timeout=10)
+                    if proc.is_alive():
+                        proc.kill()
+                        proc.join()
+                    if worker_result is None:
+                        scenario_result = ScenarioResult(timed_out=True)
+                        print(f" TIMEOUT ({effective_timeout}s)")
+                    elif isinstance(worker_result, Exception):
+                        print(" ERROR")
+                        raise worker_result
+                    else:
+                        scenario_result = worker_result
+                        print(" done")
+                else:
+                    # No timeout — run inline (zero overhead)
+                    scenario_result = run_single_scenario(*worker_args)
 
             tc_key = f"{kb_name}/{tc_file}"
 
             if scenario_result.timed_out:
+                # Record threshold for timeout propagation
+                if tc_size is not None and effective_task not in timeout_thresholds:
+                    timeout_thresholds[effective_task] = tc_size
                 # Write TO marker to output files
                 if effective_task == "all":
                     for out_task in ("1", "all"):

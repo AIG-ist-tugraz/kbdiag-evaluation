@@ -1,0 +1,221 @@
+CNNl CNNl_c5_0.testcases
+	Diagnosis: [(mandatory) Architecture[1,1]Input ]
+	|D|: 1
+	CC: 22
+	KBDiag runtime: 0.013899 s
+	--- Profiler ---
+	KBDiag calls: 1
+	mssDirect calls: 21
+	Consistency checks (TC): 22
+	Solver calls: 30
+CNNl CNNl_c5_0.testcases
+	Diagnosis: [(mandatory) Architecture[1,1]Input ]
+	|D|: 1
+	CC: 22
+	KBDiag runtime: 0.013994 s
+	--- Profiler ---
+	KBDiag calls: 1
+	mssDirect calls: 21
+	Consistency checks (TC): 22
+	Solver calls: 30
+CNNl CNNl_c5_0.testcases
+	Diagnosis: [(mandatory) Architecture[1,1]Input ]
+	|D|: 1
+	CC: 22
+	KBDiag runtime: 0.014244 s
+	--- Profiler ---
+	KBDiag calls: 1
+	mssDirect calls: 21
+	Consistency checks (TC): 22
+	Solver calls: 30
+CNNl CNNl_c10_0.testcases
+	Diagnosis: [(mandatory) Architecture[1,1]Input , (mandatory) Architecture[1,1]Output ]
+	|D|: 2
+	CC: 25
+	KBDiag runtime: 0.017424 s
+	--- Profiler ---
+	KBDiag calls: 1
+	mssDirect calls: 23
+	Consistency checks (TC): 25
+	Solver calls: 63
+CNNl CNNl_c10_0.testcases
+	Diagnosis: [(mandatory) Architecture[1,1]Input , (mandatory) Architecture[1,1]Output ]
+	|D|: 2
+	CC: 25
+	KBDiag runtime: 0.017450 s
+	--- Profiler ---
+	KBDiag calls: 1
+	mssDirect calls: 23
+	Consistency checks (TC): 25
+	Solver calls: 63
+CNNl CNNl_c10_0.testcases
+	Diagnosis: [(mandatory) Architecture[1,1]Input , (mandatory) Architecture[1,1]Output ]
+	|D|: 2
+	CC: 25
+	KBDiag runtime: 0.017461 s
+	--- Profiler ---
+	KBDiag calls: 1
+	mssDirect calls: 23
+	Consistency checks (TC): 25
+	Solver calls: 63
+CNNl CNNl_c25_0.testcases
+	Diagnosis: [(mandatory) Architecture[1,1]Input , (mandatory) Architecture[1,1]Output , (Constraint 8) OR[NOT[Block1_Element5][]][NOT[Block1_Element5_Cell_Output_Cell][]], (Constraint 13) OR[NOT[Block2_Element5][]][NOT[Block2_Element5_Cell_Output_Cell][]], (Constraint 72) OR[NOT[Architecture][]][NOT[Block5_Element3_Cell_Input1_Zeros][]]]
+	|D|: 5
+	CC: 593
+	KBDiag runtime: 0.027461 s
+	--- Profiler ---
+	KBDiag calls: 10
+	mssDirect calls: 718
+	Consistency checks (TC): 593
+	Solver calls: 1058
+CNNl CNNl_c25_0.testcases
+	Diagnosis: [(mandatory) Architecture[1,1]Input , (mandatory) Architecture[1,1]Output , (Constraint 8) OR[NOT[Block1_Element5][]][NOT[Block1_Element5_Cell_Output_Cell][]], (Constraint 13) OR[NOT[Block2_Element5][]][NOT[Block2_Element5_Cell_Output_Cell][]], (Constraint 72) OR[NOT[Architecture][]][NOT[Block5_Element3_Cell_Input1_Zeros][]]]
+	|D|: 5
+	CC: 593
+	KBDiag runtime: 0.027692 s
+	--- Profiler ---
+	KBDiag calls: 10
+	mssDirect calls: 718
+	Consistency checks (TC): 593
+	Solver calls: 1058
+CNNl CNNl_c25_0.testcases
+	Diagnosis: [(mandatory) Architecture[1,1]Input , (mandatory) Architecture[1,1]Output , (Constraint 8) OR[NOT[Block1_Element5][]][NOT[Block1_Element5_Cell_Output_Cell][]], (Constraint 13) OR[NOT[Block2_Element5][]][NOT[Block2_Element5_Cell_Output_Cell][]], (Constraint 72) OR[NOT[Architecture][]][NOT[Block5_Element3_Cell_Input1_Zeros][]]]
+	|D|: 5
+	CC: 593
+	KBDiag runtime: 0.027469 s
+	--- Profiler ---
+	KBDiag calls: 10
+	mssDirect calls: 718
+	Consistency checks (TC): 593
+	Solver calls: 1058
+CNNl CNNl_c50_0.testcases
+	Diagnosis: [(mandatory) Architecture[1,1]Input , (mandatory) Architecture[1,1]Output , (Constraint 8) OR[NOT[Block1_Element5][]][NOT[Block1_Element5_Cell_Output_Cell][]], (Constraint 13) OR[NOT[Block2_Element5][]][NOT[Block2_Element5_Cell_Output_Cell][]], (Constraint 18) OR[NOT[Block3_Element5][]][NOT[Block3_Element5_Cell_Output_Cell][]], (Constraint 23) OR[NOT[Block4_Element5][]][NOT[Block4_Element5_Cell_Output_Cell][]], (Constraint 28) OR[NOT[Block5_Element5][]][NOT[Block5_Element5_Cell_Output_Cell][]], (Constraint 54) OR[NOT[Architecture][]][NOT[Block1_Element5_Cell_Input1_Zeros][]], (Constraint 72) OR[NOT[Architecture][]][NOT[Block5_Element3_Cell_Input1_Zeros][]]]
+	|D|: 9
+	CC: 820
+	KBDiag runtime: 0.045964 s
+	--- Profiler ---
+	KBDiag calls: 10
+	mssDirect calls: 1006
+	Consistency checks (TC): 820
+	Solver calls: 2026
+CNNl CNNl_c50_0.testcases
+	Diagnosis: [(mandatory) Architecture[1,1]Input , (mandatory) Architecture[1,1]Output , (Constraint 8) OR[NOT[Block1_Element5][]][NOT[Block1_Element5_Cell_Output_Cell][]], (Constraint 13) OR[NOT[Block2_Element5][]][NOT[Block2_Element5_Cell_Output_Cell][]], (Constraint 18) OR[NOT[Block3_Element5][]][NOT[Block3_Element5_Cell_Output_Cell][]], (Constraint 23) OR[NOT[Block4_Element5][]][NOT[Block4_Element5_Cell_Output_Cell][]], (Constraint 28) OR[NOT[Block5_Element5][]][NOT[Block5_Element5_Cell_Output_Cell][]], (Constraint 54) OR[NOT[Architecture][]][NOT[Block1_Element5_Cell_Input1_Zeros][]], (Constraint 72) OR[NOT[Architecture][]][NOT[Block5_Element3_Cell_Input1_Zeros][]]]
+	|D|: 9
+	CC: 820
+	KBDiag runtime: 0.044600 s
+	--- Profiler ---
+	KBDiag calls: 10
+	mssDirect calls: 1006
+	Consistency checks (TC): 820
+	Solver calls: 2026
+CNNl CNNl_c50_0.testcases
+	Diagnosis: [(mandatory) Architecture[1,1]Input , (mandatory) Architecture[1,1]Output , (Constraint 8) OR[NOT[Block1_Element5][]][NOT[Block1_Element5_Cell_Output_Cell][]], (Constraint 13) OR[NOT[Block2_Element5][]][NOT[Block2_Element5_Cell_Output_Cell][]], (Constraint 18) OR[NOT[Block3_Element5][]][NOT[Block3_Element5_Cell_Output_Cell][]], (Constraint 23) OR[NOT[Block4_Element5][]][NOT[Block4_Element5_Cell_Output_Cell][]], (Constraint 28) OR[NOT[Block5_Element5][]][NOT[Block5_Element5_Cell_Output_Cell][]], (Constraint 54) OR[NOT[Architecture][]][NOT[Block1_Element5_Cell_Input1_Zeros][]], (Constraint 72) OR[NOT[Architecture][]][NOT[Block5_Element3_Cell_Input1_Zeros][]]]
+	|D|: 9
+	CC: 820
+	KBDiag runtime: 0.047386 s
+	--- Profiler ---
+	KBDiag calls: 10
+	mssDirect calls: 1006
+	Consistency checks (TC): 820
+	Solver calls: 2026
+CNNl CNNl_c100_0.testcases
+	Diagnosis: [(mandatory) Root[1,1]Base , (mandatory) Base[1,1]Training , (mandatory) Architecture[1,1]Input , (mandatory) Architecture[1,1]Output , (Constraint 8) OR[NOT[Block1_Element5][]][NOT[Block1_Element5_Cell_Output_Cell][]], (Constraint 13) OR[NOT[Block2_Element5][]][NOT[Block2_Element5_Cell_Output_Cell][]], (Constraint 18) OR[NOT[Block3_Element5][]][NOT[Block3_Element5_Cell_Output_Cell][]], (Constraint 23) OR[NOT[Block4_Element5][]][NOT[Block4_Element5_Cell_Output_Cell][]], (Constraint 28) OR[NOT[Block5_Element5][]][NOT[Block5_Element5_Cell_Output_Cell][]], (Constraint 49) OR[NOT[Architecture][]][NOT[Block1_Element1_Cell_Input1_Pooling][]], (Constraint 52) OR[NOT[Architecture][]][NOT[Block1_Element3_Cell_Input1_Zeros][]], (Constraint 54) OR[NOT[Architecture][]][NOT[Block1_Element5_Cell_Input1_Zeros][]], (Constraint 65) OR[NOT[Architecture][]][NOT[Block4_Element1_Cell_Input1_Zeros][]], (Constraint 72) OR[NOT[Architecture][]][NOT[Block5_Element3_Cell_Input1_Zeros][]]]
+	|D|: 14
+	CC: 981
+	KBDiag runtime: 0.081455 s
+	--- Profiler ---
+	KBDiag calls: 10
+	mssDirect calls: 1206
+	Consistency checks (TC): 981
+	Solver calls: 4179
+CNNl CNNl_c100_0.testcases
+	Diagnosis: [(mandatory) Root[1,1]Base , (mandatory) Base[1,1]Training , (mandatory) Architecture[1,1]Input , (mandatory) Architecture[1,1]Output , (Constraint 8) OR[NOT[Block1_Element5][]][NOT[Block1_Element5_Cell_Output_Cell][]], (Constraint 13) OR[NOT[Block2_Element5][]][NOT[Block2_Element5_Cell_Output_Cell][]], (Constraint 18) OR[NOT[Block3_Element5][]][NOT[Block3_Element5_Cell_Output_Cell][]], (Constraint 23) OR[NOT[Block4_Element5][]][NOT[Block4_Element5_Cell_Output_Cell][]], (Constraint 28) OR[NOT[Block5_Element5][]][NOT[Block5_Element5_Cell_Output_Cell][]], (Constraint 49) OR[NOT[Architecture][]][NOT[Block1_Element1_Cell_Input1_Pooling][]], (Constraint 52) OR[NOT[Architecture][]][NOT[Block1_Element3_Cell_Input1_Zeros][]], (Constraint 54) OR[NOT[Architecture][]][NOT[Block1_Element5_Cell_Input1_Zeros][]], (Constraint 65) OR[NOT[Architecture][]][NOT[Block4_Element1_Cell_Input1_Zeros][]], (Constraint 72) OR[NOT[Architecture][]][NOT[Block5_Element3_Cell_Input1_Zeros][]]]
+	|D|: 14
+	CC: 981
+	KBDiag runtime: 0.081399 s
+	--- Profiler ---
+	KBDiag calls: 10
+	mssDirect calls: 1206
+	Consistency checks (TC): 981
+	Solver calls: 4179
+CNNl CNNl_c100_0.testcases
+	Diagnosis: [(mandatory) Root[1,1]Base , (mandatory) Base[1,1]Training , (mandatory) Architecture[1,1]Input , (mandatory) Architecture[1,1]Output , (Constraint 8) OR[NOT[Block1_Element5][]][NOT[Block1_Element5_Cell_Output_Cell][]], (Constraint 13) OR[NOT[Block2_Element5][]][NOT[Block2_Element5_Cell_Output_Cell][]], (Constraint 18) OR[NOT[Block3_Element5][]][NOT[Block3_Element5_Cell_Output_Cell][]], (Constraint 23) OR[NOT[Block4_Element5][]][NOT[Block4_Element5_Cell_Output_Cell][]], (Constraint 28) OR[NOT[Block5_Element5][]][NOT[Block5_Element5_Cell_Output_Cell][]], (Constraint 49) OR[NOT[Architecture][]][NOT[Block1_Element1_Cell_Input1_Pooling][]], (Constraint 52) OR[NOT[Architecture][]][NOT[Block1_Element3_Cell_Input1_Zeros][]], (Constraint 54) OR[NOT[Architecture][]][NOT[Block1_Element5_Cell_Input1_Zeros][]], (Constraint 65) OR[NOT[Architecture][]][NOT[Block4_Element1_Cell_Input1_Zeros][]], (Constraint 72) OR[NOT[Architecture][]][NOT[Block5_Element3_Cell_Input1_Zeros][]]]
+	|D|: 14
+	CC: 981
+	KBDiag runtime: 0.080698 s
+	--- Profiler ---
+	KBDiag calls: 10
+	mssDirect calls: 1206
+	Consistency checks (TC): 981
+	Solver calls: 4179
+CNNl CNNl_c250_0.testcases
+	Diagnosis: [(mandatory) Root[1,1]Base , (mandatory) Base[1,1]Training , (mandatory) Architecture[1,1]Input , (mandatory) Architecture[1,1]Output , (Constraint 8) OR[NOT[Block1_Element5][]][NOT[Block1_Element5_Cell_Output_Cell][]], (Constraint 13) OR[NOT[Block2_Element5][]][NOT[Block2_Element5_Cell_Output_Cell][]], (Constraint 18) OR[NOT[Block3_Element5][]][NOT[Block3_Element5_Cell_Output_Cell][]], (Constraint 23) OR[NOT[Block4_Element5][]][NOT[Block4_Element5_Cell_Output_Cell][]], (Constraint 28) OR[NOT[Block5_Element5][]][NOT[Block5_Element5_Cell_Output_Cell][]], (Constraint 49) OR[NOT[Architecture][]][NOT[Block1_Element1_Cell_Input1_Pooling][]], (Constraint 50) OR[NOT[Architecture][]][NOT[Block1_Element1_Cell_Input1_Zeros][]], (Constraint 51) OR[NOT[Architecture][]][NOT[Block1_Element2_Cell_Input1_Zeros][]], (Constraint 52) OR[NOT[Architecture][]][NOT[Block1_Element3_Cell_Input1_Zeros][]], (Constraint 53) OR[NOT[Architecture][]][NOT[Block1_Element4_Cell_Input1_Zeros][]], (Constraint 54) OR[NOT[Architecture][]][NOT[Block1_Element5_Cell_Input1_Zeros][]], (Constraint 55) OR[NOT[Architecture][]][NOT[Block2_Element1_Cell_Input1_Zeros][]], (Constraint 56) OR[NOT[Architecture][]][NOT[Block2_Element2_Cell_Input1_Zeros][]], (Constraint 57) OR[NOT[Architecture][]][NOT[Block2_Element3_Cell_Input1_Zeros][]], (Constraint 58) OR[NOT[Architecture][]][NOT[Block2_Element4_Cell_Input1_Zeros][]], (Constraint 59) OR[NOT[Architecture][]][NOT[Block2_Element5_Cell_Input1_Zeros][]], (Constraint 60) OR[NOT[Architecture][]][NOT[Block3_Element1_Cell_Input1_Zeros][]], (Constraint 61) OR[NOT[Architecture][]][NOT[Block3_Element2_Cell_Input1_Zeros][]], (Constraint 62) OR[NOT[Architecture][]][NOT[Block3_Element3_Cell_Input1_Zeros][]], (Constraint 63) OR[NOT[Architecture][]][NOT[Block3_Element4_Cell_Input1_Zeros][]], (Constraint 64) OR[NOT[Architecture][]][NOT[Block3_Element5_Cell_Input1_Zeros][]], (Constraint 65) OR[NOT[Architecture][]][NOT[Block4_Element1_Cell_Input1_Zeros][]], (Constraint 66) OR[NOT[Architecture][]][NOT[Block4_Element2_Cell_Input1_Zeros][]], (Constraint 67) OR[NOT[Architecture][]][NOT[Block4_Element3_Cell_Input1_Zeros][]], (Constraint 68) OR[NOT[Architecture][]][NOT[Block4_Element4_Cell_Input1_Zeros][]], (Constraint 69) OR[NOT[Architecture][]][NOT[Block4_Element5_Cell_Input1_Zeros][]], (Constraint 70) OR[NOT[Architecture][]][NOT[Block5_Element1_Cell_Input1_Zeros][]], (Constraint 71) OR[NOT[Architecture][]][NOT[Block5_Element2_Cell_Input1_Zeros][]], (Constraint 72) OR[NOT[Architecture][]][NOT[Block5_Element3_Cell_Input1_Zeros][]]]
+	|D|: 33
+	CC: 1276
+	KBDiag runtime: 0.212686 s
+	--- Profiler ---
+	KBDiag calls: 10
+	mssDirect calls: 1426
+	Consistency checks (TC): 1276
+	Solver calls: 11387
+CNNl CNNl_c250_0.testcases
+	Diagnosis: [(mandatory) Root[1,1]Base , (mandatory) Base[1,1]Training , (mandatory) Architecture[1,1]Input , (mandatory) Architecture[1,1]Output , (Constraint 8) OR[NOT[Block1_Element5][]][NOT[Block1_Element5_Cell_Output_Cell][]], (Constraint 13) OR[NOT[Block2_Element5][]][NOT[Block2_Element5_Cell_Output_Cell][]], (Constraint 18) OR[NOT[Block3_Element5][]][NOT[Block3_Element5_Cell_Output_Cell][]], (Constraint 23) OR[NOT[Block4_Element5][]][NOT[Block4_Element5_Cell_Output_Cell][]], (Constraint 28) OR[NOT[Block5_Element5][]][NOT[Block5_Element5_Cell_Output_Cell][]], (Constraint 49) OR[NOT[Architecture][]][NOT[Block1_Element1_Cell_Input1_Pooling][]], (Constraint 50) OR[NOT[Architecture][]][NOT[Block1_Element1_Cell_Input1_Zeros][]], (Constraint 51) OR[NOT[Architecture][]][NOT[Block1_Element2_Cell_Input1_Zeros][]], (Constraint 52) OR[NOT[Architecture][]][NOT[Block1_Element3_Cell_Input1_Zeros][]], (Constraint 53) OR[NOT[Architecture][]][NOT[Block1_Element4_Cell_Input1_Zeros][]], (Constraint 54) OR[NOT[Architecture][]][NOT[Block1_Element5_Cell_Input1_Zeros][]], (Constraint 55) OR[NOT[Architecture][]][NOT[Block2_Element1_Cell_Input1_Zeros][]], (Constraint 56) OR[NOT[Architecture][]][NOT[Block2_Element2_Cell_Input1_Zeros][]], (Constraint 57) OR[NOT[Architecture][]][NOT[Block2_Element3_Cell_Input1_Zeros][]], (Constraint 58) OR[NOT[Architecture][]][NOT[Block2_Element4_Cell_Input1_Zeros][]], (Constraint 59) OR[NOT[Architecture][]][NOT[Block2_Element5_Cell_Input1_Zeros][]], (Constraint 60) OR[NOT[Architecture][]][NOT[Block3_Element1_Cell_Input1_Zeros][]], (Constraint 61) OR[NOT[Architecture][]][NOT[Block3_Element2_Cell_Input1_Zeros][]], (Constraint 62) OR[NOT[Architecture][]][NOT[Block3_Element3_Cell_Input1_Zeros][]], (Constraint 63) OR[NOT[Architecture][]][NOT[Block3_Element4_Cell_Input1_Zeros][]], (Constraint 64) OR[NOT[Architecture][]][NOT[Block3_Element5_Cell_Input1_Zeros][]], (Constraint 65) OR[NOT[Architecture][]][NOT[Block4_Element1_Cell_Input1_Zeros][]], (Constraint 66) OR[NOT[Architecture][]][NOT[Block4_Element2_Cell_Input1_Zeros][]], (Constraint 67) OR[NOT[Architecture][]][NOT[Block4_Element3_Cell_Input1_Zeros][]], (Constraint 68) OR[NOT[Architecture][]][NOT[Block4_Element4_Cell_Input1_Zeros][]], (Constraint 69) OR[NOT[Architecture][]][NOT[Block4_Element5_Cell_Input1_Zeros][]], (Constraint 70) OR[NOT[Architecture][]][NOT[Block5_Element1_Cell_Input1_Zeros][]], (Constraint 71) OR[NOT[Architecture][]][NOT[Block5_Element2_Cell_Input1_Zeros][]], (Constraint 72) OR[NOT[Architecture][]][NOT[Block5_Element3_Cell_Input1_Zeros][]]]
+	|D|: 33
+	CC: 1276
+	KBDiag runtime: 0.212542 s
+	--- Profiler ---
+	KBDiag calls: 10
+	mssDirect calls: 1426
+	Consistency checks (TC): 1276
+	Solver calls: 11387
+CNNl CNNl_c250_0.testcases
+	Diagnosis: [(mandatory) Root[1,1]Base , (mandatory) Base[1,1]Training , (mandatory) Architecture[1,1]Input , (mandatory) Architecture[1,1]Output , (Constraint 8) OR[NOT[Block1_Element5][]][NOT[Block1_Element5_Cell_Output_Cell][]], (Constraint 13) OR[NOT[Block2_Element5][]][NOT[Block2_Element5_Cell_Output_Cell][]], (Constraint 18) OR[NOT[Block3_Element5][]][NOT[Block3_Element5_Cell_Output_Cell][]], (Constraint 23) OR[NOT[Block4_Element5][]][NOT[Block4_Element5_Cell_Output_Cell][]], (Constraint 28) OR[NOT[Block5_Element5][]][NOT[Block5_Element5_Cell_Output_Cell][]], (Constraint 49) OR[NOT[Architecture][]][NOT[Block1_Element1_Cell_Input1_Pooling][]], (Constraint 50) OR[NOT[Architecture][]][NOT[Block1_Element1_Cell_Input1_Zeros][]], (Constraint 51) OR[NOT[Architecture][]][NOT[Block1_Element2_Cell_Input1_Zeros][]], (Constraint 52) OR[NOT[Architecture][]][NOT[Block1_Element3_Cell_Input1_Zeros][]], (Constraint 53) OR[NOT[Architecture][]][NOT[Block1_Element4_Cell_Input1_Zeros][]], (Constraint 54) OR[NOT[Architecture][]][NOT[Block1_Element5_Cell_Input1_Zeros][]], (Constraint 55) OR[NOT[Architecture][]][NOT[Block2_Element1_Cell_Input1_Zeros][]], (Constraint 56) OR[NOT[Architecture][]][NOT[Block2_Element2_Cell_Input1_Zeros][]], (Constraint 57) OR[NOT[Architecture][]][NOT[Block2_Element3_Cell_Input1_Zeros][]], (Constraint 58) OR[NOT[Architecture][]][NOT[Block2_Element4_Cell_Input1_Zeros][]], (Constraint 59) OR[NOT[Architecture][]][NOT[Block2_Element5_Cell_Input1_Zeros][]], (Constraint 60) OR[NOT[Architecture][]][NOT[Block3_Element1_Cell_Input1_Zeros][]], (Constraint 61) OR[NOT[Architecture][]][NOT[Block3_Element2_Cell_Input1_Zeros][]], (Constraint 62) OR[NOT[Architecture][]][NOT[Block3_Element3_Cell_Input1_Zeros][]], (Constraint 63) OR[NOT[Architecture][]][NOT[Block3_Element4_Cell_Input1_Zeros][]], (Constraint 64) OR[NOT[Architecture][]][NOT[Block3_Element5_Cell_Input1_Zeros][]], (Constraint 65) OR[NOT[Architecture][]][NOT[Block4_Element1_Cell_Input1_Zeros][]], (Constraint 66) OR[NOT[Architecture][]][NOT[Block4_Element2_Cell_Input1_Zeros][]], (Constraint 67) OR[NOT[Architecture][]][NOT[Block4_Element3_Cell_Input1_Zeros][]], (Constraint 68) OR[NOT[Architecture][]][NOT[Block4_Element4_Cell_Input1_Zeros][]], (Constraint 69) OR[NOT[Architecture][]][NOT[Block4_Element5_Cell_Input1_Zeros][]], (Constraint 70) OR[NOT[Architecture][]][NOT[Block5_Element1_Cell_Input1_Zeros][]], (Constraint 71) OR[NOT[Architecture][]][NOT[Block5_Element2_Cell_Input1_Zeros][]], (Constraint 72) OR[NOT[Architecture][]][NOT[Block5_Element3_Cell_Input1_Zeros][]]]
+	|D|: 33
+	CC: 1276
+	KBDiag runtime: 0.209969 s
+	--- Profiler ---
+	KBDiag calls: 10
+	mssDirect calls: 1426
+	Consistency checks (TC): 1276
+	Solver calls: 11387
+CNNl CNNl_c500_0.testcases
+	Diagnosis: [(mandatory) Root[1,1]Base , (mandatory) Base[1,1]Training , (mandatory) Training[1,1]Architecture , (mandatory) Architecture[1,1]Input , (mandatory) Architecture[1,1]Output , (optional) Architecture[0,1]Block1 , (alternative) Block2_Element2_Cell_Combination[1,1]Block2_Element2_Cell_Combination_Concat Block2_Element2_Cell_Combination_Sum , (Constraint 8) OR[NOT[Block1_Element5][]][NOT[Block1_Element5_Cell_Output_Cell][]], (Constraint 13) OR[NOT[Block2_Element5][]][NOT[Block2_Element5_Cell_Output_Cell][]], (Constraint 18) OR[NOT[Block3_Element5][]][NOT[Block3_Element5_Cell_Output_Cell][]], (Constraint 23) OR[NOT[Block4_Element5][]][NOT[Block4_Element5_Cell_Output_Cell][]], (Constraint 28) OR[NOT[Block5_Element5][]][NOT[Block5_Element5_Cell_Output_Cell][]], (Constraint 49) OR[NOT[Architecture][]][NOT[Block1_Element1_Cell_Input1_Pooling][]], (Constraint 50) OR[NOT[Architecture][]][NOT[Block1_Element1_Cell_Input1_Zeros][]], (Constraint 51) OR[NOT[Architecture][]][NOT[Block1_Element2_Cell_Input1_Zeros][]], (Constraint 52) OR[NOT[Architecture][]][NOT[Block1_Element3_Cell_Input1_Zeros][]], (Constraint 53) OR[NOT[Architecture][]][NOT[Block1_Element4_Cell_Input1_Zeros][]], (Constraint 54) OR[NOT[Architecture][]][NOT[Block1_Element5_Cell_Input1_Zeros][]], (Constraint 55) OR[NOT[Architecture][]][NOT[Block2_Element1_Cell_Input1_Zeros][]], (Constraint 56) OR[NOT[Architecture][]][NOT[Block2_Element2_Cell_Input1_Zeros][]], (Constraint 57) OR[NOT[Architecture][]][NOT[Block2_Element3_Cell_Input1_Zeros][]], (Constraint 58) OR[NOT[Architecture][]][NOT[Block2_Element4_Cell_Input1_Zeros][]], (Constraint 59) OR[NOT[Architecture][]][NOT[Block2_Element5_Cell_Input1_Zeros][]], (Constraint 60) OR[NOT[Architecture][]][NOT[Block3_Element1_Cell_Input1_Zeros][]], (Constraint 61) OR[NOT[Architecture][]][NOT[Block3_Element2_Cell_Input1_Zeros][]], (Constraint 62) OR[NOT[Architecture][]][NOT[Block3_Element3_Cell_Input1_Zeros][]], (Constraint 63) OR[NOT[Architecture][]][NOT[Block3_Element4_Cell_Input1_Zeros][]], (Constraint 64) OR[NOT[Architecture][]][NOT[Block3_Element5_Cell_Input1_Zeros][]], (Constraint 65) OR[NOT[Architecture][]][NOT[Block4_Element1_Cell_Input1_Zeros][]], (Constraint 66) OR[NOT[Architecture][]][NOT[Block4_Element2_Cell_Input1_Zeros][]], (Constraint 67) OR[NOT[Architecture][]][NOT[Block4_Element3_Cell_Input1_Zeros][]], (Constraint 68) OR[NOT[Architecture][]][NOT[Block4_Element4_Cell_Input1_Zeros][]], (Constraint 69) OR[NOT[Architecture][]][NOT[Block4_Element5_Cell_Input1_Zeros][]], (Constraint 70) OR[NOT[Architecture][]][NOT[Block5_Element1_Cell_Input1_Zeros][]], (Constraint 71) OR[NOT[Architecture][]][NOT[Block5_Element2_Cell_Input1_Zeros][]], (Constraint 72) OR[NOT[Architecture][]][NOT[Block5_Element3_Cell_Input1_Zeros][]]]
+	|D|: 36
+	CC: 1389
+	KBDiag runtime: 0.533700 s
+	--- Profiler ---
+	KBDiag calls: 10
+	mssDirect calls: 1558
+	Consistency checks (TC): 1389
+	Solver calls: 23877
+CNNl CNNl_c500_0.testcases
+	Diagnosis: [(mandatory) Root[1,1]Base , (mandatory) Base[1,1]Training , (mandatory) Training[1,1]Architecture , (mandatory) Architecture[1,1]Input , (mandatory) Architecture[1,1]Output , (optional) Architecture[0,1]Block1 , (alternative) Block2_Element2_Cell_Combination[1,1]Block2_Element2_Cell_Combination_Concat Block2_Element2_Cell_Combination_Sum , (Constraint 8) OR[NOT[Block1_Element5][]][NOT[Block1_Element5_Cell_Output_Cell][]], (Constraint 13) OR[NOT[Block2_Element5][]][NOT[Block2_Element5_Cell_Output_Cell][]], (Constraint 18) OR[NOT[Block3_Element5][]][NOT[Block3_Element5_Cell_Output_Cell][]], (Constraint 23) OR[NOT[Block4_Element5][]][NOT[Block4_Element5_Cell_Output_Cell][]], (Constraint 28) OR[NOT[Block5_Element5][]][NOT[Block5_Element5_Cell_Output_Cell][]], (Constraint 49) OR[NOT[Architecture][]][NOT[Block1_Element1_Cell_Input1_Pooling][]], (Constraint 50) OR[NOT[Architecture][]][NOT[Block1_Element1_Cell_Input1_Zeros][]], (Constraint 51) OR[NOT[Architecture][]][NOT[Block1_Element2_Cell_Input1_Zeros][]], (Constraint 52) OR[NOT[Architecture][]][NOT[Block1_Element3_Cell_Input1_Zeros][]], (Constraint 53) OR[NOT[Architecture][]][NOT[Block1_Element4_Cell_Input1_Zeros][]], (Constraint 54) OR[NOT[Architecture][]][NOT[Block1_Element5_Cell_Input1_Zeros][]], (Constraint 55) OR[NOT[Architecture][]][NOT[Block2_Element1_Cell_Input1_Zeros][]], (Constraint 56) OR[NOT[Architecture][]][NOT[Block2_Element2_Cell_Input1_Zeros][]], (Constraint 57) OR[NOT[Architecture][]][NOT[Block2_Element3_Cell_Input1_Zeros][]], (Constraint 58) OR[NOT[Architecture][]][NOT[Block2_Element4_Cell_Input1_Zeros][]], (Constraint 59) OR[NOT[Architecture][]][NOT[Block2_Element5_Cell_Input1_Zeros][]], (Constraint 60) OR[NOT[Architecture][]][NOT[Block3_Element1_Cell_Input1_Zeros][]], (Constraint 61) OR[NOT[Architecture][]][NOT[Block3_Element2_Cell_Input1_Zeros][]], (Constraint 62) OR[NOT[Architecture][]][NOT[Block3_Element3_Cell_Input1_Zeros][]], (Constraint 63) OR[NOT[Architecture][]][NOT[Block3_Element4_Cell_Input1_Zeros][]], (Constraint 64) OR[NOT[Architecture][]][NOT[Block3_Element5_Cell_Input1_Zeros][]], (Constraint 65) OR[NOT[Architecture][]][NOT[Block4_Element1_Cell_Input1_Zeros][]], (Constraint 66) OR[NOT[Architecture][]][NOT[Block4_Element2_Cell_Input1_Zeros][]], (Constraint 67) OR[NOT[Architecture][]][NOT[Block4_Element3_Cell_Input1_Zeros][]], (Constraint 68) OR[NOT[Architecture][]][NOT[Block4_Element4_Cell_Input1_Zeros][]], (Constraint 69) OR[NOT[Architecture][]][NOT[Block4_Element5_Cell_Input1_Zeros][]], (Constraint 70) OR[NOT[Architecture][]][NOT[Block5_Element1_Cell_Input1_Zeros][]], (Constraint 71) OR[NOT[Architecture][]][NOT[Block5_Element2_Cell_Input1_Zeros][]], (Constraint 72) OR[NOT[Architecture][]][NOT[Block5_Element3_Cell_Input1_Zeros][]]]
+	|D|: 36
+	CC: 1389
+	KBDiag runtime: 0.532981 s
+	--- Profiler ---
+	KBDiag calls: 10
+	mssDirect calls: 1558
+	Consistency checks (TC): 1389
+	Solver calls: 23877
+CNNl CNNl_c500_0.testcases
+	Diagnosis: [(mandatory) Root[1,1]Base , (mandatory) Base[1,1]Training , (mandatory) Training[1,1]Architecture , (mandatory) Architecture[1,1]Input , (mandatory) Architecture[1,1]Output , (optional) Architecture[0,1]Block1 , (alternative) Block2_Element2_Cell_Combination[1,1]Block2_Element2_Cell_Combination_Concat Block2_Element2_Cell_Combination_Sum , (Constraint 8) OR[NOT[Block1_Element5][]][NOT[Block1_Element5_Cell_Output_Cell][]], (Constraint 13) OR[NOT[Block2_Element5][]][NOT[Block2_Element5_Cell_Output_Cell][]], (Constraint 18) OR[NOT[Block3_Element5][]][NOT[Block3_Element5_Cell_Output_Cell][]], (Constraint 23) OR[NOT[Block4_Element5][]][NOT[Block4_Element5_Cell_Output_Cell][]], (Constraint 28) OR[NOT[Block5_Element5][]][NOT[Block5_Element5_Cell_Output_Cell][]], (Constraint 49) OR[NOT[Architecture][]][NOT[Block1_Element1_Cell_Input1_Pooling][]], (Constraint 50) OR[NOT[Architecture][]][NOT[Block1_Element1_Cell_Input1_Zeros][]], (Constraint 51) OR[NOT[Architecture][]][NOT[Block1_Element2_Cell_Input1_Zeros][]], (Constraint 52) OR[NOT[Architecture][]][NOT[Block1_Element3_Cell_Input1_Zeros][]], (Constraint 53) OR[NOT[Architecture][]][NOT[Block1_Element4_Cell_Input1_Zeros][]], (Constraint 54) OR[NOT[Architecture][]][NOT[Block1_Element5_Cell_Input1_Zeros][]], (Constraint 55) OR[NOT[Architecture][]][NOT[Block2_Element1_Cell_Input1_Zeros][]], (Constraint 56) OR[NOT[Architecture][]][NOT[Block2_Element2_Cell_Input1_Zeros][]], (Constraint 57) OR[NOT[Architecture][]][NOT[Block2_Element3_Cell_Input1_Zeros][]], (Constraint 58) OR[NOT[Architecture][]][NOT[Block2_Element4_Cell_Input1_Zeros][]], (Constraint 59) OR[NOT[Architecture][]][NOT[Block2_Element5_Cell_Input1_Zeros][]], (Constraint 60) OR[NOT[Architecture][]][NOT[Block3_Element1_Cell_Input1_Zeros][]], (Constraint 61) OR[NOT[Architecture][]][NOT[Block3_Element2_Cell_Input1_Zeros][]], (Constraint 62) OR[NOT[Architecture][]][NOT[Block3_Element3_Cell_Input1_Zeros][]], (Constraint 63) OR[NOT[Architecture][]][NOT[Block3_Element4_Cell_Input1_Zeros][]], (Constraint 64) OR[NOT[Architecture][]][NOT[Block3_Element5_Cell_Input1_Zeros][]], (Constraint 65) OR[NOT[Architecture][]][NOT[Block4_Element1_Cell_Input1_Zeros][]], (Constraint 66) OR[NOT[Architecture][]][NOT[Block4_Element2_Cell_Input1_Zeros][]], (Constraint 67) OR[NOT[Architecture][]][NOT[Block4_Element3_Cell_Input1_Zeros][]], (Constraint 68) OR[NOT[Architecture][]][NOT[Block4_Element4_Cell_Input1_Zeros][]], (Constraint 69) OR[NOT[Architecture][]][NOT[Block4_Element5_Cell_Input1_Zeros][]], (Constraint 70) OR[NOT[Architecture][]][NOT[Block5_Element1_Cell_Input1_Zeros][]], (Constraint 71) OR[NOT[Architecture][]][NOT[Block5_Element2_Cell_Input1_Zeros][]], (Constraint 72) OR[NOT[Architecture][]][NOT[Block5_Element3_Cell_Input1_Zeros][]]]
+	|D|: 36
+	CC: 1389
+	KBDiag runtime: 0.534008 s
+	--- Profiler ---
+	KBDiag calls: 10
+	mssDirect calls: 1558
+	Consistency checks (TC): 1389
+	Solver calls: 23877
+
+=== Evaluation Results: kbdiag (m=1, task=1) ===
+Testcase                  | Avg Time (s) |   |D| |  #Diag
+---------------------------------------------------------
+CNNl/CNNl_c5_0.testcases  |     0.014046 |     1 |      1
+CNNl/CNNl_c10_0.testcases |     0.017445 |     2 |      1
+CNNl/CNNl_c25_0.testcases |     0.027541 |     5 |     10
+CNNl/CNNl_c50_0.testcases |     0.045983 |     9 |     10
+CNNl/CNNl_c100_0.testcases |     0.081184 |    14 |     10
+CNNl/CNNl_c250_0.testcases |     0.211732 |    33 |     10
+CNNl/CNNl_c500_0.testcases |     0.533563 |    36 |     10

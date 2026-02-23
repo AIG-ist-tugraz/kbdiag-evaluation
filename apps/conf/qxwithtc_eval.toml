@@ -89,13 +89,13 @@ name = "ubuntu"
 model = "data/jiis/fms/ubuntu.uvl"
 scenarios_dir = "data/jiis/scenarios-diversity-optimized"
 testcases = [
-    "ubuntu_c5_1.testcases",
-    "ubuntu_c10_1.testcases",
-    "ubuntu_c25_1.testcases",
-    "ubuntu_c50_1.testcases",
-    "ubuntu_c100_1.testcases",
-    "ubuntu_c250_1.testcases",
-    "ubuntu_c500_1.testcases",
+    "ubuntu_c5_3.testcases",
+    "ubuntu_c10_3.testcases",
+    "ubuntu_c25_3.testcases",
+    "ubuntu_c50_3.testcases",
+    "ubuntu_c100_3.testcases",
+    "ubuntu_c250_3.testcases",
+    "ubuntu_c500_3.testcases",
 ]
 # Per-testcase task override (optional, fnmatch glob patterns)
 # First matching pattern wins. Unmatched files use [evaluation].task.
@@ -125,13 +125,49 @@ name = "linux"
 model = "data/jiis/fms/linux-2.6.33.3.uvl"
 scenarios_dir = "data/jiis/scenarios-diversity-optimized"
 testcases = [
-    "linux_c5_0.testcases",
-    "linux_c10_0.testcases",
-    "linux_c25_0.testcases",
-    "linux_c50_0.testcases",
-    "linux_c100_0.testcases",
-    "linux_c250_0.testcases",
-    "linux_c500_0.testcases",
+    "linux_c5_1.testcases",
+    "linux_c10_1.testcases",
+    "linux_c25_1.testcases",
+    "linux_c50_1.testcases",
+    "linux_c100_1.testcases",
+    "linux_c250_1.testcases",
+    "linux_c500_1.testcases",
+]
+## Per-testcase task override (optional, fnmatch glob patterns)
+## First matching pattern wins. Unmatched files use [evaluation].task.
+##[kb.task_overrides]
+##"*_c25_*" = "all"
+
+[[kb]]
+name = "EA"
+model = "data/jiis/fms/ea2468.uvl"
+scenarios_dir = "data/jiis/scenarios-diversity-optimized"
+testcases = [
+    "EA_c5_0.testcases",
+    "EA_c10_0.testcases",
+    "EA_c25_0.testcases",
+    "EA_c50_0.testcases",
+    "EA_c100_0.testcases",
+    "EA_c250_0.testcases",
+    "EA_c500_0.testcases",
+]
+# Per-testcase task override (optional, fnmatch glob patterns)
+# First matching pattern wins. Unmatched files use [evaluation].task.
+#[kb.task_overrides]
+#"*_c25_*" = "all"
+
+[[kb]]
+name = "CNNl"
+model = "data/jiis/fms/Ghamizi2019-light.uvl"
+scenarios_dir = "data/jiis/scenarios-diversity-optimized"
+testcases = [
+    "CNNl_c5_0.testcases",
+    "CNNl_c10_0.testcases",
+    "CNNl_c25_0.testcases",
+    "CNNl_c50_0.testcases",
+    "CNNl_c100_0.testcases",
+    "CNNl_c250_0.testcases",
+    "CNNl_c500_0.testcases",
 ]
 # Per-testcase task override (optional, fnmatch glob patterns)
 # First matching pattern wins. Unmatched files use [evaluation].task.

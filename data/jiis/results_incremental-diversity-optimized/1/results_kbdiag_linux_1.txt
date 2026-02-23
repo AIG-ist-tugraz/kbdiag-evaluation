@@ -219,3 +219,224 @@ linux/linux_c50_0.testcases |     1.039567 |    10 |     10
 linux/linux_c100_0.testcases |     1.301728 |    20 |     10
 linux/linux_c250_0.testcases |     2.074977 |    49 |     10
 linux/linux_c500_0.testcases |     3.518368 |    97 |     10
+linux linux_c5_1.testcases
+	Diagnosis: [(mandatory) root[1,1]NR_QUICK ]
+	|D|: 1
+	CC: 25
+	KBDiag runtime: 0.766268 s
+	--- Profiler ---
+	KBDiag calls: 1
+	mssDirect calls: 29
+	Consistency checks (TC): 25
+	Solver calls: 33
+linux linux_c5_1.testcases
+	Diagnosis: [(mandatory) root[1,1]NR_QUICK ]
+	|D|: 1
+	CC: 25
+	KBDiag runtime: 0.746882 s
+	--- Profiler ---
+	KBDiag calls: 1
+	mssDirect calls: 29
+	Consistency checks (TC): 25
+	Solver calls: 33
+linux linux_c5_1.testcases
+	Diagnosis: [(mandatory) root[1,1]NR_QUICK ]
+	|D|: 1
+	CC: 25
+	KBDiag runtime: 0.747220 s
+	--- Profiler ---
+	KBDiag calls: 1
+	mssDirect calls: 29
+	Consistency checks (TC): 25
+	Solver calls: 33
+linux linux_c10_1.testcases
+	Diagnosis: [(mandatory) root[1,1]NR_QUICK , (Constraint 6989) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[STRIP][]]]
+	|D|: 2
+	CC: 77
+	KBDiag runtime: 0.830217 s
+	--- Profiler ---
+	KBDiag calls: 2
+	mssDirect calls: 94
+	Consistency checks (TC): 77
+	Solver calls: 115
+linux linux_c10_1.testcases
+	Diagnosis: [(mandatory) root[1,1]NR_QUICK , (Constraint 6989) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[STRIP][]]]
+	|D|: 2
+	CC: 77
+	KBDiag runtime: 0.811930 s
+	--- Profiler ---
+	KBDiag calls: 2
+	mssDirect calls: 94
+	Consistency checks (TC): 77
+	Solver calls: 115
+linux linux_c10_1.testcases
+	Diagnosis: [(mandatory) root[1,1]NR_QUICK , (Constraint 6989) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[STRIP][]]]
+	|D|: 2
+	CC: 77
+	KBDiag runtime: 0.809729 s
+	--- Profiler ---
+	KBDiag calls: 2
+	mssDirect calls: 94
+	Consistency checks (TC): 77
+	Solver calls: 115
+linux linux_c25_1.testcases
+	Diagnosis: [(mandatory) root[1,1]NR_QUICK , (Constraint 74) NOT[ARCH_INLINE_SPIN_LOCK][], (Constraint 86) NOT[ARCH_INLINE_READ_LOCK_IRQSAVE][], (Constraint 6989) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[STRIP][]], (Constraint 6992) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[ARLAN][]]]
+	|D|: 5
+	CC: 296
+	KBDiag runtime: 0.906088 s
+	--- Profiler ---
+	KBDiag calls: 4
+	mssDirect calls: 374
+	Consistency checks (TC): 296
+	Solver calls: 554
+linux linux_c25_1.testcases
+	Diagnosis: [(mandatory) root[1,1]NR_QUICK , (Constraint 74) NOT[ARCH_INLINE_SPIN_LOCK][], (Constraint 86) NOT[ARCH_INLINE_READ_LOCK_IRQSAVE][], (Constraint 6989) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[STRIP][]], (Constraint 6992) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[ARLAN][]]]
+	|D|: 5
+	CC: 296
+	KBDiag runtime: 0.886608 s
+	--- Profiler ---
+	KBDiag calls: 4
+	mssDirect calls: 374
+	Consistency checks (TC): 296
+	Solver calls: 554
+linux linux_c25_1.testcases
+	Diagnosis: [(mandatory) root[1,1]NR_QUICK , (Constraint 74) NOT[ARCH_INLINE_SPIN_LOCK][], (Constraint 86) NOT[ARCH_INLINE_READ_LOCK_IRQSAVE][], (Constraint 6989) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[STRIP][]], (Constraint 6992) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[ARLAN][]]]
+	|D|: 5
+	CC: 296
+	KBDiag runtime: 0.887304 s
+	--- Profiler ---
+	KBDiag calls: 4
+	mssDirect calls: 374
+	Consistency checks (TC): 296
+	Solver calls: 554
+linux linux_c50_1.testcases
+	Diagnosis: [(mandatory) root[1,1]NR_QUICK , (mandatory) root[1,1]BASE_SMALL , (Constraint 74) NOT[ARCH_INLINE_SPIN_LOCK][], (Constraint 86) NOT[ARCH_INLINE_READ_LOCK_IRQSAVE][], (Constraint 2177) NOT[HAVE_PATA_PLATFORM][], (Constraint 6904) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[USB_SERIAL_QUATECH2][]], (Constraint 6907) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[USB_SERIAL_QUATECH_USB2][]], (Constraint 6922) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[HYPERV][]], (Constraint 6989) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[STRIP][]], (Constraint 6992) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[ARLAN][]]]
+	|D|: 10
+	CC: 1311
+	KBDiag runtime: 1.032581 s
+	--- Profiler ---
+	KBDiag calls: 10
+	mssDirect calls: 1722
+	Consistency checks (TC): 1311
+	Solver calls: 2515
+linux linux_c50_1.testcases
+	Diagnosis: [(mandatory) root[1,1]NR_QUICK , (mandatory) root[1,1]BASE_SMALL , (Constraint 74) NOT[ARCH_INLINE_SPIN_LOCK][], (Constraint 86) NOT[ARCH_INLINE_READ_LOCK_IRQSAVE][], (Constraint 2177) NOT[HAVE_PATA_PLATFORM][], (Constraint 6904) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[USB_SERIAL_QUATECH2][]], (Constraint 6907) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[USB_SERIAL_QUATECH_USB2][]], (Constraint 6922) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[HYPERV][]], (Constraint 6989) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[STRIP][]], (Constraint 6992) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[ARLAN][]]]
+	|D|: 10
+	CC: 1311
+	KBDiag runtime: 1.018862 s
+	--- Profiler ---
+	KBDiag calls: 10
+	mssDirect calls: 1722
+	Consistency checks (TC): 1311
+	Solver calls: 2515
+linux linux_c50_1.testcases
+	Diagnosis: [(mandatory) root[1,1]NR_QUICK , (mandatory) root[1,1]BASE_SMALL , (Constraint 74) NOT[ARCH_INLINE_SPIN_LOCK][], (Constraint 86) NOT[ARCH_INLINE_READ_LOCK_IRQSAVE][], (Constraint 2177) NOT[HAVE_PATA_PLATFORM][], (Constraint 6904) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[USB_SERIAL_QUATECH2][]], (Constraint 6907) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[USB_SERIAL_QUATECH_USB2][]], (Constraint 6922) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[HYPERV][]], (Constraint 6989) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[STRIP][]], (Constraint 6992) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[ARLAN][]]]
+	|D|: 10
+	CC: 1311
+	KBDiag runtime: 1.027660 s
+	--- Profiler ---
+	KBDiag calls: 10
+	mssDirect calls: 1722
+	Consistency checks (TC): 1311
+	Solver calls: 2515
+linux linux_c100_1.testcases
+	Diagnosis: [(mandatory) root[1,1]MGEODEGX1_alt , (mandatory) root[1,1]NR_QUICK , (mandatory) root[1,1]X86_INTERNODE_CACHE_SHIFT , (mandatory) root[1,1]BASE_SMALL , (mandatory) root[1,1]NODES_SHIFT , (Constraint 74) NOT[ARCH_INLINE_SPIN_LOCK][], (Constraint 78) NOT[ARCH_INLINE_SPIN_UNLOCK][], (Constraint 82) NOT[ARCH_INLINE_READ_TRYLOCK][], (Constraint 86) NOT[ARCH_INLINE_READ_LOCK_IRQSAVE][], (Constraint 1248) OR[OR[EXTRA_FIRMWARE][NOT[EXTRA_FIRMWARE_DIR][]]][EXTRA_FIRMWARE], (Constraint 2177) NOT[HAVE_PATA_PLATFORM][], (Constraint 3854) OR[BROKEN][NOT[SX][]], (Constraint 4610) OR[NOT[VIDEO_HELPER_CHIPS_AUTO][]][NOT[VIDEO_TLV320AIC23B][]], (Constraint 6904) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[USB_SERIAL_QUATECH2][]], (Constraint 6907) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[USB_SERIAL_QUATECH_USB2][]], (Constraint 6922) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[HYPERV][]], (Constraint 6974) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[RAMZSWAP][]], (Constraint 6989) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[STRIP][]], (Constraint 6992) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[ARLAN][]], (Constraint 6997) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[WAVELAN][]]]
+	|D|: 20
+	CC: 2438
+	KBDiag runtime: 1.292583 s
+	--- Profiler ---
+	KBDiag calls: 10
+	mssDirect calls: 3128
+	Consistency checks (TC): 2438
+	Solver calls: 5248
+linux linux_c100_1.testcases
+	Diagnosis: [(mandatory) root[1,1]MGEODEGX1_alt , (mandatory) root[1,1]NR_QUICK , (mandatory) root[1,1]X86_INTERNODE_CACHE_SHIFT , (mandatory) root[1,1]BASE_SMALL , (mandatory) root[1,1]NODES_SHIFT , (Constraint 74) NOT[ARCH_INLINE_SPIN_LOCK][], (Constraint 78) NOT[ARCH_INLINE_SPIN_UNLOCK][], (Constraint 82) NOT[ARCH_INLINE_READ_TRYLOCK][], (Constraint 86) NOT[ARCH_INLINE_READ_LOCK_IRQSAVE][], (Constraint 1248) OR[OR[EXTRA_FIRMWARE][NOT[EXTRA_FIRMWARE_DIR][]]][EXTRA_FIRMWARE], (Constraint 2177) NOT[HAVE_PATA_PLATFORM][], (Constraint 3854) OR[BROKEN][NOT[SX][]], (Constraint 4610) OR[NOT[VIDEO_HELPER_CHIPS_AUTO][]][NOT[VIDEO_TLV320AIC23B][]], (Constraint 6904) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[USB_SERIAL_QUATECH2][]], (Constraint 6907) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[USB_SERIAL_QUATECH_USB2][]], (Constraint 6922) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[HYPERV][]], (Constraint 6974) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[RAMZSWAP][]], (Constraint 6989) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[STRIP][]], (Constraint 6992) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[ARLAN][]], (Constraint 6997) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[WAVELAN][]]]
+	|D|: 20
+	CC: 2438
+	KBDiag runtime: 1.273960 s
+	--- Profiler ---
+	KBDiag calls: 10
+	mssDirect calls: 3128
+	Consistency checks (TC): 2438
+	Solver calls: 5248
+linux linux_c100_1.testcases
+	Diagnosis: [(mandatory) root[1,1]MGEODEGX1_alt , (mandatory) root[1,1]NR_QUICK , (mandatory) root[1,1]X86_INTERNODE_CACHE_SHIFT , (mandatory) root[1,1]BASE_SMALL , (mandatory) root[1,1]NODES_SHIFT , (Constraint 74) NOT[ARCH_INLINE_SPIN_LOCK][], (Constraint 78) NOT[ARCH_INLINE_SPIN_UNLOCK][], (Constraint 82) NOT[ARCH_INLINE_READ_TRYLOCK][], (Constraint 86) NOT[ARCH_INLINE_READ_LOCK_IRQSAVE][], (Constraint 1248) OR[OR[EXTRA_FIRMWARE][NOT[EXTRA_FIRMWARE_DIR][]]][EXTRA_FIRMWARE], (Constraint 2177) NOT[HAVE_PATA_PLATFORM][], (Constraint 3854) OR[BROKEN][NOT[SX][]], (Constraint 4610) OR[NOT[VIDEO_HELPER_CHIPS_AUTO][]][NOT[VIDEO_TLV320AIC23B][]], (Constraint 6904) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[USB_SERIAL_QUATECH2][]], (Constraint 6907) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[USB_SERIAL_QUATECH_USB2][]], (Constraint 6922) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[HYPERV][]], (Constraint 6974) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[RAMZSWAP][]], (Constraint 6989) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[STRIP][]], (Constraint 6992) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[ARLAN][]], (Constraint 6997) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[WAVELAN][]]]
+	|D|: 20
+	CC: 2438
+	KBDiag runtime: 1.281824 s
+	--- Profiler ---
+	KBDiag calls: 10
+	mssDirect calls: 3128
+	Consistency checks (TC): 2438
+	Solver calls: 5248
+linux linux_c250_1.testcases
+	Diagnosis: [(mandatory) root[1,1]MGEODEGX1_alt , (mandatory) root[1,1]NR_QUICK , (mandatory) root[1,1]KERNELVERSION , (mandatory) root[1,1]KERNEL_GZIP_alt , (mandatory) root[1,1]IO_DELAY_0X80_alt , (mandatory) root[1,1]X86_INTERNODE_CACHE_SHIFT , (mandatory) root[1,1]IO_DELAY_TYPE_UDELAY , (mandatory) root[1,1]HIGHMEM4G_alt , (mandatory) root[1,1]DUMMY_CONSOLE_COLUMNS , (mandatory) root[1,1]BASE_SMALL , (mandatory) root[1,1]NODES_SHIFT , (Constraint 73) NOT[ARCH_INLINE_SPIN_TRYLOCK_BH][], (Constraint 74) NOT[ARCH_INLINE_SPIN_LOCK][], (Constraint 76) NOT[ARCH_INLINE_SPIN_LOCK_IRQ][], (Constraint 78) NOT[ARCH_INLINE_SPIN_UNLOCK][], (Constraint 80) NOT[ARCH_INLINE_SPIN_UNLOCK_IRQ][], (Constraint 82) NOT[ARCH_INLINE_READ_TRYLOCK][], (Constraint 84) NOT[ARCH_INLINE_READ_LOCK_BH][], (Constraint 86) NOT[ARCH_INLINE_READ_LOCK_IRQSAVE][], (Constraint 89) NOT[ARCH_INLINE_READ_UNLOCK_IRQ][], (Constraint 91) NOT[ARCH_INLINE_WRITE_TRYLOCK][], (Constraint 96) NOT[ARCH_INLINE_WRITE_UNLOCK][], (Constraint 1248) OR[OR[EXTRA_FIRMWARE][NOT[EXTRA_FIRMWARE_DIR][]]][EXTRA_FIRMWARE], (Constraint 2177) NOT[HAVE_PATA_PLATFORM][], (Constraint 2310) OR[SBUS][NOT[SUNQE][]], (Constraint 2482) NOT[IBM_NEW_EMAC_NO_FLOW_CTRL][], (Constraint 3311) OR[BROKEN][NOT[PC300][]], (Constraint 3854) OR[BROKEN][NOT[SX][]], (Constraint 4132) NOT[ARCH_REQUIRE_GPIOLIB][], (Constraint 4539) NOT[MFD_WM8352_CONFIG_MODE_0][], (Constraint 4610) OR[NOT[VIDEO_HELPER_CHIPS_AUTO][]][NOT[VIDEO_TLV320AIC23B][]], (Constraint 4616) OR[NOT[VIDEO_HELPER_CHIPS_AUTO][]][NOT[VIDEO_ADV7180][]], (Constraint 5809) OR[HAVE_FB_ATMEL][NOT[FB_ATMEL][]], (Constraint 6089) NOT[SND_SOC_OF_SIMPLE][], (Constraint 6698) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[ECHO][]], (Constraint 6827) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[R8187SE][]], (Constraint 6837) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[RTL8192U][]], (Constraint 6882) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[B3DFG][]], (Constraint 6890) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[PLAN9AUTH][]], (Constraint 6904) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[USB_SERIAL_QUATECH2][]], (Constraint 6907) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[USB_SERIAL_QUATECH_USB2][]], (Constraint 6922) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[HYPERV][]], (Constraint 6974) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[RAMZSWAP][]], (Constraint 6989) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[STRIP][]], (Constraint 6992) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[ARLAN][]], (Constraint 6997) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[WAVELAN][]], (Constraint 7001) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[PCMCIA_WAVELAN][]], (Constraint 7586) NOT[REED_SOLOMON_ENC8][]]
+	|D|: 48
+	CC: 5044
+	KBDiag runtime: 2.076726 s
+	--- Profiler ---
+	KBDiag calls: 10
+	mssDirect calls: 6562
+	Consistency checks (TC): 5044
+	Solver calls: 14085
+linux linux_c250_1.testcases
+	Diagnosis: [(mandatory) root[1,1]MGEODEGX1_alt , (mandatory) root[1,1]NR_QUICK , (mandatory) root[1,1]KERNELVERSION , (mandatory) root[1,1]KERNEL_GZIP_alt , (mandatory) root[1,1]IO_DELAY_0X80_alt , (mandatory) root[1,1]X86_INTERNODE_CACHE_SHIFT , (mandatory) root[1,1]IO_DELAY_TYPE_UDELAY , (mandatory) root[1,1]HIGHMEM4G_alt , (mandatory) root[1,1]DUMMY_CONSOLE_COLUMNS , (mandatory) root[1,1]BASE_SMALL , (mandatory) root[1,1]NODES_SHIFT , (Constraint 73) NOT[ARCH_INLINE_SPIN_TRYLOCK_BH][], (Constraint 74) NOT[ARCH_INLINE_SPIN_LOCK][], (Constraint 76) NOT[ARCH_INLINE_SPIN_LOCK_IRQ][], (Constraint 78) NOT[ARCH_INLINE_SPIN_UNLOCK][], (Constraint 80) NOT[ARCH_INLINE_SPIN_UNLOCK_IRQ][], (Constraint 82) NOT[ARCH_INLINE_READ_TRYLOCK][], (Constraint 84) NOT[ARCH_INLINE_READ_LOCK_BH][], (Constraint 86) NOT[ARCH_INLINE_READ_LOCK_IRQSAVE][], (Constraint 89) NOT[ARCH_INLINE_READ_UNLOCK_IRQ][], (Constraint 91) NOT[ARCH_INLINE_WRITE_TRYLOCK][], (Constraint 96) NOT[ARCH_INLINE_WRITE_UNLOCK][], (Constraint 1248) OR[OR[EXTRA_FIRMWARE][NOT[EXTRA_FIRMWARE_DIR][]]][EXTRA_FIRMWARE], (Constraint 2177) NOT[HAVE_PATA_PLATFORM][], (Constraint 2310) OR[SBUS][NOT[SUNQE][]], (Constraint 2482) NOT[IBM_NEW_EMAC_NO_FLOW_CTRL][], (Constraint 3311) OR[BROKEN][NOT[PC300][]], (Constraint 3854) OR[BROKEN][NOT[SX][]], (Constraint 4132) NOT[ARCH_REQUIRE_GPIOLIB][], (Constraint 4539) NOT[MFD_WM8352_CONFIG_MODE_0][], (Constraint 4610) OR[NOT[VIDEO_HELPER_CHIPS_AUTO][]][NOT[VIDEO_TLV320AIC23B][]], (Constraint 4616) OR[NOT[VIDEO_HELPER_CHIPS_AUTO][]][NOT[VIDEO_ADV7180][]], (Constraint 5809) OR[HAVE_FB_ATMEL][NOT[FB_ATMEL][]], (Constraint 6089) NOT[SND_SOC_OF_SIMPLE][], (Constraint 6698) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[ECHO][]], (Constraint 6827) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[R8187SE][]], (Constraint 6837) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[RTL8192U][]], (Constraint 6882) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[B3DFG][]], (Constraint 6890) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[PLAN9AUTH][]], (Constraint 6904) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[USB_SERIAL_QUATECH2][]], (Constraint 6907) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[USB_SERIAL_QUATECH_USB2][]], (Constraint 6922) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[HYPERV][]], (Constraint 6974) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[RAMZSWAP][]], (Constraint 6989) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[STRIP][]], (Constraint 6992) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[ARLAN][]], (Constraint 6997) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[WAVELAN][]], (Constraint 7001) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[PCMCIA_WAVELAN][]], (Constraint 7586) NOT[REED_SOLOMON_ENC8][]]
+	|D|: 48
+	CC: 5044
+	KBDiag runtime: 2.052193 s
+	--- Profiler ---
+	KBDiag calls: 10
+	mssDirect calls: 6562
+	Consistency checks (TC): 5044
+	Solver calls: 14085
+linux linux_c250_1.testcases
+	Diagnosis: [(mandatory) root[1,1]MGEODEGX1_alt , (mandatory) root[1,1]NR_QUICK , (mandatory) root[1,1]KERNELVERSION , (mandatory) root[1,1]KERNEL_GZIP_alt , (mandatory) root[1,1]IO_DELAY_0X80_alt , (mandatory) root[1,1]X86_INTERNODE_CACHE_SHIFT , (mandatory) root[1,1]IO_DELAY_TYPE_UDELAY , (mandatory) root[1,1]HIGHMEM4G_alt , (mandatory) root[1,1]DUMMY_CONSOLE_COLUMNS , (mandatory) root[1,1]BASE_SMALL , (mandatory) root[1,1]NODES_SHIFT , (Constraint 73) NOT[ARCH_INLINE_SPIN_TRYLOCK_BH][], (Constraint 74) NOT[ARCH_INLINE_SPIN_LOCK][], (Constraint 76) NOT[ARCH_INLINE_SPIN_LOCK_IRQ][], (Constraint 78) NOT[ARCH_INLINE_SPIN_UNLOCK][], (Constraint 80) NOT[ARCH_INLINE_SPIN_UNLOCK_IRQ][], (Constraint 82) NOT[ARCH_INLINE_READ_TRYLOCK][], (Constraint 84) NOT[ARCH_INLINE_READ_LOCK_BH][], (Constraint 86) NOT[ARCH_INLINE_READ_LOCK_IRQSAVE][], (Constraint 89) NOT[ARCH_INLINE_READ_UNLOCK_IRQ][], (Constraint 91) NOT[ARCH_INLINE_WRITE_TRYLOCK][], (Constraint 96) NOT[ARCH_INLINE_WRITE_UNLOCK][], (Constraint 1248) OR[OR[EXTRA_FIRMWARE][NOT[EXTRA_FIRMWARE_DIR][]]][EXTRA_FIRMWARE], (Constraint 2177) NOT[HAVE_PATA_PLATFORM][], (Constraint 2310) OR[SBUS][NOT[SUNQE][]], (Constraint 2482) NOT[IBM_NEW_EMAC_NO_FLOW_CTRL][], (Constraint 3311) OR[BROKEN][NOT[PC300][]], (Constraint 3854) OR[BROKEN][NOT[SX][]], (Constraint 4132) NOT[ARCH_REQUIRE_GPIOLIB][], (Constraint 4539) NOT[MFD_WM8352_CONFIG_MODE_0][], (Constraint 4610) OR[NOT[VIDEO_HELPER_CHIPS_AUTO][]][NOT[VIDEO_TLV320AIC23B][]], (Constraint 4616) OR[NOT[VIDEO_HELPER_CHIPS_AUTO][]][NOT[VIDEO_ADV7180][]], (Constraint 5809) OR[HAVE_FB_ATMEL][NOT[FB_ATMEL][]], (Constraint 6089) NOT[SND_SOC_OF_SIMPLE][], (Constraint 6698) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[ECHO][]], (Constraint 6827) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[R8187SE][]], (Constraint 6837) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[RTL8192U][]], (Constraint 6882) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[B3DFG][]], (Constraint 6890) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[PLAN9AUTH][]], (Constraint 6904) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[USB_SERIAL_QUATECH2][]], (Constraint 6907) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[USB_SERIAL_QUATECH_USB2][]], (Constraint 6922) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[HYPERV][]], (Constraint 6974) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[RAMZSWAP][]], (Constraint 6989) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[STRIP][]], (Constraint 6992) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[ARLAN][]], (Constraint 6997) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[WAVELAN][]], (Constraint 7001) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[PCMCIA_WAVELAN][]], (Constraint 7586) NOT[REED_SOLOMON_ENC8][]]
+	|D|: 48
+	CC: 5044
+	KBDiag runtime: 2.056303 s
+	--- Profiler ---
+	KBDiag calls: 10
+	mssDirect calls: 6562
+	Consistency checks (TC): 5044
+	Solver calls: 14085
+linux linux_c500_1.testcases
+	Diagnosis: [(mandatory) root[1,1]MGEODEGX1_alt , (mandatory) root[1,1]SPLIT_PTLOCK_CPUS , (mandatory) root[1,1]NR_QUICK , (mandatory) root[1,1]PREEMPT_NONE_alt , (mandatory) root[1,1]DEFAULT_SECURITY_SMACK_alt , (mandatory) root[1,1]KERNELVERSION , (mandatory) root[1,1]KERNEL_GZIP_alt , (mandatory) root[1,1]IO_DELAY_0X80_alt , (mandatory) root[1,1]X86_INTERNODE_CACHE_SHIFT , (mandatory) root[1,1]LOG_BUF_SHIFT , (mandatory) root[1,1]IO_DELAY_TYPE_UDELAY , (mandatory) root[1,1]SERIAL_8250_NR_UARTS , (mandatory) root[1,1]DISCONTIGMEM_MANUAL_alt , (mandatory) root[1,1]INIT_ENV_ARG_LIMIT , (mandatory) root[1,1]DEFCONFIG_LIST , (mandatory) root[1,1]HIGHMEM4G_alt , (mandatory) root[1,1]DUMMY_CONSOLE_COLUMNS , (mandatory) root[1,1]BASE_SMALL , (mandatory) root[1,1]NODES_SHIFT , (mandatory) root[1,1]DEFAULT_SECURITY , (mandatory) root[1,1]SERIAL_8250_RUNTIME_UARTS , (mandatory) root[1,1]DEFAULT_MMAP_MIN_ADDR , (mandatory) root[1,1]IO_DELAY_TYPE_NONE , (mandatory) root[1,1]HZ , (mandatory) root[1,1]OUTPUT_FORMAT , (mandatory) root[1,1]LSM_MMAP_MIN_ADDR , (mandatory) root[1,1]ARCH_DEFCONFIG , (Constraint 57) NOT[HAVE_CLK][], (Constraint 58) NOT[HAVE_DEFAULT_NO_SPIN_MUTEXES][], (Constraint 73) NOT[ARCH_INLINE_SPIN_TRYLOCK_BH][], (Constraint 74) NOT[ARCH_INLINE_SPIN_LOCK][], (Constraint 76) NOT[ARCH_INLINE_SPIN_LOCK_IRQ][], (Constraint 78) NOT[ARCH_INLINE_SPIN_UNLOCK][], (Constraint 80) NOT[ARCH_INLINE_SPIN_UNLOCK_IRQ][], (Constraint 82) NOT[ARCH_INLINE_READ_TRYLOCK][], (Constraint 84) NOT[ARCH_INLINE_READ_LOCK_BH][], (Constraint 85) NOT[ARCH_INLINE_READ_LOCK_IRQ][], (Constraint 86) NOT[ARCH_INLINE_READ_LOCK_IRQSAVE][], (Constraint 89) NOT[ARCH_INLINE_READ_UNLOCK_IRQ][], (Constraint 91) NOT[ARCH_INLINE_WRITE_TRYLOCK][], (Constraint 94) NOT[ARCH_INLINE_WRITE_LOCK_IRQ][], (Constraint 96) NOT[ARCH_INLINE_WRITE_UNLOCK][], (Constraint 97) NOT[ARCH_INLINE_WRITE_UNLOCK_BH][], (Constraint 1248) OR[OR[EXTRA_FIRMWARE][NOT[EXTRA_FIRMWARE_DIR][]]][EXTRA_FIRMWARE], (Constraint 1393) OR[SBUS][NOT[PARPORT_SUNBPP][]], (Constraint 1974) NOT[ATA_NONSTANDARD][], (Constraint 2177) NOT[HAVE_PATA_PLATFORM][], (Constraint 2310) OR[SBUS][NOT[SUNQE][]], (Constraint 2481) NOT[IBM_NEW_EMAC_EMAC4][], (Constraint 2482) NOT[IBM_NEW_EMAC_NO_FLOW_CTRL][], (Constraint 2484) NOT[IBM_NEW_EMAC_MAL_COMMON_ERR][], (Constraint 3311) OR[BROKEN][NOT[PC300][]], (Constraint 3854) OR[BROKEN][NOT[SX][]], (Constraint 4132) NOT[ARCH_REQUIRE_GPIOLIB][], (Constraint 4537) NOT[MFD_WM8351_CONFIG_MODE_2][], (Constraint 4539) NOT[MFD_WM8352_CONFIG_MODE_0][], (Constraint 4541) NOT[MFD_WM8352_CONFIG_MODE_2][], (Constraint 4610) OR[NOT[VIDEO_HELPER_CHIPS_AUTO][]][NOT[VIDEO_TLV320AIC23B][]], (Constraint 4616) OR[NOT[VIDEO_HELPER_CHIPS_AUTO][]][NOT[VIDEO_ADV7180][]], (Constraint 5687) NOT[HAVE_FB_ATMEL][], (Constraint 5755) NOT[FB_CFB_REV_PIXELS_IN_BYTE][], (Constraint 6089) NOT[SND_SOC_OF_SIMPLE][], (Constraint 6090) NOT[SND_S3C_SOC_PCM][], (Constraint 6480) OR[BROKEN][NOT[EDAC_I82443BXGX][]], (Constraint 6623) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[SLICOSS][]], (Constraint 6664) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[VIDEO_CX25821][]], (Constraint 6698) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[ECHO][]], (Constraint 6704) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[OTUS][]], (Constraint 6824) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[ALTERA_PCIE_CHDMA][]], (Constraint 6827) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[R8187SE][]], (Constraint 6837) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[RTL8192U][]], (Constraint 6871) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[INPUT_GPIO][]], (Constraint 6873) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[POHMELFS][]], (Constraint 6882) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[B3DFG][]], (Constraint 6885) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[IDE_PHISON][]], (Constraint 6890) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[PLAN9AUTH][]], (Constraint 6897) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[DRM_VMWGFX][]], (Constraint 6901) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[DRM_NOUVEAU][]], (Constraint 6904) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[USB_SERIAL_QUATECH2][]], (Constraint 6907) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[USB_SERIAL_QUATECH_USB2][]], (Constraint 6910) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[VT6655][]], (Constraint 6922) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[HYPERV][]], (Constraint 6925) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[VME_BUS][]], (Constraint 6937) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[RAR_REGISTER][]], (Constraint 6974) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[RAMZSWAP][]], (Constraint 6977) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[BATMAN_ADV][]], (Constraint 6989) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[STRIP][]], (Constraint 6992) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[ARLAN][]], (Constraint 6997) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[WAVELAN][]], (Constraint 7001) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[PCMCIA_WAVELAN][]], (Constraint 7005) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[PCMCIA_NETWAVE][]], (Constraint 7554) NOT[ASYNC_MEMSET][], (Constraint 7586) NOT[REED_SOLOMON_ENC8][], (Constraint 7587) NOT[REED_SOLOMON_ENC16][]]
+	|D|: 94
+	CC: 7995
+	KBDiag runtime: 3.434202 s
+	--- Profiler ---
+	KBDiag calls: 10
+	mssDirect calls: 10240
+	Consistency checks (TC): 7995
+	Solver calls: 30145
+linux linux_c500_1.testcases
+	Diagnosis: [(mandatory) root[1,1]MGEODEGX1_alt , (mandatory) root[1,1]SPLIT_PTLOCK_CPUS , (mandatory) root[1,1]NR_QUICK , (mandatory) root[1,1]PREEMPT_NONE_alt , (mandatory) root[1,1]DEFAULT_SECURITY_SMACK_alt , (mandatory) root[1,1]KERNELVERSION , (mandatory) root[1,1]KERNEL_GZIP_alt , (mandatory) root[1,1]IO_DELAY_0X80_alt , (mandatory) root[1,1]X86_INTERNODE_CACHE_SHIFT , (mandatory) root[1,1]LOG_BUF_SHIFT , (mandatory) root[1,1]IO_DELAY_TYPE_UDELAY , (mandatory) root[1,1]SERIAL_8250_NR_UARTS , (mandatory) root[1,1]DISCONTIGMEM_MANUAL_alt , (mandatory) root[1,1]INIT_ENV_ARG_LIMIT , (mandatory) root[1,1]DEFCONFIG_LIST , (mandatory) root[1,1]HIGHMEM4G_alt , (mandatory) root[1,1]DUMMY_CONSOLE_COLUMNS , (mandatory) root[1,1]BASE_SMALL , (mandatory) root[1,1]NODES_SHIFT , (mandatory) root[1,1]DEFAULT_SECURITY , (mandatory) root[1,1]SERIAL_8250_RUNTIME_UARTS , (mandatory) root[1,1]DEFAULT_MMAP_MIN_ADDR , (mandatory) root[1,1]IO_DELAY_TYPE_NONE , (mandatory) root[1,1]HZ , (mandatory) root[1,1]OUTPUT_FORMAT , (mandatory) root[1,1]LSM_MMAP_MIN_ADDR , (mandatory) root[1,1]ARCH_DEFCONFIG , (Constraint 57) NOT[HAVE_CLK][], (Constraint 58) NOT[HAVE_DEFAULT_NO_SPIN_MUTEXES][], (Constraint 73) NOT[ARCH_INLINE_SPIN_TRYLOCK_BH][], (Constraint 74) NOT[ARCH_INLINE_SPIN_LOCK][], (Constraint 76) NOT[ARCH_INLINE_SPIN_LOCK_IRQ][], (Constraint 78) NOT[ARCH_INLINE_SPIN_UNLOCK][], (Constraint 80) NOT[ARCH_INLINE_SPIN_UNLOCK_IRQ][], (Constraint 82) NOT[ARCH_INLINE_READ_TRYLOCK][], (Constraint 84) NOT[ARCH_INLINE_READ_LOCK_BH][], (Constraint 85) NOT[ARCH_INLINE_READ_LOCK_IRQ][], (Constraint 86) NOT[ARCH_INLINE_READ_LOCK_IRQSAVE][], (Constraint 89) NOT[ARCH_INLINE_READ_UNLOCK_IRQ][], (Constraint 91) NOT[ARCH_INLINE_WRITE_TRYLOCK][], (Constraint 94) NOT[ARCH_INLINE_WRITE_LOCK_IRQ][], (Constraint 96) NOT[ARCH_INLINE_WRITE_UNLOCK][], (Constraint 97) NOT[ARCH_INLINE_WRITE_UNLOCK_BH][], (Constraint 1248) OR[OR[EXTRA_FIRMWARE][NOT[EXTRA_FIRMWARE_DIR][]]][EXTRA_FIRMWARE], (Constraint 1393) OR[SBUS][NOT[PARPORT_SUNBPP][]], (Constraint 1974) NOT[ATA_NONSTANDARD][], (Constraint 2177) NOT[HAVE_PATA_PLATFORM][], (Constraint 2310) OR[SBUS][NOT[SUNQE][]], (Constraint 2481) NOT[IBM_NEW_EMAC_EMAC4][], (Constraint 2482) NOT[IBM_NEW_EMAC_NO_FLOW_CTRL][], (Constraint 2484) NOT[IBM_NEW_EMAC_MAL_COMMON_ERR][], (Constraint 3311) OR[BROKEN][NOT[PC300][]], (Constraint 3854) OR[BROKEN][NOT[SX][]], (Constraint 4132) NOT[ARCH_REQUIRE_GPIOLIB][], (Constraint 4537) NOT[MFD_WM8351_CONFIG_MODE_2][], (Constraint 4539) NOT[MFD_WM8352_CONFIG_MODE_0][], (Constraint 4541) NOT[MFD_WM8352_CONFIG_MODE_2][], (Constraint 4610) OR[NOT[VIDEO_HELPER_CHIPS_AUTO][]][NOT[VIDEO_TLV320AIC23B][]], (Constraint 4616) OR[NOT[VIDEO_HELPER_CHIPS_AUTO][]][NOT[VIDEO_ADV7180][]], (Constraint 5687) NOT[HAVE_FB_ATMEL][], (Constraint 5755) NOT[FB_CFB_REV_PIXELS_IN_BYTE][], (Constraint 6089) NOT[SND_SOC_OF_SIMPLE][], (Constraint 6090) NOT[SND_S3C_SOC_PCM][], (Constraint 6480) OR[BROKEN][NOT[EDAC_I82443BXGX][]], (Constraint 6623) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[SLICOSS][]], (Constraint 6664) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[VIDEO_CX25821][]], (Constraint 6698) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[ECHO][]], (Constraint 6704) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[OTUS][]], (Constraint 6824) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[ALTERA_PCIE_CHDMA][]], (Constraint 6827) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[R8187SE][]], (Constraint 6837) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[RTL8192U][]], (Constraint 6871) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[INPUT_GPIO][]], (Constraint 6873) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[POHMELFS][]], (Constraint 6882) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[B3DFG][]], (Constraint 6885) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[IDE_PHISON][]], (Constraint 6890) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[PLAN9AUTH][]], (Constraint 6897) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[DRM_VMWGFX][]], (Constraint 6901) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[DRM_NOUVEAU][]], (Constraint 6904) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[USB_SERIAL_QUATECH2][]], (Constraint 6907) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[USB_SERIAL_QUATECH_USB2][]], (Constraint 6910) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[VT6655][]], (Constraint 6922) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[HYPERV][]], (Constraint 6925) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[VME_BUS][]], (Constraint 6937) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[RAR_REGISTER][]], (Constraint 6974) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[RAMZSWAP][]], (Constraint 6977) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[BATMAN_ADV][]], (Constraint 6989) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[STRIP][]], (Constraint 6992) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[ARLAN][]], (Constraint 6997) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[WAVELAN][]], (Constraint 7001) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[PCMCIA_WAVELAN][]], (Constraint 7005) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[PCMCIA_NETWAVE][]], (Constraint 7554) NOT[ASYNC_MEMSET][], (Constraint 7586) NOT[REED_SOLOMON_ENC8][], (Constraint 7587) NOT[REED_SOLOMON_ENC16][]]
+	|D|: 94
+	CC: 7995
+	KBDiag runtime: 3.424590 s
+	--- Profiler ---
+	KBDiag calls: 10
+	mssDirect calls: 10240
+	Consistency checks (TC): 7995
+	Solver calls: 30145
+linux linux_c500_1.testcases
+	Diagnosis: [(mandatory) root[1,1]MGEODEGX1_alt , (mandatory) root[1,1]SPLIT_PTLOCK_CPUS , (mandatory) root[1,1]NR_QUICK , (mandatory) root[1,1]PREEMPT_NONE_alt , (mandatory) root[1,1]DEFAULT_SECURITY_SMACK_alt , (mandatory) root[1,1]KERNELVERSION , (mandatory) root[1,1]KERNEL_GZIP_alt , (mandatory) root[1,1]IO_DELAY_0X80_alt , (mandatory) root[1,1]X86_INTERNODE_CACHE_SHIFT , (mandatory) root[1,1]LOG_BUF_SHIFT , (mandatory) root[1,1]IO_DELAY_TYPE_UDELAY , (mandatory) root[1,1]SERIAL_8250_NR_UARTS , (mandatory) root[1,1]DISCONTIGMEM_MANUAL_alt , (mandatory) root[1,1]INIT_ENV_ARG_LIMIT , (mandatory) root[1,1]DEFCONFIG_LIST , (mandatory) root[1,1]HIGHMEM4G_alt , (mandatory) root[1,1]DUMMY_CONSOLE_COLUMNS , (mandatory) root[1,1]BASE_SMALL , (mandatory) root[1,1]NODES_SHIFT , (mandatory) root[1,1]DEFAULT_SECURITY , (mandatory) root[1,1]SERIAL_8250_RUNTIME_UARTS , (mandatory) root[1,1]DEFAULT_MMAP_MIN_ADDR , (mandatory) root[1,1]IO_DELAY_TYPE_NONE , (mandatory) root[1,1]HZ , (mandatory) root[1,1]OUTPUT_FORMAT , (mandatory) root[1,1]LSM_MMAP_MIN_ADDR , (mandatory) root[1,1]ARCH_DEFCONFIG , (Constraint 57) NOT[HAVE_CLK][], (Constraint 58) NOT[HAVE_DEFAULT_NO_SPIN_MUTEXES][], (Constraint 73) NOT[ARCH_INLINE_SPIN_TRYLOCK_BH][], (Constraint 74) NOT[ARCH_INLINE_SPIN_LOCK][], (Constraint 76) NOT[ARCH_INLINE_SPIN_LOCK_IRQ][], (Constraint 78) NOT[ARCH_INLINE_SPIN_UNLOCK][], (Constraint 80) NOT[ARCH_INLINE_SPIN_UNLOCK_IRQ][], (Constraint 82) NOT[ARCH_INLINE_READ_TRYLOCK][], (Constraint 84) NOT[ARCH_INLINE_READ_LOCK_BH][], (Constraint 85) NOT[ARCH_INLINE_READ_LOCK_IRQ][], (Constraint 86) NOT[ARCH_INLINE_READ_LOCK_IRQSAVE][], (Constraint 89) NOT[ARCH_INLINE_READ_UNLOCK_IRQ][], (Constraint 91) NOT[ARCH_INLINE_WRITE_TRYLOCK][], (Constraint 94) NOT[ARCH_INLINE_WRITE_LOCK_IRQ][], (Constraint 96) NOT[ARCH_INLINE_WRITE_UNLOCK][], (Constraint 97) NOT[ARCH_INLINE_WRITE_UNLOCK_BH][], (Constraint 1248) OR[OR[EXTRA_FIRMWARE][NOT[EXTRA_FIRMWARE_DIR][]]][EXTRA_FIRMWARE], (Constraint 1393) OR[SBUS][NOT[PARPORT_SUNBPP][]], (Constraint 1974) NOT[ATA_NONSTANDARD][], (Constraint 2177) NOT[HAVE_PATA_PLATFORM][], (Constraint 2310) OR[SBUS][NOT[SUNQE][]], (Constraint 2481) NOT[IBM_NEW_EMAC_EMAC4][], (Constraint 2482) NOT[IBM_NEW_EMAC_NO_FLOW_CTRL][], (Constraint 2484) NOT[IBM_NEW_EMAC_MAL_COMMON_ERR][], (Constraint 3311) OR[BROKEN][NOT[PC300][]], (Constraint 3854) OR[BROKEN][NOT[SX][]], (Constraint 4132) NOT[ARCH_REQUIRE_GPIOLIB][], (Constraint 4537) NOT[MFD_WM8351_CONFIG_MODE_2][], (Constraint 4539) NOT[MFD_WM8352_CONFIG_MODE_0][], (Constraint 4541) NOT[MFD_WM8352_CONFIG_MODE_2][], (Constraint 4610) OR[NOT[VIDEO_HELPER_CHIPS_AUTO][]][NOT[VIDEO_TLV320AIC23B][]], (Constraint 4616) OR[NOT[VIDEO_HELPER_CHIPS_AUTO][]][NOT[VIDEO_ADV7180][]], (Constraint 5687) NOT[HAVE_FB_ATMEL][], (Constraint 5755) NOT[FB_CFB_REV_PIXELS_IN_BYTE][], (Constraint 6089) NOT[SND_SOC_OF_SIMPLE][], (Constraint 6090) NOT[SND_S3C_SOC_PCM][], (Constraint 6480) OR[BROKEN][NOT[EDAC_I82443BXGX][]], (Constraint 6623) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[SLICOSS][]], (Constraint 6664) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[VIDEO_CX25821][]], (Constraint 6698) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[ECHO][]], (Constraint 6704) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[OTUS][]], (Constraint 6824) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[ALTERA_PCIE_CHDMA][]], (Constraint 6827) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[R8187SE][]], (Constraint 6837) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[RTL8192U][]], (Constraint 6871) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[INPUT_GPIO][]], (Constraint 6873) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[POHMELFS][]], (Constraint 6882) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[B3DFG][]], (Constraint 6885) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[IDE_PHISON][]], (Constraint 6890) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[PLAN9AUTH][]], (Constraint 6897) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[DRM_VMWGFX][]], (Constraint 6901) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[DRM_NOUVEAU][]], (Constraint 6904) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[USB_SERIAL_QUATECH2][]], (Constraint 6907) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[USB_SERIAL_QUATECH_USB2][]], (Constraint 6910) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[VT6655][]], (Constraint 6922) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[HYPERV][]], (Constraint 6925) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[VME_BUS][]], (Constraint 6937) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[RAR_REGISTER][]], (Constraint 6974) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[RAMZSWAP][]], (Constraint 6977) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[BATMAN_ADV][]], (Constraint 6989) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[STRIP][]], (Constraint 6992) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[ARLAN][]], (Constraint 6997) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[WAVELAN][]], (Constraint 7001) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[PCMCIA_WAVELAN][]], (Constraint 7005) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[PCMCIA_NETWAVE][]], (Constraint 7554) NOT[ASYNC_MEMSET][], (Constraint 7586) NOT[REED_SOLOMON_ENC8][], (Constraint 7587) NOT[REED_SOLOMON_ENC16][]]
+	|D|: 94
+	CC: 7995
+	KBDiag runtime: 3.445514 s
+	--- Profiler ---
+	KBDiag calls: 10
+	mssDirect calls: 10240
+	Consistency checks (TC): 7995
+	Solver calls: 30145
+
+=== Evaluation Results: kbdiag (m=1, task=1) ===
+Testcase                  | Avg Time (s) |   |D| |  #Diag
+---------------------------------------------------------
+linux/linux_c5_1.testcases |     0.753456 |     1 |      1
+linux/linux_c10_1.testcases |     0.817292 |     2 |      2
+linux/linux_c25_1.testcases |     0.893334 |     5 |      4
+linux/linux_c50_1.testcases |     1.026368 |    10 |     10
+linux/linux_c100_1.testcases |     1.282789 |    20 |     10
+linux/linux_c250_1.testcases |     2.061740 |    48 |     10
+linux/linux_c500_1.testcases |     3.434769 |    94 |     10
