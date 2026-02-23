@@ -1,0 +1,82 @@
+# Table Generation Configuration (original results)
+# Usage: python -m apps.results_table_gen apps/conf/table_gen_original.toml
+
+[general]
+result_path = "data/jiis/results_incremental-diversity-optimized"
+output_path = "data/jiis/tables"
+num_iterations = 3
+
+[table3]
+enabled = true
+test_sizes = [5, 10, 25, 50, 100, 250, 500]
+groups = [
+    ["REAL-FM-11", "DELL", "REAL-FM-4"],
+    ["windows8", "CNNl", "linux"],
+]
+
+[table4]
+enabled = true
+leading_diagnoses = [1, 2, 5, 10]
+
+[[algorithm]]
+key = "quickxplain_with_testcases"
+display_name = "HSD"
+
+[[algorithm]]
+key = "kbdiag"
+display_name = "MSD"
+lambda = 1
+
+[[algorithm]]
+key = "kbdiag_m2"
+display_name = "MSD"
+lambda = 2
+
+[[kb]]
+name = "REAL-FM-11"
+display_name = "REAL-FM-11"
+num_constraints = 64
+total_diagnoses = 0
+table4_test_size = 100
+
+[[kb]]
+name = "DELL"
+display_name = "DELL"
+num_constraints = 121     # |C| - user to fill
+total_diagnoses = 0     # |Δ| - user to fill
+table4_test_size = 50
+
+[[kb]]
+name = "REAL-FM-4"
+display_name = "REAL-FM-4"
+num_constraints = 233
+total_diagnoses = 0
+table4_test_size = 100
+
+#[[kb]]
+#name = "ubuntu"
+#display_name = "ubuntu"
+#num_constraints = 261
+#total_diagnoses = 0
+#table4_test_size = 100
+
+[[kb]]
+name = "windows8"
+display_name = "windows8"
+num_constraints = 405
+total_diagnoses = 0
+table4_test_size = 100
+
+[[kb]]
+name = "CNNl"
+display_name = "CNNl"
+num_constraints = 1637
+total_diagnoses = 0
+table4_test_size = 100
+
+[[kb]]
+name = "linux"
+display_name = "linux"
+num_constraints = 0
+total_diagnoses = 0
+table4_test_size = 100
