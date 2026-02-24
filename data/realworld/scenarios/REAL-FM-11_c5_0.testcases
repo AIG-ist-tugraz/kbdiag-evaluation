@@ -1,6 +1,0 @@
-5
-administration & hmi & usability
-~quality_attributes & security & motion_sensor
-communication & monitor_control & flood & internet & motion_sensor
-administration & detection_devices & quality_attributes & ~flood & motion_sensor
-action_devices & ~standby

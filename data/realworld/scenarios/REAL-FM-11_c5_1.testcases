@@ -1,6 +1,0 @@
-5
-services & action_devices & ~security & ~intrusion & ~motion_sensor
-~telephone & motion_sensor & skoke_sensor & ~moisture_sensor
-services & monitor_control & intrusion & flood & ~telephone
-communication & ~flood & scalability
-administration & security & ~telephone

@@ -1,9 +1,0 @@
-nameKB: ubuntu.splx
-TC: 5
-numGenFM: 1
-numIter: 1
-perViolated_nonViolated: 0.2
-dataPath: ./data/realworld/
-resultsPath: ./results/
-m: 1
-numDiagnoses: -1

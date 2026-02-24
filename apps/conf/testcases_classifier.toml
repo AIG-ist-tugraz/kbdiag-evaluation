@@ -28,11 +28,6 @@ model = "data/jiis/fms/REAL-FM-4.uvl"
 testsuite = "data/jiis/testsuite/REAL-FM-4.testsuite"
 
 [[fm]]
-name = "ubuntu"
-model = "data/jiis/fms/ubuntu.uvl"
-testsuite = "data/jiis/testsuite/ubuntu.testsuite"
-
-[[fm]]
 name = "windows8"
 model = "data/jiis/fms/windows8.uvl"
 testsuite = "data/jiis/testsuite/windows8.testsuite"
@@ -46,8 +41,3 @@ testsuite = "data/jiis/testsuite/linux.testsuite"
 name = "CNNl"
 model = "data/jiis/fms/Ghamizi2019-light.uvl"
 testsuite = "data/jiis/testsuite/CNNl.testsuite"
-
-[[fm]]
-name = "EA"
-model = "data/jiis/fms/ea2468.uvl"
-testsuite = "data/jiis/testsuite/EA.testsuite"

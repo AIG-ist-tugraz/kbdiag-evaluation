@@ -13,7 +13,7 @@ selection_strategy = "diversity-optimized"  # "random" (legacy) or "diversity" (
 max_workers = 4
 
 [output]
-output_dir = "data/jiis/scenarios-diversity-optimized"
+output_dir = "data/jiis/scenarios"
 
 # Classified test suites to process (all run in parallel)
 [[ts]]
@@ -30,10 +30,6 @@ classified_ts = "data/jiis/classifiedTS/REAL-FM-4.classifiedts"
 #priority_switch_threshold = 10  # cardinality <= threshold: regular_clusters first; > threshold: priority_clusters first
 
 [[ts]]
-name = "ubuntu"
-classified_ts = "data/jiis/classifiedTS/ubuntu.classifiedts"
-
-[[ts]]
 name = "windows8"
 classified_ts = "data/jiis/classifiedTS/windows8.classifiedts"
 
@@ -44,8 +40,3 @@ classified_ts = "data/jiis/classifiedTS/linux.classifiedts"
 [[ts]]
 name = "CNNl"
 classified_ts = "data/jiis/classifiedTS/CNNl.classifiedts"
-
-[[ts]]
-name = "EA"
-classified_ts = "data/jiis/classifiedTS/EA.classifiedts"
-
