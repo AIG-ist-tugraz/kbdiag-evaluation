@@ -28,7 +28,7 @@ The research community can fully exploit this repository to reproduce the work d
   - `testsuite/` — raw generated test suites
   - `results/` — evaluation output files
   - `tables/` — generated result tables (Markdown and LaTeX)
-- `solver_apps/` — external SAT solver JARs (SAT4J)
+- `solver_apps/` — external SAT solver JARs (SAT4J) - just for test_diagnosis.py, not used in our evaluation
 - `tests/` — unit tests
 - `LICENSE` — MIT License
 
