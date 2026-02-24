@@ -1,143 +1,149 @@
-# KBDiag
+# Automated Testing and Debugging of Configuration Knowledge Bases With Direct Diagnosis
 
-Model-based diagnosis system for knowledge bases with multiple observations.
+A Python tool for diagnosing conflicts in configuration knowledge bases and feature models
+using direct diagnosis algorithms.
 
-## Overview
+This repository contains the implementation and evaluation of the **KBDiag** algorithm,
+presented in the paper entitled
+*Automated Testing and Debugging of Configuration Knowledge Bases With Direct Diagnosis* [1].
+The research community can fully exploit this repository to reproduce the work described in our paper.
 
-KBDiag is a research tool for identifying conflicts and inconsistencies in constraint-based knowledge bases, particularly feature models. The system implements multiple diagnosis algorithms to compute maximal satisfiable subsets (MSS) and minimal unsatisfiable subsets (MUS) when test cases violate knowledge base constraints.
+## Repository structure
 
-Developed at TU Graz by Viet-Man Le. Licensed under MIT.
+- `explanation/` — core diagnosis library (models, algorithms, transformations)
+  - `models/` — data models for diagnosis problems (KB, test cases, profiler)
+  - `operations/` — diagnosis algorithms (KBDiag, FastDiag/FastDiagP, WipeOutR, QuickXPlain)
+  - `transformations/` — readers for feature models (UVL via flamapy), test suites, and DIMACS
+- `apps/` — evaluation and utility scripts
+  - `eval_runner.py` — main evaluation script (TOML-driven)
+  - `testsuite_gen.py` — test suite generator from feature models
+  - `testcases_classifier.py` — test case classifier (violated/non-violated)
+  - `testcases_selector.py` — diversity-optimized test case selection
+  - `results_table_gen.py` — generates Markdown and LaTeX result tables
+  - `conf/` — TOML configuration files for all scripts
+- `data/jiis/` — datasets and evaluation results
+  - `fms/` — feature models in UVL format
+  - `scenarios/` — test case files (`.testcases`)
+  - `classifiedTS/` — classified test suites
+  - `testsuite/` — raw generated test suites
+  - `results/` — evaluation output files
+  - `tables/` — generated result tables (Markdown and LaTeX)
+- `solver_apps/` — external SAT solver JARs (SAT4J)
+- `tests/` — unit tests
+- `LICENSE` — MIT License
 
-## Key Features
+## Requirements
 
-- **Core Diagnosis Algorithms**: KBDiag, FastDiag, QuickXPlain, and Syntactic Relevance
-- **Extended Algorithms**: FastDiagP, WipeOutR variants (Python explanation/ module)
-- **Hitting Set DAG (HS-DAG)**: Efficiently computes all diagnoses through shared computations with multiple labelers
-- **SAT Solver Integration**: Choco (Java), PySAT and SAT4J (Python)
-- **Dual Implementation**: Java primary (~8,040 LOC), Python extended (~10,770 LOC total)
-- **Evaluation Framework**: Comprehensive benchmarking with TOML-driven configuration
-- **Testing**: 16 Java test files + 4 Python test files with 14 resource fixtures
+- **Python**: 3.10+
+- **Key dependencies**:
+  - [flamapy](https://flamapy.github.io) 2.0+ — feature model framework (UVL parsing, SAT operations)
+  - [PySAT](https://pysathq.github.io) 0.1.8+ — SAT solver (Glucose3, incremental solving)
 
-## Quick Start
-
-### Java (Recommended)
-
-**Requirements**: Java 21, Maven
+## Setup
 
 ```bash
-# Build the project
-mvn clean package
-
-# Run tests
-mvn test
-
-# Run main application
-java -jar target/main_v2-jar-with-dependencies.jar -e config.txt
-```
-
-### Python
-
-**Requirements**: Python 3.11+
-
-```bash
-# Setup environment
+# Create and activate virtual environment
 python3 -m venv venv
 source venv/bin/activate
 
-# Generate test suites (optional)
-python -m apps.testsuite_gen apps/conf/testsuite_gen.toml
-
-# Run evaluation
-python -m apps.eval_runner apps/conf/kbdiag_eval.toml
-
-# Run tests
-python -m unittest discover -s tests -v
+# Install dependencies
+pip install -r requirements.txt
 ```
-
-## Documentation
-
-See `/docs` directory for detailed documentation:
-
-- [project-overview-pdr.md](./docs/project-overview-pdr.md) - Product requirements and research context
-- [codebase-summary.md](./docs/codebase-summary.md) - Complete project structure and inventory
-- [code-standards.md](./docs/code-standards.md) - Coding conventions and patterns
-- [system-architecture.md](./docs/system-architecture.md) - Architecture design and algorithms
-- [deployment-guide.md](./docs/deployment-guide.md) - Build, deployment, and runtime instructions
-
-## Project Structure
-
-```
-KBDiag/
-├── src/main/java/at/tugraz/ist/ase/kbdiag/     # Java implementation (~8,040 LOC, 44 files)
-│   ├── debugging/algorithms/                     # Core diagnosis algorithms
-│   ├── apps/real/                               # Evaluation framework (15 evaluator classes)
-│   └── common/                                   # Shared utilities + configuration
-├── apps/                                         # Python evaluation & generation scripts
-│   ├── eval_runner.py                            # TOML-driven evaluation orchestrator
-│   ├── testsuite_gen.py                         # Test suite generator from FMs
-│   ├── testcases_classifier.py                  # TC classification (violated/non-violated)
-│   ├── testcases_selector.py                    # Diversity-optimized TC selection
-│   ├── results_table_gen.py                     # Markdown/LaTeX table generation
-│   └── conf/                                    # Configuration files (TOML)
-├── explanation/                                  # Python implementation (~5,944 LOC, 34 files)
-│   ├── models/                                  # Extended data models + builders
-│   ├── operations/                              # Diagnosis operations + SAT4J support
-│   │   └── algorithms/                          # FastDiag(P), WipeOutR(FM/T), profiler
-│   └── transformations/                         # DIMACS, FM, testsuite readers
-├── tests/                                        # Python test suite (4 files + 14 resources)
-│   ├── test_diagnosis.py
-│   ├── test_profiler.py
-│   ├── test_utils.py
-│   └── resources/                               # Test fixtures (FM, testcases, DIMACS)
-├── data/                                         # Feature models and test cases
-│   ├── ijcai24_25/                              # Primary dataset (IJCAI 2024-2025)
-│   │   ├── data/fms/                            # Feature models (.splx)
-│   │   ├── data/classifiedTS/                   # Classified test suites
-│   │   ├── data/testsuite/                      # Raw test suites
-│   │   ├── data/scenarios/                      # Test cases (.testcases)
-│   │   ├── data/wcnf/                           # WCNF/DIMACS/UVL models + scenarios
-│   │   └── results/                             # Evaluation results
-│   ├── realworld/                               # Real-world models (legacy)
-│   └── synthesized/                             # Synthetic scenarios (legacy)
-├── solver_apps/                                  # External SAT solvers
-│   └── org.sat4j.core.jar                       # SAT4J solver library
-└── docs/                                         # Documentation
-```
-
-## Core Algorithms
-
-**KBDiag**: Main diagnosis algorithm computing all minimal diagnoses by finding maximal satisfiable subsets of constraints.
-
-**FastDiag**: Optimized diagnosis for simpler cases using binary search over constraint sets.
-
-**FastDiagP**: FastDiag variant with pruning for improved performance on specific constraint structures.
-
-**QuickXPlain**: Efficient conflict detection computing minimal unsatisfiable subsets (both standalone and with test cases).
-
-**WipeOutR**: Advanced algorithms for removing redundant constraints (feature models and test case variants).
-
-**Syntactic Relevance**: Optimization technique reducing search space through syntactic feature model analysis.
-
-**HS-DAG**: Hitting Set DAG framework computing all diagnoses through shared computation paths with multiple labelers.
 
 ## Datasets
 
-- **jiis** (current): 9 feature models in UVL format with diversity-optimized test scenarios (630 test case files across 7 cardinalities)
-- **ijcai24_25** (primary): 4 models (DELL, ubuntu, windows8, REAL-FM-11) in SPLOT, UVL, WCNF, DIMACS with 7 test case sizes
-- **realworld**: Additional real-world models (legacy)
-- **synthesized**: 126 synthetically generated scenarios (legacy)
+Six feature models in UVL format are provided in `data/jiis/fms/`:
 
-## Research Context
+| Knowledge Base | File | |C| (constraints) |
+|----------------|------|------------------:|
+| REAL-FM-11 | `REAL-FM-11.uvl` | 64 |
+| DELL | `DELL.uvl` | 121 |
+| REAL-FM-4 | `REAL-FM-4.uvl` | 233 |
+| windows8 | `windows8.uvl` | 405 |
+| CNNl | `Ghamizi2019-light.uvl` | 1,637 |
+| linux | `linux-2.6.33.3.uvl` | 13,972 |
 
-This implementation corresponds to research published in:
-- IJCAI 2019: Model-based diagnosis with multiple observations
-- AAAI 2023-2024: HS-DAG evaluation and syntactic relevance optimization
-- IJCAI 2024-2025: Recent improvements and Python implementation
+Each KB has 70 test case files in `data/jiis/scenarios/` with 7 cardinalities
+(|T_π| = 5, 10, 25, 50, 100, 250, 500) and 10 versions each.
+Test case naming convention: `<KB>_c<size>_<version>.testcases`.
+
+## Reproducing the evaluation
+
+### Running the evaluation
+
+The evaluation is driven by TOML configuration files in `apps/conf/`.
+
+**Run KBDiag evaluation** (corresponds to Tables 4, 5, and 6 in the paper):
+
+```bash
+python -m apps.eval_runner apps/conf/kbdiag_eval.toml
+python -m apps.eval_runner apps/conf/qxwithtc_eval.toml
+```
+
+Configuration options in `apps/conf/kbdiag_eval.toml` and `apps/conf/qxwithtc_eval.toml` include:
+- `algorithm` — `"kbdiag"` or `"quickxplain_with_testcases"` (HSD baseline)
+- `task` — `"1"` (first diagnosis) or `"all"` (all diagnoses)
+- `m` — λ parameter for KBDiag (1 or 2)
+- `num_iterations` — number of measurement iterations (default: 3)
+- `timeout` / `timeout_all` — timeout per scenario in seconds
+
+Results are written to `data/jiis/results/`.
+
+### Generating result tables
+
+After running evaluations, generate the paper's tables:
+
+```bash
+python -m apps.results_table_gen apps/conf/table_gen.toml
+```
+
+Output tables (Markdown and LaTeX) are written to `data/jiis/tables/`.
+
+### Other utility scripts
+
+**Generate test suites from feature models:**
+```bash
+python -m apps.testsuite_gen apps/conf/testsuite_gen.toml
+```
+
+**Classify test cases (violated/non-violated):**
+```bash
+python -m apps.testcases_classifier apps/conf/testcases_classifier.toml
+```
+
+**Select diversity-optimized test cases:**
+```bash
+python -m apps.testcases_selector apps/conf/testcases_selector.toml
+```
+
+### Running tests
+
+```bash
+python -m unittest discover -s tests -v
+```
+
+## Algorithms
+
+- **KBDiag (MSD)** — direct diagnosis algorithm computing diagnoses by finding maximal satisfiable subsets via multi-split decomposition, parameterized by λ (split factor)
+- **QuickXPlain with test cases (HSD baseline)** — HS-DAG-based approach using QuickXPlain as the conflict detection labeler to compute all diagnoses
+
+## Test case format
+
+Each `.testcases` file contains one test case per line as boolean feature expressions:
+
+```
+5
+ProductCategory & ~XPSLaptops & StudioXPSLaptops & ~a80GB
+ProductCategory & ~MiniNotebooks & ~XPSLaptops & WindowsVista64bit & ~BluRayDisc
+...
+```
+
+The first line indicates the number of test cases, followed by the test case expressions.
 
 ## License
 
-MIT License. Copyright 2023-2026 Viet-Man Le.
+This project is licensed under the MIT License — see `LICENSE` for details.
 
-## Contributing
+## References
 
-For development guidelines, see [code-standards.md](./docs/code-standards.md) and [CLAUDE.md](./CLAUDE.md).
+[1] A. Felfernig, V.M. Le, D. Garber, S. Lubos, T.N.T. Tran. Automated Testing and Debugging of Configuration Knowledge Bases With Direct Diagnosis. In *Journal of Intelligent Information Systems (JIIS)*. 2026. [submitted on 24.02.2026].
