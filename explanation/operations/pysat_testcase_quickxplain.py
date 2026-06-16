@@ -65,8 +65,9 @@ class PySATTestCaseQuickXPlain(PySATAbstractExplanation):
         """
         checker = self._create_checker(model)
         labeler = self._create_labeler(checker, model)
+        set_c = model.get_c()
 
-        return checker, self._create_hsdag(labeler)
+        return checker, self._create_hsdag(labeler, constraint_ordering=set_c)
 
     def set_result_messages(self, cs_mess: str, diag_mess: str) -> None:
         """Set result messages with diagnoses first.

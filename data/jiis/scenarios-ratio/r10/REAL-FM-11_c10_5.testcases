@@ -1,0 +1,11 @@
+10
+_id_1 & _id_3 & _id_16 & ~communication
+_id_1 & ~_id_42 & _id_44
+_id_1 & _id_2 & _id_4 & ~_id_9 & _id_46
+_id_1 & _id_2 & _id_41 & ~_id_42
+_id_1 & _id_3 & _id_21 & _id_43
+_id_1 & _id_2 & ~_id_25 & ~sump_pump
+_id_1 & _id_12 & _id_39
+_id_1 & _id_2 & _id_3 & ~_id_31 & moisture_sensor
+_id_2 & _id_16 & _id_22
+~_id_2 & ~_id_9

@@ -1,0 +1,11 @@
+10
+~UseTheComputerWithoutADisplay & ~TurnOnNarrator1 & DisplayAWarningMessageWhenTurningASettingOn5
+~TextToSpeech & ~_100
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & Control_TheVoiceProperties_Speed_OtherOption & SeeAlso
+~TuenOnAudioDescription & MakeASoundWhenTurningASettingOnOrOff4
+~UseTheComputerWithoutADisplay & ~MakeTheFOcusRectangleThicker
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & TextToSpeech & ~VoiceSelection
+TurnOnNarrator1 & ~HowLongShouldWindowsNotificationDialogBoxesStayOpen
+~SetupTextToSpeech & Fast1
+~UseTheComputerWithoutADisplay & ~SpeechRecognition & _1
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & AudioDevicesAndSoundThemes

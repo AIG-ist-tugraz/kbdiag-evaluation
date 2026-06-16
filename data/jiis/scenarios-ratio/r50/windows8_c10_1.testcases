@@ -1,0 +1,11 @@
+10
+~HearTextReadAloud_1 & Fast3
+UseTheComputerWithoutADisplay & ~TuenOnAudioDescription & ~MakeThingsOnTheScreenLarger
+UseTheComputerWithoutADisplay & TuenOnAudioDescription & TurnOnNarrator
+UseTheComputerWithoutADisplay & ~SpeechRecognition & RemoveBackgroundImageWhenAvailable1
+~UseTheComputerWithoutADisplay & ~TurnOnNarrator1 & ~Low1
+UseTheComputerWithoutADisplay & ~TextToSpeech & VoiceSpeed
+~SetupTextToSpeech & DefaultSpeechProfile
+~HearTextReadAloud & TurnOnNarrator1
+HearTextReadAloud_1 & ~SetupMouseKeys
+~HearTextReadAloud & WindowsDefault

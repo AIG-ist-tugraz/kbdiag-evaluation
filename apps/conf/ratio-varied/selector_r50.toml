@@ -1,0 +1,35 @@
+# Test Cases Selector — Phase 2 (C2) — inconsistency ratio 50%
+# Usage: python -m apps.testcases_selector apps/conf/ratio-varied/selector_r50.toml
+#
+# Phase 2 (C2) scope: 3 KBs (HIS, Win8, Linux) × ratio 50% × 10 versions × 6 cards
+# = 180 scenarios output to data/jiis/scenarios-ratio/r50/
+
+[selection]
+num_scenarios = 10
+violated_percent = 0.50
+# c=5 dropped: rounding floor(5*0.50+0.5)=3 → actual 60%, off-ratio.
+# c >= 10: target_violated = floor(c * 0.50 + 0.5) matches 50% exactly.
+# Note: at c=500 × 50%, target_violated = 250 — verify pool sizes pre-run.
+cardinalities = [10, 25, 50, 100, 250, 500]
+seed = 82
+min_priority_conflicts = 2
+selection_strategy = "diversity-optimized"
+
+[concurrency]
+max_workers = 3
+
+[output]
+output_dir = "data/jiis/scenarios-ratio/r50"
+
+# Phase 2 KBs: HIS = REAL-FM-11, Win8 = windows8, Linux
+[[ts]]
+name = "REAL-FM-11"
+classified_ts = "data/jiis/classifiedTS/REAL-FM-11.classifiedts"
+
+[[ts]]
+name = "windows8"
+classified_ts = "data/jiis/classifiedTS/windows8.classifiedts"
+
+[[ts]]
+name = "linux"
+classified_ts = "data/jiis/classifiedTS/linux.classifiedts"

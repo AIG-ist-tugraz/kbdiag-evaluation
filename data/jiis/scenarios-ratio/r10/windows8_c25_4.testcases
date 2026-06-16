@@ -1,0 +1,26 @@
+25
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~SpeechRecognition & ~Fast2
+UseTheComputerWithoutADisplay & HearTextReadAloud & TextToSpeech & ~SetHowMuchTheViewChangesWhenZoomingInOrOut
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~TuenOnAudioDescription & ~AudioInput
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~SetupTextToSpeech & LargeWhite
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~VoiceSelection & TB_18
+UseTheComputerWithoutADisplay & HearTextReadAloud_1 & RunSpeechRecognitionAtStartup
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & SetupTextToSpeech & ~Microphone2
+~UseTheComputerWithoutADisplay & ~TextToSpeech & ~Slow
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~SpeechRecognition & TB_18
+~UseTheComputerWithoutADisplay & TextToSpeech
+HearTextReadAloud_1 & ~M_22
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~TurnOnNarrator1 & ~AudioAndSoundThemes
+UseTheComputerWithoutADisplay & TurnOnNarrator1 & OnScreenKeyboard
+UseTheComputerWithoutADisplay & HearTextReadAloud & TextToSpeech & TB_21
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & TuenOnAudioDescription & Docked
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~VoiceSelection & ~High1
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~TurnOnNarrator1 & ~Option
+TuenOnAudioDescription & ~None2
+~UseTheComputerWithoutADisplay & ~TurnOnNarrator1 & Bold3
+~TuenOnAudioDescription & ~HearTextAndDescriptionReadAloud
+~TurnOnNarrator1 & TurnOffStickeysWhenTwoKeysArePressedAtOnce
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & TuenOnAudioDescription & ~TB_22
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~TuenOnAudioDescription & ~S_21
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~SpeechRecognition & TrainProfile
+~SetupTextToSpeech & ReviewDocumentsAndMailToImproveAccuracy

@@ -33,6 +33,7 @@ from explanation.operations.algorithms.profiler import (
     use_global_profiler,
 )
 from explanation.operations.pysat_abstract_explanation import PySATAbstractExplanation
+from explanation.operations.algorithms.hsdag.hsdag import SearchStrategy
 from explanation.operations.pysat_explanation_builder import (
     PySATTestcaseBuilder,
     PySATTestcaseQuickXplainBuilder,
@@ -140,6 +141,15 @@ def load_config(config_path: str) -> Dict[str, Any]:
         if not isinstance(timeout_all, (int, float)) or timeout_all < 0:
             raise ValueError(f"Invalid timeout_all={timeout_all}. Must be a non-negative number.")
 
+    # Validate max_diagnoses (optional). Only applies when effective_task == "all".
+    # None / omitted → unlimited (backward-compatible). task="1" always uses cap=1.
+    max_diagnoses = config["evaluation"].get("max_diagnoses", None)
+    if max_diagnoses is not None:
+        if not isinstance(max_diagnoses, int) or max_diagnoses < 1:
+            raise ValueError(
+                f"Invalid max_diagnoses={max_diagnoses}. Must be an integer >= 1 or omitted."
+            )
+
     # Validate use_incremental
     use_incremental = config["solver"].get("use_incremental", True)
     if not isinstance(use_incremental, bool):
@@ -230,6 +240,8 @@ def create_operation(
     task: str,
     solver_name: str,
     m: int = 1,
+    search_strategy: str = "bfs",
+    max_diagnoses: Optional[int] = None,
 ) -> PySATAbstractExplanation:
     """Create and configure an operation for the given algorithm.
 
@@ -238,11 +250,16 @@ def create_operation(
         task: "1" or "all".
         solver_name: SAT solver name.
         m: KBDiag m parameter (only used for kbdiag algorithm).
+        search_strategy: "bfs" (default) or "best_first".
+        max_diagnoses: Cap for task="all" enumeration. None = unlimited.
+            Ignored when task="1" (always cap=1 by definition).
 
     Returns:
         Configured operation ready for execute().
     """
-    max_diag = 1 if task == "1" else 10
+    # task="1" is definitional: always cap=1. Only task="all" respects max_diagnoses.
+    max_diag = 1 if task == "1" else max_diagnoses
+    strategy = SearchStrategy(search_strategy)
 
     if algorithm == "kbdiag":
         op_builder = PySATTestcaseBuilder.for_debugging()
@@ -252,6 +269,7 @@ def create_operation(
     elif algorithm == "quickxplain_with_testcases":
         op_builder = PySATTestcaseQuickXplainBuilder.for_debugging()
         op_builder.with_max_diagnoses(max_diag).with_solver(solver_name)
+        op_builder.with_search_strategy(strategy)
         return op_builder.build()
 
     raise ValueError(f"Unknown algorithm: {algorithm}")
@@ -268,6 +286,8 @@ def run_single_scenario(
     profiler_preset_name: str,
     profiler_enabled: bool,
     use_incremental: bool = True,
+    search_strategy: str = "bfs",
+    max_diagnoses: Optional[int] = None,
 ) -> ScenarioResult:
     """Run all iterations of one scenario in a worker process.
 
@@ -287,7 +307,9 @@ def run_single_scenario(
     # Iterates scenario; profiles operation; captures results and metrics
     for _ in range(num_iterations):
         model = build_model(kb_path, tc, use_incremental)
-        operation = create_operation(algorithm, effective_task, solver_name, m=m)
+        operation = create_operation(algorithm, effective_task, solver_name, m=m,
+                                     search_strategy=search_strategy,
+                                     max_diagnoses=max_diagnoses)
 
         profiler.reset()
         profiler.start()
@@ -306,11 +328,27 @@ def run_single_scenario(
         # elif 'quickxplain_with_testcases_runtime' in metrics:
         #     runtime_first = metrics['hsdag_runtime'][0]
         #     runtime_all = sum(metrics['hsdag_runtime'])
+        # Runtime accounting differs by labeler type:
+        # - DIAGNOSIS-type (kbdiag): operation called once per emitted diagnosis,
+        #   so `kbdiag_runtime` list has N entries. [0] = first-diag time (correct);
+        #   sum() = total time across N diagnoses.
+        # - CONFLICT-type (quickxplain_with_testcases, HSDAG-wrapped): HSDAG.compute()
+        #   runs ONCE and emits all N diagnoses internally, so `hsdag_runtime` list has
+        #   ONE entry = total compute time. [0] would equal sum() = total (NOT first
+        #   diag). Use `path_label_cumulative_runtime[0]` instead — it tracks the
+        #   cumulative time at each diagnosis emission inside HSDAG; index 0 = exact
+        #   time when first diagnosis was emitted.
         runtime_key = ('kbdiag_runtime' if 'kbdiag_runtime' in metrics
                        else 'hsdag_runtime' if 'quickxplain_with_testcases_runtime' in metrics
                        else None)
         if runtime_key:
-            runtime_first = metrics[runtime_key][0]
+            cumulative_rts = metrics.get('path_label_cumulative_runtime', [])
+            if cumulative_rts:
+                # Conflict labeler path — first-diag time from cumulative emission
+                runtime_first = cumulative_rts[0]
+            else:
+                # Diagnosis labeler path — first call's runtime = first-diag time
+                runtime_first = metrics[runtime_key][0]
             runtime_all = sum(metrics[runtime_key])
         else:
             runtime_first = 0.0
@@ -398,10 +436,15 @@ def write_iteration(
         for i, (diag_str, size) in enumerate(
             zip(iter_result.formatted_diagnoses, iter_result.diag_sizes), 1
         ):
+            # Per-diagnosis time: prefer cumulative path-label runtime (conflict
+            # labelers), fall back to per-call kbdiag runtime, else omit (profiler off).
             if i <= len(cumulative_rts):
-                f.write(f"\tDiagnosis {i} (|D|={size}, t={cumulative_rts[i-1]:.6f}s): {diag_str}\n")
+                t_str = f", t={cumulative_rts[i-1]:.6f}s"
+            elif 'kbdiag_runtime' in iter_result.metrics:
+                t_str = f", t={iter_result.metrics['kbdiag_runtime'][i-1]:.6f}s"
             else:
-                f.write(f"\tDiagnosis {i} (|D|={size}, t={iter_result.metrics['kbdiag_runtime'][i-1]:.6f}s): {diag_str}\n")
+                t_str = ""
+            f.write(f"\tDiagnosis {i} (|D|={size}{t_str}): {diag_str}\n")
         f.write(f"\t#Diagnoses: {iter_result.num_diagnoses}\n")
 
     if profiler_on and iter_result.metrics:
@@ -411,10 +454,11 @@ def write_iteration(
     runtime_str = ('KBDiag runtime' if 'kbdiag_runtime' in iter_result.metrics
                    else 'QuickXPlain+TC runtime' if 'quickxplain_with_testcases_runtime' in iter_result.metrics
                    else None)
-    if effective_task == "1":
-        f.write(f"\t{runtime_str}: {iter_result.time_first:.6f} s\n")
-    else:
-        f.write(f"\t{runtime_str}: {iter_result.time_all:.6f} s\n")
+    if runtime_str:
+        if effective_task == "1":
+            f.write(f"\t{runtime_str}: {iter_result.time_first:.6f} s\n")
+        else:
+            f.write(f"\t{runtime_str}: {iter_result.time_all:.6f} s\n")
 
     if profiler_on and iter_result.metrics:
         write_profiler_metrics(f, iter_result.metrics)
@@ -480,6 +524,7 @@ def run_warmup(config: Dict[str, Any], m: int) -> None:
     eval_cfg = config["evaluation"]
     algorithm = eval_cfg["algorithm"]
     task = eval_cfg["task"]
+    max_diagnoses = eval_cfg.get("max_diagnoses", None)
     solver_name = config["solver"].get("solver_name", "glucose3")
 
     use_incremental = config["solver"].get("use_incremental", True)
@@ -496,7 +541,8 @@ def run_warmup(config: Dict[str, Any], m: int) -> None:
         tc_path = resolve_path(f"{scenarios_dir}/{first_tc}")
 
         model = build_model(kb_path, tc_path, use_incremental)
-        operation = create_operation(algorithm, task, solver_name, m=m)
+        operation = create_operation(algorithm, task, solver_name, m=m,
+                                     max_diagnoses=max_diagnoses)
         operation.execute(model)
         print(f"\tWarmup: {kb_name} done")
     print("Warmup complete.\n")
@@ -520,6 +566,9 @@ def run_evaluation(config: Dict[str, Any]) -> None:
 
     solver_name = config["solver"].get("solver_name", "glucose3")
     use_incremental = config["solver"].get("use_incremental", True)
+    search_strategy = eval_cfg.get("search_strategy", "bfs")
+    # Cap for task="all" enumeration. None / omitted = unlimited (backward-compat).
+    max_diagnoses = eval_cfg.get("max_diagnoses", None)
 
     profiler_cfg = config.get("profiler", {})
     profiler_enabled = profiler_cfg.get("enabled", False)
@@ -568,40 +617,61 @@ def run_evaluation(config: Dict[str, Any]) -> None:
                 scenario_result = ScenarioResult(timed_out=True)
                 print(f"\t[{kb_name}] {tc_file} (task={effective_task})... SKIPPED (propagated timeout from c{threshold})")
             else:
-                # Run scenario (with or without timeout)
-                worker_args = (
-                    str(kb_path), algorithm, str(tc_path),
-                    effective_task, solver_name, m, num_iterations,
-                    profiler_preset.name, profiler_enabled, use_incremental,
-                )
-                if effective_timeout > 0:
-                    queue: multiprocessing.Queue = multiprocessing.Queue()
-                    proc = multiprocessing.Process(
-                        target=_worker_wrapper, args=(queue, *worker_args),
-                    )
-                    proc.start()
+                # Per-iteration timeout: total scenario budget split equally across reps.
+                # E.g. timeout=1200, num_iterations=3 → 400s per iteration. Justified by
+                # variance analysis (rev1 scenarios CoV <5% in 97%+ cases) and matches
+                # Section 6.2 wording ("400s per iteration, 1200s combined").
+                per_iter_timeout = effective_timeout / num_iterations if num_iterations > 0 else effective_timeout
+
+                if per_iter_timeout > 0:
+                    # Spawn fresh process per iteration so the OS can hard-kill on TO.
+                    scenario_result = ScenarioResult()
+                    iter_timed_out = False
                     print(f"\t[{kb_name}] {tc_file} (task={effective_task})...", end="", flush=True)
-                    # Read from queue BEFORE join to avoid pipe-buffer deadlock
-                    try:
-                        worker_result = queue.get(timeout=effective_timeout)
-                    except Exception:
-                        worker_result = None
-                    # Timeout on join so kill logic is reachable
-                    proc.join(timeout=10)
-                    if proc.is_alive():
-                        proc.kill()
-                        proc.join()
-                    if worker_result is None:
+                    for iter_idx in range(num_iterations):
+                        # Pass num_iterations=1 — outer loop handles repetition
+                        worker_args = (
+                            str(kb_path), algorithm, str(tc_path),
+                            effective_task, solver_name, m, 1,
+                            profiler_preset.name, profiler_enabled, use_incremental,
+                            search_strategy, max_diagnoses,
+                        )
+                        queue: multiprocessing.Queue = multiprocessing.Queue()
+                        proc = multiprocessing.Process(
+                            target=_worker_wrapper, args=(queue, *worker_args),
+                        )
+                        proc.start()
+                        # Read from queue BEFORE join to avoid pipe-buffer deadlock
+                        try:
+                            worker_result = queue.get(timeout=per_iter_timeout)
+                        except Exception:
+                            worker_result = None
+                        proc.join(timeout=10)
+                        if proc.is_alive():
+                            proc.kill()
+                            proc.join()
+                        if worker_result is None:
+                            iter_timed_out = True
+                            print(f" TIMEOUT iter {iter_idx+1}/{num_iterations} ({per_iter_timeout:.0f}s)")
+                            break
+                        elif isinstance(worker_result, Exception):
+                            print(" ERROR")
+                            raise worker_result
+                        else:
+                            # Aggregate iteration results (worker ran 1 iter)
+                            scenario_result.iterations.extend(worker_result.iterations)
+                    if iter_timed_out:
                         scenario_result = ScenarioResult(timed_out=True)
-                        print(f" TIMEOUT ({effective_timeout}s)")
-                    elif isinstance(worker_result, Exception):
-                        print(" ERROR")
-                        raise worker_result
                     else:
-                        scenario_result = worker_result
                         print(" done")
                 else:
-                    # No timeout — run inline (zero overhead)
+                    # No timeout — run inline (zero overhead). num_iterations preserved.
+                    worker_args = (
+                        str(kb_path), algorithm, str(tc_path),
+                        effective_task, solver_name, m, num_iterations,
+                        profiler_preset.name, profiler_enabled, use_incremental,
+                        search_strategy, max_diagnoses,
+                    )
                     scenario_result = run_single_scenario(*worker_args)
 
             tc_key = f"{kb_name}/{tc_file}"

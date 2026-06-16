@@ -1,0 +1,51 @@
+50
+TextToSpeech & ~WindowsXpStyleScaling
+~UseTheComputerWithoutADisplay & ~SetupTextToSpeech & HighContrast_1
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & TuenOnAudioDescription & LearnAboutAdditionalAssistiveTechnologiesOnline6
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~Control_TheVoiceProperties_Speed_OtherOption & ~TB_10
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~SetupTextToSpeech & ~MakeTheComputerEasierToSee
+~UseTheComputerWithoutADisplay & SoundScheme
+~TextToSpeech & Advanced2
+TurnOnNarrator1 & ~TurnOnNarrator
+~SetupTextToSpeech & ReviewDocumentsAndMailToImproveAccuracy
+~HearTextReadAloud & TurnOffAllUnnecessaryAnimation
+HearTextReadAloud & ControlTheMouseWithTheKeyboard
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~SpeechRecognition & ~Communications
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~Hardware1
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~TuenOnAudioDescription & Note
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~Control_TheVoiceProperties_Speed_OtherOption & Speed
+UseTheComputerWithoutADisplay & SetupTextToSpeech & ~ME_11
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~Control_TheVoiceProperties_Speed_OtherOption & TopSpeed
+~HearTextReadAloud & Normal
+UseTheComputerWithoutADisplay & ~SpeechRecognition & UserSettings
+~HearTextReadAloud_1 & TuenOnAudioDescription
+~SetupMouseKeys
+~TextToSpeech & AudioOutput
+HearTextReadAloud & ~HowLongShouldWindowsNotificationDialogBoxesStayOpen
+~UseTheComputerWithoutADisplay & ReduceTheVolumeOfOtherSoundsBy50
+UseTheComputerWithoutADisplay & TurnOnNarrator1 & ~TurnOnNarrator
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & SpeechRecognition & ~AdjustTimeLimitsAndFlashingVisuals2
+UseTheComputerWithoutADisplay & HearTextReadAloud & ConfigureMicrophone
+UseTheComputerWithoutADisplay & TuenOnAudioDescription & CustomSizingOption
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~TurnOnNarrator1 & ~ME_24
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~TextToSpeech & S_6
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~SetupTextToSpeech & M_11
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~SpeechRecognition & SetupStickyKeys
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~SetupTextToSpeech & ~KeyboardShortcut2
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~SetupTextToSpeech & ~MicrosoftDavidDesktopEnglishGB
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~TuenOnAudioDescription & None
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~Control_TheVoiceProperties_Speed_OtherOption & ~ActivateAWindowByHoveringOverItWithTheMouse
+~SetupTextToSpeech & FlashActiveWindow
+UseTheComputerWithoutADisplay & TurnOnNarrator1 & ~MakeItEasierToManageWindows3
+~HearTextReadAloud & MicrosoftDavidDesktopEnglishUS
+UseTheComputerWithoutADisplay & ~SpeechRecognition & RecognitionProfiles
+TextToSpeech & ~VoiceSpeed
+~HearTextReadAloud_1 & TurnOffAllUnnecessaryAnimation
+~UseTheComputerWithoutADisplay & ReduceTheVolumeOfOtherSoundsBy80
+UseTheComputerWithoutADisplay & ~SetupMouseKeys
+~TextToSpeech & Control_TheVoiceProperties_Speed_OtherOption
+~HearTextReadAloud_1 & TurnOnNarrator1
+UseTheComputerWithoutADisplay & ~TextToSpeech & Advanced2
+UseTheComputerWithoutADisplay & ~TextToSpeech & AudioOutput
+UseTheComputerWithoutADisplay & SpeechRecognition & ~Microphone1
+~UseTheComputerWithoutADisplay & ~SpeechRecognition & UserSettings

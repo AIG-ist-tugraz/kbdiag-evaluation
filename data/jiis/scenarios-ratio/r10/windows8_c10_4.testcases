@@ -1,0 +1,11 @@
+10
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~SpeechRecognition & ~Fast2
+UseTheComputerWithoutADisplay & HearTextReadAloud & TextToSpeech & ~SetHowMuchTheViewChangesWhenZoomingInOrOut
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~TuenOnAudioDescription & ~AudioInput
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~SetupTextToSpeech & LargeWhite
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~VoiceSelection & TB_18
+UseTheComputerWithoutADisplay & HearTextReadAloud_1 & RunSpeechRecognitionAtStartup
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & SetupTextToSpeech & ~Microphone2
+~UseTheComputerWithoutADisplay & ~TextToSpeech & ~Slow
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~SpeechRecognition & TB_18
+~UseTheComputerWithoutADisplay & TextToSpeech

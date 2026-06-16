@@ -1,0 +1,79 @@
+# Table 8 (Phase 1 — Diagnosis Quality) + Table 9 (Phase 4 — Cognitive Load)
+# Usage: python -m apps.results_table_gen apps/conf/table89_gen.toml
+#
+# Both tables generated from existing artifact data (rev1 baseline + Phase 1
+# cap=130 verify + Phase 4 cognitive load reports). Values validated against
+# Cowork's manual entries in main.tex Sections 6.3 / 6.4 (specs 16:45 entry).
+
+[general]
+# Unused for Tables 8/9 but required by load_config (shared with Tables 3/4)
+result_path = "data/jiis/results"
+output_path = "data/jiis/tables"
+num_iterations = 3
+
+# Disable Tables 3, 4, 7 — this config is Table 8 + 9 only.
+[table3]
+enabled = false
+test_sizes = []
+groups = []
+
+[table4]
+enabled = false
+leading_diagnoses = []
+
+# Algorithms / KBs unused for Tables 8/9 but required by load_config schema.
+[[algorithm]]
+key = "kbdiag"
+display_name = "MSD"
+lambda = 1
+
+[[kb]]
+name = "REAL-FM-11"
+display_name = "REAL-FM-11"
+
+# ---------------------------------------------------------------------------
+# Table 8 — Phase 1 Diagnosis Quality
+# ---------------------------------------------------------------------------
+
+[table8]
+enabled = true
+# Source of comparable/identical counts (post-cleanup linux state)
+results_dir = "data/jiis/results/1"
+# Rev1 baseline verify report (cap=10) — provides DELL ranks
+verify_baseline = "data/jiis/results-diagnosis-quality/diagnosis-quality-verify.txt"
+# Phase 1 cap=130 verify report — provides REAL-FM-4 + windows8 ranks
+verify_mismatches = "data/jiis/results-diagnosis-quality/diagnosis-quality-verify-mismatches.txt"
+
+[[table8.kb]]
+name = "REAL-FM-11"
+display_name = "HIS"
+
+[[table8.kb]]
+name = "DELL"
+display_name = "DELL"
+
+[[table8.kb]]
+name = "REAL-FM-4"
+display_name = "B2C"
+
+[[table8.kb]]
+name = "windows8"
+display_name = "Win8"
+
+[[table8.kb]]
+name = "CNNl"
+display_name = "CNN"
+
+[[table8.kb]]
+name = "linux"
+display_name = "Linux"
+
+# ---------------------------------------------------------------------------
+# Table 9 — Phase 4 Cognitive Load
+# ---------------------------------------------------------------------------
+
+[table9]
+enabled = true
+compare_m_report = "data/jiis/results-cognitive/compare-kbdiag-m.txt"
+overhead_report  = "data/jiis/results-cognitive/verify-m2-overhead.txt"
+test_sizes = [5, 10, 25, 50, 100, 250, 500]

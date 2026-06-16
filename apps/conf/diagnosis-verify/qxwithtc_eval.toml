@@ -1,0 +1,78 @@
+# Phase 1 (C1) — HSDAG (QuickXPlain+TC) cap=100 enumeration
+# Usage: python -m apps.eval_runner apps/conf/diagnosis-verify/qxwithtc_eval.toml
+#
+# Purpose: produce HSDAG's top-100 diagnoses for 3 KBs with known
+# first-diagnosis mismatches (DELL, REAL-FM-4, windows8) at the default
+# 20% inconsistency ratio. Output then fed into verify_diagnosis_quality.py
+# to check whether KBDiag's first diagnosis appears in HSDAG's enumeration
+# (Tier 1) or its constraints appear in at least one HSDAG diagnosis (Tier 2).
+#
+# Diagnosis-only run:
+#   - num_iterations = 1: diagnoses are deterministic — no need to average.
+#   - profiler disabled: only diagnosis sets matter, not CC / runtime metrics.
+#   - max_diagnoses = 100: bounded enumeration per Phase 1 plan. cap=100
+#     covers all rev1 exact-match ranks [4, 4, 9, 10] with headroom.
+#     If `not_found` cases remain, plan Open Q#11 covers escalation to
+#     500/1000 (ad-hoc).
+
+[evaluation]
+algorithm = "quickxplain_with_testcases"
+task = "all"
+num_iterations = 1
+dry_run = true
+# Total timeout per scenario in seconds, SPLIT EQUALLY across num_iterations.
+timeout = 1200
+# Same semantics for task="all" scenarios — overrides timeout when effective_task="all".
+timeout_all = 3600
+# Search strategy: matches rev1 baseline ("bfs") for direct comparability
+# with the Section 6.2 results that the C1 rebuttal refers to.
+search_strategy = "bfs"
+# Max diagnoses for task="all" (optional). Applies to BOTH algorithms
+# (kbdiag, quickxplain_with_testcases) — caps the HSDAG enumeration.
+max_diagnoses = 130
+
+[solver]
+solver_name = "glucose3"
+use_incremental = true
+
+[profiler]
+enabled = false
+
+[output]
+result_path = "data/jiis/results-diagnosis-quality"
+
+# Phase 1 KBs: only REAL-FM-4 and windows8 need cap=100 verification.
+# DELL is excluded — its 2 rev1 mismatches already have exact-match at
+# ranks #4/10 with HSDAG cap=10, so cap=100 would add nothing.
+# REAL-FM-11/CNNl/linux had zero first-diag mismatches → no verification.
+[[kb]]
+name = "REAL-FM-4"
+model = "data/jiis/fms/REAL-FM-4.uvl"
+scenarios_dir = "data/jiis/scenarios"
+testcases = [
+    "REAL-FM-4_c5_0.testcases",
+    "REAL-FM-4_c10_0.testcases",
+    "REAL-FM-4_c25_0.testcases",
+    "REAL-FM-4_c50_0.testcases",
+    "REAL-FM-4_c100_0.testcases",
+    "REAL-FM-4_c250_0.testcases",
+    "REAL-FM-4_c500_0.testcases",
+]
+
+[[kb]]
+name = "windows8"
+model = "data/jiis/fms/windows8.uvl"
+scenarios_dir = "data/jiis/scenarios"
+testcases = [
+    "windows8_c5_0.testcases",
+    "windows8_c10_0.testcases",
+    "windows8_c25_0.testcases",
+    "windows8_c50_0.testcases",
+    "windows8_c100_0.testcases",
+    "windows8_c250_0.testcases",
+    "windows8_c500_0.testcases",
+]
+
+[email]
+enabled = true
+subject_prefix = "[HSDAG-diagnosis-verify]"

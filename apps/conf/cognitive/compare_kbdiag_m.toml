@@ -1,0 +1,29 @@
+# Compare KBDiag m=1 vs m=2 diagnoses — FlexDiag quality metrics
+# Usage: python -m apps.compare_kbdiag_m apps/conf/cognitive/compare_kbdiag_m.toml
+#
+# Computes minimality and accuracy per scenario (Felfernig et al. 2018).
+# Output: per-KB scenario table + aggregate by testcase size.
+
+[comparison]
+results_dir     = "data/jiis/results/1"
+output_dir      = "data/jiis/results-cognitive"
+output_filename = "compare-kbdiag-m.txt"
+
+# KBs with m=2 data available
+[[kb]]
+name = "REAL-FM-11"
+
+[[kb]]
+name = "DELL"
+
+[[kb]]
+name = "REAL-FM-4"
+
+[[kb]]
+name = "windows8"
+
+[[kb]]
+name = "CNNl"
+
+[[kb]]
+name = "linux"

@@ -20,13 +20,20 @@ The research community can fully exploit this repository to reproduce the work d
   - `testcases_classifier.py` — test case classifier (violated/non-violated)
   - `testcases_selector.py` — diversity-optimized test case selection
   - `results_table_gen.py` — generates Markdown and LaTeX result tables
-  - `conf/` — TOML configuration files for all scripts
+  - `verify_diagnosis_quality.py` — diagnosis quality analysis (Table 8)
+  - `compare_kbdiag_m.py` — FlexDiag minimality/accuracy by test-case size (Table 9)
+  - `verify_m2_overhead.py` — λ=2 overhead constraint validity check (Table 9)
+  - `conf/` — TOML configuration files for all scripts (incl. `ratio-varied/`, `cognitive/`, `diagnosis-verify/`)
 - `data/jiis/` — datasets and evaluation results
   - `fms/` — feature models in UVL format
-  - `scenarios/` — test case files (`.testcases`)
+  - `scenarios/` — test case files (`.testcases`), default 20% inconsistency ratio
+  - `scenarios-ratio/` — test cases at 10/30/50% inconsistency ratios (`r10/`, `r30/`, `r50/`) for Table 7
   - `classifiedTS/` — classified test suites
   - `testsuite/` — raw generated test suites
-  - `results/` — evaluation output files
+  - `results/` — main evaluation output (Tables 3, 4)
+  - `results-ratio/` — ratio-varied evaluation output (Table 7)
+  - `results-cognitive/` — cognitive-load reports for λ=1 vs λ=2 (Table 9)
+  - `results-diagnosis-quality/` — diagnosis quality verification reports (Table 8)
   - `tables/` — generated result tables (Markdown and LaTeX)
 - `solver_apps/` — external SAT solver JARs (SAT4J) - just for test_diagnosis.py, not used in our evaluation
 - `tests/` — unit tests
@@ -73,7 +80,7 @@ Test case naming convention: `<KB>_c<size>_<version>.testcases`.
 
 The evaluation is driven by TOML configuration files in `apps/conf/`.
 
-**Run KBDiag evaluation** (corresponds to Tables 4, 5, and 6 in the paper):
+**Run KBDiag evaluation** (corresponds to the main runtime tables — Tables 3 and 4):
 
 ```bash
 python -m apps.eval_runner apps/conf/kbdiag_eval.toml
@@ -89,12 +96,38 @@ Configuration options in `apps/conf/kbdiag_eval.toml` and `apps/conf/qxwithtc_ev
 
 Results are written to `data/jiis/results/`.
 
-### Generating result tables
+### Revision-2 experiments
 
-After running evaluations, generate the paper's tables:
+**Inconsistency-ratio variation (Table 7)** — runs the three feature models HIS (`REAL-FM-11`), Win8 (`windows8`), and Linux at 10/30/50% inconsistency ratios (the 20% case reuses `data/jiis/results/`):
 
 ```bash
-python -m apps.results_table_gen apps/conf/table_gen.toml
+for r in r10 r30 r50; do
+  python -m apps.eval_runner apps/conf/ratio-varied/kbdiag_eval_$r.toml
+  python -m apps.eval_runner apps/conf/ratio-varied/qxwithtc_eval_$r.toml
+done
+```
+
+**Diagnosis quality (Table 8)** — verifies KBDiag's first diagnosis against the HSDAG all-diagnoses set:
+
+```bash
+python -m apps.verify_diagnosis_quality apps/conf/diagnosis-verify/diagnosis_quality_verify.toml
+```
+
+**Cognitive load, λ=1 vs λ=2 (Table 9)**:
+
+```bash
+python -m apps.compare_kbdiag_m  apps/conf/cognitive/compare_kbdiag_m.toml
+python -m apps.verify_m2_overhead apps/conf/cognitive/verify_m2_overhead.toml
+```
+
+### Generating result tables
+
+After running the evaluations, regenerate the paper's tables:
+
+```bash
+python -m apps.results_table_gen apps/conf/table_gen_original.toml  # Tables 3a, 3b, 4
+python -m apps.results_table_gen apps/conf/table7_gen.toml          # Table 7
+python -m apps.results_table_gen apps/conf/table89_gen.toml         # Tables 8, 9
 ```
 
 Output tables (Markdown and LaTeX) are written to `data/jiis/tables/`.
@@ -146,4 +179,4 @@ This project is licensed under the MIT License — see `LICENSE` for details.
 
 ## References
 
-[1] A. Felfernig, V.M. Le, D. Garber, S. Lubos, T.N.T. Tran. Automated Testing and Debugging of Configuration Knowledge Bases With Direct Diagnosis. In *Journal of Intelligent Information Systems (JIIS)*. 2026. [submitted on 24.02.2026].
+[1] A. Felfernig, V.M. Le, D. Garber, S. Lubos, T.N.T. Tran. Automated Testing and Debugging of Configuration Knowledge Bases With Direct Diagnosis. In *Journal of Intelligent Information Systems (JIIS)*. 2026. [revision 2 submitted].

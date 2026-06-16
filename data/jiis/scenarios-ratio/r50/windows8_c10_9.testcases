@@ -1,0 +1,11 @@
+10
+~SetupTextToSpeech & ~CustomSizingOption
+TB_22
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~TurnOffAllUnnecessaryAnimationWhenPossible
+UseTheComputerWithoutADisplay & ~SpeechRecognition & _200
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~Control_TheVoiceProperties_Speed_OtherOption & ~RemoveBackgroundImageWhenAvailable1
+~UseTheComputerWithoutADisplay & TuenOnAudioDescription & ~AudioOutput
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~SetupTextToSpeech & NumberOfSpaceToInsertAfterPonctuation
+~UseTheComputerWithoutADisplay & ~TurnOnNarrator1 & AudioDevicesAndSoundThemes
+~UseTheComputerWithoutADisplay & ~TuenOnAudioDescription & _15Seconds
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & TurnOnNarrator1 & ~SetupMouseKeys

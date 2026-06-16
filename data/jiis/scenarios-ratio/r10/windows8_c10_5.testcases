@@ -1,0 +1,11 @@
+10
+~UseTheComputerWithoutADisplay & ~TextToSpeech & DisplayAWarningMessageWhenTurningASettingOn2
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~TuenOnAudioDescription & ~MicrosoftSpeechRecognizer8_0ForWindowsEnglishUS
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud_1 & ~Smaller100
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~TurnOnNarrator1 & TitleBars
+~HearTextReadAloud_1 & ~_50
+~SetupTextToSpeech & S_18
+UseTheComputerWithoutADisplay & ~SetupTextToSpeech & Speed
+TurnOnMouseKeys1
+~TextToSpeech & ~RemoveBackgroundImageWhenAvailable1
+~HearTextReadAloud & HowLongShouldWindowsNotificationDialogBoxesStayOpen1

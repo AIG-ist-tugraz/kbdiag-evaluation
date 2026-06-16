@@ -1,0 +1,26 @@
+25
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~TurnOnNarrator1 & ~ReduceTheVolumeOfOtherSoundsBy80
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & TextToSpeech & LargeInverting
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~SetupTextToSpeech & ~UseTheComputerWithoutAMouseOrKeyboard_1
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~TurnOnNarrator1 & HowLongShouldWindowsNotificationDialogBoxesStayOpen2
+UseTheComputerWithoutADisplay & ~TuenOnAudioDescription & TurnOnNarrator
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & TuenOnAudioDescription & ~MuteAllOtherSounds
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~TurnOnNarrator1 & ~FlashDesktop
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~TuenOnAudioDescription & ~Control_TheVoiceProperties_Speed_OtherOption
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~Communications
+~UseTheComputerWithoutADisplay & SoundScheme
+UseTheComputerWithoutADisplay & ~SetupTextToSpeech & ~HearTextAndDescriptionReadAloud
+UseTheComputerWithoutADisplay & HearTextReadAloud & Control_TheVoiceProperties_Speed_OtherOption & M_17
+UseTheComputerWithoutADisplay & Slow4
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~SetupTextToSpeech & ~Speakers
+UseTheComputerWithoutADisplay & HearTextReadAloud_1 & OtherSettings2
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & TurnOnNarrator1 & ~SetupFilterKeys2
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~SpeechRecognition & ~OpenTheSpeechReferenceCard
+UseTheComputerWithoutADisplay & SlowDownKeyboardRepeateRates
+~TurnOnNarrator1 & ~M_13
+TurnOnNarrator1 & TB_23
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~SetupTextToSpeech & ~LargeInverting
+~UseTheComputerWithoutADisplay & ~TurnOnNarrator1 & ~SeeAlso1
+TextToSpeech & S_1
+~HearTextReadAloud & Normal
+UseTheComputerWithoutADisplay & ~SpeechRecognition & UserSettings

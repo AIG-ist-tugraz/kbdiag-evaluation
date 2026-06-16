@@ -1,0 +1,11 @@
+10
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~UseTheComputerWithoutAMouseOrKeyboard
+UseTheComputerWithoutADisplay & ~SetupTextToSpeech & LearnAboutAdditionalAssistiveTechnologiesOnline5
+UseTheComputerWithoutADisplay & ME_16
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~TurnOnNarrator1 & TrainYourComputerToBetterUnderstandYou
+UseTheComputerWithoutADisplay & TextToSpeech & ~TurnOnVisualNotificationForSounds
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & MakeASoundWhenTurningASettingOnOrOff1
+UseTheComputerWithoutADisplay & SetupTextToSpeech & ~Microphone1
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~TextToSpeech & MicrosoftDavidDesktopEnglishGB
+~HearTextReadAloud_1 & HowLongShouldWindowsNotificationDialogBoxesStayOpen1
+~UseTheComputerWithoutADisplay & ~SetupTextToSpeech & UserSettings

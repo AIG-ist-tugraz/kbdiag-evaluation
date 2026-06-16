@@ -6,16 +6,22 @@
 algorithm = "kbdiag"
 # Task: "1" (one diagnosis) or "all" (all diagnoses)
 task = "all"
+# Max diagnoses for task="all" (optional). Applies to BOTH algorithms
+# (kbdiag, quickxplain_with_testcases) — caps the HSDAG enumeration.
+# Omit / null = unlimited (default). task="1" always uses cap=1 regardless.
+# max_diagnoses = 100
 # Number of iterations per test case file
 num_iterations = 3
 # m parameter for KBDiag algorithm (ignored by others)
 m = 1
 # Run warmup iteration before measurement
 dry_run = true
-# Timeout per scenario in seconds (0 = no timeout)
-timeout = 1200  # 3 iterations
-# Timeout for task="all" scenarios (overrides timeout when effective_task="all" - 0 means no timeout)
-timeout_all = 3600  # 3 iterations
+# Total timeout per scenario in seconds, SPLIT EQUALLY across num_iterations.
+# E.g. timeout=1200 with num_iterations=3 → 400s per iteration (hard kill).
+# Set to 0 to disable timeout (runs inline, no multiprocessing).
+timeout = 1200
+# Same semantics for task="all" scenarios — overrides timeout when effective_task="all".
+timeout_all = 3600
 
 [solver]
 solver_name = "glucose3"
@@ -31,41 +37,41 @@ result_path = "data/jiis/results"
 # Knowledge bases to evaluate
 # Each [[kb]] entry defines a KB with its model and test case files
 
-[[kb]]
-name = "DELL"
-model = "data/jiis/fms/DELL.uvl"
-scenarios_dir = "data/jiis/scenarios"
-testcases = [
-    "DELL_c5_0.testcases",
-    "DELL_c10_0.testcases",
-    "DELL_c25_0.testcases",
-    "DELL_c50_0.testcases",
-    "DELL_c100_0.testcases",
-    "DELL_c250_0.testcases",
-    "DELL_c500_0.testcases",
-]
-# Per-testcase task override (optional, fnmatch glob patterns)
-# First matching pattern wins. Unmatched files use [evaluation].task.
-#[kb.task_overrides]
-#"*_c25_*" = "all"
+#[[kb]]
+#name = "DELL"
+#model = "data/jiis/fms/DELL.uvl"
+#scenarios_dir = "data/jiis/scenarios"
+#testcases = [
+#    "DELL_c5_0.testcases",
+#    "DELL_c10_0.testcases",
+#    "DELL_c25_0.testcases",
+#    "DELL_c50_0.testcases",
+#    "DELL_c100_0.testcases",
+#    "DELL_c250_0.testcases",
+#    "DELL_c500_0.testcases",
+#]
+## Per-testcase task override (optional, fnmatch glob patterns)
+## First matching pattern wins. Unmatched files use [evaluation].task.
+##[kb.task_overrides]
+##"*_c25_*" = "all"
 
-[[kb]]
-name = "REAL-FM-11"
-model = "data/jiis/fms/REAL-FM-11.uvl"
-scenarios_dir = "data/jiis/scenarios"
-testcases = [
-    "REAL-FM-11_c5_1.testcases",
-    "REAL-FM-11_c10_1.testcases",
-    "REAL-FM-11_c25_1.testcases",
-    "REAL-FM-11_c50_1.testcases",
-    "REAL-FM-11_c100_1.testcases",
-    "REAL-FM-11_c250_1.testcases",
-    "REAL-FM-11_c500_1.testcases",
-]
-# Per-testcase task override (optional, fnmatch glob patterns)
-# First matching pattern wins. Unmatched files use [evaluation].task.
-#[kb.task_overrides]
-#"*_c25_*" = "all"
+#[[kb]]
+#name = "REAL-FM-11"
+#model = "data/jiis/fms/REAL-FM-11.uvl"
+#scenarios_dir = "data/jiis/scenarios"
+#testcases = [
+#    "REAL-FM-11_c5_1.testcases",
+#    "REAL-FM-11_c10_1.testcases",
+#    "REAL-FM-11_c25_1.testcases",
+#    "REAL-FM-11_c50_1.testcases",
+#    "REAL-FM-11_c100_1.testcases",
+#    "REAL-FM-11_c250_1.testcases",
+#    "REAL-FM-11_c500_1.testcases",
+#]
+## Per-testcase task override (optional, fnmatch glob patterns)
+## First matching pattern wins. Unmatched files use [evaluation].task.
+##[kb.task_overrides]
+##"*_c25_*" = "all"
 
 [[kb]]
 name = "REAL-FM-4"
@@ -84,96 +90,96 @@ testcases = [
 # First matching pattern wins. Unmatched files use [evaluation].task.
 #[kb.task_overrides]
 #"*_c25_*" = "all"
-
-[[kb]]
-name = "ubuntu"
-model = "data/jiis/fms/ubuntu.uvl"
-scenarios_dir = "data/jiis/scenarios"
-testcases = [
-    "ubuntu_c5_3.testcases",
-    "ubuntu_c10_3.testcases",
-    "ubuntu_c25_3.testcases",
-    "ubuntu_c50_3.testcases",
-    "ubuntu_c100_3.testcases",
-    "ubuntu_c250_3.testcases",
-    "ubuntu_c500_3.testcases",
-]
-# Per-testcase task override (optional, fnmatch glob patterns)
-# First matching pattern wins. Unmatched files use [evaluation].task.
-#[kb.task_overrides]
-#"*_c50_*" = "all"
-
-[[kb]]
-name = "windows8"
-model = "data/jiis/fms/windows8.uvl"
-scenarios_dir = "data/jiis/scenarios"
-testcases = [
-    "windows8_c5_0.testcases",
-    "windows8_c10_0.testcases",
-    "windows8_c25_0.testcases",
-    "windows8_c50_0.testcases",
-    "windows8_c100_0.testcases",
-    "windows8_c250_0.testcases",
-    "windows8_c500_0.testcases",
-]
-# Per-testcase task override (optional, fnmatch glob patterns)
-# First matching pattern wins. Unmatched files use [evaluation].task.
-#[kb.task_overrides]
-#"*_c25_*" = "all"
-
-[[kb]]
-name = "linux"
-model = "data/jiis/fms/linux-2.6.33.3.uvl"
-scenarios_dir = "data/jiis/scenarios"
-testcases = [
-    "linux_c5_1.testcases",
-    "linux_c10_1.testcases",
-    "linux_c25_1.testcases",
-    "linux_c50_1.testcases",
-    "linux_c100_1.testcases",
-    "linux_c250_1.testcases",
-    "linux_c500_1.testcases",
-]
+#
+#[[kb]]
+#name = "ubuntu"
+#model = "data/jiis/fms/ubuntu.uvl"
+#scenarios_dir = "data/jiis/scenarios"
+#testcases = [
+#    "ubuntu_c5_3.testcases",
+#    "ubuntu_c10_3.testcases",
+#    "ubuntu_c25_3.testcases",
+#    "ubuntu_c50_3.testcases",
+#    "ubuntu_c100_3.testcases",
+#    "ubuntu_c250_3.testcases",
+#    "ubuntu_c500_3.testcases",
+#]
+## Per-testcase task override (optional, fnmatch glob patterns)
+## First matching pattern wins. Unmatched files use [evaluation].task.
+##[kb.task_overrides]
+##"*_c50_*" = "all"
+#
+#[[kb]]
+#name = "windows8"
+#model = "data/jiis/fms/windows8.uvl"
+#scenarios_dir = "data/jiis/scenarios"
+#testcases = [
+#    "windows8_c5_0.testcases",
+#    "windows8_c10_0.testcases",
+#    "windows8_c25_0.testcases",
+#    "windows8_c50_0.testcases",
+#    "windows8_c100_0.testcases",
+#    "windows8_c250_0.testcases",
+#    "windows8_c500_0.testcases",
+#]
 ## Per-testcase task override (optional, fnmatch glob patterns)
 ## First matching pattern wins. Unmatched files use [evaluation].task.
 ##[kb.task_overrides]
 ##"*_c25_*" = "all"
-
-[[kb]]
-name = "EA"
-model = "data/jiis/fms/ea2468.uvl"
-scenarios_dir = "data/jiis/scenarios"
-testcases = [
-    "EA_c5_0.testcases",
-    "EA_c10_0.testcases",
-    "EA_c25_0.testcases",
-    "EA_c50_0.testcases",
-    "EA_c100_0.testcases",
-    "EA_c250_0.testcases",
-    "EA_c500_0.testcases",
-]
-## Per-testcase task override (optional, fnmatch glob patterns)
-## First matching pattern wins. Unmatched files use [evaluation].task.
-#[kb.task_overrides]
-#"*_c25_*" = "all"
-
-[[kb]]
-name = "CNNl"
-model = "data/jiis/fms/Ghamizi2019-light.uvl"
-scenarios_dir = "data/jiis/scenarios"
-testcases = [
-    "CNNl_c5_0.testcases",
-    "CNNl_c10_0.testcases",
-    "CNNl_c25_0.testcases",
-    "CNNl_c50_0.testcases",
-    "CNNl_c100_0.testcases",
-    "CNNl_c250_0.testcases",
-    "CNNl_c500_0.testcases",
-]
-## Per-testcase task override (optional, fnmatch glob patterns)
-## First matching pattern wins. Unmatched files use [evaluation].task.
-#[kb.task_overrides]
-#"*_c25_*" = "all"
+#
+#[[kb]]
+#name = "linux"
+#model = "data/jiis/fms/linux-2.6.33.3.uvl"
+#scenarios_dir = "data/jiis/scenarios"
+#testcases = [
+#    "linux_c5_1.testcases",
+#    "linux_c10_1.testcases",
+#    "linux_c25_1.testcases",
+#    "linux_c50_1.testcases",
+#    "linux_c100_1.testcases",
+#    "linux_c250_1.testcases",
+#    "linux_c500_1.testcases",
+#]
+### Per-testcase task override (optional, fnmatch glob patterns)
+### First matching pattern wins. Unmatched files use [evaluation].task.
+###[kb.task_overrides]
+###"*_c25_*" = "all"
+#
+#[[kb]]
+#name = "EA"
+#model = "data/jiis/fms/ea2468.uvl"
+#scenarios_dir = "data/jiis/scenarios"
+#testcases = [
+#    "EA_c5_0.testcases",
+#    "EA_c10_0.testcases",
+#    "EA_c25_0.testcases",
+#    "EA_c50_0.testcases",
+#    "EA_c100_0.testcases",
+#    "EA_c250_0.testcases",
+#    "EA_c500_0.testcases",
+#]
+### Per-testcase task override (optional, fnmatch glob patterns)
+### First matching pattern wins. Unmatched files use [evaluation].task.
+##[kb.task_overrides]
+##"*_c25_*" = "all"
+#
+#[[kb]]
+#name = "CNNl"
+#model = "data/jiis/fms/Ghamizi2019-light.uvl"
+#scenarios_dir = "data/jiis/scenarios"
+#testcases = [
+#    "CNNl_c5_0.testcases",
+#    "CNNl_c10_0.testcases",
+#    "CNNl_c25_0.testcases",
+#    "CNNl_c50_0.testcases",
+#    "CNNl_c100_0.testcases",
+#    "CNNl_c250_0.testcases",
+#    "CNNl_c500_0.testcases",
+#]
+### Per-testcase task override (optional, fnmatch glob patterns)
+### First matching pattern wins. Unmatched files use [evaluation].task.
+##[kb.task_overrides]
+##"*_c25_*" = "all"
 
 [email]
 enabled = true

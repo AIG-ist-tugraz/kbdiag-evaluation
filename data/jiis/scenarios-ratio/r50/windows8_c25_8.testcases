@@ -1,0 +1,26 @@
+25
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & VoiceSelection & ~TopSpeed1
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~TuenOnAudioDescription & ~FlashActiveWindow
+~UseTheComputerWithoutADisplay & ~TurnOnNarrator1 & ~MakeItEasierToUseKeyboardShortcuts
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~TuenOnAudioDescription & ~_100
+~UseTheComputerWithoutADisplay & ~SpeechRecognition & TitleBars_1
+~UseTheComputerWithoutADisplay & ~TurnOnNarrator1 & SoundScheme
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud_1 & _1Minute
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & SetupTextToSpeech & Fast1
+~UseTheComputerWithoutADisplay & TuenOnAudioDescription & ~MicrosoftDavidDesktopEnglishGB
+UseTheComputerWithoutADisplay & ~SetupTextToSpeech & _2
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & SetupTextToSpeech & S_19
+UseTheComputerWithoutADisplay & HearTextReadAloud & TuenOnAudioDescription & ~_1
+TuenOnAudioDescription & On
+UseTheComputerWithoutADisplay & HearTextReadAloud & TurnOnNarrator1 & ChangeTheSizeOfTextAndIcons
+~HearTextReadAloud & _1_1Seconds__
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~SpeechRecognition & _0_5Seconds
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~Control_TheVoiceProperties_Speed_OtherOption & TB_14
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~VoiceSelection & SeeAlso1
+~UseTheComputerWithoutADisplay & TuenOnAudioDescription & ~MicrosoftZiraDesktopEnglishUS
+~UseTheComputerWithoutADisplay & ~SetupTextToSpeech & _2
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud_1 & _30Seconds
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~SpeechRecognition & ~SetupMouseKeys
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & SetupTextToSpeech & ~Fast1
+~UseTheComputerWithoutADisplay & ~TurnOnNarrator1 & WindowsDefault
+UseTheComputerWithoutADisplay & ~SetupTextToSpeech & MicrosoftDavidDesktopEnglishUS

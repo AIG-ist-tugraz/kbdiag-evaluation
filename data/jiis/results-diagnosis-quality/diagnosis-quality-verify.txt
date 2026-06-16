@@ -1,0 +1,68 @@
+First-diag dir: /Users/manleviet/Development/GitHub/KBDiag/data/jiis/results_incremental-diversity-optimized/1
+All-diag dir:   /Users/manleviet/Development/GitHub/KBDiag/data/jiis/results_incremental-diversity-optimized/all
+Ranks reported in HSDAG emission order (#1 = first diagnosis emitted).
+================================================================================
+
+--- DELL ---
+  DELL_c25_0.testcases (|KBDiag|=5, |HSDAG_first|=4, #HSDAG_all=10):
+    KBDiag first diag FOUND as HSDAG diagnosis #4/10 (emission order)  ✓  (exact match)
+  DELL_c50_0.testcases (|KBDiag|=10, |HSDAG_first|=9, #HSDAG_all=10):
+    KBDiag first diag FOUND as HSDAG diagnosis #4/10 (emission order)  ✓  (exact match)
+
+--- REAL-FM-4 ---
+  REAL-FM-4_c100_0.testcases (|KBDiag|=14, |HSDAG_first|=13, #HSDAG_all=10):
+    KBDiag first diag NOT found in HSDAG all-diagnoses — checking constraints:
+    (optional) Shippingaddress[0,1]Multipleshippingaddresses
+      -> NOT found in any HSDAG diagnosis  ✗
+    (or) Demographics[1,4]Age Income Education CustomDemographicfield
+      -> NOT found in any HSDAG diagnosis  ✗
+  REAL-FM-4_c50_0.testcases (|KBDiag|=9, |HSDAG_first|=8, #HSDAG_all=10):
+    KBDiag first diag FOUND as HSDAG diagnosis #10/10 (emission order)  ✓  (exact match)
+
+--- windows8 ---
+  windows8_c100_0.testcases (|KBDiag|=14, |HSDAG_first|=12, #HSDAG_all=10):
+    KBDiag first diag NOT found in HSDAG all-diagnoses — checking constraints:
+    (mandatory) AudioDevicesAndSoundThemes[1,1]Playback
+      -> NOT found in any HSDAG diagnosis  ✗
+    (mandatory) Sounds[1,1]SoundScheme
+      -> NOT found in any HSDAG diagnosis  ✗
+    (optional) Sounds[0,1]PlayWindowsStartupSound
+      -> NOT found in any HSDAG diagnosis  ✗
+  windows8_c25_0.testcases (|KBDiag|=5, |HSDAG_first|=4, #HSDAG_all=10):
+    KBDiag first diag FOUND as HSDAG diagnosis #9/10 (emission order)  ✓  (exact match)
+  windows8_c50_0.testcases (|KBDiag|=9, |HSDAG_first|=7, #HSDAG_all=10):
+    KBDiag first diag NOT found in HSDAG all-diagnoses — checking constraints:
+    (alternative) VoiceSelection[1,1]MicrosoftDavidDesktopEnglishUS Micros
+      -> NOT found in any HSDAG diagnosis  ✗
+    (mandatory) AudioDevicesAndSoundThemes[1,1]Playback
+      -> NOT found in any HSDAG diagnosis  ✗
+    (mandatory) Sounds[1,1]SoundScheme
+      -> NOT found in any HSDAG diagnosis  ✗
+    (optional) TextToSpeech[0,1]Control_TheVoiceProperties_Speed_OtherOpti
+      -> NOT found in any HSDAG diagnosis  ✗
+
+================================================================================
+Exact match: 4  |  Verified: 0  |  Not found: 9
+
+4 scenario(s): KBDiag first diag is an exact HSDAG diagnosis.
+
+WARNING: 9 constraint(s) not found in any HSDAG diagnosis!
+  (HSDAG may have max_diagnoses limit — increase cap to find more)
+
+================================================================================
+RANKING SUMMARY (for paper / response letter)
+================================================================================
+KB           Scenario                          |KBDiag|  #HSDAG  Rank info
+--------------------------------------------------------------------------------
+DELL         DELL_c25_0.testcases                     5      10  exact #4/10
+DELL         DELL_c50_0.testcases                    10      10  exact #4/10
+REAL-FM-4    REAL-FM-4_c100_0.testcases              14      10  constraint-level: (optional) Shippingaddress[0,1@NONE; (or) Demographics[1,4]Age Inco@NONE
+REAL-FM-4    REAL-FM-4_c50_0.testcases                9      10  exact #10/10
+windows8     windows8_c100_0.testcases               14      10  constraint-level: (mandatory) AudioDevicesAndSou@NONE; (mandatory) Sounds[1,1]SoundSc@NONE; (optional) Sounds[0,1]PlayWind@NONE
+windows8     windows8_c25_0.testcases                 5      10  exact #9/10
+windows8     windows8_c50_0.testcases                 9      10  constraint-level: (alternative) VoiceSelection[1@NONE; (mandatory) AudioDevicesAndSou@NONE; (mandatory) Sounds[1,1]SoundSc@NONE; (optional) TextToSpeech[0,1]Co@NONE
+--------------------------------------------------------------------------------
+Exact-match ranks: [4, 4, 10, 9] (avg=6.8, min=4, max=10)
+Interpretation: KBDiag's first diag appears in HSDAG's enumeration but
+                NOT as #1 — confirms preference-ordering difference, not
+                validity difference.

@@ -1,0 +1,11 @@
+10
+_id_1 & _id_2 & _id_4 & _id_11
+_id_1 & _id_3 & _id_6 & _id_20
+_id_1 & _id_2 & ~_id_28 & ~_id_42
+~_id_20 & sprinkler
+_id_1 & _id_22 & flood
+_id_1 & _id_2 & _id_3 & ~_id_35 & _id_44
+_id_1 & _id_2 & ~_id_23 & _id_30
+_id_9 & ~_id_56
+_id_1 & ~_id_12 & _id_18
+_id_10 & ~_id_45

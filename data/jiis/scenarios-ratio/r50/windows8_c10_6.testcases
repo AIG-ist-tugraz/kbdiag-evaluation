@@ -1,0 +1,11 @@
+10
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~SpeechRecognition & AudioDevicesAndSoundThemes
+~TuenOnAudioDescription & ~DisplayTheMouseKeysIconOnTheTaskbar2
+UseTheComputerWithoutADisplay & SpeechRecognition & ~RemoveBackgroundImageWhenAvailable1
+UseTheComputerWithoutADisplay & SetupTextToSpeech & ~KeyboardSettings
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~SpeechRecognition & ~Control_TheVoiceProperties_Speed_OtherOption
+~UseTheComputerWithoutADisplay & ~TextToSpeech & MicrosoftZiraDesktopEnglishUS
+~HearTextReadAloud_1 & ReduceTheVolumeOfOtherSoundsBy80
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~TuenOnAudioDescription & ~SetupMouseKeys
+UseTheComputerWithoutADisplay & ~SetupTextToSpeech & NumberOfSpaceToInsertAfterPonctuation
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & _5Minutes

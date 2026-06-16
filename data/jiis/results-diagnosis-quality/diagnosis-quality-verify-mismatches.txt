@@ -1,0 +1,40 @@
+First-diag dir: /Users/manleviet/Development/GitHub/KBDiag/data/jiis/results_incremental-diversity-optimized/1
+All-diag dir:   /Users/manleviet/Development/GitHub/KBDiag/data/jiis/results_diagnosis_verify/all
+Ranks reported in HSDAG emission order (#1 = first diagnosis emitted).
+================================================================================
+
+--- REAL-FM-4 ---
+  REAL-FM-4_c100_0.testcases (|KBDiag|=14, |HSDAG_first|=13, #HSDAG_all=130):
+    KBDiag first diag FOUND as HSDAG diagnosis #25/130 (emission order)  ✓  (exact match)
+  REAL-FM-4_c50_0.testcases (|KBDiag|=9, |HSDAG_first|=8, #HSDAG_all=63):
+    KBDiag first diag FOUND as HSDAG diagnosis #10/63 (emission order)  ✓  (exact match)
+
+--- windows8 ---
+  windows8_c100_0.testcases (|KBDiag|=14, |HSDAG_first|=12, #HSDAG_all=130):
+    KBDiag first diag FOUND as HSDAG diagnosis #85/130 (emission order)  ✓  (exact match)
+  windows8_c25_0.testcases (|KBDiag|=5, |HSDAG_first|=4, #HSDAG_all=40):
+    KBDiag first diag FOUND as HSDAG diagnosis #9/40 (emission order)  ✓  (exact match)
+  windows8_c50_0.testcases (|KBDiag|=9, |HSDAG_first|=7, #HSDAG_all=130):
+    KBDiag first diag FOUND as HSDAG diagnosis #129/130 (emission order)  ✓  (exact match)
+
+================================================================================
+Exact match: 5  |  Verified: 0  |  Not found: 0
+
+5 scenario(s): KBDiag first diag is an exact HSDAG diagnosis.
+All mismatched KBDiag constraints/diagnoses verified in HSDAG all-diagnoses.
+
+================================================================================
+RANKING SUMMARY (for paper / response letter)
+================================================================================
+KB           Scenario                          |KBDiag|  #HSDAG  Rank info
+--------------------------------------------------------------------------------
+REAL-FM-4    REAL-FM-4_c100_0.testcases              14     130  exact #25/130
+REAL-FM-4    REAL-FM-4_c50_0.testcases                9      63  exact #10/63
+windows8     windows8_c100_0.testcases               14     130  exact #85/130
+windows8     windows8_c25_0.testcases                 5      40  exact #9/40
+windows8     windows8_c50_0.testcases                 9     130  exact #129/130
+--------------------------------------------------------------------------------
+Exact-match ranks: [25, 10, 85, 9, 129] (avg=51.6, min=9, max=129)
+Interpretation: KBDiag's first diag appears in HSDAG's enumeration but
+                NOT as #1 — confirms preference-ordering difference, not
+                validity difference.

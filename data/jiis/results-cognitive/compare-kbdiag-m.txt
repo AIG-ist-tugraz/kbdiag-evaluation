@@ -1,0 +1,142 @@
+Results directory: /Users/manleviet/Development/GitHub/KBDiag/data/jiis/results_incremental-diversity-optimized/1
+Comparing KBDiag m=1 (Δ_min) vs m=2 (Δ)
+Metrics: minimality = |Δ_min|/|Δ|, accuracy = |Δ∩Δ_min|/|Δ_min|
+==========================================================================================
+
+--- REAL-FM-11 ---
+  Scenario                       | |Δ_min| |   |Δ| | |Δ∩Δ_min| |  minim |  accur | Status
+  -------------------------------+---------+-------+-----------+--------+--------+-------
+  REAL-FM-11_c100_1.testcases    |      14 |    24 |        14 |  0.583 |  1.000 | DIFF
+    Only in m=2: ['(mandatory) _id_0[1,1]_id_43', '(mandatory) _id_30[1,1]_id_31', '(mandatory) _id_43[1,1]_id_45']...
+  REAL-FM-11_c10_1.testcases     |       1 |     2 |         1 |  0.500 |  1.000 | DIFF
+    Only in m=2: ['(mandatory) flood[1,1]_id_24']
+  REAL-FM-11_c250_1.testcases    |      33 |    42 |        29 |  0.786 |  0.879 | DIFF
+    Only in m=1: ['(mandatory) _id_10[1,1]_id_11', '(mandatory) _id_10[1,1]_id_12', '(mandatory) _id_15[1,1]_id_22']...
+    Only in m=2: ['(mandatory) _id_25[1,1]_id_26', '(mandatory) _id_30[1,1]_id_31', '(mandatory) _id_3[1,1]_id_10']...
+  REAL-FM-11_c25_1.testcases     |       3 |     6 |         3 |  0.500 |  1.000 | DIFF
+    Only in m=2: ['(mandatory) _id_0[1,1]_id_1', '(mandatory) _id_4[1,1]_id_5', '(mandatory) flood[1,1]_id_24']
+  REAL-FM-11_c500_1.testcases    |      43 |    54 |        41 |  0.796 |  0.953 | DIFF
+    Only in m=1: ['(mandatory) _id_10[1,1]_id_11', '(mandatory) _id_10[1,1]_id_12']
+    Only in m=2: ['(mandatory) _id_0[1,1]_id_47', '(mandatory) _id_25[1,1]_id_26', '(mandatory) _id_30[1,1]_id_31']...
+  REAL-FM-11_c50_1.testcases     |       8 |    14 |         8 |  0.571 |  1.000 | DIFF
+    Only in m=2: ['(mandatory) _id_15[1,1]_id_16', '(mandatory) _id_30[1,1]_id_31', '(mandatory) flood[1,1]_id_24']...
+  REAL-FM-11_c5_1.testcases      |       1 |     2 |         1 |  0.500 |  1.000 | DIFF
+    Only in m=2: ['(mandatory) flood[1,1]_id_30']
+
+  Summary: matched=0 mismatch=7 skip=0 | avg_minimality=0.605 avg_accuracy=0.976
+
+--- DELL ---
+  Scenario                       | |Δ_min| |   |Δ| | |Δ∩Δ_min| |  minim |  accur | Status
+  -------------------------------+---------+-------+-----------+--------+--------+-------
+  DELL_c100_0.testcases          |      16 |    28 |        16 |  0.571 |  1.000 | DIFF
+    Only in m=2: ['(Constraint 18) OR[NOT[Adamo][]][NOT[a250GB][]]', '(Constraint 8) OR[NOT[XPSLaptops][]][NOT[IntelCeleron][]]', '(Constraint 82) OR[NOT[Adamo][]][NOT[IntelCeleron][]]']...
+  DELL_c10_0.testcases           |       2 |     4 |         2 |  0.500 |  1.000 | DIFF
+    Only in m=2: ['(Constraint 102) OR[NOT[StudioXPSLaptops][]][NOT[a160GB][]]', '(Constraint 47) OR[NOT[InspironLaptops][]][NOT[DVD_ROMDriveandDVD__RW][]]']
+  DELL_c250_0.testcases          |      40 |    61 |        39 |  0.656 |  0.975 | DIFF
+    Only in m=1: ['(Constraint 51) OR[NOT[InspironLaptops][]][NOT[a80GB][]]']
+    Only in m=2: ['(Constraint 37) OR[NOT[StudioLaptops][]][NOT[IntelAtom][]]', '(Constraint 72) OR[NOT[Adamo][]][NOT[DesktopReplacement][]]', '(Constraint 83) OR[NOT[StudioXPSLaptops][]][NOT[a2GB][]]']...
+  DELL_c25_0.testcases           |       5 |     8 |         5 |  0.625 |  1.000 | DIFF
+    Only in m=2: ['(Constraint 15) OR[NOT[XPSLaptops][]][NOT[Lessthan_400][]]', '(Constraint 47) OR[NOT[InspironLaptops][]][NOT[DVD_ROMDriveandDVD__RW][]]', '(mandatory) DellLaptops_Notebooks[1,1]Memory']
+  DELL_c500_0.testcases          |      77 |   106 |        76 |  0.726 |  0.987 | DIFF
+    Only in m=1: ['(Constraint 101) OR[NOT[MiniNotebooks][]][NOT[WindowsVista64bit][]]']
+    Only in m=2: ['(Constraint 35) OR[NOT[StudioLaptops][]][NOT[a1GB][]]', '(Constraint 52) OR[NOT[InspironLaptops][]][NOT[a120GB][]]', '(Constraint 6) OR[NOT[XPSLaptops][]][NOT[UbuntuLinux][]]']...
+  DELL_c50_0.testcases           |      10 |    17 |        10 |  0.588 |  1.000 | DIFF
+    Only in m=2: ['(Constraint 23) OR[NOT[InspironLaptops][]][NOT[UltraLight][]]', '(Constraint 60) OR[NOT[MiniNotebooks][]][NOT[Light][]]', '(mandatory) DellLaptops_Notebooks[1,1]Memory']...
+  DELL_c5_0.testcases            |       1 |     2 |         1 |  0.500 |  1.000 | DIFF
+    Only in m=2: ['(Constraint 47) OR[NOT[InspironLaptops][]][NOT[DVD_ROMDriveandDVD__RW][]]']
+
+  Summary: matched=0 mismatch=7 skip=0 | avg_minimality=0.595 avg_accuracy=0.995
+
+--- REAL-FM-4 ---
+  Scenario                       | |Δ_min| |   |Δ| | |Δ∩Δ_min| |  minim |  accur | Status
+  -------------------------------+---------+-------+-----------+--------+--------+-------
+  REAL-FM-4_c100_0.testcases     |      14 |    19 |        12 |  0.737 |  0.857 | DIFF
+    Only in m=1: ['(optional) Shippingaddress[0,1]Multipleshippingaddresses', '(or) Demographics[1,4]Age Income Education CustomDemographicfield']
+    Only in m=2: ['(mandatory) PhoneOrdering[1,1]DigitalDialing', '(mandatory) Registration[1,1]Registrationinformation', '(optional) Storefront[0,1]Homepage']...
+  REAL-FM-4_c10_0.testcases      |       2 |     4 |         2 |  0.500 |  1.000 | DIFF
+    Only in m=2: ['(Constraint 2) OR[NOT[Eletronicgoods][]][Size]', '(optional) Storefront[0,1]Homepage']
+  REAL-FM-4_c250_0.testcases     |      17 |    24 |        17 |  0.708 |  1.000 | DIFF
+    Only in m=2: ['(optional) Storefront[0,1]Homepage', '(optional) Storefront[0,1]Registration', '(or) Permissions[1,3]Publicaccess Restrictedaccess Privateaccess']...
+  REAL-FM-4_c25_0.testcases      |       4 |     6 |         4 |  0.667 |  1.000 | DIFF
+    Only in m=2: ['(Constraint 2) OR[NOT[Eletronicgoods][]][Size]', '(optional) Storefront[0,1]Homepage']
+  REAL-FM-4_c500_0.testcases     |      22 |    32 |        22 |  0.688 |  1.000 | DIFF
+    Only in m=2: ['(mandatory) Businessmanagement[1,1]Ordermanagement', '(mandatory) Userbehaviourtracking[1,1]Behaviourtracked', '(optional) Storefront[0,1]Registration']...
+  REAL-FM-4_c50_0.testcases      |       9 |    14 |         9 |  0.643 |  1.000 | DIFF
+    Only in m=2: ['(Constraint 16) OR[NOT[Availability][]][Inventorytracking]', '(Constraint 2) OR[NOT[Eletronicgoods][]][Size]', '(optional) Storefront[0,1]Homepage']...
+  REAL-FM-4_c5_0.testcases       |       1 |     2 |         1 |  0.500 |  1.000 | DIFF
+    Only in m=2: ['(optional) Storefront[0,1]Homepage']
+
+  Summary: matched=0 mismatch=7 skip=0 | avg_minimality=0.635 avg_accuracy=0.980
+
+--- windows8 ---
+  Scenario                       | |Δ_min| |   |Δ| | |Δ∩Δ_min| |  minim |  accur | Status
+  -------------------------------+---------+-------+-----------+--------+--------+-------
+  windows8_c100_0.testcases      |      14 |    22 |        14 |  0.636 |  1.000 | DIFF
+    Only in m=2: ['(Constraint 126) OR[NOT[SeeAlso3][]][SeeAlso]', '(alternative) SoundScheme[1,1]WindowsDefault NoSounds', '(alternative) VoiceSelection[1,1]MicrosoftDavidDesktopEnglishUS MicrosoftZiraDesktopEnglishGB MicrosoftDavidDesktopEnglishGB MicrosoftZiraDesktopEnglishUS']...
+  windows8_c10_0.testcases       |       2 |     3 |         2 |  0.667 |  1.000 | DIFF
+    Only in m=2: ['(optional) TextToSpeech[0,1]AudioOutput']
+  windows8_c250_0.testcases      |      19 |    26 |        19 |  0.731 |  1.000 | DIFF
+    Only in m=2: ['(Constraint 126) OR[NOT[SeeAlso3][]][SeeAlso]', '(optional) Microphone1[0,1]ConfigureMicrophone', '(optional) UserSettings[0,1]RunSpeechRecognitionAtStartup']...
+  windows8_c25_0.testcases       |       5 |     8 |         5 |  0.625 |  1.000 | DIFF
+    Only in m=2: ['(alternative) Language[1,1]MicrosoftSpeechRecognizer8_0ForWindowsEnglishUS MicrosoftSpeechRecognizer8_0ForWindowsEnglishUK', '(mandatory) TextToSpeech[1,1]VoiceSelection', '(optional) TextToSpeech[0,1]AudioOutput']
+  windows8_c500_0.testcases      |      19 |    26 |        19 |  0.731 |  1.000 | DIFF
+    Only in m=2: ['(Constraint 126) OR[NOT[SeeAlso3][]][SeeAlso]', '(optional) Microphone1[0,1]ConfigureMicrophone', '(optional) UserSettings[0,1]RunSpeechRecognitionAtStartup']...
+  windows8_c50_0.testcases       |       9 |    14 |         9 |  0.643 |  1.000 | DIFF
+    Only in m=2: ['(Constraint 78) OR[NOT[TurnOnMouseKeys2][]][TurnOnMouseKeys]', '(alternative) Language[1,1]MicrosoftSpeechRecognizer8_0ForWindowsEnglishUS MicrosoftSpeechRecognizer8_0ForWindowsEnglishUK', '(mandatory) Playback[1,1]Speakers']...
+  windows8_c5_0.testcases        |       1 |     1 |         1 |  1.000 |  1.000 | OK
+
+  Summary: matched=1 mismatch=6 skip=0 | avg_minimality=0.719 avg_accuracy=1.000
+
+--- CNNl ---
+  Scenario                       | |Δ_min| |   |Δ| | |Δ∩Δ_min| |  minim |  accur | Status
+  -------------------------------+---------+-------+-----------+--------+--------+-------
+  CNNl_c100_0.testcases          |      14 |    26 |        14 |  0.538 |  1.000 | DIFF
+    Only in m=2: ['(Constraint 19) OR[NOT[Block4_Element1_Cell_Output_Cell][]][Block4_Element2]', '(Constraint 64) OR[NOT[Architecture][]][NOT[Block3_Element5_Cell_Input1_Zeros][]]', '(Constraint 7) OR[NOT[Block1_Element4_Cell_Output_Cell][]][Block1_Element5]']...
+  CNNl_c10_0.testcases           |       2 |     3 |         2 |  0.667 |  1.000 | DIFF
+    Only in m=2: ['(optional) Architecture[0,1]Block1']
+  CNNl_c250_0.testcases          |      33 |    42 |        33 |  0.786 |  1.000 | DIFF
+    Only in m=2: ['(Constraint 12) OR[NOT[Block2_Element4_Cell_Output_Cell][]][Block2_Element5]', '(Constraint 19) OR[NOT[Block4_Element1_Cell_Output_Cell][]][Block4_Element2]', '(Constraint 7) OR[NOT[Block1_Element4_Cell_Output_Cell][]][Block1_Element5]']...
+  CNNl_c25_0.testcases           |       5 |     9 |         5 |  0.556 |  1.000 | DIFF
+    Only in m=2: ['(Constraint 7) OR[NOT[Block1_Element4_Cell_Output_Cell][]][Block1_Element5]', '(Constraint 73) OR[NOT[Architecture][]][NOT[Block5_Element4_Cell_Input1_Zeros][]]', '(optional) Architecture[0,1]Block1']...
+  CNNl_c500_0.testcases          |      36 |    44 |        36 |  0.818 |  1.000 | DIFF
+    Only in m=2: ['(Constraint 19) OR[NOT[Block4_Element1_Cell_Output_Cell][]][Block4_Element2]', '(Constraint 7) OR[NOT[Block1_Element4_Cell_Output_Cell][]][Block1_Element5]', '(mandatory) Block2_Element2_Cell[1,1]Block2_Element2_Cell_Output']...
+  CNNl_c50_0.testcases           |       9 |    17 |         9 |  0.529 |  1.000 | DIFF
+    Only in m=2: ['(Constraint 12) OR[NOT[Block2_Element4_Cell_Output_Cell][]][Block2_Element5]', '(Constraint 19) OR[NOT[Block4_Element1_Cell_Output_Cell][]][Block4_Element2]', '(Constraint 7) OR[NOT[Block1_Element4_Cell_Output_Cell][]][Block1_Element5]']...
+  CNNl_c5_0.testcases            |       1 |     1 |         1 |  1.000 |  1.000 | OK
+
+  Summary: matched=1 mismatch=6 skip=0 | avg_minimality=0.699 avg_accuracy=1.000
+
+--- linux ---
+  Scenario                       | |Δ_min| |   |Δ| | |Δ∩Δ_min| |  minim |  accur | Status
+  -------------------------------+---------+-------+-----------+--------+--------+-------
+  linux_c100_1.testcases         |      20 |    37 |        20 |  0.541 |  1.000 | DIFF
+    Only in m=2: ['(Constraint 6993) OR[ISA][NOT[ARLAN][]]', '(Constraint 85) NOT[ARCH_INLINE_READ_LOCK_IRQ][]', '(optional) root[0,1]FB']...
+  linux_c10_1.testcases          |       2 |     4 |         2 |  0.500 |  1.000 | DIFF
+    Only in m=2: ['(Constraint 6988) OR[STAGING][NOT[STRIP][]]', '(optional) root[0,1]GENERIC_HARDIRQS']
+  linux_c250_1.testcases         |      48 |    89 |        48 |  0.539 |  1.000 | DIFF
+    Only in m=2: ['(Constraint 4617) OR[VIDEO_V4L2][NOT[VIDEO_ADV7180][]]', '(Constraint 5810) OR[HAS_IOMEM][NOT[FB_NVIDIA][]]', '(Constraint 90) NOT[ARCH_INLINE_READ_UNLOCK_IRQRESTORE][]']...
+  linux_c25_1.testcases          |       5 |    10 |         5 |  0.500 |  1.000 | DIFF
+    Only in m=2: ['(Constraint 6988) OR[STAGING][NOT[STRIP][]]', '(Constraint 6993) OR[ISA][NOT[ARLAN][]]', '(Constraint 85) NOT[ARCH_INLINE_READ_LOCK_IRQ][]']...
+  linux_c500_1.testcases         |      94 |   164 |        94 |  0.573 |  1.000 | DIFF
+    Only in m=2: ['(Constraint 2480) NOT[IBM_NEW_EMAC_TAH][]', '(Constraint 4617) OR[VIDEO_V4L2][NOT[VIDEO_ADV7180][]]', '(Constraint 90) NOT[ARCH_INLINE_READ_UNLOCK_IRQRESTORE][]']...
+  linux_c50_1.testcases          |      10 |    19 |        10 |  0.526 |  1.000 | DIFF
+    Only in m=2: ['(Constraint 6993) OR[ISA][NOT[ARLAN][]]', '(Constraint 85) NOT[ARCH_INLINE_READ_LOCK_IRQ][]', '(optional) root[0,1]BINFMT_MISC']...
+  linux_c5_1.testcases           |       1 |     2 |         1 |  0.500 |  1.000 | DIFF
+    Only in m=2: ['(optional) root[0,1]GENERIC_HARDIRQS']
+
+  Summary: matched=0 mismatch=7 skip=0 | avg_minimality=0.526 avg_accuracy=1.000
+
+==========================================================================================
+TOTAL  Matched: 2  |  Mismatch: 40  |  Skipped: 0
+
+Average Minimality & Accuracy by testcase size:
+    |TC| | #scenarios |  avg_minim |  avg_accur
+  -------+------------+------------+-----------
+       5 |          6 |      0.667 |      1.000
+      10 |          6 |      0.556 |      1.000
+      25 |          6 |      0.579 |      1.000
+      50 |          6 |      0.584 |      1.000
+     100 |          6 |      0.601 |      0.976
+     250 |          6 |      0.701 |      0.976
+     500 |          6 |      0.722 |      0.990
+     ALL |         42 |      0.630 |      0.992

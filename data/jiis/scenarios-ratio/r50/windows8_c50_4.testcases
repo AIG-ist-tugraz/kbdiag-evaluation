@@ -1,0 +1,51 @@
+50
+~UseTheComputerWithoutADisplay & ~TurnOnNarrator1 & DisplayAWarningMessageWhenTurningASettingOn5
+~TextToSpeech & ~_100
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & Control_TheVoiceProperties_Speed_OtherOption & SeeAlso
+~TuenOnAudioDescription & MakeASoundWhenTurningASettingOnOrOff4
+~UseTheComputerWithoutADisplay & ~MakeTheFOcusRectangleThicker
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & TextToSpeech & ~VoiceSelection
+TurnOnNarrator1 & ~HowLongShouldWindowsNotificationDialogBoxesStayOpen
+~SetupTextToSpeech & Fast1
+~UseTheComputerWithoutADisplay & ~SpeechRecognition & _1
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & AudioDevicesAndSoundThemes
+UseTheComputerWithoutADisplay & HearTextReadAloud & TuenOnAudioDescription & _1
+UseTheComputerWithoutADisplay & ~SpeechRecognition & PlayWindowsStartupSound
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~PreventWindowsFromBeingAutomaticallyArrangedWhenMovedToTheEdgeOfTheScreen1
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~SetupTextToSpeech & TB_24
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & VoiceSelection & ~Tooltips
+UseTheComputerWithoutADisplay & ~SetupTextToSpeech & Option
+UseTheComputerWithoutADisplay & LargeBlack
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & TextToSpeech & ~VoiceSpeed
+~HearTextReadAloud & DoNothing
+UseTheComputerWithoutADisplay & ~SetupTextToSpeech & EnableVoiceActivation
+UseTheComputerWithoutADisplay & ~TurnOnNarrator1 & ~SetupMouseKeys
+UseTheComputerWithoutADisplay & TuenOnAudioDescription & ~HowLongShouldWindowsNotificationDialogBoxesStayOpen
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~SpeechRecognition & Advanced1
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & SetupTextToSpeech & ~Control_TheVoiceProperties_Speed_OtherOption
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~TextToSpeech & VoiceSelection
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~TuenOnAudioDescription & Acceleration1
+UseTheComputerWithoutADisplay & M_17
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~SetupTextToSpeech & TopSpeed2
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & TextToSpeech & ~_0_7Seconds__
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & TuenOnAudioDescription & _1_1Seconds__
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~SetupTextToSpeech & ~M_13
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~SpeechRecognition & ~FineTuneDisplayEffects
+~SetupTextToSpeech & High2
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~TuenOnAudioDescription & ~_5_Secons
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~Control_TheVoiceProperties_Speed_OtherOption & Menus
+~UseTheComputerWithoutADisplay & ~TurnOnNarrator1 & ~MicrosoftZiraDesktopEnglishGB
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~SetupTextToSpeech & WindowsDefault
+UseTheComputerWithoutADisplay & HearTextReadAloud & SpeechRecognition & ~MouseSettings
+~UseTheComputerWithoutADisplay & HearTextReadAloud & ~TurnOnNarrator1
+~HearTextReadAloud_1 & MicrosoftSpeechRecognizer8_0ForWindowsEnglishUK
+~UseTheComputerWithoutADisplay & ~SpeechRecognition & Speakers
+UseTheComputerWithoutADisplay & ~TuenOnAudioDescription & ~HowLongShouldWindowsNotificationDialogBoxesStayOpen
+~UseTheComputerWithoutADisplay & ~TurnOnNarrator1 & ~SetupMouseKeys
+UseTheComputerWithoutADisplay & ~SpeechRecognition & _2
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~TextToSpeech & VoiceSpeed
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~TextToSpeech & VoiceSelection
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & SpeechRecognition & ~Level
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~SpeechRecognition & New
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & TuenOnAudioDescription & ~VoiceSelection
+UseTheComputerWithoutADisplay & TurnOnNarrator1 & ~AdjustTimeLimitsAndFlashingVisuals1

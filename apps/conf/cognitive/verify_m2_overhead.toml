@@ -1,0 +1,32 @@
+# Verify whether m=2 overhead constraints are faulty
+# Usage: python -m apps.verify_m2_overhead apps/conf/cognitive/verify_m2_overhead.toml
+#
+# Checks each overhead constraint (Δ_m2 \ Δ_m1) against KBDiag all-diagnoses.
+# Requires both task=1 (m=1 + m=2 first-diag) and task=all (all-diagnoses) data.
+
+[verification]
+dir_1           = "data/jiis/results/1"
+dir_all         = "data/jiis/results-cognitive/all"
+output_dir      = "data/jiis/results-cognitive"
+output_filename = "verify-m2-overhead.txt"
+# Only verify scenarios with TC size ≤ this value (0 = no filter)
+max_cardinality = 100
+
+# KBs with m=2 data available
+[[kb]]
+name = "REAL-FM-11"
+
+[[kb]]
+name = "DELL"
+
+[[kb]]
+name = "REAL-FM-4"
+
+[[kb]]
+name = "windows8"
+
+[[kb]]
+name = "CNNl"
+
+[[kb]]
+name = "linux"

@@ -1,0 +1,11 @@
+10
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & TurnOnNarrator1 & ~HowLongShouldTheComputerWaitBeforeAcceptingTheFirstrepeatedKeystroke
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~TextToSpeech
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~TurnOnNarrator1 & None
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~ControlTheMouseWithTheKeyboard
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~TextToSpeech & ~PlayWindowsStartupSound
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~SetupTextToSpeech & ~S_17
+~UseTheComputerWithoutADisplay & ~TurnOnNarrator1 & ~ME_24
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & _30Seconds
+~UseTheComputerWithoutADisplay & ~SetupTextToSpeech & _1
+~UseTheComputerWithoutADisplay & TuenOnAudioDescription & ~MicrosoftZiraDesktopEnglishUS

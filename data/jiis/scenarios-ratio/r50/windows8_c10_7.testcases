@@ -1,0 +1,11 @@
+10
+TurnOnNarrator1 & Communications
+UseTheComputerWithoutADisplay & ~TuenOnAudioDescription & ~On
+~UseTheComputerWithoutADisplay & ~TurnOnNarrator1 & ~High
+UseTheComputerWithoutADisplay & HearTextReadAloud & SetupTextToSpeech & TurnOnVisualNotificationForSounds
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~VoiceSelection & TB_18
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & VoiceSelection
+~UseTheComputerWithoutADisplay & ~TurnOnNarrator1 & Playback
+UseTheComputerWithoutADisplay & ~TextToSpeech & ~AdjustTimeLimitsAndFlashingVisuals1
+~UseTheComputerWithoutADisplay & TuenOnAudioDescription & ~Control_TheVoiceProperties_Speed_OtherOption
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~SetupTextToSpeech & ~SetupMouseKeys

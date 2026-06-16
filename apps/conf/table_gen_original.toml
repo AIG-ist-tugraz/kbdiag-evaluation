@@ -1,5 +1,5 @@
 # Table Generation Configuration (original results)
-# Usage: python -m apps.results_table_gen apps/conf/table_gen.toml
+# Usage: python -m apps.results_table_gen apps/conf/table_gen_original.toml
 
 [general]
 result_path = "data/jiis/results"
@@ -52,6 +52,13 @@ display_name = "REAL-FM-4"
 num_constraints = 233
 total_diagnoses = 0
 table4_test_size = 100
+
+#[[kb]]
+#name = "ubuntu"
+#display_name = "ubuntu"
+#num_constraints = 261
+#total_diagnoses = 0
+#table4_test_size = 100
 
 [[kb]]
 name = "windows8"

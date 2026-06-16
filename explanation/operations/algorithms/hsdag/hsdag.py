@@ -9,6 +9,7 @@ https://github.com/HiConfiT/hiconfit-core/blob/main/ca-cdr-package/src/main/java
 #  @author: Viet-Man Le (v.m.le@tugraz.at)
 
 import time
+from enum import Enum
 from typing import List, Optional, Dict, Union, Any
 
 from .labeler.labeler import IHSLabelable, LabelerType, AbstractHSParameters
@@ -16,6 +17,12 @@ from .node import Node, NodeStatus
 from .. import utils
 from ..profiler import measure_time, get_global_profiler, AbstractProfiler
 from ..utils import diff, contains, get_hashcode
+
+
+class SearchStrategy(Enum):
+    """Search strategy for HSDAG node expansion."""
+    BREADTH_FIRST = "bfs"
+    BEST_FIRST = "best_first"
 
 
 class HSDAGException(Exception):
@@ -31,10 +38,18 @@ class HSDAG:
     """
 
     # pylint: disable=too-many-instance-attributes
-    def __init__(self, labeler: IHSLabelable, profiler_instance: AbstractProfiler = None) -> None:
+    def __init__(self, labeler: IHSLabelable,
+                 search_strategy: SearchStrategy = SearchStrategy.BREADTH_FIRST,
+                 constraint_ordering: List = None,
+                 profiler_instance: AbstractProfiler = None) -> None:
         self.profiler = profiler_instance if profiler_instance is not None else get_global_profiler()
 
         self.labeler = labeler  # could be FastDiag or QuickXPlain
+        self.search_strategy = search_strategy
+        # constraint → index mapping for best-first priority calculation
+        self.constraint_priority: Dict = {}
+        if constraint_ordering:
+            self.constraint_priority = {c: i for i, c in enumerate(reversed(constraint_ordering))}
 
         self.max_number_diagnoses = -1  # maximum number of diagnoses to be found
         self.max_number_conflicts = -1  # maximum number of conflicts to be found
@@ -243,7 +258,21 @@ class HSDAG:
         return len(self.open_nodes) > 0
 
     def get_next_node(self) -> Node:
-        return self.open_nodes.pop(0)
+        if self.search_strategy == SearchStrategy.BEST_FIRST and self.constraint_priority:
+            best_idx = min(range(len(self.open_nodes)),
+                           key=lambda i: self._node_priority(self.open_nodes[i]))
+            return self.open_nodes.pop(best_idx)
+        return self.open_nodes.pop(0)  # BFS (default)
+
+    def _node_priority(self, node: Node) -> tuple:
+        """Compute priority for best-first search (lower = higher priority).
+
+        Nodes whose path contains lower-indexed (less important) constraints
+        are preferred, following lexicographical ordering (Felfernig et al. 2012).
+        """
+        indices = sorted(self.constraint_priority.get(c, float('inf'))
+                         for c in node.path_label)
+        return tuple(indices)
 
     def has_root(self) -> bool:
         return self.root is not None
@@ -323,6 +352,11 @@ class HSDAG:
         for non_min_label in non_min_labels:
             if non_min_label in labels:
                 labels.remove(non_min_label)  # labels.removeAll(non_min_labels)
+            # Remove non-minimal conflicts from node_labels to prevent
+            # get_reusable_labels from reusing them in later nodes
+            if self.search_strategy == SearchStrategy.BEST_FIRST:
+                if non_min_label in self.node_labels:
+                    self.node_labels.remove(non_min_label)
             hashcode = get_hashcode(non_min_label)
             if hashcode in self.label_nodes_map:
                 del self.label_nodes_map[hashcode]  # non_min_labels.forEach(label_nodesMap::remove)

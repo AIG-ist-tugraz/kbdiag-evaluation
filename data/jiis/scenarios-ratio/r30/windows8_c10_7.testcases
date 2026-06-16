@@ -1,0 +1,11 @@
+10
+TurnOnNarrator1 & ~TurnOnMouseKeys1
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~TuenOnAudioDescription & Bold1
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~TurnOnNarrator1 & ~SetHowMuchTheViewChangesWhenZoomingInOrOut
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~TextToSpeech & PaletteTitles
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~SpeechRecognition & ~ChangeTheSizeOfAllItems_1
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~TuenOnAudioDescription & ~MakeASoundWhenTurningASettingOnOrOff5
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~TurnOnNarrator1 & HowLongShouldTheComputerWaitBeforeAcceptingTheFirstrepeatedKeystroke
+~HearTextReadAloud_1 & _1Minute
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~SetupTextToSpeech & Level
+~UseTheComputerWithoutADisplay & ~SpeechRecognition & Speakers

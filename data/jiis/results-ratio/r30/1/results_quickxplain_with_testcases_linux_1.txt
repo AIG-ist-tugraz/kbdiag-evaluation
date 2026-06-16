@@ -1,0 +1,109 @@
+linux linux_c10_1.testcases
+	Diagnosis: [(mandatory) root[1,1]ARCH , (Constraint 57) NOT[HAVE_CLK][], (Constraint 7001) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[PCMCIA_WAVELAN][]]]
+	|D|: 3
+	CC: 87
+	QuickXPlain+TC runtime: 0.077690 s
+	--- Profiler ---
+	Consistency checks (TC): 87
+	Solver calls: 96
+	QuickXPlain+TC calls: 4
+	QX+TC calls: 113
+linux linux_c10_1.testcases
+	Diagnosis: [(mandatory) root[1,1]ARCH , (Constraint 57) NOT[HAVE_CLK][], (Constraint 7001) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[PCMCIA_WAVELAN][]]]
+	|D|: 3
+	CC: 87
+	QuickXPlain+TC runtime: 0.078039 s
+	--- Profiler ---
+	Consistency checks (TC): 87
+	Solver calls: 96
+	QuickXPlain+TC calls: 4
+	QX+TC calls: 113
+linux linux_c10_1.testcases
+	Diagnosis: [(mandatory) root[1,1]ARCH , (Constraint 57) NOT[HAVE_CLK][], (Constraint 7001) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[PCMCIA_WAVELAN][]]]
+	|D|: 3
+	CC: 87
+	QuickXPlain+TC runtime: 0.076984 s
+	--- Profiler ---
+	Consistency checks (TC): 87
+	Solver calls: 96
+	QuickXPlain+TC calls: 4
+	QX+TC calls: 113
+linux linux_c25_1.testcases
+	Diagnosis: [(mandatory) root[1,1]ARCH , (Constraint 57) NOT[HAVE_CLK][], (Constraint 7001) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[PCMCIA_WAVELAN][]], (Constraint 6910) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[VT6655][]], (Constraint 6885) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[IDE_PHISON][]], (Constraint 6922) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[HYPERV][]], (Constraint 6901) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[DRM_NOUVEAU][]], (Constraint 6989) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[STRIP][]]]
+	|D|: 8
+	CC: 311
+	QuickXPlain+TC runtime: 0.310085 s
+	--- Profiler ---
+	Consistency checks (TC): 311
+	Solver calls: 335
+	QuickXPlain+TC calls: 9
+	QX+TC calls: 408
+linux linux_c25_1.testcases
+	Diagnosis: [(mandatory) root[1,1]ARCH , (Constraint 57) NOT[HAVE_CLK][], (Constraint 7001) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[PCMCIA_WAVELAN][]], (Constraint 6910) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[VT6655][]], (Constraint 6885) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[IDE_PHISON][]], (Constraint 6922) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[HYPERV][]], (Constraint 6901) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[DRM_NOUVEAU][]], (Constraint 6989) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[STRIP][]]]
+	|D|: 8
+	CC: 311
+	QuickXPlain+TC runtime: 0.311784 s
+	--- Profiler ---
+	Consistency checks (TC): 311
+	Solver calls: 335
+	QuickXPlain+TC calls: 9
+	QX+TC calls: 408
+linux linux_c25_1.testcases
+	Diagnosis: [(mandatory) root[1,1]ARCH , (Constraint 57) NOT[HAVE_CLK][], (Constraint 7001) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[PCMCIA_WAVELAN][]], (Constraint 6910) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[VT6655][]], (Constraint 6885) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[IDE_PHISON][]], (Constraint 6922) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[HYPERV][]], (Constraint 6901) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[DRM_NOUVEAU][]], (Constraint 6989) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[STRIP][]]]
+	|D|: 8
+	CC: 311
+	QuickXPlain+TC runtime: 0.313572 s
+	--- Profiler ---
+	Consistency checks (TC): 311
+	Solver calls: 335
+	QuickXPlain+TC calls: 9
+	QX+TC calls: 408
+linux linux_c50_1.testcases
+	Diagnosis: [(mandatory) root[1,1]ARCH , (Constraint 57) NOT[HAVE_CLK][], (Constraint 7001) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[PCMCIA_WAVELAN][]], (Constraint 6910) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[VT6655][]], (Constraint 6885) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[IDE_PHISON][]], (Constraint 6922) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[HYPERV][]], (Constraint 6901) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[DRM_NOUVEAU][]], (Constraint 6989) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[STRIP][]], (Constraint 82) NOT[ARCH_INLINE_READ_TRYLOCK][], (Constraint 6847) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[TRANZPORT][]], (Constraint 3311) OR[BROKEN][NOT[PC300][]], (mandatory) root[1,1]IO_DELAY_TYPE_0XED , (Constraint 6628) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[VIDEO_GO7007][]], (Constraint 6918) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[FB_UDL][]], (Constraint 6827) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[R8187SE][]]]
+	|D|: 15
+	CC: 556
+	QuickXPlain+TC runtime: 26.970190 s
+	--- Profiler ---
+	Consistency checks (TC): 556
+	Solver calls: 605
+	QuickXPlain+TC calls: 16
+	QX+TC calls: 737
+linux linux_c50_1.testcases
+	Diagnosis: [(mandatory) root[1,1]ARCH , (Constraint 57) NOT[HAVE_CLK][], (Constraint 7001) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[PCMCIA_WAVELAN][]], (Constraint 6910) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[VT6655][]], (Constraint 6885) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[IDE_PHISON][]], (Constraint 6922) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[HYPERV][]], (Constraint 6901) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[DRM_NOUVEAU][]], (Constraint 6989) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[STRIP][]], (Constraint 82) NOT[ARCH_INLINE_READ_TRYLOCK][], (Constraint 6847) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[TRANZPORT][]], (Constraint 3311) OR[BROKEN][NOT[PC300][]], (mandatory) root[1,1]IO_DELAY_TYPE_0XED , (Constraint 6628) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[VIDEO_GO7007][]], (Constraint 6918) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[FB_UDL][]], (Constraint 6827) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[R8187SE][]]]
+	|D|: 15
+	CC: 556
+	QuickXPlain+TC runtime: 27.832305 s
+	--- Profiler ---
+	Consistency checks (TC): 556
+	Solver calls: 605
+	QuickXPlain+TC calls: 16
+	QX+TC calls: 737
+linux linux_c50_1.testcases
+	Diagnosis: [(mandatory) root[1,1]ARCH , (Constraint 57) NOT[HAVE_CLK][], (Constraint 7001) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[PCMCIA_WAVELAN][]], (Constraint 6910) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[VT6655][]], (Constraint 6885) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[IDE_PHISON][]], (Constraint 6922) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[HYPERV][]], (Constraint 6901) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[DRM_NOUVEAU][]], (Constraint 6989) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[STRIP][]], (Constraint 82) NOT[ARCH_INLINE_READ_TRYLOCK][], (Constraint 6847) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[TRANZPORT][]], (Constraint 3311) OR[BROKEN][NOT[PC300][]], (mandatory) root[1,1]IO_DELAY_TYPE_0XED , (Constraint 6628) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[VIDEO_GO7007][]], (Constraint 6918) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[FB_UDL][]], (Constraint 6827) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[R8187SE][]]]
+	|D|: 15
+	CC: 556
+	QuickXPlain+TC runtime: 28.537569 s
+	--- Profiler ---
+	Consistency checks (TC): 556
+	Solver calls: 605
+	QuickXPlain+TC calls: 16
+	QX+TC calls: 737
+linux linux_c100_1.testcases
+	Diag: TO
+	Time: 1200.000000 s (timeout)
+linux linux_c250_1.testcases
+	Diag: TO
+	Time: 1200.000000 s (timeout)
+linux linux_c500_1.testcases
+	Diag: TO
+	Time: 1200.000000 s (timeout)
+
+=== Evaluation Results: quickxplain_with_testcases (m=1, task=1) ===
+Testcase                  | Avg Time (s) |   |D| |  #Diag
+---------------------------------------------------------
+linux/linux_c10_1.testcases |     0.077571 |     3 |      1
+linux/linux_c25_1.testcases |     0.311814 |     8 |      1
+linux/linux_c50_1.testcases |    27.780021 |    15 |      1
+linux/linux_c100_1.testcases |  1200.000000 |    TO |     TO
+linux/linux_c250_1.testcases |  1200.000000 |    TO |     TO
+linux/linux_c500_1.testcases |  1200.000000 |    TO |     TO

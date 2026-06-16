@@ -1,0 +1,11 @@
+10
+UseTheComputerWithoutADisplay & HearTextReadAloud & TextToSpeech & ~_1_5Seconds_
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~SpeechRecognition & ~S_6
+UseTheComputerWithoutADisplay & HearTextReadAloud & TextToSpeech & ~TrainYourComputerToBetterUnderstandYou
+~UseTheComputerWithoutADisplay & DisplayAWarningMessageWhenTurningASettingOn
+UseTheComputerWithoutADisplay & HearTextReadAloud_1 & ~S_2
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~TuenOnAudioDescription & _15Seconds
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & TextToSpeech & MakeItEasierToManageWindows2
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~TurnOnNarrator1 & ~MakeASoundWhenTurningASettingOnOrOff5
+UseTheComputerWithoutADisplay & HearTextReadAloud & TextToSpeech & ~RepeatDelay
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & WindowsDefault

@@ -1,0 +1,51 @@
+50
+TurnOnNarrator1 & ~TurnOnMouseKeys1
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~TuenOnAudioDescription & Bold1
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~TurnOnNarrator1 & ~SetHowMuchTheViewChangesWhenZoomingInOrOut
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~TextToSpeech & PaletteTitles
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~SpeechRecognition & ~ChangeTheSizeOfAllItems_1
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~TuenOnAudioDescription & ~MakeASoundWhenTurningASettingOnOrOff5
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~TurnOnNarrator1 & HowLongShouldTheComputerWaitBeforeAcceptingTheFirstrepeatedKeystroke
+~HearTextReadAloud_1 & _1Minute
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~SetupTextToSpeech & Level
+~UseTheComputerWithoutADisplay & ~SpeechRecognition & Speakers
+HearTextReadAloud_1 & ~_1_7Seconds__
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~MakeTheComputerEasierToSee
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~TuenOnAudioDescription & Magnifier1
+HearTextReadAloud & ~SetupStickyKeys
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~TextToSpeech & S_10
+~SetupTextToSpeech & ~S_6
+UseTheComputerWithoutADisplay & ~TextToSpeech & ~MakeItEasierToType2
+~UseTheComputerWithoutADisplay & ~TextToSpeech & ~KeyboardShortcut4
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & SetupTextToSpeech & ~TrainProfile
+~HearTextReadAloud & ~S_11
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & Speakers
+~SetupTextToSpeech & MicrosoftZiraDesktopEnglishGB
+~UseTheComputerWithoutADisplay & TuenOnAudioDescription & ~SpeechRecognition
+UseTheComputerWithoutADisplay & ~TextToSpeech & ~AdjustTimeLimitsAndFlashingVisuals
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~TuenOnAudioDescription & ~SetupMouseKeys
+UseTheComputerWithoutADisplay & TextToSpeech & Fast1
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & Note
+UseTheComputerWithoutADisplay & ~TurnOnNarrator1 & Feedback
+~UseTheComputerWithoutADisplay & TB_17
+UseTheComputerWithoutADisplay & ~TextToSpeech & ~PreventWindowsFromBeingAutomaticallyArrangedWhenMovedToTheEdgeOfTheScreen1
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~TurnOnNarrator1 & SetupMouseKeys1
+UseTheComputerWithoutADisplay & TextToSpeech & ~_1_0Seconds_
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~Control_TheVoiceProperties_Speed_OtherOption & SlowDownKeyboardRepeateRates
+~UseTheComputerWithoutADisplay & ~TextToSpeech & ExtraLargeWhite
+UseTheComputerWithoutADisplay & TuenOnAudioDescription & ~ME_10
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~SpeechRecognition & ~HowLongShouldWindowsNotificationDialogBoxesStayOpen2
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~TuenOnAudioDescription & SetupFilterKeys1
+TuenOnAudioDescription & TurnOnMouseKeys1
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~SpeechRecognition & ~Fast3
+UseTheComputerWithoutADisplay & HearTextReadAloud & SetupTextToSpeech & ~TB_8
+UseTheComputerWithoutADisplay & HearTextReadAloud_1 & ~Fast3
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~SetupTextToSpeech & ~HowLongShouldWindowsNotificationDialogBoxesStayOpen
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud_1 & ~ChangeTheSizeOfAllItems_1
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~Control_TheVoiceProperties_Speed_OtherOption & SeeAlso1
+~SetupTextToSpeech & MicrosoftDavidDesktopEnglishGB
+~HearTextReadAloud_1 & _30Seconds
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~TuenOnAudioDescription & ~SetupMouseKeys
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & SetupTextToSpeech & MicrosoftZiraDesktopEnglishGB
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & TuenOnAudioDescription & ~MicrosoftZiraDesktopEnglishUS
+~UseTheComputerWithoutADisplay & ~TuenOnAudioDescription & Sounds

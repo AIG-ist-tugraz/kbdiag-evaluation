@@ -1,0 +1,11 @@
+10
+~HearTextReadAloud_1 & ~OtherSettings3
+UseTheComputerWithoutADisplay & ~TextToSpeech & ~_0_0Seconds__
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~TuenOnAudioDescription & ~TurnOffAllUnnecessaryAnimationWhenPossible
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~TextToSpeech & ~SoundScheme
+UseTheComputerWithoutADisplay & TypeUsingAPointingDevice
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~SetupTextToSpeech & Tooltips
+SetupTextToSpeech & ~LargeInverting
+SetupTextToSpeech & ~HowLongShouldWindowsNotificationDialogBoxesStayOpen
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~HearTextReadAloud_1
+~TuenOnAudioDescription & ~SetupMouseKeys

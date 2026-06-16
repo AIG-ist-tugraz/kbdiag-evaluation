@@ -1,0 +1,11 @@
+10
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & Control_TheVoiceProperties_Speed_OtherOption & TitleBars
+UseTheComputerWithoutADisplay & ~TuenOnAudioDescription & ~UseMouseKeysWhenNUMLOCKis
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud_1 & ~_0_7Seconds___
+~SetupTextToSpeech & ~MakeItEasierToUseKeyboardShortcuts
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud_1 & ~LearnAboutAdditionalAssistiveTechnologiesOnline7
+UseTheComputerWithoutADisplay & HearTextReadAloud & Control_TheVoiceProperties_Speed_OtherOption & ~Views
+~UseTheComputerWithoutADisplay & ~TuenOnAudioDescription & ~MakeASoundWhenTurningASettingOnOrOff5
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & New
+~HearTextReadAloud_1 & ReduceTheVolumeOfOtherSoundsBy80
+UseTheComputerWithoutADisplay & ~TurnOnNarrator1 & ~AdjustTimeLimitsAndFlashingVisuals1

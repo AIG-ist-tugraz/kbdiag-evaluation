@@ -1,0 +1,26 @@
+25
+~UseTheComputerWithoutADisplay & ~TurnOnNarrator1 & DisplayAWarningMessageWhenTurningASettingOn5
+~TextToSpeech & ~_100
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & Control_TheVoiceProperties_Speed_OtherOption & SeeAlso
+~TuenOnAudioDescription & MakeASoundWhenTurningASettingOnOrOff4
+~UseTheComputerWithoutADisplay & ~MakeTheFOcusRectangleThicker
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & TextToSpeech & ~VoiceSelection
+TurnOnNarrator1 & ~HowLongShouldWindowsNotificationDialogBoxesStayOpen
+~SetupTextToSpeech & Fast1
+~UseTheComputerWithoutADisplay & ~SpeechRecognition & _1
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & AudioDevicesAndSoundThemes
+UseTheComputerWithoutADisplay & HearTextReadAloud & TuenOnAudioDescription & _1
+UseTheComputerWithoutADisplay & ~SpeechRecognition & PlayWindowsStartupSound
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~PreventWindowsFromBeingAutomaticallyArrangedWhenMovedToTheEdgeOfTheScreen1
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~SetupTextToSpeech & TB_24
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & VoiceSelection & ~Tooltips
+UseTheComputerWithoutADisplay & ~SetupTextToSpeech & Option
+UseTheComputerWithoutADisplay & LargeBlack
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & TextToSpeech & ~VoiceSpeed
+~HearTextReadAloud & DoNothing
+UseTheComputerWithoutADisplay & ~SetupTextToSpeech & EnableVoiceActivation
+UseTheComputerWithoutADisplay & ~TurnOnNarrator1 & ~SetupMouseKeys
+UseTheComputerWithoutADisplay & TuenOnAudioDescription & ~HowLongShouldWindowsNotificationDialogBoxesStayOpen
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~SpeechRecognition & Advanced1
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & SetupTextToSpeech & ~Control_TheVoiceProperties_Speed_OtherOption
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~TextToSpeech & VoiceSelection

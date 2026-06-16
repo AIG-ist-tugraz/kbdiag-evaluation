@@ -1,0 +1,26 @@
+25
+~HearTextReadAloud_1 & ~OtherSettings3
+UseTheComputerWithoutADisplay & ~TextToSpeech & ~_0_0Seconds__
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~TuenOnAudioDescription & ~TurnOffAllUnnecessaryAnimationWhenPossible
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~TextToSpeech & ~SoundScheme
+UseTheComputerWithoutADisplay & TypeUsingAPointingDevice
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~SetupTextToSpeech & Tooltips
+SetupTextToSpeech & ~LargeInverting
+SetupTextToSpeech & ~HowLongShouldWindowsNotificationDialogBoxesStayOpen
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~HearTextReadAloud_1
+~TuenOnAudioDescription & ~SetupMouseKeys
+UseTheComputerWithoutADisplay & HearTextReadAloud & TuenOnAudioDescription & Advanced2
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & TextToSpeech & ~SetHowMuchTheViewChangesWhenZoomingInOrOut
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~SetupTextToSpeech & RemoveBackgroundImageWhenAvailable
+TuenOnAudioDescription & ~MakeTheComputerEasierToSee_1
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & _200
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~SetupTextToSpeech & ~_2_0Seconds_
+TuenOnAudioDescription & ~TurnOffAllUnnecessaryAnimationWhenPossible
+HearTextReadAloud & ~RegularBlack
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~SpeechRecognition & ~LearnAboutAdditionalAssistiveTechnologiesOnline4
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~Control_TheVoiceProperties_Speed_OtherOption & ~TB_21
+~HearTextReadAloud & LearnAboutAdditionalAssistiveTechnologiesOnline1
+UseTheComputerWithoutADisplay & ~TextToSpeech & VoiceSelection
+~SetupTextToSpeech & Advanced1
+TurnOnNarrator1 & ~SetupMouseKeys
+UseTheComputerWithoutADisplay & ~SpeechRecognition & MicrosoftSpeechRecognizer8_0ForWindowsEnglishUK

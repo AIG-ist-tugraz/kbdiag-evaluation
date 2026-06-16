@@ -1,0 +1,11 @@
+10
+TextToSpeech & ~WindowsXpStyleScaling
+~UseTheComputerWithoutADisplay & ~SetupTextToSpeech & HighContrast_1
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & TuenOnAudioDescription & LearnAboutAdditionalAssistiveTechnologiesOnline6
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~Control_TheVoiceProperties_Speed_OtherOption & ~TB_10
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~SetupTextToSpeech & ~MakeTheComputerEasierToSee
+~UseTheComputerWithoutADisplay & SoundScheme
+~TextToSpeech & Advanced2
+TurnOnNarrator1 & ~TurnOnNarrator
+~SetupTextToSpeech & ReviewDocumentsAndMailToImproveAccuracy
+~HearTextReadAloud & TurnOffAllUnnecessaryAnimation

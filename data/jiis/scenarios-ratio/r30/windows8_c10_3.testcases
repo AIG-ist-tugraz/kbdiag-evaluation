@@ -1,0 +1,11 @@
+10
+~UseTheComputerWithoutADisplay & Slow
+~HearTextReadAloud_1 & ~_1_0Seconds
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~Off2
+UseTheComputerWithoutADisplay & ~SpeechRecognition & PersonalizeAppearanceAndSoundEffect
+HearTextReadAloud_1 & ~MakeItEasierToManageWindows3
+UseTheComputerWithoutADisplay & HearTextReadAloud & Acceleration2
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~Control_TheVoiceProperties_Speed_OtherOption & OtherSettings3
+~HearTextReadAloud_1 & SeeAlso1
+~UseTheComputerWithoutADisplay & ~SetupTextToSpeech & DefaultSpeechProfile
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~SpeechRecognition & RunSpeechRecognitionAtStartup

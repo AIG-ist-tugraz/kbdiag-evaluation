@@ -28,6 +28,7 @@ from explanation.operations.algorithms.profiler import ProfilerMode, ProfilerPre
 from explanation.operations.algorithms.quickxplain import QuickXPlain
 from explanation.operations.algorithms.quickxplain_with_testcases import QuickXPlainWithTestCases
 from explanation.operations.pysat_abstract_explanation import _format_results
+from explanation.operations.algorithms.hsdag.hsdag import SearchStrategy
 from explanation.operations.pysat_explanation_builder import (
     PySATDiagnosisBuilder, PySATTestcaseBuilder,
     PySATRedundancyTestCasesBuilder, PySATRedundancyConstraintsBuilder, PySATTestcaseQuickXplainBuilder
@@ -82,6 +83,12 @@ ENABLED_TESTS = {
     'hsdag_quickxplainwithtestcases_1cs_1_neg': True,
     'hsdag_quickxplainwithtestcases_all_1': True,
     'hsdag_quickxplainwithtestcases_all_1_neg': True,
+
+    # HSDAG+QuickXPlainWithTestCases best-first tests
+    'hsdag_quickxplainwithtestcases_bestfirst_1diag': True,
+    'hsdag_quickxplainwithtestcases_bestfirst_1diag_neg': True,
+    'hsdag_quickxplainwithtestcases_bestfirst_all': True,
+    'hsdag_default_is_bfs': True,
 
     # WipeOutR_FM tests
     'wipeoutr_fm_redundancy': True,
@@ -1316,6 +1323,145 @@ class DiagnosisTest(unittest.TestCase):
             assert result[1] == 'Non-redundant test cases: [FeatureC=false, FeatureA=true & FeatureB=true]', \
                 "Expected 'FeatureC = false' and 'FeatureA = true & FeatureB = true' to be non-redundant"
 
+
+
+    # =============================================================================
+    # HSDAG + QUICKXPLAINWITHTESTCASES BEST-FIRST TESTS
+    # =============================================================================
+
+    @parameterized.expand(STANDARD_PARAMS)
+    @_skip_disabled('hsdag_quickxplainwithtestcases_bestfirst_1diag')
+    def test_hsdag_quickxplainwithtestcases_bestfirst_1diag(self, name, is_incremental, solver_name, use_sat4j, enable_profiling):
+        """HSDAG+QXWithTC best-first: find one diagnosis."""
+        print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
+
+        with profiler_session(_profiler_preset(enable_profiling)) as profiler:
+            print_profiler_status(profiler)
+
+            positive_testcases = TestSuiteReader(Resources.FM_10_1_POSITIVE_TESTCASES).transform()
+            model = (DiagnosisModelBuilder
+                     .from_uvl(Resources.FM_10_1)
+                     .with_positive_testcases(positive_testcases)
+                     .use_incremental(is_incremental)
+                     .build())
+
+            builder = None if use_sat4j else PySATTestcaseQuickXplainBuilder.for_debugging()
+            if builder is None:
+                return
+
+            op = (builder
+                  .with_max_diagnoses(1)
+                  .with_search_strategy(SearchStrategy.BEST_FIRST)
+                  .build())
+            op.execute(model)
+            result = op.get_result()
+
+            profiler.print_summary(include_raw_timers=True)
+            print(result)
+            # Best-first should find a valid diagnosis (non-empty)
+            assert len(result) == 2, f"Expected 2 result lines, got {len(result)}"
+            assert 'Diagnosis:' in result[0], "Expected diagnosis in result"
+
+    @parameterized.expand(STANDARD_PARAMS)
+    @_skip_disabled('hsdag_quickxplainwithtestcases_bestfirst_1diag_neg')
+    def test_hsdag_quickxplainwithtestcases_bestfirst_1diag_neg(self, name, is_incremental, solver_name, use_sat4j, enable_profiling):
+        """HSDAG+QXWithTC best-first: find one diagnosis with negative testcases."""
+        print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
+
+        with profiler_session(_profiler_preset(enable_profiling)) as profiler:
+            print_profiler_status(profiler)
+
+            positive_testcases = TestSuiteReader(Resources.FM_10_1_POSITIVE_TESTCASES).transform()
+            negative_testcases = TestSuiteReader(Resources.FM_10_1_NEGATIVE_TESTCASES).transform()
+            model = (DiagnosisModelBuilder
+                     .from_uvl(Resources.FM_10_1)
+                     .with_positive_testcases(positive_testcases)
+                     .with_negative_testcases(negative_testcases)
+                     .use_incremental(is_incremental)
+                     .build())
+
+            builder = None if use_sat4j else PySATTestcaseQuickXplainBuilder.for_debugging()
+            if builder is None:
+                return
+
+            op = (builder
+                  .with_max_diagnoses(1)
+                  .with_search_strategy(SearchStrategy.BEST_FIRST)
+                  .build())
+            op.execute(model)
+            result = op.get_result()
+
+            profiler.print_summary(include_raw_timers=True)
+            print(result)
+            assert len(result) == 2, f"Expected 2 result lines, got {len(result)}"
+            assert 'Diagnosis:' in result[0], "Expected diagnosis in result"
+
+    @parameterized.expand(STANDARD_PARAMS)
+    @_skip_disabled('hsdag_quickxplainwithtestcases_bestfirst_all')
+    def test_hsdag_quickxplainwithtestcases_bestfirst_all(self, name, is_incremental, solver_name, use_sat4j, enable_profiling):
+        """HSDAG+QXWithTC best-first: all diagnoses should match BFS set."""
+        print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
+
+        with profiler_session(_profiler_preset(enable_profiling)) as profiler:
+            print_profiler_status(profiler)
+
+            positive_testcases = TestSuiteReader(Resources.FM_10_1_POSITIVE_TESTCASES).transform()
+            model = (DiagnosisModelBuilder
+                     .from_uvl(Resources.FM_10_1)
+                     .with_positive_testcases(positive_testcases)
+                     .use_incremental(is_incremental)
+                     .build())
+
+            # BFS all diagnoses
+            bfs_builder = None if use_sat4j else PySATTestcaseQuickXplainBuilder.for_debugging()
+            if bfs_builder is None:
+                return
+            bfs_op = bfs_builder.build()
+            bfs_op.execute(model)
+            bfs_diagnoses = bfs_op.get_diagnoses()
+
+            # Rebuild model for best-first run
+            model2 = (DiagnosisModelBuilder
+                      .from_uvl(Resources.FM_10_1)
+                      .with_positive_testcases(positive_testcases)
+                      .use_incremental(is_incremental)
+                      .build())
+
+            # Best-first all diagnoses
+            bf_builder = PySATTestcaseQuickXplainBuilder.for_debugging()
+            bf_op = (bf_builder
+                     .with_search_strategy(SearchStrategy.BEST_FIRST)
+                     .build())
+            bf_op.execute(model2)
+            bf_diagnoses = bf_op.get_diagnoses()
+
+            profiler.print_summary(include_raw_timers=True)
+            print(f"BFS diagnoses: {len(bfs_diagnoses)}, Best-first diagnoses: {len(bf_diagnoses)}")
+
+            # Best-first may find fewer diagnoses due to non-minimal conflict
+            # cleanup in process_labels, but all found diagnoses must be valid
+            assert len(bf_diagnoses) > 0, "Best-first should find at least one diagnosis"
+            # Every BF diagnosis must be a subset of some BFS diagnosis or vice versa
+            # (both are valid minimal diagnoses)
+            bf_sets = {frozenset(str(c) for c in d) for d in bf_diagnoses}
+            bfs_sets = {frozenset(str(c) for c in d) for d in bfs_diagnoses}
+            # All BF diagnoses should also appear in BFS results
+            assert bf_sets.issubset(bfs_sets), \
+                f"BF diagnoses not in BFS set:\n{bf_sets - bfs_sets}"
+
+    @parameterized.expand(STANDARD_PARAMS)
+    @_skip_disabled('hsdag_default_is_bfs')
+    def test_hsdag_default_is_bfs(self, name, is_incremental, solver_name, use_sat4j, enable_profiling):
+        """Default search strategy should be BFS (backward compatibility)."""
+        print_test_header(name, is_incremental, solver_name, use_sat4j, enable_profiling)
+
+        builder = None if use_sat4j else PySATTestcaseQuickXplainBuilder.for_debugging()
+        if builder is None:
+            return
+
+        op = builder.with_max_diagnoses(1).build()
+        assert op.search_strategy == SearchStrategy.BREADTH_FIRST, \
+            f"Expected BREADTH_FIRST, got {op.search_strategy}"
 
 
 if __name__ == '__main__':

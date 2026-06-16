@@ -1,0 +1,26 @@
+25
+UseTheComputerWithoutADisplay & HearTextReadAloud & SpeechRecognition & ~Narrator
+~HearTextReadAloud & ~_1_Minute
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~SetupTextToSpeech & TurnOffAllUnnecessaryAnimation
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~SetupTextToSpeech & ~MakeThingsOnTheScreenLarger
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~TuenOnAudioDescription & UseTheComputerWithoutAMouseOrKeyboard
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~TurnOnNarrator1 & Reading
+~HearTextReadAloud_1 & ~None
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & Control_TheVoiceProperties_Speed_OtherOption & ~S_12
+UseTheComputerWithoutADisplay & ME_11
+UseTheComputerWithoutADisplay & ~SetupTextToSpeech & AudioInput
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~TextToSpeech & _0_0Seconds
+~HearTextReadAloud_1 & MakeTouchEasierToUse
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud_1 & ~MakeTheFOcusRectangleThicker
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~SlowDownKeyboardRepeateRates
+~UseTheComputerWithoutADisplay & ~TuenOnAudioDescription & ~MakeItEasierToFocusOnTasks
+~UseTheComputerWithoutADisplay & ~TextToSpeech & ~M_10
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~TextToSpeech & ~Advanced2
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~TuenOnAudioDescription & _0_3Seconds__
+HearTextReadAloud & TB_17
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~TurnOnTextCaptionsForSpokenDialog
+~TuenOnAudioDescription & ~KeyboardShortcut1
+TurnOnNarrator1 & ~S_21
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~SpeechRecognition & ~UseSpeechRecognition2
+~UseTheComputerWithoutADisplay & HearTextReadAloud & TuenOnAudioDescription
+~HearTextReadAloud_1 & Advanced2

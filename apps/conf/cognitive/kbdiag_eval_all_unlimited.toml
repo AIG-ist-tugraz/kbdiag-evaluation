@@ -1,0 +1,114 @@
+# KBDiag task=all UNLIMITED for Phase 4 overhead verification
+# Usage: python -m apps.eval_runner apps/conf/cognitive/kbdiag_eval_all_unlimited.toml
+#
+# Re-runs KBDiag all-diagnoses without cap (was cap=10 in Feb 24 data).
+# 1 iteration only — we need diagnosis sets, not timing benchmarks.
+# Profiler disabled to speed up runs.
+
+[evaluation]
+algorithm = "kbdiag"
+task = "all"
+# No max_diagnoses → unlimited enumeration
+num_iterations = 1
+m = 1
+dry_run = false
+timeout = 0
+timeout_all = 1200
+
+[solver]
+solver_name = "glucose3"
+use_incremental = true
+
+[profiler]
+enabled = false
+
+[output]
+result_path = "data/jiis/results-cognitive_1"
+
+[[kb]]
+name = "REAL-FM-11"
+model = "data/jiis/fms/REAL-FM-11.uvl"
+scenarios_dir = "data/jiis/scenarios"
+testcases = [
+#    "REAL-FM-11_c5_1.testcases",
+#    "REAL-FM-11_c10_1.testcases",
+#    "REAL-FM-11_c25_1.testcases",
+#    "REAL-FM-11_c50_1.testcases",
+#    "REAL-FM-11_c100_1.testcases",
+    "REAL-FM-11_c250_1.testcases",
+    "REAL-FM-11_c500_1.testcases",
+]
+#
+#[[kb]]
+#name = "DELL"
+#model = "data/jiis/fms/DELL.uvl"
+#scenarios_dir = "data/jiis/scenarios"
+#testcases = [
+#    "DELL_c5_0.testcases",
+#    "DELL_c10_0.testcases",
+#    "DELL_c25_0.testcases",
+#    "DELL_c50_0.testcases",
+#    "DELL_c100_0.testcases",
+#    "DELL_c250_0.testcases",
+#    "DELL_c500_0.testcases",
+#]
+#
+#[[kb]]
+#name = "REAL-FM-4"
+#model = "data/jiis/fms/REAL-FM-4.uvl"
+#scenarios_dir = "data/jiis/scenarios"
+#testcases = [
+#    "REAL-FM-4_c5_0.testcases",
+#    "REAL-FM-4_c10_0.testcases",
+#    "REAL-FM-4_c25_0.testcases",
+#    "REAL-FM-4_c50_0.testcases",
+#    "REAL-FM-4_c100_0.testcases",
+#    "REAL-FM-4_c250_0.testcases",
+#    "REAL-FM-4_c500_0.testcases",
+#]
+#
+#[[kb]]
+#name = "windows8"
+#model = "data/jiis/fms/windows8.uvl"
+#scenarios_dir = "data/jiis/scenarios"
+#testcases = [
+#    "windows8_c5_0.testcases",
+#    "windows8_c10_0.testcases",
+#    "windows8_c25_0.testcases",
+#    "windows8_c50_0.testcases",
+#    "windows8_c100_0.testcases",
+#    "windows8_c250_0.testcases",
+#    "windows8_c500_0.testcases",
+#]
+
+[[kb]]
+name = "CNNl"
+model = "data/jiis/fms/Ghamizi2019-light.uvl"
+scenarios_dir = "data/jiis/scenarios"
+testcases = [
+#    "CNNl_c5_0.testcases",
+#    "CNNl_c10_0.testcases",
+#    "CNNl_c25_0.testcases",
+#    "CNNl_c50_0.testcases",
+#    "CNNl_c100_0.testcases",
+    "CNNl_c250_0.testcases",
+    "CNNl_c500_0.testcases",
+]
+
+[[kb]]
+name = "linux"
+model = "data/jiis/fms/linux-2.6.33.3.uvl"
+scenarios_dir = "data/jiis/scenarios"
+testcases = [
+#    "linux_c5_1.testcases",
+#    "linux_c10_1.testcases",
+#    "linux_c25_1.testcases",
+#    "linux_c50_1.testcases",
+#    "linux_c100_1.testcases",
+    "linux_c250_1.testcases",
+    "linux_c500_1.testcases",
+]
+
+[email]
+enabled = true
+subject_prefix = "[KBDiag]"

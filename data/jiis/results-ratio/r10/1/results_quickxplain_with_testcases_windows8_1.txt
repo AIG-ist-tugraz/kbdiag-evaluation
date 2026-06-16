@@ -1,0 +1,190 @@
+windows8 windows8_c10_0.testcases
+	Diagnosis: [(mandatory) Sounds[1,1]SoundScheme ]
+	|D|: 1
+	CC: 25
+	QuickXPlain+TC runtime: 0.001544 s
+	--- Profiler ---
+	Consistency checks (TC): 25
+	Solver calls: 34
+	QuickXPlain+TC calls: 2
+	QX+TC calls: 29
+windows8 windows8_c10_0.testcases
+	Diagnosis: [(mandatory) Sounds[1,1]SoundScheme ]
+	|D|: 1
+	CC: 25
+	QuickXPlain+TC runtime: 0.001526 s
+	--- Profiler ---
+	Consistency checks (TC): 25
+	Solver calls: 34
+	QuickXPlain+TC calls: 2
+	QX+TC calls: 29
+windows8 windows8_c10_0.testcases
+	Diagnosis: [(mandatory) Sounds[1,1]SoundScheme ]
+	|D|: 1
+	CC: 25
+	QuickXPlain+TC runtime: 0.001598 s
+	--- Profiler ---
+	Consistency checks (TC): 25
+	Solver calls: 34
+	QuickXPlain+TC calls: 2
+	QX+TC calls: 29
+windows8 windows8_c25_0.testcases
+	Diagnosis: [(mandatory) Sounds[1,1]SoundScheme , (alternative) VoiceSpeed[1,1]Normal Fast1 Slow1 , (optional) SpeechRecognition[0,1]UserSettings ]
+	|D|: 3
+	CC: 62
+	QuickXPlain+TC runtime: 0.004343 s
+	--- Profiler ---
+	Consistency checks (TC): 62
+	Solver calls: 86
+	QuickXPlain+TC calls: 4
+	QX+TC calls: 71
+windows8 windows8_c25_0.testcases
+	Diagnosis: [(mandatory) Sounds[1,1]SoundScheme , (alternative) VoiceSpeed[1,1]Normal Fast1 Slow1 , (optional) SpeechRecognition[0,1]UserSettings ]
+	|D|: 3
+	CC: 62
+	QuickXPlain+TC runtime: 0.004286 s
+	--- Profiler ---
+	Consistency checks (TC): 62
+	Solver calls: 86
+	QuickXPlain+TC calls: 4
+	QX+TC calls: 71
+windows8 windows8_c25_0.testcases
+	Diagnosis: [(mandatory) Sounds[1,1]SoundScheme , (alternative) VoiceSpeed[1,1]Normal Fast1 Slow1 , (optional) SpeechRecognition[0,1]UserSettings ]
+	|D|: 3
+	CC: 62
+	QuickXPlain+TC runtime: 0.004278 s
+	--- Profiler ---
+	Consistency checks (TC): 62
+	Solver calls: 86
+	QuickXPlain+TC calls: 4
+	QX+TC calls: 71
+windows8 windows8_c50_0.testcases
+	Diagnosis: [(mandatory) Sounds[1,1]SoundScheme , (or) SetupTextToSpeech[1,2]TextToSpeech SpeechRecognition , (optional) SpeechRecognition[0,1]UserSettings , (mandatory) SpeechRecognition[1,1]Language ]
+	|D|: 4
+	CC: 100
+	QuickXPlain+TC runtime: 0.009994 s
+	--- Profiler ---
+	Consistency checks (TC): 100
+	Solver calls: 174
+	QuickXPlain+TC calls: 6
+	QX+TC calls: 113
+windows8 windows8_c50_0.testcases
+	Diagnosis: [(mandatory) Sounds[1,1]SoundScheme , (or) SetupTextToSpeech[1,2]TextToSpeech SpeechRecognition , (optional) SpeechRecognition[0,1]UserSettings , (mandatory) SpeechRecognition[1,1]Language ]
+	|D|: 4
+	CC: 100
+	QuickXPlain+TC runtime: 0.009934 s
+	--- Profiler ---
+	Consistency checks (TC): 100
+	Solver calls: 174
+	QuickXPlain+TC calls: 6
+	QX+TC calls: 113
+windows8 windows8_c50_0.testcases
+	Diagnosis: [(mandatory) Sounds[1,1]SoundScheme , (or) SetupTextToSpeech[1,2]TextToSpeech SpeechRecognition , (optional) SpeechRecognition[0,1]UserSettings , (mandatory) SpeechRecognition[1,1]Language ]
+	|D|: 4
+	CC: 100
+	QuickXPlain+TC runtime: 0.010276 s
+	--- Profiler ---
+	Consistency checks (TC): 100
+	Solver calls: 174
+	QuickXPlain+TC calls: 6
+	QX+TC calls: 113
+windows8 windows8_c100_0.testcases
+	Diagnosis: [(mandatory) AudioDevicesAndSoundThemes[1,1]Sounds , (mandatory) TextToSpeech[1,1]VoiceSpeed , (optional) SpeechRecognition[0,1]UserSettings , (alternative) VoiceSelection[1,1]MicrosoftDavidDesktopEnglishUS MicrosoftZiraDesktopEnglishGB MicrosoftDavidDesktopEnglishGB MicrosoftZiraDesktopEnglishUS , (mandatory) SpeechRecognition[1,1]Language , (Constraint 57) OR[NOT[TurnOnNarrator1][]][TurnOnNarrator], (or) HearTextReadAloud_1[1,2]TuenOnAudioDescription TurnOnNarrator1 ]
+	|D|: 7
+	CC: 181
+	QuickXPlain+TC runtime: 0.035455 s
+	--- Profiler ---
+	Consistency checks (TC): 181
+	Solver calls: 481
+	QuickXPlain+TC calls: 10
+	QX+TC calls: 209
+windows8 windows8_c100_0.testcases
+	Diagnosis: [(mandatory) AudioDevicesAndSoundThemes[1,1]Sounds , (mandatory) TextToSpeech[1,1]VoiceSpeed , (optional) SpeechRecognition[0,1]UserSettings , (alternative) VoiceSelection[1,1]MicrosoftDavidDesktopEnglishUS MicrosoftZiraDesktopEnglishGB MicrosoftDavidDesktopEnglishGB MicrosoftZiraDesktopEnglishUS , (mandatory) SpeechRecognition[1,1]Language , (Constraint 57) OR[NOT[TurnOnNarrator1][]][TurnOnNarrator], (or) HearTextReadAloud_1[1,2]TuenOnAudioDescription TurnOnNarrator1 ]
+	|D|: 7
+	CC: 181
+	QuickXPlain+TC runtime: 0.036541 s
+	--- Profiler ---
+	Consistency checks (TC): 181
+	Solver calls: 481
+	QuickXPlain+TC calls: 10
+	QX+TC calls: 209
+windows8 windows8_c100_0.testcases
+	Diagnosis: [(mandatory) AudioDevicesAndSoundThemes[1,1]Sounds , (mandatory) TextToSpeech[1,1]VoiceSpeed , (optional) SpeechRecognition[0,1]UserSettings , (alternative) VoiceSelection[1,1]MicrosoftDavidDesktopEnglishUS MicrosoftZiraDesktopEnglishGB MicrosoftDavidDesktopEnglishGB MicrosoftZiraDesktopEnglishUS , (mandatory) SpeechRecognition[1,1]Language , (Constraint 57) OR[NOT[TurnOnNarrator1][]][TurnOnNarrator], (or) HearTextReadAloud_1[1,2]TuenOnAudioDescription TurnOnNarrator1 ]
+	|D|: 7
+	CC: 181
+	QuickXPlain+TC runtime: 0.034979 s
+	--- Profiler ---
+	Consistency checks (TC): 181
+	Solver calls: 481
+	QuickXPlain+TC calls: 10
+	QX+TC calls: 209
+windows8 windows8_c250_0.testcases
+	Diagnosis: [(optional) UseTheComputerWithoutADisplay[0,1]SeeAlso1 , (mandatory) TextToSpeech[1,1]VoiceSpeed , (optional) SpeechRecognition[0,1]UserSettings , (mandatory) TextToSpeech[1,1]VoiceSelection , (mandatory) SpeechRecognition[1,1]Language , (Constraint 57) OR[NOT[TurnOnNarrator1][]][TurnOnNarrator], (or) HearTextReadAloud_1[1,2]TuenOnAudioDescription TurnOnNarrator1 , (mandatory) SpeechRecognition[1,1]Microphone1 , (Constraint 77) OR[NOT[HowLongShouldWindowsNotificationDialogBoxesStayOpen1][]][HowLongShouldWindowsNotificationDialogBoxesStayOpen], (optional) TextToSpeech[0,1]Control_TheVoiceProperties_Speed_OtherOption , (Constraint 127) OR[NOT[SetupMouseKeys1][]][SetupMouseKeys], (optional) TextToSpeech[0,1]AudioOutput , (optional) TextToSpeech[0,1]Advanced2 , (optional) SpeechRecognition[0,1]RecognitionProfiles , (alternative) VoiceSelection[1,1]MicrosoftDavidDesktopEnglishUS MicrosoftZiraDesktopEnglishGB MicrosoftDavidDesktopEnglishGB MicrosoftZiraDesktopEnglishUS ]
+	|D|: 15
+	CC: 381
+	QuickXPlain+TC runtime: 0.285582 s
+	--- Profiler ---
+	Consistency checks (TC): 381
+	Solver calls: 1724
+	QuickXPlain+TC calls: 20
+	QX+TC calls: 453
+windows8 windows8_c250_0.testcases
+	Diagnosis: [(optional) UseTheComputerWithoutADisplay[0,1]SeeAlso1 , (mandatory) TextToSpeech[1,1]VoiceSpeed , (optional) SpeechRecognition[0,1]UserSettings , (mandatory) TextToSpeech[1,1]VoiceSelection , (mandatory) SpeechRecognition[1,1]Language , (Constraint 57) OR[NOT[TurnOnNarrator1][]][TurnOnNarrator], (or) HearTextReadAloud_1[1,2]TuenOnAudioDescription TurnOnNarrator1 , (mandatory) SpeechRecognition[1,1]Microphone1 , (Constraint 77) OR[NOT[HowLongShouldWindowsNotificationDialogBoxesStayOpen1][]][HowLongShouldWindowsNotificationDialogBoxesStayOpen], (optional) TextToSpeech[0,1]Control_TheVoiceProperties_Speed_OtherOption , (Constraint 127) OR[NOT[SetupMouseKeys1][]][SetupMouseKeys], (optional) TextToSpeech[0,1]AudioOutput , (optional) TextToSpeech[0,1]Advanced2 , (optional) SpeechRecognition[0,1]RecognitionProfiles , (alternative) VoiceSelection[1,1]MicrosoftDavidDesktopEnglishUS MicrosoftZiraDesktopEnglishGB MicrosoftDavidDesktopEnglishGB MicrosoftZiraDesktopEnglishUS ]
+	|D|: 15
+	CC: 381
+	QuickXPlain+TC runtime: 0.270875 s
+	--- Profiler ---
+	Consistency checks (TC): 381
+	Solver calls: 1724
+	QuickXPlain+TC calls: 20
+	QX+TC calls: 453
+windows8 windows8_c250_0.testcases
+	Diagnosis: [(optional) UseTheComputerWithoutADisplay[0,1]SeeAlso1 , (mandatory) TextToSpeech[1,1]VoiceSpeed , (optional) SpeechRecognition[0,1]UserSettings , (mandatory) TextToSpeech[1,1]VoiceSelection , (mandatory) SpeechRecognition[1,1]Language , (Constraint 57) OR[NOT[TurnOnNarrator1][]][TurnOnNarrator], (or) HearTextReadAloud_1[1,2]TuenOnAudioDescription TurnOnNarrator1 , (mandatory) SpeechRecognition[1,1]Microphone1 , (Constraint 77) OR[NOT[HowLongShouldWindowsNotificationDialogBoxesStayOpen1][]][HowLongShouldWindowsNotificationDialogBoxesStayOpen], (optional) TextToSpeech[0,1]Control_TheVoiceProperties_Speed_OtherOption , (Constraint 127) OR[NOT[SetupMouseKeys1][]][SetupMouseKeys], (optional) TextToSpeech[0,1]AudioOutput , (optional) TextToSpeech[0,1]Advanced2 , (optional) SpeechRecognition[0,1]RecognitionProfiles , (alternative) VoiceSelection[1,1]MicrosoftDavidDesktopEnglishUS MicrosoftZiraDesktopEnglishGB MicrosoftDavidDesktopEnglishGB MicrosoftZiraDesktopEnglishUS ]
+	|D|: 15
+	CC: 381
+	QuickXPlain+TC runtime: 0.271230 s
+	--- Profiler ---
+	Consistency checks (TC): 381
+	Solver calls: 1724
+	QuickXPlain+TC calls: 20
+	QX+TC calls: 453
+windows8 windows8_c500_0.testcases
+	Diagnosis: [(optional) UseTheComputerWithoutADisplay[0,1]SeeAlso1 , (mandatory) TextToSpeech[1,1]VoiceSpeed , (optional) SpeechRecognition[0,1]UserSettings , (mandatory) TextToSpeech[1,1]VoiceSelection , (mandatory) SpeechRecognition[1,1]Language , (Constraint 57) OR[NOT[TurnOnNarrator1][]][TurnOnNarrator], (or) HearTextReadAloud_1[1,2]TuenOnAudioDescription TurnOnNarrator1 , (mandatory) SpeechRecognition[1,1]Microphone1 , (mandatory) UseTheComputerWithoutADisplay[1,1]AdjustTimeLimitsAndFlashingVisuals1 , (optional) HearTextReadAloud[0,1]SetupTextToSpeech , (Constraint 127) OR[NOT[SetupMouseKeys1][]][SetupMouseKeys], (optional) TextToSpeech[0,1]AudioOutput , (optional) TextToSpeech[0,1]Advanced2 , (optional) SpeechRecognition[0,1]RecognitionProfiles , (alternative) VoiceSelection[1,1]MicrosoftDavidDesktopEnglishUS MicrosoftZiraDesktopEnglishGB MicrosoftDavidDesktopEnglishGB MicrosoftZiraDesktopEnglishUS , (optional) TextToSpeech[0,1]Control_TheVoiceProperties_Speed_OtherOption , (or) SetupTextToSpeech[1,2]TextToSpeech SpeechRecognition , (mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 ]
+	|D|: 19
+	CC: 501
+	QuickXPlain+TC runtime: 0.584630 s
+	--- Profiler ---
+	Consistency checks (TC): 501
+	Solver calls: 3527
+	QuickXPlain+TC calls: 27
+	QX+TC calls: 584
+windows8 windows8_c500_0.testcases
+	Diagnosis: [(optional) UseTheComputerWithoutADisplay[0,1]SeeAlso1 , (mandatory) TextToSpeech[1,1]VoiceSpeed , (optional) SpeechRecognition[0,1]UserSettings , (mandatory) TextToSpeech[1,1]VoiceSelection , (mandatory) SpeechRecognition[1,1]Language , (Constraint 57) OR[NOT[TurnOnNarrator1][]][TurnOnNarrator], (or) HearTextReadAloud_1[1,2]TuenOnAudioDescription TurnOnNarrator1 , (mandatory) SpeechRecognition[1,1]Microphone1 , (mandatory) UseTheComputerWithoutADisplay[1,1]AdjustTimeLimitsAndFlashingVisuals1 , (optional) HearTextReadAloud[0,1]SetupTextToSpeech , (Constraint 127) OR[NOT[SetupMouseKeys1][]][SetupMouseKeys], (optional) TextToSpeech[0,1]AudioOutput , (optional) TextToSpeech[0,1]Advanced2 , (optional) SpeechRecognition[0,1]RecognitionProfiles , (alternative) VoiceSelection[1,1]MicrosoftDavidDesktopEnglishUS MicrosoftZiraDesktopEnglishGB MicrosoftDavidDesktopEnglishGB MicrosoftZiraDesktopEnglishUS , (optional) TextToSpeech[0,1]Control_TheVoiceProperties_Speed_OtherOption , (or) SetupTextToSpeech[1,2]TextToSpeech SpeechRecognition , (mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 ]
+	|D|: 19
+	CC: 501
+	QuickXPlain+TC runtime: 0.576935 s
+	--- Profiler ---
+	Consistency checks (TC): 501
+	Solver calls: 3527
+	QuickXPlain+TC calls: 27
+	QX+TC calls: 584
+windows8 windows8_c500_0.testcases
+	Diagnosis: [(optional) UseTheComputerWithoutADisplay[0,1]SeeAlso1 , (mandatory) TextToSpeech[1,1]VoiceSpeed , (optional) SpeechRecognition[0,1]UserSettings , (mandatory) TextToSpeech[1,1]VoiceSelection , (mandatory) SpeechRecognition[1,1]Language , (Constraint 57) OR[NOT[TurnOnNarrator1][]][TurnOnNarrator], (or) HearTextReadAloud_1[1,2]TuenOnAudioDescription TurnOnNarrator1 , (mandatory) SpeechRecognition[1,1]Microphone1 , (mandatory) UseTheComputerWithoutADisplay[1,1]AdjustTimeLimitsAndFlashingVisuals1 , (optional) HearTextReadAloud[0,1]SetupTextToSpeech , (Constraint 127) OR[NOT[SetupMouseKeys1][]][SetupMouseKeys], (optional) TextToSpeech[0,1]AudioOutput , (optional) TextToSpeech[0,1]Advanced2 , (optional) SpeechRecognition[0,1]RecognitionProfiles , (alternative) VoiceSelection[1,1]MicrosoftDavidDesktopEnglishUS MicrosoftZiraDesktopEnglishGB MicrosoftDavidDesktopEnglishGB MicrosoftZiraDesktopEnglishUS , (optional) TextToSpeech[0,1]Control_TheVoiceProperties_Speed_OtherOption , (or) SetupTextToSpeech[1,2]TextToSpeech SpeechRecognition , (mandatory) UseTheComputerWithoutADisplay[1,1]HearTextReadAloud , (mandatory) HearTextReadAloud[1,1]HearTextReadAloud_1 ]
+	|D|: 19
+	CC: 501
+	QuickXPlain+TC runtime: 0.577545 s
+	--- Profiler ---
+	Consistency checks (TC): 501
+	Solver calls: 3527
+	QuickXPlain+TC calls: 27
+	QX+TC calls: 584
+
+=== Evaluation Results: quickxplain_with_testcases (m=1, task=1) ===
+Testcase                  | Avg Time (s) |   |D| |  #Diag
+---------------------------------------------------------
+windows8/windows8_c10_0.testcases |     0.001556 |     1 |      1
+windows8/windows8_c25_0.testcases |     0.004302 |     3 |      1
+windows8/windows8_c50_0.testcases |     0.010068 |     4 |      1
+windows8/windows8_c100_0.testcases |     0.035658 |     7 |      1
+windows8/windows8_c250_0.testcases |     0.275896 |    15 |      1
+windows8/windows8_c500_0.testcases |     0.579703 |    19 |      1

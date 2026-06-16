@@ -1,0 +1,26 @@
+25
+~UseTheComputerWithoutADisplay & Slow
+~HearTextReadAloud_1 & ~_1_0Seconds
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~Off2
+UseTheComputerWithoutADisplay & ~SpeechRecognition & PersonalizeAppearanceAndSoundEffect
+HearTextReadAloud_1 & ~MakeItEasierToManageWindows3
+UseTheComputerWithoutADisplay & HearTextReadAloud & Acceleration2
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~Control_TheVoiceProperties_Speed_OtherOption & OtherSettings3
+~HearTextReadAloud_1 & SeeAlso1
+~UseTheComputerWithoutADisplay & ~SetupTextToSpeech & DefaultSpeechProfile
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~SpeechRecognition & RunSpeechRecognitionAtStartup
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & TurnOnNarrator1 & ~ReviewDocumentsAndMailToImproveAccuracy
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~TextToSpeech & SeeAlso2
+UseTheComputerWithoutADisplay & HearTextReadAloud & Control_TheVoiceProperties_Speed_OtherOption & StartSpeechRecognition
+UseTheComputerWithoutADisplay & HearTextReadAloud & SetupTextToSpeech & ~_1_0Seconds_
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & Control_TheVoiceProperties_Speed_OtherOption & UseTheComputerWithoutAMouseOrKeyboard
+~UseTheComputerWithoutADisplay & ~ZoomIn
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~SetupTextToSpeech & S_13
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~SpeechRecognition & ~KeyboardShortcut
+UseTheComputerWithoutADisplay & UseSpeechRecognition1
+UseTheComputerWithoutADisplay & HearTextReadAloud & TuenOnAudioDescription & MakeASoundWhenTurningASettingOnOrOff1
+~UseTheComputerWithoutADisplay & ~SetupTextToSpeech & Level
+~HearTextReadAloud_1 & WindowsDefault
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~SpeechRecognition & MicrosoftSpeechRecognizer8_0ForWindowsEnglishUS
+~UseTheComputerWithoutADisplay & ~TextToSpeech & MicrosoftDavidDesktopEnglishUS
+UseTheComputerWithoutADisplay & ~TextToSpeech & Slow1

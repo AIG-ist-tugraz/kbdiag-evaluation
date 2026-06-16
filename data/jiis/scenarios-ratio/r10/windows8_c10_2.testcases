@@ -1,0 +1,11 @@
+10
+UseTheComputerWithoutADisplay & ~TuenOnAudioDescription & CursorBlinkRate
+TuenOnAudioDescription & ~ChooseAHighContrastTheme
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~TuenOnAudioDescription & ~_0_5Seconds_
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~RunSpeechRecognitionAtStartup
+UseTheComputerWithoutADisplay & TextToSpeech & S_3
+UseTheComputerWithoutADisplay & HearTextReadAloud & SetupTextToSpeech & ~BeepWhenKeyArePressedOrAccepted
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~SetupTextToSpeech & ~HoldDownCTRLToSpeedUpAndSHIFTToSlowDown1
+~TuenOnAudioDescription & Bold1
+TuenOnAudioDescription & SeeAlso
+UseTheComputerWithoutADisplay & ~SpeechRecognition & ReviewDocumentsAndMailToImproveAccuracy

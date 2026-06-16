@@ -18,6 +18,7 @@ from abc import ABC
 from typing import Optional, TypeVar
 
 from explanation.operations.algorithms.profiler import AbstractProfiler
+from explanation.operations.algorithms.hsdag.hsdag import SearchStrategy
 from explanation.operations.pysat_abstract_explanation import PySATAbstractExplanation
 from explanation.operations.pysat_conflict import PySATConflict
 from explanation.operations.pysat_conflict_sat4j import PySATConflictSAT4J
@@ -118,6 +119,18 @@ class PySATExplanationBuilder(ABC):
             Self for method chaining
         """
         self._operation.depth_first_search = enabled
+        return self
+
+    def with_search_strategy(self: T, strategy: SearchStrategy) -> T:
+        """Set the search strategy for HSDAG.
+
+        Args:
+            strategy: SearchStrategy.BREADTH_FIRST (default) or SearchStrategy.BEST_FIRST
+
+        Returns:
+            Self for method chaining
+        """
+        self._operation.search_strategy = strategy
         return self
 
     def with_solver(self: T, solver_name: str) -> T:

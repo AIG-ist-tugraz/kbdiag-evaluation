@@ -1,0 +1,109 @@
+linux linux_c10_1.testcases
+	Diagnosis: [(Constraint 4610) OR[NOT[VIDEO_HELPER_CHIPS_AUTO][]][NOT[VIDEO_TLV320AIC23B][]], (Constraint 7590) OR[BROKEN][NOT[DISABLE_OBSOLETE_CPUMASK_FUNCTIONS][]], (Constraint 1872) OR[SBUS][NOT[SCSI_QLOGICPTI][]], (Constraint 5809) OR[HAVE_FB_ATMEL][NOT[FB_ATMEL][]], (Constraint 57) NOT[HAVE_CLK][]]
+	|D|: 5
+	CC: 191
+	QuickXPlain+TC runtime: 0.181394 s
+	--- Profiler ---
+	Consistency checks (TC): 191
+	Solver calls: 200
+	QuickXPlain+TC calls: 6
+	QX+TC calls: 261
+linux linux_c10_1.testcases
+	Diagnosis: [(Constraint 4610) OR[NOT[VIDEO_HELPER_CHIPS_AUTO][]][NOT[VIDEO_TLV320AIC23B][]], (Constraint 7590) OR[BROKEN][NOT[DISABLE_OBSOLETE_CPUMASK_FUNCTIONS][]], (Constraint 1872) OR[SBUS][NOT[SCSI_QLOGICPTI][]], (Constraint 5809) OR[HAVE_FB_ATMEL][NOT[FB_ATMEL][]], (Constraint 57) NOT[HAVE_CLK][]]
+	|D|: 5
+	CC: 191
+	QuickXPlain+TC runtime: 0.177605 s
+	--- Profiler ---
+	Consistency checks (TC): 191
+	Solver calls: 200
+	QuickXPlain+TC calls: 6
+	QX+TC calls: 261
+linux linux_c10_1.testcases
+	Diagnosis: [(Constraint 4610) OR[NOT[VIDEO_HELPER_CHIPS_AUTO][]][NOT[VIDEO_TLV320AIC23B][]], (Constraint 7590) OR[BROKEN][NOT[DISABLE_OBSOLETE_CPUMASK_FUNCTIONS][]], (Constraint 1872) OR[SBUS][NOT[SCSI_QLOGICPTI][]], (Constraint 5809) OR[HAVE_FB_ATMEL][NOT[FB_ATMEL][]], (Constraint 57) NOT[HAVE_CLK][]]
+	|D|: 5
+	CC: 191
+	QuickXPlain+TC runtime: 0.177923 s
+	--- Profiler ---
+	Consistency checks (TC): 191
+	Solver calls: 200
+	QuickXPlain+TC calls: 6
+	QX+TC calls: 261
+linux linux_c25_1.testcases
+	Diagnosis: [(Constraint 4610) OR[NOT[VIDEO_HELPER_CHIPS_AUTO][]][NOT[VIDEO_TLV320AIC23B][]], (Constraint 1) NOT[BROKEN][], (Constraint 0) NOT[SBUS][], (Constraint 5687) NOT[HAVE_FB_ATMEL][], (Constraint 57) NOT[HAVE_CLK][], (Constraint 6885) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[IDE_PHISON][]], (Constraint 6922) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[HYPERV][]], (Constraint 1248) OR[OR[EXTRA_FIRMWARE][NOT[EXTRA_FIRMWARE_DIR][]]][EXTRA_FIRMWARE], (Constraint 82) NOT[ARCH_INLINE_READ_TRYLOCK][], (Constraint 6709) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[RT2860][]]]
+	|D|: 10
+	CC: 477
+	QuickXPlain+TC runtime: 0.692294 s
+	--- Profiler ---
+	Consistency checks (TC): 477
+	Solver calls: 542
+	QuickXPlain+TC calls: 14
+	QX+TC calls: 641
+linux linux_c25_1.testcases
+	Diagnosis: [(Constraint 4610) OR[NOT[VIDEO_HELPER_CHIPS_AUTO][]][NOT[VIDEO_TLV320AIC23B][]], (Constraint 1) NOT[BROKEN][], (Constraint 0) NOT[SBUS][], (Constraint 5687) NOT[HAVE_FB_ATMEL][], (Constraint 57) NOT[HAVE_CLK][], (Constraint 6885) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[IDE_PHISON][]], (Constraint 6922) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[HYPERV][]], (Constraint 1248) OR[OR[EXTRA_FIRMWARE][NOT[EXTRA_FIRMWARE_DIR][]]][EXTRA_FIRMWARE], (Constraint 82) NOT[ARCH_INLINE_READ_TRYLOCK][], (Constraint 6709) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[RT2860][]]]
+	|D|: 10
+	CC: 477
+	QuickXPlain+TC runtime: 0.672366 s
+	--- Profiler ---
+	Consistency checks (TC): 477
+	Solver calls: 542
+	QuickXPlain+TC calls: 14
+	QX+TC calls: 641
+linux linux_c25_1.testcases
+	Diagnosis: [(Constraint 4610) OR[NOT[VIDEO_HELPER_CHIPS_AUTO][]][NOT[VIDEO_TLV320AIC23B][]], (Constraint 1) NOT[BROKEN][], (Constraint 0) NOT[SBUS][], (Constraint 5687) NOT[HAVE_FB_ATMEL][], (Constraint 57) NOT[HAVE_CLK][], (Constraint 6885) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[IDE_PHISON][]], (Constraint 6922) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[HYPERV][]], (Constraint 1248) OR[OR[EXTRA_FIRMWARE][NOT[EXTRA_FIRMWARE_DIR][]]][EXTRA_FIRMWARE], (Constraint 82) NOT[ARCH_INLINE_READ_TRYLOCK][], (Constraint 6709) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[RT2860][]]]
+	|D|: 10
+	CC: 477
+	QuickXPlain+TC runtime: 0.728149 s
+	--- Profiler ---
+	Consistency checks (TC): 477
+	Solver calls: 542
+	QuickXPlain+TC calls: 14
+	QX+TC calls: 641
+linux linux_c50_1.testcases
+	Diagnosis: [(Constraint 4610) OR[NOT[VIDEO_HELPER_CHIPS_AUTO][]][NOT[VIDEO_TLV320AIC23B][]], (Constraint 1) NOT[BROKEN][], (Constraint 0) NOT[SBUS][], (Constraint 5687) NOT[HAVE_FB_ATMEL][], (Constraint 57) NOT[HAVE_CLK][], (Constraint 6885) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[IDE_PHISON][]], (Constraint 6922) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[HYPERV][]], (Constraint 1248) OR[OR[EXTRA_FIRMWARE][NOT[EXTRA_FIRMWARE_DIR][]]][EXTRA_FIRMWARE], (Constraint 82) NOT[ARCH_INLINE_READ_TRYLOCK][], (Constraint 6709) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[RT2860][]], (Constraint 6628) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[VIDEO_GO7007][]], (Constraint 5755) NOT[FB_CFB_REV_PIXELS_IN_BYTE][], (Constraint 6901) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[DRM_NOUVEAU][]], (Constraint 4537) NOT[MFD_WM8351_CONFIG_MODE_2][], (Constraint 6873) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[POHMELFS][]], (Constraint 7005) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[PCMCIA_NETWAVE][]], (Constraint 6897) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[DRM_VMWGFX][]]]
+	|D|: 17
+	CC: 728
+	QuickXPlain+TC runtime: 104.517413 s
+	--- Profiler ---
+	Consistency checks (TC): 728
+	Solver calls: 818
+	QuickXPlain+TC calls: 21
+	QX+TC calls: 968
+linux linux_c50_1.testcases
+	Diagnosis: [(Constraint 4610) OR[NOT[VIDEO_HELPER_CHIPS_AUTO][]][NOT[VIDEO_TLV320AIC23B][]], (Constraint 1) NOT[BROKEN][], (Constraint 0) NOT[SBUS][], (Constraint 5687) NOT[HAVE_FB_ATMEL][], (Constraint 57) NOT[HAVE_CLK][], (Constraint 6885) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[IDE_PHISON][]], (Constraint 6922) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[HYPERV][]], (Constraint 1248) OR[OR[EXTRA_FIRMWARE][NOT[EXTRA_FIRMWARE_DIR][]]][EXTRA_FIRMWARE], (Constraint 82) NOT[ARCH_INLINE_READ_TRYLOCK][], (Constraint 6709) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[RT2860][]], (Constraint 6628) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[VIDEO_GO7007][]], (Constraint 5755) NOT[FB_CFB_REV_PIXELS_IN_BYTE][], (Constraint 6901) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[DRM_NOUVEAU][]], (Constraint 4537) NOT[MFD_WM8351_CONFIG_MODE_2][], (Constraint 6873) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[POHMELFS][]], (Constraint 7005) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[PCMCIA_NETWAVE][]], (Constraint 6897) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[DRM_VMWGFX][]]]
+	|D|: 17
+	CC: 728
+	QuickXPlain+TC runtime: 108.115231 s
+	--- Profiler ---
+	Consistency checks (TC): 728
+	Solver calls: 818
+	QuickXPlain+TC calls: 21
+	QX+TC calls: 968
+linux linux_c50_1.testcases
+	Diagnosis: [(Constraint 4610) OR[NOT[VIDEO_HELPER_CHIPS_AUTO][]][NOT[VIDEO_TLV320AIC23B][]], (Constraint 1) NOT[BROKEN][], (Constraint 0) NOT[SBUS][], (Constraint 5687) NOT[HAVE_FB_ATMEL][], (Constraint 57) NOT[HAVE_CLK][], (Constraint 6885) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[IDE_PHISON][]], (Constraint 6922) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[HYPERV][]], (Constraint 1248) OR[OR[EXTRA_FIRMWARE][NOT[EXTRA_FIRMWARE_DIR][]]][EXTRA_FIRMWARE], (Constraint 82) NOT[ARCH_INLINE_READ_TRYLOCK][], (Constraint 6709) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[RT2860][]], (Constraint 6628) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[VIDEO_GO7007][]], (Constraint 5755) NOT[FB_CFB_REV_PIXELS_IN_BYTE][], (Constraint 6901) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[DRM_NOUVEAU][]], (Constraint 4537) NOT[MFD_WM8351_CONFIG_MODE_2][], (Constraint 6873) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[POHMELFS][]], (Constraint 7005) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[PCMCIA_NETWAVE][]], (Constraint 6897) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[DRM_VMWGFX][]]]
+	|D|: 17
+	CC: 728
+	QuickXPlain+TC runtime: 106.938320 s
+	--- Profiler ---
+	Consistency checks (TC): 728
+	Solver calls: 818
+	QuickXPlain+TC calls: 21
+	QX+TC calls: 968
+linux linux_c100_1.testcases
+	Diag: TO
+	Time: 1200.000000 s (timeout)
+linux linux_c250_1.testcases
+	Diag: TO
+	Time: 1200.000000 s (timeout)
+linux linux_c500_1.testcases
+	Diag: TO
+	Time: 1200.000000 s (timeout)
+
+=== Evaluation Results: quickxplain_with_testcases (m=1, task=1) ===
+Testcase                  | Avg Time (s) |   |D| |  #Diag
+---------------------------------------------------------
+linux/linux_c10_1.testcases |     0.178974 |     5 |      1
+linux/linux_c25_1.testcases |     0.697603 |    10 |      1
+linux/linux_c50_1.testcases |   106.523655 |    17 |      1
+linux/linux_c100_1.testcases |  1200.000000 |    TO |     TO
+linux/linux_c250_1.testcases |  1200.000000 |    TO |     TO
+linux/linux_c500_1.testcases |  1200.000000 |    TO |     TO

@@ -11,7 +11,7 @@ from typing import cast, List, Tuple, Optional
 
 from explanation.models.pysat_diagnosis_model import DiagnosisModel
 from explanation.operations.algorithms.checker import ConsistencyChecker, CheckerFactory
-from explanation.operations.algorithms.hsdag.hsdag import HSDAG
+from explanation.operations.algorithms.hsdag.hsdag import HSDAG, SearchStrategy
 from explanation.operations.algorithms.hsdag.labeler.labeler import IHSLabelable
 from explanation.operations.algorithms.profiler import AbstractProfiler, get_global_profiler
 
@@ -91,6 +91,7 @@ class PySATAbstractExplanation(Operation):
         self._max_diagnoses: Optional[int] = None  # None means no limit
         self.depth_first_search: bool = False
         self._max_depth: Optional[int] = None  # None means no limit
+        self.search_strategy: SearchStrategy = SearchStrategy.BREADTH_FIRST
 
     @property
     def max_conflicts(self) -> Optional[int]:
@@ -201,19 +202,21 @@ class PySATAbstractExplanation(Operation):
         """
         pass
 
-    def _create_hsdag(self, labeler: IHSLabelable) -> HSDAG:
+    def _create_hsdag(self, labeler: IHSLabelable,
+                      constraint_ordering: List = None) -> HSDAG:
         """Configure HSDAG with common parameters.
 
         This method applies the standard configuration parameters to an HSDAG instance.
         Subclasses can override this if they need custom configuration logic.
 
         Args:
-            hsdag: HSDAG instance to configure
+            labeler: IHSLabelable instance for computing labels
+            constraint_ordering: Constraint ordering for best-first search priority
 
         Returns:
             Configured HSDAG instance
         """
-        hsdag = HSDAG(labeler, self.profiler)
+        hsdag = HSDAG(labeler, self.search_strategy, constraint_ordering, self.profiler)
         hsdag.max_number_conflicts = self.max_conflicts if self.max_conflicts is not None else -1
         hsdag.max_number_diagnoses = self.max_diagnoses if self.max_diagnoses is not None else -1
         hsdag.depth_first_search = self.depth_first_search

@@ -1,0 +1,74 @@
+# Table 7 Generation Configuration (Concern 2 rebuttal — speedup × ratio)
+# Usage: python -m apps.results_table_gen apps/conf/table7_gen.toml
+#
+# Generates 3 sub-tables (7a HIS, 7b Win8, 7c Linux) showing speedup factors
+# (HSDAG_time / KBDiag_time) at 4 inconsistency ratios × 6 cardinalities.
+# Reuses rev1 r20 results; combines with Phase 2 r10/r30/r50 results.
+
+[general]
+# Unused by Table 7 but required by load_config (Table 3/4 share this)
+result_path = "data/jiis/results"
+output_path = "data/jiis/tables"
+num_iterations = 3
+
+# Table 3/4 disabled — this config is Table 7 only
+[table3]
+enabled = false
+test_sizes = []
+groups = []
+
+[table4]
+enabled = false
+leading_diagnoses = []
+
+# Algorithms not used directly for Table 7 (looked up internally), but
+# kept here so load_config schema is satisfied
+[[algorithm]]
+key = "quickxplain_with_testcases"
+display_name = "HSD"
+
+[[algorithm]]
+key = "kbdiag"
+display_name = "MSD"
+lambda = 1
+
+# Empty top-level [[kb]] — Table 7 uses its own [[table7.kb]]
+[[kb]]
+name = "REAL-FM-11"
+display_name = "REAL-FM-11"
+
+# ---------------------------------------------------------------------------
+# Table 7 — Concern 2 rebuttal
+# ---------------------------------------------------------------------------
+
+[table7]
+enabled = true
+cardinalities = [10, 25, 50, 100, 250, 500]
+
+# Ratio → result root. r20 reuses rev1 default-ratio scenarios.
+[table7.result_paths]
+r10 = "data/jiis/results-ratio/r10"
+r20 = "data/jiis/results"
+r30 = "data/jiis/results-ratio/r30"
+r50 = "data/jiis/results-ratio/r50"
+
+# Per-KB config. version_suffix = filename version index (e.g., REAL-FM-11_c100_<X>).
+# Required because rev1 linux has both _0 and _1 — must pick one for cross-ratio
+# comparability. Phase 2 r10/r30/r50 only has one version (matching these suffixes).
+[[table7.kb]]
+name = "REAL-FM-11"
+display_name = "HIS"
+num_constraints = 64
+version_suffix = 1
+
+[[table7.kb]]
+name = "windows8"
+display_name = "Win8"
+num_constraints = 405
+version_suffix = 0
+
+[[table7.kb]]
+name = "linux"
+display_name = "Linux"
+num_constraints = 13972
+version_suffix = 1

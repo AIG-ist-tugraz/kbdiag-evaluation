@@ -1,0 +1,11 @@
+10
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & VoiceSelection & ~TopSpeed1
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~TuenOnAudioDescription & ~FlashActiveWindow
+~UseTheComputerWithoutADisplay & ~TurnOnNarrator1 & ~MakeItEasierToUseKeyboardShortcuts
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~TuenOnAudioDescription & ~_100
+~UseTheComputerWithoutADisplay & ~SpeechRecognition & TitleBars_1
+~UseTheComputerWithoutADisplay & ~TurnOnNarrator1 & SoundScheme
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud_1 & _1Minute
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & SetupTextToSpeech & Fast1
+~UseTheComputerWithoutADisplay & TuenOnAudioDescription & ~MicrosoftDavidDesktopEnglishGB
+UseTheComputerWithoutADisplay & ~SetupTextToSpeech & _2

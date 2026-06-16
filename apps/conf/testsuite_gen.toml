@@ -36,3 +36,4 @@ model = "data/jiis/fms/linux-2.6.33.3.uvl"
 
 [[fm]]
 name = "CNNl"
+model = "data/jiis/fms/Ghamizi2019-light.uvl"

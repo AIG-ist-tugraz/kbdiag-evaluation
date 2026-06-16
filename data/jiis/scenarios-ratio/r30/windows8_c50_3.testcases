@@ -1,0 +1,51 @@
+50
+~UseTheComputerWithoutADisplay & Slow
+~HearTextReadAloud_1 & ~_1_0Seconds
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~Off2
+UseTheComputerWithoutADisplay & ~SpeechRecognition & PersonalizeAppearanceAndSoundEffect
+HearTextReadAloud_1 & ~MakeItEasierToManageWindows3
+UseTheComputerWithoutADisplay & HearTextReadAloud & Acceleration2
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~Control_TheVoiceProperties_Speed_OtherOption & OtherSettings3
+~HearTextReadAloud_1 & SeeAlso1
+~UseTheComputerWithoutADisplay & ~SetupTextToSpeech & DefaultSpeechProfile
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~SpeechRecognition & RunSpeechRecognitionAtStartup
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & TurnOnNarrator1 & ~ReviewDocumentsAndMailToImproveAccuracy
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~TextToSpeech & SeeAlso2
+UseTheComputerWithoutADisplay & HearTextReadAloud & Control_TheVoiceProperties_Speed_OtherOption & StartSpeechRecognition
+UseTheComputerWithoutADisplay & HearTextReadAloud & SetupTextToSpeech & ~_1_0Seconds_
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & Control_TheVoiceProperties_Speed_OtherOption & UseTheComputerWithoutAMouseOrKeyboard
+~UseTheComputerWithoutADisplay & ~ZoomIn
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~SetupTextToSpeech & S_13
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~SpeechRecognition & ~KeyboardShortcut
+UseTheComputerWithoutADisplay & UseSpeechRecognition1
+UseTheComputerWithoutADisplay & HearTextReadAloud & TuenOnAudioDescription & MakeASoundWhenTurningASettingOnOrOff1
+~UseTheComputerWithoutADisplay & ~SetupTextToSpeech & Level
+~HearTextReadAloud_1 & WindowsDefault
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~SpeechRecognition & MicrosoftSpeechRecognizer8_0ForWindowsEnglishUS
+~UseTheComputerWithoutADisplay & ~TextToSpeech & MicrosoftDavidDesktopEnglishUS
+UseTheComputerWithoutADisplay & ~TextToSpeech & Slow1
+UseTheComputerWithoutADisplay & TextToSpeech & ~LargeWhite
+UseTheComputerWithoutADisplay & HowLongShouldTheComputerWaitBeforeAcceptingKeystrokes
+HearTextReadAloud & ~M_19
+UseTheComputerWithoutADisplay & ~ZoomIn
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~TextToSpeech & Off
+UseTheComputerWithoutADisplay & TurnOnNarrator1 & S_21
+UseTheComputerWithoutADisplay & SetupTextToSpeech & ~SeeAlso5
+UseTheComputerWithoutADisplay & HearTextReadAloud_1 & ~TurnOnOrOffHighContrastWhenLeftPlusALTPlusLeftSCHIFTplusPRINT_SCREENisPressed
+~UseTheComputerWithoutADisplay & ~TurnOnNarrator1 & ME_17
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~TextToSpeech & Note
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~Control_TheVoiceProperties_Speed_OtherOption & ~AdjustTimeLimitsAndFlashingVisuals2
+~UseTheComputerWithoutADisplay & TurnOnMouseKeys
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~SpeechRecognition & ~_30Seconds
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~SpeechRecognition & LearnAboutAdditionalAssistiveTechnologiesOnline1
+UseTheComputerWithoutADisplay & ~TextToSpeech & ~TurnOnStickyKeyWhenSHIFTisPressedFiveTimes
+UseTheComputerWithoutADisplay & HearTextReadAloud & SetupTextToSpeech & LearnAboutAdditionalAssistiveTechnologiesOnline5
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & SetupTextToSpeech & ~TurnOnFilterKeys1
+HearTextReadAloud & ~LearnAboutAdditionalAssistiveTechnologiesOnline1
+~HearTextReadAloud_1 & Microphone2
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~SpeechRecognition & ReviewDocumentsAndMailToImproveAccuracy
+~HearTextReadAloud & Advanced2
+~UseTheComputerWithoutADisplay & ~TextToSpeech & Slow1
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud_1 & TurnOffAllUnnecessaryAnimation
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~SetupMouseKeys
+UseTheComputerWithoutADisplay & ~TextToSpeech & MicrosoftZiraDesktopEnglishGB

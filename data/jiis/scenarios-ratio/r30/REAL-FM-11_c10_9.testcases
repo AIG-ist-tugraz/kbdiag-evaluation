@@ -1,0 +1,11 @@
+10
+_id_1 & _id_2 & _id_3 & ~flood & ~moisture_sensor
+_id_18 & sprinkler
+_id_1 & _id_2 & ~_id_13 & _id_16
+_id_1 & _id_2 & _id_3 & _id_8 & ~communication
+_id_1 & _id_2 & _id_14 & _id_26
+_id_1 & ~_id_25 & ~_id_28
+_id_1 & _id_2 & _id_4 & _id_6 & _id_8
+_id_8 & ~_id_50
+_id_1 & _id_2 & _id_3 & _id_15 & ~_id_17
+_id_10 & ~_id_60

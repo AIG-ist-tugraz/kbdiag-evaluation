@@ -1,0 +1,26 @@
+25
+_id_1 & _id_2 & _id_4 & water & ~_id_63
+_id_1 & _id_2 & _id_18 & _id_41
+_id_1 & ~_id_31 & _id_62
+_id_1 & _id_2 & _id_45 & _id_63
+message & _id_42
+_id_1 & _id_2 & _id_4 & _id_33
+_id_2 & message & _id_18
+_id_1 & _id_3 & _id_9 & sprinkler
+_id_1 & _id_2 & _id_3 & _id_45 & _id_63
+~_id_25 & pumping
+_id_1 & _id_2 & _id_4 & _id_12 & _id_60
+_id_1 & _id_21 & ~_id_36
+_id_47 & _id_62
+_id_1 & _id_2 & ~_id_25 & ~communication
+_id_1 & _id_2 & _id_18 & _id_64
+_id_1 & _id_2 & _id_4 & _id_24 & ~_id_35
+_id_1 & ~_id_31 & _id_53
+_id_1 & _id_4 & _id_59
+_id_1 & _id_20 & _id_47
+_id_1 & _id_2 & _id_3 & _id_16 & _id_31
+_id_1 & ~pumping & _id_54
+_id_1 & _id_57 & ~_id_63
+_id_1 & _id_13 & _id_36
+_id_14 & ~_id_37
+_id_1 & flood & ~moisture_sensor

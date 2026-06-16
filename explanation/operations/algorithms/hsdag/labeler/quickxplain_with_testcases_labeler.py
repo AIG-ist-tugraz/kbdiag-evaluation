@@ -122,6 +122,7 @@ class QuickXPlainWithTestCasesLabeler(QuickXPlainWithTestCases, IHSLabelable):
             # Reverse the order of the conflict set
             # This often improves HSDAG performance by exploring promising branches first
             conflict_set_reversed = list(reversed(conflict_set))
+            # conflict_set_reversed = list(conflict_set)
             logging.debug('<<< Found conflict: %s (reversed)', conflict_set_reversed)
             return [conflict_set_reversed]
 

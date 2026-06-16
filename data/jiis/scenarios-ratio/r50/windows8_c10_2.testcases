@@ -1,0 +1,11 @@
+10
+UseTheComputerWithoutADisplay & ~Slow4
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~NoSounds
+UseTheComputerWithoutADisplay & HearTextReadAloud & TextToSpeech & ~_0_0Seconds___
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~TuenOnAudioDescription & ~SetUpMicrophone
+UseTheComputerWithoutADisplay & TextToSpeech & ~S_8
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & HearTextReadAloud_1
+~SetupTextToSpeech & MicrosoftDavidDesktopEnglishUS
+~TextToSpeech & Fast1
+~UseTheComputerWithoutADisplay & _1Minute
+~UseTheComputerWithoutADisplay & ~SpeechRecognition & MicrosoftSpeechRecognizer8_0ForWindowsEnglishUS

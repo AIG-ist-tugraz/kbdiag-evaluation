@@ -1,0 +1,11 @@
+10
+~UseTheComputerWithoutADisplay & ~SetupTextToSpeech & TurnOnMouseKeysWithLeft_ALT_plus_SHIFT_plus_NUMLOCK1
+UseTheComputerWithoutADisplay & ~TurnOnNarrator1 & ~_10_0Seconds
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & SetupTextToSpeech & ~M_6
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~SetupTextToSpeech & ~SetupFilterKeys2
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~SpeechRecognition & ~Magnifier1
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~TuenOnAudioDescription & ~PointerOption
+UseTheComputerWithoutADisplay & SetupTextToSpeech & SeeAlso2
+UseTheComputerWithoutADisplay & HearTextReadAloud & TextToSpeech & UseSpeechRecognition1
+~UseTheComputerWithoutADisplay & ~TurnOnNarrator1 & ~DisplayAWarningMessageWhenTurningASettingOn5
+~HearTextReadAloud & ReviewDocumentsAndMailToImproveAccuracy

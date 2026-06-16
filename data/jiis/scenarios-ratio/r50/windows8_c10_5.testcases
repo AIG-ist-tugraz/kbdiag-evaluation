@@ -1,0 +1,11 @@
+10
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & TextToSpeech & ~S_22
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~Control_TheVoiceProperties_Speed_OtherOption & ME_10
+UseTheComputerWithoutADisplay & TextToSpeech & TurnOffStickeysWhenTwoKeysArePressedAtOnce
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & SetupTextToSpeech & ~TopSpeed2
+~UseTheComputerWithoutADisplay & ~SetupTextToSpeech & _1_1Seconds___
+UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~TextToSpeech
+~UseTheComputerWithoutADisplay & ~SetupTextToSpeech & Advanced1
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud_1 & AudioDevicesAndSoundThemes
+UseTheComputerWithoutADisplay & ~TurnOnNarrator1 & ~AdjustTimeLimitsAndFlashingVisuals
+UseTheComputerWithoutADisplay & TextToSpeech & ~SetupMouseKeys

@@ -1,0 +1,342 @@
+First-diag dir: /Users/manleviet/Development/GitHub/KBDiag/data/jiis/results_incremental-diversity-optimized/1
+All-diag dir:   /Users/manleviet/Development/GitHub/KBDiag/data/jiis/results_cognitive/all
+Filter: TC size ≤ 100
+Checking: overhead constraints (Δ_m2 \ Δ_m1) in KBDiag all-diagnoses
+================================================================================
+
+--- REAL-FM-11 ---
+  REAL-FM-11_c100_1.testcases (|Δ_m1|=14, |Δ_m2|=24, overhead=10, #all_diags=1152):
+    (Constraint 3) IMPLIES[flood][moisture_sensor]
+      -> NOT in any diagnosis  ✗
+    (mandatory) _id_0[1,1]_id_1
+      -> faulty: in 576/1152 diagnoses  ✓
+    (mandatory) _id_0[1,1]_id_43
+      -> NOT in any diagnosis  ✗
+    (mandatory) _id_10[1,1]_id_12
+      -> NOT in any diagnosis  ✗
+    (mandatory) _id_15[1,1]_id_16
+      -> faulty: in 576/1152 diagnoses  ✓
+    (mandatory) _id_30[1,1]_id_31
+      -> NOT in any diagnosis  ✗
+    (mandatory) _id_43[1,1]_id_45
+      -> NOT in any diagnosis  ✗
+    (mandatory) _id_56[1,1]_id_57
+      -> NOT in any diagnosis  ✗
+    (mandatory) _id_56[1,1]_id_59
+      -> faulty: in 384/1152 diagnoses  ✓
+    (mandatory) flood[1,1]_id_24
+      -> faulty: in 576/1152 diagnoses  ✓
+    Overhead faulty rate: 4/10 = 40.0%
+  REAL-FM-11_c10_1.testcases (|Δ_m1|=1, |Δ_m2|=2, overhead=1, #all_diags=2):
+    (mandatory) flood[1,1]_id_24
+      -> faulty: in 1/2 diagnoses  ✓
+    Overhead faulty rate: 1/1 = 100.0%
+  REAL-FM-11_c25_1.testcases (|Δ_m1|=3, |Δ_m2|=6, overhead=3, #all_diags=4):
+    (mandatory) _id_0[1,1]_id_1
+      -> faulty: in 2/4 diagnoses  ✓
+    (mandatory) _id_4[1,1]_id_5
+      -> NOT in any diagnosis  ✗
+    (mandatory) flood[1,1]_id_24
+      -> faulty: in 2/4 diagnoses  ✓
+    Overhead faulty rate: 2/3 = 66.7%
+  REAL-FM-11_c50_1.testcases (|Δ_m1|=8, |Δ_m2|=14, overhead=6, #all_diags=72):
+    (Constraint 3) IMPLIES[flood][moisture_sensor]
+      -> NOT in any diagnosis  ✗
+    (mandatory) _id_0[1,1]_id_1
+      -> faulty: in 36/72 diagnoses  ✓
+    (mandatory) _id_15[1,1]_id_16
+      -> faulty: in 36/72 diagnoses  ✓
+    (mandatory) _id_30[1,1]_id_31
+      -> NOT in any diagnosis  ✗
+    (mandatory) _id_56[1,1]_id_59
+      -> faulty: in 24/72 diagnoses  ✓
+    (mandatory) flood[1,1]_id_24
+      -> faulty: in 36/72 diagnoses  ✓
+    Overhead faulty rate: 4/6 = 66.7%
+  REAL-FM-11_c5_1.testcases (|Δ_m1|=1, |Δ_m2|=2, overhead=1, #all_diags=5):
+    (mandatory) flood[1,1]_id_30
+      -> faulty: in 1/5 diagnoses  ✓
+    Overhead faulty rate: 1/1 = 100.0%
+
+  REAL-FM-11 summary: 12/21 overhead faulty = 57.1%
+
+--- DELL ---
+  DELL_c100_0.testcases (|Δ_m1|=16, |Δ_m2|=28, overhead=12, #all_diags=1):
+    (Constraint 15) OR[NOT[XPSLaptops][]][NOT[Lessthan_400][]]
+      -> NOT in any diagnosis  ✗
+    (Constraint 18) OR[NOT[Adamo][]][NOT[a250GB][]]
+      -> NOT in any diagnosis  ✗
+    (Constraint 23) OR[NOT[InspironLaptops][]][NOT[UltraLight][]]
+      -> NOT in any diagnosis  ✗
+    (Constraint 37) OR[NOT[StudioLaptops][]][NOT[IntelAtom][]]
+      -> NOT in any diagnosis  ✗
+    (Constraint 38) OR[NOT[StudioLaptops][]][NOT[Lessthan_400][]]
+      -> NOT in any diagnosis  ✗
+    (Constraint 47) OR[NOT[InspironLaptops][]][NOT[DVD_ROMDriveandDVD__RW]
+      -> NOT in any diagnosis  ✗
+    (Constraint 60) OR[NOT[MiniNotebooks][]][NOT[Light][]]
+      -> NOT in any diagnosis  ✗
+    (Constraint 72) OR[NOT[Adamo][]][NOT[DesktopReplacement][]]
+      -> NOT in any diagnosis  ✗
+    (Constraint 8) OR[NOT[XPSLaptops][]][NOT[IntelCeleron][]]
+      -> NOT in any diagnosis  ✗
+    (Constraint 82) OR[NOT[Adamo][]][NOT[IntelCeleron][]]
+      -> NOT in any diagnosis  ✗
+    (mandatory) DellLaptops_Notebooks[1,1]HardDrive
+      -> NOT in any diagnosis  ✗
+    (optional) DellLaptops_Notebooks[0,1]OpticalDrive
+      -> NOT in any diagnosis  ✗
+    Overhead faulty rate: 0/12 = 0.0%
+  DELL_c10_0.testcases (|Δ_m1|=2, |Δ_m2|=4, overhead=2, #all_diags=14):
+    (Constraint 102) OR[NOT[StudioXPSLaptops][]][NOT[a160GB][]]
+      -> NOT in any diagnosis  ✗
+    (Constraint 47) OR[NOT[InspironLaptops][]][NOT[DVD_ROMDriveandDVD__RW]
+      -> NOT in any diagnosis  ✗
+    Overhead faulty rate: 0/2 = 0.0%
+  DELL_c25_0.testcases (|Δ_m1|=5, |Δ_m2|=8, overhead=3, #all_diags=39):
+    (Constraint 15) OR[NOT[XPSLaptops][]][NOT[Lessthan_400][]]
+      -> NOT in any diagnosis  ✗
+    (Constraint 47) OR[NOT[InspironLaptops][]][NOT[DVD_ROMDriveandDVD__RW]
+      -> NOT in any diagnosis  ✗
+    (mandatory) DellLaptops_Notebooks[1,1]Memory
+      -> NOT in any diagnosis  ✗
+    Overhead faulty rate: 0/3 = 0.0%
+  DELL_c50_0.testcases (|Δ_m1|=10, |Δ_m2|=17, overhead=7, #all_diags=39):
+    (Constraint 15) OR[NOT[XPSLaptops][]][NOT[Lessthan_400][]]
+      -> NOT in any diagnosis  ✗
+    (Constraint 23) OR[NOT[InspironLaptops][]][NOT[UltraLight][]]
+      -> NOT in any diagnosis  ✗
+    (Constraint 37) OR[NOT[StudioLaptops][]][NOT[IntelAtom][]]
+      -> NOT in any diagnosis  ✗
+    (Constraint 47) OR[NOT[InspironLaptops][]][NOT[DVD_ROMDriveandDVD__RW]
+      -> NOT in any diagnosis  ✗
+    (Constraint 60) OR[NOT[MiniNotebooks][]][NOT[Light][]]
+      -> NOT in any diagnosis  ✗
+    (Constraint 72) OR[NOT[Adamo][]][NOT[DesktopReplacement][]]
+      -> NOT in any diagnosis  ✗
+    (mandatory) DellLaptops_Notebooks[1,1]Memory
+      -> NOT in any diagnosis  ✗
+    Overhead faulty rate: 0/7 = 0.0%
+  DELL_c5_0.testcases (|Δ_m1|=1, |Δ_m2|=2, overhead=1, #all_diags=1):
+    (Constraint 47) OR[NOT[InspironLaptops][]][NOT[DVD_ROMDriveandDVD__RW]
+      -> NOT in any diagnosis  ✗
+    Overhead faulty rate: 0/1 = 0.0%
+
+  DELL summary: 0/25 overhead faulty = 0.0%
+
+--- REAL-FM-4 ---
+  REAL-FM-4_c100_0.testcases (|Δ_m1|=14, |Δ_m2|=19, overhead=7, #all_diags=96):
+    (Constraint 10) OR[NOT[Wishlistcontent][]][Wishlist]
+      -> NOT in any diagnosis  ✗
+    (Constraint 16) OR[NOT[Availability][]][Inventorytracking]
+      -> NOT in any diagnosis  ✗
+    (Constraint 2) OR[NOT[Eletronicgoods][]][Size]
+      -> NOT in any diagnosis  ✗
+    (mandatory) Dynamiccontent[1,1]Variationsource
+      -> NOT in any diagnosis  ✗
+    (mandatory) PhoneOrdering[1,1]DigitalDialing
+      -> NOT in any diagnosis  ✗
+    (mandatory) Registration[1,1]Registrationinformation
+      -> faulty: in 24/96 diagnoses  ✓
+    (optional) Storefront[0,1]Homepage
+      -> NOT in any diagnosis  ✗
+    Overhead faulty rate: 1/7 = 14.3%
+  REAL-FM-4_c10_0.testcases (|Δ_m1|=2, |Δ_m2|=4, overhead=2, #all_diags=3):
+    (Constraint 2) OR[NOT[Eletronicgoods][]][Size]
+      -> NOT in any diagnosis  ✗
+    (optional) Storefront[0,1]Homepage
+      -> NOT in any diagnosis  ✗
+    Overhead faulty rate: 0/2 = 0.0%
+  REAL-FM-4_c25_0.testcases (|Δ_m1|=4, |Δ_m2|=6, overhead=2, #all_diags=9):
+    (Constraint 2) OR[NOT[Eletronicgoods][]][Size]
+      -> NOT in any diagnosis  ✗
+    (optional) Storefront[0,1]Homepage
+      -> NOT in any diagnosis  ✗
+    Overhead faulty rate: 0/2 = 0.0%
+  REAL-FM-4_c50_0.testcases (|Δ_m1|=9, |Δ_m2|=14, overhead=5, #all_diags=36):
+    (Constraint 16) OR[NOT[Availability][]][Inventorytracking]
+      -> NOT in any diagnosis  ✗
+    (Constraint 2) OR[NOT[Eletronicgoods][]][Size]
+      -> NOT in any diagnosis  ✗
+    (mandatory) Dynamiccontent[1,1]Variationsource
+      -> NOT in any diagnosis  ✗
+    (optional) Registrationinformation[0,1]Demographics
+      -> faulty: in 9/36 diagnoses  ✓
+    (optional) Storefront[0,1]Homepage
+      -> NOT in any diagnosis  ✗
+    Overhead faulty rate: 1/5 = 20.0%
+  REAL-FM-4_c5_0.testcases (|Δ_m1|=1, |Δ_m2|=2, overhead=1, #all_diags=1):
+    (optional) Storefront[0,1]Homepage
+      -> NOT in any diagnosis  ✗
+    Overhead faulty rate: 0/1 = 0.0%
+
+  REAL-FM-4 summary: 2/17 overhead faulty = 11.8%
+
+--- windows8 ---
+  windows8_c100_0.testcases (|Δ_m1|=14, |Δ_m2|=22, overhead=8, #all_diags=36):
+    (Constraint 126) OR[NOT[SeeAlso3][]][SeeAlso]
+      -> NOT in any diagnosis  ✗
+    (Constraint 56) OR[NOT[KeyboardShortcut2][]][KeyboardShortcut]
+      -> NOT in any diagnosis  ✗
+    (alternative) Language[1,1]MicrosoftSpeechRecognizer8_0ForWindowsEngli
+      -> NOT in any diagnosis  ✗
+    (alternative) SoundScheme[1,1]WindowsDefault NoSounds
+      -> NOT in any diagnosis  ✗
+    (alternative) VoiceSelection[1,1]MicrosoftDavidDesktopEnglishUS Micros
+      -> NOT in any diagnosis  ✗
+    (alternative) VoiceSpeed[1,1]Normal Fast1 Slow1
+      -> NOT in any diagnosis  ✗
+    (mandatory) Playback[1,1]Speakers
+      -> NOT in any diagnosis  ✗
+    (optional) Microphone1[0,1]ConfigureMicrophone
+      -> NOT in any diagnosis  ✗
+    Overhead faulty rate: 0/8 = 0.0%
+  windows8_c10_0.testcases (|Δ_m1|=2, |Δ_m2|=3, overhead=1, #all_diags=16):
+    (optional) TextToSpeech[0,1]AudioOutput
+      -> NOT in any diagnosis  ✗
+    Overhead faulty rate: 0/1 = 0.0%
+  windows8_c25_0.testcases (|Δ_m1|=5, |Δ_m2|=8, overhead=3, #all_diags=20):
+    (alternative) Language[1,1]MicrosoftSpeechRecognizer8_0ForWindowsEngli
+      -> NOT in any diagnosis  ✗
+    (mandatory) TextToSpeech[1,1]VoiceSelection
+      -> faulty: in 4/20 diagnoses  ✓
+    (optional) TextToSpeech[0,1]AudioOutput
+      -> NOT in any diagnosis  ✗
+    Overhead faulty rate: 1/3 = 33.3%
+  windows8_c50_0.testcases (|Δ_m1|=9, |Δ_m2|=14, overhead=5, #all_diags=60):
+    (Constraint 56) OR[NOT[KeyboardShortcut2][]][KeyboardShortcut]
+      -> NOT in any diagnosis  ✗
+    (Constraint 78) OR[NOT[TurnOnMouseKeys2][]][TurnOnMouseKeys]
+      -> NOT in any diagnosis  ✗
+    (alternative) Language[1,1]MicrosoftSpeechRecognizer8_0ForWindowsEngli
+      -> NOT in any diagnosis  ✗
+    (mandatory) Playback[1,1]Speakers
+      -> NOT in any diagnosis  ✗
+    (mandatory) TextToSpeech[1,1]VoiceSelection
+      -> faulty: in 12/60 diagnoses  ✓
+    Overhead faulty rate: 1/5 = 20.0%
+
+  windows8 summary: 2/17 overhead faulty = 11.8%
+
+--- CNNl ---
+  CNNl_c100_0.testcases (|Δ_m1|=14, |Δ_m2|=26, overhead=12, #all_diags=3072):
+    (Constraint 12) OR[NOT[Block2_Element4_Cell_Output_Cell][]][Block2_Ele
+      -> NOT in any diagnosis  ✗
+    (Constraint 19) OR[NOT[Block4_Element1_Cell_Output_Cell][]][Block4_Ele
+      -> NOT in any diagnosis  ✗
+    (Constraint 22) OR[NOT[Block4_Element4_Cell_Output_Cell][]][Block4_Ele
+      -> NOT in any diagnosis  ✗
+    (Constraint 29) OR[NOT[Block1_Element1_Cell_Output_Block][]][Block2]
+      -> NOT in any diagnosis  ✗
+    (Constraint 48) OR[NOT[Block4_Element5_Cell_Output_Block][]][Block5]
+      -> NOT in any diagnosis  ✗
+    (Constraint 51) OR[NOT[Architecture][]][NOT[Block1_Element2_Cell_Input
+      -> NOT in any diagnosis  ✗
+    (Constraint 55) OR[NOT[Architecture][]][NOT[Block2_Element1_Cell_Input
+      -> NOT in any diagnosis  ✗
+    (Constraint 64) OR[NOT[Architecture][]][NOT[Block3_Element5_Cell_Input
+      -> NOT in any diagnosis  ✗
+    (Constraint 7) OR[NOT[Block1_Element4_Cell_Output_Cell][]][Block1_Elem
+      -> NOT in any diagnosis  ✗
+    (Constraint 73) OR[NOT[Architecture][]][NOT[Block5_Element4_Cell_Input
+      -> NOT in any diagnosis  ✗
+    (mandatory) Training[1,1]Architecture
+      -> NOT in any diagnosis  ✗
+    (optional) Architecture[0,1]Block1
+      -> NOT in any diagnosis  ✗
+    Overhead faulty rate: 0/12 = 0.0%
+  CNNl_c10_0.testcases (|Δ_m1|=2, |Δ_m2|=3, overhead=1, #all_diags=1):
+    (optional) Architecture[0,1]Block1
+      -> NOT in any diagnosis  ✗
+    Overhead faulty rate: 0/1 = 0.0%
+  CNNl_c25_0.testcases (|Δ_m1|=5, |Δ_m2|=9, overhead=4, #all_diags=16):
+    (Constraint 12) OR[NOT[Block2_Element4_Cell_Output_Cell][]][Block2_Ele
+      -> NOT in any diagnosis  ✗
+    (Constraint 7) OR[NOT[Block1_Element4_Cell_Output_Cell][]][Block1_Elem
+      -> NOT in any diagnosis  ✗
+    (Constraint 73) OR[NOT[Architecture][]][NOT[Block5_Element4_Cell_Input
+      -> NOT in any diagnosis  ✗
+    (optional) Architecture[0,1]Block1
+      -> NOT in any diagnosis  ✗
+    Overhead faulty rate: 0/4 = 0.0%
+  CNNl_c50_0.testcases (|Δ_m1|=9, |Δ_m2|=17, overhead=8, #all_diags=1024):
+    (Constraint 12) OR[NOT[Block2_Element4_Cell_Output_Cell][]][Block2_Ele
+      -> NOT in any diagnosis  ✗
+    (Constraint 19) OR[NOT[Block4_Element1_Cell_Output_Cell][]][Block4_Ele
+      -> NOT in any diagnosis  ✗
+    (Constraint 22) OR[NOT[Block4_Element4_Cell_Output_Cell][]][Block4_Ele
+      -> NOT in any diagnosis  ✗
+    (Constraint 29) OR[NOT[Block1_Element1_Cell_Output_Block][]][Block2]
+      -> NOT in any diagnosis  ✗
+    (Constraint 55) OR[NOT[Architecture][]][NOT[Block2_Element1_Cell_Input
+      -> NOT in any diagnosis  ✗
+    (Constraint 7) OR[NOT[Block1_Element4_Cell_Output_Cell][]][Block1_Elem
+      -> NOT in any diagnosis  ✗
+    (Constraint 73) OR[NOT[Architecture][]][NOT[Block5_Element4_Cell_Input
+      -> NOT in any diagnosis  ✗
+    (optional) Architecture[0,1]Block1
+      -> NOT in any diagnosis  ✗
+    Overhead faulty rate: 0/8 = 0.0%
+
+  CNNl summary: 0/25 overhead faulty = 0.0%
+
+--- linux ---
+  linux_c100_1.testcases: all-diags not available (timeout?)
+  linux_c10_1.testcases (|Δ_m1|=2, |Δ_m2|=4, overhead=2, #all_diags=2):
+    (Constraint 6988) OR[STAGING][NOT[STRIP][]]
+      -> NOT in any diagnosis  ✗
+    (optional) root[0,1]GENERIC_HARDIRQS
+      -> NOT in any diagnosis  ✗
+    Overhead faulty rate: 0/2 = 0.0%
+  linux_c25_1.testcases (|Δ_m1|=5, |Δ_m2|=10, overhead=5, #all_diags=4):
+    (Constraint 6988) OR[STAGING][NOT[STRIP][]]
+      -> NOT in any diagnosis  ✗
+    (Constraint 6993) OR[ISA][NOT[ARLAN][]]
+      -> NOT in any diagnosis  ✗
+    (Constraint 73) NOT[ARCH_INLINE_SPIN_TRYLOCK_BH][]
+      -> NOT in any diagnosis  ✗
+    (Constraint 85) NOT[ARCH_INLINE_READ_LOCK_IRQ][]
+      -> NOT in any diagnosis  ✗
+    (optional) root[0,1]GENERIC_HARDIRQS
+      -> NOT in any diagnosis  ✗
+    Overhead faulty rate: 0/5 = 0.0%
+  linux_c50_1.testcases (|Δ_m1|=10, |Δ_m2|=19, overhead=9, #all_diags=48):
+    (Constraint 6903) OR[STAGING][NOT[USB_SERIAL_QUATECH2][]]
+      -> NOT in any diagnosis  ✗
+    (Constraint 6906) OR[STAGING][NOT[USB_SERIAL_QUATECH_USB2][]]
+      -> NOT in any diagnosis  ✗
+    (Constraint 6921) OR[STAGING][NOT[HYPERV][]]
+      -> NOT in any diagnosis  ✗
+    (Constraint 6988) OR[STAGING][NOT[STRIP][]]
+      -> NOT in any diagnosis  ✗
+    (Constraint 6993) OR[ISA][NOT[ARLAN][]]
+      -> NOT in any diagnosis  ✗
+    (Constraint 73) NOT[ARCH_INLINE_SPIN_TRYLOCK_BH][]
+      -> NOT in any diagnosis  ✗
+    (Constraint 85) NOT[ARCH_INLINE_READ_LOCK_IRQ][]
+      -> NOT in any diagnosis  ✗
+    (optional) root[0,1]BINFMT_MISC
+      -> NOT in any diagnosis  ✗
+    (optional) root[0,1]GENERIC_HARDIRQS
+      -> NOT in any diagnosis  ✗
+    Overhead faulty rate: 0/9 = 0.0%
+  linux_c5_1.testcases (|Δ_m1|=1, |Δ_m2|=2, overhead=1, #all_diags=1):
+    (optional) root[0,1]GENERIC_HARDIRQS
+      -> NOT in any diagnosis  ✗
+    Overhead faulty rate: 0/1 = 0.0%
+
+  linux summary: 0/17 overhead faulty = 0.0%
+
+================================================================================
+TOTAL  Overhead: 122  |  Faulty: 16  |  Not faulty: 106  |  Skipped: 1
+Overall faulty rate: 16/122 = 13.1%
+
+Average overhead faulty rate by testcase size:
+    |TC| | #scenarios |  avg_faulty_rate
+  -------+------------+-----------------
+       5 |          6 |           50.0%
+      10 |          6 |           16.7%
+      25 |          6 |           16.7%
+      50 |          6 |           17.8%
+     100 |          5 |           10.9%
+     ALL |         29 |           22.8%

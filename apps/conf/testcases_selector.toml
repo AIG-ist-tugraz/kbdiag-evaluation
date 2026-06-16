@@ -40,3 +40,4 @@ classified_ts = "data/jiis/classifiedTS/linux.classifiedts"
 [[ts]]
 name = "CNNl"
 classified_ts = "data/jiis/classifiedTS/CNNl.classifiedts"
+

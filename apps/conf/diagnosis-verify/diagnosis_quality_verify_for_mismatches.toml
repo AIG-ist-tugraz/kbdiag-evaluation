@@ -1,0 +1,32 @@
+# Verify KBDiag mismatches against HSDAG enumeration
+# Usage: python -m apps.verify_diagnosis_quality apps/conf/diagnosis_quality_verify.toml
+#
+# The two folders (dir_1 + dir_all) can point to DIFFERENT result roots —
+# both folders must contain result files for the listed KBs.
+
+[verification]
+dir_1   = "data/jiis/results/1"
+dir_all = "data/jiis/results-diagnosis-quality/all"
+
+# Save the report to a file (in addition to the console). Both fields required together.
+output_dir      = "data/jiis/results-diagnosis-quality"
+output_filename = "diagnosis-quality-verify-mismatches.txt"
+
+# Only the 2 KBs with known first-diag mismatches are scanned — REAL-FM-4 and windows8.
+#[[kb]]
+#name = "REAL-FM-11"
+#
+#[[kb]]
+#name = "DELL"
+
+[[kb]]
+name = "REAL-FM-4"
+
+[[kb]]
+name = "windows8"
+#
+#[[kb]]
+#name = "CNNl"
+#
+#[[kb]]
+#name = "linux"

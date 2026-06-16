@@ -1,0 +1,11 @@
+10
+_id_39 & _id_62
+_id_16 & communication
+_id_1 & _id_3 & ~_id_9 & ~_id_28
+_id_1 & _id_2 & ~pumping & ~_id_39
+water & ~communication
+_id_1 & _id_3 & _id_10 & ~_id_63
+_id_1 & ~_id_13 & _id_49
+_id_1 & _id_3 & ~message & _id_14
+_id_6 & ~_id_60
+~_id_11 & ~_id_23

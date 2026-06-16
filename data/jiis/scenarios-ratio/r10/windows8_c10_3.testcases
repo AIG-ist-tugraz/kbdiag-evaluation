@@ -1,0 +1,11 @@
+10
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~TuenOnAudioDescription & ~WindowsXpStyleScaling
+UseTheComputerWithoutADisplay & ~TextToSpeech & ~_1_5Seconds_
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~SetupTextToSpeech & ~SeeAlso5
+~UseTheComputerWithoutADisplay & ~TurnOnNarrator1 & _5_Minutes
+UseTheComputerWithoutADisplay & HearTextReadAloud & SpeechRecognition & RegularWhite
+~UseTheComputerWithoutADisplay & ~SpeechRecognition & ~MessageBoxes
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~Control_TheVoiceProperties_Speed_OtherOption & ~TB_23
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & TurnOnNarrator1 & Narrator
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & Bold2
+~HearTextReadAloud & Level

@@ -1,0 +1,73 @@
+# Phase 2 (C2) eval — quickxplain_with_testcases — inconsistency ratio 10%
+# Usage: python -m apps.eval_runner apps/conf/ratio-varied/qxwithtc_eval_r10.toml
+#
+# Scope: 3 KBs × 6 cardinalities × 10 versions × 3 iterations = 540 runs
+
+[evaluation]
+algorithm = "quickxplain_with_testcases"
+task = "1"
+num_iterations = 3
+dry_run = true
+# Total timeout per scenario in seconds, SPLIT EQUALLY across num_iterations.
+# E.g. timeout=1200 with num_iterations=3 → 400s per iteration (hard kill).
+# Set to 0 to disable timeout (runs inline, no multiprocessing).
+timeout = 1200
+# Same semantics for task="all" scenarios — overrides timeout when effective_task="all".
+timeout_all = 3600  # 3 iterations
+# Search strategy: "bfs" (breadth-first, default) or "best_first" (priority queue)
+search_strategy = "bfs"
+# max_diagnoses irrelevant when task="1" (always cap=1)
+
+[solver]
+solver_name = "glucose3"
+use_incremental = true
+
+[profiler]
+enabled = true
+preset = "benchmark"
+
+[output]
+result_path = "data/jiis/results-ratio/r10"
+
+[[kb]]
+name = "REAL-FM-11"
+model = "data/jiis/fms/REAL-FM-11.uvl"
+scenarios_dir = "data/jiis/scenarios-ratio/r10"
+testcases = [
+    "REAL-FM-11_c10_1.testcases",
+    "REAL-FM-11_c25_1.testcases",
+    "REAL-FM-11_c50_1.testcases",
+    "REAL-FM-11_c100_1.testcases",
+    "REAL-FM-11_c250_1.testcases",
+    "REAL-FM-11_c500_1.testcases",
+]
+
+[[kb]]
+name = "windows8"
+model = "data/jiis/fms/windows8.uvl"
+scenarios_dir = "data/jiis/scenarios-ratio/r10"
+testcases = [
+    "windows8_c10_0.testcases",
+    "windows8_c25_0.testcases",
+    "windows8_c50_0.testcases",
+    "windows8_c100_0.testcases",
+    "windows8_c250_0.testcases",
+    "windows8_c500_0.testcases",
+]
+
+[[kb]]
+name = "linux"
+model = "data/jiis/fms/linux-2.6.33.3.uvl"
+scenarios_dir = "data/jiis/scenarios-ratio/r10"
+testcases = [
+    "linux_c10_1.testcases",
+    "linux_c25_1.testcases",
+    "linux_c50_1.testcases",
+    "linux_c100_1.testcases",
+    "linux_c250_1.testcases",
+    "linux_c500_1.testcases",
+]
+
+[email]
+enabled = true
+subject_prefix = "[HSDAG]"

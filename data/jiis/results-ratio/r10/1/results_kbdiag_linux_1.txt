@@ -1,0 +1,190 @@
+linux linux_c10_1.testcases
+	Diagnosis: [(mandatory) root[1,1]FRAME_WARN ]
+	|D|: 1
+	CC: 22
+	KBDiag runtime: 0.764418 s
+	--- Profiler ---
+	KBDiag calls: 1
+	mssDirect calls: 29
+	Consistency checks (TC): 22
+	Solver calls: 40
+linux linux_c10_1.testcases
+	Diagnosis: [(mandatory) root[1,1]FRAME_WARN ]
+	|D|: 1
+	CC: 22
+	KBDiag runtime: 0.749792 s
+	--- Profiler ---
+	KBDiag calls: 1
+	mssDirect calls: 29
+	Consistency checks (TC): 22
+	Solver calls: 40
+linux linux_c10_1.testcases
+	Diagnosis: [(mandatory) root[1,1]FRAME_WARN ]
+	|D|: 1
+	CC: 22
+	KBDiag runtime: 0.747072 s
+	--- Profiler ---
+	KBDiag calls: 1
+	mssDirect calls: 29
+	Consistency checks (TC): 22
+	Solver calls: 40
+linux linux_c25_1.testcases
+	Diagnosis: [(mandatory) root[1,1]FRAME_WARN , (Constraint 81) NOT[ARCH_INLINE_SPIN_UNLOCK_IRQRESTORE][], (Constraint 90) NOT[ARCH_INLINE_READ_UNLOCK_IRQRESTORE][]]
+	|D|: 3
+	CC: 46
+	KBDiag runtime: 0.880236 s
+	--- Profiler ---
+	KBDiag calls: 1
+	mssDirect calls: 61
+	Consistency checks (TC): 46
+	Solver calls: 113
+linux linux_c25_1.testcases
+	Diagnosis: [(mandatory) root[1,1]FRAME_WARN , (Constraint 81) NOT[ARCH_INLINE_SPIN_UNLOCK_IRQRESTORE][], (Constraint 90) NOT[ARCH_INLINE_READ_UNLOCK_IRQRESTORE][]]
+	|D|: 3
+	CC: 46
+	KBDiag runtime: 0.804833 s
+	--- Profiler ---
+	KBDiag calls: 1
+	mssDirect calls: 61
+	Consistency checks (TC): 46
+	Solver calls: 113
+linux linux_c25_1.testcases
+	Diagnosis: [(mandatory) root[1,1]FRAME_WARN , (Constraint 81) NOT[ARCH_INLINE_SPIN_UNLOCK_IRQRESTORE][], (Constraint 90) NOT[ARCH_INLINE_READ_UNLOCK_IRQRESTORE][]]
+	|D|: 3
+	CC: 46
+	KBDiag runtime: 0.807259 s
+	--- Profiler ---
+	KBDiag calls: 1
+	mssDirect calls: 61
+	Consistency checks (TC): 46
+	Solver calls: 113
+linux linux_c50_1.testcases
+	Diagnosis: [(mandatory) root[1,1]FRAME_WARN , (Constraint 81) NOT[ARCH_INLINE_SPIN_UNLOCK_IRQRESTORE][], (Constraint 90) NOT[ARCH_INLINE_READ_UNLOCK_IRQRESTORE][], (Constraint 1937) OR[SBUS][NOT[SCSI_SUNESP][]], (Constraint 6893) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[LINE6_USB][]]]
+	|D|: 5
+	CC: 82
+	KBDiag runtime: 0.947388 s
+	--- Profiler ---
+	KBDiag calls: 1
+	mssDirect calls: 111
+	Consistency checks (TC): 82
+	Solver calls: 205
+linux linux_c50_1.testcases
+	Diagnosis: [(mandatory) root[1,1]FRAME_WARN , (Constraint 81) NOT[ARCH_INLINE_SPIN_UNLOCK_IRQRESTORE][], (Constraint 90) NOT[ARCH_INLINE_READ_UNLOCK_IRQRESTORE][], (Constraint 1937) OR[SBUS][NOT[SCSI_SUNESP][]], (Constraint 6893) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[LINE6_USB][]]]
+	|D|: 5
+	CC: 82
+	KBDiag runtime: 0.916557 s
+	--- Profiler ---
+	KBDiag calls: 1
+	mssDirect calls: 111
+	Consistency checks (TC): 82
+	Solver calls: 205
+linux linux_c50_1.testcases
+	Diagnosis: [(mandatory) root[1,1]FRAME_WARN , (Constraint 81) NOT[ARCH_INLINE_SPIN_UNLOCK_IRQRESTORE][], (Constraint 90) NOT[ARCH_INLINE_READ_UNLOCK_IRQRESTORE][], (Constraint 1937) OR[SBUS][NOT[SCSI_SUNESP][]], (Constraint 6893) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[LINE6_USB][]]]
+	|D|: 5
+	CC: 82
+	KBDiag runtime: 0.915330 s
+	--- Profiler ---
+	KBDiag calls: 1
+	mssDirect calls: 111
+	Consistency checks (TC): 82
+	Solver calls: 205
+linux linux_c100_1.testcases
+	Diagnosis: [(mandatory) root[1,1]IO_DELAY_0X80_alt , (mandatory) root[1,1]LOG_BUF_SHIFT , (mandatory) root[1,1]FRAME_WARN , (Constraint 78) NOT[ARCH_INLINE_SPIN_UNLOCK][], (Constraint 81) NOT[ARCH_INLINE_SPIN_UNLOCK_IRQRESTORE][], (Constraint 90) NOT[ARCH_INLINE_READ_UNLOCK_IRQRESTORE][], (Constraint 1937) OR[SBUS][NOT[SCSI_SUNESP][]], (Constraint 2306) OR[SBUS][NOT[SUNBMAC][]], (Constraint 4905) OR[HAVE_CLK][NOT[VIDEO_SH_MOBILE_CEU][]], (Constraint 6893) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[LINE6_USB][]]]
+	|D|: 10
+	CC: 140
+	KBDiag runtime: 1.085944 s
+	--- Profiler ---
+	KBDiag calls: 1
+	mssDirect calls: 189
+	Consistency checks (TC): 140
+	Solver calls: 415
+linux linux_c100_1.testcases
+	Diagnosis: [(mandatory) root[1,1]IO_DELAY_0X80_alt , (mandatory) root[1,1]LOG_BUF_SHIFT , (mandatory) root[1,1]FRAME_WARN , (Constraint 78) NOT[ARCH_INLINE_SPIN_UNLOCK][], (Constraint 81) NOT[ARCH_INLINE_SPIN_UNLOCK_IRQRESTORE][], (Constraint 90) NOT[ARCH_INLINE_READ_UNLOCK_IRQRESTORE][], (Constraint 1937) OR[SBUS][NOT[SCSI_SUNESP][]], (Constraint 2306) OR[SBUS][NOT[SUNBMAC][]], (Constraint 4905) OR[HAVE_CLK][NOT[VIDEO_SH_MOBILE_CEU][]], (Constraint 6893) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[LINE6_USB][]]]
+	|D|: 10
+	CC: 140
+	KBDiag runtime: 1.069417 s
+	--- Profiler ---
+	KBDiag calls: 1
+	mssDirect calls: 189
+	Consistency checks (TC): 140
+	Solver calls: 415
+linux linux_c100_1.testcases
+	Diagnosis: [(mandatory) root[1,1]IO_DELAY_0X80_alt , (mandatory) root[1,1]LOG_BUF_SHIFT , (mandatory) root[1,1]FRAME_WARN , (Constraint 78) NOT[ARCH_INLINE_SPIN_UNLOCK][], (Constraint 81) NOT[ARCH_INLINE_SPIN_UNLOCK_IRQRESTORE][], (Constraint 90) NOT[ARCH_INLINE_READ_UNLOCK_IRQRESTORE][], (Constraint 1937) OR[SBUS][NOT[SCSI_SUNESP][]], (Constraint 2306) OR[SBUS][NOT[SUNBMAC][]], (Constraint 4905) OR[HAVE_CLK][NOT[VIDEO_SH_MOBILE_CEU][]], (Constraint 6893) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[LINE6_USB][]]]
+	|D|: 10
+	CC: 140
+	KBDiag runtime: 1.079727 s
+	--- Profiler ---
+	KBDiag calls: 1
+	mssDirect calls: 189
+	Consistency checks (TC): 140
+	Solver calls: 415
+linux linux_c250_1.testcases
+	Diagnosis: [(mandatory) root[1,1]VMSPLIT_3G_OPT_alt , (mandatory) root[1,1]IO_DELAY_0X80_alt , (mandatory) root[1,1]LOG_BUF_SHIFT , (mandatory) root[1,1]FRAME_WARN , (mandatory) root[1,1]DUMMY_CONSOLE_COLUMNS , (mandatory) root[1,1]NODES_SHIFT , (mandatory) root[1,1]DUMMY_CONSOLE_ROWS , (Constraint 58) NOT[HAVE_DEFAULT_NO_SPIN_MUTEXES][], (Constraint 78) NOT[ARCH_INLINE_SPIN_UNLOCK][], (Constraint 81) NOT[ARCH_INLINE_SPIN_UNLOCK_IRQRESTORE][], (Constraint 86) NOT[ARCH_INLINE_READ_LOCK_IRQSAVE][], (Constraint 90) NOT[ARCH_INLINE_READ_UNLOCK_IRQRESTORE][], (Constraint 93) NOT[ARCH_INLINE_WRITE_LOCK_BH][], (Constraint 96) NOT[ARCH_INLINE_WRITE_UNLOCK][], (Constraint 1937) OR[SBUS][NOT[SCSI_SUNESP][]], (Constraint 2306) OR[SBUS][NOT[SUNBMAC][]], (Constraint 2310) OR[SBUS][NOT[SUNQE][]], (Constraint 2481) NOT[IBM_NEW_EMAC_EMAC4][], (Constraint 4542) NOT[MFD_WM8352_CONFIG_MODE_3][], (Constraint 4905) OR[HAVE_CLK][NOT[VIDEO_SH_MOBILE_CEU][]], (Constraint 6704) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[OTUS][]], (Constraint 6837) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[RTL8192U][]], (Constraint 6893) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[LINE6_USB][]], (Constraint 6910) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[VT6655][]], (Constraint 6922) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[HYPERV][]]]
+	|D|: 25
+	CC: 286
+	KBDiag runtime: 1.536734 s
+	--- Profiler ---
+	KBDiag calls: 1
+	mssDirect calls: 383
+	Consistency checks (TC): 286
+	Solver calls: 1078
+linux linux_c250_1.testcases
+	Diagnosis: [(mandatory) root[1,1]VMSPLIT_3G_OPT_alt , (mandatory) root[1,1]IO_DELAY_0X80_alt , (mandatory) root[1,1]LOG_BUF_SHIFT , (mandatory) root[1,1]FRAME_WARN , (mandatory) root[1,1]DUMMY_CONSOLE_COLUMNS , (mandatory) root[1,1]NODES_SHIFT , (mandatory) root[1,1]DUMMY_CONSOLE_ROWS , (Constraint 58) NOT[HAVE_DEFAULT_NO_SPIN_MUTEXES][], (Constraint 78) NOT[ARCH_INLINE_SPIN_UNLOCK][], (Constraint 81) NOT[ARCH_INLINE_SPIN_UNLOCK_IRQRESTORE][], (Constraint 86) NOT[ARCH_INLINE_READ_LOCK_IRQSAVE][], (Constraint 90) NOT[ARCH_INLINE_READ_UNLOCK_IRQRESTORE][], (Constraint 93) NOT[ARCH_INLINE_WRITE_LOCK_BH][], (Constraint 96) NOT[ARCH_INLINE_WRITE_UNLOCK][], (Constraint 1937) OR[SBUS][NOT[SCSI_SUNESP][]], (Constraint 2306) OR[SBUS][NOT[SUNBMAC][]], (Constraint 2310) OR[SBUS][NOT[SUNQE][]], (Constraint 2481) NOT[IBM_NEW_EMAC_EMAC4][], (Constraint 4542) NOT[MFD_WM8352_CONFIG_MODE_3][], (Constraint 4905) OR[HAVE_CLK][NOT[VIDEO_SH_MOBILE_CEU][]], (Constraint 6704) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[OTUS][]], (Constraint 6837) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[RTL8192U][]], (Constraint 6893) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[LINE6_USB][]], (Constraint 6910) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[VT6655][]], (Constraint 6922) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[HYPERV][]]]
+	|D|: 25
+	CC: 286
+	KBDiag runtime: 1.518989 s
+	--- Profiler ---
+	KBDiag calls: 1
+	mssDirect calls: 383
+	Consistency checks (TC): 286
+	Solver calls: 1078
+linux linux_c250_1.testcases
+	Diagnosis: [(mandatory) root[1,1]VMSPLIT_3G_OPT_alt , (mandatory) root[1,1]IO_DELAY_0X80_alt , (mandatory) root[1,1]LOG_BUF_SHIFT , (mandatory) root[1,1]FRAME_WARN , (mandatory) root[1,1]DUMMY_CONSOLE_COLUMNS , (mandatory) root[1,1]NODES_SHIFT , (mandatory) root[1,1]DUMMY_CONSOLE_ROWS , (Constraint 58) NOT[HAVE_DEFAULT_NO_SPIN_MUTEXES][], (Constraint 78) NOT[ARCH_INLINE_SPIN_UNLOCK][], (Constraint 81) NOT[ARCH_INLINE_SPIN_UNLOCK_IRQRESTORE][], (Constraint 86) NOT[ARCH_INLINE_READ_LOCK_IRQSAVE][], (Constraint 90) NOT[ARCH_INLINE_READ_UNLOCK_IRQRESTORE][], (Constraint 93) NOT[ARCH_INLINE_WRITE_LOCK_BH][], (Constraint 96) NOT[ARCH_INLINE_WRITE_UNLOCK][], (Constraint 1937) OR[SBUS][NOT[SCSI_SUNESP][]], (Constraint 2306) OR[SBUS][NOT[SUNBMAC][]], (Constraint 2310) OR[SBUS][NOT[SUNQE][]], (Constraint 2481) NOT[IBM_NEW_EMAC_EMAC4][], (Constraint 4542) NOT[MFD_WM8352_CONFIG_MODE_3][], (Constraint 4905) OR[HAVE_CLK][NOT[VIDEO_SH_MOBILE_CEU][]], (Constraint 6704) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[OTUS][]], (Constraint 6837) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[RTL8192U][]], (Constraint 6893) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[LINE6_USB][]], (Constraint 6910) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[VT6655][]], (Constraint 6922) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[HYPERV][]]]
+	|D|: 25
+	CC: 286
+	KBDiag runtime: 1.540089 s
+	--- Profiler ---
+	KBDiag calls: 1
+	mssDirect calls: 383
+	Consistency checks (TC): 286
+	Solver calls: 1078
+linux linux_c500_1.testcases
+	Diagnosis: [(mandatory) root[1,1]MGEODEGX1_alt , (mandatory) root[1,1]VMSPLIT_3G_OPT_alt , (mandatory) root[1,1]DEFAULT_SECURITY_SMACK_alt , (mandatory) root[1,1]KERNEL_GZIP_alt , (mandatory) root[1,1]IO_DELAY_0X80_alt , (mandatory) root[1,1]LOG_BUF_SHIFT , (mandatory) root[1,1]IO_DELAY_TYPE_0X80 , (mandatory) root[1,1]FRAME_WARN , (mandatory) root[1,1]DUMMY_CONSOLE_COLUMNS , (mandatory) root[1,1]NR_CPUS , (mandatory) root[1,1]NODES_SHIFT , (mandatory) root[1,1]OUTPUT_FORMAT , (mandatory) root[1,1]DUMMY_CONSOLE_ROWS , (mandatory) root[1,1]LSM_MMAP_MIN_ADDR , (mandatory) root[1,1]ARCH_DEFCONFIG , (mandatory) root[1,1]RCU_FANOUT , (Constraint 58) NOT[HAVE_DEFAULT_NO_SPIN_MUTEXES][], (Constraint 78) NOT[ARCH_INLINE_SPIN_UNLOCK][], (Constraint 79) NOT[ARCH_INLINE_SPIN_UNLOCK_BH][], (Constraint 81) NOT[ARCH_INLINE_SPIN_UNLOCK_IRQRESTORE][], (Constraint 86) NOT[ARCH_INLINE_READ_LOCK_IRQSAVE][], (Constraint 87) NOT[ARCH_INLINE_READ_UNLOCK][], (Constraint 90) NOT[ARCH_INLINE_READ_UNLOCK_IRQRESTORE][], (Constraint 93) NOT[ARCH_INLINE_WRITE_LOCK_BH][], (Constraint 94) NOT[ARCH_INLINE_WRITE_LOCK_IRQ][], (Constraint 96) NOT[ARCH_INLINE_WRITE_UNLOCK][], (Constraint 99) NOT[ARCH_INLINE_WRITE_UNLOCK_IRQRESTORE][], (Constraint 1937) OR[SBUS][NOT[SCSI_SUNESP][]], (Constraint 2306) OR[SBUS][NOT[SUNBMAC][]], (Constraint 2310) OR[SBUS][NOT[SUNQE][]], (Constraint 2479) NOT[IBM_NEW_EMAC_RGMII][], (Constraint 2481) NOT[IBM_NEW_EMAC_EMAC4][], (Constraint 3854) OR[BROKEN][NOT[SX][]], (Constraint 4541) NOT[MFD_WM8352_CONFIG_MODE_2][], (Constraint 4542) NOT[MFD_WM8352_CONFIG_MODE_3][], (Constraint 4621) OR[NOT[VIDEO_HELPER_CHIPS_AUTO][]][NOT[VIDEO_TCM825X][]], (Constraint 4905) OR[HAVE_CLK][NOT[VIDEO_SH_MOBILE_CEU][]], (Constraint 6092) NOT[HAS_TXX9_ACLC][], (Constraint 6628) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[VIDEO_GO7007][]], (Constraint 6704) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[OTUS][]], (Constraint 6831) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[RTL8192SU][]], (Constraint 6837) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[RTL8192U][]], (Constraint 6893) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[LINE6_USB][]], (Constraint 6910) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[VT6655][]], (Constraint 6922) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[HYPERV][]], (Constraint 6984) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[SAMSUNG_LAPTOP][]], (Constraint 7586) NOT[REED_SOLOMON_ENC8][], (Constraint 7587) NOT[REED_SOLOMON_ENC16][], (Constraint 7592) NOT[GENERIC_ATOMIC64][]]
+	|D|: 49
+	CC: 490
+	KBDiag runtime: 2.372189 s
+	--- Profiler ---
+	KBDiag calls: 1
+	mssDirect calls: 649
+	Consistency checks (TC): 490
+	Solver calls: 2190
+linux linux_c500_1.testcases
+	Diagnosis: [(mandatory) root[1,1]MGEODEGX1_alt , (mandatory) root[1,1]VMSPLIT_3G_OPT_alt , (mandatory) root[1,1]DEFAULT_SECURITY_SMACK_alt , (mandatory) root[1,1]KERNEL_GZIP_alt , (mandatory) root[1,1]IO_DELAY_0X80_alt , (mandatory) root[1,1]LOG_BUF_SHIFT , (mandatory) root[1,1]IO_DELAY_TYPE_0X80 , (mandatory) root[1,1]FRAME_WARN , (mandatory) root[1,1]DUMMY_CONSOLE_COLUMNS , (mandatory) root[1,1]NR_CPUS , (mandatory) root[1,1]NODES_SHIFT , (mandatory) root[1,1]OUTPUT_FORMAT , (mandatory) root[1,1]DUMMY_CONSOLE_ROWS , (mandatory) root[1,1]LSM_MMAP_MIN_ADDR , (mandatory) root[1,1]ARCH_DEFCONFIG , (mandatory) root[1,1]RCU_FANOUT , (Constraint 58) NOT[HAVE_DEFAULT_NO_SPIN_MUTEXES][], (Constraint 78) NOT[ARCH_INLINE_SPIN_UNLOCK][], (Constraint 79) NOT[ARCH_INLINE_SPIN_UNLOCK_BH][], (Constraint 81) NOT[ARCH_INLINE_SPIN_UNLOCK_IRQRESTORE][], (Constraint 86) NOT[ARCH_INLINE_READ_LOCK_IRQSAVE][], (Constraint 87) NOT[ARCH_INLINE_READ_UNLOCK][], (Constraint 90) NOT[ARCH_INLINE_READ_UNLOCK_IRQRESTORE][], (Constraint 93) NOT[ARCH_INLINE_WRITE_LOCK_BH][], (Constraint 94) NOT[ARCH_INLINE_WRITE_LOCK_IRQ][], (Constraint 96) NOT[ARCH_INLINE_WRITE_UNLOCK][], (Constraint 99) NOT[ARCH_INLINE_WRITE_UNLOCK_IRQRESTORE][], (Constraint 1937) OR[SBUS][NOT[SCSI_SUNESP][]], (Constraint 2306) OR[SBUS][NOT[SUNBMAC][]], (Constraint 2310) OR[SBUS][NOT[SUNQE][]], (Constraint 2479) NOT[IBM_NEW_EMAC_RGMII][], (Constraint 2481) NOT[IBM_NEW_EMAC_EMAC4][], (Constraint 3854) OR[BROKEN][NOT[SX][]], (Constraint 4541) NOT[MFD_WM8352_CONFIG_MODE_2][], (Constraint 4542) NOT[MFD_WM8352_CONFIG_MODE_3][], (Constraint 4621) OR[NOT[VIDEO_HELPER_CHIPS_AUTO][]][NOT[VIDEO_TCM825X][]], (Constraint 4905) OR[HAVE_CLK][NOT[VIDEO_SH_MOBILE_CEU][]], (Constraint 6092) NOT[HAS_TXX9_ACLC][], (Constraint 6628) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[VIDEO_GO7007][]], (Constraint 6704) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[OTUS][]], (Constraint 6831) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[RTL8192SU][]], (Constraint 6837) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[RTL8192U][]], (Constraint 6893) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[LINE6_USB][]], (Constraint 6910) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[VT6655][]], (Constraint 6922) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[HYPERV][]], (Constraint 6984) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[SAMSUNG_LAPTOP][]], (Constraint 7586) NOT[REED_SOLOMON_ENC8][], (Constraint 7587) NOT[REED_SOLOMON_ENC16][], (Constraint 7592) NOT[GENERIC_ATOMIC64][]]
+	|D|: 49
+	CC: 490
+	KBDiag runtime: 2.349804 s
+	--- Profiler ---
+	KBDiag calls: 1
+	mssDirect calls: 649
+	Consistency checks (TC): 490
+	Solver calls: 2190
+linux linux_c500_1.testcases
+	Diagnosis: [(mandatory) root[1,1]MGEODEGX1_alt , (mandatory) root[1,1]VMSPLIT_3G_OPT_alt , (mandatory) root[1,1]DEFAULT_SECURITY_SMACK_alt , (mandatory) root[1,1]KERNEL_GZIP_alt , (mandatory) root[1,1]IO_DELAY_0X80_alt , (mandatory) root[1,1]LOG_BUF_SHIFT , (mandatory) root[1,1]IO_DELAY_TYPE_0X80 , (mandatory) root[1,1]FRAME_WARN , (mandatory) root[1,1]DUMMY_CONSOLE_COLUMNS , (mandatory) root[1,1]NR_CPUS , (mandatory) root[1,1]NODES_SHIFT , (mandatory) root[1,1]OUTPUT_FORMAT , (mandatory) root[1,1]DUMMY_CONSOLE_ROWS , (mandatory) root[1,1]LSM_MMAP_MIN_ADDR , (mandatory) root[1,1]ARCH_DEFCONFIG , (mandatory) root[1,1]RCU_FANOUT , (Constraint 58) NOT[HAVE_DEFAULT_NO_SPIN_MUTEXES][], (Constraint 78) NOT[ARCH_INLINE_SPIN_UNLOCK][], (Constraint 79) NOT[ARCH_INLINE_SPIN_UNLOCK_BH][], (Constraint 81) NOT[ARCH_INLINE_SPIN_UNLOCK_IRQRESTORE][], (Constraint 86) NOT[ARCH_INLINE_READ_LOCK_IRQSAVE][], (Constraint 87) NOT[ARCH_INLINE_READ_UNLOCK][], (Constraint 90) NOT[ARCH_INLINE_READ_UNLOCK_IRQRESTORE][], (Constraint 93) NOT[ARCH_INLINE_WRITE_LOCK_BH][], (Constraint 94) NOT[ARCH_INLINE_WRITE_LOCK_IRQ][], (Constraint 96) NOT[ARCH_INLINE_WRITE_UNLOCK][], (Constraint 99) NOT[ARCH_INLINE_WRITE_UNLOCK_IRQRESTORE][], (Constraint 1937) OR[SBUS][NOT[SCSI_SUNESP][]], (Constraint 2306) OR[SBUS][NOT[SUNBMAC][]], (Constraint 2310) OR[SBUS][NOT[SUNQE][]], (Constraint 2479) NOT[IBM_NEW_EMAC_RGMII][], (Constraint 2481) NOT[IBM_NEW_EMAC_EMAC4][], (Constraint 3854) OR[BROKEN][NOT[SX][]], (Constraint 4541) NOT[MFD_WM8352_CONFIG_MODE_2][], (Constraint 4542) NOT[MFD_WM8352_CONFIG_MODE_3][], (Constraint 4621) OR[NOT[VIDEO_HELPER_CHIPS_AUTO][]][NOT[VIDEO_TCM825X][]], (Constraint 4905) OR[HAVE_CLK][NOT[VIDEO_SH_MOBILE_CEU][]], (Constraint 6092) NOT[HAS_TXX9_ACLC][], (Constraint 6628) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[VIDEO_GO7007][]], (Constraint 6704) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[OTUS][]], (Constraint 6831) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[RTL8192SU][]], (Constraint 6837) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[RTL8192U][]], (Constraint 6893) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[LINE6_USB][]], (Constraint 6910) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[VT6655][]], (Constraint 6922) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[HYPERV][]], (Constraint 6984) OR[NOT[STAGING_EXCLUDE_BUILD][]][NOT[SAMSUNG_LAPTOP][]], (Constraint 7586) NOT[REED_SOLOMON_ENC8][], (Constraint 7587) NOT[REED_SOLOMON_ENC16][], (Constraint 7592) NOT[GENERIC_ATOMIC64][]]
+	|D|: 49
+	CC: 490
+	KBDiag runtime: 2.355259 s
+	--- Profiler ---
+	KBDiag calls: 1
+	mssDirect calls: 649
+	Consistency checks (TC): 490
+	Solver calls: 2190
+
+=== Evaluation Results: kbdiag (m=1, task=1) ===
+Testcase                  | Avg Time (s) |   |D| |  #Diag
+---------------------------------------------------------
+linux/linux_c10_1.testcases |     0.753760 |     1 |      1
+linux/linux_c25_1.testcases |     0.830776 |     3 |      1
+linux/linux_c50_1.testcases |     0.926425 |     5 |      1
+linux/linux_c100_1.testcases |     1.078363 |    10 |      1
+linux/linux_c250_1.testcases |     1.531937 |    25 |      1
+linux/linux_c500_1.testcases |     2.359084 |    49 |      1

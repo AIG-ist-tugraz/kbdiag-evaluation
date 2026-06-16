@@ -1,0 +1,26 @@
+25
+_id_1 & _id_2 & _id_3 & _id_45 & ~_id_63
+_id_1 & ~_id_35 & _id_42
+_id_1 & _id_38 & _id_54
+_id_2 & _id_12 & _id_17
+_id_16 & _id_28
+_id_2 & ~_id_13 & ~sump_pump
+_id_1 & _id_58 & _id_63
+_id_1 & _id_3 & _id_16 & ~_id_20
+_id_1 & _id_9 & _id_53
+_id_1 & ~_id_64
+~_id_35 & _id_59
+_id_2 & _id_8 & ~_id_30
+_id_1 & _id_2 & _id_4 & _id_8 & ~_id_37
+water & ~_id_63
+_id_1 & _id_2 & _id_3 & _id_55 & _id_58
+_id_1 & _id_2 & _id_13 & ~sump_pump
+_id_2 & _id_9 & moisture_sensor
+~message & ~_id_23
+_id_50 & ~_id_53
+_id_1 & _id_2 & _id_3 & ~_id_37 & _id_57
+_id_1 & pumping & _id_36
+_id_1 & _id_2 & _id_4 & _id_23 & _id_33
+_id_1 & _id_3 & ~message & _id_15
+_id_1 & ~_id_58
+~_id_26 & _id_31

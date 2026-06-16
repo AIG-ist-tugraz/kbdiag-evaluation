@@ -1,0 +1,190 @@
+REAL-FM-11 REAL-FM-11_c10_1.testcases
+	Diagnosis: [(optional) _id_30[0,1]pumping ]
+	|D|: 1
+	CC: 20
+	QuickXPlain+TC runtime: 0.000600 s
+	--- Profiler ---
+	Consistency checks (TC): 20
+	Solver calls: 29
+	QuickXPlain+TC calls: 2
+	QX+TC calls: 23
+REAL-FM-11 REAL-FM-11_c10_1.testcases
+	Diagnosis: [(optional) _id_30[0,1]pumping ]
+	|D|: 1
+	CC: 20
+	QuickXPlain+TC runtime: 0.000591 s
+	--- Profiler ---
+	Consistency checks (TC): 20
+	Solver calls: 29
+	QuickXPlain+TC calls: 2
+	QX+TC calls: 23
+REAL-FM-11 REAL-FM-11_c10_1.testcases
+	Diagnosis: [(optional) _id_30[0,1]pumping ]
+	|D|: 1
+	CC: 20
+	QuickXPlain+TC runtime: 0.000547 s
+	--- Profiler ---
+	Consistency checks (TC): 20
+	Solver calls: 29
+	QuickXPlain+TC calls: 2
+	QX+TC calls: 23
+REAL-FM-11 REAL-FM-11_c25_1.testcases
+	Diagnosis: [(optional) _id_30[0,1]pumping , (Constraint 2) IMPLIES[message][communication], (Constraint 3) IMPLIES[flood][moisture_sensor]]
+	|D|: 3
+	CC: 51
+	QuickXPlain+TC runtime: 0.001872 s
+	--- Profiler ---
+	Consistency checks (TC): 51
+	Solver calls: 75
+	QuickXPlain+TC calls: 4
+	QX+TC calls: 67
+REAL-FM-11 REAL-FM-11_c25_1.testcases
+	Diagnosis: [(optional) _id_30[0,1]pumping , (Constraint 2) IMPLIES[message][communication], (Constraint 3) IMPLIES[flood][moisture_sensor]]
+	|D|: 3
+	CC: 51
+	QuickXPlain+TC runtime: 0.001740 s
+	--- Profiler ---
+	Consistency checks (TC): 51
+	Solver calls: 75
+	QuickXPlain+TC calls: 4
+	QX+TC calls: 67
+REAL-FM-11 REAL-FM-11_c25_1.testcases
+	Diagnosis: [(optional) _id_30[0,1]pumping , (Constraint 2) IMPLIES[message][communication], (Constraint 3) IMPLIES[flood][moisture_sensor]]
+	|D|: 3
+	CC: 51
+	QuickXPlain+TC runtime: 0.001792 s
+	--- Profiler ---
+	Consistency checks (TC): 51
+	Solver calls: 75
+	QuickXPlain+TC calls: 4
+	QX+TC calls: 67
+REAL-FM-11 REAL-FM-11_c50_1.testcases
+	Diagnosis: [(optional) _id_30[0,1]pumping , (Constraint 2) IMPLIES[message][communication], (Constraint 3) IMPLIES[flood][moisture_sensor], (mandatory) _id_32[1,1]_id_33 , (mandatory) _id_52[1,1]_id_54 ]
+	|D|: 5
+	CC: 68
+	QuickXPlain+TC runtime: 0.003379 s
+	--- Profiler ---
+	Consistency checks (TC): 68
+	Solver calls: 117
+	QuickXPlain+TC calls: 6
+	QX+TC calls: 93
+REAL-FM-11 REAL-FM-11_c50_1.testcases
+	Diagnosis: [(optional) _id_30[0,1]pumping , (Constraint 2) IMPLIES[message][communication], (Constraint 3) IMPLIES[flood][moisture_sensor], (mandatory) _id_32[1,1]_id_33 , (mandatory) _id_52[1,1]_id_54 ]
+	|D|: 5
+	CC: 68
+	QuickXPlain+TC runtime: 0.003377 s
+	--- Profiler ---
+	Consistency checks (TC): 68
+	Solver calls: 117
+	QuickXPlain+TC calls: 6
+	QX+TC calls: 93
+REAL-FM-11 REAL-FM-11_c50_1.testcases
+	Diagnosis: [(optional) _id_30[0,1]pumping , (Constraint 2) IMPLIES[message][communication], (Constraint 3) IMPLIES[flood][moisture_sensor], (mandatory) _id_32[1,1]_id_33 , (mandatory) _id_52[1,1]_id_54 ]
+	|D|: 5
+	CC: 68
+	QuickXPlain+TC runtime: 0.003401 s
+	--- Profiler ---
+	Consistency checks (TC): 68
+	Solver calls: 117
+	QuickXPlain+TC calls: 6
+	QX+TC calls: 93
+REAL-FM-11 REAL-FM-11_c100_1.testcases
+	Diagnosis: [(mandatory) flood[1,1]_id_30 , (Constraint 2) IMPLIES[message][communication], (Constraint 3) IMPLIES[flood][moisture_sensor], (mandatory) _id_32[1,1]_id_33 , (mandatory) _id_52[1,1]_id_54 , (mandatory) _id_15[1,1]_id_22 , (mandatory) _id_56[1,1]_id_57 , (mandatory) _id_47[1,1]_id_55 , (mandatory) _id_5[1,1]_id_6 ]
+	|D|: 9
+	CC: 136
+	QuickXPlain+TC runtime: 0.014567 s
+	--- Profiler ---
+	Consistency checks (TC): 136
+	Solver calls: 322
+	QuickXPlain+TC calls: 11
+	QX+TC calls: 184
+REAL-FM-11 REAL-FM-11_c100_1.testcases
+	Diagnosis: [(mandatory) flood[1,1]_id_30 , (Constraint 2) IMPLIES[message][communication], (Constraint 3) IMPLIES[flood][moisture_sensor], (mandatory) _id_32[1,1]_id_33 , (mandatory) _id_52[1,1]_id_54 , (mandatory) _id_15[1,1]_id_22 , (mandatory) _id_56[1,1]_id_57 , (mandatory) _id_47[1,1]_id_55 , (mandatory) _id_5[1,1]_id_6 ]
+	|D|: 9
+	CC: 136
+	QuickXPlain+TC runtime: 0.013687 s
+	--- Profiler ---
+	Consistency checks (TC): 136
+	Solver calls: 322
+	QuickXPlain+TC calls: 11
+	QX+TC calls: 184
+REAL-FM-11 REAL-FM-11_c100_1.testcases
+	Diagnosis: [(mandatory) flood[1,1]_id_30 , (Constraint 2) IMPLIES[message][communication], (Constraint 3) IMPLIES[flood][moisture_sensor], (mandatory) _id_32[1,1]_id_33 , (mandatory) _id_52[1,1]_id_54 , (mandatory) _id_15[1,1]_id_22 , (mandatory) _id_56[1,1]_id_57 , (mandatory) _id_47[1,1]_id_55 , (mandatory) _id_5[1,1]_id_6 ]
+	|D|: 9
+	CC: 136
+	QuickXPlain+TC runtime: 0.014249 s
+	--- Profiler ---
+	Consistency checks (TC): 136
+	Solver calls: 322
+	QuickXPlain+TC calls: 11
+	QX+TC calls: 184
+REAL-FM-11 REAL-FM-11_c250_1.testcases
+	Diagnosis: [(mandatory) flood[1,1]_id_30 , (mandatory) message[1,1]_id_14 , (Constraint 3) IMPLIES[flood][moisture_sensor], (mandatory) _id_32[1,1]_id_33 , (mandatory) _id_52[1,1]_id_54 , (mandatory) _id_15[1,1]_id_22 , (mandatory) _id_0[1,1]_id_56 , (mandatory) _id_0[1,1]_id_47 , (mandatory) _id_5[1,1]_id_6 , (mandatory) _id_38[1,1]_id_39 , (alternative) _id_18[1,1]_id_20 _id_21 , (mandatory) _id_24[1,1]_id_25 , (mandatory) _id_49[1,1]_id_50 , (optional) _id_30[0,1]pumping , (mandatory) _id_3[1,1]_id_10 , (mandatory) _id_17[1,1]_id_18 , (alternative) _id_26[1,1]_id_28 _id_29 ]
+	|D|: 17
+	CC: 278
+	QuickXPlain+TC runtime: 0.453895 s
+	--- Profiler ---
+	Consistency checks (TC): 278
+	Solver calls: 1789
+	QuickXPlain+TC calls: 23
+	QX+TC calls: 364
+REAL-FM-11 REAL-FM-11_c250_1.testcases
+	Diagnosis: [(mandatory) flood[1,1]_id_30 , (mandatory) message[1,1]_id_14 , (Constraint 3) IMPLIES[flood][moisture_sensor], (mandatory) _id_32[1,1]_id_33 , (mandatory) _id_52[1,1]_id_54 , (mandatory) _id_15[1,1]_id_22 , (mandatory) _id_0[1,1]_id_56 , (mandatory) _id_0[1,1]_id_47 , (mandatory) _id_5[1,1]_id_6 , (mandatory) _id_38[1,1]_id_39 , (alternative) _id_18[1,1]_id_20 _id_21 , (mandatory) _id_24[1,1]_id_25 , (mandatory) _id_49[1,1]_id_50 , (optional) _id_30[0,1]pumping , (mandatory) _id_3[1,1]_id_10 , (mandatory) _id_17[1,1]_id_18 , (alternative) _id_26[1,1]_id_28 _id_29 ]
+	|D|: 17
+	CC: 278
+	QuickXPlain+TC runtime: 0.459920 s
+	--- Profiler ---
+	Consistency checks (TC): 278
+	Solver calls: 1789
+	QuickXPlain+TC calls: 23
+	QX+TC calls: 364
+REAL-FM-11 REAL-FM-11_c250_1.testcases
+	Diagnosis: [(mandatory) flood[1,1]_id_30 , (mandatory) message[1,1]_id_14 , (Constraint 3) IMPLIES[flood][moisture_sensor], (mandatory) _id_32[1,1]_id_33 , (mandatory) _id_52[1,1]_id_54 , (mandatory) _id_15[1,1]_id_22 , (mandatory) _id_0[1,1]_id_56 , (mandatory) _id_0[1,1]_id_47 , (mandatory) _id_5[1,1]_id_6 , (mandatory) _id_38[1,1]_id_39 , (alternative) _id_18[1,1]_id_20 _id_21 , (mandatory) _id_24[1,1]_id_25 , (mandatory) _id_49[1,1]_id_50 , (optional) _id_30[0,1]pumping , (mandatory) _id_3[1,1]_id_10 , (mandatory) _id_17[1,1]_id_18 , (alternative) _id_26[1,1]_id_28 _id_29 ]
+	|D|: 17
+	CC: 278
+	QuickXPlain+TC runtime: 0.454886 s
+	--- Profiler ---
+	Consistency checks (TC): 278
+	Solver calls: 1789
+	QuickXPlain+TC calls: 23
+	QX+TC calls: 364
+REAL-FM-11 REAL-FM-11_c500_1.testcases
+	Diagnosis: [(mandatory) flood[1,1]_id_30 , (mandatory) message[1,1]_id_14 , (Constraint 3) IMPLIES[flood][moisture_sensor], (mandatory) _id_32[1,1]_id_33 , (mandatory) _id_52[1,1]_id_54 , (mandatory) _id_15[1,1]_id_22 , (mandatory) _id_0[1,1]_id_56 , (mandatory) _id_0[1,1]_id_47 , (mandatory) _id_5[1,1]_id_6 , (mandatory) _id_38[1,1]_id_39 , (alternative) _id_18[1,1]_id_20 _id_21 , (mandatory) _id_24[1,1]_id_25 , (mandatory) _id_49[1,1]_id_50 , (optional) _id_30[0,1]pumping , (mandatory) _id_3[1,1]_id_10 , (mandatory) _id_16[1,1]_id_17 , (alternative) _id_26[1,1]_id_28 _id_29 , (mandatory) communication[1,1]_id_37 , (mandatory) _id_47[1,1]_id_52 , (mandatory) _id_4[1,1]_id_5 , (mandatory) _id_43[1,1]_id_44 , (mandatory) flood[1,1]_id_24 , (mandatory) _id_0[1,1]_id_32 , (mandatory) _id_25[1,1]_id_26 , (alternative) _id_39[1,1]_id_41 _id_42 , (alternative) _id_6[1,1]_id_8 _id_9 , (alternative) _id_33[1,1]_id_35 _id_36 , (mandatory) _id_59[1,1]_id_60 , (Constraint 2) IMPLIES[message][communication], (Constraint 1) IMPLIES[pumping][sump_pump], (alternative) _id_60[1,1]_id_62 _id_63 , (mandatory) _id_22[1,1]water ]
+	|D|: 32
+	CC: 443
+	QuickXPlain+TC runtime: 6.631936 s
+	--- Profiler ---
+	Consistency checks (TC): 443
+	Solver calls: 3144
+	QuickXPlain+TC calls: 40
+	QX+TC calls: 587
+REAL-FM-11 REAL-FM-11_c500_1.testcases
+	Diagnosis: [(mandatory) flood[1,1]_id_30 , (mandatory) message[1,1]_id_14 , (Constraint 3) IMPLIES[flood][moisture_sensor], (mandatory) _id_32[1,1]_id_33 , (mandatory) _id_52[1,1]_id_54 , (mandatory) _id_15[1,1]_id_22 , (mandatory) _id_0[1,1]_id_56 , (mandatory) _id_0[1,1]_id_47 , (mandatory) _id_5[1,1]_id_6 , (mandatory) _id_38[1,1]_id_39 , (alternative) _id_18[1,1]_id_20 _id_21 , (mandatory) _id_24[1,1]_id_25 , (mandatory) _id_49[1,1]_id_50 , (optional) _id_30[0,1]pumping , (mandatory) _id_3[1,1]_id_10 , (mandatory) _id_16[1,1]_id_17 , (alternative) _id_26[1,1]_id_28 _id_29 , (mandatory) communication[1,1]_id_37 , (mandatory) _id_47[1,1]_id_52 , (mandatory) _id_4[1,1]_id_5 , (mandatory) _id_43[1,1]_id_44 , (mandatory) flood[1,1]_id_24 , (mandatory) _id_0[1,1]_id_32 , (mandatory) _id_25[1,1]_id_26 , (alternative) _id_39[1,1]_id_41 _id_42 , (alternative) _id_6[1,1]_id_8 _id_9 , (alternative) _id_33[1,1]_id_35 _id_36 , (mandatory) _id_59[1,1]_id_60 , (Constraint 2) IMPLIES[message][communication], (Constraint 1) IMPLIES[pumping][sump_pump], (alternative) _id_60[1,1]_id_62 _id_63 , (mandatory) _id_22[1,1]water ]
+	|D|: 32
+	CC: 443
+	QuickXPlain+TC runtime: 6.714887 s
+	--- Profiler ---
+	Consistency checks (TC): 443
+	Solver calls: 3144
+	QuickXPlain+TC calls: 40
+	QX+TC calls: 587
+REAL-FM-11 REAL-FM-11_c500_1.testcases
+	Diagnosis: [(mandatory) flood[1,1]_id_30 , (mandatory) message[1,1]_id_14 , (Constraint 3) IMPLIES[flood][moisture_sensor], (mandatory) _id_32[1,1]_id_33 , (mandatory) _id_52[1,1]_id_54 , (mandatory) _id_15[1,1]_id_22 , (mandatory) _id_0[1,1]_id_56 , (mandatory) _id_0[1,1]_id_47 , (mandatory) _id_5[1,1]_id_6 , (mandatory) _id_38[1,1]_id_39 , (alternative) _id_18[1,1]_id_20 _id_21 , (mandatory) _id_24[1,1]_id_25 , (mandatory) _id_49[1,1]_id_50 , (optional) _id_30[0,1]pumping , (mandatory) _id_3[1,1]_id_10 , (mandatory) _id_16[1,1]_id_17 , (alternative) _id_26[1,1]_id_28 _id_29 , (mandatory) communication[1,1]_id_37 , (mandatory) _id_47[1,1]_id_52 , (mandatory) _id_4[1,1]_id_5 , (mandatory) _id_43[1,1]_id_44 , (mandatory) flood[1,1]_id_24 , (mandatory) _id_0[1,1]_id_32 , (mandatory) _id_25[1,1]_id_26 , (alternative) _id_39[1,1]_id_41 _id_42 , (alternative) _id_6[1,1]_id_8 _id_9 , (alternative) _id_33[1,1]_id_35 _id_36 , (mandatory) _id_59[1,1]_id_60 , (Constraint 2) IMPLIES[message][communication], (Constraint 1) IMPLIES[pumping][sump_pump], (alternative) _id_60[1,1]_id_62 _id_63 , (mandatory) _id_22[1,1]water ]
+	|D|: 32
+	CC: 443
+	QuickXPlain+TC runtime: 6.692002 s
+	--- Profiler ---
+	Consistency checks (TC): 443
+	Solver calls: 3144
+	QuickXPlain+TC calls: 40
+	QX+TC calls: 587
+
+=== Evaluation Results: quickxplain_with_testcases (m=1, task=1) ===
+Testcase                  | Avg Time (s) |   |D| |  #Diag
+---------------------------------------------------------
+REAL-FM-11/REAL-FM-11_c10_1.testcases |     0.000579 |     1 |      1
+REAL-FM-11/REAL-FM-11_c25_1.testcases |     0.001802 |     3 |      1
+REAL-FM-11/REAL-FM-11_c50_1.testcases |     0.003386 |     5 |      1
+REAL-FM-11/REAL-FM-11_c100_1.testcases |     0.014167 |     9 |      1
+REAL-FM-11/REAL-FM-11_c250_1.testcases |     0.456233 |    17 |      1
+REAL-FM-11/REAL-FM-11_c500_1.testcases |     6.679608 |    32 |      1

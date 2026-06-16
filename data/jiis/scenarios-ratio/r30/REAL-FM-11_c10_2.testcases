@@ -1,0 +1,11 @@
+10
+_id_2 & ~_id_9 & ~_id_20
+_id_1 & _id_16 & _id_35
+_id_1 & _id_2 & ~_id_38 & _id_55
+_id_1 & _id_2 & _id_4 & water & _id_30
+_id_1 & _id_2 & _id_16 & _id_51
+_id_1 & _id_33 & _id_46
+_id_1 & sprinkler & ~sump_pump
+_id_1 & _id_2 & flood & ~moisture_sensor
+_id_5 & ~_id_48
+~_id_37 & _id_42

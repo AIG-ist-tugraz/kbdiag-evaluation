@@ -1,0 +1,51 @@
+50
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~UseTheComputerWithoutAMouseOrKeyboard
+UseTheComputerWithoutADisplay & ~SetupTextToSpeech & LearnAboutAdditionalAssistiveTechnologiesOnline5
+UseTheComputerWithoutADisplay & ME_16
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~TurnOnNarrator1 & TrainYourComputerToBetterUnderstandYou
+UseTheComputerWithoutADisplay & TextToSpeech & ~TurnOnVisualNotificationForSounds
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & MakeASoundWhenTurningASettingOnOrOff1
+UseTheComputerWithoutADisplay & SetupTextToSpeech & ~Microphone1
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~TextToSpeech & MicrosoftDavidDesktopEnglishGB
+~HearTextReadAloud_1 & HowLongShouldWindowsNotificationDialogBoxesStayOpen1
+~UseTheComputerWithoutADisplay & ~SetupTextToSpeech & UserSettings
+~UseTheComputerWithoutADisplay & ~SpeechRecognition & ~TrainProfile
+UseTheComputerWithoutADisplay & TuenOnAudioDescription & HighContrastBlack
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~SetupTextToSpeech & TB_8
+~S_22 & SetTheTchicknessOfTheBlinkingCursor
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & TurnOnNarrator1 & SlowDownKeyboardRepeateRates
+UseTheComputerWithoutADisplay & HearTextReadAloud & TurnOnNarrator1 & ExtraLargeBlack
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & TurnOnNarrator1 & _150
+UseTheComputerWithoutADisplay & ~SetupTextToSpeech & _7Seconds
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud_1 & ~Use
+UseTheComputerWithoutADisplay & ~TextToSpeech & CustomSizingOption
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~SetupTextToSpeech & Advanced2
+~HearTextReadAloud_1 & _15Seconds
+UseTheComputerWithoutADisplay & ~TextToSpeech & ~SetupMouseKeys
+~UseTheComputerWithoutADisplay & ~TurnOnNarrator1 & Speakers
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~TextToSpeech & MicrosoftDavidDesktopEnglishGB
+TuenOnAudioDescription & ~VoiceSelection
+~SetupTextToSpeech & _200
+~UseTheComputerWithoutADisplay & ~NoSounds
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~TuenOnAudioDescription & ME_19
+~TurnOnNarrator1 & Microphone2
+~TB_14 & MakeTheComputerEasierToSee_1
+UseTheComputerWithoutADisplay & HearTextReadAloud & SpeechRecognition & ~MakeASoundWhenTurningASettingOnOrOff1
+UseTheComputerWithoutADisplay & TuenOnAudioDescription & ~HoldDownCTRLToSpeedUpAndSHIFTToSlowDown1
+UseTheComputerWithoutADisplay & TurnOnNarrator1 & ~LearnAboutAdditionalAssistiveTechnologiesOnline1
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~SpeechRecognition & ~Fast5
+UseTheComputerWithoutADisplay & HearTextReadAloud & SpeechRecognition & Speakers
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & TextToSpeech & ~MakeTouchAndTabletsEasierToUse
+~TuenOnAudioDescription & ~TurnOnOrOffHighContrastWhenLeftPlusALTPlusLeftSCHIFTplusPRINT_SCREENisPressed
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & ~HearTextReadAloud_1 & ~Control_TheVoiceProperties_Speed_OtherOption & MakeASoundWhenTurningASettingOnOrOff1
+~TurnOnNarrator1 & ReviewDocumentsAndMailToImproveAccuracy
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & M_11
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~TextToSpeech & ~PointerSpeed2
+HearTextReadAloud_1 & ~TurnOnNarrator3
+UseTheComputerWithoutADisplay & HearTextReadAloud & HearTextReadAloud_1 & ~SetupTextToSpeech & Control_TheVoiceProperties_Speed_OtherOption
+~UseTheComputerWithoutADisplay & ~TuenOnAudioDescription & TurnOnNarrator1
+~UseTheComputerWithoutADisplay & ~TextToSpeech & ~SetupMouseKeys
+~UseTheComputerWithoutADisplay & ~SpeechRecognition & TurnOffAllUnnecessaryAnimation
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & Communications
+UseTheComputerWithoutADisplay & HearTextReadAloud & ~TextToSpeech & MicrosoftZiraDesktopEnglishUS
+~UseTheComputerWithoutADisplay & ~HearTextReadAloud & SetupTextToSpeech & ~VoiceSelection
