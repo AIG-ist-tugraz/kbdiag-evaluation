@@ -1,0 +1,68 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software or dataset, please cite the article in
+  preferred-citation below.
+title: >-
+  KBDiag evaluation: code and data for automated testing and debugging of
+  configuration knowledge bases with direct diagnosis
+type: software
+abstract: >-
+  Reproducibility package for the article "Automated Testing and Debugging of
+  Configuration Knowledge Bases With Direct Diagnosis". Contains the Python
+  implementation of the KBDiag (MSSDirect) algorithm and the HSDAG+QuickXPlain
+  baseline, six configuration knowledge bases in UVL format, the generated test
+  suites and scenarios, the raw evaluation results, and the scripts that
+  regenerate every result table in the article.
+authors:
+  - family-names: Felfernig
+    given-names: Alexander
+    affiliation: Graz University of Technology
+  - family-names: Le
+    given-names: Viet-Man
+    affiliation: Graz University of Technology
+  - family-names: Garber
+    given-names: Damian
+    affiliation: Graz University of Technology
+  - family-names: Lubos
+    given-names: Sebastian
+    affiliation: Graz University of Technology
+  - family-names: Tran
+    given-names: Thi Ngoc Trang
+    affiliation: Graz University of Technology
+license: MIT
+repository-code: https://github.com/AIG-ist-tugraz/kbdiag-evaluation
+keywords:
+  - model-based diagnosis
+  - direct diagnosis
+  - configuration
+  - knowledge base testing
+  - feature models
+  - constraint satisfaction
+preferred-citation:
+  type: article
+  title: >-
+    Automated Testing and Debugging of Configuration Knowledge Bases With
+    Direct Diagnosis
+  authors:
+    - family-names: Felfernig
+      given-names: Alexander
+      affiliation: Graz University of Technology
+    - family-names: Le
+      given-names: Viet-Man
+      affiliation: Graz University of Technology
+    - family-names: Garber
+      given-names: Damian
+      affiliation: Graz University of Technology
+    - family-names: Lubos
+      given-names: Sebastian
+      affiliation: Graz University of Technology
+    - family-names: Tran
+      given-names: Thi Ngoc Trang
+      affiliation: Graz University of Technology
+  journal: Journal of Intelligent Information Systems
+  publisher:
+    name: Springer
+  year: 2026
+  notes: >-
+    Accepted for publication. Volume, pages and DOI to be added once the
+    article appears.

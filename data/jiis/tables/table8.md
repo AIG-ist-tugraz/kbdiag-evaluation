@@ -1,9 +1,12 @@
-| KB | Comparable | Identical | Mismatch | Mismatch details |
-|:---|---:|---:|---:|:---|
-| HIS | 5 | 5 | 0 | — |
-| DELL | 7 | 5 | 2 | DELL_c25_0: #4/10; DELL_c50_0: #4/10 |
-| B2C | 7 | 5 | 2 | B2C_c100_0: #25/130; B2C_c50_0: #10/63 |
-| Win8 | 7 | 4 | 3 | Win8_c100_0: #85/130; Win8_c25_0: #9/40; Win8_c50_0: #129/130 |
-| CNN | 6 | 6 | 0 | — |
-| Linux | 5 | 5 | 0 | — |
-| **Total** | **37** | **30** | **7** | All mismatches: MSSDirect's diagnosis appears in HSDAG's enumeration |
+| |T_π| | avg minimality(Δ) | avg accuracy(Δ) | avg relevance(E) |
+|---:|---:|---:|---:|
+| 5 | 0.667 | 1.000 | 0.500 |
+| 10 | 0.556 | 1.000 | 0.167 |
+| 25 | 0.579 | 1.000 | 0.167 |
+| 50 | 0.584 | 1.000 | 0.178 |
+| 100 | 0.601 | 0.976 | 0.109 |
+| 250 | 0.701 | 0.976 | n/a |
+| 500 | 0.722 | 0.990 | n/a |
+| **All** | **0.630** | **0.992** | **0.228*** |
+
+*Aggregated over 29 scenarios with |T_π| ≤ 100 (no relevance data for |T_π| ∈ {250, 500}).

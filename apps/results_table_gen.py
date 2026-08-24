@@ -4,13 +4,26 @@
 #
 #  @author: Viet-Man Le (v.m.le@tugraz.at)
 
-"""Generate Table 3 and Table 4 from evaluation results as markdown + LaTeX.
+"""Generate the article's result tables from evaluation output, as markdown + LaTeX.
 
 Reads a TOML config specifying algorithms, KBs, and table settings.
 Parses result files, averages across iterations, and outputs formatted tables.
 
+Output files are named after the tables in the published article:
+
+    tables47_gen.toml  -> table4a, table4b  (one minimal diagnosis: CCs / runtime)
+                          table7            (n leading diagnoses)
+    table5_gen.toml    -> table5            (speedup across inconsistency ratios)
+    tables68_gen.toml  -> table6            (position of MSD's diagnosis in HSD's
+                                             enumeration)
+                          table8            (cognitive-load metrics for lambda=2)
+
+The internal config section names ([table3], [table4], [table7], [table8],
+[table9]) predate the final article numbering and do not match it; each config
+file carries the mapping in its header.
+
 Usage:
-    python -m apps.results_table_gen apps/conf/table_gen.toml
+    python -m apps.results_table_gen apps/conf/tables47_gen.toml
 """
 
 import math
@@ -63,7 +76,7 @@ class Table4Config:
 
 @dataclass
 class Table7KBConfig:
-    """Per-KB config for Table 7 (ratio-varied speedup table).
+    """Per-KB config for article Table 5 (ratio-varied speedup table).
 
     Includes version_suffix to filter scenarios when multiple versions
     exist per cardinality (e.g., linux rev1 has both _0 and _1).
@@ -76,7 +89,7 @@ class Table7KBConfig:
 
 @dataclass
 class Table7Config:
-    """Table 7 (Concern 2 rebuttal): speedup = HSDAG_time / KBDiag_time
+    """Article Table 5: speedup = HSDAG_time / KBDiag_time
     across ratios (columns) × cardinalities (rows), 1 sub-table per KB.
     """
     enabled: bool
@@ -87,14 +100,14 @@ class Table7Config:
 
 @dataclass
 class Table8KBConfig:
-    """Per-KB config for Table 8 (Diagnosis Quality)."""
+    """Per-KB config for article Table 6 (diagnosis position)."""
     name: str          # internal name (e.g. "REAL-FM-11")
     display_name: str  # paper alias (e.g. "HIS")
 
 
 @dataclass
 class Table8Config:
-    """Table 8 (Phase 1 / Concern 1): diagnosis quality per KB.
+    """Article Table 6: position of MSD's diagnosis in HSD's enumeration, per KB.
 
     Combines per-KB summary counts (comparable / identical / mismatch) with
     per-scenario mismatch rank details from verify reports.
@@ -108,7 +121,7 @@ class Table8Config:
 
 @dataclass
 class Table9Config:
-    """Table 9 (Phase 4): cognitive load by testcase size."""
+    """Article Table 8: cognitive-load metrics by test suite size."""
     enabled: bool
     compare_m_report: Path       # compare-kbdiag-m.txt
     overhead_report: Path        # verify-m2-overhead.txt
@@ -168,7 +181,7 @@ def load_config(config_path: str) -> TableGenConfig:
             table4_test_size=k.get("table4_test_size", 25),
         ))
 
-    # Optional [table7] section for Concern 2 rebuttal
+    # Optional [table7] section — produces article Table 5
     table7: Optional[Table7Config] = None
     if "table7" in raw:
         t7 = raw["table7"]
@@ -534,7 +547,7 @@ def format_cell_table3(cc: float, runtime_ms: float) -> str:
 
 
 # ---------------------------------------------------------------------------
-# Table 3 generators
+# Article Table 4a / 4b generators (internal section [table3])
 # ---------------------------------------------------------------------------
 
 def _algo_col_header(algo: AlgorithmConfig) -> str:
@@ -597,7 +610,7 @@ def generate_table3_md(data: Task1Data, kb_names: List[str],
         row += " |"
         lines.append(row)
 
-    outfile = config.output_path / f"table3{suffix}.md"
+    outfile = config.output_path / f"table4{suffix}.md"
     outfile.write_text("\n".join(lines) + "\n")
     print(f"  Written: {outfile}")
 
@@ -655,17 +668,17 @@ def generate_table3_tex(data: Task1Data, kb_names: List[str],
 
     lines.append("\\hline")
     lines.append("\\end{tabular}")
-    lines.append(f"\\caption{{Table 3{suffix}: One minimal diagnosis}}")
+    lines.append(f"\\caption{{Table 4{suffix}: One minimal diagnosis}}")
     lines.append(f"\\label{{tab:table3{suffix}}}")
     lines.append("\\end{table}")
 
-    outfile = config.output_path / f"table3{suffix}.tex"
+    outfile = config.output_path / f"table4{suffix}.tex"
     outfile.write_text("\n".join(lines) + "\n")
     print(f"  Written: {outfile}")
 
 
 # ---------------------------------------------------------------------------
-# Table 4 generators
+# Article Table 7 generators (internal section [table4])
 # ---------------------------------------------------------------------------
 
 def generate_table4_md(data: TaskAllData, config: TableGenConfig) -> None:
@@ -715,7 +728,7 @@ def generate_table4_md(data: TaskAllData, config: TableGenConfig) -> None:
         row += " |"
         lines.append(row)
 
-    outfile = config.output_path / "table4.md"
+    outfile = config.output_path / "table7.md"
     outfile.write_text("\n".join(lines) + "\n")
     print(f"  Written: {outfile}")
 
@@ -787,17 +800,17 @@ def generate_table4_tex(data: TaskAllData, config: TableGenConfig) -> None:
 
     lines.append("\\hline")
     lines.append("\\end{tabular}")
-    lines.append("\\caption{Table 4: $n$ leading diagnoses}")
-    lines.append("\\label{tab:table4}")
+    lines.append("\\caption{Table 7: $n$ leading diagnoses}")
+    lines.append("\\label{tab:table7}")
     lines.append("\\end{table}")
 
-    outfile = config.output_path / "table4.tex"
+    outfile = config.output_path / "table7.tex"
     outfile.write_text("\n".join(lines) + "\n")
     print(f"  Written: {outfile}")
 
 
 # ---------------------------------------------------------------------------
-# Table 7 (Concern 2 rebuttal): speedup across ratios
+# Article Table 5: speedup across inconsistency ratios
 # ---------------------------------------------------------------------------
 
 # key: (ratio_key, kb_name, cardinality), value: speedup = hsdag_ms / kbdiag_ms
@@ -810,7 +823,7 @@ def _avg_runtime_ms(results: List[Task1Result], tc_file: str) -> Optional[float]
 
     Returns None if no iterations found, float('inf') if any iter:
     - is a timeout, OR
-    - has empty diagnosis (|D|=0) — anomaly treated as T/O per Cowork 2026-05-25 12:00
+    - has empty diagnosis (|D|=0) — anomaly treated as T/O
       (e.g. HIS r30 c500 finished in 356s but found no diagnoses).
     """
     iters = [r for r in results if r.testcases_file == tc_file]
@@ -920,7 +933,7 @@ def generate_table7_md(data: Table7Data, t7: Table7Config,
             row += " |"
             lines.append(row)
 
-    outfile = config.output_path / "table7.md"
+    outfile = config.output_path / "table5.md"
     outfile.write_text("\n".join(lines) + "\n")
     print(f"  Written: {outfile}")
 
@@ -967,16 +980,16 @@ def generate_table7_tex(data: Table7Data, t7: Table7Config,
 
     lines.append("\\hline")
     lines.append("\\end{tabular}")
-    lines.append("\\caption{Table 7: speedup factors (HSDAG/MSSDirect) across inconsistency ratios}")
-    lines.append("\\label{tab:table7}")
+    lines.append("\\caption{Table 5: speedup factors (HSDAG/MSSDirect) across inconsistency ratios}")
+    lines.append("\\label{tab:table5}")
     lines.append("\\end{table}")
 
-    outfile = config.output_path / "table7.tex"
+    outfile = config.output_path / "table5.tex"
     outfile.write_text("\n".join(lines) + "\n")
     print(f"  Written: {outfile}")
 
 
-# Expected values from Cowork 2026-05-25 12:00 progress entry — used for
+# Expected values as printed in Table 5 of the published article — used for
 # generator validation. Mismatch → warning printed.
 TABLE7_EXPECTED = {
     ("HIS", 10):  {"r10": "1.7",  "r20": "2.4",   "r30": "1.6",  "r50": "3.0"},
@@ -1001,7 +1014,7 @@ TABLE7_EXPECTED = {
 
 
 def validate_table7(data: Table7Data, t7: Table7Config) -> None:
-    """Compare generated values against Cowork's expected table; log discrepancies."""
+    """Compare generated values against published Table 5; log discrepancies."""
     mismatches = []
     for kb in t7.kbs:
         for card in t7.cardinalities:
@@ -1016,15 +1029,15 @@ def validate_table7(data: Table7Data, t7: Table7Config) -> None:
                 if actual != expected:
                     mismatches.append(f"  {kb.display_name} c={card} {r}: expected {expected!r}, got {actual!r}")
     if mismatches:
-        print(f"  ⚠ {len(mismatches)} discrepancies vs Cowork expected values:")
+        print(f"  ⚠ {len(mismatches)} discrepancies vs published Table 5:")
         for m in mismatches:
             print(m)
     else:
-        print("  ✓ All values match Cowork's expected table (12:00 progress entry)")
+        print("  ✓ All values match published Table 5")
 
 
 # ---------------------------------------------------------------------------
-# Table 8 (Phase 1 — Diagnosis Quality)
+# Article Table 6 (diagnosis position; internal section [table8])
 # ---------------------------------------------------------------------------
 
 # Row: (kb_display, comparable, identical, mismatch, mismatch_details_str)
@@ -1109,7 +1122,7 @@ def _count_kb_comparable(results_dir: Path, kb_name: str) -> Tuple[int, set, set
 
 
 def aggregate_table8(t8: Table8Config) -> List[Table8Row]:
-    """Build Table 8 rows + total. Mismatch ranks: prefer mismatches report
+    """Build article Table 6 rows + total. Rank > 1 cases: prefer mismatches report
     (cap=130) over baseline (cap=10) when both reference the same scenario.
     """
     baseline_ranks = parse_verify_ranks(t8.verify_baseline)
@@ -1150,8 +1163,8 @@ def aggregate_table8(t8: Table8Config) -> List[Table8Row]:
         total_mismatch += mismatch
 
     # Add Total row
-    total_details = ("All mismatches: MSSDirect's diagnosis appears in "
-                     "HSDAG's enumeration" if total_mismatch > 0 else "—")
+    total_details = ("All rank > 1 cases: MSSDirect's diagnosis still appears in "
+                     "HSDAG's enumeration, at a later position" if total_mismatch > 0 else "—")
     rows.append(("Total", total_comparable, total_identical, total_mismatch,
                  total_details))
     return rows
@@ -1168,9 +1181,9 @@ def _short_scenario(tc_file: str, kb_display: str) -> str:
 
 
 def generate_table8_md(rows: List[Table8Row], config: TableGenConfig) -> None:
-    """Markdown Table 8."""
+    """Markdown for article Table 6."""
     lines = [
-        "| KB | Comparable | Identical | Mismatch | Mismatch details |",
+        "| KB | #scenarios | Rank 1 | Rank >1 | Rank >1 details |",
         "|:---|---:|---:|---:|:---|",
     ]
     for kb, comp, ident, mism, details in rows:
@@ -1178,20 +1191,20 @@ def generate_table8_md(rows: List[Table8Row], config: TableGenConfig) -> None:
             lines.append(f"| **{kb}** | **{comp}** | **{ident}** | **{mism}** | {details} |")
         else:
             lines.append(f"| {kb} | {comp} | {ident} | {mism} | {details} |")
-    outfile = config.output_path / "table8.md"
+    outfile = config.output_path / "table6.md"
     outfile.write_text("\n".join(lines) + "\n")
     print(f"  Written: {outfile}")
 
 
 def generate_table8_tex(rows: List[Table8Row], config: TableGenConfig) -> None:
-    """LaTeX Table 8 using booktabs."""
+    """LaTeX for article Table 6, using booktabs."""
     lines: List[str] = []
     lines.append("\\begin{table}[htbp]")
     lines.append("\\centering")
     lines.append("\\scriptsize")
     lines.append("\\begin{tabular}{lrrrl}")
     lines.append("\\toprule")
-    lines.append("KB & Comparable & Identical & Mismatch & Mismatch details \\\\")
+    lines.append("KB & \\#scenarios & Rank $1$ & Rank $>1$ & Rank $>1$ details \\\\")
     lines.append("\\midrule")
     for kb, comp, ident, mism, details in rows:
         # Escape LaTeX-special chars in details (underscores, sharps)
@@ -1206,28 +1219,33 @@ def generate_table8_tex(rows: List[Table8Row], config: TableGenConfig) -> None:
             lines.append(f"{kb} & {comp} & {ident} & {mism} & {d_tex} \\\\")
     lines.append("\\bottomrule")
     lines.append("\\end{tabular}")
-    lines.append("\\caption{Table 8: Diagnosis quality per knowledge base.}")
-    lines.append("\\label{tab:table8}")
+    lines.append("\\caption{Table 6: Position of MSSDirect's diagnosis within "
+                 "HSDAG+QuickXPlain's enumeration of minimal diagnoses.}")
+    lines.append("\\label{tab:table6}")
     lines.append("\\end{table}")
-    outfile = config.output_path / "table8.tex"
+    outfile = config.output_path / "table6.tex"
     outfile.write_text("\n".join(lines) + "\n")
     print(f"  Written: {outfile}")
 
 
-# Expected Table 8 values per Cowork's 16:45 spec — used for validation.
+# Expected values as printed in Table 6 of the published article.
+# Corrected 2026-08-24: Linux and Total previously read (10, 10, 0) and
+# (42, 35, 7), which matched neither the generated table nor the article
+# (5 Linux scenarios; 37 total, 30 at rank 1). The stale constant made a
+# correct run report discrepancies.
 TABLE8_EXPECTED = {
     "HIS":   (5, 5, 0),
     "DELL":  (7, 5, 2),
     "B2C":   (7, 5, 2),
     "Win8":  (7, 4, 3),
     "CNN":   (6, 6, 0),
-    "Linux": (10, 10, 0),
-    "Total": (42, 35, 7),
+    "Linux": (5, 5, 0),
+    "Total": (37, 30, 7),
 }
 
 
 def validate_table8(rows: List[Table8Row]) -> None:
-    """Compare against Cowork's expected counts; log discrepancies."""
+    """Compare against published Table 6 counts; log discrepancies."""
     mismatches = []
     for kb, comp, ident, mism, _ in rows:
         exp = TABLE8_EXPECTED.get(kb)
@@ -1238,15 +1256,15 @@ def validate_table8(rows: List[Table8Row]) -> None:
                 f"  {kb}: expected {exp}, got ({comp}, {ident}, {mism})"
             )
     if mismatches:
-        print(f"  ⚠ {len(mismatches)} discrepancies vs Cowork's spec:")
+        print(f"  ⚠ {len(mismatches)} discrepancies vs published Table 6:")
         for m in mismatches:
             print(m)
     else:
-        print("  ✓ All counts match Cowork's expected Table 8 values")
+        print("  ✓ All counts match published Table 6")
 
 
 # ---------------------------------------------------------------------------
-# Table 9 (Phase 4 — Cognitive Load)
+# Article Table 8 (cognitive load; internal section [table9])
 # ---------------------------------------------------------------------------
 
 # Row: (tc_size_str, n_scenarios, minim_str, accur_str, faulty_rate_str)
@@ -1315,7 +1333,7 @@ def parse_avg_faulty_rate(
 
 
 def aggregate_table9(t9: Table9Config) -> List[Table9Row]:
-    """Build Table 9 rows by joining per-size data from the two reports."""
+    """Build article Table 8 rows by joining per-size data from the two reports."""
     minim = parse_avg_minim_accur(t9.compare_m_report)
     faulty = parse_avg_faulty_rate(t9.overhead_report)
 
@@ -1326,14 +1344,14 @@ def aggregate_table9(t9: Table9Config) -> List[Table9Row]:
         f_entry = faulty.get(key)
         m_str = f"{m_val:.3f}" if not math.isnan(m_val) else "—"
         a_str = f"{a_val:.3f}" if not math.isnan(a_val) else "—"
-        f_str = f"{f_entry[1]:.1f}%" if f_entry else "—"
+        f_str = f"{f_entry[1] / 100:.3f}" if f_entry else "n/a"
         rows.append((key, n, m_str, a_str, f_str))
 
     # Aggregate "All" row
     n_all, m_all, a_all = minim.get("ALL", (0, float("nan"), float("nan")))
     f_all_entry = faulty.get("ALL")
-    f_all_str = (f"{f_all_entry[1]:.1f}%*"
-                 if f_all_entry else "—")
+    f_all_str = (f"{f_all_entry[1] / 100:.3f}*"
+                 if f_all_entry else "n/a")
     rows.append((
         "All", n_all,
         f"{m_all:.3f}" if not math.isnan(m_all) else "—",
@@ -1344,79 +1362,82 @@ def aggregate_table9(t9: Table9Config) -> List[Table9Row]:
 
 
 def generate_table9_md(rows: List[Table9Row], config: TableGenConfig) -> None:
-    """Markdown Table 9."""
+    """Markdown for article Table 8."""
     lines = [
-        "| |T_π| | #scenarios | avg minimality | avg accuracy | avg faulty rate |",
-        "|---:|---:|---:|---:|---:|",
+        "| |T_π| | avg minimality(Δ) | avg accuracy(Δ) | avg relevance(E) |",
+        "|---:|---:|---:|---:|",
     ]
-    for size, n, minim, accur, faulty in rows:
+    for size, n, minim, accur, relevance in rows:
         if size == "All":
             lines.append(
-                f"| **{size}** | **{n}** | **{minim}** | **{accur}** | **{faulty}** |"
+                f"| **{size}** | **{minim}** | **{accur}** | **{relevance}** |"
             )
         else:
-            lines.append(f"| {size} | {n} | {minim} | {accur} | {faulty} |")
+            lines.append(f"| {size} | {minim} | {accur} | {relevance} |")
     lines.append("")
     lines.append("*Aggregated over 29 scenarios with |T_π| ≤ 100 "
-                 "(no overhead data for |T_π| ∈ {250, 500}).")
-    outfile = config.output_path / "table9.md"
+                 "(no relevance data for |T_π| ∈ {250, 500}).")
+    outfile = config.output_path / "table8.md"
     outfile.write_text("\n".join(lines) + "\n")
     print(f"  Written: {outfile}")
 
 
 def generate_table9_tex(rows: List[Table9Row], config: TableGenConfig) -> None:
-    """LaTeX Table 9 using booktabs."""
+    """LaTeX for article Table 8, using booktabs."""
     lines: List[str] = []
     lines.append("\\begin{table}[htbp]")
     lines.append("\\centering")
     lines.append("\\scriptsize")
-    lines.append("\\begin{tabular}{rrrrr}")
+    lines.append("\\begin{tabular}{cccc}")
     lines.append("\\toprule")
     lines.append(
-        "$|T_\\pi|$ & \\#scenarios & avg minimality & avg accuracy "
-        "& avg faulty rate \\\\"
+        "$|T_\\pi|$ & avg $\\mathit{minimality}(\\Delta)$ "
+        "& avg $\\mathit{accuracy}(\\Delta)$ & avg $\\mathit{relevance}(E)$ \\\\"
     )
     lines.append("\\midrule")
-    for size, n, minim, accur, faulty in rows:
-        # Escape % for LaTeX
-        f_tex = faulty.replace("%", "\\%").replace("*", "\\textsuperscript{*}")
+    for size, n, minim, accur, relevance in rows:
+        f_tex = relevance.replace("*", "\\textsuperscript{*}")
         if size == "All":
             lines.append("\\midrule")
             lines.append(
-                f"\\textbf{{{size}}} & \\textbf{{{n}}} & \\textbf{{{minim}}} "
+                f"\\textbf{{{size}}} & \\textbf{{{minim}}} "
                 f"& \\textbf{{{accur}}} & \\textbf{{{f_tex}}} \\\\"
             )
         else:
-            lines.append(f"{size} & {n} & {minim} & {accur} & {f_tex} \\\\")
+            lines.append(f"{size} & {minim} & {accur} & {f_tex} \\\\")
     lines.append("\\bottomrule")
     lines.append("\\end{tabular}")
     lines.append(
-        "\\caption{Table 9: Cognitive load by testcase size "
+        "\\caption{Table 8: Cognitive-load metrics ($\\mathit{minimality}$, "
+        "$\\mathit{accuracy}$, and $\\mathit{relevance}$) for $\\lambda=2$ "
+        "aggregated by test suite size $|T_\\pi|$ "
         "(\\textsuperscript{*}aggregated over 29 scenarios with "
         "$|T_\\pi| \\le 100$).}"
     )
-    lines.append("\\label{tab:table9}")
+    lines.append("\\label{tab:table8}")
     lines.append("\\end{table}")
-    outfile = config.output_path / "table9.tex"
+    outfile = config.output_path / "table8.tex"
     outfile.write_text("\n".join(lines) + "\n")
     print(f"  Written: {outfile}")
 
 
-# Expected Table 9 values per Cowork's 16:45 spec — used for validation.
+# Expected values as printed in Table 8 of the published article.
+# The last column is relevance(E), reported as a decimal; it was previously
+# formatted as a percentage under the earlier name "faulty rate".
 TABLE9_EXPECTED = {
-    "5":   (6,  "0.667", "1.000", "50.0%"),
-    "10":  (6,  "0.556", "1.000", "16.7%"),
-    "25":  (6,  "0.579", "1.000", "16.7%"),
-    "50":  (6,  "0.584", "1.000", "17.8%"),
-    "100": (6,  "0.601", "0.976", "10.9%"),
-    "250": (6,  "0.701", "0.976", "—"),
-    "500": (6,  "0.722", "0.990", "—"),
-    "All": (42, "0.630", "0.992", "22.8%*"),
+    "5":   (6,  "0.667", "1.000", "0.500"),
+    "10":  (6,  "0.556", "1.000", "0.167"),
+    "25":  (6,  "0.579", "1.000", "0.167"),
+    "50":  (6,  "0.584", "1.000", "0.178"),
+    "100": (6,  "0.601", "0.976", "0.109"),
+    "250": (6,  "0.701", "0.976", "n/a"),
+    "500": (6,  "0.722", "0.990", "n/a"),
+    "All": (42, "0.630", "0.992", "0.228*"),
 }
 
 
 def validate_table9(rows: List[Table9Row]) -> None:
-    """Compare Table 9 rows against Cowork's expected values."""
+    """Compare generated rows against published Table 8."""
     mismatches = []
     for size, n, minim, accur, faulty in rows:
         exp = TABLE9_EXPECTED.get(size)
@@ -1427,11 +1448,11 @@ def validate_table9(rows: List[Table9Row]) -> None:
                 f"  size={size}: expected {exp}, got ({n}, {minim}, {accur}, {faulty})"
             )
     if mismatches:
-        print(f"  ⚠ {len(mismatches)} discrepancies vs Cowork's spec:")
+        print(f"  ⚠ {len(mismatches)} discrepancies vs published Table 8:")
         for m in mismatches:
             print(m)
     else:
-        print("  ✓ All values match Cowork's expected Table 9 values")
+        print("  ✓ All values match published Table 8")
 
 
 # ---------------------------------------------------------------------------
@@ -1447,7 +1468,7 @@ def main() -> None:
     config.output_path.mkdir(parents=True, exist_ok=True)
 
     if config.table3.enabled:
-        print("Generating Table 3...")
+        print("Generating Table 4a / 4b (one minimal diagnosis)...")
         data1 = aggregate_task1(config)
         for i, group in enumerate(config.table3.groups):
             s = chr(97 + i)  # 'a', 'b', ...
@@ -1455,27 +1476,27 @@ def main() -> None:
             generate_table3_tex(data1, group, config, suffix=s)
 
     if config.table4.enabled:
-        print("Generating Table 4...")
+        print("Generating Table 7 (n leading diagnoses)...")
         data_all = aggregate_task_all(config)
         generate_table4_md(data_all, config)
         generate_table4_tex(data_all, config)
 
     if config.table7 and config.table7.enabled:
-        print("Generating Table 7 (Concern 2 rebuttal — speedup × ratio)...")
+        print("Generating Table 5 (speedup across inconsistency ratios)...")
         data7 = aggregate_table7(config.table7)
         generate_table7_md(data7, config.table7, config)
         generate_table7_tex(data7, config.table7, config)
         validate_table7(data7, config.table7)
 
     if config.table8 and config.table8.enabled:
-        print("Generating Table 8 (Phase 1 — Diagnosis Quality)...")
+        print("Generating Table 6 (position of MSD's diagnosis in HSD's enumeration)...")
         rows8 = aggregate_table8(config.table8)
         generate_table8_md(rows8, config)
         generate_table8_tex(rows8, config)
         validate_table8(rows8)
 
     if config.table9 and config.table9.enabled:
-        print("Generating Table 9 (Phase 4 — Cognitive Load)...")
+        print("Generating Table 8 (cognitive-load metrics)...")
         rows9 = aggregate_table9(config.table9)
         generate_table9_md(rows9, config)
         generate_table9_tex(rows9, config)

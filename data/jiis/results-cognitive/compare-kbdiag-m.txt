@@ -1,4 +1,4 @@
-Results directory: /Users/manleviet/Development/GitHub/KBDiag/data/jiis/results_incremental-diversity-optimized/1
+Results directory: data/jiis/results/1
 Comparing KBDiag m=1 (Δ_min) vs m=2 (Δ)
 Metrics: minimality = |Δ_min|/|Δ|, accuracy = |Δ∩Δ_min|/|Δ_min|
 ==========================================================================================

@@ -1,17 +1,19 @@
-# Table 8 (Phase 1 — Diagnosis Quality) + Table 9 (Phase 4 — Cognitive Load)
-# Usage: python -m apps.results_table_gen apps/conf/table89_gen.toml
+# Paper Table 6 (diagnosis position) + Table 8 (cognitive-load metrics)
+# Usage: python -m apps.results_table_gen apps/conf/tables68_gen.toml
 #
-# Both tables generated from existing artifact data (rev1 baseline + Phase 1
-# cap=130 verify + Phase 4 cognitive load reports). Values validated against
-# Cowork's manual entries in main.tex Sections 6.3 / 6.4 (specs 16:45 entry).
+# Section names below are internal and predate the final paper numbering:
+#   [table8] -> paper Table 6  (position of MSD's diagnosis in HSD's enumeration)
+#   [table9] -> paper Table 8  (minimality / accuracy / relevance for lambda=2)
+#
+# Both are built from existing result reports, not from a fresh evaluation run.
 
 [general]
-# Unused for Tables 8/9 but required by load_config (shared with Tables 3/4)
+# Unused by these tables but required by load_config (shared schema)
 result_path = "data/jiis/results"
 output_path = "data/jiis/tables"
 num_iterations = 3
 
-# Disable Tables 3, 4, 7 — this config is Table 8 + 9 only.
+# Tables 4a/4b/7 disabled — this config produces Tables 6 and 8 only.
 [table3]
 enabled = false
 test_sizes = []
@@ -21,7 +23,7 @@ groups = []
 enabled = false
 leading_diagnoses = []
 
-# Algorithms / KBs unused for Tables 8/9 but required by load_config schema.
+# Algorithms / KBs unused here but required by the load_config schema.
 [[algorithm]]
 key = "kbdiag"
 display_name = "MSD"
@@ -29,19 +31,19 @@ lambda = 1
 
 [[kb]]
 name = "REAL-FM-11"
-display_name = "REAL-FM-11"
+display_name = "HIS"
 
 # ---------------------------------------------------------------------------
-# Table 8 — Phase 1 Diagnosis Quality
+# Paper Table 6 — position of MSD's diagnosis within HSD's enumeration
 # ---------------------------------------------------------------------------
 
 [table8]
 enabled = true
-# Source of comparable/identical counts (post-cleanup linux state)
+# Source of the per-KB scenario counts
 results_dir = "data/jiis/results/1"
-# Rev1 baseline verify report (cap=10) — provides DELL ranks
+# Baseline verify report (cap=10) — provides DELL ranks
 verify_baseline = "data/jiis/results-diagnosis-quality/diagnosis-quality-verify.txt"
-# Phase 1 cap=130 verify report — provides REAL-FM-4 + windows8 ranks
+# cap=130 verify report — provides B2C + Win8 ranks
 verify_mismatches = "data/jiis/results-diagnosis-quality/diagnosis-quality-verify-mismatches.txt"
 
 [[table8.kb]]
@@ -69,7 +71,7 @@ name = "linux"
 display_name = "Linux"
 
 # ---------------------------------------------------------------------------
-# Table 9 — Phase 4 Cognitive Load
+# Paper Table 8 — cognitive-load metrics for lambda=2
 # ---------------------------------------------------------------------------
 
 [table9]

@@ -1,5 +1,5 @@
-First-diag dir: /Users/manleviet/Development/GitHub/KBDiag/data/jiis/results_incremental-diversity-optimized/1
-All-diag dir:   /Users/manleviet/Development/GitHub/KBDiag/data/jiis/results_cognitive/all
+First-diag dir: data/jiis/results/1
+All-diag dir:   data/jiis/results-cognitive/all
 Filter: TC size ≤ 100
 Checking: overhead constraints (Δ_m2 \ Δ_m1) in KBDiag all-diagnoses
 ================================================================================

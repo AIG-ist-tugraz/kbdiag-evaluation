@@ -1,6 +1,19 @@
-flamapy==2.0.1
+# FLAMA 2.0.1 — the three sub-distributions this project actually imports.
+#
+# Do NOT use the `flamapy` meta-package here. It additionally requires
+# `flamapy-bdd`, which pulls in `dd==0.5.7`; `dd` ships no wheels, and its
+# `setup.py` imports `pkg_resources`, which setuptools 81+ no longer provides.
+# The install then fails with "ModuleNotFoundError: No module named
+# 'pkg_resources'" on any current Python. No BDD code is used anywhere in this
+# project, so depending on the three sub-distributions directly is both smaller
+# and installable. The installed FLAMA code is identical either way.
+flamapy-fw==2.0.1
 flamapy-fm==2.0.1
 flamapy-sat==2.0.1
+
 python-sat==0.1.8.dev17
 python-dotenv==1.2.1
 tomli==2.4.0
+
+# Required by tests/test_diagnosis.py.
+parameterized

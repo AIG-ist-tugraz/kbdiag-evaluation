@@ -1,17 +1,18 @@
-# Table 7 Generation Configuration (Concern 2 rebuttal — speedup × ratio)
-# Usage: python -m apps.results_table_gen apps/conf/table7_gen.toml
+# Paper Table 5 — runtime speedup across inconsistency ratios
+# Usage: python -m apps.results_table_gen apps/conf/table5_gen.toml
 #
-# Generates 3 sub-tables (7a HIS, 7b Win8, 7c Linux) showing speedup factors
-# (HSDAG_time / KBDiag_time) at 4 inconsistency ratios × 6 cardinalities.
-# Reuses rev1 r20 results; combines with Phase 2 r10/r30/r50 results.
+# The internal section is named [table7] and predates the final paper
+# numbering; it produces paper Table 5. Speedup = HSDAG_time / KBDiag_time
+# at 4 inconsistency ratios x 6 cardinalities, for HIS, Win8 and Linux.
+# The r20 column reuses the default-ratio results in data/jiis/results.
 
 [general]
-# Unused by Table 7 but required by load_config (Table 3/4 share this)
+# Unused by this table but required by load_config (shared schema)
 result_path = "data/jiis/results"
 output_path = "data/jiis/tables"
 num_iterations = 3
 
-# Table 3/4 disabled — this config is Table 7 only
+# Tables 4a/4b/7 disabled — this config produces Table 5 only
 [table3]
 enabled = false
 test_sizes = []
@@ -21,8 +22,8 @@ groups = []
 enabled = false
 leading_diagnoses = []
 
-# Algorithms not used directly for Table 7 (looked up internally), but
-# kept here so load_config schema is satisfied
+# Algorithms not used directly here (looked up internally), but kept so the
+# load_config schema is satisfied
 [[algorithm]]
 key = "quickxplain_with_testcases"
 display_name = "HSD"
@@ -32,20 +33,20 @@ key = "kbdiag"
 display_name = "MSD"
 lambda = 1
 
-# Empty top-level [[kb]] — Table 7 uses its own [[table7.kb]]
+# Placeholder top-level [[kb]] — this table uses its own [[table7.kb]] below
 [[kb]]
 name = "REAL-FM-11"
-display_name = "REAL-FM-11"
+display_name = "HIS"
 
 # ---------------------------------------------------------------------------
-# Table 7 — Concern 2 rebuttal
+# Paper Table 5
 # ---------------------------------------------------------------------------
 
 [table7]
 enabled = true
 cardinalities = [10, 25, 50, 100, 250, 500]
 
-# Ratio → result root. r20 reuses rev1 default-ratio scenarios.
+# Ratio -> result root. r20 reuses the default-ratio scenarios.
 [table7.result_paths]
 r10 = "data/jiis/results-ratio/r10"
 r20 = "data/jiis/results"
@@ -53,8 +54,8 @@ r30 = "data/jiis/results-ratio/r30"
 r50 = "data/jiis/results-ratio/r50"
 
 # Per-KB config. version_suffix = filename version index (e.g., REAL-FM-11_c100_<X>).
-# Required because rev1 linux has both _0 and _1 — must pick one for cross-ratio
-# comparability. Phase 2 r10/r30/r50 only has one version (matching these suffixes).
+# Required because linux has both _0 and _1 — one must be picked for cross-ratio
+# comparability. The r10/r30/r50 runs only have one version, matching these suffixes.
 [[table7.kb]]
 name = "REAL-FM-11"
 display_name = "HIS"

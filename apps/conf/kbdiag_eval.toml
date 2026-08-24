@@ -32,24 +32,31 @@ enabled = true
 preset = "benchmark"  # "benchmark" or "disabled"
 
 [output]
-result_path = "data/jiis/results"
+# NOTE: eval_runner APPENDS to its output files (open(..., "a")). Re-running
+# into a directory that already holds results silently concatenates two runs,
+# and the table generators then average across both and produce tables that do
+# not match the article. `result_path` therefore points at a *rerun* directory,
+# kept separate from the published results shipped with this artifact.
+# To regenerate the tables from your own run, point `result_path` in the
+# corresponding apps/conf/*_gen.toml at the same rerun directory.
+result_path = "data/jiis/results-rerun"
 
 # Knowledge bases to evaluate
 # Each [[kb]] entry defines a KB with its model and test case files
 
-#[[kb]]
-#name = "DELL"
-#model = "data/jiis/fms/DELL.uvl"
-#scenarios_dir = "data/jiis/scenarios"
-#testcases = [
-#    "DELL_c5_0.testcases",
-#    "DELL_c10_0.testcases",
-#    "DELL_c25_0.testcases",
-#    "DELL_c50_0.testcases",
-#    "DELL_c100_0.testcases",
-#    "DELL_c250_0.testcases",
-#    "DELL_c500_0.testcases",
-#]
+[[kb]]
+name = "DELL"
+model = "data/jiis/fms/DELL.uvl"
+scenarios_dir = "data/jiis/scenarios"
+testcases = [
+    "DELL_c5_0.testcases",
+    "DELL_c10_0.testcases",
+    "DELL_c25_0.testcases",
+    "DELL_c50_0.testcases",
+    "DELL_c100_0.testcases",
+    "DELL_c250_0.testcases",
+    "DELL_c500_0.testcases",
+]
 ## Per-testcase task override (optional, fnmatch glob patterns)
 ## First matching pattern wins. Unmatched files use [evaluation].task.
 ##[kb.task_overrides]
@@ -73,19 +80,19 @@ result_path = "data/jiis/results"
 ##[kb.task_overrides]
 ##"*_c25_*" = "all"
 
-[[kb]]
-name = "REAL-FM-4"
-model = "data/jiis/fms/REAL-FM-4.uvl"
-scenarios_dir = "data/jiis/scenarios"
-testcases = [
-    "REAL-FM-4_c5_0.testcases",
-    "REAL-FM-4_c10_0.testcases",
-    "REAL-FM-4_c25_0.testcases",
-    "REAL-FM-4_c50_0.testcases",
-    "REAL-FM-4_c100_0.testcases",
-    "REAL-FM-4_c250_0.testcases",
-    "REAL-FM-4_c500_0.testcases",
-]
+#[[kb]]
+#name = "REAL-FM-4"
+#model = "data/jiis/fms/REAL-FM-4.uvl"
+#scenarios_dir = "data/jiis/scenarios"
+#testcases = [
+#    "REAL-FM-4_c5_0.testcases",
+#    "REAL-FM-4_c10_0.testcases",
+#    "REAL-FM-4_c25_0.testcases",
+#    "REAL-FM-4_c50_0.testcases",
+#    "REAL-FM-4_c100_0.testcases",
+#    "REAL-FM-4_c250_0.testcases",
+#    "REAL-FM-4_c500_0.testcases",
+#]
 # Per-testcase task override (optional, fnmatch glob patterns)
 # First matching pattern wins. Unmatched files use [evaluation].task.
 #[kb.task_overrides]
@@ -182,5 +189,8 @@ testcases = [
 ##"*_c25_*" = "all"
 
 [email]
-enabled = true
+# Off by default: the runner otherwise warns about missing credentials
+# at the end of every run. Set to true and provide a .env (see .env.example)
+# if you want a completion notification.
+enabled = false
 subject_prefix = "[KBDiag]"

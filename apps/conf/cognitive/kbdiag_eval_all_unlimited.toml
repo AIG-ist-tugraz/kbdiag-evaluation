@@ -110,5 +110,8 @@ testcases = [
 ]
 
 [email]
-enabled = true
+# Off by default: the runner otherwise warns about missing credentials
+# at the end of every run. Set to true and provide a .env (see .env.example)
+# if you want a completion notification.
+enabled = false
 subject_prefix = "[KBDiag]"

@@ -1,5 +1,14 @@
-# Table Generation Configuration (original results)
-# Usage: python -m apps.results_table_gen apps/conf/table_gen_original.toml
+# Paper Tables 4a, 4b and 7 — runtime / consistency checks
+# Usage: python -m apps.results_table_gen apps/conf/tables47_gen.toml
+#
+# Section names below are internal and predate the final paper numbering.
+# Mapping to the published article:
+#   [table3] -> paper Table 4a + 4b  (one minimal diagnosis, CCs / runtime)
+#   [table4] -> paper Table 7        (n leading diagnoses)
+# The per-KB key `table4_test_size` likewise belongs to paper Table 7.
+#
+# `name` is the internal file-name stem used to locate result files;
+# `display_name` is the alias used in the article and in every generated table.
 
 [general]
 result_path = "data/jiis/results"
@@ -34,7 +43,7 @@ lambda = 2
 
 [[kb]]
 name = "REAL-FM-11"
-display_name = "REAL-FM-11"
+display_name = "HIS"
 num_constraints = 64
 total_diagnoses = 0
 table4_test_size = 100
@@ -42,41 +51,34 @@ table4_test_size = 100
 [[kb]]
 name = "DELL"
 display_name = "DELL"
-num_constraints = 121     # |C| - user to fill
-total_diagnoses = 0     # |Δ| - user to fill
+num_constraints = 121
+total_diagnoses = 0
 table4_test_size = 50
 
 [[kb]]
 name = "REAL-FM-4"
-display_name = "REAL-FM-4"
+display_name = "B2C"
 num_constraints = 233
 total_diagnoses = 0
 table4_test_size = 100
 
-#[[kb]]
-#name = "ubuntu"
-#display_name = "ubuntu"
-#num_constraints = 261
-#total_diagnoses = 0
-#table4_test_size = 100
-
 [[kb]]
 name = "windows8"
-display_name = "windows8"
+display_name = "Win8"
 num_constraints = 405
 total_diagnoses = 0
 table4_test_size = 100
 
 [[kb]]
 name = "CNNl"
-display_name = "CNNl"
+display_name = "CNN"
 num_constraints = 1637
 total_diagnoses = 0
 table4_test_size = 100
 
 [[kb]]
 name = "linux"
-display_name = "linux"
+display_name = "Linux"
 num_constraints = 13972
 total_diagnoses = 0
 table4_test_size = 100
