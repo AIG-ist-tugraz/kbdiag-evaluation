@@ -178,6 +178,19 @@ The generators for Tables 5, 6 and 8 also check every generated value against
 the numbers printed in the article and report any discrepancy, so a successful
 run confirms the tables were reproduced rather than merely produced.
 
+> **One cell in Table 4a may print differently on your machine, and that is
+> expected.** DELL / HSD at |T_π|=5 is an exact rounding tie: the three measured
+> first-diagnosis times are 0.000418, 0.000384 and 0.000383 s, whose mean is
+> exactly 0.000395 s — precisely halfway at two decimals. Which side gets printed
+> depends on a one-ULP floating-point detail of how the three values are summed,
+> so it reads `0.39` on some platforms and `0.40` on others. The article and the
+> committed table both print `0.39`. Four cells across the tables sit on such a
+> tie; this is the only one observed to flip. The difference is 0.005 msec and
+> carries no interpretation.
+>
+> Regenerating the tables should therefore reproduce every value **except**
+> possibly the last digit of a tied cell. Do not treat that as a mismatch.
+
 Table 3 (knowledge base characteristics) is descriptive and has no generator;
 its `|C|` column is the dataset table above.
 
